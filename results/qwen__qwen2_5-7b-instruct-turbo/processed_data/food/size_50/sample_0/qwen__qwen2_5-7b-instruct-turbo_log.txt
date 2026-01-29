@@ -1,0 +1,128 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: food; fagottini; cannelloni; occhi di lupo; gemelli; bavette; pasta; pici; spaghetti; fusilli
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+pasta is a subtopic of food; gemelli is a subtopic of pasta; cannelloni is a subtopic of pasta; fusilli is a subtopic of pasta; fagottini is a subtopic of pasta; pici is a subtopic of pasta; occhi di lupo is a subtopic of pasta; spaghetti is a subtopic of pasta; bavette is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: mezzelune; food; rotini; linguine; croxetti; corzetti; pasta; sacchettoni; spaghetti; fuži
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+rotini is a subtopic of pasta; croxetti is a subtopic of pasta; corzetti is a subtopic of pasta; mezzelune is a subtopic of pasta; linguine is a subtopic of pasta; sacchettoni is a subtopic of pasta; fuži is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: mezzelune; corzetti; food; garganelli; stringozzi; pasta; occhi di lupo; fuži; anellini; bigoli
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+garganelli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; fuži is a subtopic of pasta; corzetti is a subtopic of pasta; bigoli is a subtopic of pasta; stringozzi is a subtopic of pasta; mezzelune is a subtopic of pasta; anellini is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: rotini; casoncelli; macaroni; campanelle; pasta; lanterne; ptitim; passatelli; spaghetti; food
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+campanelle is a subtopic of pasta; passatelli is a subtopic of pasta; macaroni is a subtopic of pasta; spaghetti is a subtopic of pasta; ptitim is a subtopic of pasta; lanterne is a subtopic of pasta; pasta is a subtopic of food; casoncelli is a subtopic of pasta; rotini is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: pasta; rotini; spaghetti; sacchettoni; mezzelune; ptitim; food; rotelle; penne; stringozzi
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+rotini is a subtopic of pasta; pasta is a subtopic of food; sacchettoni is a subtopic of pasta; penne is a subtopic of pasta; rotelle is a subtopic of pasta; mezzelune is a subtopic of pasta; stringozzi is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: baking soda; pretzel mixes; food; fruit-flavoured drinks; marshmallows; salsa golf; beer; taco shells; eggs; salt; chikhirtma; sauce; prepared food; molasses; cooking starch; baking mixes; evaporated milk; svartsoppa; cooking oil; water; cream; curry ketchup; vinegar drinks; floss sugar; cooking ingredient; rouille; wine; white wine; spice; bakery; cottage cheese; corn syrup; soy product; soup; cocktail mixes; powdered beverage mixes; pie; eggnog; sangria; coffee cakes; dairy product; flour; olive oil; beverage; condiment; sancocho; bitters; cheese; dessert platters; yoghurt
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+- baking soda is a subtopic of cooking ingredient
+- pretzel mixes is a subtopic of baking mixes
+- fruit-flavoured drinks is a subtopic of beverage
+- marshmallows is a subtopic of candy
+- salsa golf is a subtopic of condiment
+- beer is a subtopic of beverage
+- taco shells is a subtopic of food
+- eggs is a subtopic of food
+- salt is a subtopic of cooking ingredient
+- chikhirtma is a subtopic of food
+- sauce is a subtopic of condiment
+- prepared food is a subtopic of food
+- molasses is a subtopic of cooking ingredient
+- cooking starch is a subtopic of cooking ingredient
+- baking mixes is a subtopic of baking
+- evaporated milk is a subtopic of dairy product
+- svartsoppa is a subtopic of sauce
+- cooking oil is a subtopic of cooking ingredient
+- water is a subtopic of beverage
+- cream is a subtopic of dairy product
+- curry ketchup is a subtopic of condiment
+- vinegar drinks is a subtopic of beverage
+- floss sugar is a subtopic of cooking ingredient
+- cooking ingredient is a subtopic of food
+- rouille is a subtopic of condiment
+- wine is a subtopic of beverage
+- white wine is a subtopic of wine
+- spice is a subtopic of cooking ingredient
+- bakery is a subtopic of food
+- cottage cheese is a subtopic of dairy product
+- corn syrup is a subtopic of cooking ingredient
+- soy product is a subtopic of food
+- soup is a subtopic of food
+- cocktail mixes is a subtopic of beverage
+- powdered beverage mixes is a subtopic of beverage
+- pie is a subtopic of food
+- eggnog is a subtopic of beverage
+- sangria is a subtopic of beverage
+- coffee cakes is a subtopic of bakery
+- dairy product is a subtopic of food
+- flour is a subtopic of cooking ingredient
+- olive oil is a subtopic of cooking ingredient
+- beverage is a subtopic of food
+- condiment is a subtopic of food
+- sancocho is a subtopic of soup
+- bitters is a subtopic of cocktail mixes
+- cheese is a subtopic of food
+- dessert platters is a subtopic of food
+- yoghurt is a subtopic of dairy product
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 1
+
+Parsed relationships:
+  - baking soda → cooking ingredient
+
+================================================================================

@@ -1,0 +1,269 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Gun Holsters; Staff & Stick Weapons; Google Product Taxonomy; Mature; Weapons; Reloading Supplies & Equipment; Gun Care & Accessories; Combat Knives; Spears; Ammunition Cases & Holders
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Combat Knives is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Staff & Stick Weapons is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Spears is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Ammunition; Gun Care & Accessories; Stun Guns & Tasers; Weapons; Gun Cases & Range Bags; Google Product Taxonomy; Gun Lights; Swords; Staff & Stick Weapons; Mature
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Swords is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Stun Guns & Tasers; Throwing Stars; Gun Care & Accessories; Google Product Taxonomy; Guns; Nunchucks; Weapons; Whips; Mature; Erotic
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Guns is a subtopic of Weapons; Erotic is a subtopic of Mature; Whips is a subtopic of Weapons; Weapons is a subtopic of Mature; Stun Guns & Tasers is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Pole Dancing Kits; Erotic Food & Edibles; Erotic DVDs & Videos; Mature; Erotic Clothing; Erotic Books; Erotic Magazines; Google Product Taxonomy; Erotic; Erotic Games
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Magazines is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic Games is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic is a subtopic of Mature
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Stun Guns & Tasers; Gun Slings; Swords; Spears; Mature; Staff & Stick Weapons; Gun Grips; Google Product Taxonomy; Weapons
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Gun Slings is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Spears is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Duffel Bags; Remote Control Planes; Riding Toy Accessories; Socks; Balance Trainers; Noisemakers & Party Blowers; Inversion Tables & Systems; Earmuffs; Bra Accessories; Handbags, Wallets & Cases; Skirts; Outdoor Play Equipment; Robotic Toys; Cameras & Optics; Office Furniture Accessories; Camera & Optic Accessories; Stopwatches; Sashes; Game Timers; Boot Liners; Confetti; Messenger Bags; Shoe Covers; Party Streamers & Curtains; Maternity Belts & Support Bands; Music CDs; Drinking Straws & Stirrers; Baby & Toddler Gloves & Mittens; ATVs & UTVs; Google Product Taxonomy; Toy Weapons & Gadgets; Beach & Sand Toys; Air Hockey Table Parts; Balloon Kits; Toy Spaceships; Vehicles; Tie Clips; Skorts; Sippy Cups; Weighted Clothing; Play Swings; Yoga & Pilates Mats; Costumes & Accessories; Recreational Vehicles; Weight Lifting Gloves & Hand Supports; Media; Play Vehicle Accessories; Motorcycle Suits; Toys & Games; Gift Giving; Toys; Ab Wheels & Rollers; Belt Buckles; Shoe Accessories; Hand Exercisers; Baby Transport; Fresh Cut Flowers; Response Cards; Weight Lifting; Off-Road and All-Terrain Vehicles; Cocktail Decorations; Flying Toys; Magazines & Newspapers; Balaclavas; Birthday Candles; Pogo Sticks; Art & Drawing Toys; Toy Train Accessories; Free Weights; Jewelry; Sporting Goods; Apparel & Accessories; Event Tickets; Medicine Balls; Suits; Skirt Suits; Optics; Wooden & Pegged Puzzles; Pretend Electronics; Reaction Balls; Handbags; Wooden Blocks; Sofas; Underwear Slips; Toy Cars; Suspension Trainers; Remote Control Helicopters; Motorcycle Protective Clothing; Party & Celebration; Golf Carts; Decorative Pom-Poms; Button Studs; Play Sprinkers; Luggage & Bags; Party Favors; Rangefinders; Remote Control Tanks; Underwear & Socks; Cameras; Leg Warmers; Yo-Yo Parts & Accessories; Clothing; Petticoats & Pettipants; Camera & Optics Manuals; Furniture; Exercise Balls; Building Toys; Gloves & Mittens; Swimwear; Shoelaces; Pinback Buttons; Pretend Shopping & Grocery; Vehicles & Parts; Toy Kitchens & Play Food; Toy Airplanes; Costumes; Trampoline Accessories; Ball & Cup Games; Product Manuals; Household Appliance Manuals; Indoor Games; Musical Toys; Outfit Sets; Briefcases; Shorts; Futons; Go Karts & Dune Buggies; Ottomans; Spray String; Bubble Blowing Toys; Bra Strap Pads; Music & Sound Recordings; Playhouses; Air Hockey; Toy Gliders; Martial Arts Shorts; Remote Control Toys; Toy Kitchens; Party Supplies; Visual Toys; Power Tool & Equipment Manuals; Decorative Fans; Yoga & Pilates Blocks; Food, Beverages & Tobacco; Activewear; Surveillance Cameras; Monoculars; Arts & Entertainment; Masks; Toy Race Car & Track Accessories; Binoculars; Remote Control Motorcycles; Futon Frames; Webcams; Motor Vehicles; Clothing Accessories; Yoga & Pilates; American Football Pants; Dresses; Play Money & Banking; Toy Trains & Train Sets; Belts; Puzzles; Toy Gift Baskets; Remote Control Airships & Blimps; Lingerie; Trail Cameras; Nursing & Feeding; Gift Cards & Certificates; Bracelets; Carpentry & Woodworking Project Plans; Pilates Machines; Water Play Equipment; Toy Motorcycles; Watches; Baby & Toddler; Dry Boxes; Health & Beauty; Electronics Manuals; Activity Toys; Toy Trucks & Construction Vehicles; Play Vehicles; Undershirts; Pretend Play; Shelving; Shoes; Bottle Warmers & Sterilizers; Mechanical Puzzles; Pant Suits; Software; Baby & Toddler Clothing Accessories; Exercise & Fitness; Gift Wrapping; See Saws; Tuxedos; Train Cases; Outdoor Furniture Accessories; Motorcycles & Scooters; Yo-Yos; Jock Straps
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Creating a taxonomy from this extensive list of concepts involves organizing them into a hierarchical structure. Here are the parent-child relationships:
+
+1. **Google Product Taxonomy**
+   - **Toys & Games**
+     - **Toy Weapons & Gadgets**
+     - **Toy Cars**
+     - **Toy Gliders**
+     - **Toy Kites**
+     - **Toy Motorcycles**
+     - **Toy Planes**
+     - **Toy Race Cars & Track Accessories**
+     - **Toy Trains & Train Sets**
+     - **Toy Trucks & Construction Vehicles**
+     - **Toy Vehicles & Parts**
+   - **Apparel & Accessories**
+     - **Bra Accessories**
+     - **Bra Strap Pads**
+     - **Belt Buckles**
+     - **Belt Liners**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles & Sippy Cups**
+     - **Bottles &
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

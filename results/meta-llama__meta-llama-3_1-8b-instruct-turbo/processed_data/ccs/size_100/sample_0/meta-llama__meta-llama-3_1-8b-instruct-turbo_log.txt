@@ -1,0 +1,442 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Computing Classification System; Systolic arrays; Embedded systems; Real-time systems; Computer systems organization; Single instruction, multiple data; Multiple instruction, single data; Architectures; Parallel architectures
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Parallel architectures is a subtopic of Architectures; Systolic arrays is a subtopic of Parallel architectures; Embedded systems is a subtopic of Embedded and cyber-physical systems; Architectures is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Multiple instruction, single data is a subtopic of Parallel architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Single instruction, multiple data is a subtopic of Parallel architectures
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Dependable and fault-tolerant systems and networks; Computer systems organization; Real-time languages; Embedded and cyber-physical systems; Fault-tolerant network topologies; Computing Classification System; Real-time systems; Architectures; Processors and memory architectures; Maintainability and maintenance
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Computer systems organization is a subtopic of Computing Classification System; Real-time languages is a subtopic of Real-time systems; Architectures is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Real-time systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Dependable and fault-tolerant systems and networks; Parallel architectures; Embedded and cyber-physical systems; Serial architectures; Maintainability and maintenance; Computing Classification System; Pipeline computing; Computer systems organization; Architectures; Interconnection architectures
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Serial architectures is a subtopic of Architectures; Parallel architectures is a subtopic of Architectures; Pipeline computing is a subtopic of Serial architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization; Interconnection architectures is a subtopic of Parallel architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Quantum computing; Real-time languages; Architectures; Embedded and cyber-physical systems; Optical computing; Other architectures; Computing Classification System; Computer systems organization; Real-time systems; Real-time system specification
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Computer systems organization is a subtopic of Computing Classification System; Optical computing is a subtopic of Other architectures; Real-time systems is a subtopic of Computer systems organization; Other architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time system specification is a subtopic of Real-time systems; Architectures is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Quantum computing is a subtopic of Other architectures
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Processors and memory architectures; Embedded and cyber-physical systems; Computer systems organization; Computing Classification System; Serial architectures; Real-time systems; Real-time system architecture; Dependable and fault-tolerant systems and networks; Distributed architectures; Architectures
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Distributed architectures is a subtopic of Architectures; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Serial architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System; Architectures is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Real-time system architecture is a subtopic of Real-time systems; Embedded and cyber-physical systems is a subtopic of Computer systems organization
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Mathematical software; Telecommunications; Decision analysis; Student assessment; Computing industry; Physical links; Human-centered computing; Astronomy; General and reference; Operations research; Machine learning; Visualization application domains; Security and privacy; Network privacy and anonymity; Computer forensics; Imaging; Image manipulation; Applied computing; End nodes; Physical sciences and engineering; Metabolomics / metabonomics; Arts and humanities; Network range; Network adapters; Graphics systems and interfaces; Accessibility; Marketing; Evidence collection, storage and analysis; Differential equations; Presentation protocols; Education; Mathematical analysis; Statistical software; Cross-computing tools and techniques; Functional analysis; Fine arts; Mathematics and statistics; Transportation; Concurrent computing methodologies; Network design principles; Archaeology; Metropolitan area networks; Network protocols; Partial differential equations; Computing education; Differential variational inequalities; Wide area networks; Signaling protocols; Network components; Socio-technical systems; Computing and business; Layering; Short-range networks; Information theory; Life and medical sciences; Computing Classification System; Antialiasing; Social and professional topics; Routing protocols; Informal education; Network architectures; Media arts; Embedded systems security; Networks; Aerospace; Network reliability; Texturing; Earth and atmospheric sciences; Health care information systems; Computing methodologies; Sound and music computing; Network properties; Network dynamics; Wired access networks; Mobile networks; Human computer interaction (HCI); Visualization; Performing arts; Forecasting; Network forensics; Software security engineering; Computer graphics; Architecture (buildings); Computational biology; Software and application security; Visualization systems and tools; Learning paradigms; Shape modeling; Network layer protocols; Chemistry; Professional topics; Mathematics of computing; Parallel computing methodologies; Ordinary differential equations; Mathematical software performance; Security in hardware; Numerical analysis; Multi-task learning; Link-layer protocols; Network types
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to break it down into a taxonomy. Here are the relationships:
+
+1. Computing Classification System is a parent of:
+   - General and reference
+   - Mathematics and statistics
+   - Physical sciences and engineering
+   - Life and medical sciences
+   - Earth and atmospheric sciences
+   - Social and professional topics
+   - Computing methodologies
+   - Computing education
+   - Computing and business
+   - Applied computing
+   - Human-centered computing
+   - Graphics systems and interfaces
+   - Accessibility
+   - Visualization
+   - Visualization application domains
+   - Visualization systems and tools
+   - Computer graphics
+   - Shape modeling
+   - Texturing
+   - Antialiasing
+   - Sound and music computing
+   - Performing arts
+   - Media arts
+   - Fine arts
+   - Arts and humanities
+   - Mathematics and statistics
+   - Mathematics of computing
+   - Numerical analysis
+   - Mathematical analysis
+   - Mathematical software
+   - Mathematical software performance
+   - Ordinary differential equations
+   - Partial differential equations
+   - Differential equations
+   - Differential variational inequalities
+   - Functional analysis
+   - Decision analysis
+   - Operations research
+   - Information theory
+   - Statistics
+   - Statistical software
+   - Machine learning
+   - Multi-task learning
+   - Cross-computing tools and techniques
+   - Software security engineering
+   - Software and application security
+   - Security and privacy
+   - Network privacy and anonymity
+   - Computer forensics
+   - Network forensics
+   - Network security
+   - Embedded systems security
+   - Security in hardware
+   - Network reliability
+   - Network properties
+   - Network dynamics
+   - Network layer protocols
+   - Link-layer protocols
+   - Network protocols
+   - Routing protocols
+   - Signaling protocols
+   - Presentation protocols
+   - Network design principles
+   - Network architectures
+   - Network components
+   - Network types
+   - Metropolitan area networks
+   - Wide area networks
+   - Short-range networks
+   - Mobile networks
+   - Wired access networks
+   - End nodes
+   - Network adapters
+   - Network range
+   - Network properties
+   - Network dynamics
+   - Network reliability
+   - Network security
+   - Network forensics
+   - Network privacy and anonymity
+   - Network components
+   - Network types
+   - Network architectures
+   - Network design principles
+   - Network protocols
+   - Routing protocols
+   - Signaling protocols
+   - Presentation protocols
+   - Layering
+   - Telecommunications
+   - Physical links
+   - Network range
+   - Network adapters
+   - End nodes
+   - Network properties
+   - Network dynamics
+   - Network reliability
+   - Network security
+   - Network forensics
+   - Network privacy and anonymity
+   - Network components
+   - Network types
+   - Network architectures
+   - Network design principles
+   - Network protocols
+   - Routing protocols
+   - Signaling protocols
+   - Presentation protocols
+   - Layering
+   - Metropolitan area networks
+   - Wide area networks
+   - Short-range networks
+   - Mobile networks
+   - Wired access networks
+   - Aerospace
+   - Astronomy
+   - Archaeology
+   - Earth and atmospheric sciences
+   - Life and medical sciences
+   - Physical sciences and engineering
+   - Chemistry
+   - Computational biology
+   - Metabolomics / metabonomics
+   - Health care information systems
+   - Transportation
+   - Marketing
+   - Education
+   - Informal education
+   - Learning paradigms
+   - Professional topics
+   - Socio-technical systems
+   - Computing and business
+   - Computing methodologies
+   - Computing education
+   - Applied computing
+   - Human-centered computing
+   - Graphics systems and interfaces
+   - Accessibility
+   - Visualization
+   - Visualization application domains
+   - Visualization systems and tools
+   - Computer graphics
+   - Shape modeling
+   - Texturing
+   - Antialiasing
+   - Sound and music computing
+   - Performing arts
+   - Media arts
+   - Fine arts
+   - Arts and humanities
+   - Mathematics and statistics
+   - Mathematics of computing
+   - Numerical analysis
+   - Mathematical analysis
+   - Mathematical software
+   - Mathematical software performance
+   - Ordinary differential equations
+   - Partial differential equations
+   - Differential equations
+   - Differential variational inequalities
+   - Functional analysis
+   - Decision analysis
+   - Operations research
+   - Information theory
+   - Statistics
+   - Statistical software
+   - Machine learning
+   - Multi-task learning
+   - Cross-computing tools and techniques
+   - Software security engineering
+   - Software and application security
+   - Security and privacy
+   - Network privacy and anonymity
+   - Computer forensics
+   - Network forensics
+   - Network security
+   - Embedded systems security
+   - Security in hardware
+   - Network reliability
+   - Network properties
+   - Network dynamics
+   - Network layer protocols
+   - Link-layer protocols
+   - Network protocols
+   - Routing protocols
+   - Signaling protocols
+   - Presentation protocols
+   - Network design principles
+   - Network architectures
+   - Network components
+   - Network types
+   - Metropolitan area networks
+   - Wide area networks
+   - Short-range networks
+   - Mobile networks
+   - Wired access networks
+   - End nodes
+   - Network adapters
+   - Network range
+   - Network properties
+   - Network dynamics
+   - Network reliability
+   - Network security
+   - Network forensics
+   - Network privacy and anonymity
+   - Network components
+   - Network types
+   - Network architectures
+   - Network design principles
+   - Network protocols
+   - Routing protocols
+   - Signaling protocols
+   - Presentation protocols
+   - Layering
+   - Telecommunications
+   - Physical links
+   - Network range
+   - Network adapters
+   - End nodes
+   - Network properties
+   - Network dynamics
+   - Network reliability
+   - Network security
+   - Network forensics
+   - Network privacy and anonymity
+   - Network components
+   - Network types
+   - Network architectures
+   - Network design principles
+   - Network protocols
+   - Routing protocols
+   - Signaling protocols
+   - Presentation protocols
+   - Layering
+   - Metropolitan area networks
+   - Wide area networks
+   - Short-range networks
+   - Mobile networks
+   - Wired access networks
+   - Aerospace
+   - Astronomy
+   - Archaeology
+   - Earth and atmospheric sciences
+   - Life and medical sciences
+   - Physical sciences and engineering
+   - Chemistry
+   - Computational biology
+   - Metabolomics / metabonomics
+   - Health care information systems
+   - Transportation
+   - Marketing
+   - Education
+   - Informal education
+   - Learning paradigms
+   - Professional topics
+   - Socio-technical systems
+   - Computing and business
+   - Computing methodologies
+   - Computing education
+   - Applied computing
+   - Human-centered computing
+   - Graphics systems and interfaces
+   - Accessibility
+   - Visualization
+   - Visualization application domains
+   - Visualization systems and tools
+   - Computer graphics
+   - Shape modeling
+   - Texturing
+   - Antialiasing
+   - Sound and music computing
+   - Performing arts
+   - Media arts
+   - Fine arts
+   - Arts and humanities
+   - Mathematics and statistics
+   - Mathematics of computing
+   - Numerical analysis
+   - Mathematical analysis
+   - Mathematical software
+   - Mathematical software performance
+   - Ordinary differential equations
+   - Partial differential equations
+   - Differential equations
+   - Differential variational inequalities
+   - Functional analysis
+   - Decision analysis
+   - Operations research
+   - Information theory
+   - Statistics
+   - Statistical software
+   - Machine learning
+   - Multi-task learning
+   - Cross-computing tools and techniques
+   - Software security engineering
+   - Software and application security
+   - Security and privacy
+   - Network privacy and anonymity
+   - Computer forensics
+   - Network forensics
+   - Network security
+   - Embedded systems security
+   - Security in hardware
+   - Network reliability
+   - Network properties
+   - Network dynamics
+   - Network layer protocols
+   - Link-layer protocols
+   - Network protocols
+   - Routing protocols
+   - Signaling protocols
+   - Presentation protocols
+   - Network design principles
+   - Network architectures
+   - Network components
+   - Network types
+   - Metropolitan area networks
+   - Wide area networks
+   - Short-range networks
+   - Mobile networks
+   - Wired access networks
+   - End nodes
+   - Network adapters
+   - Network range
+   - Network properties
+   - Network dynamics
+   - Network reliability
+   - Network security
+   - Network forensics
+   - Network privacy and anonymity
+   - Network components
+   - Network types
+   - Network architectures
+   - Network design principles
+   - Network protocols
+   - Routing protocols
+   - Signaling protocols
+   - Presentation protocols
+   - Layering
+   - Telecommunications
+   - Physical links
+   - Network range
+   - Network adapters
+   - End nodes
+   - Network properties
+   - Network dynamics
+   - Network reliability
+   - Network security
+   - Network forensics
+   - Network privacy and anonymity
+   - Network components
+   - Network types
+   - Network architectures
+   - Network design principles
+   - Network protocols
+   - Routing protocols
+   - Signaling protocols
+   - Presentation protocols
+   - Layering
+   - Metropolitan area networks
+   - Wide area
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

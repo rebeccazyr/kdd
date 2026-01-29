@@ -1,0 +1,487 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: spaghetti; occhi di lupo; pasta; fagottini; pici; cannelloni; fusilli; food; gemelli; bavette
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+gemelli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; bavette is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta; cannelloni is a subtopic of pasta; fusilli is a subtopic of pasta; pici is a subtopic of pasta; fagottini is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: mezzelune; corzetti; linguine; rotini; pasta; food; croxetti; fuži; sacchettoni; spaghetti
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+spaghetti is a subtopic of pasta; mezzelune is a subtopic of pasta; pasta is a subtopic of food; fuži is a subtopic of pasta; sacchettoni is a subtopic of pasta; croxetti is a subtopic of pasta; corzetti is a subtopic of pasta; rotini is a subtopic of pasta; linguine is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: bigoli; occhi di lupo; food; anellini; fuži; stringozzi; pasta; corzetti; mezzelune; garganelli
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+occhi di lupo is a subtopic of pasta; mezzelune is a subtopic of pasta; stringozzi is a subtopic of pasta; bigoli is a subtopic of pasta; garganelli is a subtopic of pasta; corzetti is a subtopic of pasta; anellini is a subtopic of pasta; fuži is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: rotini; ptitim; campanelle; pasta; food; macaroni; lanterne; casoncelli; passatelli; spaghetti
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+spaghetti is a subtopic of pasta; passatelli is a subtopic of pasta; macaroni is a subtopic of pasta; rotini is a subtopic of pasta; pasta is a subtopic of food; campanelle is a subtopic of pasta; lanterne is a subtopic of pasta; casoncelli is a subtopic of pasta; ptitim is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: stringozzi; penne; spaghetti; pasta; rotelle; ptitim; food; mezzelune; sacchettoni; rotini
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+pasta is a subtopic of food; sacchettoni is a subtopic of pasta; penne is a subtopic of pasta; rotelle is a subtopic of pasta; mezzelune is a subtopic of pasta; spaghetti is a subtopic of pasta; rotini is a subtopic of pasta; stringozzi is a subtopic of pasta; ptitim is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: quince; longan; sugar cane; egg drop soup; noodle; dashi; coconut oil; celery roots; tuscan cabbage; pan mee; squashes; corn soup; prepared food; molasses; duck soup noodles; ching bo leung; vegetable; greens; sevai; dandan noodles; svartsoppa; wheatgrass; sweet potatoes; purée mongole; cream; imoni; brown windsor soup; soyo; soup number five; tamarind; fisherman's soup; chocolate covered fruit; bakery; hulatang; bok choi; soy product; kohlrabi; cake and brownie mixes; bananas; rose hip soup; henan braised noodles; shallots; black noodles; dairy product; dip; piti; bun rieu; oranges; binignit; gulyásleves; guavas; hyderabadi marag; yu choy; cheese spread; melons; arracachas; shambar; taro root; frying pan dinners; rhubarb; licorice; babacos; cauliflower; turtle soup; chilli oil; chicory; broccoli; beans; turnips; bean pastes; potatoes; apricots; peas; styrian sour soup; buttermilk koldskål; fruit salad; shredded coconut; kale; bún bò huế; peaches; mami soup; ice cream cones; frejon; pumpkins; lung fung soup; mamoncillo nuts; canned and jarred vegetable; vegetable oil; linguettine; fennel bulbs; lemons; rutabagas; lotus roots; physalis; madroã±o; tian mo; scotch broth; marshmallow sweets; fruit; bouneschlupp; yaki udon; tangelos; oille; cooking spray; grapefruits; peanut oil; baking chocolate; cabbage; macadamia nuts; walnut oil; vegetable dip; cherries; hot and sour soup; cooking oil; ajiaco; beetroot greens; dragonfruit; on choy; seeds; tripoline; avocados; mock turtle soup; corn syrup; cottage cheese; draw soup; sinigang; peanuts; gazpacho; vichyssoise; beef noodle soup; ribollita; suaasat; talunan; candy canes; carrots; tomatoes; sour soup; sweets; chard; naengguk; limes; fresh seafood; food; salsa; pecans; pine nuts; gourds; red peas soup; siemieniotka; bread pudding mixes; eggs; rice oil; banh canh; biángbiáng noodles; rambutans; vietnamese noodles; sopa teologa; loquats; spring soup; tapenade; khao poon; tekwan; cooking starch; salad mixes; baking mixes; singapore style noodle; condensed milk; evaporated milk; donuts; frozen noodles; lettuce; mafalde; cooking ingredient; choi sum; okra; seafood; pears; noodle soup; radishes; spice; hot dry noodles; alfalfa sprouts; frozen dinners; soup; chocolate covered nuts; jicama; sorrel soup; sapote; pie; pineapples; czernina; köttsoppa; mangosteens; jjolmyeon; chocolate mints; chestnuts; yi mein; consommé; kissel; sujebi
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to create a taxonomy for you, but it might not be perfect due to the complexity of the data.
+
+Here's a simplified taxonomy:
+
+- food
+  - prepared food
+    - noodle
+      - pan mee
+      - dandan noodles
+      - duck soup noodles
+      - henan braised noodles
+      - yu choy
+      - bún bò huế
+      - yaki udon
+      - biángbiáng noodles
+      - singapore style noodle
+      - vietnamese noodles
+    - soup
+      - egg drop soup
+      - dashi
+      - corn soup
+      - duck soup
+      - ching bo leung
+      - svartsoppa
+      - brown windsor soup
+      - soyo
+      - soup number five
+      - fisherman's soup
+      - rose hip soup
+      - henan braised noodles
+      - bun rieu
+      - shambar
+      - lung fung soup
+      - mami soup
+      - hot and sour soup
+      - beef noodle soup
+      - ribollita
+      - naengguk
+      - tapenade
+      - tekwan
+      - consommé
+      - kissel
+      - sujebi
+    - bakery
+      - cake and brownie mixes
+      - ice cream cones
+      - baking chocolate
+      - bread pudding mixes
+    - dairy product
+      - cheese spread
+      - buttermilk koldskål
+      - cottage cheese
+    - vegetable
+      - vegetable oil
+      - vegetable dip
+      - canned and jarred vegetable
+      - seeds
+      - avocado
+      - beetroot greens
+      - dragonfruit
+      - on choy
+      - chard
+      - lettuce
+      - okra
+      - radishes
+      - alfalfa sprouts
+      - sorrel
+      - sapote
+      - jicama
+      - turnips
+      - rutabagas
+      - lotus roots
+      - physalis
+      - madroã±o
+      - tian mo
+      - scotch broth
+      - marshmallow sweets
+      - fruit salad
+      - shredded coconut
+      - kale
+      - peaches
+      - pumpkins
+      - corn syrup
+      - condensed milk
+      - evaporated milk
+      - frozen dinners
+      - frozen noodles
+      - salad mixes
+      - baking mixes
+      - cooking ingredient
+      - spice
+      - hot dry noodles
+      - alfalfa sprouts
+      - frozen dinners
+      - soup
+      - cooking oil
+      - peanut oil
+      - walnut oil
+      - rice oil
+      - cooking spray
+      - licorice
+      - babacos
+      - cauliflower
+      - beans
+      - peas
+      - carrots
+      - tomatoes
+      - cabbage
+      - fennel bulbs
+      - lemons
+      - limes
+      - oranges
+      - bananas
+      - apples
+      - pears
+      - grapes
+      - melons
+      - apricots
+      - peaches
+      - plums
+      - cherries
+      - strawberries
+      - blueberries
+      - raspberries
+      - blackberries
+      - kiwi
+      - mangoes
+      - papayas
+      - pineapples
+      - guavas
+      - mangoes
+      - papayas
+      - pineapples
+      - guavas
+      - rambutans
+      - loquats
+      - mangosteens
+      - sapote
+      - tamarind
+      - quince
+      - longan
+      - sugar cane
+      - coconut oil
+      - molasses
+      - chocolate covered fruit
+      - chocolate covered nuts
+      - fruit
+      - vegetable
+    - meat
+      - seafood
+        - fresh seafood
+    - dessert
+      - sweets
+        - candy canes
+        - marshmallow sweets
+        - chocolate mints
+      - pie
+        - baking chocolate
+        - baking mixes
+      - ice cream cones
+        - baking chocolate
+        - baking mixes
+      - cake and brownie mixes
+        - baking chocolate
+        - baking mixes
+      - bread pudding mixes
+        - baking chocolate
+        - baking mixes
+      - chocolate covered nuts
+        - baking chocolate
+        - baking mixes
+      - chocolate covered fruit
+        - baking chocolate
+        - baking mixes
+      - fruit salad
+        - fruit
+      - shredded coconut
+        - fruit
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+        - fruit salad
+        - shredded coconut
+      - fruit
+       
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 1
+
+Parsed relationships:
+  This is a very long list of concepts and relationships. I'll try to create a taxonomy for you → but it might not be perfect due to the complexity of the data
+
+================================================================================

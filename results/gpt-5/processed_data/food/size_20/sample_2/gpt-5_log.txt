@@ -1,0 +1,98 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: spaghetti; occhi di lupo; food; pici; fagottini; bavette; fusilli; gemelli; cannelloni; pasta
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+gemelli is a subtopic of pasta; cannelloni is a subtopic of pasta; bavette is a subtopic of pasta; fagottini is a subtopic of pasta; pici is a subtopic of pasta; fusilli is a subtopic of pasta; spaghetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: linguine; croxetti; mezzelune; corzetti; rotini; pasta; fuži; spaghetti; sacchettoni; food
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+sacchettoni is a subtopic of pasta; fuži is a subtopic of pasta; spaghetti is a subtopic of pasta; croxetti is a subtopic of pasta; rotini is a subtopic of pasta; pasta is a subtopic of food; corzetti is a subtopic of pasta; mezzelune is a subtopic of pasta; linguine is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: stringozzi; food; pasta; fuži; anellini; corzetti; bigoli; occhi di lupo; mezzelune; garganelli
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+garganelli is a subtopic of pasta; corzetti is a subtopic of pasta; stringozzi is a subtopic of pasta; anellini is a subtopic of pasta; mezzelune is a subtopic of pasta; pasta is a subtopic of food; bigoli is a subtopic of pasta; fuži is a subtopic of pasta; occhi di lupo is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: spaghetti; ptitim; pasta; campanelle; food; lanterne; passatelli; macaroni; rotini; casoncelli
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+macaroni is a subtopic of pasta; lanterne is a subtopic of pasta; casoncelli is a subtopic of pasta; spaghetti is a subtopic of pasta; passatelli is a subtopic of pasta; ptitim is a subtopic of pasta; rotini is a subtopic of pasta; campanelle is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: stringozzi; mezzelune; spaghetti; pasta; food; rotini; ptitim; sacchettoni; penne; rotelle
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+penne is a subtopic of pasta; stringozzi is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta; ptitim is a subtopic of pasta; mezzelune is a subtopic of pasta; sacchettoni is a subtopic of pasta; rotini is a subtopic of pasta; rotelle is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: food; cooking wine; barley; shortening and lard; macadamia nuts; tempeh; cereals; cooking ingredient; seeds; almonds; bakery; soy product; edible baking decoration; eggnog; frozen dessert; flavoured malt drinks; millet; beverage; juice; rye
+Relationships: 
+
+================================================================================
+Number of entities: 20
+Model: gpt-5
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+cooking ingredient is a subtopic of food; beverage is a subtopic of food; bakery is a subtopic of food; frozen dessert is a subtopic of food; cereals is a subtopic of food; seeds is a subtopic of food; soy product is a subtopic of food; barley is a subtopic of cereals; rye is a subtopic of cereals; millet is a subtopic of cereals; macadamia nuts is a subtopic of seeds; almonds is a subtopic of seeds; tempeh is a subtopic of soy product; cooking wine is a subtopic of cooking ingredient; shortening and lard is a subtopic of cooking ingredient; edible baking decoration is a subtopic of cooking ingredient; eggnog is a subtopic of beverage; flavoured malt drinks is a subtopic of beverage; juice is a subtopic of beverage
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 19
+
+Parsed relationships:
+  cooking ingredient → food
+  beverage → food
+  bakery → food
+  frozen dessert → food
+  cereals → food
+  seeds → food
+  soy product → food
+  barley → cereals
+  rye → cereals
+  millet → cereals
+  macadamia nuts → seeds
+  almonds → seeds
+  tempeh → soy product
+  cooking wine → cooking ingredient
+  shortening and lard → cooking ingredient
+  edible baking decoration → cooking ingredient
+  eggnog → beverage
+  flavoured malt drinks → beverage
+  juice → beverage
+
+================================================================================

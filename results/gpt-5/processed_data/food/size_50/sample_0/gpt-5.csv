@@ -1,0 +1,50 @@
+child,parent
+prepared food,food
+beverage,food
+cooking ingredient,food
+condiment,food
+dairy product,food
+soy product,food
+sauce,condiment
+salsa golf,sauce
+curry ketchup,sauce
+rouille,sauce
+soup,prepared food
+chikhirtma,soup
+sancocho,soup
+svartsoppa,soup
+bakery,prepared food
+pie,bakery
+coffee cakes,bakery
+dessert platters,prepared food
+taco shells,prepared food
+marshmallows,prepared food
+baking mixes,cooking ingredient
+pretzel mixes,baking mixes
+eggs,cooking ingredient
+salt,cooking ingredient
+baking soda,cooking ingredient
+cooking starch,cooking ingredient
+corn syrup,cooking ingredient
+molasses,cooking ingredient
+flour,cooking ingredient
+cooking oil,cooking ingredient
+olive oil,cooking oil
+spice,cooking ingredient
+floss sugar,cooking ingredient
+cheese,dairy product
+yoghurt,dairy product
+cream,dairy product
+evaporated milk,dairy product
+cottage cheese,dairy product
+water,beverage
+beer,beverage
+wine,beverage
+white wine,wine
+vinegar drinks,beverage
+fruit-flavoured drinks,beverage
+eggnog,beverage
+sangria,beverage
+cocktail mixes,beverage
+powdered beverage mixes,beverage
+bitters,beverage

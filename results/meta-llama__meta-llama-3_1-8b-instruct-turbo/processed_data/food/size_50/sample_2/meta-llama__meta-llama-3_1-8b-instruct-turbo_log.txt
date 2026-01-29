@@ -1,0 +1,324 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: food; occhi di lupo; spaghetti; pici; gemelli; pasta; fusilli; bavette; fagottini; cannelloni
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+fagottini is a subtopic of pasta; spaghetti is a subtopic of pasta; fusilli is a subtopic of pasta; pasta is a subtopic of food; pici is a subtopic of pasta; occhi di lupo is a subtopic of pasta; bavette is a subtopic of pasta; gemelli is a subtopic of pasta; cannelloni is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: spaghetti; sacchettoni; mezzelune; croxetti; pasta; food; fuži; rotini; corzetti; linguine
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+croxetti is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta; rotini is a subtopic of pasta; sacchettoni is a subtopic of pasta; mezzelune is a subtopic of pasta; corzetti is a subtopic of pasta; fuži is a subtopic of pasta; linguine is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: mezzelune; garganelli; fuži; food; occhi di lupo; pasta; stringozzi; corzetti; bigoli; anellini
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+pasta is a subtopic of food; anellini is a subtopic of pasta; mezzelune is a subtopic of pasta; corzetti is a subtopic of pasta; fuži is a subtopic of pasta; stringozzi is a subtopic of pasta; garganelli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; bigoli is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: food; lanterne; ptitim; campanelle; rotini; spaghetti; macaroni; passatelli; casoncelli; pasta
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+campanelle is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food; macaroni is a subtopic of pasta; casoncelli is a subtopic of pasta; lanterne is a subtopic of pasta; passatelli is a subtopic of pasta; ptitim is a subtopic of pasta; rotini is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: penne; sacchettoni; rotelle; stringozzi; food; spaghetti; pasta; rotini; ptitim; mezzelune
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+spaghetti is a subtopic of pasta; ptitim is a subtopic of pasta; rotini is a subtopic of pasta; mezzelune is a subtopic of pasta; penne is a subtopic of pasta; stringozzi is a subtopic of pasta; sacchettoni is a subtopic of pasta; rotelle is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: tangerines; herb; food; physalis; cooking wine; marshmallows; longan; taco soup; noodle; kapusniak; melons; kumquats; barley; fruit; shambar; eggs; pie crusts; rice; soup alla canavese; dough; rambutans; shortening and lard; prepared food; henan braised noodle; grapes; oil noodles; pig's organ soup; cherries; apples; pottage; amaranth; cereals; limequats; grits; cooking ingredient; dalithoy; spice; tinned soup; soup; soy product; gazpacho; atemoyas; kiwis; pie fillings; peaches; jjolmyeon; chinese noodles; binignit; crème ninon; passion fruit
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+pie fillings is a subtopic of prepared food; prepared food is a subtopic of food; gazpacho is a subtopic of food; soup is a subtopic of food; tinned soup is a subtopic of soup; soup is a subtopic of food; atemoyas is a subtopic of fruit; passion fruit is a subtopic of fruit; kiwis is a subtopic of fruit; peaches is a subtopic of fruit; cherries is a subtopic of fruit; apples is a subtopic of fruit; grapes is a subtopic of fruit; kumquats is a subtopic of fruit; limequats is a subtopic of fruit; rambutans is a subtopic of fruit; longan is a subtopic of fruit; melons is a subtopic of fruit; tangerines is a subtopic of fruit; physalis is a subtopic of fruit; marshmallows is a subtopic of food; cooking wine is a subtopic of food; noodle is a subtopic of food; henan braised noodle is a subtopic of noodle; oil noodles is a subtopic of noodle; chinese noodles is a subtopic of noodle; jjolmyeon is a subtopic of noodle; amaranth is a subtopic of cereals; cereals is a subtopic of food; barley is a subtopic of cereals; grits is a subtopic of cereals; dalithoy is a subtopic of spice; spice is a subtopic of cooking ingredient; cooking ingredient is a subtopic of food; herb is a subtopic of cooking ingredient; soy product is a subtopic of cooking ingredient; shortening and lard is a subtopic of cooking ingredient; dough is a subtopic of cooking ingredient; pie crusts is a subtopic of dough; soup alla canavese is a subtopic of soup; pig's organ soup is a subtopic of soup; taco soup is a subtopic of soup; soup is a subtopic of food; pottage is a subtopic of soup; capusniak is a subtopic of soup; binignit is a subtopic of soup; crème ninon is a subtopic of soup; rice is a subtopic of food; eggs is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a subtopic of food; hen is a sub
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 245
+
+Parsed relationships:
+  pie fillings → prepared food
+  prepared food → food
+  gazpacho → food
+  soup → food
+  tinned soup → soup
+  soup → food
+  atemoyas → fruit
+  passion fruit → fruit
+  kiwis → fruit
+  peaches → fruit
+  cherries → fruit
+  apples → fruit
+  grapes → fruit
+  kumquats → fruit
+  limequats → fruit
+  rambutans → fruit
+  longan → fruit
+  melons → fruit
+  tangerines → fruit
+  physalis → fruit
+  marshmallows → food
+  cooking wine → food
+  noodle → food
+  henan braised noodle → noodle
+  oil noodles → noodle
+  chinese noodles → noodle
+  jjolmyeon → noodle
+  amaranth → cereals
+  cereals → food
+  barley → cereals
+  grits → cereals
+  dalithoy → spice
+  spice → cooking ingredient
+  cooking ingredient → food
+  herb → cooking ingredient
+  soy product → cooking ingredient
+  shortening and lard → cooking ingredient
+  dough → cooking ingredient
+  pie crusts → dough
+  soup alla canavese → soup
+  pig's organ soup → soup
+  taco soup → soup
+  soup → food
+  pottage → soup
+  capusniak → soup
+  binignit → soup
+  crème ninon → soup
+  rice → food
+  eggs → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+  hen → food
+
+================================================================================

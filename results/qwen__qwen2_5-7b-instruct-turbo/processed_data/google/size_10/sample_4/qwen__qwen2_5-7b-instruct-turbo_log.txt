@@ -1,0 +1,87 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Combat Knives; Staff & Stick Weapons; Gun Care & Accessories; Reloading Supplies & Equipment; Mature; Weapons; Gun Holsters; Spears; Ammunition Cases & Holders; Google Product Taxonomy
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Spears is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Combat Knives is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Gun Cases & Range Bags; Stun Guns & Tasers; Mature; Swords; Gun Care & Accessories; Weapons; Google Product Taxonomy; Staff & Stick Weapons; Gun Lights; Ammunition
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Ammunition is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Swords is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Guns; Weapons; Whips; Stun Guns & Tasers; Mature; Erotic; Gun Care & Accessories; Google Product Taxonomy; Nunchucks; Throwing Stars
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Whips is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Erotic is a subtopic of Mature; Weapons is a subtopic of Mature; Nunchucks is a subtopic of Weapons; Guns is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Games; Erotic Clothing; Erotic Food & Edibles; Mature; Erotic DVDs & Videos; Erotic Magazines; Erotic; Google Product Taxonomy; Erotic Books; Pole Dancing Kits
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Clothing is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic Games is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Magazines is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Staff & Stick Weapons; Mature; Gun Care & Accessories; Gun Slings; Google Product Taxonomy; Gun Grips; Weapons; Stun Guns & Tasers; Swords; Spears
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Gun Slings is a subtopic of Gun Care & Accessories; Gun Grips is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Swords is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Spears is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Baby & Toddler; Cameras & Optics; Camera & Optic Accessories; Health & Beauty; Google Product Taxonomy; Camera Parts & Accessories; Vehicles & Parts; Jewelry Cleaning Tools; Jewelry Cleaning & Care; Swaddling & Receiving Blankets
+Relationships: 
+
+================================================================================
+Number of entities: 10
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Baby & Toddler is a subtopic of Google Product Taxonomy; Cameras & Optics is a subtopic of Camera & Optic Accessories; Camera & Optic Accessories is a subtopic of Cameras & Optics; Camera Parts & Accessories is a subtopic of Camera & Optic Accessories; Health & Beauty is a subtopic of Google Product Taxonomy; Jewelry Cleaning Tools is a subtopic of Jewelry Cleaning & Care; Swaddling & Receiving Blankets is a subtopic of Baby & Toddler; Vehicles & Parts is a subtopic of Google Product Taxonomy
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 8
+
+Parsed relationships:
+  Baby & Toddler → Google Product Taxonomy
+  Cameras & Optics → Camera & Optic Accessories
+  Camera & Optic Accessories → Cameras & Optics
+  Camera Parts & Accessories → Camera & Optic Accessories
+  Health & Beauty → Google Product Taxonomy
+  Jewelry Cleaning Tools → Jewelry Cleaning & Care
+  Swaddling & Receiving Blankets → Baby & Toddler
+  Vehicles & Parts → Google Product Taxonomy
+
+================================================================================

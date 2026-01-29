@@ -1,0 +1,349 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: pasta; fusilli; spaghetti; fagottini; pici; occhi di lupo; bavette; food; cannelloni; gemelli
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+fusilli is a subtopic of pasta; spaghetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta; cannelloni is a subtopic of pasta; gemelli is a subtopic of pasta; pici is a subtopic of pasta; fagottini is a subtopic of pasta; bavette is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: mezzelune; rotini; food; fuži; croxetti; corzetti; pasta; sacchettoni; spaghetti; linguine
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+pasta is a subtopic of food; linguine is a subtopic of pasta; sacchettoni is a subtopic of pasta; mezzelune is a subtopic of pasta; fuži is a subtopic of pasta; rotini is a subtopic of pasta; corzetti is a subtopic of pasta; croxetti is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: pasta; corzetti; bigoli; fuži; mezzelune; occhi di lupo; garganelli; food; anellini; stringozzi
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+mezzelune is a subtopic of pasta; bigoli is a subtopic of pasta; fuži is a subtopic of pasta; anellini is a subtopic of pasta; occhi di lupo is a subtopic of pasta; pasta is a subtopic of food; corzetti is a subtopic of pasta; garganelli is a subtopic of pasta; stringozzi is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: macaroni; ptitim; passatelli; lanterne; casoncelli; pasta; spaghetti; rotini; campanelle; food
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; macaroni is a subtopic of pasta; lanterne is a subtopic of pasta; passatelli is a subtopic of pasta; rotini is a subtopic of pasta; casoncelli is a subtopic of pasta; pasta is a subtopic of food; campanelle is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: spaghetti; rotini; stringozzi; sacchettoni; pasta; ptitim; food; penne; rotelle; mezzelune
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+pasta is a subtopic of food; mezzelune is a subtopic of pasta; rotini is a subtopic of pasta; penne is a subtopic of pasta; rotelle is a subtopic of pasta; spaghetti is a subtopic of pasta; ptitim is a subtopic of pasta; sacchettoni is a subtopic of pasta; stringozzi is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: schnapps; cheonsachae; albufera sauce; ohaw; fruit-flavoured drinks; caruso sauce; egg drop soup; salsa golf; marble cake; longan; cabinet pudding; dacquoise; pumpkin seeds; fennel seeds; houmous; sweet and sour pork; blood soup; bolo rei; celery roots; disney mickey's magix; nataing; squashes; changzhou sesame cake; southern illinois chowder; basil; post toasties; caldo de pollo; welf pudding; cardoon; liver soup; duck soup noodles; hogao; honeycomb; tapioca pudding; imoni; grits; cherimoyas; shanghai fried noodles; tea loaf; dundee cake; chilli powder; dalithoy; fisherman's soup; grape-nuts; just right; hulatang; sponge cake; soy product; non-dairy frozen dessert; red wine; onion powder; tart; plums; gamjatang; henan braised noodles; yucca root; waffles; močnik; honey bunches of oats; baumkuchen; pork roll; bun rieu; golden crisp; prepared side dishes; beetroots; lai fun; panforte; king cake; cantonese seafood soup; halfsies; rice vermicelli; game cake; sherry; pumpkin soup; kuchen; whipped cream; jams and preserves; savory; kapusniak; taco shells; mykyrokka; savore sanguino; cornmeal; thenthuk; kumquats; frying pan dinners; cider; licorice; soufflé; oil noodles; hodge-podge; tkemali; pottage; broccoli; macaroni soup; taiyaki; cellophane noodles; cinnamon; pecel; harissa; babka; gypsy tart; cullen skink; bolo de mel; tu; hot milk cake; pickles and relishes; coconut milk; tinned meat; empal gentong; apricots; fudge cake; black soup; uirō; mami soup; whisky; chocapic; millet; buckwheat; vector; kharcho; fennel bulbs; qingtang wanzi; cucumber soup; gummy sweets; cocoa krispies; angel food cake; coffee cake; lotus roots; maafe; sambal; ogbono nuts; hot chocolate; candy bars; ground and whole bean coffee; bouillon; rosemary; memela; milk; oille; bouneschlupp; yaki udon; lasagnette; dobos torte; rum cake; rum baba; non-alcoholic beer; gobo root; henan braised noodle; tlacoyo; cabbage; sprinkle spangles; malva pudding; mala sauce; hemp milk; macadamia nuts; cherries; juk; pastries; mbeju; garlic powder; dessert bars; green sauce; cröonchy stars; beetroot greens; butter and margarine; on choy; worcestershire sauce; sopa de mondongo; seeds; tripoline; mock turtle soup; granola; dates; asparagus; cottage cheese; homli fruits; vodka; powdered tea; kugelis; ribollita; crispy critters; soy milk; boston butt; erotic cake; šakotis; ho hos; tomatoes; pork tenderloin; chard; psarosoupa; mung bean sheets; basbousa; spätzle; espagnole sauce; raisin wheats; vispipuuro; pecans; mujdei; sno balls; gourds; energy drinks; agrodolce; honey loops; red peas soup; gin; yonezawa beef; sesame seed cake; under cover bears instant oatmeal; gooey butter cake; manwich; madeleine; dried fruit; biángbiáng noodles; eve's pudding; shrimp roe noodles; secca de bœuf; sunny boy cereal; ogi; panada; khao poon; solyanka; gumdrops; dessert toppings; jook-sing noodles; soto ayam; hot sauce; nintendo cereal system; fruit chews; pepper; mushroom gravy; frozen noodles; almond milk; nougat; frozen meat; chocolate bars; sheer korma; noodle soup; chimichurri; bread soup; tinned soup; youmian; batchoy; soup; tom kha kai; walnuts; kasha; pan de pascua; ladyfinger; sapote; shredded wheat; pie; bak kut teh; pudding; köttsoppa; pork ribs; jjolmyeon; miso soup; financier; jelly beans; caraway seed cake; fruit cake; rubaboo; changua; consommé; prickly pears; hard sauce; sujebi; celery; instant soup; rum; sugar cane; fideo; corn pops; all-bran; supreme; tacacá; caramels; quetschentaart; hochzeitssuppe; pasta sauces; ukha; chancaca; génoise cake; pig's organ soup; she-crab soup; cake; sushi; geera pork; depression cake; eccles cake; dandan noodles; brazil nuts; gai lan; vinegar drinks; port; rouille; turrón; ginger root; disney hunny b's honey-graham; cheese pudding; peppers; kohlrabi; xo sauce; cashews; chocolate assortments; crazy cow; kix; hummingbird cake; poppy milk; tarragon; korean noodle; dairy product; candle salad; castella; flummadiddle; sugar apples; garbure; goody; tarta de santiago; special k; jerusalem artichokes; body buddies; cheese spread; spotted dick; bottled water; harira; prežganka; marinade; boiled sweets; prepared main courses; flavoured water; taro root; ponzu; water chestnuts; paradise nuts; rhubarb; laksa; honey smacks; cauliflower; rice noodle roll; grapes; kesme; chicory; peach sauce; chipa so'o; mulligatawny; dried beans; beans; escudella i carn d'olla; butajiru; tofu; rântaş; white wine; manchester tart; potatoes; kitchen bouquet; instant noodles; pomegranates; figs; sopa de pata; styrian sour soup; lollipops; smorz; kale; clackers cereal; ice cream cones; lemon grass; frejon; lung fung soup; canned and jarred vegetable; dotori guksu; trdelník; linguettine; confiture de lait; rutabagas; frozen dessert; mamey; wonton noodles; physalis; wow-wow sauce; layer cake; cupcakes; tian mo; quinoa; red-eye gravy; bakmi; fruit; marshmallow sweets; kue keranjang; torte; grapefruits; cupcone; porridge; kornigou; bresaola; candy corn; tiramisu; ding dong; dragon beard noodles; chocos; ajiaco; mushrooms; curry ketchup; aubergines; dragonfruit; crostata; persimmons; crossing the bridge noodles; oatibix; kola nuts; bisque; thukpa; curry sauce; sour cherry soup; soy sauce; sinigang; coulis; smith & jones instant noodle; gazpacho; peanuts; eggnog; suaasat; bún mắm; deli meats; vallée d'aoste lard d'arnad; crumpet; kutia; cookie crisp; pillus; jewish apple cake; sancocho; garak guksu; naengguk; qottab; cumian; breton sauce; honey nut clusters; herb; chocolate cake; food; salsa; fat rascal; rượu nếp; apple butter; pine nuts; paris buns; unni appam; pound cake; reese's puffs; rice milk; velouté sauce; oyster sauce; sopa teologa; kalguksu; mixed nuts; tamarillos; spring soup; cold borsch; nantua sauce; wacky cake; salad mixes; kobe beef; shreddies; soto; oregano; nectarines; steak sauce; cracklin' oat bran; donuts; meat patties; soul cake; plumcots; golden nuggets; lettuce; heavy cake; limequats; cruncheroos; meunière sauce; chongyang cake; kugel; seafood; powdered milk; product 19; hot dry noodles; lychees; alfalfa sprouts; frozen dinners; colomba di pasqua; korean noodles; boston cream pie; idli; suprême sauce; tequilaseed; chocolate mints; phu quoc fish sauce; chestnuts; kakara pitha; condiment; black bun; soy nuts; rhubarb tart; lobster sauce; aniseed; janggukjuk; juice; pho; potage; meat; torta tre monti; thyme; agave syrup; mush; ontbijtkoek; pickled pigs feet; sauce vierge; noodle; dashi; rice noodles; soubise sauce; khrenovina sauce; wanko soba; pan mee; romesco; rice; chicken soup; corn soup; es teler; prepared food; greens; sevai; happy cake; bánh khoai mì; pizza sauce; purée mongole; wheatgrass; sweet potatoes; amaranth; brown windsor soup; soyo; sugar puffs; soup number five; fish sauce; liquor; german chocolate cake; red bean cake; sesame seeds; bananas; rose hip soup; tomato soup; rømmegrøt; shallots; carne de chango; onions; dip; booyah; butter cake; tucupi; sfouf; binignit; gulyásleves; lolly cake; coffee; tom yum; snow cone syrup; hyderabadi marag; vanilla beans; corn; yu choy; stollen; ábrystir; weetabix; aioli; cucumbers; taco soup; bánh bó; suet; artichokes; brown sauce; béchamel sauce; melons; arracachas; magiritsa; olives and capers; duckefett; raisin bran; caramel tart; soup all'imperatrice; chikhirtma; soursops; bulla cake; pandan cake; quisp; peanut butter cups; fish tea; pork chop; fiddlehead ferns; pique verde boricua; sago pudding; drunken noodles; ladurée; cereals; yam; mints; nali sauce; shchi; sachertorte; peas; coriander; goulash; buc wheats cereal; atemoyas; fruit salad; peaches; venetian sauce; wodzionka; dried soup; pumpkins; semifreddo; lemons; start; bitters; kulajda; mi san dao; crème ninon; béarnaise sauce; dessert platters; side dishes; french toast; toto; coffee creamer; frosted mini-wheats; carbonade flamande; wheat; horseradish sauce; schupfnudel; flourless chocolate cake; tarte tatin; pancake and maple syrup; madroã±o; wedding cake; scotch broth; senate bean soup; barley; bolognese sauce; uncle sam cereal; caldo verde; mannish water; non-dairy milk; mohnnudel; kek lapis sarawak; prinzregententorte; suckers; torta alla monferrina; malvern pudding; noodle with tomato egg sauce; bean sprouts; rab cake; bottled coffee drinks; christmas pudding; udon; brandy; flummery; pastisset; talunan; flavoured malt drinks; honey garlic sauce; tony's turboz; tahinopita; milky; sorrel; shahe fen; kinnathappam; pozole; sweets; corn chowder; limes; babi panggang; tavuk göğsü; satay sauce; oxtail soup; fresh seafood; tortillas; cumin; bánh chuối; oat milk; kouign-amann; rassolnik; berries; neapolitan ragù; amandine; tinned seafood; funing big cake; fudge; banh canh; chick peas; rambutans; loquats; tapenade; tekwan; zuppa alla modenese; waffle crisp; petit salé; kuzumochi; tonic water; okra; choi sum; sparkling wine; ga'at; calas; kladdkaka; radishes; dill; spice; haggis; wine cake; chorba; jicama; taffy; liqueurs; pineapples; sangria; katara; czernina; albert sauce; tipsy cake; mangosteens; chinese noodles; chiffon cake; black sesame rice cake; kissel; pesto; garlic; rawon; nettle soup; quince; tianmianjiang; hors d'oeuvres; madeira cake; cupcake; ragù; maya nuts; anchovy essence; tres leches cake; crunchy nut; ready brek; instant coffee; rasam; bebinca; ganache; simnel cake; borscht; may west; tuscan cabbage; opera cake; watercress; moambe; ganjang; ching bo leung; vlaai; borage; buttermilk; champorado; bay leaves; rice krispies; vegetable; kongguksu; apples; tempeh; gulgukbap; svartsoppa; upside-down cake; cream; kyselo; chives; konro; standing rib roast; parkin; tamarind; chocolate covered fruit; bakery; bok choi; alpha-bits; misua; bundt cake; aji; cocktail mixes; otak-otak; rocket; starfruits; dessert wine; berlingozzo; chutney; wedding soup; black noodles; morning funnies; torta caprese; piti; oats; oranges; muskazine; fruit 'n fibre; mangos; bow wow sauce; guavas; papayas; rock cake; frozen seafood; beurre blanc; nagasari; infusion; mustard; chocolate truffles; prepared sandwiches; christmas cake; mang tomas; shambar; beurre noisette; porra antequerana; gumbo; sussex pond pudding; tallow; meatcake; salt; shirataki noodles; babacos; salvitxada; sour cream; horseradish root; zosui; watalappam; figgy duff; rice wine; turtle soup; ezogelin soup; silver needle noodles; fresh meat; rosã© wine; fruit sauce; lane cake; lunch meats; lamian; parsley; parsnips; nut butters; bánh tét; herman cake; almonds; wine; leeks; corn flakes; waffle; organic beef; french onion soup; scott's porage oats; powdered beverage mixes; chinkiang pot cover noodles; bún bò huế; buttermilk koldskål; kiwis; tourin; instant noodle; complete wheat bran flakes; mamoncillo nuts; cream cheese; beef; butter tart; paprika; passion fruit; miyeok guk; bika ambon; malangas; fizzy drinks; spekkoek; feijoas; beer; gomguk; salad dressings; marjoram; kamby arro; bordelaise sauce; kalamai; soup alla canavese; vori vori; tangelos; salt pork; currants; french toast crunch; sour rye soup; rocky road cereal; red velvet cake; tahini; saang mein; helmipuuro; figgy pudding; kream krunch; jeonbokjuk; vegetable dip; sunflower seeds; hot and sour soup; kai kou xiao; okroshka; manjar branco; cheez whiz; apple sauce; mint sauce; somebody's mother's chocolate sauce; hazelnuts; avocados; buccellato; frosted flakes; bread sauce; cumberland sauce; hot dogs; gazpachuelo; zōni; draw soup; minestrone; sauce ravigote; vichyssoise; sugo all'amatriciana; beef noodle soup; fanesca; cake pop; kuy teav; pork; tembleque; coffee cakes; kaeng som; candy canes; carrots; breakfast sandwiches; sour soup; toffee brittle; vermouth; sauce lyonnaise; vinegar; yoghurt; tangerines; mămăligă; bredela; pineapple tart; jatjuk; syrup; ajoblanco; parsley roots; st. honoré cake; spice cake; siemieniotka; eggs; 100% bran; hidden treasures; bermuda fish chowder; pistachios; pastiera; tartar sauce; cactus leaves; brussels sprouts; sauce; vietnamese noodles; salsify; café de paris sauce; flavoured syrup; mint; miguelitos; singapore style noodle; sherbet; chewing gum; ok sauce; granula; cimpa; water; sage; pistachio pudding; mahyawa; gastrique; garash cake; chipa guasu; mafalde; non-alcoholic wine; okinawa soba; pears; princess cake; breakfast cereal; pain d'épices; toffee; leek soup; beer soup; sorrel soup; sapodillo; sauce gribiche; yaka mein; louis dressing; barley gruel; steak and kidney pudding; beverage; yi mein; coconuts; rye; cheese
+Relationships: 
+
+================================================================================
+Number of entities: 1000
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here is the list of parent-child relationships for the given concepts:
+
+1. fruit-flavoured drinks is a subtopic of food; 
+2. fruit-flavoured drinks is a subtopic of beverage; 
+3. fruit-flavoured drinks is a subtopic of fizzy drinks; 
+4. fruit-flavoured drinks is a subtopic of drinks; 
+5. fruit-flavoured drinks is a subtopic of sweet and sour pork; 
+6. fruit-flavoured drinks is a subtopic of fruit; 
+7. fruit-flavoured drinks is a subtopic of fruit salad; 
+8. fruit-flavoured drinks is a subtopic of fruit 'n fibre; 
+9. fruit-flavoured drinks is a subtopic of fruit chews; 
+10. fruit-flavoured drinks is a subtopic of fruit sauce; 
+11. fruit-flavoured drinks is a subtopic of fruit; 
+12. fruit-flavoured drinks is a subtopic of fruit; 
+13. fruit-flavoured drinks is a subtopic of fruit; 
+14. fruit-flavoured drinks is a subtopic of fruit; 
+15. fruit-flavoured drinks is a subtopic of fruit; 
+16. fruit-flavoured drinks is a subtopic of fruit; 
+17. fruit-flavoured drinks is a subtopic of fruit; 
+18. fruit-flavoured drinks is a subtopic of fruit; 
+19. fruit-flavoured drinks is a subtopic of fruit; 
+20. fruit-flavoured drinks is a subtopic of fruit; 
+21. fruit-flavoured drinks is a subtopic of fruit; 
+22. fruit-flavoured drinks is a subtopic of fruit; 
+23. fruit-flavoured drinks is a subtopic of fruit; 
+24. fruit-flavoured drinks is a subtopic of fruit; 
+25. fruit-flavoured drinks is a subtopic of fruit; 
+26. fruit-flavoured drinks is a subtopic of fruit; 
+27. fruit-flavoured drinks is a subtopic of fruit; 
+28. fruit-flavoured drinks is a subtopic of fruit; 
+29. fruit-flavoured drinks is a subtopic of fruit; 
+30. fruit-flavoured drinks is a subtopic of fruit; 
+31. fruit-flavoured drinks is a subtopic of fruit; 
+32. fruit-flavoured drinks is a subtopic of fruit; 
+33. fruit-flavoured drinks is a subtopic of fruit; 
+34. fruit-flavoured drinks is a subtopic of fruit; 
+35. fruit-flavoured drinks is a subtopic of fruit; 
+36. fruit-flavoured drinks is a subtopic of fruit; 
+37. fruit-flavoured drinks is a subtopic of fruit; 
+38. fruit-flavoured drinks is a subtopic of fruit; 
+39. fruit-flavoured drinks is a subtopic of fruit; 
+40. fruit-flavoured drinks is a subtopic of fruit; 
+41. fruit-flavoured drinks is a subtopic of fruit; 
+42. fruit-flavoured drinks is a subtopic of fruit; 
+43. fruit-flavoured drinks is a subtopic of fruit; 
+44. fruit-flavoured drinks is a subtopic of fruit; 
+45. fruit-flavoured drinks is a subtopic of fruit; 
+46. fruit-flavoured drinks is a subtopic of fruit; 
+47. fruit-flavoured drinks is a subtopic of fruit; 
+48. fruit-flavoured drinks is a subtopic of fruit; 
+49. fruit-flavoured drinks is a subtopic of fruit; 
+50. fruit-flavoured drinks is a subtopic of fruit; 
+51. fruit-flavoured drinks is a subtopic of fruit; 
+52. fruit-flavoured drinks is a subtopic of fruit; 
+53. fruit-flavoured drinks is a subtopic of fruit; 
+54. fruit-flavoured drinks is a subtopic of fruit; 
+55. fruit-flavoured drinks is a subtopic of fruit; 
+56. fruit-flavoured drinks is a subtopic of fruit; 
+57. fruit-flavoured drinks is a subtopic of fruit; 
+58. fruit-flavoured drinks is a subtopic of fruit; 
+59. fruit-flavoured drinks is a subtopic of fruit; 
+60. fruit-flavoured drinks is a subtopic of fruit; 
+61. fruit-flavoured drinks is a subtopic of fruit; 
+62. fruit-flavoured drinks is a subtopic of fruit; 
+63. fruit-flavoured drinks is a subtopic of fruit; 
+64. fruit-flavoured drinks is a subtopic of fruit; 
+65. fruit-flavoured drinks is a subtopic of fruit; 
+66. fruit-flavoured drinks is a subtopic of fruit; 
+67. fruit-flavoured drinks is a subtopic of fruit; 
+68. fruit-flavoured drinks is a subtopic of fruit; 
+69. fruit-flavoured drinks is a subtopic of fruit; 
+70. fruit-flavoured drinks is a subtopic of fruit; 
+71. fruit-flavoured drinks is a subtopic of fruit; 
+72. fruit-flavoured drinks is a subtopic of fruit; 
+73. fruit-flavoured drinks is a subtopic of fruit; 
+74. fruit-flavoured drinks is a subtopic of fruit; 
+75. fruit-flavoured drinks is a subtopic of fruit; 
+76. fruit-flavoured drinks is a subtopic of fruit; 
+77. fruit-flavoured drinks is a subtopic of fruit; 
+78. fruit-flavoured drinks is a subtopic of fruit; 
+79. fruit-flavoured drinks is a subtopic of fruit; 
+80. fruit-flavoured drinks is a subtopic of fruit; 
+81. fruit-flavoured drinks is a subtopic of fruit; 
+82. fruit-flavoured drinks is a subtopic of fruit; 
+83. fruit-flavoured drinks is a subtopic of fruit; 
+84. fruit-flavoured drinks is a subtopic of fruit; 
+85. fruit-flavoured drinks is a subtopic of fruit; 
+86. fruit-flavoured drinks is a subtopic of fruit; 
+87. fruit-flavoured drinks is a subtopic of fruit; 
+88. fruit-flavoured drinks is a subtopic of fruit; 
+89. fruit-flavoured drinks is a subtopic of fruit; 
+90. fruit-flavoured drinks is a subtopic of fruit; 
+91. fruit-flavoured drinks is a subtopic of fruit; 
+92. fruit-flavoured drinks is a subtopic of fruit; 
+93. fruit-flavoured drinks is a subtopic of fruit; 
+94. fruit-flavoured drinks is a subtopic of fruit; 
+95. fruit-flavoured drinks is a subtopic of fruit; 
+96. fruit-flavoured drinks is a subtopic of fruit; 
+97. fruit-flavoured drinks is a subtopic of fruit; 
+98. fruit-flavoured drinks is a subtopic of fruit; 
+99. fruit-flavoured drinks is a subtopic of fruit; 
+100. fruit-flavoured drinks is a subtopic of fruit; 
+101. fruit-flavoured drinks is a subtopic of fruit; 
+102. fruit-flavoured drinks is a subtopic of fruit; 
+103. fruit-flavoured drinks is a subtopic of fruit; 
+104. fruit-flavoured drinks is a subtopic of fruit; 
+105. fruit-flavoured drinks is a subtopic of fruit; 
+106. fruit-flavoured drinks is a subtopic of fruit; 
+107. fruit-flavoured drinks is a subtopic of fruit; 
+108. fruit-flavoured drinks is a subtopic of fruit; 
+109. fruit-flavoured drinks is a subtopic of fruit; 
+110. fruit-flavoured drinks is a subtopic of fruit; 
+111. fruit-flavoured drinks is a subtopic of fruit; 
+112. fruit-flavoured drinks is a subtopic of fruit; 
+113. fruit-flavoured drinks is a subtopic of fruit; 
+114. fruit-flavoured drinks is a subtopic of fruit; 
+115. fruit-flavoured drinks is a subtopic of fruit; 
+116. fruit-flavoured drinks is a subtopic of fruit; 
+117. fruit-flavoured drinks is a subtopic of fruit; 
+118. fruit-flavoured drinks is a subtopic of fruit; 
+119. fruit-flavoured drinks is a subtopic of fruit; 
+120. fruit-flavoured drinks is a subtopic of fruit; 
+121. fruit-flavoured drinks is a subtopic of fruit; 
+122. fruit-flavoured drinks is a subtopic of fruit; 
+123. fruit-flavoured drinks is a subtopic of fruit; 
+124. fruit-flavoured drinks is a subtopic of fruit; 
+125. fruit-flavoured drinks is a subtopic of fruit; 
+126. fruit-flavoured drinks is a subtopic of fruit; 
+127. fruit-flavoured drinks is a subtopic of fruit; 
+128. fruit-flavoured drinks is a subtopic of fruit; 
+129. fruit-flavoured drinks is a subtopic of fruit; 
+130. fruit-flavoured drinks is a subtopic of fruit; 
+131. fruit-flavoured drinks is a subtopic of fruit; 
+132. fruit-flavoured drinks is a subtopic of fruit; 
+133. fruit-flavoured drinks is a subtopic of fruit; 
+134. fruit-flavoured drinks is a subtopic of fruit; 
+135. fruit-flavoured drinks is a subtopic of fruit
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 134
+
+Parsed relationships:
+  fruit-flavoured drinks → beverage
+  fruit-flavoured drinks → fizzy drinks
+  fruit-flavoured drinks → drinks
+  fruit-flavoured drinks → sweet and sour pork
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit salad
+  fruit-flavoured drinks → fruit 'n fibre
+  fruit-flavoured drinks → fruit chews
+  fruit-flavoured drinks → fruit sauce
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+  fruit-flavoured drinks → fruit
+
+================================================================================

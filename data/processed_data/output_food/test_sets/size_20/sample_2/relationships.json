@@ -1,0 +1,97 @@
+[
+  {
+    "child_name": "cooking wine",
+    "parent_name": "cooking ingredient",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "barley",
+    "parent_name": "cereals",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "shortening and lard",
+    "parent_name": "cooking ingredient",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "macadamia nuts",
+    "parent_name": "seeds",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "tempeh",
+    "parent_name": "soy product",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "cereals",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "cooking ingredient",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "seeds",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "almonds",
+    "parent_name": "seeds",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "bakery",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "soy product",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "edible baking decoration",
+    "parent_name": "cooking ingredient",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "eggnog",
+    "parent_name": "beverage",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "frozen dessert",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "flavoured malt drinks",
+    "parent_name": "beverage",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "millet",
+    "parent_name": "cereals",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "beverage",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "juice",
+    "parent_name": "beverage",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "rye",
+    "parent_name": "cereals",
+    "relation_type": "IsA"
+  }
+]

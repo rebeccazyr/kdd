@@ -1,0 +1,357 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Architectures; Real-time systems; Single instruction, multiple data; Embedded systems; Multiple instruction, single data; Computing Classification System; Parallel architectures; Computer systems organization; Systolic arrays; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Embedded systems is a subtopic of Embedded and cyber-physical systems; Real-time systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Parallel architectures is a subtopic of Architectures; Systolic arrays is a subtopic of Parallel architectures; Multiple instruction, single data is a subtopic of Parallel architectures; Architectures is a subtopic of Computer systems organization; Single instruction, multiple data is a subtopic of Parallel architectures
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Architectures; Real-time systems; Fault-tolerant network topologies; Computer systems organization; Real-time languages; Embedded and cyber-physical systems; Processors and memory architectures; Dependable and fault-tolerant systems and networks; Maintainability and maintenance; Computing Classification System
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Pipeline computing; Computer systems organization; Architectures; Dependable and fault-tolerant systems and networks; Computing Classification System; Serial architectures; Embedded and cyber-physical systems; Interconnection architectures; Maintainability and maintenance; Parallel architectures
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures; Interconnection architectures is a subtopic of Parallel architectures; Pipeline computing is a subtopic of Serial architectures; Serial architectures is a subtopic of Architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Real-time languages; Architectures; Real-time systems; Optical computing; Other architectures; Real-time system specification; Computer systems organization; Embedded and cyber-physical systems; Quantum computing; Computing Classification System
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Real-time system specification is a subtopic of Real-time systems; Real-time languages is a subtopic of Real-time systems; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Quantum computing is a subtopic of Other architectures; Other architectures is a subtopic of Architectures; Optical computing is a subtopic of Other architectures; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Distributed architectures; Architectures; Embedded and cyber-physical systems; Computing Classification System; Dependable and fault-tolerant systems and networks; Serial architectures; Real-time system architecture; Processors and memory architectures; Real-time systems; Computer systems organization
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Serial architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Distributed architectures is a subtopic of Architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Real-time system architecture is a subtopic of Real-time systems; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Empirical studies in accessibility; Wireless integrated network sensors; Algebraic complexity theory; Document preparation; Models of computation; Decision analysis; Distance learning; Continuous mathematics; Equational logic and rewriting; Computing industry; Information storage technologies; Network manageability; Call level interfaces; Physical links; User characteristics; Document searching; Human-centered computing; Storage management; General and reference; Operations research; Integrated circuits; Online learning algorithms; Interactive proof systems; Process management; Authorization; Security and privacy; Mobile information processing systems; Graphics recognition and interpretation; Network performance analysis; Monitors; Computer forensics; Oracles and decision trees; Power management; Algebraic language theory; Circuit complexity; Proof complexity; Applied computing; Web services; Program semantics; Contextual software domains; Bloom filters and hashing; Psychology; Algebraic semantics; End nodes; Physical sciences and engineering; Probabilistic inference problems; Storage architectures; Data mining; Regular languages; Computer-managed instruction; Logic; Semantics and reasoning; Online advertising; Object oriented constructs; Accessibility; Formalisms; Topology analysis and generation; Data recovery; Caching and paging algorithms; Lower bounds and information complexity; Command and control; Computer-aided manufacturing; Streaming, sublinear and near linear time algorithms; Hardware; Evidence collection, storage and analysis; Finite Model Theory; Industry and manufacturing; Education; Coding theory; Design and analysis of algorithms; Data federation tools; Complexity theory and logic; Web mining; Automata extensions; Social advertising; Mathematical analysis; Format and notation; Semantic web description languages; Online handwriting recognition; Web Ontology Language (OWL); Network performance modeling; Image composition; Hypertext / hypermedia creation; Type theory; Law, social and behavioral sciences; Mathematics and statistics; Transportation; Automata over infinite objects; Empirical studies in interaction design; Agriculture; Formal languages and automata theory; Archaeology; Computational complexity and cryptography; Theory of computation; Information systems; Authentication; Topology; Display advertising; Database management system engines; Operating systems; K-server algorithms; Traffic analysis; Security services; Information systems applications; Software infrastructure; Physical topologies; Network components; Software and its engineering; Categorical semantics; Site wrapping; Network structure; Annotation; Cryptographic protocols; Modal and temporal logics; Data structures design and analysis; Software system structures; Surveillance mechanisms; Information theory; Cryptanalysis and other attacks; Anthropology; Query languages; Computing Classification System; Ad hoc networks; Social and professional topics; Program constructs; Network architectures; Stochastic processes; Buses and high-speed links; Law; Embedded systems security; Networks; Aerospace; Network reliability; Earth and atmospheric sciences; Integral equations; Data management systems; Web data description languages; Interaction design; Supply chain management; Process control systems; Network measurement; Collaborative learning; Network simulations; Computers in other domains; Network performance evaluation; Program reasoning; Nearest neighbor algorithms; Network properties; Economics; Engineering; World Wide Web; Network dynamics; Algebraic topology; Software organization and properties; Virtual worlds software; Automated reasoning; Information storage systems; Usability in security and privacy; Mathematical foundations of cryptography; Cloud based storage; Forecasting; Online algorithms; Web Services Description Language (WSDL); Multi-factor authentication; Network forensics; Software security engineering; Network experimentation; Wireless devices; Electronics; Computer-assisted instruction; Cryptography; Logical / virtual topologies; Data replication tools; Software and application security; Communication hardware, interfaces and storage; Service buses; Document capture; Middleware for databases; Web log analysis; Professional topics; Mathematics of computing; Universal Description Discovery and Integration (UDDI); Sociology; Programming interfaces; Network services; Accessibility technologies; Nonparametric statistics; Document management and text processing; Probability and statistics; Optical character recognition; Storage class memory; Message queues; Human and societal aspects of security and privacy; Tree languages; Tactile and hand-based interfaces; Max marginal computation; Higher order logic; Security in hardware; Network types; Packet-switching networks
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to break it down into a hierarchical structure. Here's a simplified version of the relationships:
+
+- Computing Classification System is a parent of:
+  - Computer systems organization
+  - Information systems
+  - Mathematics and statistics
+  - Law, social and behavioral sciences
+  - Engineering
+  - Physical sciences and engineering
+  - World Wide Web
+  - Computing industry
+  - Applied computing
+  - Human-centered computing
+  - Accessibility
+  - Security and privacy
+  - Formalisms
+  - Algebraic language theory
+  - Algebraic complexity theory
+  - Algebraic semantics
+  - Algebraic topology
+  - Automata extensions
+  - Automata over infinite objects
+  - Automata theory
+  - Categorical semantics
+  - Circuit complexity
+  - Coding theory
+  - Command and control
+  - Complexity theory and logic
+  - Computer-assisted instruction
+  - Computer-aided manufacturing
+  - Computer forensics
+  - Computer-managed instruction
+  - Computer systems organization
+  - Contextual software domains
+  - Cryptanalysis and other attacks
+  - Cryptographic protocols
+  - Cryptography
+  - Data federation tools
+  - Data management systems
+  - Data mining
+  - Data recovery
+  - Data structures design and analysis
+  - Decision analysis
+  - Design and analysis of algorithms
+  - Document capture
+  - Document management and text processing
+  - Document preparation
+  - Document searching
+  - Education
+  - Embedded systems security
+  - End nodes
+  - Empirical studies in accessibility
+  - Empirical studies in interaction design
+  - Evidence collection, storage and analysis
+  - Finite Model Theory
+  - Formal languages and automata theory
+  - Format and notation
+  - General and reference
+  - Graphics recognition and interpretation
+  - Hardware
+  - Higher order logic
+  - Human and societal aspects of security and privacy
+  - Hypertext / hypermedia creation
+  - Image composition
+  - Industry and manufacturing
+  - Information storage systems
+  - Information storage technologies
+  - Information systems
+  - Information systems applications
+  - Information theory
+  - Integrated circuits
+  - Interaction design
+  - Integral equations
+  - Internet
+  - K-server algorithms
+  - Law
+  - Learning
+  - Logic
+  - Lower bounds and information complexity
+  - Mathematics of computing
+  - Mathematical analysis
+  - Mathematical foundations of cryptography
+  - Max marginal computation
+  - Message queues
+  - Modal and temporal logics
+  - Monitors
+  - Multi-factor authentication
+  - Network architectures
+  - Network components
+  - Network dynamics
+  - Network experimentation
+  - Network forensics
+  - Network measurement
+  - Network performance analysis
+  - Network performance evaluation
+  - Network performance modeling
+  - Network properties
+  - Network reliability
+  - Network simulations
+  - Network structure
+  - Network types
+  - Networked systems
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems and services
+  - Networked systems
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

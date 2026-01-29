@@ -1,0 +1,97 @@
+[
+  {
+    "child_name": "pecans",
+    "parent_name": "seeds",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "wheat",
+    "parent_name": "cereals",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "pine nuts",
+    "parent_name": "seeds",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "frozen yoghurt",
+    "parent_name": "frozen dessert",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "mixed nuts",
+    "parent_name": "seeds",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "macadamia nuts",
+    "parent_name": "seeds",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "cereals",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "grits",
+    "parent_name": "cereals",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "seeds",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "bakery",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "soup",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "walnuts",
+    "parent_name": "seeds",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "frozen dessert",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "dairy product",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "beverage",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "chestnuts",
+    "parent_name": "seeds",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "soy nuts",
+    "parent_name": "seeds",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "rye",
+    "parent_name": "cereals",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "meat",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  }
+]

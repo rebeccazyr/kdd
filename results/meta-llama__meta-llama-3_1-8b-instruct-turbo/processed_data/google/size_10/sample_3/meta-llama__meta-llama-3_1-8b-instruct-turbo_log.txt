@@ -1,0 +1,88 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Reloading Supplies & Equipment; Ammunition Cases & Holders; Combat Knives; Gun Holsters; Weapons; Gun Care & Accessories; Google Product Taxonomy; Staff & Stick Weapons; Mature; Spears
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Gun Holsters is a subtopic of Gun Care & Accessories; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Weapons is a subtopic of Mature; Staff & Stick Weapons is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Combat Knives is a subtopic of Weapons; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Stun Guns & Tasers; Staff & Stick Weapons; Mature; Gun Care & Accessories; Google Product Taxonomy; Ammunition; Swords; Gun Lights; Gun Cases & Range Bags; Weapons
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Gun Lights is a subtopic of Gun Care & Accessories; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Weapons is a subtopic of Mature; Stun Guns & Tasers is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Guns; Throwing Stars; Weapons; Google Product Taxonomy; Whips; Nunchucks; Stun Guns & Tasers; Gun Care & Accessories; Mature; Erotic
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Weapons is a subtopic of Mature; Guns is a subtopic of Weapons; Whips is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Throwing Stars is a subtopic of Weapons; Erotic is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic; Erotic Games; Erotic DVDs & Videos; Mature; Google Product Taxonomy; Erotic Clothing; Erotic Food & Edibles; Erotic Books; Erotic Magazines; Pole Dancing Kits
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Clothing is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic Games is a subtopic of Erotic; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Erotic Magazines is a subtopic of Erotic; Erotic Books is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Gun Grips; Weapons; Google Product Taxonomy; Gun Care & Accessories; Stun Guns & Tasers; Gun Slings; Staff & Stick Weapons; Mature; Swords; Spears
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Stun Guns & Tasers is a subtopic of Weapons; Swords is a subtopic of Weapons; Weapons is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Gun Slings is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Luggage & Bags; Media; Fireplaces; Carpentry & Woodworking Project Plans; Lighting Accessories; Sporting Goods; Google Product Taxonomy; Food, Beverages & Tobacco; Hardware; Home & Garden
+Relationships: 
+
+================================================================================
+Number of entities: 10
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Home & Garden is a subtopic of Google Product Taxonomy; Sporting Goods is a subtopic of Home & Garden; Hardware is a subtopic of Home & Garden; Fireplaces is a subtopic of Home & Garden; Carpentry & Woodworking Project Plans is a subtopic of Hardware; Lighting Accessories is a subtopic of Hardware; Luggage & Bags is a subtopic of Home & Garden; Food, Beverages & Tobacco is a subtopic of Google Product Taxonomy; Media is a subtopic of Google Product Taxonomy
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 9
+
+Parsed relationships:
+  Home & Garden → Google Product Taxonomy
+  Sporting Goods → Home & Garden
+  Hardware → Home & Garden
+  Fireplaces → Home & Garden
+  Carpentry & Woodworking Project Plans → Hardware
+  Lighting Accessories → Hardware
+  Luggage & Bags → Home & Garden
+  Food, Beverages & Tobacco → Google Product Taxonomy
+  Media → Google Product Taxonomy
+
+================================================================================

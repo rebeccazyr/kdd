@@ -1,0 +1,230 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Mature; Spears; Reloading Supplies & Equipment; Staff & Stick Weapons; Gun Holsters; Ammunition Cases & Holders; Weapons; Google Product Taxonomy; Combat Knives; Gun Care & Accessories
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Gun Holsters is a subtopic of Gun Care & Accessories; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Spears is a subtopic of Weapons; Combat Knives is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Staff & Stick Weapons; Gun Cases & Range Bags; Stun Guns & Tasers; Weapons; Gun Lights; Mature; Ammunition; Gun Care & Accessories; Swords; Google Product Taxonomy
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Gun Lights is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Stun Guns & Tasers is a subtopic of Weapons; Swords is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Guns; Weapons; Nunchucks; Throwing Stars; Google Product Taxonomy; Erotic; Stun Guns & Tasers; Mature; Whips
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Whips is a subtopic of Weapons; Guns is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Nunchucks is a subtopic of Weapons; Erotic is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic DVDs & Videos; Erotic Books; Erotic Magazines; Mature; Erotic Food & Edibles; Erotic Games; Erotic Clothing; Pole Dancing Kits; Google Product Taxonomy; Erotic
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Food & Edibles is a subtopic of Erotic; Erotic Games is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Pole Dancing Kits is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Books is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Swords; Mature; Gun Slings; Gun Care & Accessories; Staff & Stick Weapons; Google Product Taxonomy; Weapons; Stun Guns & Tasers; Gun Grips; Spears
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Stun Guns & Tasers is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Staff & Stick Weapons is a subtopic of Weapons; Swords is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Media; Brackets & Reinforcement Braces; Handheld Power Mixers; Concrete Molds; Tap Reseaters; Hardware Pumps; Tool Keys; Power Inverters; Beds & Accessories; Photography; Hardware Torches; Cameras & Optics; Tie Down Straps; Electrical Switches; Furniture; Tools; Sofa Accessories; Electrical Motors; Threading Machines; Bungee Cords; Computer Software; Solar Panels; Building Consumables; Hardware; Cabinet Hardware; Saw Horses; Electrical Mount Boxes & Brackets; Dollies & Hand Trucks; Abrasive Blasters; Wire Terminals & Connectors; Sanders; Sporting Goods; Ottomans; Taps & Dies; Google Product Taxonomy; Small Engines; Pliers; Building Materials; Chain, Wire & Rope; Hatches; Wrenches; Polishers & Buffers; Ground Spikes; Software; Power & Electrical Supplies; Glass; Hardware Accessories; Digital Goods & Currency; Insulation; Concrete Brooms
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here's the list of parent-child relationships:
+
+1. Google Product Taxonomy is a parent of Hardware.
+2. Hardware is a parent of Building Consumables.
+3. Building Consumables is a parent of Concrete Brooms.
+4. Hardware is a parent of Hardware Accessories.
+5. Hardware Accessories is a parent of Brackets & Reinforcement Braces.
+6. Hardware Accessories is a parent of Tie Down Straps.
+7. Hardware Accessories is a parent of Bungee Cords.
+8. Hardware Accessories is a parent of Electrical Mount Boxes & Brackets.
+9. Hardware Accessories is a parent of Cabinet Hardware.
+10. Hardware Accessories is a parent of Saw Horses.
+11. Hardware Accessories is a parent of Dollies & Hand Trucks.
+12. Hardware Accessories is a parent of Ground Spikes.
+13. Hardware is a parent of Power & Electrical Supplies.
+14. Power & Electrical Supplies is a parent of Electrical Switches.
+15. Power & Electrical Supplies is a parent of Electrical Motors.
+16. Power & Electrical Supplies is a parent of Wire Terminals & Connectors.
+17. Power & Electrical Supplies is a parent of Hardware Torches.
+18. Power & Electrical Supplies is a parent of Power Inverters.
+19. Hardware is a parent of Tools.
+20. Tools is a parent of Handheld Power Mixers.
+21. Tools is a parent of Sanders.
+22. Tools is a parent of Polishers & Buffers.
+23. Tools is a parent of Abrasive Blasters.
+24. Tools is a parent of Wrenches.
+25. Tools is a parent of Pliers.
+26. Tools is a parent of Taps & Dies.
+27. Tools is a parent of Threading Machines.
+28. Hardware is a parent of Building Materials.
+29. Building Materials is a parent of Glass.
+30. Building Materials is a parent of Insulation.
+31. Building Materials is a parent of Concrete Molds.
+32. Hardware is a parent of Chain, Wire & Rope.
+33. Chain, Wire & Rope is a parent of Hatches.
+34. Hardware is a parent of Small Engines.
+35. Google Product Taxonomy is a parent of Furniture.
+36. Furniture is a parent of Beds & Accessories.
+37. Furniture is a parent of Sofa Accessories.
+38. Furniture is a parent of Ottomans.
+39. Google Product Taxonomy is a parent of Sporting Goods.
+40. Sporting Goods is a parent of Staff & Stick Weapons.
+41. Sporting Goods is a parent of Swords.
+42. Sporting Goods is a parent of Spears.
+43. Google Product Taxonomy is a parent of Photography.
+44. Photography is a parent of Cameras & Optics.
+45. Google Product Taxonomy is a parent of Media.
+46. Media is a parent of Digital Goods & Currency.
+47. Google Product Taxonomy is a parent of Computer Software.
+48. Computer Software is a parent of Software.
+49. Google Product Taxonomy is a parent of Hardware Pumps.
+50. Hardware Pumps is a parent of Tap Reseaters.
+51. Google Product Taxonomy is a parent of Tool Keys.
+52. Google Product Taxonomy is a parent of Electrical Mount Boxes & Brackets.
+53. Google Product Taxonomy is a parent of Electrical Switches.
+54. Google Product Taxonomy is a parent of Electrical Motors.
+55. Google Product Taxonomy is a parent of Wire Terminals & Connectors.
+56. Google Product Taxonomy is a parent of Hardware Torches.
+57. Google Product Taxonomy is a parent of Power Inverters.
+58. Google Product Taxonomy is a parent of Small Engines.
+59. Google Product Taxonomy is a parent of Building Materials.
+60. Google Product Taxonomy is a parent of Chain, Wire & Rope.
+61. Google Product Taxonomy is a parent of Insulation.
+62. Google Product Taxonomy is a parent of Concrete Molds.
+63. Google Product Taxonomy is a parent of Concrete Brooms.
+64. Google Product Taxonomy is a parent of Ground Spikes.
+65. Google Product Taxonomy is a parent of Ground Spikes.
+66. Google Product Taxonomy is a parent of Dollies & Hand Trucks.
+67. Google Product Taxonomy is a parent of Saw Horses.
+68. Google Product Taxonomy is a parent of Cabinet Hardware.
+69. Google Product Taxonomy is a parent of Electrical Mount Boxes & Brackets.
+70. Google Product Taxonomy is a parent of Electrical Switches.
+71. Google Product Taxonomy is a parent of Electrical Motors.
+72. Google Product Taxonomy is a parent of Wire Terminals & Connectors.
+73. Google Product Taxonomy is a parent of Hardware Torches.
+74. Google Product Taxonomy is a parent of Power Inverters.
+75. Google Product Taxonomy is a parent of Small Engines.
+76. Google Product Taxonomy is a parent of Building Materials.
+77. Google Product Taxonomy is a parent of Chain, Wire & Rope.
+78. Google Product Taxonomy is a parent of Insulation.
+79. Google Product Taxonomy is a parent of Concrete Molds.
+80. Google Product Taxonomy is a parent of Concrete Brooms.
+81. Google Product Taxonomy is a parent of Ground Spikes.
+82. Google Product Taxonomy is a parent of Dollies & Hand Trucks.
+83. Google Product Taxonomy is a parent of Saw Horses.
+84. Google Product Taxonomy is a parent of Cabinet Hardware.
+85. Google Product Taxonomy is a parent of Electrical Mount Boxes & Brackets.
+86. Google Product Taxonomy is a parent of Electrical Switches.
+87. Google Product Taxonomy is a parent of Electrical Motors.
+88. Google Product Taxonomy is a parent of Wire Terminals & Connectors.
+89. Google Product Taxonomy is a parent of Hardware Torches.
+90. Google Product Taxonomy is a parent of Power Inverters.
+91. Google Product Taxonomy is a parent of Small Engines.
+92. Google Product Taxonomy is a parent of Building Materials.
+93. Google Product Taxonomy is a parent of Chain, Wire & Rope.
+94. Google Product Taxonomy is a parent of Insulation.
+95. Google Product Taxonomy is a parent of Concrete Molds.
+96. Google Product Taxonomy is a parent of Concrete Brooms.
+97. Google Product Taxonomy is a parent of Ground Spikes.
+98. Google Product Taxonomy is a parent of Dollies & Hand Trucks.
+99. Google Product Taxonomy is a parent of Saw Horses.
+100. Google Product Taxonomy is a parent of Cabinet Hardware.
+101. Google Product Taxonomy is a parent of Electrical Mount Boxes & Brackets.
+102. Google Product Taxonomy is a parent of Electrical Switches.
+103. Google Product Taxonomy is a parent of Electrical Motors.
+104. Google Product Taxonomy is a parent of Wire Terminals & Connectors.
+105. Google Product Taxonomy is a parent of Hardware Torches.
+106. Google Product Taxonomy is a parent of Power Inverters.
+107. Google Product Taxonomy is a parent of Small Engines.
+108. Google Product Taxonomy is a parent of Building Materials.
+109. Google Product Taxonomy is a parent of Chain, Wire & Rope.
+110. Google Product Taxonomy is a parent of Insulation.
+111. Google Product Taxonomy is a parent of Concrete Molds.
+112. Google Product Taxonomy is a parent of Concrete Brooms.
+113. Google Product Taxonomy is a parent of Ground Spikes.
+114. Google Product Taxonomy is a parent of Dollies & Hand Trucks.
+115. Google Product Taxonomy is a parent of Saw Horses.
+116. Google Product Taxonomy is a parent of Cabinet Hardware.
+117. Google Product Taxonomy is a parent of Electrical Mount Boxes & Brackets.
+118. Google Product Taxonomy is a parent of Electrical Switches.
+119. Google Product Taxonomy is a parent of Electrical Motors.
+120. Google Product Taxonomy is a parent of Wire Terminals & Connectors.
+121. Google Product Taxonomy is a parent of Hardware Torches.
+122. Google Product Taxonomy is a parent of Power Inverters.
+123. Google Product Taxonomy is a parent of Small Engines.
+124. Google Product Taxonomy is a parent of Building Materials.
+125. Google Product Taxonomy is a parent of Chain, Wire & Rope.
+126. Google Product Taxonomy is a parent of Insulation.
+127. Google Product Taxonomy is a parent of Concrete Molds.
+128. Google Product Taxonomy is a parent of Concrete Brooms.
+129. Google Product Taxonomy is a parent of Ground Spikes.
+130. Google Product Taxonomy is a parent of Dollies & Hand Trucks.
+131. Google Product Taxonomy is a parent of Saw Horses.
+132. Google Product Taxonomy is a parent of Cabinet Hardware.
+133. Google Product Taxonomy is a parent of Electrical Mount Boxes & Brackets.
+134. Google Product Taxonomy is a parent of Electrical Switches.
+135. Google Product Taxonomy is a parent of Electrical Motors.
+136. Google Product Taxonomy is a parent of Wire Terminals & Connectors.
+137. Google Product Taxonomy is a parent of Hardware Torches.
+138. Google Product Taxonomy is a parent of Power Inverters.
+139. Google Product Taxonomy is a parent of Small Engines.
+140. Google Product Taxonomy is a parent of Building Materials.
+141. Google Product Taxonomy is a parent of Chain, Wire & Rope.
+142. Google Product Taxonomy is a parent of Insulation.
+143. Google Product Taxonomy is a parent of Concrete Molds.
+144. Google Product Taxonomy is a parent of Concrete Brooms.
+145. Google Product Taxonomy is a parent of Ground Spikes.
+146. Google Product Taxonomy is a parent of Dollies & Hand Trucks.
+147. Google Product Taxonomy is a parent of Saw Horses.
+148. Google Product Taxonomy is a parent of Cabinet Hardware.
+149. Google Product Taxonomy is a parent of Electrical Mount Boxes & Brackets.
+150. Google Product Taxonomy is a
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

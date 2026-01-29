@@ -1,0 +1,47 @@
+[
+  {
+    "child_name": "chikhirtma",
+    "parent_name": "soup",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "sour rye soup",
+    "parent_name": "soup",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "talunan",
+    "parent_name": "soup",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "cold borsch",
+    "parent_name": "soup",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "dalithoy",
+    "parent_name": "soup",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "bisque",
+    "parent_name": "soup",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "soup",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "crème ninon",
+    "parent_name": "soup",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "pottage",
+    "parent_name": "soup",
+    "relation_type": "IsA"
+  }
+]

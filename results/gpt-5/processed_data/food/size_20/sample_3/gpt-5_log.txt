@@ -1,0 +1,98 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: pici; pasta; spaghetti; food; occhi di lupo; bavette; gemelli; cannelloni; fagottini; fusilli
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+cannelloni is a subtopic of pasta; fagottini is a subtopic of pasta; pasta is a subtopic of food; fusilli is a subtopic of pasta; gemelli is a subtopic of pasta; pici is a subtopic of pasta; spaghetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta; bavette is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: linguine; pasta; spaghetti; mezzelune; sacchettoni; rotini; fuži; corzetti; croxetti; food
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+sacchettoni is a subtopic of pasta; fuži is a subtopic of pasta; pasta is a subtopic of food; croxetti is a subtopic of pasta; spaghetti is a subtopic of pasta; rotini is a subtopic of pasta; mezzelune is a subtopic of pasta; corzetti is a subtopic of pasta; linguine is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: corzetti; stringozzi; occhi di lupo; pasta; mezzelune; anellini; food; fuži; bigoli; garganelli
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+corzetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta; mezzelune is a subtopic of pasta; fuži is a subtopic of pasta; pasta is a subtopic of food; stringozzi is a subtopic of pasta; bigoli is a subtopic of pasta; garganelli is a subtopic of pasta; anellini is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: rotini; pasta; spaghetti; passatelli; lanterne; campanelle; food; macaroni; ptitim; casoncelli
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+pasta is a subtopic of food; ptitim is a subtopic of pasta; rotini is a subtopic of pasta; macaroni is a subtopic of pasta; passatelli is a subtopic of pasta; casoncelli is a subtopic of pasta; lanterne is a subtopic of pasta; spaghetti is a subtopic of pasta; campanelle is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: food; spaghetti; mezzelune; stringozzi; penne; rotelle; pasta; sacchettoni; rotini; ptitim
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+rotini is a subtopic of pasta; rotelle is a subtopic of pasta; mezzelune is a subtopic of pasta; stringozzi is a subtopic of pasta; sacchettoni is a subtopic of pasta; penne is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: frozen seafood; food; salsa; noodle; cupcakes; fudge; donuts; cereals; vinegar drinks; seafood; bakery; liquor; soy product; cocktail mixes; whisky; millet; beverage; dip; pillus; bitters
+Relationships: 
+
+================================================================================
+Number of entities: 20
+Model: gpt-5
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+beverage is a subtopic of food; bakery is a subtopic of food; seafood is a subtopic of food; soy product is a subtopic of food; cereals is a subtopic of food; dip is a subtopic of food; noodle is a subtopic of food; frozen seafood is a subtopic of seafood; vinegar drinks is a subtopic of beverage; cocktail mixes is a subtopic of beverage; liquor is a subtopic of beverage; whisky is a subtopic of liquor; bitters is a subtopic of liquor; donuts is a subtopic of bakery; cupcakes is a subtopic of bakery; fudge is a subtopic of bakery; salsa is a subtopic of dip; pillus is a subtopic of noodle; millet is a subtopic of cereals
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 19
+
+Parsed relationships:
+  beverage → food
+  bakery → food
+  seafood → food
+  soy product → food
+  cereals → food
+  dip → food
+  noodle → food
+  frozen seafood → seafood
+  vinegar drinks → beverage
+  cocktail mixes → beverage
+  liquor → beverage
+  whisky → liquor
+  bitters → liquor
+  donuts → bakery
+  cupcakes → bakery
+  fudge → bakery
+  salsa → dip
+  pillus → noodle
+  millet → cereals
+
+================================================================================

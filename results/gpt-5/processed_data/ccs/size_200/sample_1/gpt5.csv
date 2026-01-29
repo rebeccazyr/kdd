@@ -1,0 +1,200 @@
+child,parent
+Hardware,Computing Classification System
+Computing methodologies,Computing Classification System
+Information systems,Computing Classification System
+Theory of computation,Computing Classification System
+Mathematics of computing,Computing Classification System
+Applied computing,Computing Classification System
+Security and privacy,Computing Classification System
+Human-centered computing,Computing Classification System
+Social and professional topics,Computing Classification System
+General and reference,Computing Classification System
+Professional topics,Social and professional topics
+Management of computing and information systems,Professional topics
+Computing / technology policy,Professional topics
+"Computing standards, RFCs and guidelines",Professional topics
+Project and people management,Professional topics
+Patents,Professional topics
+Intellectual property,Professional topics
+Computing industry,Professional topics
+Information systems applications,Information systems
+World Wide Web,Information systems
+Multimedia information systems,Information systems
+Information retrieval,Information systems
+Health care information systems,Information systems applications
+Massively multiplayer online games,Information systems applications
+Health information exchanges,Information systems applications
+Multimedia databases,Multimedia information systems
+Image compression,Multimedia information systems
+Image manipulation,Multimedia information systems
+Specialized information retrieval,Information retrieval
+Retrieval models and ranking,Information retrieval
+Information retrieval query processing,Information retrieval
+Search engine architectures and scalability,Information retrieval
+Search engine indexing,Information retrieval
+Search index compression,Information retrieval
+Retrieval effectiveness,Information retrieval
+Evaluation of retrieval results,Information retrieval
+Retrieval efficiency,Information retrieval
+Top-k retrieval in databases,Information retrieval
+Information retrieval diversity,Information retrieval
+Rank aggregation,Information retrieval
+Link and co-citation analysis,Information retrieval
+Probabilistic representations,Information retrieval
+Probabilistic retrieval models,Retrieval models and ranking
+Peer-to-peer retrieval,Specialized information retrieval
+Adversarial retrieval,Specialized information retrieval
+Searching with auxiliary databases,Specialized information retrieval
+"Combination, fusion and federated search",Specialized information retrieval
+Very large scale integration design,Hardware
+Hardware validation,Hardware
+Hardware reliability,Hardware
+Power and energy,Hardware
+On-chip sensors,Hardware
+Application specific instruction set processors,Hardware
+VLSI system specification and constraints,Very large scale integration design
+Application-specific VLSI designs,Very large scale integration design
+VLSI design manufacturing considerations,Very large scale integration design
+Design for manufacturability,VLSI design manufacturing considerations
+Design reuse and communication-based design,Very large scale integration design
+Soft intellectual property,Very large scale integration design
+Platform-based design,Very large scale integration design
+Die and wafer stacking,Very large scale integration design
+VLSI packaging,Very large scale integration design
+Yield and cost optimization,Very large scale integration design
+Functional verification,Hardware validation
+Physical verification,Hardware validation
+Aging of circuits and systems,Hardware reliability
+Fault tolerance,Hardware reliability
+Power estimation and optimization,Power and energy
+Circuits power issues,Power and energy
+Thermal issues,Power and energy
+Temperature monitoring,Power and energy
+Machine learning,Computing methodologies
+Modeling and simulation,Computing methodologies
+Computer graphics,Computing methodologies
+Parallel computing methodologies,Computing methodologies
+Distributed computing methodologies,Computing methodologies
+Concurrent computing methodologies,Computing methodologies
+Machine learning algorithms,Machine learning
+Learning settings,Machine learning
+Learning paradigms,Machine learning
+Machine learning approaches,Machine learning
+Learning latent representations,Machine learning
+Cross-validation,Machine learning
+Robustness,Machine learning
+Online learning settings,Learning settings
+Batch learning,Learning settings
+Semi-supervised learning settings,Learning settings
+Simulation theory,Modeling and simulation
+Simulation types and techniques,Modeling and simulation
+Simulation support systems,Modeling and simulation
+Simulation environments,Modeling and simulation
+Simulation evaluation,Modeling and simulation
+Model development and analysis,Modeling and simulation
+Model verification and validation,Modeling and simulation
+Animation,Computer graphics
+Motion processing,Animation
+Models of computation,Theory of computation
+Logic,Theory of computation
+Semantics and reasoning,Theory of computation
+Formal languages and automata theory,Theory of computation
+Computational complexity and cryptography,Theory of computation
+Probabilistic computation,Theory of computation
+"Randomness, geometry and discrete structures",Theory of computation
+Theory and algorithms for application domains,Theory of computation
+Interactive computation,Models of computation
+Abstract machines,Models of computation
+Type theory,Logic
+Programming logic,Logic
+Proof theory,Logic
+Automated reasoning,Logic
+Higher order logic,Logic
+Modal and temporal logics,Logic
+Constraint and logic programming,Logic
+Hoare logic,Programming logic
+Program semantics,Semantics and reasoning
+Program reasoning,Semantics and reasoning
+Program analysis,Semantics and reasoning
+Program verification,Semantics and reasoning
+Equivalence checking,Semantics and reasoning
+Verification,Semantics and reasoning
+Assertions,Semantics and reasoning
+Operational semantics,Program semantics
+Denotational semantics,Program semantics
+Algebraic semantics,Program semantics
+Categorical semantics,Program semantics
+Action semantics,Program semantics
+Program constructs,Program semantics
+Regular languages,Formal languages and automata theory
+Automata over infinite objects,Formal languages and automata theory
+Tree languages,Formal languages and automata theory
+Algebraic complexity theory,Computational complexity and cryptography
+Complexity classes,Computational complexity and cryptography
+Communication complexity,Computational complexity and cryptography
+Circuit complexity,Computational complexity and cryptography
+"Problems, reductions and completeness",Computational complexity and cryptography
+Interactive proof systems,Computational complexity and cryptography
+Random graphs,"Randomness, geometry and discrete structures"
+Collision detection,Theory and algorithms for application domains
+Dynamic programming for Markov decision processes,Theory and algorithms for application domains
+Value iteration,Theory and algorithms for application domains
+Probability and statistics,Mathematics of computing
+Discrete mathematics,Mathematics of computing
+Constructive mathematics,Mathematics of computing
+Multivariate statistics,Probability and statistics
+Random walks and Markov chains,Probability and statistics
+Estimation,Probability and statistics
+Graph theory,Discrete mathematics
+Combinatorics,Discrete mathematics
+Network science,Discrete mathematics
+Trees,Graph theory
+Paths and connectivity problems,Graph theory
+Hypergraphs,Graph theory
+Graph enumeration,Graph theory
+Permutations and combinations,Combinatorics
+Enumeration,Combinatorics
+Combinatorial optimization,Combinatorics
+Matroids and greedoids,Combinatorics
+Generating random combinatorial structures,Combinatorics
+Combinatoric problems,Combinatorics
+Life and medical sciences,Applied computing
+Process control systems,Applied computing
+Sustainability,Applied computing
+Energy generation and storage,Applied computing
+Computational biology,Life and medical sciences
+Medical technologies,Life and medical sciences
+Sequencing and genotyping technologies,Life and medical sciences
+Systems biology,Computational biology
+Metabolomics / metabonomics,Computational biology
+Biological networks,Systems biology
+Fuel-based energy,Energy generation and storage
+Cryptographic primitives,Security and privacy
+Cryptographic protocols,Security and privacy
+Database and storage security,Security and privacy
+Usability in security and privacy,Security and privacy
+Privacy policies,Security and privacy
+Human and societal aspects of security and privacy,Security and privacy
+Censorship,Human and societal aspects of security and privacy
+Surveillance,Human and societal aspects of security and privacy
+Corporate surveillance,Human and societal aspects of security and privacy
+General literature,General and reference
+Reference works,General and reference
+Document types,General and reference
+History of computing,General and reference
+Design,General and reference
+Evaluation,General and reference
+Measurement,General and reference
+Cross-computing tools and techniques,General and reference
+History of computing theory,History of computing
+History of programming languages,History of computing
+History of software,History of computing
+Government technology policy,Computing / technology policy
+Medical information policy,Computing / technology policy
+Database protection laws,Computing / technology policy
+Software management,Management of computing and information systems
+Software maintenance,Management of computing and information systems
+Software selection and adaptation,Management of computing and information systems
+Systems analysis and design,Management of computing and information systems
+System management,Management of computing and information systems
+Network operations,Management of computing and information systems

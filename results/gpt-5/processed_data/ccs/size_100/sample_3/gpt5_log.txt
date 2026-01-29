@@ -1,0 +1,175 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Computing Classification System; Architectures; Systolic arrays; Real-time systems; Multiple instruction, single data; Single instruction, multiple data; Parallel architectures; Computer systems organization; Embedded systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Multiple instruction, single data is a subtopic of Parallel architectures; Systolic arrays is a subtopic of Parallel architectures; Parallel architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Embedded systems is a subtopic of Embedded and cyber-physical systems; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Single instruction, multiple data is a subtopic of Parallel architectures
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Processors and memory architectures; Computer systems organization; Dependable and fault-tolerant systems and networks; Architectures; Real-time systems; Real-time languages; Computing Classification System; Fault-tolerant network topologies; Maintainability and maintenance
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Real-time systems is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Computer systems organization; Embedded and cyber-physical systems; Maintainability and maintenance; Parallel architectures; Pipeline computing; Serial architectures; Architectures; Interconnection architectures; Computing Classification System; Dependable and fault-tolerant systems and networks
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Pipeline computing is a subtopic of Serial architectures; Interconnection architectures is a subtopic of Parallel architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Serial architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System; Parallel architectures is a subtopic of Architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Other architectures; Real-time languages; Real-time system specification; Optical computing; Computing Classification System; Real-time systems; Computer systems organization; Architectures; Quantum computing; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Optical computing is a subtopic of Other architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Quantum computing is a subtopic of Other architectures; Architectures is a subtopic of Computer systems organization; Other architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System; Real-time system specification is a subtopic of Real-time systems; Real-time languages is a subtopic of Real-time systems; Real-time systems is a subtopic of Computer systems organization
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Architectures; Dependable and fault-tolerant systems and networks; Distributed architectures; Serial architectures; Embedded and cyber-physical systems; Processors and memory architectures; Computer systems organization; Computing Classification System; Real-time system architecture; Real-time systems
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Real-time systems is a subtopic of Computer systems organization; Distributed architectures is a subtopic of Architectures; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System; Real-time system architecture is a subtopic of Real-time systems; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Mathematical software; Decision analysis; Distance learning; Continuous mathematics; Human-centered computing; General and reference; Network monitoring; Operations research; Integrated circuits; IT governance; Domain-specific security and privacy architectures; Security and privacy; Computing platforms; Factor graphs; Multivariate statistics; Geometric topology; Applied computing; Tamper-proof and tamper-resistant designs; Stochastic differential equations; Semantics and reasoning; Hardware attacks and countermeasures; Combinatorics on words; Resampling methods; Logic families; Information-theoretic techniques; Hardware; Marketing; Post-manufacture validation and debug; Education; Interactive learning environments; Mathematical analysis; Graph theory; Consumer products; Management and querying of encrypted data; Intrusion/anomaly detection and malware mitigation; Law, social and behavioral sciences; Enterprise interoperability; Causal networks; Formal languages and automata theory; Continuous functions; Functional verification; Theory of computation; Information systems; Discrete mathematics; Topology; In-network processing; Database activity monitoring; Economics of security and privacy; Combinatoric problems; Enterprise computing; Bootstrapping; Probabilistic representations; Information systems applications; Random graphs; Interconnect; Grammars and context-free languages; Computing Classification System; Extremal graph theory; Social and professional topics; Network architectures; Stochastic processes; Probabilistic algorithms; Embedded systems security; Networks; Paths and connectivity problems; Programmable networks; Digital switches; Hardware validation; Combinatorics; Probabilistic reasoning algorithms; Database and storage security; Business rules; Computers in other domains; Combinatorial optimization; Network properties; Network dynamics; Algebraic topology; Quadrature; Hardware security implementation; Multi-criterion optimization and decision-making; Information storage systems; Privacy protections; Software security engineering; Social aspects of security and privacy; Event-driven architectures; Cryptography; Software and application security; Mathematics of computing; IT architectures; Network services; Metallic interconnect; Nonparametric statistics; Graph enumeration; Hardware-based security protocols; Probability and statistics; Matroids and greedoids; Markov networks; Human and societal aspects of security and privacy; Security in hardware; Network types
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: gpt-5
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Mathematics of computing is a subtopic of Computing Classification System; Theory of computation is a subtopic of Computing Classification System; Hardware is a subtopic of Computing Classification System; Networks is a subtopic of Computing Classification System; Information systems is a subtopic of Computing Classification System; Applied computing is a subtopic of Computing Classification System; Security and privacy is a subtopic of Computing Classification System; Human-centered computing is a subtopic of Computing Classification System; General and reference is a subtopic of Computing Classification System; Social and professional topics is a subtopic of Computing Classification System; Continuous mathematics is a subtopic of Mathematics of computing; Discrete mathematics is a subtopic of Mathematics of computing; Probability and statistics is a subtopic of Mathematics of computing; Mathematical software is a subtopic of Mathematics of computing; Topology is a subtopic of Mathematics of computing; Graph theory is a subtopic of Discrete mathematics; Combinatorics is a subtopic of Discrete mathematics; Matroids and greedoids is a subtopic of Discrete mathematics; Random graphs is a subtopic of Graph theory; Extremal graph theory is a subtopic of Graph theory; Graph enumeration is a subtopic of Graph theory; Paths and connectivity problems is a subtopic of Graph theory; Combinatoric problems is a subtopic of Combinatorics; Nonparametric statistics is a subtopic of Probability and statistics; Multivariate statistics is a subtopic of Probability and statistics; Stochastic processes is a subtopic of Probability and statistics; Stochastic differential equations is a subtopic of Stochastic processes; Mathematical analysis is a subtopic of Continuous mathematics; Continuous functions is a subtopic of Continuous mathematics; Quadrature is a subtopic of Mathematical analysis; Geometric topology is a subtopic of Topology; Algebraic topology is a subtopic of Topology; Probabilistic representations is a subtopic of Probability and statistics; Factor graphs is a subtopic of Probabilistic representations; Markov networks is a subtopic of Probabilistic representations; Causal networks is a subtopic of Probabilistic representations; Probabilistic reasoning algorithms is a subtopic of Probabilistic representations; Formal languages and automata theory is a subtopic of Theory of computation; Semantics and reasoning is a subtopic of Theory of computation; Probabilistic algorithms is a subtopic of Theory of computation; Grammars and context-free languages is a subtopic of Formal languages and automata theory; Combinatorics on words is a subtopic of Formal languages and automata theory; Integrated circuits is a subtopic of Hardware; Hardware validation is a subtopic of Hardware; Interconnect is a subtopic of Integrated circuits; Logic families is a subtopic of Integrated circuits; Digital switches is a subtopic of Integrated circuits; Metallic interconnect is a subtopic of Interconnect; Post-manufacture validation and debug is a subtopic of Hardware validation; Functional verification is a subtopic of Hardware validation; Network architectures is a subtopic of Networks; Network services is a subtopic of Networks; Programmable networks is a subtopic of Networks; Network types is a subtopic of Networks; Network properties is a subtopic of Networks; Network dynamics is a subtopic of Network properties; In-network processing is a subtopic of Programmable networks; Network monitoring is a subtopic of Network services; Information systems applications is a subtopic of Information systems; Information storage systems is a subtopic of Information systems; IT architectures is a subtopic of Information systems; Event-driven architectures is a subtopic of IT architectures; Computing platforms is a subtopic of IT architectures; Operations research is a subtopic of Applied computing; Education is a subtopic of Applied computing; Law, social and behavioral sciences is a subtopic of Applied computing; Enterprise computing is a subtopic of Applied computing; Computers in other domains is a subtopic of Applied computing; Marketing is a subtopic of Enterprise computing; Business rules is a subtopic of Enterprise computing; Enterprise interoperability is a subtopic of Enterprise computing; Decision analysis is a subtopic of Operations research; Combinatorial optimization is a subtopic of Operations research; Multi-criterion optimization and decision-making is a subtopic of Operations research; Distance learning is a subtopic of Education; Interactive learning environments is a subtopic of Education; Consumer products is a subtopic of Computers in other domains; Software and application security is a subtopic of Security and privacy; Cryptography is a subtopic of Security and privacy; Human and societal aspects of security and privacy is a subtopic of Security and privacy; Security in hardware is a subtopic of Security and privacy; Privacy protections is a subtopic of Security and privacy; Intrusion/anomaly detection and malware mitigation is a subtopic of Security and privacy; Domain-specific security and privacy architectures is a subtopic of Security and privacy; Database and storage security is a subtopic of Security and privacy; Embedded systems security is a subtopic of Security and privacy; Hardware-based security protocols is a subtopic of Security in hardware; Tamper-proof and tamper-resistant designs is a subtopic of Security in hardware; Hardware security implementation is a subtopic of Security in hardware; Hardware attacks and countermeasures is a subtopic of Security in hardware; Information-theoretic techniques is a subtopic of Cryptography; Management and querying of encrypted data is a subtopic of Database and storage security; Database activity monitoring is a subtopic of Database and storage security; Software security engineering is a subtopic of Software and application security; Social aspects of security and privacy is a subtopic of Human and societal aspects of security and privacy; Economics of security and privacy is a subtopic of Human and societal aspects of security and privacy
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 96
+
+Parsed relationships:
+  Mathematics of computing → Computing Classification System
+  Theory of computation → Computing Classification System
+  Hardware → Computing Classification System
+  Networks → Computing Classification System
+  Information systems → Computing Classification System
+  Applied computing → Computing Classification System
+  Security and privacy → Computing Classification System
+  Human-centered computing → Computing Classification System
+  General and reference → Computing Classification System
+  Social and professional topics → Computing Classification System
+  Continuous mathematics → Mathematics of computing
+  Discrete mathematics → Mathematics of computing
+  Probability and statistics → Mathematics of computing
+  Mathematical software → Mathematics of computing
+  Topology → Mathematics of computing
+  Graph theory → Discrete mathematics
+  Combinatorics → Discrete mathematics
+  Matroids and greedoids → Discrete mathematics
+  Random graphs → Graph theory
+  Extremal graph theory → Graph theory
+  Graph enumeration → Graph theory
+  Paths and connectivity problems → Graph theory
+  Combinatoric problems → Combinatorics
+  Nonparametric statistics → Probability and statistics
+  Multivariate statistics → Probability and statistics
+  Stochastic processes → Probability and statistics
+  Stochastic differential equations → Stochastic processes
+  Mathematical analysis → Continuous mathematics
+  Continuous functions → Continuous mathematics
+  Quadrature → Mathematical analysis
+  Geometric topology → Topology
+  Algebraic topology → Topology
+  Probabilistic representations → Probability and statistics
+  Factor graphs → Probabilistic representations
+  Markov networks → Probabilistic representations
+  Causal networks → Probabilistic representations
+  Probabilistic reasoning algorithms → Probabilistic representations
+  Formal languages and automata theory → Theory of computation
+  Semantics and reasoning → Theory of computation
+  Probabilistic algorithms → Theory of computation
+  Grammars and context-free languages → Formal languages and automata theory
+  Combinatorics on words → Formal languages and automata theory
+  Integrated circuits → Hardware
+  Hardware validation → Hardware
+  Interconnect → Integrated circuits
+  Logic families → Integrated circuits
+  Digital switches → Integrated circuits
+  Metallic interconnect → Interconnect
+  Post-manufacture validation and debug → Hardware validation
+  Functional verification → Hardware validation
+  Network architectures → Networks
+  Network services → Networks
+  Programmable networks → Networks
+  Network types → Networks
+  Network properties → Networks
+  Network dynamics → Network properties
+  In-network processing → Programmable networks
+  Network monitoring → Network services
+  Information systems applications → Information systems
+  Information storage systems → Information systems
+  IT architectures → Information systems
+  Event-driven architectures → IT architectures
+  Computing platforms → IT architectures
+  Operations research → Applied computing
+  Education → Applied computing
+  Law, social and behavioral sciences → Applied computing
+  Enterprise computing → Applied computing
+  Computers in other domains → Applied computing
+  Marketing → Enterprise computing
+  Business rules → Enterprise computing
+  Enterprise interoperability → Enterprise computing
+  Decision analysis → Operations research
+  Combinatorial optimization → Operations research
+  Multi-criterion optimization and decision-making → Operations research
+  Distance learning → Education
+  Interactive learning environments → Education
+  Consumer products → Computers in other domains
+  Software and application security → Security and privacy
+  Cryptography → Security and privacy
+  Human and societal aspects of security and privacy → Security and privacy
+  Security in hardware → Security and privacy
+  Privacy protections → Security and privacy
+  Intrusion/anomaly detection and malware mitigation → Security and privacy
+  Domain-specific security and privacy architectures → Security and privacy
+  Database and storage security → Security and privacy
+  Embedded systems security → Security and privacy
+  Hardware-based security protocols → Security in hardware
+  Tamper-proof and tamper-resistant designs → Security in hardware
+  Hardware security implementation → Security in hardware
+  Hardware attacks and countermeasures → Security in hardware
+  Information-theoretic techniques → Cryptography
+  Management and querying of encrypted data → Database and storage security
+  Database activity monitoring → Database and storage security
+  Software security engineering → Software and application security
+  Social aspects of security and privacy → Human and societal aspects of security and privacy
+  Economics of security and privacy → Human and societal aspects of security and privacy
+
+================================================================================

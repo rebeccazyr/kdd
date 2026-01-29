@@ -1,0 +1,80 @@
+child,parent
+Business & Industrial,Google Product Taxonomy
+Medical,Business & Industrial
+Health Care,Medical
+Law Enforcement,Business & Industrial
+Retail & Sale Signs,Law Enforcement
+Advertising & Marketing,Law Enforcement
+Signage,Advertising & Marketing
+Trade Show Displays,Advertising & Marketing
+Material Handling,Business & Industrial
+Conveyors,Material Handling
+Industrial Storage,Material Handling
+Janitorial Carts & Caddies,Material Handling
+Heavy Machinery,Business & Industrial
+Power & Electrical Supplies,Heavy Machinery
+Power Tool & Equipment Manuals,Power & Electrical Supplies
+Variable Frequency & Adjustable Speed Drives,Power & Electrical Supplies
+Automation Control Components,Power & Electrical Supplies
+Work Safety Protective Gear,Business & Industrial
+Hardhats,Work Safety Protective Gear
+Luggage & Bags,Business & Industrial
+Suitcases,Luggage & Bags
+Garment Bags,Luggage & Bags
+Medical,Business & Industrial
+Health Care,Medical
+Health & Beauty,Health Care
+Acupuncture,Health Care
+Contraceptive Cases,Health Care
+Specimen Cups,Health Care
+Food Service,Business & Industrial
+Disposable Lids,Food Service
+Facility Identification Signs,Food Service
+Memorial Ceremony Supplies,Business & Industrial
+Religious & Ceremonial,Memorial Ceremony Supplies
+Wedding Ceremony Supplies,Religious & Ceremonial
+Cameras & Optics,Business & Industrial
+Radar Detectors,Cameras & Optics
+GPS Navigation Systems,Cameras & Optics
+GPS Tracking Devices,GPS Navigation Systems
+GPS Accessories,GPS Navigation Systems
+Electronics,Business & Industrial
+DVDs & Videos,Electronics
+Music & Sound Recordings,Electronics
+Books,Electronics
+Brochures,Electronics
+Product Manuals,Electronics
+Forestry & Logging,Business & Industrial
+Mining & Quarrying,Forestry & Logging
+Conveyors,Mining & Quarrying
+Industrial Storage,Mining & Quarrying
+Janitorial Carts & Caddies,Mining & Quarrying
+Heavy Machinery,Forestry & Logging
+Power & Electrical Supplies,Heavy Machinery
+Power Tool & Equipment Manuals,Power & Electrical Supplies
+Variable Frequency & Adjustable Speed Drives,Power & Electrical Supplies
+Automation Control Components,Power & Electrical Supplies
+Work Safety Protective Gear,Forestry & Logging
+Hardhats,Work Safety Protective Gear
+Toys & Games,Business & Industrial
+Signage,Toys & Games
+Trade Show Displays,Toys & Games
+Material Handling,Business & Industrial
+Conveyors,Material Handling
+Industrial Storage,Material Handling
+Janitorial Carts & Caddies,Material Handling
+Heavy Machinery,Business & Industrial
+Power & Electrical Supplies,Heavy Machinery
+Power Tool & Equipment Manuals,Power & Electrical Supplies
+Variable Frequency & Adjustable Speed Drives,Power & Electrical Supplies
+Automation Control Components,Power & Electrical Supplies
+Work Safety Protective Gear,Business & Industrial
+Hardhats,Work Safety Protective Gear
+Media,Business & Industrial
+DVDs & Videos,Media
+Music & Sound Recordings,Media
+Books,Media
+Brochures,Media
+Product Manuals,Media
+Business & Industrial,Google Product Taxonomy
+Google Product Taxonomy,itself

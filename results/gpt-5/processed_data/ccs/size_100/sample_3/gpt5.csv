@@ -1,0 +1,97 @@
+child,parent
+Mathematics of computing,Computing Classification System
+Theory of computation,Computing Classification System
+Hardware,Computing Classification System
+Networks,Computing Classification System
+Information systems,Computing Classification System
+Applied computing,Computing Classification System
+Security and privacy,Computing Classification System
+Human-centered computing,Computing Classification System
+General and reference,Computing Classification System
+Social and professional topics,Computing Classification System
+Continuous mathematics,Mathematics of computing
+Discrete mathematics,Mathematics of computing
+Probability and statistics,Mathematics of computing
+Mathematical software,Mathematics of computing
+Topology,Mathematics of computing
+Graph theory,Discrete mathematics
+Combinatorics,Discrete mathematics
+Matroids and greedoids,Discrete mathematics
+Random graphs,Graph theory
+Extremal graph theory,Graph theory
+Graph enumeration,Graph theory
+Paths and connectivity problems,Graph theory
+Combinatoric problems,Combinatorics
+Nonparametric statistics,Probability and statistics
+Multivariate statistics,Probability and statistics
+Stochastic processes,Probability and statistics
+Stochastic differential equations,Stochastic processes
+Mathematical analysis,Continuous mathematics
+Continuous functions,Continuous mathematics
+Quadrature,Mathematical analysis
+Geometric topology,Topology
+Algebraic topology,Topology
+Probabilistic representations,Probability and statistics
+Factor graphs,Probabilistic representations
+Markov networks,Probabilistic representations
+Causal networks,Probabilistic representations
+Probabilistic reasoning algorithms,Probabilistic representations
+Formal languages and automata theory,Theory of computation
+Semantics and reasoning,Theory of computation
+Probabilistic algorithms,Theory of computation
+Grammars and context-free languages,Formal languages and automata theory
+Combinatorics on words,Formal languages and automata theory
+Integrated circuits,Hardware
+Hardware validation,Hardware
+Interconnect,Integrated circuits
+Logic families,Integrated circuits
+Digital switches,Integrated circuits
+Metallic interconnect,Interconnect
+Post-manufacture validation and debug,Hardware validation
+Functional verification,Hardware validation
+Network architectures,Networks
+Network services,Networks
+Programmable networks,Networks
+Network types,Networks
+Network properties,Networks
+Network dynamics,Network properties
+In-network processing,Programmable networks
+Network monitoring,Network services
+Information systems applications,Information systems
+Information storage systems,Information systems
+IT architectures,Information systems
+Event-driven architectures,IT architectures
+Computing platforms,IT architectures
+Operations research,Applied computing
+Education,Applied computing
+"Law, social and behavioral sciences",Applied computing
+Enterprise computing,Applied computing
+Computers in other domains,Applied computing
+Marketing,Enterprise computing
+Business rules,Enterprise computing
+Enterprise interoperability,Enterprise computing
+Decision analysis,Operations research
+Combinatorial optimization,Operations research
+Multi-criterion optimization and decision-making,Operations research
+Distance learning,Education
+Interactive learning environments,Education
+Consumer products,Computers in other domains
+Software and application security,Security and privacy
+Cryptography,Security and privacy
+Human and societal aspects of security and privacy,Security and privacy
+Security in hardware,Security and privacy
+Privacy protections,Security and privacy
+Intrusion/anomaly detection and malware mitigation,Security and privacy
+Domain-specific security and privacy architectures,Security and privacy
+Database and storage security,Security and privacy
+Embedded systems security,Security and privacy
+Hardware-based security protocols,Security in hardware
+Tamper-proof and tamper-resistant designs,Security in hardware
+Hardware security implementation,Security in hardware
+Hardware attacks and countermeasures,Security in hardware
+Information-theoretic techniques,Cryptography
+Management and querying of encrypted data,Database and storage security
+Database activity monitoring,Database and storage security
+Software security engineering,Software and application security
+Social aspects of security and privacy,Human and societal aspects of security and privacy
+Economics of security and privacy,Human and societal aspects of security and privacy

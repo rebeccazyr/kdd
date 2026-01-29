@@ -1,0 +1,292 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: fagottini; spaghetti; occhi di lupo; fusilli; gemelli; food; cannelloni; bavette; pici; pasta
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+bavette is a subtopic of pasta; fusilli is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food; pici is a subtopic of pasta; gemelli is a subtopic of pasta; fagottini is a subtopic of pasta; occhi di lupo is a subtopic of pasta; cannelloni is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: fuži; food; spaghetti; pasta; croxetti; mezzelune; corzetti; rotini; sacchettoni; linguine
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+croxetti is a subtopic of pasta; linguine is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; corzetti is a subtopic of pasta; mezzelune is a subtopic of pasta; fuži is a subtopic of pasta; rotini is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: anellini; stringozzi; occhi di lupo; fuži; food; bigoli; pasta; corzetti; garganelli; mezzelune
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+garganelli is a subtopic of pasta; anellini is a subtopic of pasta; pasta is a subtopic of food; stringozzi is a subtopic of pasta; mezzelune is a subtopic of pasta; fuži is a subtopic of pasta; corzetti is a subtopic of pasta; bigoli is a subtopic of pasta; occhi di lupo is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: food; macaroni; pasta; passatelli; ptitim; campanelle; lanterne; spaghetti; rotini; casoncelli
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+pasta is a subtopic of food; casoncelli is a subtopic of pasta; passatelli is a subtopic of pasta; macaroni is a subtopic of pasta; lanterne is a subtopic of pasta; spaghetti is a subtopic of pasta; ptitim is a subtopic of pasta; campanelle is a subtopic of pasta; rotini is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: rotini; rotelle; ptitim; food; penne; stringozzi; pasta; mezzelune; sacchettoni; spaghetti
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+penne is a subtopic of pasta; rotelle is a subtopic of pasta; ptitim is a subtopic of pasta; mezzelune is a subtopic of pasta; spaghetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: fresh seafood; chocolate cake; food; spekkoek; horseradish sauce; paris buns; kuchen; marinade; quinoa; st. honoré cake; tinned seafood; memela; khrenovina sauce; fruit; pastiera; pasta sauces; changzhou sesame cake; tahini; torta alla monferrina; cake; sundae cones; sherbet; hot sauce; bánh khoai mì; pizza sauce; cereals; cheez whiz; cream; babka; bánh tét; seafood; bakery; waffle; wine cake; cottage cheese; sponge cake; pan de pascua; german chocolate cake; frozen dessert; hummingbird cake; ice cream cones; dairy product; financier; millet; condiment; jewish apple cake; king cake; far breton; mi san dao; satay sauce
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here's the taxonomy of the given concepts:
+
+- dairy product is a subtopic of food
+- babka is a subtopic of dairy product
+- cottage cheese is a subtopic of dairy product
+- cream is a subtopic of dairy product
+- ice cream cones is a subtopic of dairy product
+- wine cake is a subtopic of dairy product
+- sponge cake is a subtopic of dairy product
+- cheesecake is not in the list but we can assume it is a subtopic of dairy product
+- bakery is a subtopic of food
+- waffle is a subtopic of bakery
+- pan de pascua is a subtopic of bakery
+- financier is a subtopic of bakery
+- cake is a subtopic of bakery
+- german chocolate cake is a subtopic of cake
+- hummingbird cake is a subtopic of cake
+- st. honoré cake is a subtopic of cake
+- torta alla monferrina is a subtopic of cake
+- pastiera is a subtopic of cake
+- paris buns is a subtopic of bakery
+- sundae cones is a subtopic of bakery
+- sherbet is a subtopic of frozen dessert
+- ice cream cones is a subtopic of frozen dessert
+- frozen dessert is a subtopic of food
+- fruit is a subtopic of food
+- sherbet is a subtopic of fruit
+- bakery is a subtopic of food
+- waffle is a subtopic of bakery
+- pan de pascua is a subtopic of bakery
+- financier is a subtopic of bakery
+- cake is a subtopic of bakery
+- german chocolate cake is a subtopic of cake
+- hummingbird cake is a subtopic of cake
+- st. honoré cake is a subtopic of cake
+- torta alla monferrina is a subtopic of cake
+- pastiera is a subtopic of cake
+- paris buns is a subtopic of bakery
+- sundae cones is a subtopic of bakery
+- food is a subtopic of food
+- pasta sauces is a subtopic of food
+- pizza sauce is a subtopic of pasta sauces
+- pasta sauces is a subtopic of food
+- khrenovina sauce is a subtopic of food
+- horseradish sauce is a subtopic of food
+- satay sauce is a subtopic of food
+- marinade is a subtopic of food
+- hot sauce is a subtopic of food
+- condiment is a subtopic of food
+- khrenovina sauce is a subtopic of condiment
+- horseradish sauce is a subtopic of condiment
+- satay sauce is a subtopic of condiment
+- marinade is a subtopic of condiment
+- hot sauce is a subtopic of condiment
+- condiment is a subtopic of food
+- fruit is a subtopic of food
+- sherbet is a subtopic of fruit
+- bakery is a subtopic of food
+- waffle is a subtopic of bakery
+- pan de pascua is a subtopic of bakery
+- financier is a subtopic of bakery
+- cake is a subtopic of bakery
+- german chocolate cake is a subtopic of cake
+- hummingbird cake is a subtopic of cake
+- st. honoré cake is a subtopic of cake
+- torta alla monferrina is a subtopic of cake
+- pastiera is a subtopic of cake
+- paris buns is a subtopic of bakery
+- sundae cones is a subtopic of bakery
+- food is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+- pasta is a subtopic of food
+
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

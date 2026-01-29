@@ -1,0 +1,20 @@
+child,parent
+eggnog,beverage
+flavoured malt drinks,beverage
+juice,beverage
+beverage,cooking ingredient
+cooking wine,cooking ingredient
+tempeh,cooking ingredient
+soy product,cooking ingredient
+macadamia nuts,cooking ingredient
+seeds,cooking ingredient
+almonds,cooking ingredient
+millet,cooking ingredient
+rye,cooking ingredient
+barley,cooking ingredient
+shortening and lard,cooking ingredient
+cereals,cooking ingredient
+bakery,food
+edible baking decoration,food
+frozen dessert,food
+food,cooking ingredient

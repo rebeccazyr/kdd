@@ -1,0 +1,406 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Ammunition Cases & Holders; Mature; Staff & Stick Weapons; Gun Holsters; Google Product Taxonomy; Weapons; Reloading Supplies & Equipment; Combat Knives; Spears; Gun Care & Accessories
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Staff & Stick Weapons is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Combat Knives is a subtopic of Weapons; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Gun Cases & Range Bags; Ammunition; Google Product Taxonomy; Staff & Stick Weapons; Weapons; Swords; Gun Lights; Stun Guns & Tasers; Mature
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Staff & Stick Weapons is a subtopic of Weapons; Swords is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Ammunition is a subtopic of Gun Care & Accessories; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Weapons is a subtopic of Mature
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Weapons; Mature; Gun Care & Accessories; Erotic; Whips; Stun Guns & Tasers; Guns; Throwing Stars; Google Product Taxonomy; Nunchucks
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Nunchucks is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Whips is a subtopic of Weapons; Guns is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic DVDs & Videos; Erotic Games; Erotic Magazines; Erotic Books; Erotic Clothing; Mature; Erotic Food & Edibles; Erotic; Google Product Taxonomy; Pole Dancing Kits
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Food & Edibles is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic DVDs & Videos is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Games is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Swords; Gun Slings; Stun Guns & Tasers; Spears; Gun Care & Accessories; Weapons; Staff & Stick Weapons; Mature; Gun Grips
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Gun Grips is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Swords is a subtopic of Weapons; Weapons is a subtopic of Mature; Staff & Stick Weapons is a subtopic of Weapons; Spears is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Pet Supplies; Dentistry; Brooches & Lapel Pins; Book Accessories; Barebone Computers; Handbags, Wallets & Cases; Food Service; Stylus Pens; Stage Equipment; Baby Walkers & Entertainers; Pet Bowl Mats; Vanities; Laptop Replacement Speakers; Signage; Keyboard Trays & Platforms; Input Device Accessories; Law Enforcement; Adapters; Google Product Taxonomy; Laptop Parts; Advertising & Marketing; Marine Chartplotters & GPS; Thin Client Computers; GPS Accessories; Audio & Video Splitters & Switches; Speed Radars; Desktop Computers; Media; Wallets & Money Clips; Name Plates; Correction Fluids, Pens & Tapes; DJ & Specialty Audio; Electronics Accessories; Wireless Transmitters; Road & Traffic Signs; Shoe Accessories; Scanner Accessories; Business Forms & Receipts; Thin & Zero Clients; Magazines & Newspapers; Sheet Music; Signal Boosters; Jewelry; Apparel & Accessories; Computer Components; Laptops; Audio; Print, Copy, Scan & Fax; Sticky Notes; Office Supply Manuals; Video Game Consoles; Office Supplies; Mining & Quarrying; Computers; Pet Steps & Ramps; Impulse Sealers; Pet Waste Bags; Cable Management; Furniture; Baby Toys & Activity Equipment; 3D Printers; Badge & Pass Holders; Cables; Keyboard & Mouse Wrist Rests; Book Stands & Rests; Business & Industrial; Rubber Bands; Paper Products; Tablet Computers; Product Manuals; Household Appliance Manuals; Communications; Ottomans; Cabinets & Storage; Dental Tools; Laptop Docking Stations; Marine Electronics; Electronics; General Office Supplies; Potty Training; Arts & Entertainment; Audio & Video Cables; Animals & Pet Supplies; Remote Controls; Public Address Systems; Computer Racks & Mounts; Pet Sunscreen; Patch Panels; Watches; Computer Accessories; Baby & Toddler; Religious & Ceremonial; Electronics Manuals; Wine Racks; Smart Glasses; Shoes; Index Cards; Software; Storage & Data Transfer Cables; Wire & Cable Identification Markers
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to break it down into a taxonomy. Here are the relationships:
+
+1. Google Product Taxonomy is a parent of:
+   - Law Enforcement
+   - Business & Industrial
+   - Arts & Entertainment
+   - Animals & Pet Supplies
+   - Religious & Ceremonial
+   - Advertising & Marketing
+   - Computers
+   - Electronics
+   - Office Supplies
+   - Media
+   - Furniture
+   - Household Appliance Manuals
+   - Product Manuals
+   - Electronics Manuals
+   - Software
+
+2. Law Enforcement is a parent of:
+   - Speed Radars
+   - Signage
+   - Road & Traffic Signs
+
+3. Business & Industrial is a parent of:
+   - Business Forms & Receipts
+   - Office Supply Manuals
+   - Correction Fluids, Pens & Tapes
+   - Index Cards
+   - Paper Products
+   - Rubber Bands
+   - Sticky Notes
+   - General Office Supplies
+   - Computer Accessories
+   - Computer Racks & Mounts
+   - Computer Components
+   - Laptop Parts
+   - Laptop Replacement Speakers
+   - Laptop Docking Stations
+   - Thin & Zero Clients
+   - Thin Client Computers
+   - Barebone Computers
+   - Desktop Computers
+   - Laptops
+   - Tablet Computers
+
+4. Arts & Entertainment is a parent of:
+   - Stage Equipment
+   - DJ & Specialty Audio
+   - Audio & Video Splitters & Switches
+   - Video Game Consoles
+   - Sheet Music
+   - Magazines & Newspapers
+
+5. Animals & Pet Supplies is a parent of:
+   - Pet Supplies
+   - Pet Bowl Mats
+   - Pet Steps & Ramps
+   - Pet Waste Bags
+   - Pet Sunscreen
+
+6. Religious & Ceremonial is a parent of:
+   - Name Plates
+   - Badge & Pass Holders
+   - Watches
+
+7. Advertising & Marketing is a parent of:
+   - Advertising & Marketing
+   - Signage
+   - Road & Traffic Signs
+   - Public Address Systems
+
+8. Computers is a parent of:
+   - Desktop Computers
+   - Laptops
+   - Tablet Computers
+   - Thin & Zero Clients
+   - Thin Client Computers
+   - Barebone Computers
+   - Laptop Parts
+   - Laptop Replacement Speakers
+   - Laptop Docking Stations
+   - Computer Components
+   - Computer Accessories
+   - Computer Racks & Mounts
+   - Keyboard & Mouse Wrist Rests
+   - Keyboard Trays & Platforms
+   - Input Device Accessories
+   - Adapters
+   - Cables
+   - Audio & Video Cables
+   - Audio & Video Splitters & Switches
+   - Signal Boosters
+   - Wireless Transmitters
+   - Patch Panels
+   - Wire & Cable Identification Markers
+   - Storage & Data Transfer Cables
+
+9. Electronics is a parent of:
+   - Electronics Accessories
+   - Electronics Manuals
+   - Audio
+   - Audio & Video Cables
+   - Audio & Video Splitters & Switches
+   - Signal Boosters
+   - Wireless Transmitters
+   - Patch Panels
+   - Wire & Cable Identification Markers
+   - Storage & Data Transfer Cables
+   - Laptop Replacement Speakers
+   - Laptop Docking Stations
+   - Marine Electronics
+   - Marine Chartplotters & GPS
+   - GPS Accessories
+   - Laptop Parts
+   - Computer Components
+   - Computer Accessories
+   - Computer Racks & Mounts
+   - Keyboard & Mouse Wrist Rests
+   - Keyboard Trays & Platforms
+   - Input Device Accessories
+   - Adapters
+   - Cables
+   - Audio & Video Cables
+   - Audio & Video Splitters & Switches
+   - Signal Boosters
+   - Wireless Transmitters
+   - Patch Panels
+   - Wire & Cable Identification Markers
+   - Storage & Data Transfer Cables
+   - 3D Printers
+
+10. Office Supplies is a parent of:
+    - Office Supplies
+    - General Office Supplies
+    - Business Forms & Receipts
+    - Office Supply Manuals
+    - Correction Fluids, Pens & Tapes
+    - Index Cards
+    - Paper Products
+    - Rubber Bands
+    - Sticky Notes
+    - Computer Accessories
+    - Computer Racks & Mounts
+    - Computer Components
+    - Laptop Parts
+    - Laptop Replacement Speakers
+    - Laptop Docking Stations
+    - Thin & Zero Clients
+    - Thin Client Computers
+    - Barebone Computers
+    - Desktop Computers
+    - Laptops
+    - Tablet Computers
+
+11. Media is a parent of:
+    - Media
+    - Magazines & Newspapers
+    - Sheet Music
+
+12. Furniture is a parent of:
+    - Furniture
+    - Ottomans
+    - Cabinets & Storage
+
+13. Household Appliance Manuals is a parent of:
+    - Household Appliance Manuals
+
+14. Product Manuals is a parent of:
+    - Product Manuals
+
+15. Electronics Manuals is a parent of:
+    - Electronics Manuals
+
+16. Software is a parent of:
+    - Software
+
+17. Business Forms & Receipts is a subtopic of Office Supplies
+
+18. Office Supply Manuals is a subtopic of Office Supplies
+
+19. Correction Fluids, Pens & Tapes is a subtopic of Office Supplies
+
+20. Index Cards is a subtopic of Office Supplies
+
+21. Paper Products is a subtopic of Office Supplies
+
+22. Rubber Bands is a subtopic of Office Supplies
+
+23. Sticky Notes is a subtopic of Office Supplies
+
+24. Computer Accessories is a subtopic of Office Supplies
+
+25. Computer Racks & Mounts is a subtopic of Office Supplies
+
+26. Computer Components is a subtopic of Office Supplies
+
+27. Laptop Parts is a subtopic of Office Supplies
+
+28. Laptop Replacement Speakers is a subtopic of Office Supplies
+
+29. Laptop Docking Stations is a subtopic of Office Supplies
+
+30. Thin & Zero Clients is a subtopic of Office Supplies
+
+31. Thin Client Computers is a subtopic of Office Supplies
+
+32. Barebone Computers is a subtopic of Office Supplies
+
+33. Desktop Computers is a subtopic of Office Supplies
+
+34. Laptops is a subtopic of Office Supplies
+
+35. Tablet Computers is a subtopic of Office Supplies
+
+36. Magazines & Newspapers is a subtopic of Media
+
+37. Sheet Music is a subtopic of Media
+
+38. Ottomans is a subtopic of Furniture
+
+39. Cabinets & Storage is a subtopic of Furniture
+
+40. Household Appliance Manuals is a subtopic of Household Appliance Manuals
+
+41. Product Manuals is a subtopic of Product Manuals
+
+42. Electronics Manuals is a subtopic of Electronics Manuals
+
+43. Software is a subtopic of Software
+
+44. Speed Radars is a subtopic of Law Enforcement
+
+45. Signage is a subtopic of Law Enforcement
+
+46. Road & Traffic Signs is a subtopic of Law Enforcement
+
+47. Business Forms & Receipts is a subtopic of Office Supplies
+
+48. Office Supply Manuals is a subtopic of Office Supplies
+
+49. Correction Fluids, Pens & Tapes is a subtopic of Office Supplies
+
+50. Index Cards is a subtopic of Office Supplies
+
+51. Paper Products is a subtopic of Office Supplies
+
+52. Rubber Bands is a subtopic of Office Supplies
+
+53. Sticky Notes is a subtopic of Office Supplies
+
+54. Computer Accessories is a subtopic of Office Supplies
+
+55. Computer Racks & Mounts is a subtopic of Office Supplies
+
+56. Computer Components is a subtopic of Office Supplies
+
+57. Laptop Parts is a subtopic of Office Supplies
+
+58. Laptop Replacement Speakers is a subtopic of Office Supplies
+
+59. Laptop Docking Stations is a subtopic of Office Supplies
+
+60. Thin & Zero Clients is a subtopic of Office Supplies
+
+61. Thin Client Computers is a subtopic of Office Supplies
+
+62. Barebone Computers is a subtopic of Office Supplies
+
+63. Desktop Computers is a subtopic of Office Supplies
+
+64. Laptops is a subtopic of Office Supplies
+
+65. Tablet Computers is a subtopic of Office Supplies
+
+66. Magazines & Newspapers is a subtopic of Media
+
+67. Sheet Music is a subtopic of Media
+
+68. Ottomans is a subtopic of Furniture
+
+69. Cabinets & Storage is a subtopic of Furniture
+
+70. Household Appliance Manuals is a subtopic of Household Appliance Manuals
+
+71. Product Manuals is a subtopic of Product Manuals
+
+72. Electronics Manuals is a subtopic of Electronics Manuals
+
+73. Software is a subtopic of Software
+
+74. Speed Radars is a subtopic of Law Enforcement
+
+75. Signage is a subtopic of Law Enforcement
+
+76. Road & Traffic Signs is a subtopic of Law Enforcement
+
+77. Business Forms & Receipts is a subtopic of Office Supplies
+
+78. Office Supply Manuals is a subtopic of Office Supplies
+
+79. Correction Fluids, Pens & Tapes is a subtopic of Office Supplies
+
+80. Index Cards is a subtopic of Office Supplies
+
+81. Paper Products is a subtopic of Office Supplies
+
+82. Rubber Bands is a subtopic of Office Supplies
+
+83. Sticky Notes is a subtopic of Office Supplies
+
+84. Computer Accessories is a subtopic of Office Supplies
+
+85. Computer Racks & Mounts is a subtopic of Office Supplies
+
+86. Computer Components is a subtopic of Office Supplies
+
+87. Laptop Parts is a subtopic of Office Supplies
+
+88. Laptop Replacement Speakers is a subtopic of Office Supplies
+
+89. Laptop Docking Stations is a subtopic of Office Supplies
+
+90. Thin & Zero Clients is a subtopic of Office Supplies
+
+91. Thin Client Computers is a subtopic of Office Supplies
+
+
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

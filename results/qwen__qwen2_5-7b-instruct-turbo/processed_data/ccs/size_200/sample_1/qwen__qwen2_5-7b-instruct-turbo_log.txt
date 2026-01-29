@@ -1,0 +1,558 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Architectures; Computer systems organization; Real-time systems; Embedded systems; Multiple instruction, single data; Computing Classification System; Parallel architectures; Systolic arrays; Single instruction, multiple data; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Parallel architectures is a subtopic of Architectures; Multiple instruction, single data is a subtopic of Parallel architectures; Embedded systems is a subtopic of Embedded and cyber-physical systems; Real-time systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Single instruction, multiple data is a subtopic of Parallel architectures; Computer systems organization is a subtopic of Computing Classification System; Systolic arrays is a subtopic of Parallel architectures
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Computer systems organization; Processors and memory architectures; Real-time systems; Dependable and fault-tolerant systems and networks; Real-time languages; Computing Classification System; Maintainability and maintenance; Fault-tolerant network topologies; Architectures
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Real-time languages is a subtopic of Real-time systems; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Dependable and fault-tolerant systems and networks; Interconnection architectures; Embedded and cyber-physical systems; Computing Classification System; Pipeline computing; Serial architectures; Parallel architectures; Maintainability and maintenance; Computer systems organization; Architectures
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Interconnection architectures is a subtopic of Parallel architectures; Serial architectures is a subtopic of Architectures; Pipeline computing is a subtopic of Serial architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Architectures; Other architectures; Real-time system specification; Quantum computing; Real-time systems; Computing Classification System; Computer systems organization; Real-time languages; Optical computing; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Computer systems organization is a subtopic of Computing Classification System; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Optical computing is a subtopic of Other architectures; Real-time system specification is a subtopic of Real-time systems; Other architectures is a subtopic of Architectures; Real-time systems is a subtopic of Computer systems organization; Quantum computing is a subtopic of Other architectures; Architectures is a subtopic of Computer systems organization
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Real-time systems; Real-time system architecture; Embedded and cyber-physical systems; Computer systems organization; Computing Classification System; Processors and memory architectures; Distributed architectures; Serial architectures; Dependable and fault-tolerant systems and networks; Architectures
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Real-time system architecture is a subtopic of Real-time systems; Real-time systems is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Serial architectures is a subtopic of Architectures; Distributed architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Estimation; Hypergraphs; Algebraic complexity theory; VLSI packaging; Models of computation; Learning settings; Medical technologies; Generating random combinatorial structures; Search engine indexing; Computing industry; Thermal issues; Multimedia databases; Combination, fusion and federated search; Human-centered computing; General and reference; Machine learning; Peer-to-peer retrieval; Design for manufacturability; Interactive proof systems; Security and privacy; Platform-based design; Fault tolerance; Multivariate statistics; Censorship; Multimedia information systems; Image manipulation; Circuit complexity; Applied computing; Program semantics; Complexity classes; Temperature monitoring; Simulation theory; Algebraic semantics; Government technology policy; Online learning settings; Regular languages; Metabolomics / metabonomics; Logic; VLSI design manufacturing considerations; Semantics and reasoning; Sustainability; Application-specific VLSI designs; Random walks and Markov chains; Probabilistic retrieval models; Project and people management; Machine learning approaches; Medical information policy; Measurement; Machine learning algorithms; On-chip sensors; Search index compression; Adversarial retrieval; Software maintenance; Cryptographic primitives; Hardware; Aging of circuits and systems; Evaluation; Design reuse and communication-based design; Systems analysis and design; Model verification and validation; Power and energy; Graph theory; General literature; Simulation evaluation; Batch learning; Semi-supervised learning settings; Software selection and adaptation; Network science; Cross-computing tools and techniques; Search engine architectures and scalability; Theory and algorithms for application domains; Distributed computing methodologies; Type theory; Collision detection; Automata over infinite objects; Privacy policies; Simulation support systems; Searching with auxiliary databases; Application specific instruction set processors; Concurrent computing methodologies; Management of computing and information systems; Formal languages and automata theory; Modeling and simulation; Trees; Computing standards, RFCs and guidelines; Image compression; Functional verification; Program verification; Hardware reliability; Computational complexity and cryptography; Network operations; Hoare logic; Theory of computation; Information systems; Discrete mathematics; Design; Information retrieval diversity; Action semantics; Combinatoric problems; Information retrieval query processing; Probabilistic representations; Information systems applications; History of software; Rank aggregation; Health information exchanges; Categorical semantics; Cryptographic protocols; Program analysis; Random graphs; Yield and cost optimization; Modal and temporal logics; Soft intellectual property; Constraint and logic programming; Database protection laws; System management; Energy generation and storage; Life and medical sciences; Information retrieval; Computing Classification System; Specialized information retrieval; Social and professional topics; Program constructs; Assertions; History of computing; Animation; Equivalence checking; Value iteration; VLSI system specification and constraints; Paths and connectivity problems; Retrieval efficiency; History of computing theory; Massively multiplayer online games; Simulation types and techniques; Cross-validation; Hardware validation; Health care information systems; Fuel-based energy; Combinatorics; Communication complexity; Computing methodologies; Software management; Process control systems; Database and storage security; Surveillance; Randomness, geometry and discrete structures; Combinatorial optimization; Document types; Retrieval models and ranking; Program reasoning; Biological networks; Probabilistic computation; Sequencing and genotyping technologies; World Wide Web; Operational semantics; Verification; Automated reasoning; Usability in security and privacy; Interactive computation; Link and co-citation analysis; Physical verification; Enumeration; Denotational semantics; Abstract machines; Proof theory; Robustness; Systems biology; Constructive mathematics; Computer graphics; Die and wafer stacking; Computational biology; Reference works; Corporate surveillance; Top-k retrieval in databases; Retrieval effectiveness; Problems, reductions and completeness; Learning paradigms; Computing / technology policy; Model development and analysis; Professional topics; Mathematics of computing; Simulation environments; Graph enumeration; Parallel computing methodologies; Circuits power issues; Matroids and greedoids; Probability and statistics; Permutations and combinations; Power estimation and optimization; Human and societal aspects of security and privacy; Very large scale integration design; Tree languages; Learning latent representations; Patents; Programming logic; Intellectual property; Higher order logic; Motion processing; Evaluation of retrieval results; History of programming languages; Dynamic programming for Markov decision processes
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Computing Classification System is a parent category for the following subtopics:
+
+- Computing Industry
+- Computing Standards, RFCs and Guidelines
+- Computing Methodologies
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing Methodologies
+- Computing Applications
+- Computing Theory
+- Computing Applications
+- Computing
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

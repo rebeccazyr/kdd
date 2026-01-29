@@ -1,0 +1,277 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Multiple instruction, single data; Computer systems organization; Embedded systems; Real-time systems; Embedded and cyber-physical systems; Computing Classification System; Systolic arrays; Parallel architectures; Architectures; Single instruction, multiple data
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Single instruction, multiple data is a subtopic of Parallel architectures; Embedded systems is a subtopic of Embedded and cyber-physical systems; Parallel architectures is a subtopic of Architectures; Systolic arrays is a subtopic of Parallel architectures; Architectures is a subtopic of Computer systems organization; Multiple instruction, single data is a subtopic of Parallel architectures; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Computer systems organization; Real-time languages; Architectures; Processors and memory architectures; Real-time systems; Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems; Computing Classification System; Fault-tolerant network topologies; Maintainability and maintenance
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Pipeline computing; Architectures; Computer systems organization; Interconnection architectures; Embedded and cyber-physical systems; Maintainability and maintenance; Serial architectures; Dependable and fault-tolerant systems and networks; Parallel architectures; Computing Classification System
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Parallel architectures is a subtopic of Architectures; Interconnection architectures is a subtopic of Parallel architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Serial architectures is a subtopic of Architectures; Pipeline computing is a subtopic of Serial architectures; Architectures is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Quantum computing; Real-time languages; Real-time system specification; Architectures; Other architectures; Embedded and cyber-physical systems; Computing Classification System; Optical computing; Real-time systems; Computer systems organization
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Other architectures is a subtopic of Architectures; Real-time system specification is a subtopic of Real-time systems; Real-time systems is a subtopic of Computer systems organization; Quantum computing is a subtopic of Other architectures; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Optical computing is a subtopic of Other architectures; Real-time languages is a subtopic of Real-time systems
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Dependable and fault-tolerant systems and networks; Real-time system architecture; Computer systems organization; Real-time systems; Serial architectures; Processors and memory architectures; Computing Classification System; Architectures; Embedded and cyber-physical systems; Distributed architectures
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Distributed architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Serial architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Real-time system architecture is a subtopic of Real-time systems; Real-time systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Empirical studies in accessibility; Wireless integrated network sensors; Algebraic complexity theory; Document preparation; Models of computation; Decision analysis; Distance learning; Continuous mathematics; Equational logic and rewriting; Computing industry; Information storage technologies; Network manageability; Call level interfaces; Physical links; User characteristics; Document searching; Human-centered computing; Storage management; General and reference; Operations research; Integrated circuits; Online learning algorithms; Interactive proof systems; Process management; Authorization; Security and privacy; Mobile information processing systems; Graphics recognition and interpretation; Network performance analysis; Monitors; Computer forensics; Oracles and decision trees; Power management; Algebraic language theory; Circuit complexity; Proof complexity; Applied computing; Web services; Program semantics; Contextual software domains; Bloom filters and hashing; Psychology; Algebraic semantics; End nodes; Physical sciences and engineering; Probabilistic inference problems; Storage architectures; Data mining; Regular languages; Computer-managed instruction; Logic; Semantics and reasoning; Online advertising; Object oriented constructs; Accessibility; Formalisms; Topology analysis and generation; Data recovery; Caching and paging algorithms; Lower bounds and information complexity; Command and control; Computer-aided manufacturing; Streaming, sublinear and near linear time algorithms; Hardware; Evidence collection, storage and analysis; Finite Model Theory; Industry and manufacturing; Education; Coding theory; Design and analysis of algorithms; Data federation tools; Complexity theory and logic; Web mining; Automata extensions; Social advertising; Mathematical analysis; Format and notation; Semantic web description languages; Online handwriting recognition; Web Ontology Language (OWL); Network performance modeling; Image composition; Hypertext / hypermedia creation; Type theory; Law, social and behavioral sciences; Mathematics and statistics; Transportation; Automata over infinite objects; Empirical studies in interaction design; Agriculture; Formal languages and automata theory; Archaeology; Computational complexity and cryptography; Theory of computation; Information systems; Authentication; Topology; Display advertising; Database management system engines; Operating systems; K-server algorithms; Traffic analysis; Security services; Information systems applications; Software infrastructure; Physical topologies; Network components; Software and its engineering; Categorical semantics; Site wrapping; Network structure; Annotation; Cryptographic protocols; Modal and temporal logics; Data structures design and analysis; Software system structures; Surveillance mechanisms; Information theory; Cryptanalysis and other attacks; Anthropology; Query languages; Computing Classification System; Ad hoc networks; Social and professional topics; Program constructs; Network architectures; Stochastic processes; Buses and high-speed links; Law; Embedded systems security; Networks; Aerospace; Network reliability; Earth and atmospheric sciences; Integral equations; Data management systems; Web data description languages; Interaction design; Supply chain management; Process control systems; Network measurement; Collaborative learning; Network simulations; Computers in other domains; Network performance evaluation; Program reasoning; Nearest neighbor algorithms; Network properties; Economics; Engineering; World Wide Web; Network dynamics; Algebraic topology; Software organization and properties; Virtual worlds software; Automated reasoning; Information storage systems; Usability in security and privacy; Mathematical foundations of cryptography; Cloud based storage; Forecasting; Online algorithms; Web Services Description Language (WSDL); Multi-factor authentication; Network forensics; Software security engineering; Network experimentation; Wireless devices; Electronics; Computer-assisted instruction; Cryptography; Logical / virtual topologies; Data replication tools; Software and application security; Communication hardware, interfaces and storage; Service buses; Document capture; Middleware for databases; Web log analysis; Professional topics; Mathematics of computing; Universal Description Discovery and Integration (UDDI); Sociology; Programming interfaces; Network services; Accessibility technologies; Nonparametric statistics; Document management and text processing; Probability and statistics; Optical character recognition; Storage class memory; Message queues; Human and societal aspects of security and privacy; Tree languages; Tactile and hand-based interfaces; Max marginal computation; Higher order logic; Security in hardware; Network types; Packet-switching networks
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: gpt-5
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+General and reference is a subtopic of Computing Classification System; Applied computing is a subtopic of Computing Classification System; Mathematics of computing is a subtopic of Computing Classification System; Theory of computation is a subtopic of Computing Classification System; Hardware is a subtopic of Computing Classification System; Networks is a subtopic of Computing Classification System; Software and its engineering is a subtopic of Computing Classification System; Information systems is a subtopic of Computing Classification System; Security and privacy is a subtopic of Computing Classification System; Human-centered computing is a subtopic of Computing Classification System; Social and professional topics is a subtopic of Computing Classification System; Information theory is a subtopic of Computing Classification System; Mathematics and statistics is a subtopic of Applied computing; Physical sciences and engineering is a subtopic of Applied computing; Education is a subtopic of Applied computing; Computers in other domains is a subtopic of Applied computing; Industry and manufacturing is a subtopic of Applied computing; Law, social and behavioral sciences is a subtopic of Applied computing; Economics is a subtopic of Applied computing; Professional topics is a subtopic of Social and professional topics; Computing industry is a subtopic of Professional topics; Law is a subtopic of Social and professional topics; World Wide Web is a subtopic of Information systems; Data management systems is a subtopic of Information systems; Information storage systems is a subtopic of Information systems; Document management and text processing is a subtopic of Information systems; Information systems applications is a subtopic of Information systems; Database management system engines is a subtopic of Data management systems; Query languages is a subtopic of Data management systems; Call level interfaces is a subtopic of Data management systems; Middleware for databases is a subtopic of Data management systems; Data federation tools is a subtopic of Data management systems; Information storage technologies is a subtopic of Information storage systems; Storage architectures is a subtopic of Information storage systems; Storage management is a subtopic of Information storage systems; Cloud based storage is a subtopic of Information storage systems; Data replication tools is a subtopic of Information storage systems; Data recovery is a subtopic of Information storage systems; Storage class memory is a subtopic of Information storage technologies; Document preparation is a subtopic of Document management and text processing; Document searching is a subtopic of Document management and text processing; Document capture is a subtopic of Document management and text processing; Annotation is a subtopic of Document management and text processing; Graphics recognition and interpretation is a subtopic of Document management and text processing; Format and notation is a subtopic of Document preparation; Image composition is a subtopic of Document preparation; Optical character recognition is a subtopic of Document capture; Online handwriting recognition is a subtopic of Document capture; Mobile information processing systems is a subtopic of Information systems applications; Web services is a subtopic of World Wide Web; Web data description languages is a subtopic of World Wide Web; Hypertext / hypermedia creation is a subtopic of World Wide Web; Web log analysis is a subtopic of World Wide Web; Site wrapping is a subtopic of World Wide Web; Online advertising is a subtopic of World Wide Web; Display advertising is a subtopic of Online advertising; Social advertising is a subtopic of Online advertising; Semantic web description languages is a subtopic of Web data description languages; Web Ontology Language (OWL) is a subtopic of Semantic web description languages; Web Services Description Language (WSDL) is a subtopic of Web data description languages; Universal Description Discovery and Integration (UDDI) is a subtopic of Web services; Data mining is a subtopic of Information systems; Web mining is a subtopic of Data mining; Network architectures is a subtopic of Networks; Network components is a subtopic of Networks; Network types is a subtopic of Networks; Network properties is a subtopic of Networks; Network performance evaluation is a subtopic of Networks; Network manageability is a subtopic of Networks; Network services is a subtopic of Networks; Physical topologies is a subtopic of Network architectures; Logical / virtual topologies is a subtopic of Network architectures; End nodes is a subtopic of Network components; Wireless devices is a subtopic of Network components; Ad hoc networks is a subtopic of Network types; Packet-switching networks is a subtopic of Network types; Network reliability is a subtopic of Network properties; Network dynamics is a subtopic of Network properties; Network structure is a subtopic of Network properties; Topology analysis and generation is a subtopic of Network properties; Network performance analysis is a subtopic of Network performance evaluation; Network performance modeling is a subtopic of Network performance evaluation; Network measurement is a subtopic of Network performance evaluation; Network simulations is a subtopic of Network performance evaluation; Traffic analysis is a subtopic of Network measurement; Network experimentation is a subtopic of Network measurement; Wireless integrated network sensors is a subtopic of Wireless devices; Security services is a subtopic of Security and privacy; Authentication is a subtopic of Security services; Authorization is a subtopic of Security services; Multi-factor authentication is a subtopic of Authentication; Cryptography is a subtopic of Security and privacy; Cryptographic protocols is a subtopic of Security and privacy; Cryptanalysis and other attacks is a subtopic of Security and privacy; Computer forensics is a subtopic of Security and privacy; Network forensics is a subtopic of Computer forensics; Evidence collection, storage and analysis is a subtopic of Computer forensics; Embedded systems security is a subtopic of Security and privacy; Software and application security is a subtopic of Security and privacy; Software security engineering is a subtopic of Security and privacy; Security in hardware is a subtopic of Security and privacy; Human and societal aspects of security and privacy is a subtopic of Security and privacy; Usability in security and privacy is a subtopic of Human and societal aspects of security and privacy; Design and analysis of algorithms is a subtopic of Theory of computation; Formal languages and automata theory is a subtopic of Theory of computation; Logic is a subtopic of Theory of computation; Models of computation is a subtopic of Theory of computation; Complexity theory and logic is a subtopic of Theory of computation; Semantics and reasoning is a subtopic of Theory of computation; Computational complexity and cryptography is a subtopic of Theory of computation; Online algorithms is a subtopic of Design and analysis of algorithms; Streaming, sublinear and near linear time algorithms is a subtopic of Design and analysis of algorithms; Nearest neighbor algorithms is a subtopic of Design and analysis of algorithms; Data structures design and analysis is a subtopic of Design and analysis of algorithms; Online learning algorithms is a subtopic of Design and analysis of algorithms; K-server algorithms is a subtopic of Online algorithms; Caching and paging algorithms is a subtopic of Data structures design and analysis; Bloom filters and hashing is a subtopic of Data structures design and analysis; Regular languages is a subtopic of Formal languages and automata theory; Tree languages is a subtopic of Formal languages and automata theory; Automata over infinite objects is a subtopic of Formal languages and automata theory; Automata extensions is a subtopic of Formal languages and automata theory; Algebraic language theory is a subtopic of Formal languages and automata theory; Equational logic and rewriting is a subtopic of Logic; Higher order logic is a subtopic of Logic; Modal and temporal logics is a subtopic of Logic; Finite Model Theory is a subtopic of Logic; Automated reasoning is a subtopic of Logic; Program semantics is a subtopic of Semantics and reasoning; Program reasoning is a subtopic of Semantics and reasoning; Formalisms is a subtopic of Semantics and reasoning; Type theory is a subtopic of Semantics and reasoning; Algebraic semantics is a subtopic of Program semantics; Categorical semantics is a subtopic of Program semantics; Algebraic complexity theory is a subtopic of Complexity theory and logic; Circuit complexity is a subtopic of Complexity theory and logic; Proof complexity is a subtopic of Complexity theory and logic; Lower bounds and information complexity is a subtopic of Complexity theory and logic; Interactive proof systems is a subtopic of Complexity theory and logic; Oracles and decision trees is a subtopic of Complexity theory and logic; Mathematical foundations of cryptography is a subtopic of Computational complexity and cryptography; Probability and statistics is a subtopic of Mathematics of computing; Continuous mathematics is a subtopic of Mathematics of computing; Topology is a subtopic of Mathematics of computing; Stochastic processes is a subtopic of Probability and statistics; Nonparametric statistics is a subtopic of Probability and statistics; Probabilistic inference problems is a subtopic of Probability and statistics; Max marginal computation is a subtopic of Probabilistic inference problems; Mathematical analysis is a subtopic of Continuous mathematics; Integral equations is a subtopic of Mathematical analysis; Algebraic topology is a subtopic of Topology; Coding theory is a subtopic of Information theory; Communication hardware, interfaces and storage is a subtopic of Hardware; Integrated circuits is a subtopic of Hardware; Electronics is a subtopic of Hardware; Power management is a subtopic of Hardware; Buses and high-speed links is a subtopic of Communication hardware, interfaces and storage; Physical links is a subtopic of Communication hardware, interfaces and storage; Software organization and properties is a subtopic of Software and its engineering; Software system structures is a subtopic of Software organization and properties; Program constructs is a subtopic of Software and its engineering; Object oriented constructs is a subtopic of Program constructs; Software infrastructure is a subtopic of Software and its engineering; Programming interfaces is a subtopic of Software infrastructure; Message queues is a subtopic of Software infrastructure; Service buses is a subtopic of Software infrastructure; Operating systems is a subtopic of Software and its engineering; Monitors is a subtopic of Operating systems; Process management is a subtopic of Operating systems; Contextual software domains is a subtopic of Software and its engineering; Accessibility is a subtopic of Human-centered computing; Accessibility technologies is a subtopic of Accessibility; Empirical studies in accessibility is a subtopic of Accessibility; User characteristics is a subtopic of Human-centered computing; Interaction design is a subtopic of Human-centered computing; Empirical studies in interaction design is a subtopic of Interaction design; Tactile and hand-based interfaces is a subtopic of Human-centered computing; Virtual worlds software is a subtopic of Human-centered computing; Operations research is a subtopic of Applied computing; Decision analysis is a subtopic of Operations research; Forecasting is a subtopic of Operations research; Engineering is a subtopic of Physical sciences and engineering; Earth and atmospheric sciences is a subtopic of Physical sciences and engineering; Computer-assisted instruction is a subtopic of Education; Computer-managed instruction is a subtopic of Education; Distance learning is a subtopic of Education; Collaborative learning is a subtopic of Education; Supply chain management is a subtopic of Industry and manufacturing; Computer-aided manufacturing is a subtopic of Industry and manufacturing; Process control systems is a subtopic of Industry and manufacturing; Aerospace is a subtopic of Computers in other domains; Agriculture is a subtopic of Computers in other domains; Archaeology is a subtopic of Computers in other domains; Transportation is a subtopic of Computers in other domains; Command and control is a subtopic of Aerospace; Psychology is a subtopic of Law, social and behavioral sciences; Sociology is a subtopic of Law, social and behavioral sciences; Anthropology is a subtopic of Law, social and behavioral sciences
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 198
+
+Parsed relationships:
+  General and reference → Computing Classification System
+  Applied computing → Computing Classification System
+  Mathematics of computing → Computing Classification System
+  Theory of computation → Computing Classification System
+  Hardware → Computing Classification System
+  Networks → Computing Classification System
+  Software and its engineering → Computing Classification System
+  Information systems → Computing Classification System
+  Security and privacy → Computing Classification System
+  Human-centered computing → Computing Classification System
+  Social and professional topics → Computing Classification System
+  Information theory → Computing Classification System
+  Mathematics and statistics → Applied computing
+  Physical sciences and engineering → Applied computing
+  Education → Applied computing
+  Computers in other domains → Applied computing
+  Industry and manufacturing → Applied computing
+  Law, social and behavioral sciences → Applied computing
+  Economics → Applied computing
+  Professional topics → Social and professional topics
+  Computing industry → Professional topics
+  Law → Social and professional topics
+  World Wide Web → Information systems
+  Data management systems → Information systems
+  Information storage systems → Information systems
+  Document management and text processing → Information systems
+  Information systems applications → Information systems
+  Database management system engines → Data management systems
+  Query languages → Data management systems
+  Call level interfaces → Data management systems
+  Middleware for databases → Data management systems
+  Data federation tools → Data management systems
+  Information storage technologies → Information storage systems
+  Storage architectures → Information storage systems
+  Storage management → Information storage systems
+  Cloud based storage → Information storage systems
+  Data replication tools → Information storage systems
+  Data recovery → Information storage systems
+  Storage class memory → Information storage technologies
+  Document preparation → Document management and text processing
+  Document searching → Document management and text processing
+  Document capture → Document management and text processing
+  Annotation → Document management and text processing
+  Graphics recognition and interpretation → Document management and text processing
+  Format and notation → Document preparation
+  Image composition → Document preparation
+  Optical character recognition → Document capture
+  Online handwriting recognition → Document capture
+  Mobile information processing systems → Information systems applications
+  Web services → World Wide Web
+  Web data description languages → World Wide Web
+  Hypertext / hypermedia creation → World Wide Web
+  Web log analysis → World Wide Web
+  Site wrapping → World Wide Web
+  Online advertising → World Wide Web
+  Display advertising → Online advertising
+  Social advertising → Online advertising
+  Semantic web description languages → Web data description languages
+  Web Ontology Language (OWL) → Semantic web description languages
+  Web Services Description Language (WSDL) → Web data description languages
+  Universal Description Discovery and Integration (UDDI) → Web services
+  Data mining → Information systems
+  Web mining → Data mining
+  Network architectures → Networks
+  Network components → Networks
+  Network types → Networks
+  Network properties → Networks
+  Network performance evaluation → Networks
+  Network manageability → Networks
+  Network services → Networks
+  Physical topologies → Network architectures
+  Logical / virtual topologies → Network architectures
+  End nodes → Network components
+  Wireless devices → Network components
+  Ad hoc networks → Network types
+  Packet-switching networks → Network types
+  Network reliability → Network properties
+  Network dynamics → Network properties
+  Network structure → Network properties
+  Topology analysis and generation → Network properties
+  Network performance analysis → Network performance evaluation
+  Network performance modeling → Network performance evaluation
+  Network measurement → Network performance evaluation
+  Network simulations → Network performance evaluation
+  Traffic analysis → Network measurement
+  Network experimentation → Network measurement
+  Wireless integrated network sensors → Wireless devices
+  Security services → Security and privacy
+  Authentication → Security services
+  Authorization → Security services
+  Multi-factor authentication → Authentication
+  Cryptography → Security and privacy
+  Cryptographic protocols → Security and privacy
+  Cryptanalysis and other attacks → Security and privacy
+  Computer forensics → Security and privacy
+  Network forensics → Computer forensics
+  Evidence collection, storage and analysis → Computer forensics
+  Embedded systems security → Security and privacy
+  Software and application security → Security and privacy
+  Software security engineering → Security and privacy
+  Security in hardware → Security and privacy
+  Human and societal aspects of security and privacy → Security and privacy
+  Usability in security and privacy → Human and societal aspects of security and privacy
+  Design and analysis of algorithms → Theory of computation
+  Formal languages and automata theory → Theory of computation
+  Logic → Theory of computation
+  Models of computation → Theory of computation
+  Complexity theory and logic → Theory of computation
+  Semantics and reasoning → Theory of computation
+  Computational complexity and cryptography → Theory of computation
+  Online algorithms → Design and analysis of algorithms
+  Streaming, sublinear and near linear time algorithms → Design and analysis of algorithms
+  Nearest neighbor algorithms → Design and analysis of algorithms
+  Data structures design and analysis → Design and analysis of algorithms
+  Online learning algorithms → Design and analysis of algorithms
+  K-server algorithms → Online algorithms
+  Caching and paging algorithms → Data structures design and analysis
+  Bloom filters and hashing → Data structures design and analysis
+  Regular languages → Formal languages and automata theory
+  Tree languages → Formal languages and automata theory
+  Automata over infinite objects → Formal languages and automata theory
+  Automata extensions → Formal languages and automata theory
+  Algebraic language theory → Formal languages and automata theory
+  Equational logic and rewriting → Logic
+  Higher order logic → Logic
+  Modal and temporal logics → Logic
+  Finite Model Theory → Logic
+  Automated reasoning → Logic
+  Program semantics → Semantics and reasoning
+  Program reasoning → Semantics and reasoning
+  Formalisms → Semantics and reasoning
+  Type theory → Semantics and reasoning
+  Algebraic semantics → Program semantics
+  Categorical semantics → Program semantics
+  Algebraic complexity theory → Complexity theory and logic
+  Circuit complexity → Complexity theory and logic
+  Proof complexity → Complexity theory and logic
+  Lower bounds and information complexity → Complexity theory and logic
+  Interactive proof systems → Complexity theory and logic
+  Oracles and decision trees → Complexity theory and logic
+  Mathematical foundations of cryptography → Computational complexity and cryptography
+  Probability and statistics → Mathematics of computing
+  Continuous mathematics → Mathematics of computing
+  Topology → Mathematics of computing
+  Stochastic processes → Probability and statistics
+  Nonparametric statistics → Probability and statistics
+  Probabilistic inference problems → Probability and statistics
+  Max marginal computation → Probabilistic inference problems
+  Mathematical analysis → Continuous mathematics
+  Integral equations → Mathematical analysis
+  Algebraic topology → Topology
+  Coding theory → Information theory
+  Communication hardware, interfaces and storage → Hardware
+  Integrated circuits → Hardware
+  Electronics → Hardware
+  Power management → Hardware
+  Buses and high-speed links → Communication hardware, interfaces and storage
+  Physical links → Communication hardware, interfaces and storage
+  Software organization and properties → Software and its engineering
+  Software system structures → Software organization and properties
+  Program constructs → Software and its engineering
+  Object oriented constructs → Program constructs
+  Software infrastructure → Software and its engineering
+  Programming interfaces → Software infrastructure
+  Message queues → Software infrastructure
+  Service buses → Software infrastructure
+  Operating systems → Software and its engineering
+  Monitors → Operating systems
+  Process management → Operating systems
+  Contextual software domains → Software and its engineering
+  Accessibility → Human-centered computing
+  Accessibility technologies → Accessibility
+  Empirical studies in accessibility → Accessibility
+  User characteristics → Human-centered computing
+  Interaction design → Human-centered computing
+  Empirical studies in interaction design → Interaction design
+  Tactile and hand-based interfaces → Human-centered computing
+  Virtual worlds software → Human-centered computing
+  Operations research → Applied computing
+  Decision analysis → Operations research
+  Forecasting → Operations research
+  Engineering → Physical sciences and engineering
+  Earth and atmospheric sciences → Physical sciences and engineering
+  Computer-assisted instruction → Education
+  Computer-managed instruction → Education
+  Distance learning → Education
+  Collaborative learning → Education
+  Supply chain management → Industry and manufacturing
+  Computer-aided manufacturing → Industry and manufacturing
+  Process control systems → Industry and manufacturing
+  Aerospace → Computers in other domains
+  Agriculture → Computers in other domains
+  Archaeology → Computers in other domains
+  Transportation → Computers in other domains
+  Command and control → Aerospace
+  Psychology → Law, social and behavioral sciences
+  Sociology → Law, social and behavioral sciences
+  Anthropology → Law, social and behavioral sciences
+
+================================================================================

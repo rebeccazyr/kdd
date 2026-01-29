@@ -1,0 +1,378 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Spears; Mature; Weapons; Gun Care & Accessories; Combat Knives; Staff & Stick Weapons; Ammunition Cases & Holders; Reloading Supplies & Equipment; Google Product Taxonomy; Gun Holsters
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Spears is a subtopic of Weapons; Combat Knives is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Weapons; Gun Lights; Gun Cases & Range Bags; Stun Guns & Tasers; Staff & Stick Weapons; Mature; Swords; Google Product Taxonomy; Gun Care & Accessories; Ammunition
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Stun Guns & Tasers is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Lights is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Nunchucks; Google Product Taxonomy; Stun Guns & Tasers; Whips; Weapons; Gun Care & Accessories; Guns; Throwing Stars; Erotic; Mature
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature; Throwing Stars is a subtopic of Weapons; Guns is a subtopic of Weapons; Whips is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Erotic is a subtopic of Mature
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Books; Mature; Erotic Food & Edibles; Erotic DVDs & Videos; Erotic Clothing; Erotic Magazines; Pole Dancing Kits; Erotic Games; Erotic; Google Product Taxonomy
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Books is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Games is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic Magazines is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Staff & Stick Weapons; Mature; Stun Guns & Tasers; Gun Slings; Swords; Gun Grips; Gun Care & Accessories; Spears; Weapons; Google Product Taxonomy
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Swords is a subtopic of Weapons; Spears is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Slings is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Gun Grips is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Media; Brackets & Reinforcement Braces; Handheld Power Mixers; Concrete Molds; Tap Reseaters; Hardware Pumps; Tool Keys; Power Inverters; Beds & Accessories; Photography; Hardware Torches; Cameras & Optics; Tie Down Straps; Electrical Switches; Furniture; Tools; Sofa Accessories; Electrical Motors; Threading Machines; Bungee Cords; Computer Software; Solar Panels; Building Consumables; Hardware; Cabinet Hardware; Saw Horses; Electrical Mount Boxes & Brackets; Dollies & Hand Trucks; Abrasive Blasters; Wire Terminals & Connectors; Sanders; Sporting Goods; Ottomans; Taps & Dies; Google Product Taxonomy; Small Engines; Pliers; Building Materials; Chain, Wire & Rope; Hatches; Wrenches; Polishers & Buffers; Ground Spikes; Software; Power & Electrical Supplies; Glass; Hardware Accessories; Digital Goods & Currency; Insulation; Concrete Brooms
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here is a taxonomy based on the provided concepts:
+
+1. **Google Product Taxonomy**
+   - **Media**
+   - **Hardware**
+   - **Tools**
+   - **Building Materials**
+   - **Building Consumables**
+   - **Small Engines**
+   - **Sporting Goods**
+   - **Digital Goods & Currency**
+   - **Software**
+
+2. **Hardware**
+   - **Brackets & Reinforcement Braces**
+   - **Hardware Pumps**
+   - **Hardware Torches**
+   - **Hardware Accessories**
+   - **Chain, Wire & Rope**
+   - **Insulation**
+   - **Concrete Brooms**
+   - **Ground Spikes**
+   - **Threading Machines**
+   - **Tap Reseaters**
+   - **Wrenches**
+   - **Electrical Switches**
+   - **Electrical Mount Boxes & Brackets**
+   - **Electrical Motors**
+   - **Electrical Mount Boxes & Brackets**
+   - **Power & Electrical Supplies**
+   - **Solar Panels**
+   - **Abrasive Blasters**
+   - **Polishers & Buffers**
+   - **Concrete Molds**
+   - **Cabinet Hardware**
+   - **Saw Horses**
+   - **Insulation**
+   - **Polishers & Buffers**
+
+3. **Tools**
+   - **Saws**
+   - **Sanders**
+   - **Pliers**
+   - **Wrenches**
+   - **Tool Keys**
+   - **Gun Grips**
+   - **Gun Slings**
+   - **Gun Care & Accessories**
+   - **Gun Lights**
+   - **Gun Holsters**
+   - **Gun Care & Accessories**
+   - **Threading Machines**
+   - **Taps & Dies**
+   - **Pole Dancing Kits**
+   - **Stun Guns & Tasers**
+   - **Spears**
+   - **Staff & Stick Weapons**
+   - **Swords**
+   - **Beds & Accessories**
+   - **Ottomans**
+   - **Sofa Accessories**
+   - **Beds & Accessories**
+   - **Ottomans**
+   - **Sofa Accessories**
+
+4. **Building Consumables**
+   - **Concrete Molds**
+   - **Cabinet Hardware**
+   - **Saw Horses**
+
+5. **Building Materials**
+   - **Concrete Molds**
+   - **Cabinet Hardware**
+   - **Saw Horses**
+
+6. **Small Engines**
+   - **Small Engines**
+
+7. **Sporting Goods**
+   - **Sporting Goods**
+
+8. **Digital Goods & Currency**
+   - **Digital Goods & Currency**
+
+9. **Software**
+   - **Computer Software**
+   - **Power Inverters**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+   - **Threading Machines**
+  
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

@@ -1,0 +1,269 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: food; pici; bavette; occhi di lupo; gemelli; spaghetti; cannelloni; fagottini; fusilli; pasta
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+occhi di lupo is a subtopic of pasta; fagottini is a subtopic of pasta; pici is a subtopic of pasta; cannelloni is a subtopic of pasta; pasta is a subtopic of food; gemelli is a subtopic of pasta; spaghetti is a subtopic of pasta; bavette is a subtopic of pasta; fusilli is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: croxetti; sacchettoni; food; pasta; rotini; mezzelune; corzetti; fuži; spaghetti; linguine
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+pasta is a subtopic of food; sacchettoni is a subtopic of pasta; mezzelune is a subtopic of pasta; spaghetti is a subtopic of pasta; corzetti is a subtopic of pasta; linguine is a subtopic of pasta; croxetti is a subtopic of pasta; rotini is a subtopic of pasta; fuži is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: corzetti; pasta; stringozzi; bigoli; occhi di lupo; mezzelune; garganelli; anellini; fuži; food
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+garganelli is a subtopic of pasta; anellini is a subtopic of pasta; fuži is a subtopic of pasta; mezzelune is a subtopic of pasta; bigoli is a subtopic of pasta; stringozzi is a subtopic of pasta; pasta is a subtopic of food; corzetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: pasta; lanterne; rotini; casoncelli; campanelle; passatelli; spaghetti; ptitim; food; macaroni
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+macaroni is a subtopic of pasta; pasta is a subtopic of food; campanelle is a subtopic of pasta; lanterne is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; rotini is a subtopic of pasta; passatelli is a subtopic of pasta; casoncelli is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: sacchettoni; mezzelune; stringozzi; rotelle; spaghetti; rotini; penne; ptitim; food; pasta
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+spaghetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; rotini is a subtopic of pasta; ptitim is a subtopic of pasta; penne is a subtopic of pasta; rotelle is a subtopic of pasta; pasta is a subtopic of food; mezzelune is a subtopic of pasta; stringozzi is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: quince; cheonsachae; hors d'oeuvres; ohaw; egg drop soup; fideo; sugar cane; noodle; dashi; rasam; rice noodles; tacacá; blood soup; borscht; wanko soba; watercress; moambe; southern illinois chowder; caldo de pollo; prepared food; vlaai; duck soup noodles; liver soup; ukha; she-crab soup; pig's organ soup; vegetable; sevai; sushi; hogao; chancaca; dandan noodles; svartsoppa; purée mongole; wheatgrass; cream; imoni; gai lan; konro; brown windsor soup; bakery; hulatang; soy product; peppers; kohlrabi; tart; tomato soup; poppy milk; rose hip soup; black noodles; dairy product; yucca root; bun rieu; gulyásleves; tom yum; mangos; papayas; ice cream; kapusniak; prežganka; mang tomas; arracachas; magiritsa; savore sanguino; frying pan dinners; gumbo; porra antequerana; shirataki noodles; hodge-podge; sour cream; zosui; oil noodles; fish tea; ezogelin soup; mulligatawny; macaroni soup; butajiru; cellophane noodles; pecel; cullen skink; leeks; manchester tart; mints; empal gentong; kitchen bouquet; shchi; instant noodles; french onion soup; styrian sour soup; goulash; lollipops; bún bò huế; kiwis; tourin; mami soup; pumpkins; semifreddo; lung fung soup; dotori guksu; linguettine; butter tart; qingtang wanzi; cucumber soup; frozen dessert; kulajda; miyeok guk; malangas; candy bars; gomguk; tarte tatin; scotch broth; senate bean soup; bakmi; fruit; bouneschlupp; yaki udon; vori vori; lasagnette; soup alla canavese; grapefruits; sour rye soup; henan braised noodle; suckers; okroshka; dragon beard noodles; dessert bars; butter and margarine; aubergines; curry ketchup; persimmons; sopa de mondongo; tripoline; bread sauce; bisque; gazpachuelo; cottage cheese; sour cherry soup; draw soup; minestrone; sinigang; vichyssoise; sugo all'amatriciana; fanesca; suaasat; coffee cakes; bún mắm; carrots; sancocho; sour soup; garak guksu; corn chowder; sweets; sauce lyonnaise; satay sauce; tangerines; spätzle; food; rassolnik; berries; oyster sauce; bermuda fish chowder; dried fruit; rambutans; sauce; loquats; panada; cold borsch; zuppa alla modenese; jook-sing noodles; gumdrops; khao poon; soto ayam; salad mixes; sherbet; solyanka; chewing gum; dessert toppings; ok sauce; mafalde; borage; spice; tinned soup; bread soup; hot dry noodles; lychees; soup; frozen dinners; tom kha kai; korean noodles; jelly beans; beverage; condiment; chinese noodles; rhubarb tart; consommé; coconuts; hard sauce; pesto; kissel; rawon
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+food is the parent category for all the given concepts. Here are the parent-child relationships:
+
+- food is a subtopic of food
+- quince is a subtopic of food
+- cheonsachae is a subtopic of food
+- ohaw is a subtopic of food
+- egg drop soup is a subtopic of food
+- fideo is a subtopic of food
+- sugar cane is a subtopic of food
+- noodle is a subtopic of food
+- dashi is a subtopic of food
+- rasam is a subtopic of food
+- rice noodles is a subtopic of food
+- tacacá is a subtopic of food
+- blood soup is a subtopic of food
+- borscht is a subtopic of food
+- wanko soba is a subtopic of food
+- vegetable is a subtopic of food
+- sevai is a subtopic of food
+- sushi is a subtopic of food
+- hogao is a subtopic of food
+- chancaca is a subtopic of food
+- dandan noodles is a subtopic of food
+- svartsoppa is a subtopic of food
+- purée mongole is a subtopic of food
+- wheatgrass is a subtopic of food
+- cream is a subtopic of food
+- imoni is a subtopic of food
+- gai lan is a subtopic of food
+- konro is a subtopic of food
+- brown windsor soup is a subtopic of food
+- bakery is a subtopic of food
+- hulatang is a subtopic of food
+- soy product is a subtopic of food
+- peppers is a subtopic of food
+- kohlrabi is a subtopic of food
+- tart is a subtopic of food
+- tomato soup is a subtopic of food
+- poppy milk is a subtopic of food
+- rose hip soup is a subtopic of food
+- dairy product is a subtopic of food
+- yucca root is a subtopic of food
+- bun rieu is a subtopic of food
+- gulyásleves is a subtopic of food
+- tom yum is a subtopic of food
+- mangos is a subtopic of food
+- papayas is a subtopic of food
+- ice cream is a subtopic of food
+- kapusniak is a subtopic of food
+- prežganka is a subtopic of food
+- mang tomas is a subtopic of food
+- arracachas is a subtopic of food
+- magiritsa is a subtopic of food
+- savore sanguino is a subtopic of food
+- frying pan dinners is a subtopic of food
+- gumbo is a subtopic of food
+- porra antequerana is a subtopic of food
+- shirataki noodles is a subtopic of food
+- hodge-podge is a subtopic of food
+- sour cream is a subtopic of food
+- zosui is a subtopic of food
+- oil noodles is a subtopic of food
+- fish tea is a subtopic of food
+- ezogelin soup is a subtopic of food
+- mulligatawny is a subtopic of food
+- macaroni soup is a subtopic of food
+- butajiru is a subtopic of food
+- cellophane noodles is a subtopic of food
+- pecel is a subtopic of food
+- cullen skink is a subtopic of food
+- manchester tart is a subtopic of food
+- mints is a subtopic of food
+- empal gentong is a subtopic of food
+- shchi is a subtopic of food
+- instant noodles is a subtopic of food
+- french onion soup is a subtopic of food
+- styrian sour soup is a subtopic of food
+- goulash is a subtopic of food
+- bún bò huế is a subtopic of food
+- kiwis is a subtopic of food
+- tourin is a subtopic of food
+- mami soup is a subtopic of food
+- pumpkins is a subtopic of food
+- semifreddo is a subtopic of food
+- lung fung soup is a subtopic of food
+- dotori guksu is a subtopic of food
+- linguettine is a subtopic of food
+- butter tart is a subtopic of food
+- qingtang wanzi is a subtopic of food
+- cucumber soup is a subtopic of food
+- kulajda is a subtopic of food
+- miyeok guk is a subtopic of food
+- malangas is a subtopic of food
+- candy bars is a subtopic of food
+- gomguk is a subtopic of food
+- tarte tatin is a subtopic of food
+- scotch broth is a subtopic of food
+- senate bean soup is a subtopic of food
+- bakmi is a subtopic of food
+- fruit is a subtopic of food
+- bouneschlupp is a subtopic of food
+- yaki udon is a subtopic of food
+- vori vori is a subtopic of food
+- lasagnette is a subtopic of food
+- soup alla canavese is a subtopic of food
+- grapefruits is a subtopic of food
+- sour rye soup is a subtopic of food
+- henan braised noodle is a subtopic of food
+- okroshka is a subtopic of food
+- dragon beard noodles is a subtopic of food
+- dessert bars is a subtopic of food
+- butter and margarine is a subtopic of food
+- aubergines is a subtopic of food
+- curry ketchup is a subtopic of food
+- persimmons is a subtopic of food
+- sopa de mondongo is a subtopic of food
+- tripoline is a subtopic of food
+- bread sauce is a subtopic of food
+- bisque is a subtopic of food
+- gazpachuelo is a subtopic of food
+- cottage cheese is a subtopic of food
+- sour cherry soup is a subtopic of food
+- draw soup is a subtopic of food
+- minestrone is a subtopic of food
+- sinigang is a subtopic of food
+- vichyssoise is a subtopic of food
+- sugo all'amatriciana is a subtopic of food
+- fanesca is a subtopic of food
+- suaasat is a subtopic of food
+- coffee cakes is a subtopic of food
+- bún mắm is a subtopic of food
+- carrots is a subtopic of food
+- sancocho is a subtopic of food
+- sorrel soup is a subtopic of food
+- rawon is a subtopic of food
+- rassolnik is a subtopic of food
+- berries is a subtopic of food
+- oyster sauce is a subtopic of food
+- bermuda fish chowder is a subtopic of food
+- dried fruit is a subtopic of food
+- rambutans is a subtopic of food
+- dessert toppings is a subtopic of food
+- ok sauce is a subtopic of food
+- mafalde is a subtopic of food
+- borage is a subtopic of food
+- spice is a subtopic of food
+- tinned soup is a subtopic of food
+- bread soup is a subtopic of food
+- hot dry noodles is a subtopic of food
+- lychees is a subtopic of food
+- soup is a subtopic of food
+- frozen dinners is a subtopic of food
+- tom kha kai is a subtopic of food
+- korean noodles is a subtopic of food
+- jelly beans is a subtopic of food
+- beverage is a subtopic of food
+- condiment is a subtopic of food
+- chinese noodles is a subtopic of food
+- rhubarb tart is a subtopic of food
+- consommé is a subtopic of food
+- coconuts is a subtopic of food
+- hard sauce is a subtopic of food
+- pesto is a subtopic of food
+- kissel is a subtopic of food
+- rawon is a subtopic of food
+- coffee is a subtopic of food
+- condiments is a subtopic of food
+- soups is a subtopic of food
+- desserts is a subtopic of food
+- snacks is a subtopic of food
+- bakery products is a subtopic of food
+- vegetables is a subtopic of food
+- fruits is a subtopic of food
+- dairy products is a subtopic of food
+- meats is a subtopic of food
+- grains is a subtopic of food
+- legumes is a subtopic of food
+- nuts is a subtopic of food
+- seafood is a subtopic of food
+- herbs is a subtopic of food
+- spices is a subtopic of food
+- condiments is a subtopic of food
+- sauces is a subtopic of food
+- beverages is a subtopic of food
+- sweets is a subtopic of food
+- snacks is a subtopic of food
+- desserts is a subtopic of food
+- bakery products is a subtopic of food
+- vegetables is a subtopic of food
+- fruits is a subtopic of food
+- dairy products is a subtopic of food
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

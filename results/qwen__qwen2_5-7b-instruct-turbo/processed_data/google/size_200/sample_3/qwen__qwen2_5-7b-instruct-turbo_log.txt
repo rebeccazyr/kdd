@@ -1,0 +1,417 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Reloading Supplies & Equipment; Gun Care & Accessories; Ammunition Cases & Holders; Staff & Stick Weapons; Combat Knives; Mature; Google Product Taxonomy; Gun Holsters; Spears; Weapons
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Gun Holsters is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Combat Knives is a subtopic of Weapons; Weapons is a subtopic of Mature; Staff & Stick Weapons is a subtopic of Weapons; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Google Product Taxonomy; Gun Cases & Range Bags; Staff & Stick Weapons; Mature; Gun Lights; Weapons; Ammunition; Swords; Stun Guns & Tasers
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Weapons is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Guns; Mature; Gun Care & Accessories; Nunchucks; Throwing Stars; Google Product Taxonomy; Erotic; Whips; Weapons; Stun Guns & Tasers
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Stun Guns & Tasers is a subtopic of Weapons; Guns is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Weapons is a subtopic of Mature; Erotic is a subtopic of Mature; Whips is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Games; Erotic Food & Edibles; Erotic; Erotic DVDs & Videos; Pole Dancing Kits; Erotic Magazines; Erotic Books; Erotic Clothing; Mature; Google Product Taxonomy
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Magazines is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic Games is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic Books is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Stun Guns & Tasers; Spears; Mature; Staff & Stick Weapons; Weapons; Gun Grips; Google Product Taxonomy; Gun Slings; Swords
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Gun Slings is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Staff & Stick Weapons is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Spears is a subtopic of Weapons; Weapons is a subtopic of Mature; Stun Guns & Tasers is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Salad Dressing; Pet Supplies; Duffel Bags; Bean Paste; Brackets & Reinforcement Braces; Riveting Tools; Hardware Pumps; Magnetizers & Demagnetizers; Pet Containment Systems; Wall Socket Controls & Sensors; Protective Coatings & Sealants; Pet Leash Extensions; Tools; Pickled Fruits & Vegetables; Drain Components; Jewelry Holders; Staircases; Cigars; Industrial Staples; Building Consumables; Leis; Pet Door Accessories; Fuel; Drop Cloths; Socket Drivers; Backpacks; Electrical Freeze Sprays; Pet Grooming Supplies; Wedge Tools; Tool Safety Tethers; Driver Accessories; Google Product Taxonomy; Coils; Chain, Wire & Rope; Putty Knives & Scrapers; Hammer Accessories; Planers; Papayas; Olives & Capers; Paint Tool Accessories; Drain Liners; Tobacco Products; Exercise Wedges; Marking Tools; Sport Safety Lights & Reflectors; Hummus; Juice; Masonry Tools; Solar Energy Kits; Pasta Sauce; Smoking Pipes; Screwdrivers; Media; Power Tool Batteries; Heat Guns; Shutters; Pickup Tools; Faucet Accessories; Plumbing Repair Kits; Ab Wheels & Rollers; Tool Keys; Coffee; Cosmetic & Toiletry Bags; Milk; Ladder Carts; Deburrers; Hot Sauce; Cheese Dips & Spreads; Sunglasses; Salsa; Ladders & Scaffolding; Magazines & Newspapers; Hardware; Water Levelers; Jewelry Cleaning & Care; Voltage Transformers & Regulators; Pet Oral Care Supplies; Sugar & Sweeteners; Paint Brush Cleaning Solutions; Plumbing Fixture Hardware & Parts; Condiments & Sauces; Tool Accessories; Hammers; Drains; Home Automation Kits; Sporting Goods; Apparel & Accessories; De-icers; Light Bulb Changers; Conduit & Housings; Key Blanks; Ground Spikes; Sprinkler, Booster & Irrigation System Pumps; Power Towers; Drills; Power & Electrical Supplies; Party & Celebration; Baking Chocolate; Food Items; Electrical Wires & Cable; Pipe Brushes; Masonry Trowels; Eggnog; Cocktail Sauce; Plumbing Wastes; Dowel Pins & Rods; Luggage & Bags; Beverages; Horseradish Sauce; Multifunction Power Tools; Inspection Mirrors; Dips & Spreads; Cardio; Pipe & Bar Benders; Flour; Reamers; Plungers; Pet Waste Disposal Systems & Tools; Exercise Balls; Cutters; Food Coloring; Gloves & Mittens; Fanny Packs; Candy & Chocolate; Locks & Latches; Jigs; Indoor Games; Concrete & Masonry Cleaners; Carbon Brushes; Cooking Wine; Push Up & Pull Up Bars; Wire Terminals & Connectors; Mustard; Acid Neutralizers; Building Materials; Pool, Fountain & Pond Pumps; Armatures, Rotors & Stators; Hardware Tape; Moving & Soundproofing Blankets & Covers; Plumbing; Painting Consumables; Speed & Resistance Parachutes; Cooking & Baking Ingredients; Food, Beverages & Tobacco; Dessert Toppings; Home Appliance Pumps; Exercise Bands; Chemicals; Fresh & Frozen Fruits; Pasta & Noodles; Powered Hammers; Candied & Chocolate Covered Fruit; Wall Jacks & Braces; Sharpeners; Arts & Entertainment; Corn Syrup; Handheld Power Mixers; Soldering Irons; Saw Accessories; Pneumatic Hoses; Animals & Pet Supplies; Clothing Accessories; Fish Supplies; Power Inverters; Pet Food Containers; Pet Food Scoops; Generator Accessories; Ping Pong; Electrical Conduit; Water Timers; Carpentry Jointers; Post Base Plates; Vinegar; Shaper Accessories; Ladders; Passion Fruit; Tool Files; Fuel Containers & Tanks; Lighters & Matches; Locks & Keys; Wire & Cable Hand Tools; Health & Beauty; Syrup; Handbag & Wallet Accessories; Post Hole Diggers; Cement Mixers; Mattocks & Pickaxes; Baking Powder; Milling Machines; Fruits & Vegetables; Exercise & Fitness; Solder & Flux; Propane; Newspapers; Aerobic Steps; Work Lights; Prepared Foods; Hardware Accessories; Prepared Appetizers & Side Dishes; Ballasts & Starters
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Creating a taxonomy from this extensive list of concepts involves organizing them into a hierarchical structure. Here's a possible taxonomy:
+
+1. **Google Product Taxonomy**
+   - **Mature**
+     - **Food, Beverages & Tobacco**
+       - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         - **Juice**
+         - **Milk**
+         - **Coffee**
+         - **Beverages**
+         -
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

@@ -1,0 +1,100 @@
+child,parent
+Hardware,Computing Classification System
+Theory of computation,Computing Classification System
+Software and its engineering,Computing Classification System
+Human-centered computing,Computing Classification System
+Networks,Computing Classification System
+Applied computing,Computing Classification System
+Mathematics of computing,Computing Classification System
+Social and professional topics,Computing Classification System
+General and reference,Computing Classification System
+Integrated circuits,Hardware
+Semiconductor memory,Integrated circuits
+Digital switches,Integrated circuits
+Logic families,Integrated circuits
+Packaging,Hardware
+Electronic design automation,Hardware
+Hardware description languages and compilation,Electronic design automation
+Physical design (EDA),Electronic design automation
+Placement,Physical design (EDA)
+Wire routing,Physical design (EDA)
+Physical synthesis,Physical design (EDA)
+Logic synthesis,Electronic design automation
+Combinational synthesis,Electronic design automation
+Hardware test,Hardware
+"Analog, mixed-signal and radio frequency test",Hardware test
+Design for testability,Hardware test
+Hardware reliability screening,Hardware
+Design and analysis of algorithms,Theory of computation
+Algorithm design techniques,Design and analysis of algorithms
+Divide and conquer,Algorithm design techniques
+Sorting and searching,Design and analysis of algorithms
+Data structures design and analysis,Design and analysis of algorithms
+Graph algorithms analysis,Design and analysis of algorithms
+Dynamic graph algorithms,Graph algorithms analysis
+Sparsification and spanners,Graph algorithms analysis
+Computational geometry,Design and analysis of algorithms
+Online algorithms,Design and analysis of algorithms
+K-server algorithms,Online algorithms
+Caching and paging algorithms,Online algorithms
+Online learning algorithms,Online algorithms
+Parameterized complexity and exact algorithms,Design and analysis of algorithms
+"Randomness, geometry and discrete structures",Theory of computation
+Formal languages and automata theory,Theory of computation
+Tree languages,Formal languages and automata theory
+Logic,Theory of computation
+Proof theory,Logic
+Equational logic and rewriting,Logic
+Computational complexity and cryptography,Theory of computation
+Complexity classes,Computational complexity and cryptography
+"Problems, reductions and completeness",Computational complexity and cryptography
+Circuit complexity,Computational complexity and cryptography
+Communication complexity,Computational complexity and cryptography
+Algebraic complexity theory,Computational complexity and cryptography
+Proof complexity,Computational complexity and cryptography
+Interactive proof systems,Computational complexity and cryptography
+Cryptographic primitives,Computational complexity and cryptography
+Cryptographic protocols,Computational complexity and cryptography
+Adversary models,Computational complexity and cryptography
+Semantics and reasoning,Software and its engineering
+Verification by model checking,Semantics and reasoning
+Formalisms,Semantics and reasoning
+Hoare logic,Semantics and reasoning
+Separation logic,Semantics and reasoning
+Robustness,Software and its engineering
+Human computer interaction (HCI),Human-centered computing
+Interaction paradigms,Human computer interaction (HCI)
+Graphical user interfaces,Interaction paradigms
+Hypertext / hypermedia,Interaction paradigms
+Natural language interfaces,Interaction paradigms
+Interaction design,Human computer interaction (HCI)
+Interactive systems and tools,Human computer interaction (HCI)
+User interface programming,Interactive systems and tools
+User interface management systems,Interactive systems and tools
+Collaborative and social computing,Human-centered computing
+Empirical studies in collaborative and social computing,Collaborative and social computing
+Collaborative and social computing design and evaluation methods,Collaborative and social computing
+Collaborative interaction,Collaborative and social computing
+Social network analysis,Collaborative and social computing
+Ubiquitous and mobile computing,Human-centered computing
+Accessibility,Human-centered computing
+"Accessibility theory, concepts and paradigms",Accessibility
+Accessibility design and evaluation methods,Accessibility
+Accessibility systems and tools,Accessibility
+Accessibility technologies,Accessibility
+People with disabilities,Accessibility
+User characteristics,Human-centered computing
+Cultural characteristics,User characteristics
+Race and ethnicity,User characteristics
+Document management and text processing,Applied computing
+Document searching,Document management and text processing
+Publishing,Applied computing
+Physical sciences and engineering,Applied computing
+Engineering,Physical sciences and engineering
+Computers in other domains,Applied computing
+Arts and humanities,Applied computing
+Constructive mathematics,Mathematics of computing
+Professional topics,Social and professional topics
+Computing industry,Professional topics
+Management of computing and information systems,Professional topics
+Computing / technology policy,Social and professional topics

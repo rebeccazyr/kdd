@@ -1,0 +1,282 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Gun Holsters; Weapons; Reloading Supplies & Equipment; Spears; Combat Knives; Staff & Stick Weapons; Gun Care & Accessories; Mature; Ammunition Cases & Holders
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Weapons is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Gun Holsters is a subtopic of Gun Care & Accessories; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Combat Knives is a subtopic of Weapons; Spears is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Weapons; Gun Cases & Range Bags; Gun Lights; Stun Guns & Tasers; Swords; Staff & Stick Weapons; Google Product Taxonomy; Mature; Ammunition
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Gun Lights is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Weapons is a subtopic of Mature; Stun Guns & Tasers is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Swords is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Whips; Guns; Mature; Nunchucks; Throwing Stars; Erotic; Weapons; Google Product Taxonomy; Stun Guns & Tasers
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Stun Guns & Tasers is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Whips is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Weapons is a subtopic of Mature; Guns is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Pole Dancing Kits; Erotic Games; Mature; Erotic Books; Erotic DVDs & Videos; Erotic Food & Edibles; Erotic; Erotic Clothing; Google Product Taxonomy; Erotic Magazines
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Books is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Games is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Pole Dancing Kits is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Gun Grips; Gun Slings; Mature; Weapons; Spears; Google Product Taxonomy; Gun Care & Accessories; Stun Guns & Tasers; Staff & Stick Weapons; Swords
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Spears is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Grips is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Swords is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Slings is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Decor; Flag & Windsock Accessories; Lighting; Thermoses; Wallpaper; Trunks; Button Studs; Office Supplies; Butterfly Houses; Music Boxes; Toys & Games; Piggy Banks & Money Jars; Animals & Pet Supplies; Clothing Accessories; Seasonal & Holiday Decorations; Lawn Ornaments & Garden Sculptures; Belt Buckles; Growth Charts; Sunglasses; Flasks; Mirrors; Garden & Stepping Stones; Decorative Bells; Emergency Preparedness; Mailboxes; Figurines; Food & Beverage Carriers; Slipcovers; Lawn & Garden; Picture Frames; Emergency Blankets; Holiday Stocking Hangers; Rain Chains; Apparel & Accessories; Coolers; Google Product Taxonomy; Seasonal Village Sets & Accessories; Window Valances & Cornices; Window Treatments; Home & Garden; Floating & Submersible Lights; Napkin Rings; Christmas Tree Stands; Kitchen & Dining; Food, Beverages & Tobacco; Electronics; Bird & Wildlife Houses; Snow Removal; Speed Radars; Easter Egg Decorating Kits
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here is the taxonomy based on the provided concepts:
+
+1. **Google Product Taxonomy** (Parent)
+   - **Home & Garden** (Child)
+     - **Decor** (Child)
+       - **Seasonal & Holiday Decorations** (Child)
+         - **Seasonal Village Sets & Accessories** (Child)
+         - **Christmas Tree Stands** (Child)
+         - **Holiday Stocking Hangers** (Child)
+       - **Lawn Ornaments & Garden Sculptures** (Child)
+       - **Lawn & Garden** (Child)
+         - **Snow Removal** (Child)
+       - **Seasonal & Holiday Decorations** (Child)
+         - **Butterfly Houses** (Child)
+         - **Bird & Wildlife Houses** (Child)
+     - **Seasonal & Holiday Decorations** (Child)
+       - **Seasonal Village Sets & Accessories** (Child)
+       - **Christmas Tree Stands** (Child)
+       - **Holiday Stocking Hangers** (Child)
+     - **Decorative Bells** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+       - **Emergency Blankets** (Child)
+     - **Emergency Preparedness** (Child)
+
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

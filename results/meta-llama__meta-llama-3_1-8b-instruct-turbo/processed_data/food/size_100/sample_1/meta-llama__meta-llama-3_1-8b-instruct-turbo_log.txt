@@ -1,0 +1,461 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: bavette; spaghetti; fagottini; food; cannelloni; pasta; gemelli; pici; fusilli; occhi di lupo
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+bavette is a subtopic of pasta; occhi di lupo is a subtopic of pasta; fusilli is a subtopic of pasta; pasta is a subtopic of food; gemelli is a subtopic of pasta; pici is a subtopic of pasta; spaghetti is a subtopic of pasta; fagottini is a subtopic of pasta; cannelloni is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: croxetti; mezzelune; food; spaghetti; sacchettoni; fuži; pasta; corzetti; linguine; rotini
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+mezzelune is a subtopic of pasta; croxetti is a subtopic of pasta; rotini is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food; fuži is a subtopic of pasta; corzetti is a subtopic of pasta; linguine is a subtopic of pasta; sacchettoni is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: pasta; food; occhi di lupo; anellini; fuži; corzetti; mezzelune; garganelli; bigoli; stringozzi
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+bigoli is a subtopic of pasta; fuži is a subtopic of pasta; corzetti is a subtopic of pasta; mezzelune is a subtopic of pasta; garganelli is a subtopic of pasta; stringozzi is a subtopic of pasta; pasta is a subtopic of food; anellini is a subtopic of pasta; occhi di lupo is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: food; rotini; spaghetti; macaroni; campanelle; lanterne; casoncelli; passatelli; pasta; ptitim
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+pasta is a subtopic of food; lanterne is a subtopic of pasta; rotini is a subtopic of pasta; macaroni is a subtopic of pasta; campanelle is a subtopic of pasta; casoncelli is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; passatelli is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: stringozzi; ptitim; sacchettoni; spaghetti; rotelle; food; rotini; mezzelune; pasta; penne
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+ptitim is a subtopic of pasta; stringozzi is a subtopic of pasta; sacchettoni is a subtopic of pasta; spaghetti is a subtopic of pasta; rotelle is a subtopic of pasta; rotini is a subtopic of pasta; mezzelune is a subtopic of pasta; penne is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: nettle soup; hors d'oeuvres; ready brek; tacacá; rasam; ganjang; prepared food; gulgukbap; soyo; dalithoy; chocolate covered fruit; just right; chocolate assortments; tomato soup; dairy product; oats; hyderabadi marag; halfsies; pea soup; body buddies; prežganka; kapusniak; mykyrokka; boiled sweets; cornmeal; olives and capers; raisin bran; porra antequerana; ponzu; magiritsa; licorice; peanut butter cups; salvitxada; peach sauce; mulligatawny; macaroni soup; cereals; pecel; nali sauce; empal gentong; scott's porage oats; black soup; buc wheats cereal; bún bò huế; wodzionka; cucumber soup; frozen dessert; béarnaise sauce; wheat; tian mo; senate bean soup; quinoa; marshmallow sweets; soup alla canavese; vori vori; mannish water; caldo verde; kream krunch; candy corn; chocos; cröonchy stars; honey; curry sauce; sour cherry soup; draw soup; gazpacho; fanesca; ribollita; suaasat; bún mắm; sour soup; sweets; psarosoupa; honey nut clusters; food; raisin wheats; rassolnik; siemieniotka; eggs; tartar sauce; spring soup; tekwan; waffle crisp; golden nuggets; nougat; chocolate bars; breakfast cereal; tinned soup; leek soup; soup; tom kha kai; taffy; miso soup; jelly beans; condiment; consommé; pesto; rye; sujebi; rawon
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts. I'll create a taxonomy for you, but please note that it might not be exhaustive due to the sheer number of concepts.
+
+Here's the taxonomy:
+
+1. food is a subtopic of 
+   - prepared food
+   - condiment
+   - breakfast cereal
+   - sweets
+   - dairy product
+   - oats
+   - wheat
+   - quinoa
+   - cereals
+   - honey
+   - eggs
+
+2. prepared food is a subtopic of 
+   - soup
+   - hors d'oeuvres
+   - chocolate covered fruit
+   - chocolate assortments
+   - boiled sweets
+   - marshmallow sweets
+   - candy corn
+   - nougat
+   - chocolate bars
+   - breakfast cereal
+   - tinned soup
+   - leek soup
+   - consommé
+   - pesto
+   - sujebi
+   - rawon
+
+3. soup is a subtopic of 
+   - tomato soup
+   - pea soup
+   - nettle soup
+   - magiritsa
+   - empal gentong
+   - bún bò huế
+   - wodzionka
+   - cucumber soup
+   - gazpacho
+   - fanesca
+   - ribollita
+   - suaasat
+   - bún mắm
+   - sour soup
+   - psarosoupa
+   - miso soup
+   - tom kha kai
+   - rassolnik
+   - siemieniotka
+   - leek soup
+   - consommé
+   - sujebi
+   - rawon
+   - soup alla canavese
+   - caldo verde
+   - senate bean soup
+   - kream krunch
+   - waffle crisp
+   - golden nuggets
+   - taffy
+   - jelly beans
+
+4. condiment is a subtopic of 
+   - soyo
+   - ganjang
+   - ponzu
+   - nali sauce
+   - empal gentong
+   - buc wheats cereal
+   - mannish water
+   - tian mo
+   - senate bean soup
+   - curry sauce
+   - tartar sauce
+   - pesto
+   - rye
+
+5. breakfast cereal is a subtopic of 
+   - ready brek
+   - raisin bran
+   - buc wheats cereal
+   - scott's porage oats
+   - kream krunch
+   - waffle crisp
+   - golden nuggets
+   - breakfast cereal
+
+6. sweets is a subtopic of 
+   - boiled sweets
+   - marshmallow sweets
+   - candy corn
+   - nougat
+   - chocolate bars
+   - honey nut clusters
+   - honey
+   - jelly beans
+   - licorice
+   - peanut butter cups
+   - raisin wheats
+   - chocos
+   - cröonchy stars
+   - honey
+
+7. dairy product is a subtopic of 
+   - oats
+   - wheat
+   - quinoa
+   - cereals
+   - honey
+   - eggs
+
+8. oats is a subtopic of 
+   - oats
+   - scott's porage oats
+   - buc wheats cereal
+   - raisin bran
+   - kream krunch
+   - waffle crisp
+   - golden nuggets
+   - breakfast cereal
+
+9. wheat is a subtopic of 
+   - wheat
+   - buc wheats cereal
+   - raisin wheats
+   - chocos
+   - cröonchy stars
+
+10. quinoa is a subtopic of 
+    - quinoa
+    - cereals
+
+11. cereals is a subtopic of 
+    - cereals
+    - breakfast cereal
+    - buc wheats cereal
+    - raisin bran
+    - scott's porage oats
+    - kream krunch
+    - waffle crisp
+    - golden nuggets
+
+12. honey is a subtopic of 
+    - honey
+    - honey nut clusters
+    - honey
+
+13. eggs is a subtopic of 
+    - eggs
+
+14. rasam is a subtopic of 
+    - rasam
+
+15. dalithoy is a subtopic of 
+    - dalithoy
+
+16. ganjang is a subtopic of 
+    - ganjang
+
+17. soyo is a subtopic of 
+    - soyo
+
+18. ponzu is a subtopic of 
+    - ponzu
+
+19. nali sauce is a subtopic of 
+    - nali sauce
+
+20. empal gentong is a subtopic of 
+    - empal gentong
+
+21. buc wheats cereal is a subtopic of 
+    - buc wheats cereal
+
+22. mannish water is a subtopic of 
+    - mannish water
+
+23. tian mo is a subtopic of 
+    - tian mo
+
+24. senate bean soup is a subtopic of 
+    - senate bean soup
+
+25. curry sauce is a subtopic of 
+    - curry sauce
+
+26. tartar sauce is a subtopic of 
+    - tartar sauce
+
+27. pesto is a subtopic of 
+    - pesto
+
+28. rye is a subtopic of 
+    - rye
+
+29. sujebi is a subtopic of 
+    - sujebi
+
+30. rawon is a subtopic of 
+    - rawon
+
+31. rotini is a subtopic of 
+    - pasta
+
+32. spaghetti is a subtopic of 
+    - pasta
+
+33. macaroni is a subtopic of 
+    - pasta
+
+34. campanelle is a subtopic of 
+    - pasta
+
+35. lanterne is a subtopic of 
+    - pasta
+
+36. casoncelli is a subtopic of 
+    - pasta
+
+37. passatelli is a subtopic of 
+    - pasta
+
+38. ptitim is a subtopic of 
+    - pasta
+
+39. stringozzi is a subtopic of 
+    - pasta
+
+40. sacchettoni is a subtopic of 
+    - pasta
+
+41. mezzelune is a subtopic of 
+    - pasta
+
+42. penne is a subtopic of 
+    - pasta
+
+43. rotelle is a subtopic of 
+    - pasta
+
+44. occhi di lupo is a subtopic of 
+    - pasta
+
+45. fuži is a subtopic of 
+    - pasta
+
+46. corzetti is a subtopic of 
+    - pasta
+
+47. garganelli is a subtopic of 
+    - pasta
+
+48. bigoli is a subtopic of 
+    - pasta
+
+49. anellini is a subtopic of 
+    - pasta
+
+50. bavette is a subtopic of 
+    - pasta
+
+51. gemelli is a subtopic of 
+    - pasta
+
+52. pici is a subtopic of 
+    - pasta
+
+53. fusilli is a subtopic of 
+    - pasta
+
+54. fagottini is a subtopic of 
+    - pasta
+
+55. cannelloni is a subtopic of 
+    - pasta
+
+56. occhi di lupo is a subtopic of 
+    - pasta
+
+57. nettle soup is a subtopic of 
+    - soup
+
+58. hors d'oeuvres is a subtopic of 
+    - prepared food
+
+59. ready brek is a subtopic of 
+    - breakfast cereal
+
+60. tacacá is a subtopic of 
+    - rasam
+
+61. rasam is a subtopic of 
+    - rasam
+
+62. ganjang is a subtopic of 
+    - ganjang
+
+63. fuži is a subtopic of 
+    - pasta
+
+64. corzetti is a subtopic of 
+    - pasta
+
+65. mezzelune is a subtopic of 
+    - pasta
+
+66. garganelli is a subtopic of 
+    - pasta
+
+67. bigoli is a subtopic of 
+    - pasta
+
+68. anellini is a subtopic of 
+    - pasta
+
+69. bavette is a subtopic of 
+    - pasta
+
+70. gemelli is a subtopic of 
+    - pasta
+
+71. pici is a subtopic of 
+    - pasta
+
+72. fusilli is a subtopic of 
+    - pasta
+
+73. fagottini is a subtopic of 
+    - pasta
+
+74. cannelloni is a subtopic of 
+    - pasta
+
+75. occhi di lupo is a subtopic of 
+    - pasta
+
+76. rotini is a subtopic of 
+    - pasta
+
+77. spaghetti is a subtopic of 
+    - pasta
+
+78. macaroni is a subtopic of 
+    - pasta
+
+79. campanelle is a subtopic of 
+    - pasta
+
+80. lanterne is a subtopic of 
+    - pasta
+
+81. casoncelli is a subtopic of 
+    - pasta
+
+82. passatelli is a subtopic of 
+    - pasta
+
+83. ptitim is a subtopic of 
+    - pasta
+
+84. stringozzi is a subtopic of 
+    - pasta
+
+85. sacchettoni is a subtopic of 
+    - pasta
+
+86. mezzelune is a subtopic of 
+    - pasta
+
+87. penne is a subtopic of 
+    - pasta
+
+88. rotelle is a subtopic of 
+    - pasta
+
+89. occhi di lupo is a subtopic
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 1
+
+Parsed relationships:
+  This is a very long list of concepts. I'll create a taxonomy for you → but please note that it might not be exhaustive due to the sheer number of concepts
+
+================================================================================

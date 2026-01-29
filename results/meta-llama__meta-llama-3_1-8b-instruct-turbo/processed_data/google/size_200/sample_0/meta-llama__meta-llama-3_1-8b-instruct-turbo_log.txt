@@ -1,0 +1,361 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Weapons; Google Product Taxonomy; Staff & Stick Weapons; Spears; Combat Knives; Reloading Supplies & Equipment; Mature; Ammunition Cases & Holders; Gun Holsters; Gun Care & Accessories
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Combat Knives is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Weapons is a subtopic of Mature; Spears is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Gun Lights; Swords; Gun Cases & Range Bags; Google Product Taxonomy; Stun Guns & Tasers; Mature; Ammunition; Gun Care & Accessories; Weapons; Staff & Stick Weapons
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Gun Lights is a subtopic of Gun Care & Accessories; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Weapons is a subtopic of Mature; Swords is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Guns; Nunchucks; Stun Guns & Tasers; Throwing Stars; Mature; Weapons; Whips; Gun Care & Accessories; Erotic; Google Product Taxonomy
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Whips is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Stun Guns & Tasers is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Erotic is a subtopic of Mature; Nunchucks is a subtopic of Weapons; Guns is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Games; Erotic Magazines; Erotic DVDs & Videos; Pole Dancing Kits; Erotic Clothing; Erotic; Google Product Taxonomy; Erotic Food & Edibles; Mature; Erotic Books
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Clothing is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic is a subtopic of Mature; Erotic Games is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Gun Grips; Staff & Stick Weapons; Google Product Taxonomy; Spears; Gun Care & Accessories; Swords; Mature; Weapons; Gun Slings; Stun Guns & Tasers
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Gun Slings is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Staff & Stick Weapons is a subtopic of Weapons; Spears is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Duffel Bags; Remote Control Planes; Riding Toy Accessories; Socks; Balance Trainers; Noisemakers & Party Blowers; Inversion Tables & Systems; Earmuffs; Bra Accessories; Handbags, Wallets & Cases; Skirts; Outdoor Play Equipment; Robotic Toys; Cameras & Optics; Office Furniture Accessories; Camera & Optic Accessories; Stopwatches; Sashes; Game Timers; Boot Liners; Confetti; Messenger Bags; Shoe Covers; Party Streamers & Curtains; Maternity Belts & Support Bands; Music CDs; Drinking Straws & Stirrers; Baby & Toddler Gloves & Mittens; ATVs & UTVs; Google Product Taxonomy; Toy Weapons & Gadgets; Beach & Sand Toys; Air Hockey Table Parts; Balloon Kits; Toy Spaceships; Vehicles; Tie Clips; Skorts; Sippy Cups; Weighted Clothing; Play Swings; Yoga & Pilates Mats; Costumes & Accessories; Recreational Vehicles; Weight Lifting Gloves & Hand Supports; Media; Play Vehicle Accessories; Motorcycle Suits; Toys & Games; Gift Giving; Toys; Ab Wheels & Rollers; Belt Buckles; Shoe Accessories; Hand Exercisers; Baby Transport; Fresh Cut Flowers; Response Cards; Weight Lifting; Off-Road and All-Terrain Vehicles; Cocktail Decorations; Flying Toys; Magazines & Newspapers; Balaclavas; Birthday Candles; Pogo Sticks; Art & Drawing Toys; Toy Train Accessories; Free Weights; Jewelry; Sporting Goods; Apparel & Accessories; Event Tickets; Medicine Balls; Suits; Skirt Suits; Optics; Wooden & Pegged Puzzles; Pretend Electronics; Reaction Balls; Handbags; Wooden Blocks; Sofas; Underwear Slips; Toy Cars; Suspension Trainers; Remote Control Helicopters; Motorcycle Protective Clothing; Party & Celebration; Golf Carts; Decorative Pom-Poms; Button Studs; Play Sprinkers; Luggage & Bags; Party Favors; Rangefinders; Remote Control Tanks; Underwear & Socks; Cameras; Leg Warmers; Yo-Yo Parts & Accessories; Clothing; Petticoats & Pettipants; Camera & Optics Manuals; Furniture; Exercise Balls; Building Toys; Gloves & Mittens; Swimwear; Shoelaces; Pinback Buttons; Pretend Shopping & Grocery; Vehicles & Parts; Toy Kitchens & Play Food; Toy Airplanes; Costumes; Trampoline Accessories; Ball & Cup Games; Product Manuals; Household Appliance Manuals; Indoor Games; Musical Toys; Outfit Sets; Briefcases; Shorts; Futons; Go Karts & Dune Buggies; Ottomans; Spray String; Bubble Blowing Toys; Bra Strap Pads; Music & Sound Recordings; Playhouses; Air Hockey; Toy Gliders; Martial Arts Shorts; Remote Control Toys; Toy Kitchens; Party Supplies; Visual Toys; Power Tool & Equipment Manuals; Decorative Fans; Yoga & Pilates Blocks; Food, Beverages & Tobacco; Activewear; Surveillance Cameras; Monoculars; Arts & Entertainment; Masks; Toy Race Car & Track Accessories; Binoculars; Remote Control Motorcycles; Futon Frames; Webcams; Motor Vehicles; Clothing Accessories; Yoga & Pilates; American Football Pants; Dresses; Play Money & Banking; Toy Trains & Train Sets; Belts; Puzzles; Toy Gift Baskets; Remote Control Airships & Blimps; Lingerie; Trail Cameras; Nursing & Feeding; Gift Cards & Certificates; Bracelets; Carpentry & Woodworking Project Plans; Pilates Machines; Water Play Equipment; Toy Motorcycles; Watches; Baby & Toddler; Dry Boxes; Health & Beauty; Electronics Manuals; Activity Toys; Toy Trucks & Construction Vehicles; Play Vehicles; Undershirts; Pretend Play; Shelving; Shoes; Bottle Warmers & Sterilizers; Mechanical Puzzles; Pant Suits; Software; Baby & Toddler Clothing Accessories; Exercise & Fitness; Gift Wrapping; See Saws; Tuxedos; Train Cases; Outdoor Furniture Accessories; Motorcycles & Scooters; Yo-Yos; Jock Straps
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to break it down into a hierarchical structure, but please note that it might not be perfect due to the complexity of the data.
+
+Here's a simplified version of the taxonomy:
+
+- Google Product Taxonomy
+  - Mature
+    - Erotic
+      - Erotic Books
+      - Erotic Clothing
+      - Erotic DVDs & Videos
+      - Erotic Food & Edibles
+      - Erotic Games
+      - Erotic Magazines
+    - Weapons
+      - Gun Care & Accessories
+        - Gun Grips
+        - Gun Slings
+      - Staff & Stick Weapons
+      - Spears
+      - Swords
+      - Stun Guns & Tasers
+      - Toy Weapons & Gadgets
+  - Toys & Games
+    - Toy Vehicles
+      - Toy Cars
+      - Toy Trucks & Construction Vehicles
+      - Toy Airplanes
+      - Toy Gliders
+      - Toy Motorcycles
+      - Toy Spaceships
+      - Toy Trains & Train Sets
+    - Building Toys
+      - Wooden Blocks
+      - Wooden & Pegged Puzzles
+    - Pretend Play
+      - Toy Kitchens & Play Food
+      - Toy Kitchens
+      - Pretend Electronics
+      - Pretend Shopping & Grocery
+    - Art & Drawing Toys
+      - Arts & Entertainment
+      - Music & Sound Recordings
+      - Music CDs
+    - Outdoor Play Equipment
+      - Play Swings
+      - Play Sprinklers
+      - Playhouses
+      - Trampoline Accessories
+      - Water Play Equipment
+    - Recreational Vehicles
+      - ATVs & UTVs
+      - Golf Carts
+      - Go Karts & Dune Buggies
+      - Motorcycles & Scooters
+      - Motorcycles Protective Clothing
+    - Sports & Fitness
+      - Exercise & Fitness
+      - Weight Lifting
+      - Weight Lifting Gloves & Hand Supports
+      - Yoga & Pilates
+      - Yoga & Pilates Mats
+      - Yoga & Pilates Blocks
+    - Party & Celebration
+      - Party Supplies
+      - Party Favors
+      - Confetti
+      - Balloon Kits
+      - Party Streamers & Curtains
+      - Birthday Candles
+    - Apparel & Accessories
+      - Clothing
+        - Dresses
+        - Skirts
+        - Skorts
+        - Shorts
+        - Suits
+        - Skirt Suits
+        - Pant Suits
+        - Tuxedos
+      - Shoes
+        - Boot Liners
+        - Shoe Covers
+        - Shoelaces
+      - Accessories
+        - Belts
+        - Sashes
+        - Tie Clips
+        - Button Studs
+        - Pinback Buttons
+        - Jewelry
+        - Lingerie
+        - Bra Accessories
+        - Bra Strap Pads
+        - Petticoats & Pettipants
+        - Underwear Slips
+        - Underwear & Socks
+    - Home & Garden
+      - Furniture
+        - Sofas
+        - Ottomans
+        - Futon Frames
+        - Futons
+      - Household Appliance Manuals
+      - Power Tool & Equipment Manuals
+      - Electronics Manuals
+      - Shelving
+      - Outdoor Furniture Accessories
+    - Health & Beauty
+      - Health & Beauty
+      - Baby & Toddler
+        - Baby & Toddler Clothing Accessories
+        - Baby & Toddler Gloves & Mittens
+        - Baby Transport
+        - Bottle Warmers & Sterilizers
+        - Nursing & Feeding
+      - Activewear
+      - Swimwear
+      - Leg Warmers
+      - Underwear & Socks
+    - Media
+      - Media
+      - Magazines & Newspapers
+      - Music & Sound Recordings
+      - Music CDs
+      - Software
+    - Event Tickets
+      - Event Tickets
+    - Gift Giving
+      - Gift Cards & Certificates
+      - Gift Wrapping
+      - Gift Baskets
+    - Miscellaneous
+      - Fresh Cut Flowers
+      - Dry Boxes
+      - Mechanical Puzzles
+      - Pogo Sticks
+      - See Saws
+      - Yo-Yos
+      - Jock Straps
+      - Response Cards
+      - Cocktail Decorations
+      - Decorative Fans
+      - Decorative Pom-Poms
+      - Spray String
+      - Trail Cameras
+      - Webcams
+      - Surveillance Cameras
+      - Monoculars
+      - Binoculars
+      - Rangefinders
+      - Camera & Optics Manuals
+      - Camera & Optics
+      - Optics
+      - Cameras
+      - Remote Control Toys
+      - Remote Control Helicopters
+      - Remote Control Motorcycles
+      - Remote Control Airships & Blimps
+      - Remote Control Tanks
+      - Remote Control Planes
+      - Remote Control Cars
+      - Toy Race Car & Track Accessories
+      - Toy Train Accessories
+      - Toy Airplane & Track Accessories
+      - Toy Motorcycle & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Truck & Track Accessories
+      - Toy Car & Track Accessories
+      - Toy Glider & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Train & Track Accessories
+      - Toy Airplane & Track Accessories
+      - Toy Motorcycle & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Truck & Track Accessories
+      - Toy Car & Track Accessories
+      - Toy Glider & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Train & Track Accessories
+      - Toy Airplane & Track Accessories
+      - Toy Motorcycle & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Truck & Track Accessories
+      - Toy Car & Track Accessories
+      - Toy Glider & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Train & Track Accessories
+      - Toy Airplane & Track Accessories
+      - Toy Motorcycle & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Truck & Track Accessories
+      - Toy Car & Track Accessories
+      - Toy Glider & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Train & Track Accessories
+      - Toy Airplane & Track Accessories
+      - Toy Motorcycle & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Truck & Track Accessories
+      - Toy Car & Track Accessories
+      - Toy Glider & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Train & Track Accessories
+      - Toy Airplane & Track Accessories
+      - Toy Motorcycle & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Truck & Track Accessories
+      - Toy Car & Track Accessories
+      - Toy Glider & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Train & Track Accessories
+      - Toy Airplane & Track Accessories
+      - Toy Motorcycle & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Truck & Track Accessories
+      - Toy Car & Track Accessories
+      - Toy Glider & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Train & Track Accessories
+      - Toy Airplane & Track Accessories
+      - Toy Motorcycle & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Truck & Track Accessories
+      - Toy Car & Track Accessories
+      - Toy Glider & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Train & Track Accessories
+      - Toy Airplane & Track Accessories
+      - Toy Motorcycle & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Truck & Track Accessories
+      - Toy Car & Track Accessories
+      - Toy Glider & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Train & Track Accessories
+      - Toy Airplane & Track Accessories
+      - Toy Motorcycle & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Truck & Track Accessories
+      - Toy Car & Track Accessories
+      - Toy Glider & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Train & Track Accessories
+      - Toy Airplane & Track Accessories
+      - Toy Motorcycle & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Truck & Track Accessories
+      - Toy Car & Track Accessories
+      - Toy Glider & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Train & Track Accessories
+      - Toy Airplane & Track Accessories
+      - Toy Motorcycle & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Truck & Track Accessories
+      - Toy Car & Track Accessories
+      - Toy Glider & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Train & Track Accessories
+      - Toy Airplane & Track Accessories
+      - Toy Motorcycle & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Truck & Track Accessories
+      - Toy Car & Track Accessories
+      - Toy Glider & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Train & Track Accessories
+      - Toy Airplane & Track Accessories
+      - Toy Motorcycle & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Truck & Track Accessories
+      - Toy Car & Track Accessories
+      - Toy Glider & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Train & Track Accessories
+      - Toy Airplane & Track Accessories
+      - Toy Motorcycle & Track Accessories
+      - Toy Spaceship & Track Accessories
+      - Toy Truck & Track Accessories
+      - Toy Car & Track Accessories
+      - Toy Glider & Track Accessories
+      - Toy Spaceship
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 1
+
+Parsed relationships:
+  This is a very long list of concepts and relationships. I'll try to break it down into a hierarchical structure → but please note that it might not be perfect due to the complexity of the data
+
+================================================================================

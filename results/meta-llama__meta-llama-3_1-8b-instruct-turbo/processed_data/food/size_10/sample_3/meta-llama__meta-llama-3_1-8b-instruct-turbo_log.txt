@@ -1,0 +1,88 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: fagottini; bavette; pasta; cannelloni; gemelli; spaghetti; fusilli; pici; food; occhi di lupo
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+bavette is a subtopic of pasta; fagottini is a subtopic of pasta; gemelli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; pici is a subtopic of pasta; pasta is a subtopic of food; fusilli is a subtopic of pasta; spaghetti is a subtopic of pasta; cannelloni is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: food; pasta; croxetti; sacchettoni; mezzelune; rotini; spaghetti; fuži; corzetti; linguine
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+mezzelune is a subtopic of pasta; linguine is a subtopic of pasta; croxetti is a subtopic of pasta; pasta is a subtopic of food; sacchettoni is a subtopic of pasta; spaghetti is a subtopic of pasta; corzetti is a subtopic of pasta; rotini is a subtopic of pasta; fuži is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: food; garganelli; stringozzi; fuži; pasta; corzetti; bigoli; anellini; occhi di lupo; mezzelune
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+corzetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta; anellini is a subtopic of pasta; pasta is a subtopic of food; fuži is a subtopic of pasta; mezzelune is a subtopic of pasta; garganelli is a subtopic of pasta; stringozzi is a subtopic of pasta; bigoli is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: spaghetti; lanterne; casoncelli; macaroni; pasta; food; ptitim; passatelli; rotini; campanelle
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+lanterne is a subtopic of pasta; macaroni is a subtopic of pasta; spaghetti is a subtopic of pasta; ptitim is a subtopic of pasta; campanelle is a subtopic of pasta; casoncelli is a subtopic of pasta; passatelli is a subtopic of pasta; rotini is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: penne; ptitim; stringozzi; food; pasta; spaghetti; rotelle; rotini; sacchettoni; mezzelune
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+pasta is a subtopic of food; sacchettoni is a subtopic of pasta; stringozzi is a subtopic of pasta; rotelle is a subtopic of pasta; ptitim is a subtopic of pasta; rotini is a subtopic of pasta; spaghetti is a subtopic of pasta; mezzelune is a subtopic of pasta; penne is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: rice; grits; food; cooking ingredient; apple butter; prepared food; dip; tomato paste; jams and preserves; cereals
+Relationships: 
+
+================================================================================
+Number of entities: 10
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+apple butter is a subtopic of jams and preserves; jams and preserves is a subtopic of food; dip is a subtopic of food; grits is a subtopic of food; rice is a subtopic of food; cereals is a subtopic of food; tomato paste is a subtopic of food; prepared food is a subtopic of food; cooking ingredient is a subtopic of food
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 9
+
+Parsed relationships:
+  apple butter → jams and preserves
+  jams and preserves → food
+  dip → food
+  grits → food
+  rice → food
+  cereals → food
+  tomato paste → food
+  prepared food → food
+  cooking ingredient → food
+
+================================================================================

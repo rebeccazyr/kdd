@@ -1,0 +1,150 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Computer systems organization; Systolic arrays; Parallel architectures; Computing Classification System; Embedded systems; Multiple instruction, single data; Architectures; Single instruction, multiple data; Embedded and cyber-physical systems; Real-time systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Parallel architectures is a subtopic of Architectures; Multiple instruction, single data is a subtopic of Parallel architectures; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Embedded systems is a subtopic of Embedded and cyber-physical systems; Single instruction, multiple data is a subtopic of Parallel architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Systolic arrays is a subtopic of Parallel architectures; Real-time systems is a subtopic of Computer systems organization
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Real-time systems; Architectures; Real-time languages; Embedded and cyber-physical systems; Dependable and fault-tolerant systems and networks; Maintainability and maintenance; Computing Classification System; Computer systems organization; Processors and memory architectures; Fault-tolerant network topologies
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Computer systems organization is a subtopic of Computing Classification System; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Real-time languages is a subtopic of Real-time systems; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Real-time systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Interconnection architectures; Maintainability and maintenance; Dependable and fault-tolerant systems and networks; Computer systems organization; Pipeline computing; Parallel architectures; Architectures; Computing Classification System; Serial architectures
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Serial architectures is a subtopic of Architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Pipeline computing is a subtopic of Serial architectures; Computer systems organization is a subtopic of Computing Classification System; Interconnection architectures is a subtopic of Parallel architectures; Parallel architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Quantum computing; Real-time systems; Embedded and cyber-physical systems; Architectures; Computer systems organization; Other architectures; Computing Classification System; Real-time system specification; Real-time languages; Optical computing
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Quantum computing is a subtopic of Other architectures; Computer systems organization is a subtopic of Computing Classification System; Real-time systems is a subtopic of Computer systems organization; Real-time system specification is a subtopic of Real-time systems; Real-time languages is a subtopic of Real-time systems; Architectures is a subtopic of Computer systems organization; Optical computing is a subtopic of Other architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Other architectures is a subtopic of Architectures
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Real-time system architecture; Processors and memory architectures; Real-time systems; Embedded and cyber-physical systems; Serial architectures; Computer systems organization; Computing Classification System; Distributed architectures; Dependable and fault-tolerant systems and networks; Architectures
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Distributed architectures is a subtopic of Architectures; Serial architectures is a subtopic of Architectures; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time system architecture is a subtopic of Real-time systems
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Wireless integrated network sensors; VLSI packaging; Human computer interaction (HCI); Models of computation; Branch-and-bound; Hardware; Graph algorithms analysis; Economics of chip design and manufacturing; Finite Model Theory; Thermal issues; Design and analysis of algorithms; Power and energy; Standard cell libraries; Robustness; Human-centered computing; Timed and hybrid models; Constructive mathematics; Constraint and logic programming; Shortest paths; Scanners; Communication hardware, interfaces and storage; Energy generation and storage; Accessibility systems and tools; Computing Classification System; Interactive systems and tools; Backtracking; Divide and conquer; Social and professional topics; Mathematics of computing; Sensor devices and platforms; Noise reduction; Temperature monitoring; Empirical studies in HCI; Very large scale integration design; Concurrent computing methodologies; Tactile and hand-based interfaces; Preconditioning; Computing methodologies; Logic; Algorithm design techniques; Semantics and reasoning; Signal processing systems; Programming logic; Separation logic; Accessibility; Parameterized complexity and exact algorithms; Hoare logic; Theory of computation; Discrete mathematics; Full-custom circuits
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Computing Classification System is a parent of:
+- Human computer interaction (HCI) (which is a parent of:
+  - Empirical studies in HCI
+  - Human-centered computing
+  - Interactive systems and tools
+  - Accessibility systems and tools
+  - Tactile and hand-based interfaces)
+- Computer systems organization (which is a parent of:
+  - Wireless integrated network sensors
+  - VLSI packaging
+  - Standard cell libraries
+  - Full-custom circuits
+  - Signal processing systems
+  - Communication hardware, interfaces and storage
+  - Energy generation and storage
+  - Thermal issues)
+- Theory of computation (which is a parent of:
+  - Models of computation
+  - Finite Model Theory
+  - Semantics and reasoning)
+- Design and analysis of algorithms (which is a parent of:
+  - Graph algorithms analysis
+  - Shortest paths
+  - Divide and conquer
+  - Backtracking
+  - Branch-and-bound
+  - Algorithm design techniques)
+- Mathematics of computing (which is a parent of:
+  - Constructive mathematics
+  - Discrete mathematics
+  - Parameterized complexity and exact algorithms
+  - Separation logic
+  - Preconditioning
+  - Hoare logic)
+- Programming logic (which is a parent of:
+  - Logic
+  - Programming languages)
+- Social and professional topics (which is a parent of:
+  - Social issues in computing
+  - Professional practice)
+- Concurrent computing methodologies (which is a parent of:
+  - Concurrent computing)
+- Hardware (which is a parent of:
+  - Processors and memory architectures
+  - Scanners
+  - Full-custom circuits)
+- Computing methodologies (which is a parent of:
+  - Design and analysis of algorithms
+  - Divide and conquer
+  - Backtracking
+  - Branch-and-bound
+  - Algorithm design techniques
+  - Programming logic
+  - Theory of computation
+  - Social and professional topics
+  - Concurrent computing methodologies
+  - Hardware)
+- Sensor devices and platforms (which is a parent of:
+  - Wireless integrated network sensors
+  - Sensor devices)
+- Noise reduction (which is a parent of:
+  - Signal processing systems)
+- Temperature monitoring (which is a parent of:
+  - Thermal issues)
+- Robustness (which is a parent of:
+  - Dependable and fault-tolerant systems and networks)
+- Power and energy (which is a parent of:
+  - Energy generation and storage)
+- Timed and hybrid models (which is a parent of:
+  - Concurrent computing methodologies)
+- Accessibility (which is a parent of:
+  - Accessibility systems and tools)
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

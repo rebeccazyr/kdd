@@ -1,0 +1,487 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: pasta; cannelloni; gemelli; occhi di lupo; pici; fagottini; food; bavette; spaghetti; fusilli
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+spaghetti is a subtopic of pasta; cannelloni is a subtopic of pasta; fusilli is a subtopic of pasta; pici is a subtopic of pasta; pasta is a subtopic of food; gemelli is a subtopic of pasta; fagottini is a subtopic of pasta; occhi di lupo is a subtopic of pasta; bavette is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: fuži; linguine; pasta; sacchettoni; rotini; croxetti; food; mezzelune; corzetti; spaghetti
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+linguine is a subtopic of pasta; fuži is a subtopic of pasta; corzetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; rotini is a subtopic of pasta; mezzelune is a subtopic of pasta; croxetti is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: anellini; occhi di lupo; stringozzi; garganelli; mezzelune; fuži; corzetti; pasta; food; bigoli
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+occhi di lupo is a subtopic of pasta; fuži is a subtopic of pasta; mezzelune is a subtopic of pasta; anellini is a subtopic of pasta; bigoli is a subtopic of pasta; pasta is a subtopic of food; corzetti is a subtopic of pasta; garganelli is a subtopic of pasta; stringozzi is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: casoncelli; food; ptitim; passatelli; macaroni; lanterne; rotini; spaghetti; pasta; campanelle
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+spaghetti is a subtopic of pasta; passatelli is a subtopic of pasta; macaroni is a subtopic of pasta; pasta is a subtopic of food; campanelle is a subtopic of pasta; lanterne is a subtopic of pasta; rotini is a subtopic of pasta; ptitim is a subtopic of pasta; casoncelli is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: rotelle; spaghetti; food; pasta; sacchettoni; penne; ptitim; stringozzi; mezzelune; rotini
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+spaghetti is a subtopic of pasta; pasta is a subtopic of food; stringozzi is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta; ptitim is a subtopic of pasta; mezzelune is a subtopic of pasta; penne is a subtopic of pasta; rotini is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: quince; salsa golf; sauce vierge; longan; fennel seeds; maya nuts; ragù; pumpkin seeds; anchovy essence; noodle; supreme; soubise sauce; khrenovina sauce; romesco; ganjang; basil; southern illinois chowder; caldo de pollo; es teler; mead; duck soup noodles; chancaca; pig's organ soup; apples; dandan noodles; pizza sauce; brazil nuts; imoni; konro; soyo; cherimoyas; tamarind; fish sauce; bread crumbs; xo sauce; plums; sesame seeds; chutney; bananas; poppy milk; rose hip soup; dairy product; tucupi; oranges; mangos; guavas; papayas; pea soup; sugar; brown sauce; olives and capers; magiritsa; shambar; beurre noisette; ponzu; paradise nuts; sour cream; grapes; fish tea; kesme; zosui; turtle soup; sour cream doughnut; macaroni soup; fruit sauce; cinnamon; parsley; bean pastes; rântaş; almonds; artificial sweeteners; wine; nali sauce; pomegranates; figs; powdered beverage mixes; sopa de pata; goulash; black soup; coriander; kiwis; fruit salad; buttermilk koldskål; tourin; wodzionka; mamoncillo nuts; starter cultures; linguettine; lemons; béarnaise sauce; maafe; cooking wine; hot chocolate; fizzy drinks; schupfnudel; salad dressings; doughnut; rosemary; marjoram; senate bean soup; fruit; milk; bouneschlupp; oille; tangelos; vori vori; lasagnette; currants; caldo verde; non-dairy milk; coconut doughnut; baking chocolate; mala sauce; sunflower seeds; cherries; hot and sour soup; cooking oil; ajiaco; butter and margarine; apple sauce; mint sauce; sopa de mondongo; seeds; hazelnuts; tripoline; kola nuts; cumberland sauce; sour cherry soup; soy sauce; peanuts; pie fillings; ribollita; hard sauce; honey garlic sauce; olive oil; sancocho; pillus; babi panggang; satay sauce; vinegar; limes; yoghurt; herb; oxtail soup; food; pine nuts; agrodolce; energy drinks; berries; ajoblanco; tinned seafood; oyster sauce; eggs; manwich; dough; tartar sauce; sauce; mixed nuts; nantua sauce; solyanka; café de paris sauce; mint; steak sauce; singapore style noodle; tonic water; ok sauce; pepper; frozen noodles; water; limequats; mahyawa; cooking ingredient; seafood; pears; hemp oil; chimichurri; spice; bread soup; yeast; lychees; sauce gribiche; sorrel soup; soup; walnuts; chocolate covered nuts; sapote; pineapples; katara; phu quoc fish sauce; chestnuts; beverage; condiment; soy nuts; yi mein; lobster sauce; coconuts; pesto; kissel; prickly pears; sujebi
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here is a structured taxonomy based on the provided concepts:
+
+- food
+  - sauce
+    - béarnaise sauce
+    - chimichurri
+    - cumberland sauce
+    - goulash
+    - gouda sauce
+    - kola nuts
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+    - ketchup
+   
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

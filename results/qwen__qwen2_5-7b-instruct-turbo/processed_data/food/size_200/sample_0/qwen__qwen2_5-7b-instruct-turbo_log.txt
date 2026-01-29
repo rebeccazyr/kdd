@@ -1,0 +1,421 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: cannelloni; gemelli; fusilli; bavette; spaghetti; occhi di lupo; food; fagottini; pasta; pici
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+pici is a subtopic of pasta; cannelloni is a subtopic of pasta; bavette is a subtopic of pasta; gemelli is a subtopic of pasta; fusilli is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food; occhi di lupo is a subtopic of pasta; fagottini is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: linguine; mezzelune; fuži; rotini; sacchettoni; food; spaghetti; pasta; croxetti; corzetti
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+spaghetti is a subtopic of pasta; mezzelune is a subtopic of pasta; pasta is a subtopic of food; fuži is a subtopic of pasta; rotini is a subtopic of pasta; sacchettoni is a subtopic of pasta; corzetti is a subtopic of pasta; linguine is a subtopic of pasta; croxetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: stringozzi; corzetti; occhi di lupo; garganelli; anellini; food; bigoli; pasta; fuži; mezzelune
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+anellini is a subtopic of pasta; pasta is a subtopic of food; garganelli is a subtopic of pasta; fuži is a subtopic of pasta; mezzelune is a subtopic of pasta; bigoli is a subtopic of pasta; corzetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta; stringozzi is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: macaroni; ptitim; lanterne; casoncelli; rotini; passatelli; spaghetti; food; pasta; campanelle
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+casoncelli is a subtopic of pasta; lanterne is a subtopic of pasta; passatelli is a subtopic of pasta; ptitim is a subtopic of pasta; campanelle is a subtopic of pasta; rotini is a subtopic of pasta; spaghetti is a subtopic of pasta; macaroni is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: stringozzi; mezzelune; ptitim; spaghetti; penne; pasta; rotelle; sacchettoni; rotini; food
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+ptitim is a subtopic of pasta; sacchettoni is a subtopic of pasta; mezzelune is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; pasta is a subtopic of food; rotini is a subtopic of pasta; stringozzi is a subtopic of pasta; rotelle is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: quince; longan; sugar cane; egg drop soup; noodle; dashi; coconut oil; celery roots; tuscan cabbage; pan mee; squashes; corn soup; prepared food; molasses; duck soup noodles; ching bo leung; vegetable; greens; sevai; dandan noodles; svartsoppa; wheatgrass; sweet potatoes; purée mongole; cream; imoni; brown windsor soup; soyo; soup number five; tamarind; fisherman's soup; chocolate covered fruit; bakery; hulatang; bok choi; soy product; kohlrabi; cake and brownie mixes; bananas; rose hip soup; henan braised noodles; shallots; black noodles; dairy product; dip; piti; bun rieu; oranges; binignit; gulyásleves; guavas; hyderabadi marag; yu choy; cheese spread; melons; arracachas; shambar; taro root; frying pan dinners; rhubarb; licorice; babacos; cauliflower; turtle soup; chilli oil; chicory; broccoli; beans; turnips; bean pastes; potatoes; apricots; peas; styrian sour soup; buttermilk koldskål; fruit salad; shredded coconut; kale; bún bò huế; peaches; mami soup; ice cream cones; frejon; pumpkins; lung fung soup; mamoncillo nuts; canned and jarred vegetable; vegetable oil; linguettine; fennel bulbs; lemons; rutabagas; lotus roots; physalis; madroã±o; tian mo; scotch broth; marshmallow sweets; fruit; bouneschlupp; yaki udon; tangelos; oille; cooking spray; grapefruits; peanut oil; baking chocolate; cabbage; macadamia nuts; walnut oil; vegetable dip; cherries; hot and sour soup; cooking oil; ajiaco; beetroot greens; dragonfruit; on choy; seeds; tripoline; avocados; mock turtle soup; corn syrup; cottage cheese; draw soup; sinigang; peanuts; gazpacho; vichyssoise; beef noodle soup; ribollita; suaasat; talunan; candy canes; carrots; tomatoes; sour soup; sweets; chard; naengguk; limes; fresh seafood; food; salsa; pecans; pine nuts; gourds; red peas soup; siemieniotka; bread pudding mixes; eggs; rice oil; banh canh; biángbiáng noodles; rambutans; vietnamese noodles; sopa teologa; loquats; spring soup; tapenade; khao poon; tekwan; cooking starch; salad mixes; baking mixes; singapore style noodle; condensed milk; evaporated milk; donuts; frozen noodles; lettuce; mafalde; cooking ingredient; choi sum; okra; seafood; pears; noodle soup; radishes; spice; hot dry noodles; alfalfa sprouts; frozen dinners; soup; chocolate covered nuts; jicama; sorrel soup; sapote; pie; pineapples; czernina; köttsoppa; mangosteens; jjolmyeon; chocolate mints; chestnuts; yi mein; consommé; kissel; sujebi
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here is a taxonomy based on the provided concepts:
+
+- food
+  - prepared food
+  - bakery
+  - candy canes
+  - cake and brownie mixes
+  - baking chocolate
+  - baking mixes
+  - baking ingredient
+  - chocolate covered fruit
+  - chocolate covered nuts
+  - chocolate mints
+  - chocolate mints
+  - chocolate covered nuts
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+  - chocolate mints
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

@@ -1,0 +1,10 @@
+child,parent
+Hardware,Computing Classification System
+Information systems,Computing Classification System
+World Wide Web,Information systems
+Web services,World Wide Web
+Electronic design automation,Hardware
+Physical verification,Electronic design automation
+Layout-versus-schematics,Physical verification
+Hardware validation,Electronic design automation
+Robustness,Hardware validation

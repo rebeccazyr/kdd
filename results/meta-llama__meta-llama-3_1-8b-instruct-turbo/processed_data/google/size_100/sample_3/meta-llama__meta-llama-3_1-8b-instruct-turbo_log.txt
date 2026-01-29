@@ -1,0 +1,281 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Staff & Stick Weapons; Weapons; Spears; Mature; Gun Holsters; Combat Knives; Gun Care & Accessories; Reloading Supplies & Equipment; Ammunition Cases & Holders
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Staff & Stick Weapons is a subtopic of Weapons; Combat Knives is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Gun Lights; Stun Guns & Tasers; Weapons; Google Product Taxonomy; Mature; Swords; Ammunition; Gun Care & Accessories; Gun Cases & Range Bags; Staff & Stick Weapons
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Ammunition is a subtopic of Gun Care & Accessories; Gun Lights is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Weapons is a subtopic of Mature; Staff & Stick Weapons is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Nunchucks; Stun Guns & Tasers; Google Product Taxonomy; Erotic; Gun Care & Accessories; Weapons; Whips; Guns; Mature; Throwing Stars
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Guns is a subtopic of Weapons; Weapons is a subtopic of Mature; Erotic is a subtopic of Mature; Stun Guns & Tasers is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Whips is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic DVDs & Videos; Erotic Food & Edibles; Google Product Taxonomy; Erotic Games; Erotic Magazines; Erotic Books; Mature; Erotic; Erotic Clothing; Pole Dancing Kits
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Erotic Food & Edibles is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic Games is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Mature; Swords; Staff & Stick Weapons; Stun Guns & Tasers; Gun Slings; Gun Care & Accessories; Weapons; Spears; Google Product Taxonomy; Gun Grips
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Swords is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Bookcases & Standing Shelves; Hardware Pumps; Beds & Bed Frames; Baby Snacks; Cameras & Optics; File Folders; Messenger Bags; Office Furniture Accessories; Electrical Motors; Camera & Optic Accessories; Computer Software; Construction; Google Product Taxonomy; Tables; Baby Health; Baby Transport Accessories; Vehicles; Room Dividers; Solar Energy Kits; Shopping Totes; Media; Toys & Games; Carts & Islands; Cosmetic & Toiletry Bags; Outdoor Recreation; Folders & Report Covers; Desk Organizers; Baby Drinks; Table Accessories; Card Sleeves; Benches; Hardware; Biochemicals; Tool Accessories; Science & Laboratory; Educational Software; Home Automation Kits; Sporting Goods; Nasal Aspirators; Specialty Electrical Switches & Relays; Breast Pumps; Utility Carts; Baby & Toddler Car Seat Accessories; Power & Electrical Supplies; Nursing Pillows; Electrical Wires & Cable; Luggage & Bags; Office Supplies; Mining & Quarrying; Handheld & PDA Software; Electrical Switches; Office Chair Accessories; Furniture; Sofa Accessories; Mail Sorters; Pacifier Clips & Holders; Fanny Packs; Sewing Machine Tables; Business & Industrial; Vehicles & Parts; Swaddling & Receiving Blankets; Indoor Games; Baby Carrier Accessories; Carbon Brushes; Desk Pads & Blotters; Cabinets & Storage; Breast Milk Storage Containers; Pool, Fountain & Pond Pumps; Filing & Organization; Baby Cereal; Finance & Insurance; Baby & Toddler Food; Office Carts; Nightstands; Entertainment Centers & TV Stands; Power Converters; Business Card Books; Futon Pads; Futon Frames; Motor Vehicles; File Cabinets; Janitorial Carts & Caddies; Beds & Accessories; Baby Stroller Accessories; Books; Nursing & Feeding; Carpentry & Woodworking Project Plans; Baby & Toddler; Office Application Software; Dry Boxes; Health & Beauty; Outdoor Games; Shelving; Book Carts; Utility Pumps; Bottle Warmers & Sterilizers; Software; Power Outlets & Sockets; Train Cases; Ballasts & Starters
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here is the list of relationships between the concepts:
+
+1. Baby Snacks is a subtopic of Baby & Toddler Food; 
+2. Baby Health is a subtopic of Baby & Toddler; 
+3. Baby Transport Accessories is a subtopic of Baby & Toddler; 
+4. Baby Drinks is a subtopic of Baby & Toddler Food; 
+5. Baby Carrier Accessories is a subtopic of Baby & Toddler; 
+6. Baby Stroller Accessories is a subtopic of Baby & Toddler; 
+7. Baby Cereal is a subtopic of Baby & Toddler Food; 
+8. Breast Pumps is a subtopic of Baby Health; 
+9. Breast Milk Storage Containers is a subtopic of Baby Health; 
+10. Bottle Warmers & Sterilizers is a subtopic of Baby Health; 
+11. Nursing Pillows is a subtopic of Baby Health; 
+12. Pacifier Clips & Holders is a subtopic of Baby Health; 
+13. Swaddling & Receiving Blankets is a subtopic of Baby Health; 
+14. Baby & Toddler is a subtopic of Google Product Taxonomy; 
+15. Bookcases & Standing Shelves is a subtopic of Furniture; 
+16. Beds & Bed Frames is a subtopic of Furniture; 
+17. Room Dividers is a subtopic of Furniture; 
+18. Benches is a subtopic of Furniture; 
+19. Sofa Accessories is a subtopic of Furniture; 
+20. Nightstands is a subtopic of Furniture; 
+21. Entertainment Centers & TV Stands is a subtopic of Furniture; 
+22. Cabinets & Storage is a subtopic of Furniture; 
+23. Shelving is a subtopic of Furniture; 
+24. Book Carts is a subtopic of Furniture; 
+25. Office Chair Accessories is a subtopic of Furniture; 
+26. Office Furniture Accessories is a subtopic of Furniture; 
+27. Tables is a subtopic of Furniture; 
+28. Table Accessories is a subtopic of Furniture; 
+29. Carts & Islands is a subtopic of Furniture; 
+30. Utility Carts is a subtopic of Furniture; 
+31. Janitorial Carts & Caddies is a subtopic of Furniture; 
+32. Office Carts is a subtopic of Furniture; 
+33. Filing & Organization is a subtopic of Office Supplies; 
+34. Office Supplies is a subtopic of Business & Industrial; 
+35. Office Application Software is a subtopic of Office Supplies; 
+36. Handheld & PDA Software is a subtopic of Office Supplies; 
+37. Educational Software is a subtopic of Office Supplies; 
+38. Computer Software is a subtopic of Office Supplies; 
+39. Business & Industrial is a subtopic of Google Product Taxonomy; 
+40. Finance & Insurance is a subtopic of Business & Industrial; 
+41. Business Card Books is a subtopic of Office Supplies; 
+42. File Folders is a subtopic of Office Supplies; 
+43. File Cabinets is a subtopic of Office Supplies; 
+44. Mail Sorters is a subtopic of Office Supplies; 
+45. Desk Organizers is a subtopic of Office Supplies; 
+46. Desk Pads & Blotters is a subtopic of Office Supplies; 
+47. Folders & Report Covers is a subtopic of Office Supplies; 
+48. Card Sleeves is a subtopic of Office Supplies; 
+49. Camera & Optic Accessories is a subtopic of Cameras & Optics; 
+50. Cameras & Optics is a subtopic of Google Product Taxonomy; 
+51. Hardware Pumps is a subtopic of Hardware; 
+52. Electrical Motors is a subtopic of Hardware; 
+53. Electrical Wires & Cable is a subtopic of Hardware; 
+54. Electrical Switches is a subtopic of Hardware; 
+55. Specialty Electrical Switches & Relays is a subtopic of Hardware; 
+56. Power & Electrical Supplies is a subtopic of Hardware; 
+57. Power Converters is a subtopic of Hardware; 
+58. Power Outlets & Sockets is a subtopic of Hardware; 
+59. Ballasts & Starters is a subtopic of Hardware; 
+60. Utility Pumps is a subtopic of Hardware; 
+61. Pool, Fountain & Pond Pumps is a subtopic of Hardware; 
+62. Hardware is a subtopic of Google Product Taxonomy; 
+63. Tool Accessories is a subtopic of Hardware; 
+64. Carbon Brushes is a subtopic of Hardware; 
+65. Electrical is a subtopic of Google Product Taxonomy; 
+66. Construction is a subtopic of Google Product Taxonomy; 
+67. Mining & Quarrying is a subtopic of Construction; 
+68. Carpentry & Woodworking Project Plans is a subtopic of Construction; 
+69. Outdoor Recreation is a subtopic of Google Product Taxonomy; 
+70. Vehicles is a subtopic of Google Product Taxonomy; 
+71. Motor Vehicles is a subtopic of Vehicles; 
+72. Vehicles & Parts is a subtopic of Vehicles; 
+73. Luggage & Bags is a subtopic of Vehicles; 
+74. Fanny Packs is a subtopic of Luggage & Bags; 
+75. Train Cases is a subtopic of Luggage & Bags; 
+76. Outdoor Games is a subtopic of Outdoor Recreation; 
+77. Indoor Games is a subtopic of Outdoor Recreation; 
+78. Sports is a subtopic of Google Product Taxonomy; 
+79. Sporting Goods is a subtopic of Sports; 
+80. Entertainment is a subtopic of Google Product Taxonomy; 
+81. Media is a subtopic of Entertainment; 
+82. Books is a subtopic of Media; 
+83. Software is a subtopic of Media; 
+84. Health & Beauty is a subtopic of Google Product Taxonomy; 
+85. Health is a subtopic of Health & Beauty; 
+86. Beauty is a subtopic of Health & Beauty; 
+87. Cosmetic & Toiletry Bags is a subtopic of Beauty; 
+88. Nursing & Feeding is a subtopic of Health; 
+89. Baby & Toddler is a subtopic of Health; 
+90. Science & Laboratory is a subtopic of Google Product Taxonomy; 
+91. Biochemicals is a subtopic of Science & Laboratory; 
+92. Solar Energy Kits is a subtopic of Science & Laboratory; 
+93. Home Automation Kits is a subtopic of Science & Laboratory; 
+94. Electrical is a subtopic of Science & Laboratory; 
+95. Sewing Machine Tables is a subtopic of Furniture; 
+96. Futon Pads is a subtopic of Furniture; 
+97. Futon Frames is a subtopic of Furniture; 
+98. Carpentry & Woodworking Project Plans is a subtopic of Construction; 
+99. Dry Boxes is a subtopic of Construction; 
+100. Entertainment Centers & TV Stands is a subtopic of Furniture; 
+101. Google Product Taxonomy is a subtopic of itself
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 100
+
+Parsed relationships:
+  Baby Health → Baby & Toddler
+  Baby Transport Accessories → Baby & Toddler
+  Baby Drinks → Baby & Toddler Food
+  Baby Carrier Accessories → Baby & Toddler
+  Baby Stroller Accessories → Baby & Toddler
+  Baby Cereal → Baby & Toddler Food
+  Breast Pumps → Baby Health
+  Breast Milk Storage Containers → Baby Health
+  Bottle Warmers & Sterilizers → Baby Health
+  Nursing Pillows → Baby Health
+  Pacifier Clips & Holders → Baby Health
+  Swaddling & Receiving Blankets → Baby Health
+  Baby & Toddler → Google Product Taxonomy
+  Bookcases & Standing Shelves → Furniture
+  Beds & Bed Frames → Furniture
+  Room Dividers → Furniture
+  Benches → Furniture
+  Sofa Accessories → Furniture
+  Nightstands → Furniture
+  Entertainment Centers & TV Stands → Furniture
+  Cabinets & Storage → Furniture
+  Shelving → Furniture
+  Book Carts → Furniture
+  Office Chair Accessories → Furniture
+  Office Furniture Accessories → Furniture
+  Tables → Furniture
+  Table Accessories → Furniture
+  Carts & Islands → Furniture
+  Utility Carts → Furniture
+  Janitorial Carts & Caddies → Furniture
+  Office Carts → Furniture
+  Filing & Organization → Office Supplies
+  Office Supplies → Business & Industrial
+  Office Application Software → Office Supplies
+  Handheld & PDA Software → Office Supplies
+  Educational Software → Office Supplies
+  Computer Software → Office Supplies
+  Business & Industrial → Google Product Taxonomy
+  Finance & Insurance → Business & Industrial
+  Business Card Books → Office Supplies
+  File Folders → Office Supplies
+  File Cabinets → Office Supplies
+  Mail Sorters → Office Supplies
+  Desk Organizers → Office Supplies
+  Desk Pads & Blotters → Office Supplies
+  Folders & Report Covers → Office Supplies
+  Card Sleeves → Office Supplies
+  Camera & Optic Accessories → Cameras & Optics
+  Cameras & Optics → Google Product Taxonomy
+  Hardware Pumps → Hardware
+  Electrical Motors → Hardware
+  Electrical Wires & Cable → Hardware
+  Electrical Switches → Hardware
+  Specialty Electrical Switches & Relays → Hardware
+  Power & Electrical Supplies → Hardware
+  Power Converters → Hardware
+  Power Outlets & Sockets → Hardware
+  Ballasts & Starters → Hardware
+  Utility Pumps → Hardware
+  Pool, Fountain & Pond Pumps → Hardware
+  Hardware → Google Product Taxonomy
+  Tool Accessories → Hardware
+  Carbon Brushes → Hardware
+  Electrical → Google Product Taxonomy
+  Construction → Google Product Taxonomy
+  Mining & Quarrying → Construction
+  Carpentry & Woodworking Project Plans → Construction
+  Outdoor Recreation → Google Product Taxonomy
+  Vehicles → Google Product Taxonomy
+  Motor Vehicles → Vehicles
+  Vehicles & Parts → Vehicles
+  Luggage & Bags → Vehicles
+  Fanny Packs → Luggage & Bags
+  Train Cases → Luggage & Bags
+  Outdoor Games → Outdoor Recreation
+  Indoor Games → Outdoor Recreation
+  Sports → Google Product Taxonomy
+  Sporting Goods → Sports
+  Entertainment → Google Product Taxonomy
+  Media → Entertainment
+  Books → Media
+  Software → Media
+  Health & Beauty → Google Product Taxonomy
+  Health → Health & Beauty
+  Beauty → Health & Beauty
+  Cosmetic & Toiletry Bags → Beauty
+  Nursing & Feeding → Health
+  Baby & Toddler → Health
+  Science & Laboratory → Google Product Taxonomy
+  Biochemicals → Science & Laboratory
+  Solar Energy Kits → Science & Laboratory
+  Home Automation Kits → Science & Laboratory
+  Electrical → Science & Laboratory
+  Sewing Machine Tables → Furniture
+  Futon Pads → Furniture
+  Futon Frames → Furniture
+  Carpentry & Woodworking Project Plans → Construction
+  Dry Boxes → Construction
+  Entertainment Centers & TV Stands → Furniture
+  Google Product Taxonomy → itself
+
+================================================================================

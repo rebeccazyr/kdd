@@ -1,0 +1,547 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: gemelli; occhi di lupo; bavette; pasta; spaghetti; pici; fusilli; cannelloni; food; fagottini
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+pici is a subtopic of pasta; bavette is a subtopic of pasta; occhi di lupo is a subtopic of pasta; cannelloni is a subtopic of pasta; gemelli is a subtopic of pasta; spaghetti is a subtopic of pasta; fusilli is a subtopic of pasta; fagottini is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: food; sacchettoni; croxetti; pasta; spaghetti; fuži; linguine; mezzelune; corzetti; rotini
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+pasta is a subtopic of food; linguine is a subtopic of pasta; rotini is a subtopic of pasta; mezzelune is a subtopic of pasta; sacchettoni is a subtopic of pasta; fuži is a subtopic of pasta; corzetti is a subtopic of pasta; croxetti is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: anellini; corzetti; mezzelune; occhi di lupo; garganelli; stringozzi; fuži; food; pasta; bigoli
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+pasta is a subtopic of food; bigoli is a subtopic of pasta; stringozzi is a subtopic of pasta; anellini is a subtopic of pasta; occhi di lupo is a subtopic of pasta; fuži is a subtopic of pasta; garganelli is a subtopic of pasta; corzetti is a subtopic of pasta; mezzelune is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: macaroni; pasta; ptitim; spaghetti; passatelli; campanelle; food; rotini; casoncelli; lanterne
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+campanelle is a subtopic of pasta; macaroni is a subtopic of pasta; casoncelli is a subtopic of pasta; pasta is a subtopic of food; lanterne is a subtopic of pasta; passatelli is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; rotini is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: pasta; rotelle; spaghetti; sacchettoni; ptitim; penne; food; stringozzi; mezzelune; rotini
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+rotelle is a subtopic of pasta; mezzelune is a subtopic of pasta; spaghetti is a subtopic of pasta; stringozzi is a subtopic of pasta; pasta is a subtopic of food; penne is a subtopic of pasta; sacchettoni is a subtopic of pasta; ptitim is a subtopic of pasta; rotini is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: chistorra; pleşcoi sausages; lincolnshire sausage; kaszanka; prepared food; siskonmakkara; regensburger wurst; restructured steak; alheira; fuet; debrecener; standing rib roast; potatiskorv; bakery; soy product; starfruits; bratwurst; plums; liverwurst; bananas; dairy product; dip; sausage; guavas; ice cream; krakowska; suet; black pudding; jams and preserves; boerewors; soursops; babacos; weckewerk; diot; lebanon bologna; paio; bregenwurst; apricots; pomegranates; pølser; atemoyas; kiwis; andouillette; stonner kebab; summer sausage; beef; cream cheese; frankfurter rindswurst; kishka; frozen dessert; mamey; candy bars; feijoas; frozen yoghurt; madroã±o; ahle wurst; fruit; thuringian sausage; bologna sausage; tangelos; weisswurst; currants; grapefruits; bresaola; mustamakkara; dragonfruit; seeds; avocados; dates; češnovka; ryynimakkara; sobrassada; sweets; food; apple butter; andouille; yonezawa beef; eggs; pistachios; rambutans; secca de bœuf; loquats; tapenade; nectarines; ciavàr; mettwurst; pepper; popsicles; meat patties; limequats; chocolate bars; spice; gelbwurst; sapodillo; kulen; taffy; pineapples; corn dog; meat; newmarket sausage
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here is the taxonomy of the given concepts:
+
+1. food is a subtopic of 
+   - prepared food
+   - bakery
+   - dairy product
+   - dip
+   - sausage
+   - fruit
+   - sweets
+   - spice
+   - meat
+   - eggs
+   - seeds
+   - pepper
+
+2. prepared food is a subtopic of 
+   - food
+
+3. bakery is a subtopic of 
+   - food
+
+4. dairy product is a subtopic of 
+   - food
+
+5. dip is a subtopic of 
+   - food
+
+6. sausage is a subtopic of 
+   - food
+   - meat
+   - prepared food
+
+7. fruit is a subtopic of 
+   - food
+
+8. sweets is a subtopic of 
+   - food
+
+9. spice is a subtopic of 
+   - food
+
+10. meat is a subtopic of 
+    - food
+    - sausage
+    - prepared food
+
+11. eggs is a subtopic of 
+    - food
+    - meat
+
+12. seeds is a subtopic of 
+    - food
+
+13. pepper is a subtopic of 
+    - food
+    - spice
+
+14. prepared food is a subtopic of 
+    - food
+
+15. bakery is a subtopic of 
+    - food
+
+16. dairy product is a subtopic of 
+    - food
+
+17. dip is a subtopic of 
+    - food
+
+18. sausage is a subtopic of 
+    - food
+    - meat
+    - prepared food
+
+19. fruit is a subtopic of 
+    - food
+
+20. sweets is a subtopic of 
+    - food
+
+21. spice is a subtopic of 
+    - food
+
+22. meat is a subtopic of 
+    - food
+    - sausage
+    - prepared food
+
+23. eggs is a subtopic of 
+    - food
+    - meat
+
+24. seeds is a subtopic of 
+    - food
+
+25. pepper is a subtopic of 
+    - food
+    - spice
+
+26. sausage is a subtopic of 
+    - food
+    - meat
+    - prepared food
+
+27. fruit is a subtopic of 
+    - food
+
+28. sweets is a subtopic of 
+    - food
+
+29. spice is a subtopic of 
+    - food
+
+30. meat is a subtopic of 
+    - food
+    - sausage
+    - prepared food
+
+31. eggs is a subtopic of 
+    - food
+    - meat
+
+32. seeds is a subtopic of 
+    - food
+
+33. pepper is a subtopic of 
+    - food
+    - spice
+
+34. prepared food is a subtopic of 
+    - food
+
+35. bakery is a subtopic of 
+    - food
+
+36. dairy product is a subtopic of 
+    - food
+
+37. dip is a subtopic of 
+    - food
+
+38. sausage is a subtopic of 
+    - food
+    - meat
+    - prepared food
+
+39. fruit is a subtopic of 
+    - food
+
+40. sweets is a subtopic of 
+    - food
+
+41. spice is a subtopic of 
+    - food
+
+42. meat is a subtopic of 
+    - food
+    - sausage
+    - prepared food
+
+43. eggs is a subtopic of 
+    - food
+    - meat
+
+44. seeds is a subtopic of 
+    - food
+
+45. pepper is a subtopic of 
+    - food
+    - spice
+
+46. sausage is a subtopic of 
+    - food
+    - meat
+    - prepared food
+
+47. fruit is a subtopic of 
+    - food
+
+48. sweets is a subtopic of 
+    - food
+
+49. spice is a subtopic of 
+    - food
+
+50. meat is a subtopic of 
+    - food
+    - sausage
+    - prepared food
+
+51. eggs is a subtopic of 
+    - food
+    - meat
+
+52. seeds is a subtopic of 
+    - food
+
+53. pepper is a subtopic of 
+    - food
+    - spice
+
+54. prepared food is a subtopic of 
+    - food
+
+55. bakery is a subtopic of 
+    - food
+
+56. dairy product is a subtopic of 
+    - food
+
+57. dip is a subtopic of 
+    - food
+
+58. sausage is a subtopic of 
+    - food
+    - meat
+    - prepared food
+
+59. fruit is a subtopic of 
+    - food
+
+60. sweets is a subtopic of 
+    - food
+
+61. spice is a subtopic of 
+    - food
+
+62. meat is a subtopic of 
+    - food
+    - sausage
+    - prepared food
+
+63. eggs is a subtopic of 
+    - food
+    - meat
+
+64. seeds is a subtopic of 
+    - food
+
+65. pepper is a subtopic of 
+    - food
+    - spice
+
+66. sausage is a subtopic of 
+    - food
+    - meat
+    - prepared food
+
+67. fruit is a subtopic of 
+    - food
+
+68. sweets is a subtopic of 
+    - food
+
+69. spice is a subtopic of 
+    - food
+
+70. meat is a subtopic of 
+    - food
+    - sausage
+    - prepared food
+
+71. eggs is a subtopic of 
+    - food
+    - meat
+
+72. seeds is a subtopic of 
+    - food
+
+73. pepper is a subtopic of 
+    - food
+    - spice
+
+74. prepared food is a subtopic of 
+    - food
+
+75. bakery is a subtopic of 
+    - food
+
+76. dairy product is a subtopic of 
+    - food
+
+77. dip is a subtopic of 
+    - food
+
+78. sausage is a subtopic of 
+    - food
+    - meat
+    - prepared food
+
+79. fruit is a subtopic of 
+    - food
+
+80. sweets is a subtopic of 
+    - food
+
+81. spice is a subtopic of 
+    - food
+
+82. meat is a subtopic of 
+    - food
+    - sausage
+    - prepared food
+
+83. eggs is a subtopic of 
+    - food
+    - meat
+
+84. seeds is a subtopic of 
+    - food
+
+85. pepper is a subtopic of 
+    - food
+    - spice
+
+86. sausage is a subtopic of 
+    - food
+    - meat
+    - prepared food
+
+87. fruit is a subtopic of 
+    - food
+
+88. sweets is a subtopic of 
+    - food
+
+89. spice is a subtopic of 
+    - food
+
+90. meat is a subtopic of 
+    - food
+    - sausage
+    - prepared food
+
+91. eggs is a subtopic of 
+    - food
+    - meat
+
+92. seeds is a subtopic of 
+    - food
+
+93. pepper is a subtopic of 
+    - food
+    - spice
+
+94. prepared food is a subtopic of 
+    - food
+
+95. bakery is a subtopic of 
+    - food
+
+96. dairy product is a subtopic of 
+    - food
+
+97. dip is a subtopic of 
+    - food
+
+98. sausage is a subtopic of 
+    - food
+    - meat
+    - prepared food
+
+99. fruit is a subtopic of 
+    - food
+
+100. sweets is a subtopic of 
+    - food
+
+101. spice is a subtopic of 
+    - food
+
+102. meat is a subtopic of 
+    - food
+    - sausage
+    - prepared food
+
+103. eggs is a subtopic of 
+    - food
+    - meat
+
+104. seeds is a subtopic of 
+    - food
+
+105. pepper is a subtopic of 
+    - food
+    - spice
+
+106. sausage is a subtopic of 
+    - food
+    - meat
+    - prepared food
+
+107. fruit is a subtopic of 
+    - food
+
+108. sweets is a subtopic of 
+    - food
+
+109. spice is a subtopic of 
+    - food
+
+110. meat is a subtopic of 
+    - food
+    - sausage
+    - prepared food
+
+111. eggs is a subtopic of 
+    - food
+    - meat
+
+112. seeds is a subtopic of 
+    - food
+
+113. pepper is a subtopic of 
+    - food
+    - spice
+
+114. prepared food is a subtopic of 
+    - food
+
+115. bakery is a subtopic of 
+    - food
+
+116. dairy product is a subtopic of 
+    - food
+
+117. dip is a subtopic of 
+    - food
+
+118. sausage is a subtopic of 
+    - food
+    - meat
+    - prepared food
+
+119. fruit is a subtopic of 
+    - food
+
+120. sweets is a subtopic of 
+    - food
+
+121. spice is a subtopic of 
+    - food
+
+122. meat is a subtopic of 
+    - food
+    - sausage
+    - prepared food
+
+123. eggs is a subtopic of 
+    - food
+    - meat
+
+124. seeds is a subtopic of 
+    - food
+
+125. pepper is a subtopic of 
+    - food
+    - spice
+
+126. sausage is a subtopic of 
+    - food
+    - meat
+    - prepared food
+
+127. fruit is a subtopic of 
+    - food
+
+128. sweets is a subtopic
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

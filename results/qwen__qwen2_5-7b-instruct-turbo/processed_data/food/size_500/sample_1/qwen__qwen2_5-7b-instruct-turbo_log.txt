@@ -1,0 +1,373 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: occhi di lupo; gemelli; spaghetti; cannelloni; fagottini; pici; fusilli; food; bavette; pasta
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+gemelli is a subtopic of pasta; fusilli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; pici is a subtopic of pasta; spaghetti is a subtopic of pasta; fagottini is a subtopic of pasta; bavette is a subtopic of pasta; pasta is a subtopic of food; cannelloni is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: corzetti; rotini; sacchettoni; pasta; mezzelune; linguine; spaghetti; fuži; food; croxetti
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+mezzelune is a subtopic of pasta; fuži is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; linguine is a subtopic of pasta; croxetti is a subtopic of pasta; rotini is a subtopic of pasta; corzetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: food; occhi di lupo; bigoli; stringozzi; garganelli; pasta; mezzelune; corzetti; fuži; anellini
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+fuži is a subtopic of pasta; stringozzi is a subtopic of pasta; mezzelune is a subtopic of pasta; anellini is a subtopic of pasta; bigoli is a subtopic of pasta; pasta is a subtopic of food; occhi di lupo is a subtopic of pasta; corzetti is a subtopic of pasta; garganelli is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: food; casoncelli; rotini; ptitim; spaghetti; campanelle; passatelli; macaroni; pasta; lanterne
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+pasta is a subtopic of food; lanterne is a subtopic of pasta; rotini is a subtopic of pasta; macaroni is a subtopic of pasta; passatelli is a subtopic of pasta; spaghetti is a subtopic of pasta; campanelle is a subtopic of pasta; casoncelli is a subtopic of pasta; ptitim is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: penne; rotelle; ptitim; rotini; sacchettoni; food; pasta; mezzelune; stringozzi; spaghetti
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+pasta is a subtopic of food; ptitim is a subtopic of pasta; stringozzi is a subtopic of pasta; rotelle is a subtopic of pasta; mezzelune is a subtopic of pasta; rotini is a subtopic of pasta; penne is a subtopic of pasta; sacchettoni is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: cheonsachae; caruso sauce; fruit-flavoured drinks; longan; pumpkin seeds; houmous; celery roots; squashes; cardoon; duck soup noodles; hogao; honeycomb; grits; floss sugar; shanghai fried noodles; just right; soy product; non-dairy frozen dessert; red wine; henan braised noodles; yucca root; flour; močnik; bun rieu; golden crisp; beetroots; lai fun; rice vermicelli; thenthuk; cornmeal; kumquats; frying pan dinners; cider; licorice; oil noodles; tkemali; broccoli; cellophane noodles; turnips; harissa; artificial sweeteners; pickles and relishes; coconut milk; apricots; tinned meat; pork jowl; black soup; whisky; millet; buckwheat; kharcho; fennel bulbs; lotus roots; gummy sweets; ogbono nuts; hot chocolate; marshmallows; ground and whole bean coffee; milk; yaki udon; lasagnette; timbits; non-alcoholic beer; gobo root; henan braised noodle; sprinkle spangles; baking powder; macadamia nuts; hemp milk; mala sauce; cabbage; cherries; green sauce; beetroot greens; cröonchy stars; worcestershire sauce; seeds; tripoline; dates; asparagus; homli fruits; vodka; tomatoes; chard; psarosoupa; spätzle; espagnole sauce; raisin wheats; mujdei; energy drinks; under cover bears instant oatmeal; biángbiáng noodles; shrimp roe noodles; sunny boy cereal; ogi; dessert toppings; jook-sing noodles; hot sauce; nintendo cereal system; fruit chews; pepper; evaporated milk; frozen noodles; nougat; cooking ingredient; frozen meat; chocolate bars; noodle soup; tinned soup; youmian; soup; walnuts; tom kha kai; kasha; sapote; shredded wheat; jjolmyeon; jelly beans; consommé; prickly pears; hard sauce; celery; ciauscolo; rum; fideo; corn pops; all-bran; sugar cane; caramels; supreme; blush wine; chancaca; she-crab soup; dandan noodles; brazil nuts; vinegar drinks; port; food colouring; rouille; ginger root; disney hunny b's honey-graham; kohlrabi; xo sauce; chocolate assortments; liverwurst; korean noodle; candle salad; sugar apples; sausage; jerusalem artichokes; body buddies; boerewors; boiled sweets; taro root; ponzu; water chestnuts; jelly doughnut; rhubarb; pie crusts; honey smacks; paradise nuts; cauliflower; grapes; rice noodle roll; kesme; sundae cones; chicory; peach sauce; dried beans; beans; bean pastes; tofu; rântaş; white wine; peanut sauce; tomato paste; potatoes; kitchen bouquet; instant noodles; figs; smorz; styrian sour soup; kale; fritelli; dotori guksu; rutabagas; frozen dessert; mamey; wonton noodles; physalis; wow-wow sauce; doughnut; quinoa; red-eye gravy; bakmi; marshmallow sweets; fruit; spinach; porridge; candy corn; honey dew donuts; dragon beard noodles; chocos; curry ketchup; aubergines; persimmons; oatibix; kola nuts; curry sauce; coulis; soy sauce; peanuts; eggnog; brown bobby; cookie crisp; pillus; cumian; breton sauce; honey nut clusters; baking soda; herb; food; salsa; pine nuts; cotechino modena; reese's puffs; pistou; velouté sauce; oyster sauce; sopa teologa; almond extract; nantua sauce; salad mixes; nectarines; cracklin' oat bran; meat patties; plumcots; lettuce; golden nuggets; cruncheroos; merguez; meunière sauce; powdered milk; yeast; product 19; hot dry noodles; lychees; alfalfa sprouts; chocolate covered nuts; korean noodles; tequilaseed; chocolate mints; phu quoc fish sauce; condiment; soy nuts; janggukjuk; juice; potage; pho; meat; loose tea leaves; pickled pigs feet; noodle; soubise sauce; rice noodles; wanko soba; romesco; rice; prepared food; mead; greens; sevai; pizza sauce; wheatgrass; sweet potatoes; amaranth; sugar puffs; fish sauce; liquor; bananas; rømmegrøt; carne de chango; onions; dip; booyah; tucupi; binignit; coffee; corn; yu choy; aioli; weetabix; cucumbers; artichokes; brown sauce; batter and coating mixes; béchamel sauce; arracachas; duckefett; soursops; shortening and lard; quisp; baking extracts; peanut butter cups; fish tea; sour cream doughnut; fiddlehead ferns; drunken noodles; cereals; yam; mints; nali sauce; peas; fruit salad; peaches; pumpkins; lemons; bitters; crème ninon; boston cream doughnut; cooking wine; frosted mini-wheats; wheat; horseradish sauce; schupfnudel; pancake and maple syrup; bolognese sauce; uncle sam cereal; non-dairy milk; mohnnudel; suckers; baking chocolate; noodle with tomato egg sauce; gai choi; bean sprouts; corn syrup; udon; brandy; honey garlic sauce; flavoured malt drinks; shahe fen; pozole; sweets; satay sauce; babi panggang; rassolnik; neapolitan ragù; chick peas; banh canh; dough; loquats; waffle crisp; petit salé; popsicles; okra; choi sum; sparkling wine; ga'at; spice; jicama; taffy; liqueurs; pineapples; sangria; katara; chinese noodles; pesto; garlic; ragù; snow cone syrup; ready brek; instant coffee; ganache; tuscan cabbage; watercress; kreple; unflavored gelatine; borage; buttermilk; molasses; rice krispies; vegetable; apples; tamarind; chocolate covered fruit; alpha-bits; cocktail mixes; rocket; starfruits; dessert wine; chutney; skilandis; black noodles; morning funnies; smultring; oranges; fruit 'n fibre; guavas; mangos; bow wow sauce; papayas; ice cream; sugar; beurre blanc; infusion; mustard; chocolate truffles; beurre noisette; shirataki noodles; babacos; horseradish root; rice wine; silver needle noodles; fruit sauce; rosã© wine; lamian; parsnips; leeks; wine; sorbet; corn flakes; french onion soup; scott's porage oats; powdered beverage mixes; chinkiang pot cover noodles; complete wheat bran flakes; starter cultures; cream cheese; mamoncillo nuts; passion fruit; malangas; frozen yoghurt; beer; feijoas; gomguk; salad dressings; bordelaise sauce; thuringian sausage; soup alla canavese; tangelos; salt pork; french toast crunch; rocky road cereal; tahini; saang mein; helmipuuro; jeonbokjuk; sunflower seeds; vegetable dip; hot and sour soup; okroshka; cheez whiz; mint sauce; ciambella; frosted flakes; hot dogs; cumberland sauce; sauce ravigote; sugo all'amatriciana; pie fillings; kuy teav; pork; candy canes; carrots; toffee brittle; sauce lyonnaise; mămăligă; tangerines; syrup; ajoblanco; siemieniotka; sfenj; eggs; 100% bran; hidden treasures; pistachios; tartar sauce; cactus leaves; vietnamese noodles; sauce; brussels sprouts; café de paris sauce; singapore style noodle; sherbet; chewing gum; ok sauce; mafalde; non-alcoholic wine; pears; breakfast cereal; toffee; sauce gribiche; beer soup; sapodillo; barley gruel; scorcolga; beverage; yi mein; coconuts; rye
+Relationships: 
+
+================================================================================
+Number of entities: 500
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Creating a taxonomy from this extensive list of concepts involves organizing them into a hierarchical structure. Here are the parent-child relationships based on the provided concepts:
+
+1. **Food**
+   - casoncelli
+   - rotini
+   - ptitim
+   - rotelle
+   - sacchettoni
+   - food
+   - mezzelune
+   - stringozzi
+   - spaghetti
+   - pasta
+   - houmous
+   - cheese
+   - cheese sauce
+   - cheese spread
+   - cheese dip
+   - cheese fondue
+   - cheese fondue pot
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese fondue forks
+   - cheese
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

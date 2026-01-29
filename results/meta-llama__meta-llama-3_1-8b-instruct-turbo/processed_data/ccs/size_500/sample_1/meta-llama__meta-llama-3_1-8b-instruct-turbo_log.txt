@@ -1,0 +1,233 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Systolic arrays; Multiple instruction, single data; Single instruction, multiple data; Embedded systems; Architectures; Computing Classification System; Real-time systems; Parallel architectures; Embedded and cyber-physical systems; Computer systems organization
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Systolic arrays is a subtopic of Parallel architectures; Single instruction, multiple data is a subtopic of Parallel architectures; Multiple instruction, single data is a subtopic of Parallel architectures; Parallel architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Embedded systems is a subtopic of Embedded and cyber-physical systems; Computer systems organization is a subtopic of Computing Classification System; Real-time systems is a subtopic of Computer systems organization
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Real-time languages; Architectures; Maintainability and maintenance; Processors and memory architectures; Real-time systems; Computer systems organization; Computing Classification System; Embedded and cyber-physical systems; Dependable and fault-tolerant systems and networks; Fault-tolerant network topologies
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Real-time languages is a subtopic of Real-time systems; Architectures is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Pipeline computing; Embedded and cyber-physical systems; Serial architectures; Architectures; Dependable and fault-tolerant systems and networks; Computer systems organization; Interconnection architectures; Maintainability and maintenance; Computing Classification System; Parallel architectures
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Interconnection architectures is a subtopic of Parallel architectures; Pipeline computing is a subtopic of Serial architectures; Serial architectures is a subtopic of Architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Parallel architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System; Embedded and cyber-physical systems is a subtopic of Computer systems organization
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Quantum computing; Real-time systems; Other architectures; Real-time languages; Optical computing; Embedded and cyber-physical systems; Computer systems organization; Architectures; Real-time system specification; Computing Classification System
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Real-time system specification is a subtopic of Real-time systems; Architectures is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Quantum computing is a subtopic of Other architectures; Computer systems organization is a subtopic of Computing Classification System; Other architectures is a subtopic of Architectures; Optical computing is a subtopic of Other architectures
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems; Real-time system architecture; Real-time systems; Serial architectures; Computer systems organization; Architectures; Distributed architectures; Processors and memory architectures; Computing Classification System
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Distributed architectures is a subtopic of Architectures; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Serial architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Real-time system architecture is a subtopic of Real-time systems; Computer systems organization is a subtopic of Computing Classification System; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Wireless integrated network sensors; Mathematical software; Symmetric cryptography and hash functions; VLSI packaging; Transaction-level verification; Models of computation; Men; Decision analysis; Sketching and sampling; Proteomics; Equational logic and rewriting; Universal access; Human-centered computing; Storage management; Search results deduplication; Peer-to-peer retrieval; Wire routing; Security and privacy; Mobile information processing systems; Graphics recognition and interpretation; Computer forensics; Multivariate statistics; Censorship; Gröbner bases and other special bases; Text editing; Bloom filters and hashing; Consumer health; Storage architectures; Failure prediction; Application-specific VLSI designs; Test-pattern generation and fault simulation; Web conferencing; Measurement; Clustering; Streaming, sublinear and near linear time algorithms; Pornography; Education; Board- and system-level test; Hash functions and message authentication codes; Power and energy; Electromechanical systems; Sponsored search advertising; Hardware accelerators; Graph theory; Document scripting languages; Collaborative and social computing; Crowdsourcing; Distributed storage; Web Ontology Language (OWL); Backtracking; Search engine architectures and scalability; Hypertext / hypermedia creation; Interaction design theory, concepts and paradigms; Nearest-neighbor search; Searching with auxiliary databases; Data extraction and integration; Transborder data flow; Facility location and clustering; Non-volatile memory; Image compression; Public key (asymmetric) techniques; Design; Printers; Discrete mathematics; Record layout alternatives; Presentation of retrieval results; Nonlinear equations; Database management system engines; Numeric approximation algorithms; Economics of security and privacy; Web applications; Security services; Electronic design automation; Health information exchanges; Database design and models; Site wrapping; Military; Performance; Modal and temporal logics; Data structures design and analysis; Integrity checking; Analog, mixed-signal and radio frequency test; Database protection laws; Stream management; Data integration; Predecessor queries; Life and medical sciences; Electro-mechanical devices; Social and professional topics; Random order and robust communication complexity; Stochastic processes; Buses and high-speed links; Commerce policy; Law; Embedded systems security; Retrieval efficiency; Net neutrality; Interaction design; Hardware validation; Computing methodologies; System-level fault tolerance; Surveillance; Computers in other domains; E-learning; Document types; Program reasoning; Health informatics; Query suggestion; World Wide Web; Computational advertising; Assertion checking; Verification; Data stream mining; Automated reasoning; Rendering; Usability in security and privacy; Physical verification; Link and co-citation analysis; Online algorithms; Denotational semantics; Abstract machines; Optical / magneto-optical disks; Numerical differentiation; Computer graphics; Online auctions policy; Surfacing; Architecture (buildings); Cryptography; Document capture; Seniors; Visualization design and evaluation methods; Biology-related information processing; Point-in-time copies; Logic and databases; Antitrust and competition; Relational storage; Storage class memory; Human and societal aspects of security and privacy; Patient privacy; Dynamic graph algorithms; Programming logic; Interconnect power issues; Answer ranking; Evaluation of retrieval results; Collaborative and social computing design and evaluation methods; Medical records; Network access control; Reconfigurable logic applications; Speech / audio search; Page and site ranking; History of programming languages; Input / output circuits; Design rule checking; Microelectromechanical systems; Semiconductor memory; Document management; Web searching and information discovery; Cartography; Computing industry; Web search engines; Emerging interfaces; Record storage systems; Document searching; Horizontal partitioning; Integrated circuits; Genetic information; Online learning algorithms; Computing platforms; Network access restrictions; Web services; Psychology; Simulation theory; Sustainability; Sparsification and spanners; Multi / mixed media creation; Online advertising; Entity relationship models; Adversarial retrieval; Ray tracing; Logic families; Branch-and-bound; Automatic differentiation; Finite Model Theory; Design reuse and communication-based design; Model verification and validation; Design and analysis of algorithms; Analog and mixed-signal circuits; Social advertising; Search methodologies; Treaties; Application specific processors; Theory and algorithms for application domains; Fine arts; Turing machines; Application specific instruction set processors; Concurrent computing methodologies; Solvers; Verification by model checking; Agriculture; Modeling and simulation; Copyrights; Full-custom circuits; Display advertising; Women; Traffic analysis; Graph algorithms analysis; Personal health records; Categorical semantics; Socio-technical systems; Power networks; Constraint and logic programming; Input / output styles; Cryptanalysis and other attacks; Fixed parameter tractability; Information retrieval; Database administration; Smart grid; Specialized information retrieval; Personal computers and PC applications; Power grid design; Malicious design modifications; Validation; Massively multiplayer online games; Integral equations; Test collections; Digital switches; Economic impact; Recognition of genes and regulatory elements; Multimedia and multimodal retrieval; Age; Sequencing and genotyping technologies; Hardware security implementation; Association rules; Operational semantics; Multi-criterion optimization and decision-making; Information storage systems; Design for testability; Cloud based storage; Software security engineering; Robustness; Theorem proving and SAT solving; Reversible logic; Historical people; Software and application security; Visualization systems and tools; Computing / technology policy; Model development and analysis; Simple Object Access Protocol (SOAP); Accessibility technologies; Graph enumeration; Formal methods and theory of security; Version control; Machine learning theory; Power estimation and optimization; Computability; Tactile and hand-based interfaces; Learning management systems; Adolescents; RAID; Rasterization; Parameterized complexity and exact algorithms; Linear logic; Estimation; Social network security and privacy; Analog and mixed-signal circuit optimization; Medical technologies; Search engine indexing; Information storage technologies; User characteristics; Testing, certification and licensing; Rounding techniques; Standard cell libraries; Query intent; Identity theft; General and reference; Operations research; Design for manufacturability; Analysis and design of emerging devices and systems; Reconfigurable logic and FPGAs; Multilingual and cross-lingual retrieval; Program semantics; Tamper-proof and tamper-resistant designs; Probabilistic inference problems; Data mining; Race and ethnicity; Arts and humanities; Computer-managed instruction; Multimedia streaming; General conference proceedings; Switching devices power issues; Wireline communication; Distributed database transactions; Graphics systems and interfaces; Medical information policy; Accessibility; Timing analysis; Post-manufacture validation and debug; Sensor applications and deployments; Programmable logic elements; Non-photorealistic rendering; Web mining; Multimedia content creation; Semantic web description languages; Online handwriting recognition; Consumer products; Read-only memory; Cross-computing tools and techniques; Bioinformatics; Law, social and behavioral sciences; Privacy policies; Structured text search; Online test and diagnostics; Formal languages and automata theory; Hoare logic; Theory of computation; On-chip resource management; Stochastic approximation; Offshoring; K-server algorithms; Internet governance / domain names; Tape libraries; Information systems applications; Children; Partitioning and floorplanning; Energy generation and storage; Anthropology; Computer crime; Hardware description languages and compilation; Platform power issues; Empirical studies in visualization; Incomplete, inconsistent, and uncertain databases; Decision support systems; History of computing; Media arts; Query reformulation; Data management systems; Networking hardware; Consumer products policy; Content ranking; Biographies; Process control systems; Algorithm design techniques; Emerging technologies; Reusable energy storage; Data anonymization and sanitization; Batteries; Clock-network synthesis; Cultural characteristics; Artificial intelligence; Social aspects of security and privacy; Computational biology; Reference works; Corporate surveillance; Communication hardware, interfaces and storage; Desktop search; Taxation; Database theory; Universal Description Discovery and Integration (UDDI); Power and thermal analysis; Visualization toolkits; Security requirements; Document management and text processing; Matroids and greedoids; Geographic characteristics; Very large scale integration design; Patents; Mathematical software performance; Web indexing; Computation of transforms; Document preparation; Microcomputers; Thermal issues; Discretization; Multimedia databases; Timed and hybrid models; Machine learning; Shortest paths; Physical synthesis; Domain-specific security and privacy architectures; Visualization application domains; Chip-level power issues; Platform-based design; Fault tolerance; Sensor devices and platforms; Spam detection; Multimedia information systems; Applied computing; Memory test and repair; Privacy-preserving protocols; Algebraic semantics; Public key encryption; Logic; Hardware attacks and countermeasures; Semantics and reasoning; Storage replication; Magnetic disks; Computer-aided manufacturing; Finite state machines; Hardware; Marketing; External storage; Evaluation; Genetics; Enterprise search; Logic circuits; Test data compression; Mathematical analysis; Hardware reliability screening; Environment-specific retrieval; Empirical studies; Markov processes; Interval arithmetic; Statistical software; Package-level interconnect; Hard and soft IP; Functional analysis; Intrusion/anomaly detection and malware mitigation; Transportation; Deep web; Spintronics and magnetic technologies; Computing standards, RFCs and guidelines; Program verification; Functional verification; Transcriptomics; Energy distribution; Information systems; Action semantics; Information retrieval query processing; Quantum computation theory; Neural systems; Dynamic programming; History of software; Control methods; Mesh generation; W hierarchy; Interconnect; Remote replication; Computing and business; Streaming models; Remote medicine; Built-in self-test; Assistive technologies; Accessibility systems and tools; Computing Classification System; Trust; Static memory; Genomics; Acceptable use policy restrictions; Incentive schemes; Query representation; Emerging languages and compilers; Cyberwarfare; VLSI system specification and constraints; Gender; History of computing theory; Retrieval on mobile devices; Hardware test; Web data description languages; Computations on polynomials; Timing analysis and sign-off; Interpolation; Health care information systems; Relational database model; Fixed length attributes; Physical design (EDA); Database and storage security; Temperature optimization; Internet communications tools; Structure and multilingual text search; Economics; Probabilistic computation; Defect-based test; Sexual orientation; Automation; Quadrature; Visualization; Interactive computation; Codes of ethics; Constructive mathematics; Wireless devices; Metrics; Computing profession; Vertical partitioning; Web log analysis; Professional topics; Mathematics of computing; Probability and statistics; Surveys and overviews; Storage recovery strategies; Optical character recognition; Hate speech; Intellectual property; Security in hardware; Numerical analysis; Web application security; Reengineering; Approximation algorithms analysis; Separation logic; Religious orientation; People with disabilities
+Relationships: 
+
+================================================================================
+Number of entities: 500
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll do my best to create a taxonomy from this list. Here are the relationships between the concepts:
+
+1. Accessibility technologies is a subtopic of Accessibility.
+2. Accessibility systems and tools is a subtopic of Accessibility.
+3. Accessibility is a subtopic of Computing / technology policy.
+4. Accessibility is a subtopic of Human and societal aspects of security and privacy.
+5. Accessibility is a subtopic of Information systems applications.
+6. Accessibility is a subtopic of Social and professional topics.
+7. Accessibility is a subtopic of User characteristics.
+8. Accessibility is a subtopic of Web mining.
+9. Accessibility is a subtopic of Web searching and information discovery.
+10. Accessibility is a subtopic of Web services.
+11. Accessibility is a subtopic of Women.
+12. Accessibility is a subtopic of Youth.
+13. Accessibility technologies is a subtopic of Assistive technologies.
+14. Accessibility technologies is a subtopic of Computing industry.
+15. Accessibility technologies is a subtopic of Computing platforms.
+16. Accessibility technologies is a subtopic of Computing standards, RFCs and guidelines.
+17. Accessibility technologies is a subtopic of Computing Classification System.
+18. Accessibility technologies is a subtopic of Computing profession.
+19. Accessibility technologies is a subtopic of Computing theory.
+20. Accessibility technologies is a subtopic of Computing methodologies.
+21. Accessibility technologies is a subtopic of Computing and business.
+22. Accessibility technologies is a subtopic of Computers in other domains.
+23. Accessibility technologies is a subtopic of Computers in society.
+24. Accessibility technologies is a subtopic of Computers in the home.
+25. Accessibility technologies is a subtopic of Computers in the workplace.
+26. Accessibility technologies is a subtopic of Computers in the world.
+27. Accessibility technologies is a subtopic of Computers in the world.
+28. Accessibility technologies is a subtopic of Computers in the world.
+29. Accessibility technologies is a subtopic of Computers in the world.
+30. Accessibility technologies is a subtopic of Computers in the world.
+31. Accessibility technologies is a subtopic of Computers in the world.
+32. Accessibility technologies is a subtopic of Computers in the world.
+33. Accessibility technologies is a subtopic of Computers in the world.
+34. Accessibility technologies is a subtopic of Computers in the world.
+35. Accessibility technologies is a subtopic of Computers in the world.
+36. Accessibility technologies is a subtopic of Computers in the world.
+37. Accessibility technologies is a subtopic of Computers in the world.
+38. Accessibility technologies is a subtopic of Computers in the world.
+39. Accessibility technologies is a subtopic of Computers in the world.
+40. Accessibility technologies is a subtopic of Computers in the world.
+41. Accessibility technologies is a subtopic of Computers in the world.
+42. Accessibility technologies is a subtopic of Computers in the world.
+43. Accessibility technologies is a subtopic of Computers in the world.
+44. Accessibility technologies is a subtopic of Computers in the world.
+45. Accessibility technologies is a subtopic of Computers in the world.
+46. Accessibility technologies is a subtopic of Computers in the world.
+47. Accessibility technologies is a subtopic of Computers in the world.
+48. Accessibility technologies is a subtopic of Computers in the world.
+49. Accessibility technologies is a subtopic of Computers in the world.
+50. Accessibility technologies is a subtopic of Computers in the world.
+51. Accessibility technologies is a subtopic of Computers in the world.
+52. Accessibility technologies is a subtopic of Computers in the world.
+53. Accessibility technologies is a subtopic of Computers in the world.
+54. Accessibility technologies is a subtopic of Computers in the world.
+55. Accessibility technologies is a subtopic of Computers in the world.
+56. Accessibility technologies is a subtopic of Computers in the world.
+57. Accessibility technologies is a subtopic of Computers in the world.
+58. Accessibility technologies is a subtopic of Computers in the world.
+59. Accessibility technologies is a subtopic of Computers in the world.
+60. Accessibility technologies is a subtopic of Computers in the world.
+61. Accessibility technologies is a subtopic of Computers in the world.
+62. Accessibility technologies is a subtopic of Computers in the world.
+63. Accessibility technologies is a subtopic of Computers in the world.
+64. Accessibility technologies is a subtopic of Computers in the world.
+65. Accessibility technologies is a subtopic of Computers in the world.
+66. Accessibility technologies is a subtopic of Computers in the world.
+67. Accessibility technologies is a subtopic of Computers in the world.
+68. Accessibility technologies is a subtopic of Computers in the world.
+69. Accessibility technologies is a subtopic of Computers in the world.
+70. Accessibility technologies is a subtopic of Computers in the world.
+71. Accessibility technologies is a subtopic of Computers in the world.
+72. Accessibility technologies is a subtopic of Computers in the world.
+73. Accessibility technologies is a subtopic of Computers in the world.
+74. Accessibility technologies is a subtopic of Computers in the world.
+75. Accessibility technologies is a subtopic of Computers in the world.
+76. Accessibility technologies is a subtopic of Computers in the world.
+77. Accessibility technologies is a subtopic of Computers in the world.
+78. Accessibility technologies is a subtopic of Computers in the world.
+79. Accessibility technologies is a subtopic of Computers in the world.
+80. Accessibility technologies is a subtopic of Computers in the world.
+81. Accessibility technologies is a subtopic of Computers in the world.
+82. Accessibility technologies is a subtopic of Computers in the world.
+83. Accessibility technologies is a subtopic of Computers in the world.
+84. Accessibility technologies is a subtopic of Computers in the world.
+85. Accessibility technologies is a subtopic of Computers in the world.
+86. Accessibility technologies is a subtopic of Computers in the world.
+87. Accessibility technologies is a subtopic of Computers in the world.
+88. Accessibility technologies is a subtopic of Computers in the world.
+89. Accessibility technologies is a subtopic of Computers in the world.
+90. Accessibility technologies is a subtopic of Computers in the world.
+91. Accessibility technologies is a subtopic of Computers in the world.
+92. Accessibility technologies is a subtopic of Computers in the world.
+93. Accessibility technologies is a subtopic of Computers in the world.
+94. Accessibility technologies is a subtopic of Computers in the world.
+95. Accessibility technologies is a subtopic of Computers in the world.
+96. Accessibility technologies is a subtopic of Computers in the world.
+97. Accessibility technologies is a subtopic of Computers in the world.
+98. Accessibility technologies is a subtopic of Computers in the world.
+99. Accessibility technologies is a subtopic of Computers in the world.
+100. Accessibility technologies is a subtopic of Computers in the world.
+
+And so on for the rest of the concepts.
+
+Here are some other relationships:
+
+1. Accessibility is a subtopic of Human-centered computing.
+2. Accessibility is a subtopic of Human and societal aspects of security and privacy.
+3. Accessibility is a subtopic of Information systems applications.
+4. Accessibility is a subtopic of Social and professional topics.
+5. Accessibility is a subtopic of User characteristics.
+6. Accessibility is a subtopic of Web mining.
+7. Accessibility is a subtopic of Web searching and information discovery.
+8. Accessibility is a subtopic of Web services.
+9. Accessibility is a subtopic of Women.
+10. Accessibility is a subtopic of Youth.
+11. Accessibility technologies is a subtopic of Assistive technologies.
+12. Accessibility technologies is a subtopic of Computing industry.
+13. Accessibility technologies is a subtopic of Computing platforms.
+14. Accessibility technologies is a subtopic of Computing standards, RFCs and guidelines.
+15. Accessibility technologies is a subtopic of Computing Classification System.
+16. Accessibility technologies is a subtopic of Computing profession.
+17. Accessibility technologies is a subtopic of Computing theory.
+18. Accessibility technologies is a subtopic of Computing methodologies.
+19. Accessibility technologies is a subtopic of Computing and business.
+20. Accessibility technologies is a subtopic of Computers in other domains.
+21. Accessibility technologies is a subtopic of Computers in society.
+22. Accessibility technologies is a subtopic of Computers in the home.
+23. Accessibility technologies is a subtopic of Computers in the workplace.
+24. Accessibility technologies is a subtopic of Computers in the world.
+25. Accessibility technologies is a subtopic of Computers in the world.
+26. Accessibility technologies is a subtopic of Computers in the world.
+27. Accessibility technologies is a subtopic of Computers in the world.
+28. Accessibility technologies is a subtopic of Computers in the world.
+29. Accessibility technologies is a subtopic of Computers in the world.
+30. Accessibility technologies is a subtopic of Computers in the world.
+31. Accessibility technologies is a subtopic of Computers in the world.
+32. Accessibility technologies is a subtopic of Computers in the world.
+33. Accessibility technologies is a subtopic of Computers in the world.
+34. Accessibility technologies is a subtopic of Computers in the world.
+35. Accessibility technologies is a subtopic of Computers in the world.
+36. Accessibility technologies is a subtopic of Computers in the world.
+37. Accessibility technologies is a subtopic of Computers in the world.
+38. Accessibility technologies is a subtopic of Computers in the world.
+39. Accessibility technologies is a subtopic of Computers in the world.
+40. Accessibility technologies is a subtopic of Computers in the world.
+41. Accessibility technologies is a subtopic of Computers in the world.
+42. Accessibility technologies is a subtopic of Computers in the world.
+43. Accessibility technologies is a subtopic of Computers in the world.
+44. Accessibility technologies is a subtopic of Computers in the world.
+45. Accessibility technologies is a subtopic of Computers in the world.
+46. Accessibility technologies is a subtopic of Computers in the world.
+47. Accessibility technologies is a subtopic of Computers in the world.
+48. Accessibility technologies is
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

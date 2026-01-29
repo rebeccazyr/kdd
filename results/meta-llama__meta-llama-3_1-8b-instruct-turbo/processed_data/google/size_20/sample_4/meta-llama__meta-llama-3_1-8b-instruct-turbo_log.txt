@@ -1,0 +1,97 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Spears; Reloading Supplies & Equipment; Ammunition Cases & Holders; Gun Care & Accessories; Weapons; Combat Knives; Google Product Taxonomy; Staff & Stick Weapons; Mature; Gun Holsters
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Combat Knives is a subtopic of Weapons; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Holsters is a subtopic of Gun Care & Accessories; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Gun Lights; Gun Care & Accessories; Gun Cases & Range Bags; Staff & Stick Weapons; Swords; Weapons; Ammunition; Stun Guns & Tasers; Mature
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Swords is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Weapons is a subtopic of Mature; Ammunition is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Mature; Stun Guns & Tasers; Nunchucks; Throwing Stars; Gun Care & Accessories; Weapons; Guns; Whips; Erotic
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Guns is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Whips is a subtopic of Weapons; Erotic is a subtopic of Mature
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Mature; Erotic Books; Erotic; Erotic Clothing; Erotic Food & Edibles; Erotic Magazines; Pole Dancing Kits; Erotic DVDs & Videos; Erotic Games
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Erotic Books is a subtopic of Erotic; Erotic is a subtopic of Mature; Pole Dancing Kits is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic Games is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Gun Slings; Swords; Spears; Weapons; Stun Guns & Tasers; Gun Care & Accessories; Mature; Google Product Taxonomy; Gun Grips; Staff & Stick Weapons
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Gun Grips is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Swords is a subtopic of Weapons; Spears is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Luggage & Bags; Media; Arts & Entertainment; Computers; Circuit Boards & Components; Building Consumables; Hardware; Baby & Toddler; Fencing & Barriers; Religious & Ceremonial; Event Tickets; Apparel & Accessories; Google Product Taxonomy; Scanners; Heating, Ventilation & Air Conditioning; Electronics; Train Cases; Print, Copy, Scan & Fax; Speed Radars; GPS Navigation Systems
+Relationships: 
+
+================================================================================
+Number of entities: 20
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Event Tickets is a subtopic of Media; Scanners is a subtopic of Print, Copy, Scan & Fax; Print, Copy, Scan & Fax is a subtopic of Computers; GPS Navigation Systems is a subtopic of Electronics; Electronics is a subtopic of Hardware; Speed Radars is a subtopic of Electronics; Circuit Boards & Components is a subtopic of Electronics; Building Consumables is a subtopic of Hardware; Heating, Ventilation & Air Conditioning is a subtopic of Hardware; Luggage & Bags is a subtopic of Apparel & Accessories; Train Cases is a subtopic of Luggage & Bags; Fencing & Barriers is a subtopic of Religious & Ceremonial; Religious & Ceremonial is a subtopic of Google Product Taxonomy; Media is a subtopic of Google Product Taxonomy; Arts & Entertainment is a subtopic of Google Product Taxonomy; Baby & Toddler is a subtopic of Google Product Taxonomy; Google Product Taxonomy is a subtopic of itself; Computers is a subtopic of Google Product Taxonomy
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 18
+
+Parsed relationships:
+  Event Tickets → Media
+  Scanners → Print, Copy, Scan & Fax
+  Print, Copy, Scan & Fax → Computers
+  GPS Navigation Systems → Electronics
+  Electronics → Hardware
+  Speed Radars → Electronics
+  Circuit Boards & Components → Electronics
+  Building Consumables → Hardware
+  Heating, Ventilation & Air Conditioning → Hardware
+  Luggage & Bags → Apparel & Accessories
+  Train Cases → Luggage & Bags
+  Fencing & Barriers → Religious & Ceremonial
+  Religious & Ceremonial → Google Product Taxonomy
+  Media → Google Product Taxonomy
+  Arts & Entertainment → Google Product Taxonomy
+  Baby & Toddler → Google Product Taxonomy
+  Google Product Taxonomy → itself
+  Computers → Google Product Taxonomy
+
+================================================================================

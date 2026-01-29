@@ -1,0 +1,421 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Single instruction, multiple data; Computer systems organization; Embedded systems; Multiple instruction, single data; Architectures; Embedded and cyber-physical systems; Computing Classification System; Parallel architectures; Systolic arrays; Real-time systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Single instruction, multiple data is a subtopic of Parallel architectures; Computer systems organization is a subtopic of Computing Classification System; Systolic arrays is a subtopic of Parallel architectures; Multiple instruction, single data is a subtopic of Parallel architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Embedded systems is a subtopic of Embedded and cyber-physical systems; Real-time systems is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Processors and memory architectures; Computing Classification System; Architectures; Real-time systems; Real-time languages; Fault-tolerant network topologies; Dependable and fault-tolerant systems and networks; Computer systems organization; Embedded and cyber-physical systems; Maintainability and maintenance
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Real-time systems is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Parallel architectures; Maintainability and maintenance; Embedded and cyber-physical systems; Architectures; Interconnection architectures; Dependable and fault-tolerant systems and networks; Serial architectures; Computer systems organization; Pipeline computing; Computing Classification System
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Parallel architectures is a subtopic of Architectures; Pipeline computing is a subtopic of Serial architectures; Serial architectures is a subtopic of Architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Interconnection architectures is a subtopic of Parallel architectures; Architectures is a subtopic of Computer systems organization
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Computer systems organization; Quantum computing; Real-time system specification; Real-time languages; Other architectures; Embedded and cyber-physical systems; Computing Classification System; Real-time systems; Optical computing; Architectures
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Quantum computing is a subtopic of Other architectures; Real-time system specification is a subtopic of Real-time systems; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Optical computing is a subtopic of Other architectures; Real-time languages is a subtopic of Real-time systems; Computer systems organization is a subtopic of Computing Classification System; Architectures is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Other architectures is a subtopic of Architectures
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Computer systems organization; Dependable and fault-tolerant systems and networks; Computing Classification System; Real-time system architecture; Embedded and cyber-physical systems; Real-time systems; Serial architectures; Processors and memory architectures; Architectures; Distributed architectures
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Serial architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System; Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time system architecture is a subtopic of Real-time systems; Real-time systems is a subtopic of Computer systems organization; Distributed architectures is a subtopic of Architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Semiconductor memory; Algebraic complexity theory; User interface programming; Sorting and searching; Equational logic and rewriting; Computing industry; User characteristics; Document searching; Human-centered computing; General and reference; Integrated circuits; Online learning algorithms; Physical synthesis; Interactive proof systems; Wire routing; Hypertext / hypermedia; Circuit complexity; Proof complexity; Applied computing; Computational geometry; Complexity classes; Packaging; Physical sciences and engineering; Race and ethnicity; Arts and humanities; Logic; Semantics and reasoning; Placement; Graphical user interfaces; Sparsification and spanners; Accessibility; Formalisms; User interface management systems; Logic families; Cryptographic primitives; Caching and paging algorithms; Hardware; Interaction paradigms; Empirical studies in collaborative and social computing; Design and analysis of algorithms; Adversary models; Hardware reliability screening; Collaborative and social computing; Management of computing and information systems; Verification by model checking; Formal languages and automata theory; Natural language interfaces; Computational complexity and cryptography; Hoare logic; Theory of computation; Ubiquitous and mobile computing; K-server algorithms; Accessibility design and evaluation methods; Graph algorithms analysis; Electronic design automation; Accessibility theory, concepts and paradigms; Publishing; Software and its engineering; Cryptographic protocols; Data structures design and analysis; Analog, mixed-signal and radio frequency test; Accessibility systems and tools; Computing Classification System; Hardware description languages and compilation; Social and professional topics; Divide and conquer; Networks; Hardware test; Interaction design; Digital switches; Communication complexity; Algorithm design techniques; Physical design (EDA); Randomness, geometry and discrete structures; Computers in other domains; Logic synthesis; Engineering; Human computer interaction (HCI); Cultural characteristics; Design for testability; Online algorithms; Proof theory; Robustness; Constructive mathematics; Problems, reductions and completeness; Interactive systems and tools; Computing / technology policy; Professional topics; Mathematics of computing; Accessibility technologies; Social network analysis; Document management and text processing; Dynamic graph algorithms; Tree languages; Collaborative interaction; Separation logic; Collaborative and social computing design and evaluation methods; Parameterized complexity and exact algorithms; People with disabilities; Combinational synthesis
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts, and it's challenging to establish relationships between them. However, I'll try to identify some subtopics and relationships based on the given concepts. Here's a possible taxonomy:
+
+1. Computing Classification System
+   - Computer systems organization
+     - Hardware
+       - Integrated circuits
+       - Logic families
+       - Hardware description languages and compilation
+       - Physical design (EDA)
+       - Analog, mixed-signal and radio frequency test
+     - Software and its engineering
+       - Software engineering
+       - Formal languages and automata theory
+       - Hoare logic
+       - Proof theory
+     - Computer networks
+       - Networks
+       - Communication complexity
+     - Distributed systems
+       - Distributed architectures
+       - Distributed algorithms
+     - Embedded systems
+       - Embedded and cyber-physical systems
+       - Real-time systems
+       - Real-time system architecture
+     - Human-centered computing
+       - Human computer interaction (HCI)
+       - Accessibility
+       - Accessibility design and evaluation methods
+       - Accessibility technologies
+     - Theory of computation
+       - Algebraic complexity theory
+       - Circuit complexity
+       - Computational complexity and cryptography
+       - Proof complexity
+     - Formal methods
+       - Formalisms
+       - Formal languages and automata theory
+       - Hoare logic
+       - Proof theory
+     - Computer science education
+       - Online learning algorithms
+       - Collaborative and social computing design and evaluation methods
+     - Social and professional topics
+       - Computing / technology policy
+       - Professional topics
+       - Social network analysis
+     - Mathematics of computing
+       - Algebraic complexity theory
+       - Circuit complexity
+       - Computational complexity and cryptography
+       - Proof complexity
+     - Physical sciences and engineering
+       - Physical sciences
+       - Engineering
+     - Arts and humanities
+       - Arts
+       - Humanities
+     - Logic
+       - Equational logic and rewriting
+       - Hoare logic
+       - Proof theory
+       - Separation logic
+     - Semantics and reasoning
+       - Semantics
+       - Reasoning
+     - Semantics and reasoning
+       - Semantics
+       - Reasoning
+     - Human-centered computing
+       - Human computer interaction (HCI)
+       - Accessibility
+       - Accessibility design and evaluation methods
+       - Accessibility technologies
+     - Collaborative and social computing
+       - Collaborative interaction
+       - Collaborative and social computing design and evaluation methods
+       - Empirical studies in collaborative and social computing
+     - Computing industry
+       - Computing industry
+     - User interface programming
+       - Graphical user interfaces
+       - User interface management systems
+     - Document searching
+       - Document management and text processing
+     - Online learning algorithms
+       - Online learning algorithms
+     - Physical synthesis
+       - Physical synthesis
+     - Interactive proof systems
+       - Interactive proof systems
+     - Wire routing
+       - Wire routing
+     - Hypertext / hypermedia
+       - Hypertext / hypermedia
+     - Circuit complexity
+       - Circuit complexity
+     - Proof complexity
+       - Proof complexity
+     - Applied computing
+       - Applied computing
+     - Computational geometry
+       - Computational geometry
+     - Complexity classes
+       - Complexity classes
+     - Packaging
+       - Packaging
+     - Physical sciences and engineering
+       - Physical sciences
+       - Engineering
+     - Race and ethnicity
+       - Race and ethnicity
+     - Arts and humanities
+       - Arts
+       - Humanities
+     - Logic
+       - Equational logic and rewriting
+       - Hoare logic
+       - Proof theory
+       - Separation logic
+     - Semantics and reasoning
+       - Semantics
+       - Reasoning
+     - Semantics and reasoning
+       - Semantics
+       - Reasoning
+     - Human-centered computing
+       - Human computer interaction (HCI)
+       - Accessibility
+       - Accessibility design and evaluation methods
+       - Accessibility technologies
+     - Collaborative and social computing
+       - Collaborative interaction
+       - Collaborative and social computing design and evaluation methods
+       - Empirical studies in collaborative and social computing
+     - Computing industry
+       - Computing industry
+     - User interface programming
+       - Graphical user interfaces
+       - User interface management systems
+     - Document searching
+       - Document management and text processing
+     - Online learning algorithms
+       - Online learning algorithms
+     - Physical synthesis
+       - Physical synthesis
+     - Interactive proof systems
+       - Interactive proof systems
+     - Wire routing
+       - Wire routing
+     - Hypertext / hypermedia
+       - Hypertext / hypermedia
+     - Circuit complexity
+       - Circuit complexity
+     - Proof complexity
+       - Proof complexity
+     - Applied computing
+       - Applied computing
+     - Computational geometry
+       - Computational geometry
+     - Complexity classes
+       - Complexity classes
+     - Packaging
+       - Packaging
+     - Physical sciences and engineering
+       - Physical sciences
+       - Engineering
+     - Race and ethnicity
+       - Race and ethnicity
+     - Arts and humanities
+       - Arts
+       - Humanities
+     - Logic
+       - Equational logic and rewriting
+       - Hoare logic
+       - Proof theory
+       - Separation logic
+     - Semantics and reasoning
+       - Semantics
+       - Reasoning
+     - Semantics and reasoning
+       - Semantics
+       - Reasoning
+     - Human-centered computing
+       - Human computer interaction (HCI)
+       - Accessibility
+       - Accessibility design and evaluation methods
+       - Accessibility technologies
+     - Collaborative and social computing
+       - Collaborative interaction
+       - Collaborative and social computing design and evaluation methods
+       - Empirical studies in collaborative and social computing
+     - Computing industry
+       - Computing industry
+     - User interface programming
+       - Graphical user interfaces
+       - User interface management systems
+     - Document searching
+       - Document management and text processing
+     - Online learning algorithms
+       - Online learning algorithms
+     - Physical synthesis
+       - Physical synthesis
+     - Interactive proof systems
+       - Interactive proof systems
+     - Wire routing
+       - Wire routing
+     - Hypertext / hypermedia
+       - Hypertext / hypermedia
+     - Circuit complexity
+       - Circuit complexity
+     - Proof complexity
+       - Proof complexity
+     - Applied computing
+       - Applied computing
+     - Computational geometry
+       - Computational geometry
+     - Complexity classes
+       - Complexity classes
+     - Packaging
+       - Packaging
+     - Physical sciences and engineering
+       - Physical sciences
+       - Engineering
+     - Race and ethnicity
+       - Race and ethnicity
+     - Arts and humanities
+       - Arts
+       - Humanities
+     - Logic
+       - Equational logic and rewriting
+       - Hoare logic
+       - Proof theory
+       - Separation logic
+     - Semantics and reasoning
+       - Semantics
+       - Reasoning
+     - Semantics and reasoning
+       - Semantics
+       - Reasoning
+     - Human-centered computing
+       - Human computer interaction (HCI)
+       - Accessibility
+       - Accessibility design and evaluation methods
+       - Accessibility technologies
+     - Collaborative and social computing
+       - Collaborative interaction
+       - Collaborative and social computing design and evaluation methods
+       - Empirical studies in collaborative and social computing
+     - Computing industry
+       - Computing industry
+     - User interface programming
+       - Graphical user interfaces
+       - User interface management systems
+     - Document searching
+       - Document management and text processing
+     - Online learning algorithms
+       - Online learning algorithms
+     - Physical synthesis
+       - Physical synthesis
+     - Interactive proof systems
+       - Interactive proof systems
+     - Wire routing
+       - Wire routing
+     - Hypertext / hypermedia
+       - Hypertext / hypermedia
+     - Circuit complexity
+       - Circuit complexity
+     - Proof complexity
+       - Proof complexity
+     - Applied computing
+       - Applied computing
+     - Computational geometry
+       - Computational geometry
+     - Complexity classes
+       - Complexity classes
+     - Packaging
+       - Packaging
+     - Physical sciences and engineering
+       - Physical sciences
+       - Engineering
+     - Race and ethnicity
+       - Race and ethnicity
+     - Arts and humanities
+       - Arts
+       - Humanities
+     - Logic
+       - Equational logic and rewriting
+       - Hoare logic
+       - Proof theory
+       - Separation logic
+     - Semantics and reasoning
+       - Semantics
+       - Reasoning
+     - Semantics and reasoning
+       - Semantics
+       - Reasoning
+     - Human-centered computing
+       - Human computer interaction (HCI)
+       - Accessibility
+       - Accessibility design and evaluation methods
+       - Accessibility technologies
+     - Collaborative and social computing
+       - Collaborative interaction
+       - Collaborative and social computing design and evaluation methods
+       - Empirical studies in collaborative and social computing
+     - Computing industry
+       - Computing industry
+     - User interface programming
+       - Graphical user interfaces
+       - User interface management systems
+     - Document searching
+       - Document management and text processing
+     - Online learning algorithms
+       - Online learning algorithms
+     - Physical synthesis
+       - Physical synthesis
+     - Interactive proof systems
+       - Interactive proof systems
+     - Wire routing
+       - Wire routing
+     - Hypertext / hypermedia
+       - Hypertext / hypermedia
+     - Circuit complexity
+       - Circuit complexity
+     - Proof complexity
+       - Proof complexity
+     - Applied computing
+       - Applied computing
+     - Computational geometry
+       - Computational geometry
+     - Complexity classes
+       - Complexity classes
+     - Packaging
+       - Packaging
+     - Physical sciences and engineering
+       - Physical sciences
+       - Engineering
+     - Race and ethnicity
+       - Race and ethnicity
+     - Arts and humanities
+       -
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 1
+
+Parsed relationships:
+  This is a very long list of concepts → and it's challenging to establish relationships between them. However, I'll try to identify some subtopics and relationships based on the given concepts. Here's a possible taxonomy
+
+================================================================================

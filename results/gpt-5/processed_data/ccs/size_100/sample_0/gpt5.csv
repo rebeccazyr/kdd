@@ -1,0 +1,100 @@
+child,parent
+General and reference,Computing Classification System
+Applied computing,Computing Classification System
+Human-centered computing,Computing Classification System
+Networks,Computing Classification System
+Security and privacy,Computing Classification System
+Computing methodologies,Computing Classification System
+Mathematics of computing,Computing Classification System
+Social and professional topics,Computing Classification System
+Professional topics,Social and professional topics
+Computing education,Social and professional topics
+Computing industry,Professional topics
+Student assessment,Computing education
+Cross-computing tools and techniques,General and reference
+Physical sciences and engineering,Applied computing
+Life and medical sciences,Applied computing
+Arts and humanities,Applied computing
+Computing and business,Applied computing
+Education,Applied computing
+Operations research,Applied computing
+Architecture (buildings),Physical sciences and engineering
+Aerospace,Physical sciences and engineering
+Transportation,Physical sciences and engineering
+Astronomy,Physical sciences and engineering
+Chemistry,Physical sciences and engineering
+Earth and atmospheric sciences,Physical sciences and engineering
+Health care information systems,Life and medical sciences
+Computational biology,Life and medical sciences
+Metabolomics / metabonomics,Computational biology
+Media arts,Arts and humanities
+Fine arts,Arts and humanities
+Performing arts,Arts and humanities
+Archaeology,Arts and humanities
+Sound and music computing,Media arts
+Marketing,Computing and business
+Informal education,Education
+Decision analysis,Operations research
+Forecasting,Operations research
+Network architectures,Networks
+Network protocols,Networks
+Network components,Networks
+Network design principles,Networks
+Network properties,Networks
+Network dynamics,Network properties
+Network reliability,Network properties
+Network range,Network properties
+Network types,Networks
+Wired access networks,Network types
+Mobile networks,Network types
+Metropolitan area networks,Network types
+Wide area networks,Network types
+Short-range networks,Network types
+Layering,Network architectures
+Link-layer protocols,Network protocols
+Network layer protocols,Network protocols
+Routing protocols,Network protocols
+Signaling protocols,Network protocols
+Presentation protocols,Network protocols
+Physical links,Network components
+Network adapters,Network components
+End nodes,Network components
+Telecommunications,Networks
+Software and application security,Security and privacy
+Software security engineering,Software and application security
+Security in hardware,Security and privacy
+Embedded systems security,Security and privacy
+Computer forensics,Security and privacy
+"Evidence collection, storage and analysis",Computer forensics
+Network forensics,Computer forensics
+Network privacy and anonymity,Security and privacy
+Human computer interaction (HCI),Human-centered computing
+Accessibility,Human-centered computing
+Socio-technical systems,Human-centered computing
+Visualization,Human-centered computing
+Visualization systems and tools,Visualization
+Visualization application domains,Visualization
+Machine learning,Computing methodologies
+Learning paradigms,Machine learning
+Multi-task learning,Learning paradigms
+Parallel computing methodologies,Computing methodologies
+Concurrent computing methodologies,Computing methodologies
+Computer graphics,Computing methodologies
+Graphics systems and interfaces,Computer graphics
+Imaging,Computer graphics
+Image manipulation,Imaging
+Shape modeling,Computer graphics
+Antialiasing,Computer graphics
+Texturing,Computer graphics
+Mathematics and statistics,Mathematics of computing
+Mathematical analysis,Mathematics and statistics
+Functional analysis,Mathematical analysis
+Differential equations,Mathematical analysis
+Ordinary differential equations,Differential equations
+Partial differential equations,Differential equations
+Differential variational inequalities,Differential equations
+Numerical analysis,Mathematics of computing
+Information theory,Mathematics of computing
+Statistical software,Mathematics of computing
+Mathematical software,Mathematics of computing
+Mathematical software performance,Mathematical software

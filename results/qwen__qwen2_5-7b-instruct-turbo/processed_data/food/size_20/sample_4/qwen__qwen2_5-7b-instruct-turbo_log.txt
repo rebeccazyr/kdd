@@ -1,0 +1,96 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: gemelli; fusilli; pasta; fagottini; cannelloni; occhi di lupo; bavette; pici; food; spaghetti
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+pasta is a subtopic of food; cannelloni is a subtopic of pasta; occhi di lupo is a subtopic of pasta; fagottini is a subtopic of pasta; spaghetti is a subtopic of pasta; fusilli is a subtopic of pasta; bavette is a subtopic of pasta; gemelli is a subtopic of pasta; pici is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: linguine; food; croxetti; sacchettoni; mezzelune; spaghetti; pasta; corzetti; rotini; fuži
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+sacchettoni is a subtopic of pasta; spaghetti is a subtopic of pasta; fuži is a subtopic of pasta; pasta is a subtopic of food; croxetti is a subtopic of pasta; linguine is a subtopic of pasta; rotini is a subtopic of pasta; mezzelune is a subtopic of pasta; corzetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: food; occhi di lupo; corzetti; pasta; mezzelune; bigoli; garganelli; stringozzi; anellini; fuži
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+anellini is a subtopic of pasta; garganelli is a subtopic of pasta; stringozzi is a subtopic of pasta; corzetti is a subtopic of pasta; mezzelune is a subtopic of pasta; bigoli is a subtopic of pasta; pasta is a subtopic of food; fuži is a subtopic of pasta; occhi di lupo is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: lanterne; pasta; ptitim; macaroni; casoncelli; passatelli; rotini; food; spaghetti; campanelle
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+spaghetti is a subtopic of pasta; casoncelli is a subtopic of pasta; passatelli is a subtopic of pasta; pasta is a subtopic of food; rotini is a subtopic of pasta; lanterne is a subtopic of pasta; ptitim is a subtopic of pasta; campanelle is a subtopic of pasta; macaroni is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: spaghetti; penne; sacchettoni; mezzelune; rotelle; rotini; food; ptitim; pasta; stringozzi
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+rotini is a subtopic of pasta; mezzelune is a subtopic of pasta; stringozzi is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food; penne is a subtopic of pasta; ptitim is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: food; soybean oil; marshmallows; fideo; noodle; batter and coating mixes; rice oil; molasses; unflavored gelatine; baking chocolate; baking powder; cooking oil; sesame oil; floss sugar; cooking ingredient; food colouring; seeds; yeast; bread crumbs; corn oil
+Relationships: 
+
+================================================================================
+Number of entities: 20
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+fideo is a subtopic of noodle; noodle is a subtopic of cooking ingredient; floss sugar is a subtopic of cooking ingredient; baking chocolate is a subtopic of cooking ingredient; baking powder is a subtopic of cooking ingredient; cooking oil is a subtopic of cooking ingredient; soybean oil is a subtopic of cooking oil; rice oil is a subtopic of cooking oil; sesame oil is a subtopic of cooking oil; corn oil is a subtopic of cooking oil; marshmallows is a subtopic of cooking ingredient; batter and coating mixes is a subtopic of cooking ingredient; unflavored gelatine is a subtopic of cooking ingredient; food colouring is a subtopic of cooking ingredient; seeds is a subtopic of cooking ingredient; yeast is a subtopic of cooking ingredient; bread crumbs is a subtopic of cooking ingredient; food is a broad category that includes both fideo and marshmallows among other items.
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 17
+
+Parsed relationships:
+  fideo → noodle
+  noodle → cooking ingredient
+  floss sugar → cooking ingredient
+  baking chocolate → cooking ingredient
+  baking powder → cooking ingredient
+  cooking oil → cooking ingredient
+  soybean oil → cooking oil
+  rice oil → cooking oil
+  sesame oil → cooking oil
+  corn oil → cooking oil
+  marshmallows → cooking ingredient
+  batter and coating mixes → cooking ingredient
+  unflavored gelatine → cooking ingredient
+  food colouring → cooking ingredient
+  seeds → cooking ingredient
+  yeast → cooking ingredient
+  bread crumbs → cooking ingredient
+
+================================================================================

@@ -1,0 +1,417 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: fusilli; occhi di lupo; food; fagottini; bavette; spaghetti; pasta; pici; gemelli; cannelloni
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+pici is a subtopic of pasta; pasta is a subtopic of food; fusilli is a subtopic of pasta; spaghetti is a subtopic of pasta; cannelloni is a subtopic of pasta; gemelli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; fagottini is a subtopic of pasta; bavette is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: mezzelune; linguine; food; corzetti; spaghetti; rotini; sacchettoni; croxetti; pasta; fuži
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+croxetti is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food; sacchettoni is a subtopic of pasta; linguine is a subtopic of pasta; rotini is a subtopic of pasta; corzetti is a subtopic of pasta; mezzelune is a subtopic of pasta; fuži is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: anellini; garganelli; occhi di lupo; fuži; stringozzi; food; bigoli; corzetti; pasta; mezzelune
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+bigoli is a subtopic of pasta; corzetti is a subtopic of pasta; pasta is a subtopic of food; mezzelune is a subtopic of pasta; anellini is a subtopic of pasta; occhi di lupo is a subtopic of pasta; stringozzi is a subtopic of pasta; fuži is a subtopic of pasta; garganelli is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: campanelle; ptitim; casoncelli; spaghetti; pasta; lanterne; rotini; macaroni; food; passatelli
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+rotini is a subtopic of pasta; macaroni is a subtopic of pasta; casoncelli is a subtopic of pasta; spaghetti is a subtopic of pasta; passatelli is a subtopic of pasta; pasta is a subtopic of food; campanelle is a subtopic of pasta; lanterne is a subtopic of pasta; ptitim is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: rotelle; stringozzi; food; pasta; spaghetti; rotini; ptitim; sacchettoni; mezzelune; penne
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+sacchettoni is a subtopic of pasta; ptitim is a subtopic of pasta; rotelle is a subtopic of pasta; penne is a subtopic of pasta; rotini is a subtopic of pasta; stringozzi is a subtopic of pasta; mezzelune is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: schnapps; albufera sauce; caruso sauce; fruit-flavoured drinks; pumpkin seeds; cumberland sausage; coconut oil; houmous; celery roots; squashes; cardoon; hogao; grits; debrecener; floss sugar; grape-nuts; soy product; non-dairy frozen dessert; cake and brownie mixes; tart; plums; flour; prepared side dishes; honey bunches of oats; beetroots; halfsies; maple bar; taco shells; jams and preserves; savore sanguino; cornmeal; kumquats; cider; licorice; tkemali; pecel; gypsy tart; artificial sweeteners; pickles and relishes; tinned meat; pork jowl; whisky; chocapic; buckwheat; vector; fennel bulbs; lotus roots; kishka; gummy sweets; pretzel mixes; ogbono nuts; candy bars; marshmallows; hot chocolate; waffle and pancake mixes; milk; kohlwurst; cabanossi; peanut oil; non-alcoholic beer; gobo root; baking powder; sprinkle spangles; macadamia nuts; mala sauce; walnut oil; hemp milk; green sauce; dessert bars; beetroot greens; cröonchy stars; butter and margarine; on choy; worcestershire sauce; seeds; powdered tea; cottage cheese; dates; vodka; sobrassada; boston butt; tomatoes; brési; espagnole sauce; raisin wheats; mujdei; gourds; agrodolce; energy drinks; honey loops; yonezawa beef; manwich; dried fruit; braadworst; dessert toppings; ciavàr; hot sauce; evaporated milk; mushroom gravy; pepper; cooking ingredient; frozen meat; chocolate bars; chimichurri; walnuts; shredded wheat; pork ribs; jelly beans; hard sauce; celery; ciauscolo; corn oil; sugar cane; corn pops; all-bran; coloured sugar; supreme; quetschentaart; pasta sauces; chancaca; geera pork; sushi; regensburger wurst; brazil nuts; gai lan; food colouring; rouille; ginger root; peppers; kohlrabi; cashews; bratwurst; chocolate assortments; liverwurst; dairy product; sausage; jerusalem artichokes; canola oil; cheese spread; marinade; saveloy; boerewors; boiled sweets; flavoured water; ponzu; water chestnuts; pie crusts; paradise nuts; honey smacks; diot; sundae cones; chicory; peach sauce; beans; dried beans; bean pastes; rântaş; peanut sauce; tomato paste; manchester tart; potatoes; kitchen bouquet; pølser; smorz; kale; clackers cereal; ice cream cones; neenish tart; summer sausage; fritelli; canned and jarred vegetable; frankfurter rindswurst; frozen dessert; mortadella; wow-wow sauce; doughnut; quinoa; red-eye gravy; marshmallow sweets; fruit; spinach; cooking spray; candy corn; honey dew donuts; mushrooms; curry ketchup; aubergines; sesame oil; crostata; kola nuts; curry sauce; ryynimakkara; honey; soy sauce; coulis; peanuts; eggnog; brown bobby; olive oil; deli meats; cookie crisp; breton sauce; honey nut clusters; food; salsa; apple butter; cotechino modena; pine nuts; amsterdam ossenworst; velouté sauce; oyster sauce; almond extract; mixed nuts; tamarillos; nantua sauce; kobe beef; salad mixes; shreddies; steak sauce; condensed milk; cracklin' oat bran; donuts; meat patties; sugar pearls; golden nuggets; merguez; lettuce; cruncheroos; meunière sauce; seafood; powdered milk; yeast; product 19; alfalfa sprouts; frozen dinners; chocolate covered nuts; suprême sauce; chestnuts; condiment; corn dog; rhubarb tart; agave syrup; biscuit mixes; lobster sauce; juice; soy nuts; meat; 'nduja; loose tea leaves; sufganiyah; chistorra; sauce vierge; pleşcoi sausages; noodle; landjäger; lincolnshire sausage; romesco; rice; prepared food; pizza sauce; wheatgrass; knipp; sweet potatoes; amaranth; alheira; potatiskorv; fish sauce; morteau sausage; liquor; sesame seeds; onions; dip; tucupi; coffee; corn; soybean oil; aioli; weetabix; cucumbers; brown sauce; artichokes; béchamel sauce; melons; arracachas; olives and capers; shortening and lard; quisp; baking extracts; peanut butter cups; sour cream doughnut; chilli oil; pique verde boricua; cereals; yam; lebanon bologna; mints; nali sauce; vanilla extract; peas; fruit salad; venetian sauce; pumpkins; semifreddo; start; bitters; side dishes; béarnaise sauce; oliebol; cooking wine; coffee creamer; carbonade flamande; horseradish sauce; wheat; pancake and maple syrup; tarte tatin; ahle wurst; barley; bolognese sauce; uncle sam cereal; jagdwurst; non-dairy milk; suckers; baking chocolate; sujuk; bean sprouts; bottled coffee drinks; corn syrup; cervelat; honey garlic sauce; flavoured malt drinks; sweets; satay sauce; babi panggang; fresh seafood; tortillas; andouille; neapolitan ragù; bread pudding mixes; rice oil; fudge; chick peas; dough; rambutans; cooking starch; tapenade; mettwurst; tonic water; breakfast sausage; popsicles; okra; hemp oil; radishes; spice; gelbwurst; jicama; kulen; taffy; liqueurs; albert sauce; pesto; garlic; quince; tianmianjiang; hors d'oeuvres; saucisson; ragù; maya nuts; snow cone syrup; isterband; ready brek; ganache; tuscan cabbage; watercress; moambe; ganjang; vlaai; molasses; unflavored gelatine; buttermilk; rice krispies; vegetable; tempeh; cream; rookworst; fuet; standing rib roast; chocolate covered fruit; bakery; aji; bread crumbs; bok choi; cocktail mixes; rocket; chutney; skilandis; morning funnies; smultring; oats; fruit 'n fibre; ice cream; krakowska; koeksister; frozen seafood; beurre blanc; infusion; mustard; chocolate truffles; prepared sandwiches; mang tomas; beurre noisette; tallow; salt; salvitxada; weckewerk; sour cream; horseradish root; rice wine; fresh meat; rosã© wine; lunch meats; nut butters; almonds; leeks; wine; sorbet; bregenwurst; corn flakes; scott's porage oats; powdered beverage mixes; shredded coconut; andouillette; beef; starter cultures; mamoncillo nuts; complete wheat bran flakes; cream cheese; malangas; fizzy drinks; frozen yoghurt; beer; salad dressings; bordelaise sauce; thuringian sausage; salt pork; french toast crunch; rocky road cereal; tahini; kream krunch; sunflower seeds; cooking oil; mint sauce; somebody's mother's chocolate sauce; hazelnuts; avocados; ciambella; frosted flakes; hot dogs; cumberland sauce; bread sauce; češnovka; carbonated water; moronga; sauce ravigote; sugo all'amatriciana; pie fillings; pork; candy canes; carrots; breakfast sandwiches; fläskkorv; toffee brittle; sauce lyonnaise; vinegar; yoghurt; syrup; pineapple tart; parsley roots; eggs; 100% bran; hidden treasures; pistachios; tartar sauce; cactus leaves; brussels sprouts; sauce; café de paris sauce; baking mixes; ok sauce; chewing gum; water; mahyawa; non-alcoholic wine; breakfast cereal; longaniza; toffee; sauce gribiche; edible baking decoration; scorcolga; beverage; cheese
+Relationships: 
+
+================================================================================
+Number of entities: 500
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Creating a taxonomy from the provided list of concepts involves organizing them into a hierarchical structure. Here's a simplified taxonomy focusing on the main categories:
+
+1. **Food**
+   - **Pasta**
+     - rotelle
+     - stringozzi
+     - mezzelune
+     - penne
+     - rotini
+     - ptitim
+     - sacchettoni
+     - garganelli
+     - casoncelli
+     - campanelle
+   - **Sauces and Condiments**
+     - albufera sauce
+     - caruso sauce
+     - hogao
+     - debrecener
+     - kohwurst
+     - kishka
+     - kola nuts
+     - kobe beef
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+     - kola nuts
+
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

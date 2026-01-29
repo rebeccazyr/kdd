@@ -1,0 +1,418 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: pasta; fagottini; bavette; pici; gemelli; food; occhi di lupo; fusilli; cannelloni; spaghetti
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+gemelli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; fagottini is a subtopic of pasta; bavette is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta; fusilli is a subtopic of pasta; cannelloni is a subtopic of pasta; pici is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: linguine; pasta; corzetti; sacchettoni; food; rotini; fuži; croxetti; spaghetti; mezzelune
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+corzetti is a subtopic of pasta; croxetti is a subtopic of pasta; mezzelune is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta; fuži is a subtopic of pasta; rotini is a subtopic of pasta; linguine is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: fuži; occhi di lupo; mezzelune; garganelli; anellini; corzetti; pasta; stringozzi; food; bigoli
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+stringozzi is a subtopic of pasta; mezzelune is a subtopic of pasta; pasta is a subtopic of food; occhi di lupo is a subtopic of pasta; bigoli is a subtopic of pasta; anellini is a subtopic of pasta; garganelli is a subtopic of pasta; corzetti is a subtopic of pasta; fuži is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: ptitim; macaroni; passatelli; spaghetti; casoncelli; campanelle; food; lanterne; rotini; pasta
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+passatelli is a subtopic of pasta; casoncelli is a subtopic of pasta; campanelle is a subtopic of pasta; lanterne is a subtopic of pasta; spaghetti is a subtopic of pasta; ptitim is a subtopic of pasta; rotini is a subtopic of pasta; macaroni is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: stringozzi; penne; spaghetti; rotelle; food; ptitim; mezzelune; sacchettoni; pasta; rotini
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+rotelle is a subtopic of pasta; stringozzi is a subtopic of pasta; mezzelune is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; rotini is a subtopic of pasta; pasta is a subtopic of food; sacchettoni is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: quince; cheonsachae; hors d'oeuvres; ohaw; egg drop soup; fideo; sugar cane; noodle; dashi; rasam; rice noodles; tacacá; blood soup; borscht; wanko soba; watercress; moambe; southern illinois chowder; caldo de pollo; prepared food; vlaai; duck soup noodles; liver soup; ukha; she-crab soup; pig's organ soup; vegetable; sevai; sushi; hogao; chancaca; dandan noodles; svartsoppa; purée mongole; wheatgrass; cream; imoni; gai lan; konro; brown windsor soup; bakery; hulatang; soy product; peppers; kohlrabi; tart; tomato soup; poppy milk; rose hip soup; black noodles; dairy product; yucca root; bun rieu; gulyásleves; tom yum; mangos; papayas; ice cream; kapusniak; prežganka; mang tomas; arracachas; magiritsa; savore sanguino; frying pan dinners; gumbo; porra antequerana; shirataki noodles; hodge-podge; sour cream; zosui; oil noodles; fish tea; ezogelin soup; mulligatawny; macaroni soup; butajiru; cellophane noodles; pecel; cullen skink; leeks; manchester tart; mints; empal gentong; kitchen bouquet; shchi; instant noodles; french onion soup; styrian sour soup; goulash; lollipops; bún bò huế; kiwis; tourin; mami soup; pumpkins; semifreddo; lung fung soup; dotori guksu; linguettine; butter tart; qingtang wanzi; cucumber soup; frozen dessert; kulajda; miyeok guk; malangas; candy bars; gomguk; tarte tatin; scotch broth; senate bean soup; bakmi; fruit; bouneschlupp; yaki udon; vori vori; lasagnette; soup alla canavese; grapefruits; sour rye soup; henan braised noodle; suckers; okroshka; dragon beard noodles; dessert bars; butter and margarine; aubergines; curry ketchup; persimmons; sopa de mondongo; tripoline; bread sauce; bisque; gazpachuelo; cottage cheese; sour cherry soup; draw soup; minestrone; sinigang; vichyssoise; sugo all'amatriciana; fanesca; suaasat; coffee cakes; bún mắm; carrots; sancocho; sour soup; garak guksu; corn chowder; sweets; sauce lyonnaise; satay sauce; tangerines; spätzle; food; rassolnik; berries; oyster sauce; bermuda fish chowder; dried fruit; rambutans; sauce; loquats; panada; cold borsch; zuppa alla modenese; jook-sing noodles; gumdrops; khao poon; soto ayam; salad mixes; sherbet; solyanka; chewing gum; dessert toppings; ok sauce; mafalde; borage; spice; tinned soup; bread soup; hot dry noodles; lychees; soup; frozen dinners; tom kha kai; korean noodles; jelly beans; beverage; condiment; chinese noodles; rhubarb tart; consommé; coconuts; hard sauce; pesto; kissel; rawon
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to create a taxonomy for you. Here's a list of parent-child relationships:
+
+1. food is a parent of:
+   - prepared food
+   - bakery
+   - vegetable
+   - dairy product
+   - soy product
+   - peppers
+   - kohlrabi
+   - tart
+   - tomato soup
+   - poppy milk
+   - rose hip soup
+   - black noodles
+   - yucca root
+   - bun rieu
+   - gulyásleves
+   - tom yum
+   - mangos
+   - papayas
+   - ice cream
+   - gumbo
+   - porra antequerana
+   - shirataki noodles
+   - hodge-podge
+   - sour cream
+   - zosui
+   - oil noodles
+   - fish tea
+   - ezogelin soup
+   - mulligatawny
+   - macaroni soup
+   - butajiru
+   - cellophane noodles
+   - pecel
+   - cullen skink
+   - leeks
+   - manchester tart
+   - mints
+   - empal gentong
+   - kitchen bouquet
+   - shchi
+   - instant noodles
+   - french onion soup
+   - styrian sour soup
+   - goulash
+   - lollipops
+   - bún bò huế
+   - kiwis
+   - tourin
+   - mami soup
+   - pumpkins
+   - semifreddo
+   - lung fung soup
+   - dotori guksu
+   - linguettine
+   - butter tart
+   - qingtang wanzi
+   - cucumber soup
+   - frozen dessert
+   - kulajda
+   - miyeok guk
+   - malangas
+   - candy bars
+   - gomguk
+   - tarte tatin
+   - scotch broth
+   - senate bean soup
+   - bakmi
+   - fruit
+   - bouneschlupp
+   - yaki udon
+   - vori vori
+   - lasagnette
+   - soup alla canavese
+   - grapefruits
+   - sour rye soup
+   - henan braised noodle
+   - suckers
+   - okroshka
+   - dragon beard noodles
+   - dessert bars
+   - butter and margarine
+   - aubergines
+   - curry ketchup
+   - persimmons
+   - sopa de mondongo
+   - tripoline
+   - bread sauce
+   - bisque
+   - gazpachuelo
+   - cottage cheese
+   - sour cherry soup
+   - draw soup
+   - minestrone
+   - sinigang
+   - vichyssoise
+   - sugo all'amatriciana
+   - fanesca
+   - suaasat
+   - coffee cakes
+   - bún mắm
+   - carrots
+   - sancocho
+   - sour soup
+   - garak guksu
+   - corn chowder
+   - sweets
+   - sauce lyonnaise
+   - satay sauce
+   - tangerines
+   - spätzle
+   - rassolnik
+   - berries
+   - oyster sauce
+   - bermuda fish chowder
+   - dried fruit
+   - rambutans
+   - sauce
+   - loquats
+   - panada
+   - cold borsch
+   - zuppa alla modenese
+   - jook-sing noodles
+   - gumdrops
+   - khao poon
+   - soto ayam
+   - salad mixes
+   - sherbet
+   - solyanka
+   - chewing gum
+   - dessert toppings
+   - ok sauce
+   - mafalde
+   - borage
+   - spice
+   - tinned soup
+   - bread soup
+   - hot dry noodles
+   - lychees
+   - soup
+   - frozen dinners
+   - tom kha kai
+   - korean noodles
+   - jelly beans
+   - beverage
+   - condiment
+   - chinese noodles
+   - rhubarb tart
+   - consommé
+   - coconuts
+   - hard sauce
+   - pesto
+   - kissel
+   - rawon
+
+2. prepared food is a parent of:
+   - hodge-podge
+   - instant noodles
+   - french onion soup
+   - styrian sour soup
+   - goulash
+   - lollipops
+   - bún bò huế
+   - kiwis
+   - tourin
+   - mami soup
+   - pumpkins
+   - semifreddo
+   - lung fung soup
+   - dotori guksu
+   - linguettine
+   - butter tart
+   - qingtang wanzi
+   - cucumber soup
+   - frozen dessert
+   - kulajda
+   - miyeok guk
+   - malangas
+   - candy bars
+   - gomguk
+   - tarte tatin
+   - scotch broth
+   - senate bean soup
+   - bakmi
+   - fruit
+   - bouneschlupp
+   - yaki udon
+   - vori vori
+   - lasagnette
+   - soup alla canavese
+   - grapefruits
+   - sour rye soup
+   - henan braised noodle
+   - suckers
+   - okroshka
+   - dragon beard noodles
+   - dessert bars
+   - butter and margarine
+   - aubergines
+   - curry ketchup
+   - persimmons
+   - sopa de mondongo
+   - tripoline
+   - bread sauce
+   - bisque
+   - gazpachuelo
+   - cottage cheese
+   - sour cherry soup
+   - draw soup
+   - minestrone
+   - sinigang
+   - vichyssoise
+   - sugo all'amatriciana
+   - fanesca
+   - suaasat
+   - coffee cakes
+   - bún mắm
+   - carrots
+   - sancocho
+   - sour soup
+   - garak guksu
+   - corn chowder
+   - sweets
+   - sauce lyonnaise
+   - satay sauce
+   - tangerines
+   - spätzle
+   - rassolnik
+   - berries
+   - oyster sauce
+   - bermuda fish chowder
+   - dried fruit
+   - rambutans
+   - sauce
+   - loquats
+   - panada
+   - cold borsch
+   - zuppa alla modenese
+   - jook-sing noodles
+   - gumdrops
+   - khao poon
+   - soto ayam
+   - salad mixes
+   - sherbet
+   - solyanka
+   - chewing gum
+   - dessert toppings
+   - ok sauce
+   - mafalde
+   - borage
+   - spice
+   - tinned soup
+   - bread soup
+   - hot dry noodles
+   - lychees
+   - soup
+   - frozen dinners
+   - tom kha kai
+   - korean noodles
+   - jelly beans
+   - beverage
+   - condiment
+   - chinese noodles
+   - rhubarb tart
+   - consommé
+   - coconuts
+   - hard sauce
+   - pesto
+   - kissel
+   - rawon
+
+3. bakery is a parent of:
+   - tart
+   - manchester tart
+   - tarte tatin
+   - bread sauce
+   - panada
+   - coffee cakes
+   - butter tart
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+   - semifreddo
+
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

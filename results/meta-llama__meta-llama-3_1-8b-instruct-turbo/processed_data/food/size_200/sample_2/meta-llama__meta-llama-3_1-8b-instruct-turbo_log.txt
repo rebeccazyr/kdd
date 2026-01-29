@@ -1,0 +1,193 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: fagottini; food; occhi di lupo; bavette; pasta; cannelloni; fusilli; pici; gemelli; spaghetti
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+cannelloni is a subtopic of pasta; spaghetti is a subtopic of pasta; bavette is a subtopic of pasta; pici is a subtopic of pasta; fusilli is a subtopic of pasta; pasta is a subtopic of food; occhi di lupo is a subtopic of pasta; gemelli is a subtopic of pasta; fagottini is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: corzetti; croxetti; pasta; food; rotini; fuži; mezzelune; sacchettoni; spaghetti; linguine
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+rotini is a subtopic of pasta; pasta is a subtopic of food; sacchettoni is a subtopic of pasta; corzetti is a subtopic of pasta; fuži is a subtopic of pasta; croxetti is a subtopic of pasta; linguine is a subtopic of pasta; spaghetti is a subtopic of pasta; mezzelune is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: food; occhi di lupo; bigoli; garganelli; anellini; pasta; fuži; corzetti; stringozzi; mezzelune
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+garganelli is a subtopic of pasta; bigoli is a subtopic of pasta; pasta is a subtopic of food; stringozzi is a subtopic of pasta; fuži is a subtopic of pasta; occhi di lupo is a subtopic of pasta; corzetti is a subtopic of pasta; anellini is a subtopic of pasta; mezzelune is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: casoncelli; food; campanelle; lanterne; spaghetti; macaroni; pasta; rotini; passatelli; ptitim
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+lanterne is a subtopic of pasta; ptitim is a subtopic of pasta; passatelli is a subtopic of pasta; rotini is a subtopic of pasta; spaghetti is a subtopic of pasta; casoncelli is a subtopic of pasta; campanelle is a subtopic of pasta; pasta is a subtopic of food; macaroni is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: rotini; rotelle; sacchettoni; stringozzi; mezzelune; spaghetti; pasta; food; ptitim; penne
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+ptitim is a subtopic of pasta; mezzelune is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta; rotelle is a subtopic of pasta; penne is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: quince; tianmianjiang; cheonsachae; salsa golf; sauce vierge; longan; fideo; ragù; noodle; caramels; rice noodles; wanko soba; garlic; pan mee; pasta sauces; chancaca; vegetable; sevai; apples; dandan noodles; pizza sauce; sweet potatoes; vinegar drinks; konro; floss sugar; cherimoyas; shanghai fried noodles; fish sauce; bread crumbs; soy product; non-dairy frozen dessert; starfruits; chocolate assortments; plums; henan braised noodles; dairy product; flour; dip; sugar apples; oranges; coffee; guavas; cantonese seafood soup; papayas; ice cream; sugar; rice vermicelli; chocolate truffles; marinade; boiled sweets; olives and capers; kumquats; ponzu; water chestnuts; soursops; licorice; baking extracts; salvitxada; oil noodles; grapes; rice noodle roll; kesme; silver needle noodles; sundae cones; pique verde boricua; peach sauce; drunken noodles; cellophane noodles; lunch meats; bean pastes; nut butters; rântaş; tomato paste; nali sauce; pickles and relishes; apricots; pomegranates; figs; black soup; chinkiang pot cover noodles; lollipops; atemoyas; kiwis; fruit salad; shredded coconut; goulash; peaches; beef; cream cheese; dotori guksu; linguettine; bitters; frozen dessert; mamey; béarnaise sauce; passion fruit; coffee creamer; candy bars; marshmallows; fizzy drinks; hot chocolate; frozen yoghurt; feijoas; beer; schupfnudel; physalis; pancake and maple syrup; salad dressings; doughnut; madroã±o; marshmallow sweets; fruit; bakmi; bolognese sauce; yaki udon; lasagnette; grapefruits; currants; suckers; henan braised noodle; tahini; bresaola; baking powder; candy corn; honey dew donuts; biscuit mixes; noodle with tomato egg sauce; dragon beard noodles; worcestershire sauce; bean sprouts; persimmons; avocados; hot dogs; dates; hundreds and thousands; soy sauce; pie fillings; eggnog; candy canes; toffee brittle; sweets; garak guksu; satay sauce; babi panggang; vinegar; spätzle; fresh seafood; food; syrup; eggs; dried fruit; rambutans; tartar sauce; shrimp roe noodles; vietnamese noodles; dough; brussels sprouts; loquats; tapenade; tekwan; solyanka; jook-sing noodles; gumdrops; dessert toppings; baking mixes; sherbet; hot sauce; evaporated milk; fruit chews; chewing gum; condensed milk; popsicles; frozen noodles; plumcots; nougat; mahyawa; mafalde; cooking ingredient; chocolate bars; seafood; pears; yeast; hot dry noodles; soup; korean noodles; sapote; taffy; edible baking decoration; katara; mangosteens; chocolate mints; jelly beans; beverage; condiment; chinese noodles; yi mein; prickly pears; coconuts; meat; cheese
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to create a taxonomy for you, but it might be a bit complex. Here's a simplified version:
+
+- food is a top-level concept with many subtopics:
+  - pasta (with many subtopics, including spaghetti, rotini, penne, etc.)
+  - noodle (with many subtopics, including rice noodles, wanko soba, etc.)
+  - sauce (with many subtopics, including pasta sauces, pizza sauce, etc.)
+  - condiment (with many subtopics, including soy sauce, fish sauce, etc.)
+  - cooking ingredient (with many subtopics, including flour, sugar, etc.)
+  - beverage (with many subtopics, including coffee, tea, etc.)
+  - dessert (with many subtopics, including ice cream, candy, etc.)
+  - meat (with many subtopics, including beef, chicken, etc.)
+  - seafood (with many subtopics, including shrimp, fish, etc.)
+  - fruit (with many subtopics, including apples, bananas, etc.)
+  - vegetable (with many subtopics, including carrots, broccoli, etc.)
+  - dairy product (with many subtopics, including milk, cheese, etc.)
+  - non-dairy product (with many subtopics, including soy milk, almond milk, etc.)
+  - baked goods (with many subtopics, including bread, cakes, etc.)
+  - snack (with many subtopics, including chips, popcorn, etc.)
+  - soup (with many subtopics, including tomato soup, chicken soup, etc.)
+  - salad (with many subtopics, including green salad, pasta salad, etc.)
+  - dessert topping (with many subtopics, including whipped cream, chocolate sauce, etc.)
+  - candy (with many subtopics, including chocolate, lollipops, etc.)
+  - gum (with many subtopics, including chewing gum, bubble gum, etc.)
+  - beverage mix (with many subtopics, including fruit juice, soda, etc.)
+  - frozen dessert (with many subtopics, including ice cream, frozen yogurt, etc.)
+  - baked good mix (with many subtopics, including cake mix, cookie mix, etc.)
+  - snack mix (with many subtopics, including trail mix, popcorn mix, etc.)
+  - condiment mix (with many subtopics, including salad dressing, marinade, etc.)
+  - beverage syrup (with many subtopics, including soda syrup, coffee syrup, etc.)
+  - dessert syrup (with many subtopics, including chocolate syrup, caramel syrup, etc.)
+  - candy syrup (with many subtopics, including honey syrup, maple syrup, etc.)
+  - gum syrup (with many subtopics, including bubble gum syrup, etc.)
+  - beverage powder (with many subtopics, including instant coffee, instant tea, etc.)
+  - dessert powder (with many subtopics, including powdered sugar, powdered milk, etc.)
+  - candy powder (with many subtopics, including powdered sugar, powdered milk, etc.)
+  - gum powder (with many subtopics, including powdered gum, etc.)
+  - beverage extract (with many subtopics, including coffee extract, tea extract, etc.)
+  - dessert extract (with many subtopics, including vanilla extract, almond extract, etc.)
+  - candy extract (with many subtopics, including peppermint extract, etc.)
+  - gum extract (with many subtopics, including bubble gum extract, etc.)
+  - beverage oil (with many subtopics, including olive oil, coconut oil, etc.)
+  - dessert oil (with many subtopics, including chocolate oil, etc.)
+  - candy oil (with many subtopics, including peanut oil, etc.)
+  - gum oil (with many subtopics, including bubble gum oil, etc.)
+  - beverage vinegar (with many subtopics, including apple cider vinegar, balsamic vinegar, etc.)
+  - dessert vinegar (with many subtopics, including chocolate vinegar, etc.)
+  - candy vinegar (with many subtopics, including fruit vinegar, etc.)
+  - gum vinegar (with many subtopics, including bubble gum vinegar, etc.)
+  - beverage salt (with many subtopics, including sea salt, kosher salt, etc.)
+  - dessert salt (with many subtopics, including chocolate salt, etc.)
+  - candy salt (with many subtopics, including fruit salt, etc.)
+  - gum salt (with many subtopics, including bubble gum salt, etc.)
+  - beverage spice (with many subtopics, including cinnamon, nutmeg, etc.)
+  - dessert spice (with many subtopics, including cinnamon, nutmeg, etc.)
+  - candy spice (with many subtopics, including cinnamon, nutmeg, etc.)
+  - gum spice (with many subtopics, including bubble gum spice, etc.)
+  - beverage sweetener (with many subtopics, including sugar, honey, etc.)
+  - dessert sweetener (with many subtopics, including sugar, honey, etc.)
+  - candy sweetener (with many subtopics, including sugar, honey, etc.)
+  - gum sweetener (with many subtopics, including bubble gum sweetener, etc.)
+  - beverage flavor (with many subtopics, including fruit flavor, chocolate flavor, etc.)
+  - dessert flavor (with many subtopics, including fruit flavor, chocolate flavor, etc.)
+  - candy flavor (with many subtopics, including fruit flavor, chocolate flavor, etc.)
+  - gum flavor (with many subtopics, including bubble gum flavor, etc.)
+  - beverage color (with many subtopics, including food coloring, etc.)
+  - dessert color (with many subtopics, including food coloring, etc.)
+  - candy color (with many subtopics, including food coloring, etc.)
+  - gum color (with many subtopics, including bubble gum color, etc.)
+  - beverage preservative (with many subtopics, including sodium benzoate, etc.)
+  - dessert preservative (with many subtopics, including sodium benzoate, etc.)
+  - candy preservative (with many subtopics, including sodium benzoate, etc.)
+  - gum preservative (with many subtopics, including bubble gum preservative, etc.)
+  - beverage stabilizer (with many subtopics, including xanthan gum, etc.)
+  - dessert stabilizer (with many subtopics, including xanthan gum, etc.)
+  - candy stabilizer (with many subtopics, including xanthan gum, etc.)
+  - gum stabilizer (with many subtopics, including bubble gum stabilizer, etc.)
+  - beverage thickener (with many subtopics, including cornstarch, etc.)
+  - dessert thickener (with many subtopics, including cornstarch, etc.)
+  - candy thickener (with many subtopics, including cornstarch, etc.)
+  - gum thickener (with many subtopics, including bubble gum thickener, etc.)
+  - beverage emulsifier (with many subtopics, including lecithin, etc.)
+  - dessert emulsifier (with many subtopics, including lecithin, etc.)
+  - candy emulsifier (with many subtopics, including lecithin, etc.)
+  - gum emulsifier (with many subtopics, including bubble gum emulsifier, etc.)
+  - beverage foaming agent (with many subtopics, including whipped cream, etc.)
+  - dessert foaming agent (with many subtopics, including whipped cream, etc.)
+  - candy foaming agent (with many subtopics, including whipped cream, etc.)
+  - gum foaming agent (with many subtopics, including bubble gum foaming agent, etc.)
+  - beverage aerator (with many subtopics, including soda water, etc.)
+  - dessert aerator (with many subtopics, including soda water, etc.)
+  - candy aerator (with many subtopics, including soda water, etc.)
+  - gum aerator (with many subtopics, including bubble gum aerator, etc.)
+  - beverage carbonator (with many subtopics, including sparkling water, etc.)
+  - dessert carbonator (with many subtopics, including sparkling water, etc.)
+  - candy carbonator (with many subtopics, including sparkling water, etc.)
+  - gum carbonator (with many subtopics, including bubble gum carbonator, etc.)
+  - beverage acid (with many subtopics, including citric acid, etc.)
+  - dessert acid (with many subtopics, including citric acid, etc.)
+  - candy acid (with many subtopics, including citric acid, etc.)
+  - gum acid (with many subtopics, including bubble gum acid, etc.)
+  - beverage base (with many subtopics, including milk, cream, etc.)
+  - dessert base (with many subtopics, including milk, cream, etc.)
+  - candy base (with many subtopics, including milk, cream, etc.)
+  - gum base (with many subtopics, including bubble gum base, etc.)
+  - beverage flavor enhancer (with many subtopics, including MSG, etc.)
+  - dessert flavor enhancer (with many subtopics, including MSG, etc.)
+  - candy flavor enhancer (with many subtopics, including MSG, etc.)
+  - gum flavor enhancer (with many subtopics, including bubble gum flavor enhancer, etc.)
+  - beverage sweetener enhancer (with many subtopics, including sugar, honey, etc.)
+  - dessert sweetener enhancer (with many subtopics, including sugar, honey, etc.)
+  - candy sweetener enhancer (with many subtopics, including sugar, honey, etc.)
+  - gum sweetener enhancer (with many subtopics, including bubble gum sweetener enhancer, etc.)
+  - beverage color enhancer (with many subtopics, including food coloring, etc.)
+  - dessert color enhancer (with many subtopics
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 1
+
+Parsed relationships:
+  This is a very long list of concepts and relationships. I'll try to create a taxonomy for you → but it might be a bit complex. Here's a simplified version
+
+================================================================================

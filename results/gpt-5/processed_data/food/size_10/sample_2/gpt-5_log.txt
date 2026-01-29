@@ -1,0 +1,88 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: gemelli; pasta; fagottini; cannelloni; fusilli; spaghetti; pici; bavette; food; occhi di lupo
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+spaghetti is a subtopic of pasta; bavette is a subtopic of pasta; cannelloni is a subtopic of pasta; fagottini is a subtopic of pasta; gemelli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; pasta is a subtopic of food; fusilli is a subtopic of pasta; pici is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: pasta; linguine; food; corzetti; fuži; sacchettoni; rotini; spaghetti; croxetti; mezzelune
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+croxetti is a subtopic of pasta; spaghetti is a subtopic of pasta; mezzelune is a subtopic of pasta; sacchettoni is a subtopic of pasta; rotini is a subtopic of pasta; pasta is a subtopic of food; corzetti is a subtopic of pasta; linguine is a subtopic of pasta; fuži is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: fuži; occhi di lupo; bigoli; stringozzi; corzetti; pasta; garganelli; anellini; food; mezzelune
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+anellini is a subtopic of pasta; fuži is a subtopic of pasta; pasta is a subtopic of food; garganelli is a subtopic of pasta; corzetti is a subtopic of pasta; bigoli is a subtopic of pasta; mezzelune is a subtopic of pasta; stringozzi is a subtopic of pasta; occhi di lupo is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: macaroni; lanterne; food; casoncelli; campanelle; passatelli; spaghetti; rotini; pasta; ptitim
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+lanterne is a subtopic of pasta; rotini is a subtopic of pasta; casoncelli is a subtopic of pasta; passatelli is a subtopic of pasta; macaroni is a subtopic of pasta; campanelle is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: stringozzi; pasta; sacchettoni; rotini; ptitim; spaghetti; rotelle; penne; mezzelune; food
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+stringozzi is a subtopic of pasta; ptitim is a subtopic of pasta; rotelle is a subtopic of pasta; spaghetti is a subtopic of pasta; rotini is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; mezzelune is a subtopic of pasta; penne is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: chikhirtma; food; sour rye soup; talunan; cold borsch; dalithoy; bisque; soup; crème ninon; pottage
+Relationships: 
+
+================================================================================
+Number of entities: 10
+Model: gpt-5
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+chikhirtma is a subtopic of soup; sour rye soup is a subtopic of soup; talunan is a subtopic of soup; cold borsch is a subtopic of soup; dalithoy is a subtopic of soup; bisque is a subtopic of soup; crème ninon is a subtopic of soup; pottage is a subtopic of soup; soup is a subtopic of food
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 9
+
+Parsed relationships:
+  chikhirtma → soup
+  sour rye soup → soup
+  talunan → soup
+  cold borsch → soup
+  dalithoy → soup
+  bisque → soup
+  crème ninon → soup
+  pottage → soup
+  soup → food
+
+================================================================================

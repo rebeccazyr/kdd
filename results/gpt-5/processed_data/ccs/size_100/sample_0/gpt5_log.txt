@@ -1,0 +1,178 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Single instruction, multiple data; Embedded systems; Computer systems organization; Embedded and cyber-physical systems; Parallel architectures; Computing Classification System; Real-time systems; Architectures; Multiple instruction, single data; Systolic arrays
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Single instruction, multiple data is a subtopic of Parallel architectures; Embedded systems is a subtopic of Embedded and cyber-physical systems; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Systolic arrays is a subtopic of Parallel architectures; Parallel architectures is a subtopic of Architectures; Multiple instruction, single data is a subtopic of Parallel architectures; Real-time systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Real-time languages; Real-time systems; Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems; Architectures; Computing Classification System; Fault-tolerant network topologies; Maintainability and maintenance; Computer systems organization; Processors and memory architectures
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Real-time systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Dependable and fault-tolerant systems and networks; Architectures; Serial architectures; Computer systems organization; Parallel architectures; Maintainability and maintenance; Computing Classification System; Embedded and cyber-physical systems; Interconnection architectures; Pipeline computing
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Interconnection architectures is a subtopic of Parallel architectures; Pipeline computing is a subtopic of Serial architectures; Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System; Parallel architectures is a subtopic of Architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Quantum computing; Real-time languages; Real-time systems; Computer systems organization; Architectures; Optical computing; Computing Classification System; Real-time system specification; Other architectures
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Real-time languages is a subtopic of Real-time systems; Other architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Real-time systems is a subtopic of Computer systems organization; Optical computing is a subtopic of Other architectures; Quantum computing is a subtopic of Other architectures; Architectures is a subtopic of Computer systems organization; Real-time system specification is a subtopic of Real-time systems
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Real-time system architecture; Dependable and fault-tolerant systems and networks; Computing Classification System; Serial architectures; Embedded and cyber-physical systems; Computer systems organization; Processors and memory architectures; Distributed architectures; Architectures; Real-time systems
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Computer systems organization is a subtopic of Computing Classification System; Architectures is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Distributed architectures is a subtopic of Architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Real-time system architecture is a subtopic of Real-time systems
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Mathematical software; Telecommunications; Decision analysis; Student assessment; Computing industry; Physical links; Human-centered computing; Astronomy; General and reference; Operations research; Machine learning; Visualization application domains; Security and privacy; Network privacy and anonymity; Computer forensics; Imaging; Image manipulation; Applied computing; End nodes; Physical sciences and engineering; Metabolomics / metabonomics; Arts and humanities; Network range; Network adapters; Graphics systems and interfaces; Accessibility; Marketing; Evidence collection, storage and analysis; Differential equations; Presentation protocols; Education; Mathematical analysis; Statistical software; Cross-computing tools and techniques; Functional analysis; Fine arts; Mathematics and statistics; Transportation; Concurrent computing methodologies; Network design principles; Archaeology; Metropolitan area networks; Network protocols; Partial differential equations; Computing education; Differential variational inequalities; Wide area networks; Signaling protocols; Network components; Socio-technical systems; Computing and business; Layering; Short-range networks; Information theory; Life and medical sciences; Computing Classification System; Antialiasing; Social and professional topics; Routing protocols; Informal education; Network architectures; Media arts; Embedded systems security; Networks; Aerospace; Network reliability; Texturing; Earth and atmospheric sciences; Health care information systems; Computing methodologies; Sound and music computing; Network properties; Network dynamics; Wired access networks; Mobile networks; Human computer interaction (HCI); Visualization; Performing arts; Forecasting; Network forensics; Software security engineering; Computer graphics; Architecture (buildings); Computational biology; Software and application security; Visualization systems and tools; Learning paradigms; Shape modeling; Network layer protocols; Chemistry; Professional topics; Mathematics of computing; Parallel computing methodologies; Ordinary differential equations; Mathematical software performance; Security in hardware; Numerical analysis; Multi-task learning; Link-layer protocols; Network types
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: gpt-5
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+General and reference is a subtopic of Computing Classification System; Applied computing is a subtopic of Computing Classification System; Human-centered computing is a subtopic of Computing Classification System; Networks is a subtopic of Computing Classification System; Security and privacy is a subtopic of Computing Classification System; Computing methodologies is a subtopic of Computing Classification System; Mathematics of computing is a subtopic of Computing Classification System; Social and professional topics is a subtopic of Computing Classification System; Professional topics is a subtopic of Social and professional topics; Computing education is a subtopic of Social and professional topics; Computing industry is a subtopic of Professional topics; Student assessment is a subtopic of Computing education; Cross-computing tools and techniques is a subtopic of General and reference; Physical sciences and engineering is a subtopic of Applied computing; Life and medical sciences is a subtopic of Applied computing; Arts and humanities is a subtopic of Applied computing; Computing and business is a subtopic of Applied computing; Education is a subtopic of Applied computing; Operations research is a subtopic of Applied computing; Architecture (buildings) is a subtopic of Physical sciences and engineering; Aerospace is a subtopic of Physical sciences and engineering; Transportation is a subtopic of Physical sciences and engineering; Astronomy is a subtopic of Physical sciences and engineering; Chemistry is a subtopic of Physical sciences and engineering; Earth and atmospheric sciences is a subtopic of Physical sciences and engineering; Health care information systems is a subtopic of Life and medical sciences; Computational biology is a subtopic of Life and medical sciences; Metabolomics / metabonomics is a subtopic of Computational biology; Media arts is a subtopic of Arts and humanities; Fine arts is a subtopic of Arts and humanities; Performing arts is a subtopic of Arts and humanities; Archaeology is a subtopic of Arts and humanities; Sound and music computing is a subtopic of Media arts; Marketing is a subtopic of Computing and business; Informal education is a subtopic of Education; Decision analysis is a subtopic of Operations research; Forecasting is a subtopic of Operations research; Network architectures is a subtopic of Networks; Network protocols is a subtopic of Networks; Network components is a subtopic of Networks; Network design principles is a subtopic of Networks; Network properties is a subtopic of Networks; Network dynamics is a subtopic of Network properties; Network reliability is a subtopic of Network properties; Network range is a subtopic of Network properties; Network types is a subtopic of Networks; Wired access networks is a subtopic of Network types; Mobile networks is a subtopic of Network types; Metropolitan area networks is a subtopic of Network types; Wide area networks is a subtopic of Network types; Short-range networks is a subtopic of Network types; Layering is a subtopic of Network architectures; Link-layer protocols is a subtopic of Network protocols; Network layer protocols is a subtopic of Network protocols; Routing protocols is a subtopic of Network protocols; Signaling protocols is a subtopic of Network protocols; Presentation protocols is a subtopic of Network protocols; Physical links is a subtopic of Network components; Network adapters is a subtopic of Network components; End nodes is a subtopic of Network components; Telecommunications is a subtopic of Networks; Software and application security is a subtopic of Security and privacy; Software security engineering is a subtopic of Software and application security; Security in hardware is a subtopic of Security and privacy; Embedded systems security is a subtopic of Security and privacy; Computer forensics is a subtopic of Security and privacy; Evidence collection, storage and analysis is a subtopic of Computer forensics; Network forensics is a subtopic of Computer forensics; Network privacy and anonymity is a subtopic of Security and privacy; Human computer interaction (HCI) is a subtopic of Human-centered computing; Accessibility is a subtopic of Human-centered computing; Socio-technical systems is a subtopic of Human-centered computing; Visualization is a subtopic of Human-centered computing; Visualization systems and tools is a subtopic of Visualization; Visualization application domains is a subtopic of Visualization; Machine learning is a subtopic of Computing methodologies; Learning paradigms is a subtopic of Machine learning; Multi-task learning is a subtopic of Learning paradigms; Parallel computing methodologies is a subtopic of Computing methodologies; Concurrent computing methodologies is a subtopic of Computing methodologies; Computer graphics is a subtopic of Computing methodologies; Graphics systems and interfaces is a subtopic of Computer graphics; Imaging is a subtopic of Computer graphics; Image manipulation is a subtopic of Imaging; Shape modeling is a subtopic of Computer graphics; Antialiasing is a subtopic of Computer graphics; Texturing is a subtopic of Computer graphics; Mathematics and statistics is a subtopic of Mathematics of computing; Mathematical analysis is a subtopic of Mathematics and statistics; Functional analysis is a subtopic of Mathematical analysis; Differential equations is a subtopic of Mathematical analysis; Ordinary differential equations is a subtopic of Differential equations; Partial differential equations is a subtopic of Differential equations; Differential variational inequalities is a subtopic of Differential equations; Numerical analysis is a subtopic of Mathematics of computing; Information theory is a subtopic of Mathematics of computing; Statistical software is a subtopic of Mathematics of computing; Mathematical software is a subtopic of Mathematics of computing; Mathematical software performance is a subtopic of Mathematical software
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 99
+
+Parsed relationships:
+  General and reference → Computing Classification System
+  Applied computing → Computing Classification System
+  Human-centered computing → Computing Classification System
+  Networks → Computing Classification System
+  Security and privacy → Computing Classification System
+  Computing methodologies → Computing Classification System
+  Mathematics of computing → Computing Classification System
+  Social and professional topics → Computing Classification System
+  Professional topics → Social and professional topics
+  Computing education → Social and professional topics
+  Computing industry → Professional topics
+  Student assessment → Computing education
+  Cross-computing tools and techniques → General and reference
+  Physical sciences and engineering → Applied computing
+  Life and medical sciences → Applied computing
+  Arts and humanities → Applied computing
+  Computing and business → Applied computing
+  Education → Applied computing
+  Operations research → Applied computing
+  Architecture (buildings) → Physical sciences and engineering
+  Aerospace → Physical sciences and engineering
+  Transportation → Physical sciences and engineering
+  Astronomy → Physical sciences and engineering
+  Chemistry → Physical sciences and engineering
+  Earth and atmospheric sciences → Physical sciences and engineering
+  Health care information systems → Life and medical sciences
+  Computational biology → Life and medical sciences
+  Metabolomics / metabonomics → Computational biology
+  Media arts → Arts and humanities
+  Fine arts → Arts and humanities
+  Performing arts → Arts and humanities
+  Archaeology → Arts and humanities
+  Sound and music computing → Media arts
+  Marketing → Computing and business
+  Informal education → Education
+  Decision analysis → Operations research
+  Forecasting → Operations research
+  Network architectures → Networks
+  Network protocols → Networks
+  Network components → Networks
+  Network design principles → Networks
+  Network properties → Networks
+  Network dynamics → Network properties
+  Network reliability → Network properties
+  Network range → Network properties
+  Network types → Networks
+  Wired access networks → Network types
+  Mobile networks → Network types
+  Metropolitan area networks → Network types
+  Wide area networks → Network types
+  Short-range networks → Network types
+  Layering → Network architectures
+  Link-layer protocols → Network protocols
+  Network layer protocols → Network protocols
+  Routing protocols → Network protocols
+  Signaling protocols → Network protocols
+  Presentation protocols → Network protocols
+  Physical links → Network components
+  Network adapters → Network components
+  End nodes → Network components
+  Telecommunications → Networks
+  Software and application security → Security and privacy
+  Software security engineering → Software and application security
+  Security in hardware → Security and privacy
+  Embedded systems security → Security and privacy
+  Computer forensics → Security and privacy
+  Evidence collection, storage and analysis → Computer forensics
+  Network forensics → Computer forensics
+  Network privacy and anonymity → Security and privacy
+  Human computer interaction (HCI) → Human-centered computing
+  Accessibility → Human-centered computing
+  Socio-technical systems → Human-centered computing
+  Visualization → Human-centered computing
+  Visualization systems and tools → Visualization
+  Visualization application domains → Visualization
+  Machine learning → Computing methodologies
+  Learning paradigms → Machine learning
+  Multi-task learning → Learning paradigms
+  Parallel computing methodologies → Computing methodologies
+  Concurrent computing methodologies → Computing methodologies
+  Computer graphics → Computing methodologies
+  Graphics systems and interfaces → Computer graphics
+  Imaging → Computer graphics
+  Image manipulation → Imaging
+  Shape modeling → Computer graphics
+  Antialiasing → Computer graphics
+  Texturing → Computer graphics
+  Mathematics and statistics → Mathematics of computing
+  Mathematical analysis → Mathematics and statistics
+  Functional analysis → Mathematical analysis
+  Differential equations → Mathematical analysis
+  Ordinary differential equations → Differential equations
+  Partial differential equations → Differential equations
+  Differential variational inequalities → Differential equations
+  Numerical analysis → Mathematics of computing
+  Information theory → Mathematics of computing
+  Statistical software → Mathematics of computing
+  Mathematical software → Mathematics of computing
+  Mathematical software performance → Mathematical software
+
+================================================================================

@@ -1,0 +1,232 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Real-time systems; Computer systems organization; Parallel architectures; Architectures; Single instruction, multiple data; Computing Classification System; Systolic arrays; Multiple instruction, single data; Embedded and cyber-physical systems; Embedded systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Multiple instruction, single data is a subtopic of Parallel architectures; Real-time systems is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Systolic arrays is a subtopic of Parallel architectures; Embedded systems is a subtopic of Embedded and cyber-physical systems; Single instruction, multiple data is a subtopic of Parallel architectures
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Computing Classification System; Processors and memory architectures; Real-time languages; Dependable and fault-tolerant systems and networks; Real-time systems; Embedded and cyber-physical systems; Computer systems organization; Maintainability and maintenance; Architectures; Fault-tolerant network topologies
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Real-time languages is a subtopic of Real-time systems; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Maintainability and maintenance; Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems; Interconnection architectures; Serial architectures; Pipeline computing; Computing Classification System; Computer systems organization; Architectures; Parallel architectures
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Pipeline computing is a subtopic of Serial architectures; Architectures is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures; Interconnection architectures is a subtopic of Parallel architectures; Serial architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Real-time languages; Other architectures; Computer systems organization; Architectures; Optical computing; Computing Classification System; Real-time systems; Embedded and cyber-physical systems; Quantum computing; Real-time system specification
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Computer systems organization is a subtopic of Computing Classification System; Quantum computing is a subtopic of Other architectures; Architectures is a subtopic of Computer systems organization; Other architectures is a subtopic of Architectures; Real-time languages is a subtopic of Real-time systems; Real-time systems is a subtopic of Computer systems organization; Optical computing is a subtopic of Other architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time system specification is a subtopic of Real-time systems
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Real-time system architecture; Architectures; Computer systems organization; Processors and memory architectures; Distributed architectures; Serial architectures; Real-time systems; Computing Classification System; Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Real-time system architecture is a subtopic of Real-time systems; Distributed architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: VLSI packaging; Search engine indexing; Continuous mathematics; Economics of chip design and manufacturing; Thermal issues; Statistical graphics; Network algorithms; Standard cell libraries; Human-centered computing; Identity theft; General and reference; Integrated circuits; Security and privacy; Fault tolerance; Dictionaries; Censorship; Collaborative search; Applied computing; Equational models; Temperature monitoring; Physical sciences and engineering; Arts and humanities; Distribution functions; Resampling methods; Accessibility; Malware / spyware crime; Software creation and management; Document collection models; Hardware; Design reuse and communication-based design; Empirical studies in collaborative and social computing; Pornography; Task models; Education; Temperature control; Power and energy; Document representation; Collaborative and social computing; Software notations and tools; Contingency table analysis; Search engine architectures and scalability; Intrusion/anomaly detection and malware mitigation; Continuous functions; Users and interactive retrieval; Information systems; On-chip resource management; Full-custom circuits; Offshoring; Probabilistic representations; Systems security; Accessibility theory, concepts and paradigms; Software and its engineering; Queueing theory; Interconnect; Computing and business; Input / output styles; Printed circuit boards; Information theory; Computer crime; Accessibility systems and tools; Computing Classification System; Information retrieval; Specialized information retrieval; Statistical paradigms; Social and professional topics; Probabilistic algorithms; Networks; Designing software; Retrieval efficiency; Test collections; Search-based software engineering; Biographies; Probabilistic reasoning algorithms; Sound and music computing; Surveillance; Content analysis and feature selection; Document types; Retrieval models and ranking; Time series analysis; Collaborative and social computing theory, concepts and paradigms; PCB design and layout; Variable elimination; Robustness; Cryptography; Retrieval effectiveness; Computing / technology policy; Professional topics; Mathematics of computing; Accessibility technologies; Nonparametric statistics; Development frameworks and environments; Probability and statistics; Surveys and overviews; Very large scale integration design; Hate speech; Evaluation of retrieval results; Ontologies; Reengineering; Network access control; Requirements analysis
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to break it down into a taxonomy. Here are the relationships:
+
+1. Computing Classification System is a parent of:
+   - General and reference
+   - Applied computing
+   - Arts and humanities
+   - Physical sciences and engineering
+   - Social and professional topics
+
+2. General and reference is a parent of:
+   - Dictionaries
+   - Biographies
+
+3. Applied computing is a parent of:
+   - Software creation and management
+   - Software and its engineering
+   - Designing software
+   - Development frameworks and environments
+   - Reengineering
+   - Requirements analysis
+
+4. Arts and humanities is a parent of:
+   - Sound and music computing
+   - Content analysis and feature selection
+
+5. Physical sciences and engineering is a parent of:
+   - VLSI packaging
+   - Thermal issues
+   - Temperature monitoring
+   - Temperature control
+   - Power and energy
+   - Printed circuit boards
+   - PCB design and layout
+   - Very large scale integration design
+   - Interconnect
+
+6. Social and professional topics is a parent of:
+   - Human-centered computing
+   - Identity theft
+   - Malware / spyware crime
+   - Censorship
+   - Pornography
+   - Hate speech
+   - Surveillance
+   - Computer crime
+   - Computing / technology policy
+   - Professional topics
+
+7. Information systems is a parent of:
+   - Information theory
+   - Information retrieval
+   - Specialized information retrieval
+   - Retrieval models and ranking
+   - Retrieval effectiveness
+   - Evaluation of retrieval results
+   - Ontologies
+
+8. Collaborative and social computing is a parent of:
+   - Collaborative search
+   - Collaborative and social computing theory, concepts and paradigms
+   - Empirical studies in collaborative and social computing
+
+9. Accessibility is a parent of:
+   - Accessibility theory, concepts and paradigms
+   - Accessibility systems and tools
+   - Accessibility technologies
+
+10. Security and privacy is a parent of:
+    - Security
+    - Intrusion/anomaly detection and malware mitigation
+    - Cryptography
+    - Network access control
+
+11. Hardware is a parent of:
+    - Integrated circuits
+    - Standard cell libraries
+    - Full-custom circuits
+    - On-chip resource management
+
+12. Software is a parent of:
+    - Software creation and management
+    - Software and its engineering
+    - Designing software
+    - Development frameworks and environments
+    - Reengineering
+    - Requirements analysis
+
+13. Mathematics of computing is a parent of:
+    - Continuous mathematics
+    - Equational models
+    - Continuous functions
+    - Distribution functions
+    - Probabilistic representations
+    - Probabilistic algorithms
+    - Probabilistic reasoning algorithms
+    - Nonparametric statistics
+    - Time series analysis
+
+14. Statistics is a parent of:
+    - Statistical paradigms
+    - Statistical graphics
+    - Resampling methods
+    - Queueing theory
+
+15. Computer systems is a parent of:
+    - Computer systems organization
+    - Processors and memory architectures
+    - Distributed architectures
+    - Real-time system architecture
+    - Real-time systems
+    - Embedded and cyber-physical systems
+    - Dependable and fault-tolerant systems and networks
+
+16. Computer networks is a parent of:
+    - Networks
+    - Network algorithms
+    - Network access control
+
+17. Computing and business is a parent of:
+    - Computing / technology policy
+    - Economics of chip design and manufacturing
+    - Offshoring
+
+18. Search engines is a parent of:
+    - Search engine indexing
+    - Search engine architectures and scalability
+    - Retrieval efficiency
+    - Test collections
+    - Search-based software engineering
+
+19. Human-computer interaction is a parent of:
+    - Human-centered computing
+    - Users and interactive retrieval
+    - Input / output styles
+
+20. Software engineering is a parent of:
+    - Software creation and management
+    - Software and its engineering
+    - Designing software
+    - Development frameworks and environments
+    - Reengineering
+    - Requirements analysis
+
+21. Computer science is a parent of:
+    - Mathematics of computing
+    - Computer systems
+    - Computer networks
+    - Computing and business
+    - Search engines
+    - Human-computer interaction
+    - Software engineering
+
+22. Computing Classification System is a parent of:
+    - Computer science
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

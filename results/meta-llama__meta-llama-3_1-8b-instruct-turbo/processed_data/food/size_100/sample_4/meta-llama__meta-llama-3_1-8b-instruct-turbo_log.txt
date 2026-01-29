@@ -1,0 +1,292 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: pici; cannelloni; occhi di lupo; pasta; fusilli; fagottini; gemelli; food; spaghetti; bavette
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+gemelli is a subtopic of pasta; fagottini is a subtopic of pasta; occhi di lupo is a subtopic of pasta; fusilli is a subtopic of pasta; spaghetti is a subtopic of pasta; cannelloni is a subtopic of pasta; pasta is a subtopic of food; bavette is a subtopic of pasta; pici is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: spaghetti; sacchettoni; rotini; fuži; croxetti; corzetti; linguine; pasta; mezzelune; food
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+fuži is a subtopic of pasta; linguine is a subtopic of pasta; rotini is a subtopic of pasta; corzetti is a subtopic of pasta; mezzelune is a subtopic of pasta; croxetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: corzetti; fuži; bigoli; mezzelune; garganelli; stringozzi; occhi di lupo; food; anellini; pasta
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+mezzelune is a subtopic of pasta; corzetti is a subtopic of pasta; bigoli is a subtopic of pasta; pasta is a subtopic of food; stringozzi is a subtopic of pasta; anellini is a subtopic of pasta; occhi di lupo is a subtopic of pasta; fuži is a subtopic of pasta; garganelli is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: food; pasta; lanterne; rotini; casoncelli; campanelle; passatelli; spaghetti; macaroni; ptitim
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+passatelli is a subtopic of pasta; casoncelli is a subtopic of pasta; lanterne is a subtopic of pasta; campanelle is a subtopic of pasta; pasta is a subtopic of food; macaroni is a subtopic of pasta; ptitim is a subtopic of pasta; rotini is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: mezzelune; sacchettoni; rotini; pasta; spaghetti; food; rotelle; penne; stringozzi; ptitim
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+penne is a subtopic of pasta; stringozzi is a subtopic of pasta; ptitim is a subtopic of pasta; mezzelune is a subtopic of pasta; rotelle is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; rotini is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: chistorra; cheonsachae; ontbijtkoek; fideo; likëngë; noodle; vlaai; prepared food; siskonmakkara; cake; sushi; eccles cake; upside-down cake; alheira; tamarind; morteau sausage; chocolate covered fruit; bakery; liquor; soy product; oxford sausage; bratwurst; tart; dairy product; dip; butter cake; torta caprese; oranges; nădlac sausages; sausage; game cake; chocolate truffles; meat; bánh bó; savory; caramel tart; meatcake; licorice; babacos; weckewerk; sour cream; fresh meat; lane cake; tofu; mints; lollipops; stonner kebab; ice cream cones; trdelník; gummy sweets; side dishes; mamey; passion fruit; candy bars; feijoas; ahle wurst; fruit; kek lapis sarawak; pastries; torta alla monferrina; butter and margarine; persimmons; metworst; ryynimakkara; eggnog; sorrel; candy canes; deli meats; kinnathappam; toffee brittle; sweets; garak guksu; herb; chocolate cake; food; cotechino modena; st. honoré cake; pastiera; rambutans; shrimp roe noodles; wacky cake; breakfast sausage; sage; heavy cake; merguez; chipa guasu; chocolate bars; spice; toffee; pain d'épices; sapodillo; taffy; mangosteens; fruit cake; jelly beans; beverage; chiffon cake; torta tre monti; frankfurter würstchen; esterházy torte
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here's the taxonomy of the given concepts:
+
+1. fruit cake is a subtopic of cake; cake is a subtopic of bakery; bakery is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of beverage; beverage is a subtopic of liquor; liquor is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of dairy product; dairy product is a subtopic of butter and margarine; butter and margarine is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of meat; meat is a subtopic of sausage; sausage is a subtopic of deli meats; deli meats is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of savory; savory is a subtopic of side dishes; side dishes is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of sweet; sweet is a subtopic of candy bars; candy bars is a subtopic of sweets; sweets is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of fruit; fruit is a subtopic of persimmons; persimmons is a subtopic of mamey; mamey is a subtopic of passion fruit; passion fruit is a subtopic of feijoas; feijoas is a subtopic of rambutans; rambutans is a subtopic of mangosteens; mangosteens is a subtopic of sapodillo; sapodillo is a subtopic of fruit; fruit is a subtopic of fruit cake; fruit cake is a subtopic of cake; cake is a subtopic of bakery; bakery is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of beverage; beverage is a subtopic of liquor; liquor is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of dairy product; dairy product is a subtopic of butter and margarine; butter and margarine is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of meat; meat is a subtopic of sausage; sausage is a subtopic of deli meats; deli meats is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of savory; savory is a subtopic of side dishes; side dishes is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of sweet; sweet is a subtopic of candy bars; candy bars is a subtopic of sweets; sweets is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of fruit; fruit is a subtopic of persimmons; persimmons is a subtopic of mamey; mamey is a subtopic of passion fruit; passion fruit is a subtopic of feijoas; feijoas is a subtopic of rambutans; rambutans is a subtopic of mangosteens; mangosteens is a subtopic of sapodillo; sapodillo is a subtopic of fruit; fruit is a subtopic of fruit cake; fruit cake is a subtopic of cake; cake is a subtopic of bakery; bakery is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of beverage; beverage is a subtopic of liquor; liquor is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of dairy product; dairy product is a subtopic of butter and margarine; butter and margarine is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of meat; meat is a subtopic of sausage; sausage is a subtopic of deli meats; deli meats is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of savory; savory is a subtopic of side dishes; side dishes is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of sweet; sweet is a subtopic of candy bars; candy bars is a subtopic of sweets; sweets is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of fruit; fruit is a subtopic of persimmons; persimmons is a subtopic of mamey; mamey is a subtopic of passion fruit; passion fruit is a subtopic of feijoas; feijoas is a subtopic of rambutans; rambutans is a subtopic of mangosteens; mangosteens is a subtopic of sapodillo; sapodillo is a subtopic of fruit; fruit is a subtopic of fruit cake; fruit cake is a subtopic of cake; cake is a subtopic of bakery; bakery is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of beverage; beverage is a subtopic of liquor; liquor is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of dairy product; dairy product is a subtopic of butter and margarine; butter and margarine is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of meat; meat is a subtopic of sausage; sausage is a subtopic of deli meats; deli meats is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of savory; savory is a subtopic of side dishes; side dishes is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of sweet; sweet is a subtopic of candy bars; candy bars is a subtopic of sweets; sweets is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of fruit; fruit is a subtopic of persimmons; persimmons is a subtopic of mamey; mamey is a subtopic of passion fruit; passion fruit is a subtopic of feijoas; feijoas is a subtopic of rambutans; rambutans is a subtopic of mangosteens; mangosteens is a subtopic of sapodillo; sapodillo is a subtopic of fruit; fruit is a subtopic of fruit cake; fruit cake is a subtopic of cake; cake is a subtopic of bakery; bakery is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of beverage; beverage is a subtopic of liquor; liquor is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of dairy product; dairy product is a subtopic of butter and margarine; butter and margarine is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of meat; meat is a subtopic of sausage; sausage is a subtopic of deli meats; deli meats is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of savory; savory is a subtopic of side dishes; side dishes is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of sweet; sweet is a subtopic of candy bars; candy bars is a subtopic of sweets; sweets is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of fruit; fruit is a subtopic of persimmons; persimmons is a subtopic of mamey; mamey is a subtopic of passion fruit; passion fruit is a subtopic of feijoas; feijoas is a subtopic of rambutans; rambutans is a subtopic of mangosteens; mangosteens is a subtopic of sapodillo; sapodillo is a subtopic of fruit; fruit is a subtopic of fruit cake; fruit cake is a subtopic of cake; cake is a subtopic of bakery; bakery is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of beverage; beverage is a subtopic of liquor; liquor is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of dairy product; dairy product is a subtopic of butter and margarine; butter and margarine is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of meat; meat is a subtopic of sausage; sausage is a subtopic of deli meats; deli meats is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of savory; savory is a subtopic of side dishes; side dishes is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of sweet; sweet is a subtopic of candy bars; candy bars is a subtopic of sweets; sweets is a subtopic of prepared food; prepared food is a subtopic of food; food is a subtopic of fruit; fruit is a subtopic of persimmons; persimmons is a subtopic of mamey; mamey is a subtopic of passion fruit; passion fruit is a subtopic of feijoas; feijoas is a subtopic of rambutans; rambutans is
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 211
+
+Parsed relationships:
+  cake → bakery
+  bakery → prepared food
+  prepared food → food
+  food → beverage
+  beverage → liquor
+  liquor → prepared food
+  prepared food → food
+  food → dairy product
+  dairy product → butter and margarine
+  butter and margarine → prepared food
+  prepared food → food
+  food → meat
+  meat → sausage
+  sausage → deli meats
+  deli meats → prepared food
+  prepared food → food
+  food → savory
+  savory → side dishes
+  side dishes → prepared food
+  prepared food → food
+  food → sweet
+  sweet → candy bars
+  candy bars → sweets
+  sweets → prepared food
+  prepared food → food
+  food → fruit
+  fruit → persimmons
+  persimmons → mamey
+  mamey → passion fruit
+  passion fruit → feijoas
+  feijoas → rambutans
+  rambutans → mangosteens
+  mangosteens → sapodillo
+  sapodillo → fruit
+  fruit → fruit cake
+  fruit cake → cake
+  cake → bakery
+  bakery → prepared food
+  prepared food → food
+  food → beverage
+  beverage → liquor
+  liquor → prepared food
+  prepared food → food
+  food → dairy product
+  dairy product → butter and margarine
+  butter and margarine → prepared food
+  prepared food → food
+  food → meat
+  meat → sausage
+  sausage → deli meats
+  deli meats → prepared food
+  prepared food → food
+  food → savory
+  savory → side dishes
+  side dishes → prepared food
+  prepared food → food
+  food → sweet
+  sweet → candy bars
+  candy bars → sweets
+  sweets → prepared food
+  prepared food → food
+  food → fruit
+  fruit → persimmons
+  persimmons → mamey
+  mamey → passion fruit
+  passion fruit → feijoas
+  feijoas → rambutans
+  rambutans → mangosteens
+  mangosteens → sapodillo
+  sapodillo → fruit
+  fruit → fruit cake
+  fruit cake → cake
+  cake → bakery
+  bakery → prepared food
+  prepared food → food
+  food → beverage
+  beverage → liquor
+  liquor → prepared food
+  prepared food → food
+  food → dairy product
+  dairy product → butter and margarine
+  butter and margarine → prepared food
+  prepared food → food
+  food → meat
+  meat → sausage
+  sausage → deli meats
+  deli meats → prepared food
+  prepared food → food
+  food → savory
+  savory → side dishes
+  side dishes → prepared food
+  prepared food → food
+  food → sweet
+  sweet → candy bars
+  candy bars → sweets
+  sweets → prepared food
+  prepared food → food
+  food → fruit
+  fruit → persimmons
+  persimmons → mamey
+  mamey → passion fruit
+  passion fruit → feijoas
+  feijoas → rambutans
+  rambutans → mangosteens
+  mangosteens → sapodillo
+  sapodillo → fruit
+  fruit → fruit cake
+  fruit cake → cake
+  cake → bakery
+  bakery → prepared food
+  prepared food → food
+  food → beverage
+  beverage → liquor
+  liquor → prepared food
+  prepared food → food
+  food → dairy product
+  dairy product → butter and margarine
+  butter and margarine → prepared food
+  prepared food → food
+  food → meat
+  meat → sausage
+  sausage → deli meats
+  deli meats → prepared food
+  prepared food → food
+  food → savory
+  savory → side dishes
+  side dishes → prepared food
+  prepared food → food
+  food → sweet
+  sweet → candy bars
+  candy bars → sweets
+  sweets → prepared food
+  prepared food → food
+  food → fruit
+  fruit → persimmons
+  persimmons → mamey
+  mamey → passion fruit
+  passion fruit → feijoas
+  feijoas → rambutans
+  rambutans → mangosteens
+  mangosteens → sapodillo
+  sapodillo → fruit
+  fruit → fruit cake
+  fruit cake → cake
+  cake → bakery
+  bakery → prepared food
+  prepared food → food
+  food → beverage
+  beverage → liquor
+  liquor → prepared food
+  prepared food → food
+  food → dairy product
+  dairy product → butter and margarine
+  butter and margarine → prepared food
+  prepared food → food
+  food → meat
+  meat → sausage
+  sausage → deli meats
+  deli meats → prepared food
+  prepared food → food
+  food → savory
+  savory → side dishes
+  side dishes → prepared food
+  prepared food → food
+  food → sweet
+  sweet → candy bars
+  candy bars → sweets
+  sweets → prepared food
+  prepared food → food
+  food → fruit
+  fruit → persimmons
+  persimmons → mamey
+  mamey → passion fruit
+  passion fruit → feijoas
+  feijoas → rambutans
+  rambutans → mangosteens
+  mangosteens → sapodillo
+  sapodillo → fruit
+  fruit → fruit cake
+  fruit cake → cake
+  cake → bakery
+  bakery → prepared food
+  prepared food → food
+  food → beverage
+  beverage → liquor
+  liquor → prepared food
+  prepared food → food
+  food → dairy product
+  dairy product → butter and margarine
+  butter and margarine → prepared food
+  prepared food → food
+  food → meat
+  meat → sausage
+  sausage → deli meats
+  deli meats → prepared food
+  prepared food → food
+  food → savory
+  savory → side dishes
+  side dishes → prepared food
+  prepared food → food
+  food → sweet
+  sweet → candy bars
+  candy bars → sweets
+  sweets → prepared food
+  prepared food → food
+  food → fruit
+  fruit → persimmons
+  persimmons → mamey
+  mamey → passion fruit
+  passion fruit → feijoas
+  feijoas → rambutans
+
+================================================================================

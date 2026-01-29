@@ -1,0 +1,234 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Real-time systems; Multiple instruction, single data; Parallel architectures; Architectures; Systolic arrays; Embedded systems; Computer systems organization; Computing Classification System; Single instruction, multiple data
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Systolic arrays is a subtopic of Parallel architectures; Parallel architectures is a subtopic of Architectures; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Multiple instruction, single data is a subtopic of Parallel architectures; Single instruction, multiple data is a subtopic of Parallel architectures; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Embedded systems is a subtopic of Embedded and cyber-physical systems
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Real-time languages; Fault-tolerant network topologies; Embedded and cyber-physical systems; Dependable and fault-tolerant systems and networks; Maintainability and maintenance; Computing Classification System; Computer systems organization; Real-time systems; Architectures; Processors and memory architectures
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Real-time systems is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Parallel architectures; Maintainability and maintenance; Embedded and cyber-physical systems; Pipeline computing; Dependable and fault-tolerant systems and networks; Computing Classification System; Computer systems organization; Serial architectures; Interconnection architectures; Architectures
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Computer systems organization is a subtopic of Computing Classification System; Architectures is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Pipeline computing is a subtopic of Serial architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures; Interconnection architectures is a subtopic of Parallel architectures
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Quantum computing; Optical computing; Other architectures; Embedded and cyber-physical systems; Computing Classification System; Real-time systems; Computer systems organization; Real-time languages; Real-time system specification; Architectures
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Real-time systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Real-time system specification is a subtopic of Real-time systems; Other architectures is a subtopic of Architectures; Real-time languages is a subtopic of Real-time systems; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Optical computing is a subtopic of Other architectures; Quantum computing is a subtopic of Other architectures
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Computing Classification System; Real-time systems; Architectures; Dependable and fault-tolerant systems and networks; Real-time system architecture; Embedded and cyber-physical systems; Computer systems organization; Distributed architectures; Processors and memory architectures; Serial architectures
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Distributed architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System; Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time system architecture is a subtopic of Real-time systems; Real-time systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Empirical studies in accessibility; Interaction techniques; In-network processing; Human computer interaction (HCI); Enterprise computing; Business process management; Collaborative and social computing theory, concepts and paradigms; Visualization; Systems security; Network components; Empirical studies in collaborative and social computing; Enterprise architecture management; Operating systems security; Human-centered computing; Business-IT alignment; Symbolic and algebraic manipulation; Machine learning; OAM protocols; Cryptography; Collaborative and social computing; Software and application security; Collaborative and social computing devices; Computing Classification System; Security and privacy; Interactive systems and tools; User interface toolkits; Social and professional topics; Interaction devices; Mathematics of computing; Intrusion/anomaly detection and malware mitigation; Network services; Auditory feedback; Enterprise computing infrastructures; Information flow control; Enterprise architectures; Networks; Applied computing; Network management; Concurrent computing methodologies; Computing methodologies; Modeling and simulation; Business rules; Network protocols; Web application security; Accessibility; Network performance evaluation; Enterprise modeling; Network types; Network properties; Information systems
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Computing Classification System is a broad concept that encompasses many subtopics. Here are the relationships between the given concepts:
+
+1. Computing Classification System is a broad concept that encompasses many subtopics.
+2. Enterprise computing is a subtopic of Computing Classification System.
+3. Enterprise computing infrastructures is a subtopic of Enterprise computing.
+4. Enterprise architectures is a subtopic of Enterprise computing.
+5. Enterprise architecture management is a subtopic of Enterprise computing.
+6. Business process management is a subtopic of Enterprise computing.
+7. Business rules is a subtopic of Business process management.
+8. Business-IT alignment is a subtopic of Enterprise computing.
+9. Enterprise modeling is a subtopic of Enterprise computing.
+10. Human-centered computing is a subtopic of Computing Classification System.
+11. Human computer interaction (HCI) is a subtopic of Human-centered computing.
+12. Interaction techniques is a subtopic of Human computer interaction (HCI).
+13. Interaction devices is a subtopic of Human computer interaction (HCI).
+14. Auditory feedback is a subtopic of Human computer interaction (HCI).
+15. Accessibility is a subtopic of Human computer interaction (HCI).
+16. Empirical studies in accessibility is a subtopic of Accessibility.
+17. Empirical studies in collaborative and social computing is a subtopic of Collaborative and social computing.
+18. Collaborative and social computing is a subtopic of Computing Classification System.
+19. Collaborative and social computing theory, concepts and paradigms is a subtopic of Collaborative and social computing.
+20. Collaborative and social computing devices is a subtopic of Collaborative and social computing.
+21. Collaborative and social computing is a subtopic of Human-centered computing.
+22. Enterprise computing is a subtopic of Computing Classification System.
+23. Enterprise computing infrastructures is a subtopic of Enterprise computing.
+24. Enterprise architectures is a subtopic of Enterprise computing.
+25. Enterprise architecture management is a subtopic of Enterprise computing.
+26. Business process management is a subtopic of Enterprise computing.
+27. Business rules is a subtopic of Business process management.
+28. Business-IT alignment is a subtopic of Enterprise computing.
+29. Enterprise modeling is a subtopic of Enterprise computing.
+30. Human-centered computing is a subtopic of Computing Classification System.
+31. Human computer interaction (HCI) is a subtopic of Human-centered computing.
+32. Interaction techniques is a subtopic of Human computer interaction (HCI).
+33. Interaction devices is a subtopic of Human computer interaction (HCI).
+34. Auditory feedback is a subtopic of Human computer interaction (HCI).
+35. Accessibility is a subtopic of Human computer interaction (HCI).
+36. Empirical studies in accessibility is a subtopic of Accessibility.
+37. Empirical studies in collaborative and social computing is a subtopic of Collaborative and social computing.
+38. Collaborative and social computing is a subtopic of Computing Classification System.
+39. Collaborative and social computing theory, concepts and paradigms is a subtopic of Collaborative and social computing.
+40. Collaborative and social computing devices is a subtopic of Collaborative and social computing.
+41. Collaborative and social computing is a subtopic of Human-centered computing.
+42. Systems security is a subtopic of Computing Classification System.
+43. Network components is a subtopic of Systems security.
+44. Network services is a subtopic of Systems security.
+45. Network protocols is a subtopic of Systems security.
+46. Network properties is a subtopic of Systems security.
+47. Network types is a subtopic of Systems security.
+48. Network performance evaluation is a subtopic of Systems security.
+49. Network management is a subtopic of Systems security.
+50. Network management is a subtopic of Computing Classification System.
+51. Network management is a subtopic of Systems security.
+52. Network management is a subtopic of Computing Classification System.
+53. Network management is a subtopic of Systems security.
+54. Network management is a subtopic of Computing Classification System.
+55. Network management is a subtopic of Systems security.
+56. Network management is a subtopic of Computing Classification System.
+57. Network management is a subtopic of Systems security.
+58. Network management is a subtopic of Computing Classification System.
+59. Network management is a subtopic of Systems security.
+60. Network management is a subtopic of Computing Classification System.
+61. Network management is a subtopic of Systems security.
+62. Network management is a subtopic of Computing Classification System.
+63. Network management is a subtopic of Systems security.
+64. Network management is a subtopic of Computing Classification System.
+65. Network management is a subtopic of Systems security.
+66. Network management is a subtopic of Computing Classification System.
+67. Network management is a subtopic of Systems security.
+68. Network management is a subtopic of Computing Classification System.
+69. Network management is a subtopic of Systems security.
+70. Network management is a subtopic of Computing Classification System.
+71. Network management is a subtopic of Systems security.
+72. Network management is a subtopic of Computing Classification System.
+73. Network management is a subtopic of Systems security.
+74. Network management is a subtopic of Computing Classification System.
+75. Network management is a subtopic of Systems security.
+76. Network management is a subtopic of Computing Classification System.
+77. Network management is a subtopic of Systems security.
+78. Network management is a subtopic of Computing Classification System.
+79. Network management is a subtopic of Systems security.
+80. Network management is a subtopic of Computing Classification System.
+81. Network management is a subtopic of Systems security.
+82. Network management is a subtopic of Computing Classification System.
+83. Network management is a subtopic of Systems security.
+84. Network management is a subtopic of Computing Classification System.
+85. Network management is a subtopic of Systems security.
+86. Network management is a subtopic of Computing Classification System.
+87. Network management is a subtopic of Systems security.
+88. Network management is a subtopic of Computing Classification System.
+89. Network management is a subtopic of Systems security.
+90. Network management is a subtopic of Computing Classification System.
+91. Network management is a subtopic of Systems security.
+92. Network management is a subtopic of Computing Classification System.
+93. Network management is a subtopic of Systems security.
+94. Network management is a subtopic of Computing Classification System.
+95. Network management is a subtopic of Systems security.
+96. Network management is a subtopic of Computing Classification System.
+97. Network management is a subtopic of Systems security.
+98. Network management is a subtopic of Computing Classification System.
+99. Network management is a subtopic of Systems security.
+100. Network management is a subtopic of Computing Classification System.
+101. Network management is a subtopic of Systems security.
+102. Network management is a subtopic of Computing Classification System.
+103. Network management is a subtopic of Systems security.
+104. Network management is a subtopic of Computing Classification System.
+105. Network management is a subtopic of Systems security.
+106. Network management is a subtopic of Computing Classification System.
+107. Network management is a subtopic of Systems security.
+108. Network management is a subtopic of Computing Classification System.
+109. Network management is a subtopic of Systems security.
+110. Network management is a subtopic of Computing Classification System.
+111. Network management is a subtopic of Systems security.
+112. Network management is a subtopic of Computing Classification System.
+113. Network management is a subtopic of Systems security.
+114. Network management is a subtopic of Computing Classification System.
+115. Network management is a subtopic of Systems security.
+116. Network management is a subtopic of Computing Classification System.
+117. Network management is a subtopic of Systems security.
+118. Network management is a subtopic of Computing Classification System.
+119. Network management is a subtopic of Systems security.
+120. Network management is a subtopic of Computing Classification System.
+121. Network management is a subtopic of Systems security.
+122. Network management is a subtopic of Computing Classification System.
+123. Network management is a subtopic of Systems security.
+124. Network management is a subtopic of Computing Classification System.
+125. Network management is a subtopic of Systems security.
+126. Network management is a subtopic of Computing Classification System.
+127. Network management is a subtopic of Systems security.
+128. Network management is a subtopic of Computing Classification System.
+129. Network management is a subtopic of Systems security.
+130. Network management is a subtopic of Computing Classification System.
+131. Network management is a subtopic of Systems security.
+132. Network management is a subtopic of Computing Classification System.
+133. Network management is a subtopic of Systems security.
+134. Network management is a subtopic of Computing Classification System.
+135. Network management is a subtopic of Systems security.
+136. Network management is a subtopic of Computing Classification System.
+137. Network management is a subtopic of Systems security.
+138. Network management is a subtopic of Computing Classification System.
+139. Network management is a subtopic of Systems security.
+140. Network management is a subtopic of Computing Classification System.
+141. Network management is a subtopic of Systems security.
+142. Network management is a subtopic of Computing Classification System.
+143. Network management is a subtopic of Systems security.
+144. Network management is a subtopic of Computing Classification System.
+145. Network management is a subtopic of Systems security.
+146. Network management is a subtopic of Computing Classification System.
+147. Network management is a subtopic of Systems security.
+148. Network management is a subtopic of Computing Classification System.
+149. Network management is a subtopic of Systems security.
+150. Network management is a subtopic of Computing Classification System.
+151. Network management is a subtopic of Systems security.
+152. Network management is a subtopic of Computing Classification System.
+153. Network management is a subtopic of Systems security.
+
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

@@ -1,0 +1,149 @@
+child,parent
+General and reference,Computing Classification System
+Hardware,Computing Classification System
+Software and its engineering,Computing Classification System
+Networks,Computing Classification System
+Information systems,Computing Classification System
+Theory of computation,Computing Classification System
+Computing methodologies,Computing Classification System
+Applied computing,Computing Classification System
+Social and professional topics,Computing Classification System
+Computing education,Computing Classification System
+Human-centered computing,Computing Classification System
+Mathematics of computing,Computing Classification System
+Security and privacy,Computing Classification System
+General literature,General and reference
+Document types,General and reference
+Document preparation,General and reference
+Biographies,General and reference
+Electronic design automation,Hardware
+Power and energy,Hardware
+Printed circuit boards,Hardware
+Packaging,Hardware
+Radio frequency and wireless circuits,Hardware
+Analog and mixed-signal circuits,Hardware
+Security in hardware,Hardware
+Hardware test,Hardware
+Electromagnetic interference and compatibility,Hardware
+Wireless devices,"Communication hardware, interfaces and storage"
+Physical design (EDA),Electronic design automation
+Physical verification,Electronic design automation
+Timing analysis,Electronic design automation
+Electrical-level simulation,Electronic design automation
+Power and thermal analysis,Electronic design automation
+Physical synthesis,Physical design (EDA)
+Design rule checking,Physical verification
+Compact delay models,Timing analysis
+Clock generation and timing,Timing analysis
+PCB design and layout,Printed circuit boards
+Hardware reliability screening,Hardware test
+Board- and system-level test,Hardware test
+Design for testability,Hardware test
+Design for debug,Hardware test
+Post-manufacture validation and debug,Hardware test
+Hardware attacks and countermeasures,Security in hardware
+Software organization and properties,Software and its engineering
+Software system structures,Software and its engineering
+Testing with distributed and parallel systems,Software and its engineering
+Event-driven architectures,Software system structures
+Project and people management,Software creation and management
+Project management techniques,Software creation and management
+Implementation management,Software creation and management
+Software reliability,Extra-functional properties
+Software performance,Extra-functional properties
+Software fault tolerance,Extra-functional properties
+Network services,Networks
+Network properties,Networks
+Network management,Networks
+Network algorithms,Networks
+Network structure,Networks
+Network types,Networks
+Network economics,Networks
+Network design principles,Network architectures
+World Wide Web (network structure),Network structure
+Network reliability,Network properties
+Network range,Network properties
+Network mobility,Network properties
+Local area networks,Network types
+Metropolitan area networks,Network types
+Wide area networks,Network types
+Very long-range networks,Network types
+Short-range networks,Network types
+Wired access networks,Network types
+Wireless access networks,Network types
+Data center networks,Network types
+Ad hoc networks,Network types
+Home networks,Local area networks
+Mobile ad hoc networks,Ad hoc networks
+Cryptographic protocols,Cryptography
+Privacy protections,Security and privacy
+Human and societal aspects of security and privacy,Security and privacy
+Computer forensics,Security and privacy
+System forensics,Security and privacy
+Network privacy and anonymity,Security and privacy
+Enterprise data management,Information systems
+Document management and text processing,Information systems
+World Wide Web,Information systems
+Business process management,Information systems
+Management of computing and information systems,Information systems
+Web services,World Wide Web
+Enterprise interoperability,Enterprise computing
+Business rules,Enterprise computing
+Computer graphics,Computing methodologies
+Distributed computing methodologies,Computing methodologies
+Concurrent computing methodologies,Computing methodologies
+Visualization,Human-centered computing
+Simulation theory,Modeling and simulation
+Simulation languages,Modeling and simulation
+Simulation types and techniques,Modeling and simulation
+Simulation evaluation,Modeling and simulation
+Simulation support systems,Modeling and simulation
+Model development and analysis,Modeling and simulation
+Quantum mechanic simulation,Modeling and simulation
+Massively parallel and high-performance simulations,Simulation types and techniques
+Animation,Computer graphics
+Procedural animation,Animation
+Shape modeling,Computer graphics
+Image compression,Computer graphics
+Collision detection,Computer graphics
+Visibility,Rendering
+Symbolic and algebraic algorithms,Mathematics of computing
+Algebraic algorithms,Mathematics of computing
+Solvers,Mathematics of computing
+Mathematical software,Mathematics of computing
+Discrete calculus algorithms,Algebraic algorithms
+Hybrid symbolic-numeric methods,Symbolic and algebraic algorithms
+Statistical software,Mathematical software
+Proof complexity,Theory of computation
+Circuit complexity,Theory of computation
+Computational complexity and cryptography,Theory of computation
+Mathematical foundations of cryptography,Theory of computation
+Physical sciences and engineering,Applied computing
+Life and medical sciences,Applied computing
+Arts and humanities,Applied computing
+Computing and business,Applied computing
+Theory and algorithms for application domains,Applied computing
+Education,Applied computing
+Bioinformatics,Life and medical sciences
+Genetics,Life and medical sciences
+Proteomics,Bioinformatics
+Systems biology,Bioinformatics
+Chemistry,Physical sciences and engineering
+Media arts,Arts and humanities
+Performing arts,Arts and humanities
+Decision analysis,Operations research
+Economic impact,Computing and business
+Information system economics,Computing and business
+Economics of chip design and manufacturing,Computing and business
+Computer-assisted instruction,E-learning
+Computer-managed instruction,E-learning
+Crowdsourcing,Collaborative and social computing
+Ubiquitous and mobile computing,Human-centered computing
+Tactile and hand-based interfaces,Human-centered computing
+Computing profession,Social and professional topics
+History of computing,Social and professional topics
+Computing / technology policy,Social and professional topics
+Impact on the environment,Social and professional topics
+Accreditation,Professional topics
+Funding,Professional topics
+K-12 education,Computing education

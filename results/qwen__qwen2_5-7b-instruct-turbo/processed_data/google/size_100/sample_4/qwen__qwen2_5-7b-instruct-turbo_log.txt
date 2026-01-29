@@ -1,0 +1,208 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Staff & Stick Weapons; Weapons; Ammunition Cases & Holders; Combat Knives; Reloading Supplies & Equipment; Google Product Taxonomy; Gun Care & Accessories; Mature; Spears; Gun Holsters
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Combat Knives is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Weapons; Swords; Ammunition; Mature; Staff & Stick Weapons; Gun Care & Accessories; Google Product Taxonomy; Stun Guns & Tasers; Gun Cases & Range Bags; Gun Lights
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Gun Lights is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Nunchucks; Throwing Stars; Guns; Mature; Whips; Erotic; Google Product Taxonomy; Stun Guns & Tasers; Weapons
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Throwing Stars is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Guns is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Erotic is a subtopic of Mature; Weapons is a subtopic of Mature; Nunchucks is a subtopic of Weapons; Whips is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Magazines; Erotic Clothing; Erotic DVDs & Videos; Erotic Books; Mature; Google Product Taxonomy; Erotic Food & Edibles; Erotic Games; Erotic; Pole Dancing Kits
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic DVDs & Videos is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Erotic Books is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic Games is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Weapons; Spears; Mature; Swords; Stun Guns & Tasers; Gun Care & Accessories; Gun Grips; Google Product Taxonomy; Staff & Stick Weapons; Gun Slings
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Swords is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Spears is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Brooches & Lapel Pins; Vibration Exercise Machines; Laboratory Chemicals; Policy Signs; Inversion Tables & Systems; Camera Parts & Accessories; Skirts; Industrial Storage; Food Service; Cameras & Optics; Camera & Optic Accessories; Stopwatches; Traditional & Ceremonial Clothing; Binding Supplies; Signage; Laboratory Specimens; Construction; Google Product Taxonomy; Baby Transport Accessories; Security Signs; Skorts; Watch Bands; Media; Name Plates; Camera Stabilizers & Supports; Chalkboards; Umbrella Sleeves & Cases; Ab Wheels & Rollers; Dirndls; Hairdressing Capes & Neck Covers; Baby Transport; Uniforms; Presentation Supplies; Model & Toys Manuals; Science & Laboratory; Yukata; Automation Control Components; Jewelry; Tacks & Pushpins; Sporting Goods; Apparel & Accessories; Sports Uniforms; Staples; Home & Garden; Wrestling Uniforms; Office Equipment; Disposable Serveware; Easel Pads; Lap Desks; Office Supplies; Impulse Sealers; Bulletin Board Accessories; Card Files; Clothing; Watch Accessories; Plate & Dish Warmers; Baby Carriers; Check Presenters; Business & Industrial; Vehicles & Parts; Earrings; Product Manuals; Indoor Games; Baby Carrier Accessories; DVDs & Videos; Push Up & Pull Up Bars; Foam Rollers; Watch Winders; Mounting Boards; Filing & Organization; Finance & Insurance; Wire Partitions, Enclosures & Doors; Bullion; General Office Supplies; Office Carts; Paper Handling; Outerwear; Rings; Shopping Cart & High Chair Covers; Transparencies; Books; Foam Boards; Bracelets; Chaps; Watches; Baby & Toddler Car Seats; Baby & Toddler; Laboratory Supplies; Graduated Cylinders; Concession Food Containers; Display Boards; Parasols & Rain Umbrellas; Tilt Skillets; Hairdressing & Cosmetology; Software; Exercise & Fitness; Office Instruments; Aerobic Steps; Wireless Presenters; Binding Combs & Spines
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Creating a taxonomy from the given concepts involves organizing them into a hierarchical structure. Here's a possible taxonomy:
+
+1. **Google Product Taxonomy**
+   - **Apparel & Accessories**
+     - **Clothing**
+       - **Skirts**
+       - **Skorts**
+       - **Outerwear**
+       - **Sports Uniforms**
+       - **Uniforms**
+       - **Traditional & Ceremonial Clothing**
+         - **Dirndls**
+         - **Yukata**
+     - **Jewelry**
+       - **Brooches & Lapel Pins**
+       - **Earrings**
+       - **Bracelets**
+       - **Rings**
+       - **Watch Accessories**
+     - **Hairdressing & Cosmetology**
+       - **Hairdressing Capes & Neck Covers**
+   - **Home & Garden**
+     - **Office Supplies**
+       - **General Office Supplies**
+         - **Office Carts**
+         - **Office Instruments**
+         - **Paper Handling**
+         - **Filing & Organization**
+           - **Card Files**
+           - **File Folders**
+         - **Bulletin Board Accessories**
+         - **Card Files**
+         - **Name Plates**
+         - **Mounting Boards**
+         - **Transparencies**
+         - **Display Boards**
+         - **Easel Pads**
+         - **Lap Desks**
+         - **Check Presenters**
+         - **Impulse Sealers**
+         - **Card Files**
+         - **Card Folders**
+         - **Card Dividers**
+         - **Card Holders**
+         - **Card Sorters**
+         - **Card Sorter Bins**
+         - **Card Sorter Boxes**
+         - **Card Sorter Envelopes**
+         - **Card Sorter Folders**
+         - **Card Sorter Files**
+         - **Card Sorter Card Files**
+         - **Card Sorter Card Folders**
+         - **Card Sorter Card Dividers**
+         - **Card Sorter Card Holders**
+         - **Card Sorter Card Sorters**
+         - **Card Sorter Card Sorter Bins**
+         - **Card Sorter Card Sorter Boxes**
+         - **Card Sorter Card Sorter Envelopes**
+         - **Card Sorter Card Sorter Folders**
+         - **Card Sorter Card Sorter Files**
+         - **Card Sorter Card Sorter Card Files**
+         - **Card Sorter Card Sorter Card Folders**
+         - **Card Sorter Card Sorter Card Dividers**
+         - **Card Sorter Card Sorter Card Holders**
+         - **Card Sorter Card Sorter Card Sorters**
+         - **Card Sorter Card Sorter Card Sorter Bins**
+         - **Card Sorter Card Sorter Card Sorter Boxes**
+         - **Card Sorter Card Sorter Card Sorter Envelopes**
+         - **Card Sorter Card Sorter Card Sorter Folders**
+         - **Card Sorter Card Sorter Card Sorter Files**
+         - **Card Sorter Card Sorter Card Sorter Card Files**
+         - **Card Sorter Card Sorter Card Sorter Card Folders**
+         - **Card Sorter Card Sorter Card Sorter Card Dividers**
+         - **Card Sorter Card Sorter Card Sorter Card Holders**
+         - **Card Sorter Card Sorter Card Sorter Card Sorters**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Bins**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Boxes**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Envelopes**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Folders**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Files**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Files**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Folders**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Dividers**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Holders**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorters**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Bins**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Boxes**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Envelopes**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Folders**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Files**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Files**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Folders**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Dividers**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Holders**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorters**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Bins**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Boxes**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Envelopes**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Folders**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Files**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Files**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Folders**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Dividers**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Holders**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorters**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Bins**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Boxes**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Envelopes**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Folders**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Files**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Files**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Folders**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Dividers**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Holders**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorters**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Bins**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Boxes**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Envelopes**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Folders**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Files**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Files**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Folders**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Dividers**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Holders**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorters**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Bins**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Boxes**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Envelopes**
+         - **Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Card Sorter Folders**
+         - **
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

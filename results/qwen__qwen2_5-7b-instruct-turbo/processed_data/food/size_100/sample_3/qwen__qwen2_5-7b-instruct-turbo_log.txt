@@ -1,0 +1,366 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: spaghetti; fagottini; bavette; pasta; occhi di lupo; pici; gemelli; cannelloni; food; fusilli
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+cannelloni is a subtopic of pasta; spaghetti is a subtopic of pasta; bavette is a subtopic of pasta; pasta is a subtopic of food; fusilli is a subtopic of pasta; gemelli is a subtopic of pasta; pici is a subtopic of pasta; occhi di lupo is a subtopic of pasta; fagottini is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: sacchettoni; mezzelune; linguine; spaghetti; croxetti; fuži; rotini; corzetti; food; pasta
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+croxetti is a subtopic of pasta; corzetti is a subtopic of pasta; mezzelune is a subtopic of pasta; fuži is a subtopic of pasta; sacchettoni is a subtopic of pasta; linguine is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food; rotini is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: food; pasta; anellini; mezzelune; corzetti; stringozzi; occhi di lupo; bigoli; fuži; garganelli
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+anellini is a subtopic of pasta; fuži is a subtopic of pasta; bigoli is a subtopic of pasta; stringozzi is a subtopic of pasta; pasta is a subtopic of food; garganelli is a subtopic of pasta; mezzelune is a subtopic of pasta; corzetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: lanterne; ptitim; food; rotini; campanelle; macaroni; casoncelli; passatelli; spaghetti; pasta
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+passatelli is a subtopic of pasta; rotini is a subtopic of pasta; macaroni is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; casoncelli is a subtopic of pasta; pasta is a subtopic of food; lanterne is a subtopic of pasta; campanelle is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: spaghetti; sacchettoni; rotini; pasta; food; rotelle; mezzelune; ptitim; penne; stringozzi
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+mezzelune is a subtopic of pasta; ptitim is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food; penne is a subtopic of pasta; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: nettle soup; maya nuts; pumpkin seeds; rice; unflavored gelatine; liver soup; she-crab soup; purée mongole; imoni; brown windsor soup; food colouring; floss sugar; dalithoy; bakery; soy product; tomato soup; poppy milk; gamjatang; dip; oats; oranges; garbure; tom yum; sugar; jams and preserves; kapusniak; shambar; chikhirtma; soursops; baking extracts; zosui; mulligatawny; cereals; butajiru; bean pastes; nut butters; tomato paste; dried soup; frejon; lung fung soup; qingtang wanzi; frozen dessert; crème ninon; ogbono nuts; cooking wine; physalis; marshmallows; gomguk; fruit; bouneschlupp; vori vori; baking chocolate; vegetable dip; hot and sour soup; okroshka; sopa de mondongo; seeds; hazelnuts; avocados; kola nuts; corn syrup; gazpachuelo; hundreds and thousands; zōni; draw soup; beef noodle soup; ribollita; coffee cakes; deli meats; sancocho; corn chowder; psarosoupa; oxtail soup; food; rassolnik; ajoblanco; eggs; fudge; pistachios; dough; mixed nuts; tapenade; tekwan; panada; evaporated milk; pepper; sugar pearls; cooking ingredient; frozen meat; spice; bread soup; leek soup; soup; chocolate covered nuts; chorba; edible baking decoration; köttsoppa; miso soup; soy nuts; meat
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here is the taxonomy with the parent-child relationships for the given concepts:
+
+- food (parent)
+  - bread soup (child)
+    - panada (child)
+    - gomguk (child)
+    - butajiru (child)
+    - gomguk (child)
+    - köttsoppa (child)
+  - soup (child)
+    - nettle soup (child)
+    - liver soup (child)
+    - maya nuts (child)
+    - rice (child)
+    - unflavored gelatine (child)
+    - purée mongole (child)
+    - imoni (child)
+    - brown windsor soup (child)
+    - hot and sour soup (child)
+    - okroshka (child)
+    - ribollita (child)
+    - draw soup (child)
+    - draw soup (child)
+    - oxtail soup (child)
+    - beef noodle soup (child)
+    - leek soup (child)
+    - ajoblanco (child)
+    - psarosoupa (child)
+    - rassolnik (child)
+    - ajoblanco (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (child)
+    - chorba (
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

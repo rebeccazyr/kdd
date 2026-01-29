@@ -1,0 +1,47 @@
+[
+  {
+    "child_name": "albufera sauce",
+    "parent_name": "sauce",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "rântaş",
+    "parent_name": "condiment",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "honey garlic sauce",
+    "parent_name": "sauce",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "seafood",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "sauce",
+    "parent_name": "condiment",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "condiment",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "salad dressings",
+    "parent_name": "condiment",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "béarnaise sauce",
+    "parent_name": "condiment",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "meat",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  }
+]

@@ -1,0 +1,372 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Spears; Mature; Combat Knives; Reloading Supplies & Equipment; Gun Care & Accessories; Weapons; Staff & Stick Weapons; Ammunition Cases & Holders; Gun Holsters
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Gun Holsters is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Combat Knives is a subtopic of Weapons; Weapons is a subtopic of Mature; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Staff & Stick Weapons is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Weapons; Swords; Gun Cases & Range Bags; Google Product Taxonomy; Mature; Ammunition; Gun Care & Accessories; Gun Lights; Staff & Stick Weapons; Stun Guns & Tasers
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Staff & Stick Weapons is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Mature; Throwing Stars; Gun Care & Accessories; Stun Guns & Tasers; Guns; Erotic; Whips; Nunchucks; Weapons
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Whips is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Erotic is a subtopic of Mature; Weapons is a subtopic of Mature; Throwing Stars is a subtopic of Weapons; Guns is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic DVDs & Videos; Erotic Games; Erotic Magazines; Erotic Clothing; Erotic Books; Pole Dancing Kits; Erotic; Erotic Food & Edibles; Mature; Google Product Taxonomy
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Food & Edibles is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Erotic Magazines is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Games is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Swords; Weapons; Staff & Stick Weapons; Google Product Taxonomy; Gun Slings; Gun Grips; Gun Care & Accessories; Stun Guns & Tasers; Mature; Spears
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Gun Slings is a subtopic of Gun Care & Accessories; Gun Grips is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Swords is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Staff & Stick Weapons is a subtopic of Weapons; Spears is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Luggage & Bags; Memorial Ceremony Supplies; Media; Hardhats; Forestry & Logging; Specimen Cups; Conveyors; Toys & Games; Mining & Quarrying; Janitorial Carts & Caddies; Light Therapy Lamps; Suitcases; Industrial Storage; Food Service; Facility Identification Signs; Cameras & Optics; Medical; GPS Tracking Devices; Disposable Lids; Books; Variable Frequency & Adjustable Speed Drives; Work Safety Protective Gear; Heavy Machinery; Health Care; Business & Industrial; Hardware; Radar Detectors; Signage; Product Manuals; Religious & Ceremonial; Automation Control Components; DVDs & Videos; Trade Show Displays; Health & Beauty; Law Enforcement; Google Product Taxonomy; Retail & Sale Signs; Music & Sound Recordings; Advertising & Marketing; Wedding Ceremony Supplies; Material Handling; Contraceptive Cases; Acupuncture; Power Tool & Equipment Manuals; Power & Electrical Supplies; Brochures; GPS Accessories; Electronics; Garment Bags; GPS Navigation Systems
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here's a structured taxonomy based on the provided concepts:
+
+1. **Google Product Taxonomy**
+   - **Business & Industrial**
+     - **Hardware**
+       - Luggage & Bags
+       - Suitcases
+       - Janitorial Carts & Caddies
+       - Conveyors
+       - Industrial Storage
+       - Material Handling
+       - Power Tool & Equipment Manuals
+     - **Conveyors**
+     - **Janitorial Carts & Caddies**
+     - **Industrial Storage**
+     - **Material Handling**
+     - **Power Tool & Equipment Manuals**
+     - **Electronics**
+       - GPS Accessories
+       - GPS Navigation Systems
+     - **Power & Electrical Supplies**
+     - **Radar Detectors**
+     - **Radar Detectors**
+     - **Signage**
+       - Facility Identification Signs
+       - Retail & Sale Signs
+       - Signage
+     - **Automated Control Components**
+       - Variable Frequency & Adjustable Speed Drives
+       - Automation Control Components
+     - **Health & Beauty**
+     - **Health Care**
+     - **Medical**
+     - **Health Care**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     - **Health & Beauty**
+     -
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

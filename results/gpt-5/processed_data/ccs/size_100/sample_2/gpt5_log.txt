@@ -1,0 +1,178 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Computer systems organization; Single instruction, multiple data; Systolic arrays; Embedded and cyber-physical systems; Architectures; Multiple instruction, single data; Real-time systems; Computing Classification System; Parallel architectures; Embedded systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Computer systems organization is a subtopic of Computing Classification System; Multiple instruction, single data is a subtopic of Parallel architectures; Systolic arrays is a subtopic of Parallel architectures; Architectures is a subtopic of Computer systems organization; Embedded systems is a subtopic of Embedded and cyber-physical systems; Parallel architectures is a subtopic of Architectures; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Single instruction, multiple data is a subtopic of Parallel architectures
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Fault-tolerant network topologies; Real-time languages; Processors and memory architectures; Architectures; Computing Classification System; Real-time systems; Embedded and cyber-physical systems; Maintainability and maintenance; Dependable and fault-tolerant systems and networks; Computer systems organization
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Real-time systems is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Real-time languages is a subtopic of Real-time systems; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Architectures; Pipeline computing; Serial architectures; Interconnection architectures; Computer systems organization; Dependable and fault-tolerant systems and networks; Parallel architectures; Computing Classification System; Maintainability and maintenance
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Pipeline computing is a subtopic of Serial architectures; Interconnection architectures is a subtopic of Parallel architectures; Computer systems organization is a subtopic of Computing Classification System; Serial architectures is a subtopic of Architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Real-time languages; Embedded and cyber-physical systems; Architectures; Real-time system specification; Optical computing; Other architectures; Real-time systems; Computer systems organization; Computing Classification System; Quantum computing
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Optical computing is a subtopic of Other architectures; Real-time system specification is a subtopic of Real-time systems; Computer systems organization is a subtopic of Computing Classification System; Architectures is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Quantum computing is a subtopic of Other architectures; Real-time languages is a subtopic of Real-time systems; Other architectures is a subtopic of Architectures
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Distributed architectures; Processors and memory architectures; Computer systems organization; Real-time systems; Real-time system architecture; Computing Classification System; Serial architectures; Architectures; Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Real-time system architecture is a subtopic of Real-time systems; Distributed architectures is a subtopic of Architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Semiconductor memory; Algebraic complexity theory; User interface programming; Sorting and searching; Equational logic and rewriting; Computing industry; User characteristics; Document searching; Human-centered computing; General and reference; Integrated circuits; Online learning algorithms; Physical synthesis; Interactive proof systems; Wire routing; Hypertext / hypermedia; Circuit complexity; Proof complexity; Applied computing; Computational geometry; Complexity classes; Packaging; Physical sciences and engineering; Race and ethnicity; Arts and humanities; Logic; Semantics and reasoning; Placement; Graphical user interfaces; Sparsification and spanners; Accessibility; Formalisms; User interface management systems; Logic families; Cryptographic primitives; Caching and paging algorithms; Hardware; Interaction paradigms; Empirical studies in collaborative and social computing; Design and analysis of algorithms; Adversary models; Hardware reliability screening; Collaborative and social computing; Management of computing and information systems; Verification by model checking; Formal languages and automata theory; Natural language interfaces; Computational complexity and cryptography; Hoare logic; Theory of computation; Ubiquitous and mobile computing; K-server algorithms; Accessibility design and evaluation methods; Graph algorithms analysis; Electronic design automation; Accessibility theory, concepts and paradigms; Publishing; Software and its engineering; Cryptographic protocols; Data structures design and analysis; Analog, mixed-signal and radio frequency test; Accessibility systems and tools; Computing Classification System; Hardware description languages and compilation; Social and professional topics; Divide and conquer; Networks; Hardware test; Interaction design; Digital switches; Communication complexity; Algorithm design techniques; Physical design (EDA); Randomness, geometry and discrete structures; Computers in other domains; Logic synthesis; Engineering; Human computer interaction (HCI); Cultural characteristics; Design for testability; Online algorithms; Proof theory; Robustness; Constructive mathematics; Problems, reductions and completeness; Interactive systems and tools; Computing / technology policy; Professional topics; Mathematics of computing; Accessibility technologies; Social network analysis; Document management and text processing; Dynamic graph algorithms; Tree languages; Collaborative interaction; Separation logic; Collaborative and social computing design and evaluation methods; Parameterized complexity and exact algorithms; People with disabilities; Combinational synthesis
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: gpt-5
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Hardware is a subtopic of Computing Classification System; Theory of computation is a subtopic of Computing Classification System; Software and its engineering is a subtopic of Computing Classification System; Human-centered computing is a subtopic of Computing Classification System; Networks is a subtopic of Computing Classification System; Applied computing is a subtopic of Computing Classification System; Mathematics of computing is a subtopic of Computing Classification System; Social and professional topics is a subtopic of Computing Classification System; General and reference is a subtopic of Computing Classification System; Integrated circuits is a subtopic of Hardware; Semiconductor memory is a subtopic of Integrated circuits; Digital switches is a subtopic of Integrated circuits; Logic families is a subtopic of Integrated circuits; Packaging is a subtopic of Hardware; Electronic design automation is a subtopic of Hardware; Hardware description languages and compilation is a subtopic of Electronic design automation; Physical design (EDA) is a subtopic of Electronic design automation; Placement is a subtopic of Physical design (EDA); Wire routing is a subtopic of Physical design (EDA); Physical synthesis is a subtopic of Physical design (EDA); Logic synthesis is a subtopic of Electronic design automation; Combinational synthesis is a subtopic of Electronic design automation; Hardware test is a subtopic of Hardware; Analog, mixed-signal and radio frequency test is a subtopic of Hardware test; Design for testability is a subtopic of Hardware test; Hardware reliability screening is a subtopic of Hardware; Design and analysis of algorithms is a subtopic of Theory of computation; Algorithm design techniques is a subtopic of Design and analysis of algorithms; Divide and conquer is a subtopic of Algorithm design techniques; Sorting and searching is a subtopic of Design and analysis of algorithms; Data structures design and analysis is a subtopic of Design and analysis of algorithms; Graph algorithms analysis is a subtopic of Design and analysis of algorithms; Dynamic graph algorithms is a subtopic of Graph algorithms analysis; Sparsification and spanners is a subtopic of Graph algorithms analysis; Computational geometry is a subtopic of Design and analysis of algorithms; Online algorithms is a subtopic of Design and analysis of algorithms; K-server algorithms is a subtopic of Online algorithms; Caching and paging algorithms is a subtopic of Online algorithms; Online learning algorithms is a subtopic of Online algorithms; Parameterized complexity and exact algorithms is a subtopic of Design and analysis of algorithms; Randomness, geometry and discrete structures is a subtopic of Theory of computation; Formal languages and automata theory is a subtopic of Theory of computation; Tree languages is a subtopic of Formal languages and automata theory; Logic is a subtopic of Theory of computation; Proof theory is a subtopic of Logic; Equational logic and rewriting is a subtopic of Logic; Computational complexity and cryptography is a subtopic of Theory of computation; Complexity classes is a subtopic of Computational complexity and cryptography; Problems, reductions and completeness is a subtopic of Computational complexity and cryptography; Circuit complexity is a subtopic of Computational complexity and cryptography; Communication complexity is a subtopic of Computational complexity and cryptography; Algebraic complexity theory is a subtopic of Computational complexity and cryptography; Proof complexity is a subtopic of Computational complexity and cryptography; Interactive proof systems is a subtopic of Computational complexity and cryptography; Cryptographic primitives is a subtopic of Computational complexity and cryptography; Cryptographic protocols is a subtopic of Computational complexity and cryptography; Adversary models is a subtopic of Computational complexity and cryptography; Semantics and reasoning is a subtopic of Software and its engineering; Verification by model checking is a subtopic of Semantics and reasoning; Formalisms is a subtopic of Semantics and reasoning; Hoare logic is a subtopic of Semantics and reasoning; Separation logic is a subtopic of Semantics and reasoning; Robustness is a subtopic of Software and its engineering; Human computer interaction (HCI) is a subtopic of Human-centered computing; Interaction paradigms is a subtopic of Human computer interaction (HCI); Graphical user interfaces is a subtopic of Interaction paradigms; Hypertext / hypermedia is a subtopic of Interaction paradigms; Natural language interfaces is a subtopic of Interaction paradigms; Interaction design is a subtopic of Human computer interaction (HCI); Interactive systems and tools is a subtopic of Human computer interaction (HCI); User interface programming is a subtopic of Interactive systems and tools; User interface management systems is a subtopic of Interactive systems and tools; Collaborative and social computing is a subtopic of Human-centered computing; Empirical studies in collaborative and social computing is a subtopic of Collaborative and social computing; Collaborative and social computing design and evaluation methods is a subtopic of Collaborative and social computing; Collaborative interaction is a subtopic of Collaborative and social computing; Social network analysis is a subtopic of Collaborative and social computing; Ubiquitous and mobile computing is a subtopic of Human-centered computing; Accessibility is a subtopic of Human-centered computing; Accessibility theory, concepts and paradigms is a subtopic of Accessibility; Accessibility design and evaluation methods is a subtopic of Accessibility; Accessibility systems and tools is a subtopic of Accessibility; Accessibility technologies is a subtopic of Accessibility; People with disabilities is a subtopic of Accessibility; User characteristics is a subtopic of Human-centered computing; Cultural characteristics is a subtopic of User characteristics; Race and ethnicity is a subtopic of User characteristics; Document management and text processing is a subtopic of Applied computing; Document searching is a subtopic of Document management and text processing; Publishing is a subtopic of Applied computing; Physical sciences and engineering is a subtopic of Applied computing; Engineering is a subtopic of Physical sciences and engineering; Computers in other domains is a subtopic of Applied computing; Arts and humanities is a subtopic of Applied computing; Constructive mathematics is a subtopic of Mathematics of computing; Professional topics is a subtopic of Social and professional topics; Computing industry is a subtopic of Professional topics; Management of computing and information systems is a subtopic of Professional topics; Computing / technology policy is a subtopic of Social and professional topics
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 99
+
+Parsed relationships:
+  Hardware → Computing Classification System
+  Theory of computation → Computing Classification System
+  Software and its engineering → Computing Classification System
+  Human-centered computing → Computing Classification System
+  Networks → Computing Classification System
+  Applied computing → Computing Classification System
+  Mathematics of computing → Computing Classification System
+  Social and professional topics → Computing Classification System
+  General and reference → Computing Classification System
+  Integrated circuits → Hardware
+  Semiconductor memory → Integrated circuits
+  Digital switches → Integrated circuits
+  Logic families → Integrated circuits
+  Packaging → Hardware
+  Electronic design automation → Hardware
+  Hardware description languages and compilation → Electronic design automation
+  Physical design (EDA) → Electronic design automation
+  Placement → Physical design (EDA)
+  Wire routing → Physical design (EDA)
+  Physical synthesis → Physical design (EDA)
+  Logic synthesis → Electronic design automation
+  Combinational synthesis → Electronic design automation
+  Hardware test → Hardware
+  Analog, mixed-signal and radio frequency test → Hardware test
+  Design for testability → Hardware test
+  Hardware reliability screening → Hardware
+  Design and analysis of algorithms → Theory of computation
+  Algorithm design techniques → Design and analysis of algorithms
+  Divide and conquer → Algorithm design techniques
+  Sorting and searching → Design and analysis of algorithms
+  Data structures design and analysis → Design and analysis of algorithms
+  Graph algorithms analysis → Design and analysis of algorithms
+  Dynamic graph algorithms → Graph algorithms analysis
+  Sparsification and spanners → Graph algorithms analysis
+  Computational geometry → Design and analysis of algorithms
+  Online algorithms → Design and analysis of algorithms
+  K-server algorithms → Online algorithms
+  Caching and paging algorithms → Online algorithms
+  Online learning algorithms → Online algorithms
+  Parameterized complexity and exact algorithms → Design and analysis of algorithms
+  Randomness, geometry and discrete structures → Theory of computation
+  Formal languages and automata theory → Theory of computation
+  Tree languages → Formal languages and automata theory
+  Logic → Theory of computation
+  Proof theory → Logic
+  Equational logic and rewriting → Logic
+  Computational complexity and cryptography → Theory of computation
+  Complexity classes → Computational complexity and cryptography
+  Problems, reductions and completeness → Computational complexity and cryptography
+  Circuit complexity → Computational complexity and cryptography
+  Communication complexity → Computational complexity and cryptography
+  Algebraic complexity theory → Computational complexity and cryptography
+  Proof complexity → Computational complexity and cryptography
+  Interactive proof systems → Computational complexity and cryptography
+  Cryptographic primitives → Computational complexity and cryptography
+  Cryptographic protocols → Computational complexity and cryptography
+  Adversary models → Computational complexity and cryptography
+  Semantics and reasoning → Software and its engineering
+  Verification by model checking → Semantics and reasoning
+  Formalisms → Semantics and reasoning
+  Hoare logic → Semantics and reasoning
+  Separation logic → Semantics and reasoning
+  Robustness → Software and its engineering
+  Human computer interaction (HCI) → Human-centered computing
+  Interaction paradigms → Human computer interaction (HCI)
+  Graphical user interfaces → Interaction paradigms
+  Hypertext / hypermedia → Interaction paradigms
+  Natural language interfaces → Interaction paradigms
+  Interaction design → Human computer interaction (HCI)
+  Interactive systems and tools → Human computer interaction (HCI)
+  User interface programming → Interactive systems and tools
+  User interface management systems → Interactive systems and tools
+  Collaborative and social computing → Human-centered computing
+  Empirical studies in collaborative and social computing → Collaborative and social computing
+  Collaborative and social computing design and evaluation methods → Collaborative and social computing
+  Collaborative interaction → Collaborative and social computing
+  Social network analysis → Collaborative and social computing
+  Ubiquitous and mobile computing → Human-centered computing
+  Accessibility → Human-centered computing
+  Accessibility theory, concepts and paradigms → Accessibility
+  Accessibility design and evaluation methods → Accessibility
+  Accessibility systems and tools → Accessibility
+  Accessibility technologies → Accessibility
+  People with disabilities → Accessibility
+  User characteristics → Human-centered computing
+  Cultural characteristics → User characteristics
+  Race and ethnicity → User characteristics
+  Document management and text processing → Applied computing
+  Document searching → Document management and text processing
+  Publishing → Applied computing
+  Physical sciences and engineering → Applied computing
+  Engineering → Physical sciences and engineering
+  Computers in other domains → Applied computing
+  Arts and humanities → Applied computing
+  Constructive mathematics → Mathematics of computing
+  Professional topics → Social and professional topics
+  Computing industry → Professional topics
+  Management of computing and information systems → Professional topics
+  Computing / technology policy → Social and professional topics
+
+================================================================================

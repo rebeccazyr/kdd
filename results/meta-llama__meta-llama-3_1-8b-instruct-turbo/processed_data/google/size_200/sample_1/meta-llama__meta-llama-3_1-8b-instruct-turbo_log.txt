@@ -1,0 +1,341 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Staff & Stick Weapons; Google Product Taxonomy; Gun Holsters; Reloading Supplies & Equipment; Mature; Gun Care & Accessories; Ammunition Cases & Holders; Weapons; Spears; Combat Knives
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Combat Knives is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Spears is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Gun Cases & Range Bags; Ammunition; Gun Care & Accessories; Stun Guns & Tasers; Weapons; Mature; Staff & Stick Weapons; Swords; Gun Lights
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Swords is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Mature; Google Product Taxonomy; Stun Guns & Tasers; Nunchucks; Guns; Gun Care & Accessories; Erotic; Throwing Stars; Weapons; Whips
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Throwing Stars is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Weapons is a subtopic of Mature; Whips is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Guns is a subtopic of Weapons; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Mature; Erotic Food & Edibles; Erotic Clothing; Google Product Taxonomy; Erotic Books; Erotic Magazines; Pole Dancing Kits; Erotic; Erotic DVDs & Videos; Erotic Games
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Games is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic DVDs & Videos is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Books is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Weapons; Swords; Gun Slings; Spears; Staff & Stick Weapons; Mature; Gun Grips; Google Product Taxonomy; Stun Guns & Tasers
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Gun Slings is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Spears is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Medical Furniture; Burp Cloths; Video Game Console Accessories; Laminating Film, Pouches & Sheets; Riding Toy Accessories; Dentistry; Antenna Mounts & Brackets; Educational Flash Cards; Book Accessories; Handbags, Wallets & Cases; Educational Toys; Industrial Storage Accessories; Dolls, Playsets & Toy Figures; Laser Pointers; GPS Mounts; Ball Pit Accessories; Game Timers; Skee-Ball Machines; Stylus Pens; Caller IDs; American Football Toys; Video Transmitters; Memory Accessories; Computer Covers & Skins; Suspenders; Accelerometers; Baby & Toddler Furniture; Handheld Devices; Keychains; Office Shredders; Office Furniture; Document Cameras; Keyboard Trays & Platforms; Baby Safety Rails; Google Product Taxonomy; Home Game Console Accessories; Video; Beach & Sand Toys; Dollhouses; Easels; GPS Accessories; Flying Toy Accessories; Modulators; Audio & Video Splitters & Switches; Office & Chair Mats; Radios; Exercise & Fitness Equipment Manuals; Play Vehicle Accessories; Media; Name Plates; Components; Toys & Games; Toys; Antenna Accessories; Beakers; Electronics Accessories; Printers, Copiers & Fax Machines; Reading Toys; Audio Accessories; Business Card Cases; Thin & Zero Clients; Astronomy Toys & Models; Boomerangs; Label Makers; 3D Printer Accessories; Medical Cabinets; Karaoke System Accessories; Hardware; Passive Circuit Components; Biochemicals; Presentation Supplies; Ant Farms; Audio Converters; Science & Laboratory; Mattresses; Sheet Music; Automation Control Components; Basketball Toys; Shipping Supplies; Apparel & Accessories; Wooden & Pegged Puzzles; Basketball Arcade Games; Wedding Ceremony Supplies; Chair Mats; Office Equipment; Turntables & Record Players; Laptops; Ball Pits; Audio; Retail; Executive Toys; Print, Copy, Scan & Fax; GPS Cases; Sports Toy Accessories; Audio Components; Office Supply Manuals; Video Game Consoles; Lap Desks; Office Supplies; Wallet Chains; Sectional Sofa Units; Computers; Paper Clips & Clamps; Book Lights; Baby Bottles; Impulse Sealers; Sports Toys; Bug Collecting Kits; Medical Bedding; Video Multiplexers; Medical; Video Editing Hardware & Production Equipment; Cable Management; Furniture; Circuit Boards & Components; Sofa Accessories; MiniDisc Players & Recorders; Erasers; Building Toys; Chairs; Gloves & Mittens; Keyboard & Mouse Wrist Rests; Electronics Component Connectors; Business & Industrial; Vehicles & Parts; Audio Players & Recorders; Product Manuals; Musical Toys; Communications; Desk Pads & Blotters; Antennas; Baby Safety; Music & Sound Recordings; Splitters; Televisions; Breast Milk Storage Containers; Laptop Docking Stations; Mounting Boards; Arm Chairs, Recliners & Sleeper Chairs; Tablet Computer Docks & Stands; Chair Accessories; Electronics; Cable Tie Guns; Magnet Toys; Hotel & Hospitality; Nursing Pillow Covers; Paper & Magnetic Dolls; Doll & Action Figure Accessories; General Office Supplies; GPS Navigation Systems; Ring Pillows & Holders; Converters; Potty Training; Headboards & Footboards; Forestry & Logging; Fitness Toys; Futon Pads; Printed Circuit Boards; Cable Trays; Futon Frames; Electronic Dictionaries & Translators; Fitness Toy Accessories; Animals & Pet Supplies; Riding Toys; Clothing Accessories; Beds & Accessories; Remote Controls; Live Animals; Puzzles; Bean Bag Chairs; Toy Gift Baskets; Film & Television; Racquet Sport Toys; Wire & Cable Sleeves; Heavy Machinery; Nursing & Feeding; Carpentry & Woodworking Project Plans; Computer Accessories; Baby & Toddler; Shelving Accessories; Laboratory Supplies; Religious & Ceremonial; Health & Beauty; Examination Chairs & Tables; Electronics Manuals; Play Vehicles; Handbag & Wallet Accessories; Display Boards; Shoes; Mechanical Puzzles; Material Handling; Software; Semiconductors; Nursing Pads & Shields; Boomboxes; Resistors; Arcade Equipment; Outdoor Furniture Accessories; Karaoke Systems; Mobile Phone & Tablet Tripods & Monopods
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to break it down into a hierarchical structure. Here's a simplified representation of the relationships:
+
+- Google Product Taxonomy
+  - Toys & Games
+    - Toys
+      - Dolls, Playsets & Toy Figures
+      - Building Toys
+      - Wooden & Pegged Puzzles
+      - Basketball Arcade Games
+      - Skee-Ball Machines
+      - Video Game Consoles
+      - Video Game Console Accessories
+      - Home Game Console Accessories
+      - Video
+      - Media
+    - Educational Toys
+      - Educational Flash Cards
+      - Reading Toys
+    - Sports Toys
+      - American Football Toys
+      - Basketball Toys
+      - Boomerangs
+      - Racquet Sport Toys
+    - Outdoor Toys
+      - Beach & Sand Toys
+      - Riding Toys
+      - Play Vehicle Accessories
+      - Flying Toy Accessories
+    - Science & Laboratory
+      - Ant Farms
+      - Beakers
+      - Bug Collecting Kits
+      - Science & Laboratory
+    - Arts & Crafts
+      - Easels
+      - Sheet Music
+      - Musical Toys
+    - Baby & Toddler
+      - Baby & Toddler Furniture
+      - Baby Bottles
+      - Baby Safety
+      - Baby Safety Rails
+      - Breast Milk Storage Containers
+      - Nursing Pillow Covers
+      - Potty Training
+    - Office Supplies
+      - Office Supplies
+      - Office Equipment
+      - Office Furniture
+      - Office & Chair Mats
+      - Keyboard Trays & Platforms
+      - Desk Pads & Blotters
+      - Chair Mats
+      - Office Supply Manuals
+      - Office Shredders
+      - Impulse Sealers
+      - Label Makers
+      - Print, Copy, Scan & Fax
+      - Printers, Copiers & Fax Machines
+      - Paper Clips & Clamps
+      - Erasers
+      - General Office Supplies
+    - Electronics
+      - Electronics
+      - Electronics Accessories
+      - Electronics Component Connectors
+      - Electronics Manuals
+      - Computer Accessories
+      - Laptops
+      - Tablet Computer Docks & Stands
+      - Laptop Docking Stations
+      - Tablet Computer Docks & Stands
+      - Mobile Phone & Tablet Tripods & Monopods
+      - MiniDisc Players & Recorders
+      - Audio Players & Recorders
+      - Audio Converters
+      - Audio Accessories
+      - Audio & Video Splitters & Switches
+      - Audio
+      - Music & Sound Recordings
+      - Televisions
+      - Video Editing Hardware & Production Equipment
+      - Video Multiplexers
+      - Video Transmitters
+      - Video
+    - Furniture
+      - Furniture
+      - Mattresses
+      - Sofa Accessories
+      - Sectional Sofa Units
+      - Arm Chairs, Recliners & Sleeper Chairs
+      - Futon Pads
+      - Futon Frames
+      - Headboards & Footboards
+      - Chair Accessories
+      - Shelving Accessories
+      - Outdoor Furniture Accessories
+    - Health & Beauty
+      - Health & Beauty
+      - Nursing & Feeding
+      - Nursing Pads & Shields
+      - Breast Milk Storage Containers
+    - Home & Garden
+      - Home & Garden
+      - Carpentry & Woodworking Project Plans
+      - Forestry & Logging
+      - Heavy Machinery
+      - Material Handling
+    - Industrial & Scientific
+      - Industrial & Scientific
+      - Laboratory Supplies
+      - Medical Cabinets
+      - Medical Bedding
+      - Medical Furniture
+      - Medical
+    - Musical Instruments
+      - Musical Instruments
+      - Musical Toys
+      - Karaoke Systems
+      - Karaoke System Accessories
+      - Turntables & Record Players
+      - Boomboxes
+    - Pet Supplies
+      - Pet Supplies
+      - Animals & Pet Supplies
+      - Live Animals
+    - Software
+      - Software
+      - Semiconductors
+      - Software
+    - Sports & Outdoors
+      - Sports & Outdoors
+      - Exercise & Fitness Equipment Manuals
+      - Fitness Toys
+      - Fitness Toy Accessories
+      - Sports Toy Accessories
+      - Racquet Sport Toys
+      - Basketball Toys
+      - American Football Toys
+    - Toys & Games
+      - Toys & Games
+      - Toys
+      - Dolls, Playsets & Toy Figures
+      - Building Toys
+      - Wooden & Pegged Puzzles
+      - Basketball Arcade Games
+      - Skee-Ball Machines
+      - Video Game Consoles
+      - Video Game Console Accessories
+      - Home Game Console Accessories
+      - Video
+      - Media
+    - Vehicles & Parts
+      - Vehicles & Parts
+      - Vehicles & Parts
+    - Wedding & Party
+      - Wedding & Party
+      - Wedding Ceremony Supplies
+    - Business & Industrial
+      - Business & Industrial
+      - Business Card Cases
+      - Suspenders
+      - Wallet Chains
+      - Handbag & Wallet Accessories
+      - Clothing Accessories
+      - Shoes
+      - Gloves & Mittens
+      - Keyboard & Mouse Wrist Rests
+      - Ring Pillows & Holders
+      - Converters
+      - Cable Management
+      - Cable Tie Guns
+      - Cable Trays
+      - Wire & Cable Sleeves
+      - Antennas
+      - Antenna Accessories
+      - Antenna Mounts & Brackets
+      - GPS Mounts
+      - GPS Cases
+      - GPS Navigation Systems
+      - GPS Accessories
+      - Radio Frequency Identification (RFID)
+      - Radio Frequency (RF)
+      - Radio Frequency (RF) Components
+      - Radio Frequency (RF) Accessories
+      - Radio Frequency (RF) Mounts & Brackets
+      - Radio Frequency (RF) Cases
+      - Radio Frequency (RF) Navigation Systems
+      - Radio Frequency (RF) Accessories
+      - Radio Frequency (RF) Converters
+      - Radio Frequency (RF) Cable Management
+      - Radio Frequency (RF) Cable Tie Guns
+      - Radio Frequency (RF) Cable Trays
+      - Radio Frequency (RF) Wire & Cable Sleeves
+      - Radio Frequency (RF) Antennas
+      - Radio Frequency (RF) Antenna Accessories
+      - Radio Frequency (RF) Antenna Mounts & Brackets
+      - Radio Frequency (RF) GPS Mounts
+      - Radio Frequency (RF) GPS Cases
+      - Radio Frequency (RF) GPS Navigation Systems
+      - Radio Frequency (RF) GPS Accessories
+      - Radio Frequency (RF) Converters
+      - Radio Frequency (RF) Cable Management
+      - Radio Frequency (RF) Cable Tie Guns
+      - Radio Frequency (RF) Cable Trays
+      - Radio Frequency (RF) Wire & Cable Sleeves
+      - Radio Frequency (RF) Antennas
+      - Radio Frequency (RF) Antenna Accessories
+      - Radio Frequency (RF) Antenna Mounts & Brackets
+      - Radio Frequency (RF) GPS Mounts
+      - Radio Frequency (RF) GPS Cases
+      - Radio Frequency (RF) GPS Navigation Systems
+      - Radio Frequency (RF) GPS Accessories
+      - Radio Frequency (RF) Converters
+      - Radio Frequency (RF) Cable Management
+      - Radio Frequency (RF) Cable Tie Guns
+      - Radio Frequency (RF) Cable Trays
+      - Radio Frequency (RF) Wire & Cable Sleeves
+      - Radio Frequency (RF) Antennas
+      - Radio Frequency (RF) Antenna Accessories
+      - Radio Frequency (RF) Antenna Mounts & Brackets
+      - Radio Frequency (RF) GPS Mounts
+      - Radio Frequency (RF) GPS Cases
+      - Radio Frequency (RF) GPS Navigation Systems
+      - Radio Frequency (RF) GPS Accessories
+      - Radio Frequency (RF) Converters
+      - Radio Frequency (RF) Cable Management
+      - Radio Frequency (RF) Cable Tie Guns
+      - Radio Frequency (RF) Cable Trays
+      - Radio Frequency (RF) Wire & Cable Sleeves
+      - Radio Frequency (RF) Antennas
+      - Radio Frequency (RF) Antenna Accessories
+      - Radio Frequency (RF) Antenna Mounts & Brackets
+      - Radio Frequency (RF) GPS Mounts
+      - Radio Frequency (RF) GPS Cases
+      - Radio Frequency (RF) GPS Navigation Systems
+      - Radio Frequency (RF) GPS Accessories
+      - Radio Frequency (RF) Converters
+      - Radio Frequency (RF) Cable Management
+      - Radio Frequency (RF) Cable Tie Guns
+      - Radio Frequency (RF) Cable Trays
+      - Radio Frequency (RF) Wire & Cable Sleeves
+      - Radio Frequency (RF) Antennas
+      - Radio Frequency (RF) Antenna Accessories
+      - Radio Frequency (RF) Antenna Mounts & Brackets
+      - Radio Frequency (RF) GPS Mounts
+      - Radio Frequency (RF) GPS Cases
+      - Radio Frequency (RF) GPS Navigation Systems
+      - Radio Frequency (RF) GPS Accessories
+      - Radio Frequency (RF) Converters
+      - Radio Frequency (RF) Cable Management
+      - Radio Frequency (RF) Cable Tie Guns
+      - Radio Frequency (RF) Cable Trays
+      - Radio Frequency (RF) Wire & Cable Sleeves
+      - Radio Frequency (RF) Antennas
+      - Radio Frequency (RF) Antenna Accessories
+      - Radio Frequency (RF) Antenna Mounts & Brackets
+      - Radio Frequency (RF) GPS Mounts
+      - Radio Frequency (RF) GPS Cases
+      - Radio Frequency (RF) GPS Navigation Systems
+      - Radio Frequency (RF) GPS Accessories
+      - Radio Frequency (RF) Converters
+     
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

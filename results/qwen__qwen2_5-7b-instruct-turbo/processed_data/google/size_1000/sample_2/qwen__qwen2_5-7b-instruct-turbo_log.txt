@@ -1,0 +1,420 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Ammunition Cases & Holders; Spears; Google Product Taxonomy; Gun Care & Accessories; Reloading Supplies & Equipment; Combat Knives; Staff & Stick Weapons; Gun Holsters; Weapons; Mature
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Combat Knives is a subtopic of Weapons; Weapons is a subtopic of Mature; Spears is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Gun Holsters is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Weapons; Gun Lights; Ammunition; Gun Care & Accessories; Swords; Staff & Stick Weapons; Google Product Taxonomy; Mature; Gun Cases & Range Bags; Stun Guns & Tasers
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Ammunition is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Staff & Stick Weapons is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Guns; Throwing Stars; Whips; Mature; Google Product Taxonomy; Gun Care & Accessories; Erotic; Nunchucks; Weapons; Stun Guns & Tasers
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature; Throwing Stars is a subtopic of Weapons; Whips is a subtopic of Weapons; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Nunchucks is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Guns is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Pole Dancing Kits; Erotic Food & Edibles; Erotic Clothing; Erotic Magazines; Erotic Games; Google Product Taxonomy; Erotic; Erotic Books; Mature; Erotic DVDs & Videos
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic DVDs & Videos is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic is a subtopic of Mature; Erotic Food & Edibles is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic Games is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Spears; Staff & Stick Weapons; Weapons; Gun Slings; Google Product Taxonomy; Swords; Gun Grips; Gun Care & Accessories; Stun Guns & Tasers; Mature
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Swords is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Stun Guns & Tasers is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Pet Supplies; Travel Pouches; Vacuum Accessories; Decor; Dog Diaper Pads & Liners; Kitchen & Dining Furniture Sets; Waffle Iron Accessories; Hanging Chair Replacement Parts; Socks; Wine Carrier Bags; Gardening Totes; Decorative Trays; Pet Containment Systems; Espresso Machines; Inversion Tables & Systems; Disease Control; Toddler Underwear; Scarves; Messenger Bags; Earthquake Alarms; Snack Foods; Shoe Covers; Cotton Swabs; Computer Software; Hourglasses; Chaises; Refrigerator Accessories; Baby & Toddler Furniture; Maternity Belts & Support Bands; Double Boilers; Fermentation & Pickling Crocks; Cricket Equipment Sets; Baby & Toddler Gloves & Mittens; Track Lighting Accessories; Glass Cutters; Homebrewing & Winemaking Supplies; Heating, Ventilation & Air Conditioning; Broomball Equipment; Bellows; Putty Knives & Scrapers; Perfume & Cologne; Freezer Accessories; Baby Health; Weather Vanes & Roof Decor; Furniture Sets; Soccer Shin Guards; Axes; Marking Tools; Sport Safety Lights & Reflectors; Cricket Bat Accessories; Skorts; Coat & Hat Racks; Plants; Water Coolers; Seeds; Practice Nets & Screens; Digital Goods & Currency; Religious Items; Flash Diffusers; Smoking Pipes; Solar Energy Kits; Changing Mats & Trays; Media; Volleyball Knee Pads; Basketball Backboards; Baby Soothers; Lighting & Studio; Weed Trimmers; Ballet Barres; Volleyballs; Storage Cabinets & Lockers; Toys & Games; Obi Accessories; Hockey Balls & Pucks; Dishwashers; Wall Plates & Covers; Cotton Candy Machines; Water Filters; Cigar Cutters & Punches; Porch Swings; Dressers; Wall Light Fixtures; GPS Tracking Devices; Eyeglass Lenses; Non-Dairy Milk; Luggage Covers; American Football Neck Rolls; Trees; Emergency Preparedness; Sports Mouthguards; Mulch; Thermal Optic Accessories; Pasta Maker Accessories; Dog Diapers; Pet Thermometers; Jewelry Cleaning & Care; Studio Light & Flash Accessories; Cymbal & Drum Cases; Athletics; Model & Toys Manuals; Pet Glucose Meters; Beer Brewing Grains & Malts; Grass Edgers; Bird Baths; Optics Bags & Cases; Event Tickets; Apparel & Accessories; Night Lights & Ambient Lighting; De-icers; Pizza Makers & Ovens; Lighter Fluid; Bushes & Shrubs; Breast Pumps; Underwear Slips; Baseball & Softball; Pet Biometric Monitors; Cookware & Bakeware; Baby & Toddler Car Seat Accessories; Party & Celebration; Pet Heating Pad Accessories; Food Items; Floor & Steam Cleaner Accessories; Tabi Socks; Hobbies & Creative Arts; Oxygen Absorbers; Luggage Accessories; Ice Makers; Vehicle Pet Barriers; Gymnastics Springboards; Alphabet Toys; Flood, Fire & Gas Safety; Luggage & Bags; Ice Cream Maker Freezer Bowls; Nail Care; Deodorant; Baby Bottles; Handheld & PDA Software; Underwear; Pots & Planters; Emergency Lighting; Food Cookers & Steamers; Griddles & Grill Pans; Cookware Accessories; Arm Warmers & Sleeves; Clothing; Steam Table Pan Covers; Furniture; Baby & Toddler Clothing; Baby Toys & Activity Equipment; Popcorn Makers; Arts & Crafts; Potting Benches; Outdoor Seating; Print, Copy, Scan & Fax; Leaf Blowers; Trophies & Awards; American Football Rib Protection Shirts & Vests; American Football Girdles; Tripod & Monopod Accessories; Film & Television Digital Downloads; Outfit Sets; Tripod & Monopod Heads; Gardening; Diaper Pails; Cricket Bat Grips; Desk Parts & Accessories; Briefcases; Snow Shovels; Cricket; Hot Chocolate; Ball Pumps; Cabinets & Storage; End Tables; Office Furniture Sets; Linesman Flags; Kitchen & Dining Room Tables; Security Lights; Arm Chairs, Recliners & Sleeper Chairs; French Presses; Packing Organizers; Cooktops; Dog Kennel & Run Accessories; Chemicals; Boxing & Martial Arts Protective Gear; Pressure Washers; Computer Icons; Gardening Tool Handles; Tripod & Monopod Cases; Scopes; Basketball Hoop Parts & Accessories; Power Converters; Futon Pads; Outdoor Sectional Sofa Units; Rocking Chairs; Neck Gaiters; Outerwear; Ice Cream Maker Accessories; Baby Mobiles; Pet Food Containers; Pet Food Scoops; Puzzles; Cigarette Holders; Foam Roller Accessories; Soda; Outdoor Ottomans; Studio Stands & Mounts; Milk Frothers & Steamers; Emergency Blankets; Virtual Currency; Fireplace Andirons; Ball Pump Needles; Dollies & Hand Trucks; Basketball Hoop Padding; Lighting Accessories; Food Dehydrator Trays; American Football Kicking Tees & Holders; Percussion Mallets; Health & Beauty; Nailers & Staplers; Small Engines; Handbag & Wallet Accessories; Cat Toys; Wreaths & Garlands; Fireplace Reflectors; Tennis Nets; Spoken Word & Field Recordings; Snow Blowers; Baby Wipe Dispensers & Warmers; Coffee Tables; Rugby Gloves; Milling Machines; Water Heaters; Long Skirts; Aerobic Steps; World Globes; Magazines; Cutters; Snow Removal; Pasta Makers; Wedding Dresses; Bookcases & Standing Shelves; Cat Litter Boxes; Pressure Cooker & Canner Accessories; Burp Cloths; Food Dehydrators; Lighting; Table Legs; Cricket Balls; Fire Extinguishers; Print Books; Light Meter Accessories; Musical Instrument Amplifier Accessories; Sports Megaphones; Dreamcatchers; Outdoor Play Equipment; Magazine Racks; Cameras & Optics; Ceiling Light Fixtures; Bibs; Camera & Optic Accessories; Carbon Monoxide Detectors; Game Timers; Wax Tarts; Volleyball; Ball Pump Accessories; Vanities; Food & Beverage Carriers; Lawn & Garden; Security Safe Accessories; Pants; Music CDs; Garage Door Keypads & Remotes; Wine Aerators; Grip Spray & Chalk; Sandboxes; Obis; Exercise Machine & Equipment Sets; Indoor & Outdoor Plants; Motion Sensors; Weapon Scope & Sight Accessories; Film & Television VHS Tapes; Absinthe Fountains; Tea & Infusions; Telescopes; Kitchen & Dining; Studio Lighting Controls; Baby Bouncers & Rockers; Pacifiers & Teethers; Baby & Toddler Dresses; Makeup Tools; Water Ovens; Vests; Workspace Tables; Cat Litter; Shapewear; Small Animal Treats; Bath & Body Gift Sets; Beverage Warmers; American Footballs; Ice Cream Makers; Trunks; Garage Door Openers; Yogurt Makers; Pet Bowl Stands; Umbrella Sleeves & Cases; Rattles; Popcorn; Shawls; Gaming Chairs; Business Card Cases; Surveillance Camera Lenses; Power Sweepers; Uniforms; Pet Eye Drops & Lubricants; Mailbox Covers; Diaper Bags; Kitchen Appliances; Coffee Maker & Espresso Machine Accessories; Magazines & Newspapers; Storage Chests; Powdered Beverage Mixes; Cufflinks; Prefabricated Kitchens & Kitchenettes; Cricket Stumps; MMA Shin Guards; Pool & Spa; Hammers; Deli Slicers; Light Bulb Changers; Sporting Goods; Floor Chairs; Water Tables; Smoke & Carbon Monoxide Detectors; Suits; Reaction Balls; Home & Garden; Flowers; Handbags; Sofas; Sauté Pans; Pet Collars & Harnesses; Personal Care; Music Lyres & Flip Folders; Sorting & Stacking Toys; Power & Electrical Supplies; Air Ducts; Collar Stays; Trash Compactors; Baseball & Softball Gloves & Mitts; Humidor Accessories; Boxing & MMA Hand Wraps; Outdoor Grills; Boxing & Martial Arts; Loose Tobacco; Soccer Goal Accessories; Knife Sharpeners; Toasters & Grills; Beverages; American Football Helmet Accessories; Cooktop, Oven & Range Accessories; Office Supply Manuals; Spotting Scope Accessories; Dips & Spreads; Tennis Racquet Accessories; Coaching & Officiating; Stock Photographs & Video Footage; Outdoor Power Equipment Sets; Camera & Optics Manuals; Baseball Bats; Mirrors; Pet Waste Disposal Systems & Tools; Chairs; Potted Houseplants; Tennis; Shoelaces; Candle Holders; Long Johns; Landscape Pathway Lighting; Product Manuals; Beer Dispensers & Taps; Baseball & Softball Batting Gloves; Sundials; DVDs & Videos; Push Up & Pull Up Bars; Wire Terminals & Connectors; Buffets & Sideboards; Tarot Cards; Plumbing Primer; Guacamole; Desks; Futon Dryers; Granola Bars; Soccer; Ammonia; Speed & Resistance Parachutes; Studio Stand & Mount Accessories; Baseballs; Sleeping Aids; Food, Beverages & Tobacco; Cat Beds; Baby Transport Liners & Sacks; Fireplace Screens; Bedroom Vanities; Changing Tables; Porch Swing Accessories; Breads & Buns; Landscaping & Garden Plants; Coffee Filter Baskets; Pasta & Noodles; Nail Polish Thinners; Mail Slots; Entertainment Centers & TV Stands; Grips; Outdoor Blankets; Pot & Pan Lids; Animals & Pet Supplies; Non-prescription Cat Food; American Football Helmets; Kitchen & Dining Benches; Sunglass Lenses; Photography; Tennis Ball Savers; Exercise Benches; Live Animals; Pet Sunscreen; Metronomes; Decorative Plaques; Outdoor Chairs; Receiving Blankets; Headwear; Decorative Bells; Armoires & Wardrobes; Bird Feeders; Fountains & Ponds; Lanyards; Chocolate Tempering Machines; Carpentry & Woodworking Project Plans; Novelty Signs; Security Monitors & Recorders; Baby & Toddler; American Football Training Equipment; Bathroom Vanities; Pommel Horses; Religious & Ceremonial; Office Application Software; Dry Boxes; Scarves & Shawls; Percolators; Pet First Aid & Emergency Kits; Fuel Containers & Tanks; Contractor Pants & Coveralls; Boxing Gloves & Mitts; Bridal Party Dresses; Electronics Manuals; Wine Racks; Checkbook Covers; Freezers; Media Storage Cabinets & Racks; Juicers; Outdoor Furniture Sets; Shoes; Small Animal Food; Napkin Rings; Chewing Tobacco; Tractors; Buttermilk; Skin Care Masks & Peels; Parasols & Rain Umbrellas; Pant Suits; Dog Apparel; Shower Caps; Exercise & Fitness; Tripod Collars & Mounts; Wood Stoves; Cribs & Toddler Beds; Power Outlets & Sockets; Outdoor Furniture Accessories; Cosmetic Sets; Hot Plates; Prepared Foods; Outdoor Power Equipment; Bakeware Accessories; Flags & Windsocks; Sleepwear & Loungewear; Vision Care; Rugby Training Aids; Diapering; Balance Trainers; Dried Flowers; Vibration Exercise Machines; Earmuffs; Knee-Length Skirts; Saucepans; Growth Charts; Pet Leash Extensions; Baby Jumpers & Swings; Toaster Accessories; Office Furniture Accessories; Stopwatches; Prayer Cards; Boot Liners; American Football Gloves; Garden & Stepping Stones; Pet Playpens; Outdoor Power Equipment Base Units; Baby Walkers & Entertainers; Dry Box Liners & Inserts; Pry Bars; Barware; Lawn Aerators & Dethatchers; Camera & Video Camera Lenses; Photo Mounting Supplies; Ponds; Water Cooler Accessories; Refrigerators; Tennis Racquets; Saunas; Baseball & Softball Pitching Mats; Racquetball & Squash; Dancing; Office Furniture; Diaper Kits; Smoking Accessories; Rain Chains; Pet Door Accessories; Music Stand Lights; Ecospheres; Fireplace & Wood Stove Accessories; Household Appliances; Home Fragrances; Fire Alarms; Baby & Toddler Outerwear; Flameless Candles; Electric Skillets & Woks; Deodorant & Anti-Perspirant; Water Bottles; Google Product Taxonomy; Tennis Racquet Grommets; Mini Skirts; Garden Bridges; Cat Food; American Football Goal Posts; Wind Wheels & Spinners; Martial Arts Belts; Baby Transport Accessories; Chips; Rain Pants; Tobacco Products; Accent Tables; Tanning Beds; Room Dividers; Cheerleading; Cosmetics; Weighted Clothing; Costumes & Accessories; Soccer Protective Gear; Pitching Machines; Soccer Goals; Coffee Makers & Espresso Machines; Wallets & Money Clips; Lingerie Accessories; Piggy Banks & Money Jars; Squirrel Feeders; Spurs; Home Decor Decals; Flood & Spot Lights; Toasters; Airpots; Beverage Tubs & Chillers; Hand Sanitizers & Wipes; Insulated Bags; Rounders Bats; Racquetball & Squash Gloves; Baby Gift Sets; Ladders & Scaffolding; Baby & Toddler Belts; Door Mats; Traditional Clothing Accessories; Kitchen Appliance Manuals; Balaclavas; Electrician Fish Tape; Slipcovers; Hardware; Vinegar Drinks; Cotton Balls; Digital Artwork; Snow Pants & Suits; Baby Protective Wear; Baby & Toddler Hats; Softball Bats; American Football Protective Gear; Pet Bells & Charms; Nasal Aspirators; Cardboard Cutouts; Weapon Scopes & Sights; Skin Care; Garters; Swimming Pools; Lunch Boxes & Totes; Breast Pump Accessories; Bathroom Furniture Sets; Pet Strollers; Music Stand Accessories; Poker & Game Tables; Umpire Indicators; Chainsaws; Enema Kits & Supplies; Diaper Liners; Log Splitters; Eggnog; Wine Fridges; Wall Shelves & Ledges; Racquetball & Squash Eyewear; Basketball; Foam Roller Storage Bags; Rangefinders; Trampolines; Plant & Flower Bulbs; Jewelry Steam Cleaners; Underwear & Socks; Trail & Snack Mixes; Sports & Agility Cones; Replacement Drink Lids; Baby & Toddler Bottoms; Tea Makers; Dog Supplies; Office Chair Accessories; Petticoats & Pettipants; Patio Heater Accessories; Kimono Underclothes; Liquid Hand Soap; Softballs; Sewing Machine Tables; Finials; Crêpe & Blini Pans; Rugs; Rugby Balls; General Purpose Athletic Equipment; Pinback Buttons; Swaddling & Receiving Blankets; Juggling; Croutons; Network Software; Electric Skillet & Wok Accessories; Bottle Caps; Carbon Brushes; Vacuum Coffee Makers; Pajamas; Ottomans; Music & Sound Recordings; Vanity Benches; Watering Can Accesssories; Volleyball Nets; Throw Pillows; Cotton Candy Machine Accessories; Softboxes; Neckties; Hardware Tape; Kotatsu; Watering & Irrigation; Business & Home Security; Artificial Food; Cigar Cases; Decorative Fans; Wine & Liquor Cabinets; Ranges; Electronics; Yogurt Maker Accessories; Kitchen & Dining Room Chairs; Birdhouses; Soccer Corner Flags; Rangefinder Accessories; Monoculars; Memorial Ceremony Supplies; Potty Training; Basketball Hoops; Arts & Entertainment; Sharpeners; Room Divider Accessories; Electric Kettles; Baby Health & Grooming Kits; Futon Frames; Bird & Wildlife Feeders; Cat Supplies; Memorial Urns; Lighting Filters & Gobos; Mochi Makers; Garter Belts; Books; Fragrance Oil; Food Grinder Accessories; Security Safes; Nursing & Feeding; Basketballs; Figurines; Inflatable Bouncer Accessories; Tennis Racquet String; Electric Griddles & Grills; Soy Milk Makers; Video Game Software; Outdoor Structures; False Nails; Hammock Parts & Accessories; Cat Apparel; Personal Lubricants; Oil Filter Drains; Potpourri; Bath & Body; Floating & Submersible Lights; Bottle Warmers & Sterilizers; Food Grinders & Mills; Cat Furniture; Ottoman Cushions; Bird & Wildlife House Accessories; Anti-Aging Skin Care Kits; Baby & Toddler Clothing Accessories; Newspapers; Train Cases; Drip Coffee Makers; Optic Accessories; Storage Tanks; Exercise & Gym Mat Storage Racks & Carts; Pitch Counters; House Numbers & Letters; Rugby Protective Gear; Fertilizers; Tennis Racquet Grips & Tape; Humidors; Riveting Tools; Basketball Training Aids; Wallpaper; Food Dehydrator Accessories; Electric & Stovetop Espresso Pots; Canteens; Baby & Toddler Outfits; Butterfly Houses; Baby Wipes; Photo Negative & Slide Storage; Vaulting Horses; Food Dehydrator Sheets; Handbags, Wallets & Cases; Skirts; Altitude Training Masks; Table & Bar Stools; Soda Makers; Deep Fryers; Tools; Sashes; Potty Training Kits; Coaster Holders; Camera & Optic Replacement Cables; Cigars; Building Consumables; Leis; Outdoor Storage Boxes; Drum Sticks & Brushes; Keychains; Toy Chests; Grill Presses; Log Rack & Carrier Accessories; Cheerleading Pom Poms; Track Lighting Rails; Backpacks; Mailbox Accessories; Coats & Jackets; Small Animal Bedding; Rugby; Boxing Ring Parts; Sunscreen; Floor Polishers & Buffers; Pet Apparel Hangers; Inflatable Bouncers; Picture Lights; Fire Alarm Control Panels; Track Lighting; Tables; Cosmetic Tools; Ashtrays; Gardening Tools; Audiobooks; Body Wash; Exercise Wedges; Wedding & Bridal Party Dresses; Changing Mat & Tray Covers; Baskets; Paint Tools; Electronic Tuners; China Cabinets & Hutches; Twist Ties & Bag Clips; Play Swings; Racquet Vibration Dampeners; Rain Barrels; Folding Chairs & Stools; Gardening Tool Accessories; Home Fragrance Accessories; Ball Carrying Bags & Carts; Baby & Toddler Furniture Sets; Lamps; Frozen Drink Makers; Bolt Cutters; Hanging Chairs; Belt Buckles; Rounders; Cocktail & Barware Tool Sets; Gymnastics; Shoe Accessories; Milk; Cosmetic & Toiletry Bags; Casserole Dishes; Tool Keys; Gardening Accessories; Musical Instrument & Orchestra Accessories; Household Appliance Accessories; Office Chairs; Sunglasses; Sheds, Garages & Carports; Cheese Dips & Spreads; Shapers; Vacuum Sealers; Humidifier Accessories; Benches; Table Accessories; Records & LPs; Soda Maker Accessories; Ice Scrapers & Snow Brushes; Portable Cooking Stoves; Vases; Wristbands; Garbage Disposal Accessories; Sports & Energy Drinks; Sheet Music; Outdoor Living; Music Stands; Tripods & Monopods; Cigarette Cases; Tennis Ball Machines; Living Room Furniture Sets; Percussion Accessories; Medicine Balls; Optics; Tennis Racquet Bags; Skirt Suits; Robes; Jams & Jellies; Bat Houses; Compilers & Programming Tools; Wooden & Pegged Puzzles; Watering Globes & Spikes; Snoring & Sleep Apnea Aids; Cereal & Granola Bars; Push & Pull Toys; Outdoor Furniture; Wallyball Equipment; Lighting Fixtures; Food Wrap Dispensers; Button Studs; Cabinet Light Fixtures; Play Sprinkers; Candle Snuffers; Wall Patching Compounds & Plaster; Fondue Pots & Sets; Back Care; Suncatchers; Tripod Spreaders; Coffee Grinder Accessories; Martial Arts Weapons; Wallet Chains; Wind Chimes; Herbicides; Gym Mats; Fountain & Pond Accessories; Candle & Oil Warmers; Home Alarm Systems; Lip Balms & Treatments; Lawn Vacuums; Cardio; Leg Warmers; Coasters; Pet Vitamins & Supplements; Aquatic Plants; Soccer Gloves; Vehicle Service Manuals; Cookware; Decorative Bowls; Digital Music Downloads; Bassinets & Cradles; Slides; Log Racks & Carriers; Electric Massaging Chairs; Frothing Pitchers; Pastries & Scones; Salad Toppings; Swimwear; Fanny Packs; Food Storage Accessories; High Chair & Booster Seat Accessories; Trampoline Accessories; Plant & Herb Growing Kits; Picnic Baskets; Baby Carrier Accessories; Gymnastics Rings; Hardware Glue & Adhesives; Outdoor Beds; Diaper Wet Bags; Racquetball Racquets; Shirts & Tops; Activity Tables; Canopies & Gazebos; Video Camera Lenses; Watering Cans; Lotion & Moisturizer; Pet Agility Equipment; Garden Arches, Trellises, Arbors & Pergolas; Table Tops; Camera Lenses; Chair Accessories; Desktop Wallpaper; Emergency Tools & Kits; Water Parks & Slides; Musical Instrument Amplifier Covers & Cases; Gymnastics Bars & Balance Beams; Diaper Rash Treatments; Bird & Wildlife Houses; Hand Muffs; Rounders Gloves; Baby Bathing; Reptile & Amphibian Supplies; Kitchen Appliance Accessories; Baseball & Softball Bases & Plates; Artwork; American Football; Pressure Cookers & Canners; Binoculars; Vacuum Sealer Accessories; Window Magnets; Clothing Accessories; Garden Pot Saucers & Trays; Pacifier Wipes; Garbage Disposals; Pet Medical Collars; Dresses; Air & Filter Dryers; Telescope Accessories; Anvils; Lamp Shades; Manicure Glue; Dog Treats; Belts; Flasks; Bean Bag Chairs; Swaddling Blankets; Breadsticks; Wine Bottle Holders; Shadow Boxes; Baby Activity Toys; Lingerie; Dog Toys; Fireplace Tools; Carpentry Jointers; Pet ID Tags; Refrigerator Magnets; Gas Griddles; Pet Flea & Tick Control; Team Handball; Pipe & Tube Cleaners; Military Uniforms; Light Ropes & Strings; Beverage Chilling Cubes & Sticks; Water Play Equipment; Bakery; Steam Table Pans; Outdoor Tables; Dog Kennels & Runs; Cookware Sets; Cigarettes; Play Yards; Pet Leashes; Shelving; Undershirts; Pet Heating Pads; Volleyball Protective Gear; Figure Skating & Hockey; Small Animal Supplies; Small Animal Habitat Accessories; Steam Table Accessories; Mechanical Puzzles; Software; Awning Accessories; Incense Holders; Drum Kit Hardware; Speed & Agility Ladders & Hurdles; Work Lights; See Saws; Tuxedos; Spotting Scopes; Portable Cooking Stove Accessories; Roasting Pan Racks; Rugby Headgear; Roaster Ovens & Rotisseries; Studio Backgrounds
+Relationships: 
+
+================================================================================
+Number of entities: 1000
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here is a structured taxonomy based on the provided concepts:
+
+1. **Google Product Taxonomy**
+   - **Mature**
+     - **Weapons**
+       - **Spears**
+       - **Staff & Stick Weapons**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+       - **Swords**
+
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

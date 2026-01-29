@@ -1,0 +1,98 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: food; pasta; occhi di lupo; pici; fagottini; gemelli; spaghetti; bavette; fusilli; cannelloni
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+pasta is a subtopic of food; gemelli is a subtopic of pasta; fusilli is a subtopic of pasta; spaghetti is a subtopic of pasta; fagottini is a subtopic of pasta; bavette is a subtopic of pasta; pici is a subtopic of pasta; cannelloni is a subtopic of pasta; occhi di lupo is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: mezzelune; food; corzetti; linguine; pasta; spaghetti; croxetti; fuži; rotini; sacchettoni
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+spaghetti is a subtopic of pasta; pasta is a subtopic of food; mezzelune is a subtopic of pasta; linguine is a subtopic of pasta; fuži is a subtopic of pasta; sacchettoni is a subtopic of pasta; corzetti is a subtopic of pasta; croxetti is a subtopic of pasta; rotini is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: food; garganelli; occhi di lupo; stringozzi; anellini; pasta; corzetti; bigoli; mezzelune; fuži
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+pasta is a subtopic of food; garganelli is a subtopic of pasta; mezzelune is a subtopic of pasta; occhi di lupo is a subtopic of pasta; stringozzi is a subtopic of pasta; anellini is a subtopic of pasta; fuži is a subtopic of pasta; corzetti is a subtopic of pasta; bigoli is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: ptitim; food; spaghetti; pasta; macaroni; campanelle; passatelli; casoncelli; rotini; lanterne
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+spaghetti is a subtopic of pasta; rotini is a subtopic of pasta; passatelli is a subtopic of pasta; campanelle is a subtopic of pasta; pasta is a subtopic of food; macaroni is a subtopic of pasta; ptitim is a subtopic of pasta; lanterne is a subtopic of pasta; casoncelli is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: rotini; pasta; sacchettoni; spaghetti; food; rotelle; stringozzi; penne; mezzelune; ptitim
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+spaghetti is a subtopic of pasta; ptitim is a subtopic of pasta; mezzelune is a subtopic of pasta; pasta is a subtopic of food; penne is a subtopic of pasta; rotelle is a subtopic of pasta; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta; sacchettoni is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: spätzle; food; pecans; noodle; shirataki noodles; pistachios; yaki udon; silver needle noodles; dandan noodles; popsicles; cereals; cooking ingredient; seeds; frozen meat; chocolate covered nuts; korean noodles; beef; brési; frozen dessert; meat
+Relationships: 
+
+================================================================================
+Number of entities: 20
+Model: gpt-5
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+noodle is a subtopic of food; meat is a subtopic of food; cooking ingredient is a subtopic of food; frozen dessert is a subtopic of food; chocolate covered nuts is a subtopic of food; seeds is a subtopic of cooking ingredient; cereals is a subtopic of seeds; pecans is a subtopic of seeds; pistachios is a subtopic of seeds; beef is a subtopic of meat; brési is a subtopic of beef; frozen meat is a subtopic of meat; popsicles is a subtopic of frozen dessert; spätzle is a subtopic of noodle; shirataki noodles is a subtopic of noodle; silver needle noodles is a subtopic of noodle; dandan noodles is a subtopic of noodle; korean noodles is a subtopic of noodle; yaki udon is a subtopic of noodle
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 19
+
+Parsed relationships:
+  noodle → food
+  meat → food
+  cooking ingredient → food
+  frozen dessert → food
+  chocolate covered nuts → food
+  seeds → cooking ingredient
+  cereals → seeds
+  pecans → seeds
+  pistachios → seeds
+  beef → meat
+  brési → beef
+  frozen meat → meat
+  popsicles → frozen dessert
+  spätzle → noodle
+  shirataki noodles → noodle
+  silver needle noodles → noodle
+  dandan noodles → noodle
+  korean noodles → noodle
+  yaki udon → noodle
+
+================================================================================

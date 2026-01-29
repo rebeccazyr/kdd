@@ -1,0 +1,262 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: food; gemelli; bavette; fusilli; spaghetti; pasta; cannelloni; occhi di lupo; pici; fagottini
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+fusilli is a subtopic of pasta; fagottini is a subtopic of pasta; cannelloni is a subtopic of pasta; gemelli is a subtopic of pasta; bavette is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta; pici is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: food; spaghetti; fuži; linguine; rotini; mezzelune; croxetti; sacchettoni; corzetti; pasta
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+pasta is a subtopic of food; fuži is a subtopic of pasta; croxetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; spaghetti is a subtopic of pasta; rotini is a subtopic of pasta; mezzelune is a subtopic of pasta; linguine is a subtopic of pasta; corzetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: corzetti; mezzelune; bigoli; fuži; pasta; occhi di lupo; garganelli; anellini; stringozzi; food
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+garganelli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; corzetti is a subtopic of pasta; mezzelune is a subtopic of pasta; stringozzi is a subtopic of pasta; pasta is a subtopic of food; fuži is a subtopic of pasta; bigoli is a subtopic of pasta; anellini is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: campanelle; food; passatelli; macaroni; casoncelli; rotini; ptitim; pasta; spaghetti; lanterne
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+lanterne is a subtopic of pasta; casoncelli is a subtopic of pasta; macaroni is a subtopic of pasta; passatelli is a subtopic of pasta; rotini is a subtopic of pasta; campanelle is a subtopic of pasta; ptitim is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: pasta; rotini; ptitim; sacchettoni; penne; mezzelune; rotelle; food; stringozzi; spaghetti
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+mezzelune is a subtopic of pasta; rotini is a subtopic of pasta; penne is a subtopic of pasta; stringozzi is a subtopic of pasta; ptitim is a subtopic of pasta; rotelle is a subtopic of pasta; spaghetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: tangerines; herb; food; physalis; cooking wine; marshmallows; longan; taco soup; noodle; kapusniak; melons; kumquats; barley; fruit; shambar; eggs; pie crusts; rice; soup alla canavese; dough; rambutans; shortening and lard; prepared food; henan braised noodle; grapes; oil noodles; pig's organ soup; cherries; apples; pottage; amaranth; cereals; limequats; grits; cooking ingredient; dalithoy; spice; tinned soup; soup; soy product; gazpacho; atemoyas; kiwis; pie fillings; peaches; jjolmyeon; chinese noodles; binignit; crème ninon; passion fruit
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+tangerines is a subtopic of fruit; physalis is a subtopic of fruit; kumquats is a subtopic of fruit; melons is a subtopic of fruit; grapes is a subtopic of fruit; cherries is a subtopic of fruit; apples is a subtopic of fruit; peaches is a subtopic of fruit; kiwis is a subtopic of fruit; passion fruit is a subtopic of fruit; limequats is a subtopic of fruit; tinned soup is a subtopic of prepared food; soup is a subtopic of prepared food; soup alla canavese is a subtopic of soup; gazpacho is a subtopic of soup; pig's organ soup is a subtopic of soup; dalithoy is a subtopic of cooking ingredient; spice is a subtopic of cooking ingredient; shortening and lard is a subtopic of cooking ingredient; oil noodles is a subtopic of noodle; atemoyas is a subtopic of fruit; crème ninon is a subtopic of prepared food; tangerines is a subtopic of food; physalis is a subtopic of food; cooking wine is a subtopic of food; marshmallows is a subtopic of food; longan is a subtopic of food; taco soup is a subtopic of food; noodle is a subtopic of food; kapusniak is a subtopic of food; melons is a subtopic of food; barley is a subtopic of cereals; rice is a subtopic of cereals; pottage is a subtopic of food; amaranth is a subtopic of cereals; cereal is a subtopic of food; tangerines is a subtopic of herb; tangerines is a subtopic of spice; tangerines is a subtopic of pie fillings; tangerines is a subtopic of pie crusts; tangerines is a subtopic of dalithoy; tangerines is a subtopic of soy product; tangerines is a subtopic of gazpacho; tangerines is a subtopic of soup; tangerines is a subtopic of soup alla canavese; tangerines is a subtopic of pig's organ soup; tangerines is a subtopic of tinned soup; tangerines is a subtopic of crème ninon; tangerines is a subtopic of amaranth; tangerines is a subtopic of barley; tangerines is a subtopic of oil noodles; tangerines is a subtopic of atemoyas; tangerines is a subtopic of gazpacho; tangerines is a subtopic of passion fruit; tangerines is a subtopic of longan; tangerines is a subtopic of peaches; tangerines is a subtopic of kiwis; tangerines is a subtopic of limequats; tangerines is a subtopic of grapes; tangerines is a subtopic of apples; tangerines is a subtopic of cherries; tangerines is a subtopic of melons; tangerines is a subtopic of kumquats; tangerines is a subtopic of physalis; tangerines is a subtopic of melons; tangerines is a subtopic of barley; tangerines is a subtopic of amaranth; tangerines is a subtopic of rice; tangerines is a subtopic of pottage; tangerines is a subtopic of prepared food; tangerines is a subtopic of henan braised noodle; tangerines is a subtopic of chinese noodles; tangerines is a subtopic of binignit; tangerines is a subtopic of jjolmyeon; tangerines is a subtopic of grits; tangerines is a subtopic of oil noodles; tangerines is a subtopic of amaranth; tangerines is a subtopic of barley; tangerines is a subtopic of rice; tangerines is a subtopic of pottage; tangerines is a subtopic of prepared food; tangerines is a subtopic of henan braised noodle; tangerines is a subtopic of chinese noodles; tangerines is a subtopic of binignit; tangerines is a subtopic of jjolmyeon; tangerines is a subtopic of grits; tangerines is a subtopic of oil noodles; tangerines is a subtopic of amaranth; tangerines is a subtopic of barley; tangerines is a subtopic of rice; tangerines is a subtopic of pottage; tangerines is a subtopic of prepared food; tangerines is a subtopic of henan braised noodle; tangerines is a subtopic of chinese noodles; tangerines is a subtopic of binignit; tangerines is a subtopic of jjolmyeon; tangerines is a subtopic of grits; tangerines is a subtopic of oil noodles; tangerines is a subtopic of amaranth; tangerines is a subtopic of barley; tangerines is a subtopic of rice; tangerines is a subtopic of pottage; tangerines is a subtopic of prepared food; tangerines is a subtopic of henan braised noodle; tangerines is a subtopic of chinese noodles; tangerines is a subtopic of binignit; tangerines is a subtopic of jjolmyeon; tangerines is a subtopic of grits; tangerines is a subtopic of oil noodles; tangerines is a subtopic of amaranth; tangerines is a subtopic of barley; tangerines is a subtopic of rice; tangerines is a subtopic of pottage; tangerines is a subtopic of prepared food; tangerines is a subtopic of henan braised noodle; tangerines is a subtopic of chinese noodles; tangerines is a subtopic of binignit; tangerines is a subtopic of jjolmyeon; tangerines is a subtopic of grits; tangerines is a subtopic of oil noodles; tangerines is a subtopic of amaranth; tangerines is a subtopic of barley; tangerines is a subtopic of rice; tangerines is a subtopic of pottage; tangerines is a subtopic of prepared food; tangerines is a subtopic of henan braised noodle; tangerines is a subtopic of chinese noodles; tangerines is a subtopic of binignit; tangerines is a subtopic of jjolmyeon; tangerines is a subtopic of grits; tangerines is a subtopic of oil noodles; tangerines is a subtopic of amaranth; tangerines is a subtopic of barley; tangerines is a subtopic of rice; tangerines is a subtopic of pottage; tangerines is a subtopic of prepared food; tangerines is a subtopic of henan braised noodle; tangerines is a subtopic of chinese noodles; tangerines is a subtopic of binignit; tangerines is a subtopic of jjolmyeon; tangerines is a subtopic of grits; tangerines is a subtopic of oil noodles; tangerines is a subtopic of amaranth; tangerines is a subtopic of barley; tangerines is a subtopic of rice; tangerines is a subtopic of pottage; tangerines is a subtopic of prepared food; tangerines is a subtopic of henan braised noodle; tangerines is a subtopic of chinese noodles; tangerines is a subtopic of binignit; tangerines is a subtopic of jjolmyeon; tangerines is a subtopic of grits; tangerines is a subtopic of oil noodles; tangerines is a subtopic of amaranth; tangerines is a subtopic of barley; tangerines is a subtopic of rice; tangerines is a subtopic of pottage; tangerines is a subtopic of prepared food; tangerines is a subtopic of henan braised noodle; tangerines is a subtopic of chinese noodles; tangerines is a subtopic of binignit; tangerines is a subtopic of jjolmyeon; tangerines is a subtopic of grits; tangerines is a subtopic of oil noodles; tangerines is a subtopic of amaranth; tangerines is a subtopic of barley; tangerines is a subtopic of rice; tangerines is a subtopic of pottage; tangerines is a subtopic of prepared food; tangerines is a subtopic of henan braised noodle; tangerines is a subtopic of chinese noodles; tangerines is a subtopic of binignit; tangerines is a subtopic of jjolmyeon; tangerines is a subtopic of grits; tangerines is a subtopic of oil noodles; tangerines is a subtopic of amaranth; tangerines is a subtopic of barley; tangerines is a subtopic of rice; tangerines is a subtopic of pottage; tangerines is a subtopic of prepared food; tangerines is a subtopic of henan braised noodle; tangerines is a subtopic of chinese noodles; tangerines is a subtopic of binignit; tangerines
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 183
+
+Parsed relationships:
+  tangerines → fruit
+  physalis → fruit
+  kumquats → fruit
+  melons → fruit
+  grapes → fruit
+  cherries → fruit
+  apples → fruit
+  peaches → fruit
+  kiwis → fruit
+  passion fruit → fruit
+  limequats → fruit
+  tinned soup → prepared food
+  soup → prepared food
+  soup alla canavese → soup
+  gazpacho → soup
+  pig's organ soup → soup
+  dalithoy → cooking ingredient
+  spice → cooking ingredient
+  shortening and lard → cooking ingredient
+  oil noodles → noodle
+  atemoyas → fruit
+  crème ninon → prepared food
+  tangerines → food
+  physalis → food
+  cooking wine → food
+  marshmallows → food
+  longan → food
+  taco soup → food
+  noodle → food
+  kapusniak → food
+  melons → food
+  barley → cereals
+  rice → cereals
+  pottage → food
+  amaranth → cereals
+  cereal → food
+  tangerines → herb
+  tangerines → spice
+  tangerines → pie fillings
+  tangerines → pie crusts
+  tangerines → dalithoy
+  tangerines → soy product
+  tangerines → gazpacho
+  tangerines → soup
+  tangerines → soup alla canavese
+  tangerines → pig's organ soup
+  tangerines → tinned soup
+  tangerines → crème ninon
+  tangerines → amaranth
+  tangerines → barley
+  tangerines → oil noodles
+  tangerines → atemoyas
+  tangerines → gazpacho
+  tangerines → passion fruit
+  tangerines → longan
+  tangerines → peaches
+  tangerines → kiwis
+  tangerines → limequats
+  tangerines → grapes
+  tangerines → apples
+  tangerines → cherries
+  tangerines → melons
+  tangerines → kumquats
+  tangerines → physalis
+  tangerines → melons
+  tangerines → barley
+  tangerines → amaranth
+  tangerines → rice
+  tangerines → pottage
+  tangerines → prepared food
+  tangerines → henan braised noodle
+  tangerines → chinese noodles
+  tangerines → binignit
+  tangerines → jjolmyeon
+  tangerines → grits
+  tangerines → oil noodles
+  tangerines → amaranth
+  tangerines → barley
+  tangerines → rice
+  tangerines → pottage
+  tangerines → prepared food
+  tangerines → henan braised noodle
+  tangerines → chinese noodles
+  tangerines → binignit
+  tangerines → jjolmyeon
+  tangerines → grits
+  tangerines → oil noodles
+  tangerines → amaranth
+  tangerines → barley
+  tangerines → rice
+  tangerines → pottage
+  tangerines → prepared food
+  tangerines → henan braised noodle
+  tangerines → chinese noodles
+  tangerines → binignit
+  tangerines → jjolmyeon
+  tangerines → grits
+  tangerines → oil noodles
+  tangerines → amaranth
+  tangerines → barley
+  tangerines → rice
+  tangerines → pottage
+  tangerines → prepared food
+  tangerines → henan braised noodle
+  tangerines → chinese noodles
+  tangerines → binignit
+  tangerines → jjolmyeon
+  tangerines → grits
+  tangerines → oil noodles
+  tangerines → amaranth
+  tangerines → barley
+  tangerines → rice
+  tangerines → pottage
+  tangerines → prepared food
+  tangerines → henan braised noodle
+  tangerines → chinese noodles
+  tangerines → binignit
+  tangerines → jjolmyeon
+  tangerines → grits
+  tangerines → oil noodles
+  tangerines → amaranth
+  tangerines → barley
+  tangerines → rice
+  tangerines → pottage
+  tangerines → prepared food
+  tangerines → henan braised noodle
+  tangerines → chinese noodles
+  tangerines → binignit
+  tangerines → jjolmyeon
+  tangerines → grits
+  tangerines → oil noodles
+  tangerines → amaranth
+  tangerines → barley
+  tangerines → rice
+  tangerines → pottage
+  tangerines → prepared food
+  tangerines → henan braised noodle
+  tangerines → chinese noodles
+  tangerines → binignit
+  tangerines → jjolmyeon
+  tangerines → grits
+  tangerines → oil noodles
+  tangerines → amaranth
+  tangerines → barley
+  tangerines → rice
+  tangerines → pottage
+  tangerines → prepared food
+  tangerines → henan braised noodle
+  tangerines → chinese noodles
+  tangerines → binignit
+  tangerines → jjolmyeon
+  tangerines → grits
+  tangerines → oil noodles
+  tangerines → amaranth
+  tangerines → barley
+  tangerines → rice
+  tangerines → pottage
+  tangerines → prepared food
+  tangerines → henan braised noodle
+  tangerines → chinese noodles
+  tangerines → binignit
+  tangerines → jjolmyeon
+  tangerines → grits
+  tangerines → oil noodles
+  tangerines → amaranth
+  tangerines → barley
+  tangerines → rice
+  tangerines → pottage
+  tangerines → prepared food
+  tangerines → henan braised noodle
+  tangerines → chinese noodles
+  tangerines → binignit
+  tangerines → jjolmyeon
+  tangerines → grits
+  tangerines → oil noodles
+  tangerines → amaranth
+  tangerines → barley
+  tangerines → rice
+  tangerines → pottage
+  tangerines → prepared food
+  tangerines → henan braised noodle
+  tangerines → chinese noodles
+  tangerines → binignit
+
+================================================================================

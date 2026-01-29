@@ -1,0 +1,448 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Embedded systems; Systolic arrays; Real-time systems; Computing Classification System; Single instruction, multiple data; Multiple instruction, single data; Parallel architectures; Architectures; Computer systems organization; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Embedded systems is a subtopic of Embedded and cyber-physical systems; Multiple instruction, single data is a subtopic of Parallel architectures; Systolic arrays is a subtopic of Parallel architectures; Single instruction, multiple data is a subtopic of Parallel architectures; Architectures is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Computer systems organization; Real-time languages; Processors and memory architectures; Computing Classification System; Dependable and fault-tolerant systems and networks; Real-time systems; Architectures; Fault-tolerant network topologies; Maintainability and maintenance; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Real-time languages is a subtopic of Real-time systems; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Interconnection architectures; Computer systems organization; Computing Classification System; Dependable and fault-tolerant systems and networks; Pipeline computing; Architectures; Parallel architectures; Serial architectures; Maintainability and maintenance
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Pipeline computing is a subtopic of Serial architectures; Interconnection architectures is a subtopic of Parallel architectures; Computer systems organization is a subtopic of Computing Classification System; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Parallel architectures is a subtopic of Architectures
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Architectures; Real-time languages; Real-time systems; Computing Classification System; Computer systems organization; Real-time system specification; Optical computing; Other architectures; Embedded and cyber-physical systems; Quantum computing
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Other architectures is a subtopic of Architectures; Real-time languages is a subtopic of Real-time systems; Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time system specification is a subtopic of Real-time systems; Quantum computing is a subtopic of Other architectures; Real-time systems is a subtopic of Computer systems organization; Optical computing is a subtopic of Other architectures; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Distributed architectures; Real-time system architecture; Processors and memory architectures; Serial architectures; Real-time systems; Computer systems organization; Embedded and cyber-physical systems; Computing Classification System; Architectures; Dependable and fault-tolerant systems and networks
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Real-time systems is a subtopic of Computer systems organization; Distributed architectures is a subtopic of Architectures; Real-time system architecture is a subtopic of Real-time systems; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Estimation; Hypergraphs; Algebraic complexity theory; VLSI packaging; Models of computation; Learning settings; Medical technologies; Generating random combinatorial structures; Search engine indexing; Computing industry; Thermal issues; Multimedia databases; Combination, fusion and federated search; Human-centered computing; General and reference; Machine learning; Peer-to-peer retrieval; Design for manufacturability; Interactive proof systems; Security and privacy; Platform-based design; Fault tolerance; Multivariate statistics; Censorship; Multimedia information systems; Image manipulation; Circuit complexity; Applied computing; Program semantics; Complexity classes; Temperature monitoring; Simulation theory; Algebraic semantics; Government technology policy; Online learning settings; Regular languages; Metabolomics / metabonomics; Logic; VLSI design manufacturing considerations; Semantics and reasoning; Sustainability; Application-specific VLSI designs; Random walks and Markov chains; Probabilistic retrieval models; Project and people management; Machine learning approaches; Medical information policy; Measurement; Machine learning algorithms; On-chip sensors; Search index compression; Adversarial retrieval; Software maintenance; Cryptographic primitives; Hardware; Aging of circuits and systems; Evaluation; Design reuse and communication-based design; Systems analysis and design; Model verification and validation; Power and energy; Graph theory; General literature; Simulation evaluation; Batch learning; Semi-supervised learning settings; Software selection and adaptation; Network science; Cross-computing tools and techniques; Search engine architectures and scalability; Theory and algorithms for application domains; Distributed computing methodologies; Type theory; Collision detection; Automata over infinite objects; Privacy policies; Simulation support systems; Searching with auxiliary databases; Application specific instruction set processors; Concurrent computing methodologies; Management of computing and information systems; Formal languages and automata theory; Modeling and simulation; Trees; Computing standards, RFCs and guidelines; Image compression; Functional verification; Program verification; Hardware reliability; Computational complexity and cryptography; Network operations; Hoare logic; Theory of computation; Information systems; Discrete mathematics; Design; Information retrieval diversity; Action semantics; Combinatoric problems; Information retrieval query processing; Probabilistic representations; Information systems applications; History of software; Rank aggregation; Health information exchanges; Categorical semantics; Cryptographic protocols; Program analysis; Random graphs; Yield and cost optimization; Modal and temporal logics; Soft intellectual property; Constraint and logic programming; Database protection laws; System management; Energy generation and storage; Life and medical sciences; Information retrieval; Computing Classification System; Specialized information retrieval; Social and professional topics; Program constructs; Assertions; History of computing; Animation; Equivalence checking; Value iteration; VLSI system specification and constraints; Paths and connectivity problems; Retrieval efficiency; History of computing theory; Massively multiplayer online games; Simulation types and techniques; Cross-validation; Hardware validation; Health care information systems; Fuel-based energy; Combinatorics; Communication complexity; Computing methodologies; Software management; Process control systems; Database and storage security; Surveillance; Randomness, geometry and discrete structures; Combinatorial optimization; Document types; Retrieval models and ranking; Program reasoning; Biological networks; Probabilistic computation; Sequencing and genotyping technologies; World Wide Web; Operational semantics; Verification; Automated reasoning; Usability in security and privacy; Interactive computation; Link and co-citation analysis; Physical verification; Enumeration; Denotational semantics; Abstract machines; Proof theory; Robustness; Systems biology; Constructive mathematics; Computer graphics; Die and wafer stacking; Computational biology; Reference works; Corporate surveillance; Top-k retrieval in databases; Retrieval effectiveness; Problems, reductions and completeness; Learning paradigms; Computing / technology policy; Model development and analysis; Professional topics; Mathematics of computing; Simulation environments; Graph enumeration; Parallel computing methodologies; Circuits power issues; Matroids and greedoids; Probability and statistics; Permutations and combinations; Power estimation and optimization; Human and societal aspects of security and privacy; Very large scale integration design; Tree languages; Learning latent representations; Patents; Programming logic; Intellectual property; Higher order logic; Motion processing; Evaluation of retrieval results; History of programming languages; Dynamic programming for Markov decision processes
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to provide a simplified representation of the taxonomy. Here are the relationships between the concepts:
+
+1. Computing Classification System is a parent of:
+   - Computer systems organization
+   - Information systems
+   - Theory of computation
+   - Computing methodologies
+   - Mathematics of computing
+   - General literature
+   - Specialized information retrieval
+   - Social and professional topics
+   - Corporate surveillance
+   - Human and societal aspects of security and privacy
+   - Intellectual property
+   - Patents
+   - Computing / technology policy
+   - Government technology policy
+   - Reference works
+   - History of computing
+   - History of programming languages
+   - History of software
+   - Software management
+   - Software maintenance
+   - Program analysis
+   - Program verification
+   - Program semantics
+   - Program constructs
+   - Assertions
+   - Hoare logic
+   - Higher order logic
+   - Type theory
+   - Formal languages and automata theory
+   - Automata over infinite objects
+   - Combinatoric problems
+   - Combinatorial optimization
+   - Graph theory
+   - Graph enumeration
+   - Trees
+   - Tree languages
+   - Permutations and combinations
+   - Matroids and greedoids
+   - Probability and statistics
+   - Multivariate statistics
+   - Random walks and Markov chains
+   - Dynamic programming for Markov decision processes
+   - Value iteration
+   - Equivalence checking
+   - Verification
+   - Automated reasoning
+   - Proof theory
+   - Constructive mathematics
+   - Algebraic semantics
+   - Denotational semantics
+   - Operational semantics
+   - Abstract machines
+   - Interactive computation
+   - Interactive proof systems
+   - Usability in security and privacy
+   - Surveillance
+   - Categorical semantics
+   - Modal and temporal logics
+   - Modal logic
+   - Temporal logic
+   - Logic
+   - Regular languages
+   - Combinatorics
+   - Discrete mathematics
+   - Information systems applications
+   - Information retrieval
+   - Information retrieval diversity
+   - Information retrieval query processing
+   - Retrieval models and ranking
+   - Retrieval effectiveness
+   - Retrieval efficiency
+   - Search index compression
+   - Search engine architectures and scalability
+   - Search engine indexing
+   - Search engine architectures and scalability
+   - Cross-validation
+   - Cross-computing tools and techniques
+   - Cross-validation
+   - Cross-computing tools and techniques
+   - Link and co-citation analysis
+   - Document types
+   - Document retrieval
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+   - Document recommendation
+   - Document search
+   - Document filtering
+   - Document ranking
+   - Document clustering
+   - Document categorization
+   - Document summarization
+  
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

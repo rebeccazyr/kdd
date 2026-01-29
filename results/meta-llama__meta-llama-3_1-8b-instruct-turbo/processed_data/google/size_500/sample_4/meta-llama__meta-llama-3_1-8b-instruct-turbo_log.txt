@@ -1,0 +1,373 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Spears; Ammunition Cases & Holders; Combat Knives; Gun Holsters; Staff & Stick Weapons; Weapons; Mature; Gun Care & Accessories; Google Product Taxonomy; Reloading Supplies & Equipment
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Combat Knives is a subtopic of Weapons; Weapons is a subtopic of Mature; Spears is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Staff & Stick Weapons is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Gun Holsters is a subtopic of Gun Care & Accessories; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Ammunition; Mature; Staff & Stick Weapons; Stun Guns & Tasers; Google Product Taxonomy; Gun Lights; Weapons; Gun Care & Accessories; Gun Cases & Range Bags; Swords
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature; Ammunition is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Swords is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Weapons; Whips; Google Product Taxonomy; Nunchucks; Throwing Stars; Mature; Guns; Stun Guns & Tasers; Erotic
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Throwing Stars is a subtopic of Weapons; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Nunchucks is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Whips is a subtopic of Weapons; Weapons is a subtopic of Mature; Guns is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic DVDs & Videos; Erotic Clothing; Pole Dancing Kits; Google Product Taxonomy; Erotic Food & Edibles; Erotic Books; Erotic Games; Erotic Magazines; Erotic; Mature
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic is a subtopic of Mature; Erotic Clothing is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Pole Dancing Kits is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic Games is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Gun Slings; Gun Care & Accessories; Staff & Stick Weapons; Weapons; Stun Guns & Tasers; Spears; Gun Grips; Swords; Mature
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Spears is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Stun Guns & Tasers is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Swords is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Hardware Pumps; Camera Parts & Accessories; Industrial Vibrators; Industrial Storage Accessories; Computer Software; Business & Productivity Software; Lens Bags; Studio Lights & Flashes; Fuel; Cricket Equipment Sets; Broomball Equipment; Putty Knives & Scrapers; Advertising & Marketing; Planers; Distance Meters; Baby Health; Track Hurdles; Marking Tools; GPS Accessories; Plants; Moving & Shipping Boxes; Office & Chair Mats; Play Mats & Gyms; Practice Nets & Screens; Pole Vault Pits; Hardware Fasteners; Camera Stabilizers & Supports; Lighting & Studio; Stud Sensors; Volleyballs; Impact Wrenches & Drivers; Wall Plates & Covers; Tennis Balls; Cigar Cutters & Punches; GPS Tracking Devices; Two-Way Radios; Emergency Preparedness; Probes & Finders; Athletics; Optics Bags & Cases; Door Hardware; Pliers; De-icers; Apparel & Accessories; Night Lights & Ambient Lighting; Traffic Cones & Barrels; Conduit & Housings; Table Runners; Key Blanks; Lighter Fluid; Scrub Brush Heads & Refills; Baseball & Softball; Garage Floor Mats; Drills; UV Light Meters; Trophies; Party & Celebration; Linens & Bedding; Hazardous Material Suits; Tarps; Hobbies & Creative Arts; Flood, Fire & Gas Safety; Household Cleaning Supplies; Book Lights; Handheld & PDA Software; Lens Hoods; Furniture; Baby Toys & Activity Equipment; Erasers; Carving Chisels & Gouges; Business & Industrial; Trophies & Awards; Earrings; Locks & Latches; Paper Products; Saw Horses; Outdoor Misting Systems; Clear Kerosene; Laundry Appliances; Cricket; Ball Pumps; Cabinets & Storage; Computer Utilities & Maintenance Software; Pool, Fountain & Pond Pumps; Food Storage; Moving & Soundproofing Blankets & Covers; Power Inlets; Soldering Iron Accessories; Laundry Combo Units; Pedicure Chairs; Home Appliance Pumps; Chemicals; Business Cards; Power Converters; Axe Heads; Webcams; High Jump Pits; Laboratory Equipment; Generator Accessories; Office Tape; Cigarette Holders; Starter Pistols; Floor & Steam Cleaners; Trail Cameras; Field Hockey Sticks; Electrical Mount Boxes & Brackets; Deck & Fence Cleaners; Lighting Accessories; Health & Beauty; Nailers & Staplers; Cricket Leg Guards; Nails; Financial, Tax & Accounting Software; Material Handling; Milling Machines; Sandpaper & Sanding Sponges; Soldering Irons; Wrestling; Lighting; Pneumatic Drills; Cricket Balls; Electrical Plug Caps; Film Cameras; Beds & Bed Frames; Flagging & Caution Tape; Cameras & Optics; Camera & Optic Accessories; Electrical Motors; Tool Stands; pH Meters; Door Keyhole Escutcheons; Volleyball; Ball Pump Accessories; Staircases; Field Hockey & Lacrosse; Lacrosse Balls; Shot Puts; Gas Detectors; Garage Door Keypads & Remotes; Lamp Post Mounts; Door Frames; Tool Safety Tethers; Baby Safety Rails; Tool Knives; Cutter Accessories; Coils; Indoor & Outdoor Plants; Track Lighting Fixtures; Siding; Play Mats; Vehicles; Levels; Kitchen & Dining; Pacifiers & Teethers; Hardhats; Carpet Shampooers; Rattles; Nail Pullers; Mail Carts; Grinders; Fabric Softeners & Dryer Sheets; Surveillance Camera Lenses; Field Hockey & Lacrosse Helmets; Wall Paneling; Jewelry; Sporting Goods; Dental Cement; Basketball Arcade Games; Home & Garden; Flowers; Power & Electrical Supplies; Doors; Baseball & Softball Gloves & Mitts; Salon Chairs; Sound Dampening Panels & Foam; Home Heating Oil; Boxing & Martial Arts; Loose Tobacco; Magnetic Sweepers; Laboratory Blenders; Medical; Hardware Torches; Medical Instruments; Tennis; Book Stands & Rests; Rugby Posts; Vehicles & Parts; Storage & Organization; Landscape Pathway Lighting; Jigs; Indoor Games; Household Storage Caddies; Molding; Welding Guns & Plasma Cutters; Door Bells & Chimes; Desk Pads & Blotters; Plumbing Primer; Wrenches; Answering Machines; Bubble Levels; Washers; Finance & Insurance; Brochures; Router Bits; Bathroom Accessories; Food, Beverages & Tobacco; Table Skirts; Landscaping & Garden Plants; Concrete Brooms; Shoe Scrapers; Grips; Table Linens; Animals & Pet Supplies; Track & Field; Drawer & Shelf Liners; Communication Radios; Photography; Dry Ice Makers; Shoe Care & Tools; Fencing Weapons; Electrical Conduit; Receiving Blankets; Surgical Gowns; Tool Files; Baby & Toddler; Office Application Software; Play Gyms; Pommel Horses; Agriculture; Locks & Keys; Grout; Baby Safety Locks & Guards; Wine Racks; High Jump Crossbars; Trade Show Counters; Shower Curtain Rings; Outdoor Furniture Sets; Chewing Tobacco; Mattocks & Pickaxes; Index Cards; Sanding Accessories; Propane; Household Supplies; Piercing & Tattooing; Scrub Caps; Dentistry; Brackets & Reinforcement Braces; Laboratory Freezers; Magnetizers & Demagnetizers; Augers; Earmuffs; Microscope Slides; Baby Jumpers & Swings; Hygrometers; Surveying; Pry Bars; Camera & Video Camera Lenses; Tennis Racquets; Racquetball & Squash; Baseball & Softball Pitching Mats; Dancing; Socket Drivers; Smoking Accessories; Construction; Protective Aprons; Household Appliances; Electrical Freeze Sprays; Driver Accessories; Cricket Protective Gear; Google Product Taxonomy; Cruising Rods; Bed & Bed Frame Accessories; Extension Cord Accessories; Paint Tool Accessories; Tobacco Products; Vehicle Parts & Accessories; Cheerleading; Irons & Ironing Systems; Aircraft; Costumes & Accessories; Pitching Machines; Radio Scanners; CB Radios; Fire Extinguisher & Equipment Storage; Correction Fluids, Pens & Tapes; Flood & Spot Lights; Electronics Accessories; Racquetball & Squash Gloves; Track Starting Blocks; Toll Collection Devices; Safety Gloves; Toilet Brush Replacement Heads; Baby Gift Sets; Shipping Labels; Tattoo Cover-Ups; Saw Stands; Vacuums; Camera Lens Accessories; Electrician Fish Tape; Hardware; Tool Accessories; Automation Control Components; Power Tool Chargers; Shipping Supplies; Volleyball Training Aids; Ground Spikes; Filters & Screens; Log Splitters; Dowel Pins & Rods; Basketball; Washing Machines; Cameras; Sports & Agility Cones; Multifunction Power Tools; Wrestling Headgear; Athletic Cups; Lacrosse Equipment Sets; Pipe & Bar Benders; Electrical Switches; Laundry Supplies; Plungers; Floor Protection Films & Runners; Pacifier Clips & Holders; Chimney Brushes; Axe Accessories; Pinback Buttons; General Purpose Athletic Equipment; Squash Racquets; Swaddling & Receiving Blankets; Network Software; Welding Accessories; Carbon Brushes; Communications; Abrasive Blasters; Theodolites; Trade Show Displays; Handballs; Ottomans; Masonry Consumables; Acid Neutralizers; Baby Safety; Hatches; Volleyball Nets; Binocular & Monocular Accessories; Hardware Tape; Flashlight Accessories; Business & Home Security; Cigar Cases; Router Accessories; Electronics; Rangefinder Accessories; General Office Supplies; Anti-Fatigue Mats; Office Carts; Screw Posts; Climate Control Appliances; Potty Training; Basketball Hoops; Headboards & Footboards; Arts & Entertainment; Sharpeners; Wall Jacks & Braces; Grease Guns; Medical Equipment; Room Divider Accessories; Kitchen Cabinets; Baby Health & Grooming Kits; Pneumatic Hoses; Award Certificates; Field Hockey & Lacrosse Protective Gear; Janitorial Carts & Caddies; Window Hardware; Beds & Accessories; Film & Television; Work Safety Protective Gear; Pagers; Tattooing Supplies; Camera Grips; Discus; Throwing Hammers; Gas Hoses; Fencing; Post Hole Diggers; Hairdressing & Cosmetology; Hardware Accessories; Optic Accessories; Exercise & Gym Mat Storage Racks & Carts; Storage Tanks; Basketball Training Aids; Book Accessories; Hats; Industrial Storage; Altitude Training Masks; Baseball & Softball Protective Gear; Tools; Microscope Accessories; Variable Frequency & Adjustable Speed Drives; Collectibles; Caller IDs; Building Consumables; Dictionary & Translation Software; Surgical Needles & Sutures; Ironing Centers; Measuring Tools & Sensors; Wedge Tools; Potty Seats; Boxing Ring Parts; Rugby; Baby Safety Harnesses & Leashes; Track Lighting; Ashtrays; Threaded Rods; Speed Radars; Rulers; Camera Focus Devices; Name Plates; Tool Keys; Rounders; Gymnastics; Prophy Paste; Shapers; Threading Machines; Lumber & Sheet Stock; Benches; Wrestling Protective Gear; Springs; Science & Laboratory; Digital Cameras; Home Automation Kits; Tripods & Monopods; Light Bulb Changers; Tennis Ball Machines; Optics; In-Ground Lights; Hand Dryer Accessories; Generators; Bullet Proof Vests; Outdoor Furniture; Lighting Fixtures; Microscopes; Drywall; Video Game Consoles; Office Supplies; Martial Arts Weapons; Mining & Quarrying; Door Closers; Moisture Meters; Infrared Thermometers; Medical Bedding; Solvents, Strippers & Thinners; Planes; Power; Aquatic Plants; Rubber Bands; Concrete & Masonry Cleaners; Pinball Machines; Javelins; Outdoor Beds; Shipping Containers; Communication Radio Accessories; Operating Systems; Chimney Cleaners; Relay Batons; Building Materials; Air Hockey; Axe Handles; Weather Stripping & Weatherization Supplies; Towels; Chair Accessories; Gymnastics Bars & Balance Beams; Rounders Gloves; Baby Bathing; Insulation; Countertops; Stair Treads; Kitchen Appliance Accessories; Baseball & Softball Bases & Plates; Binoculars; American Football; Clothing Accessories; Lamp Shades; Lens Filters; Toilet Paper Holders; Labels & Tags; Carpentry Jointers; Soap Dishes & Holders; Team Handball; Shaper Accessories; Light Ropes & Strings; Antivirus & Security Software; Work Safety Tethers; Play Yards; Compressors; Kerosene; Software; Arcade Equipment; Speed & Agility Ladders & Hurdles; Work Lights; Sanding Blocks; Address Labels
+Relationships: 
+
+================================================================================
+Number of entities: 500
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll do my best to create a taxonomy from it. Here's a list of parent-child relationships:
+
+1. Google Product Taxonomy is a parent of:
+   - Mature
+   - Business & Productivity Software
+   - Advertising & Marketing
+   - Athletics
+   - Business & Industrial
+   - Business & Home Security
+   - Finance & Insurance
+   - Hobbies & Creative Arts
+   - Home & Garden
+   - Household Supplies
+   - Office & Chair Mats
+   - Office Supplies
+   - Office Tape
+   - Office Application Software
+   - Photography
+   - Sports & Agility Cones
+   - Trade Show Counters
+   - Trade Show Displays
+   - Webcams
+
+2. Mature is a parent of:
+   - Erotic
+   - Stun Guns & Tasers
+   - Guns
+   - Staff & Stick Weapons
+   - Spears
+   - Swords
+   - Whips
+   - Nunchucks
+   - Throwing Stars
+
+3. Erotic is a parent of:
+   - Erotic DVDs & Videos
+   - Erotic Clothing
+   - Erotic Food & Edibles
+   - Erotic Books
+   - Erotic Games
+   - Erotic Magazines
+
+4. Business & Productivity Software is a parent of:
+   - Computer Software
+   - Business & Productivity Software
+   - Computer Utilities & Maintenance Software
+   - Handheld & PDA Software
+   - Network Software
+   - Office Application Software
+
+5. Advertising & Marketing is a parent of:
+   - Advertising & Marketing
+   - Brochures
+   - Business Cards
+   - Correction Fluids, Pens & Tapes
+   - Dictionary & Translation Software
+   - Label & Tag Software
+   - Mail Carts
+   - Printing Supplies
+
+6. Athletics is a parent of:
+   - Athletics
+   - Baseball & Softball
+   - Basketball
+   - Boxing & Martial Arts
+   - Cricket
+   - Field Hockey & Lacrosse
+   - Gymnastics
+   - Rugby
+   - Track & Field
+   - Volleyball
+   - Wrestling
+
+7. Business & Industrial is a parent of:
+   - Business & Industrial
+   - Business & Home Security
+   - Electrical Mount Boxes & Brackets
+   - Electrical Plug Caps
+   - Electrical Switches
+   - Generator Accessories
+   - Industrial Storage
+   - Material Handling
+   - Milling Machines
+   - Pneumatic Drills
+   - Power Tool Chargers
+   - Power & Electrical Supplies
+   - Router Accessories
+   - Soldering Iron Accessories
+   - Soldering Irons
+   - Tool Safety Tethers
+   - Welding Accessories
+   - Welding Guns & Plasma Cutters
+
+8. Business & Home Security is a parent of:
+   - Business & Home Security
+   - Alarm Systems
+   - CCTV Cameras
+   - Door Hardware
+   - Locks & Latches
+   - Security Cameras
+   - Surveillance Camera Lenses
+   - Two-Way Radios
+
+9. Finance & Insurance is a parent of:
+   - Finance & Insurance
+   - Accounting Software
+   - Financial, Tax & Accounting Software
+   - Insurance
+
+10. Hobbies & Creative Arts is a parent of:
+    - Hobbies & Creative Arts
+    - Arts & Entertainment
+    - Book Lights
+    - Camera & Optic Accessories
+    - Camera & Video Camera Lenses
+    - Camera Parts & Accessories
+    - Camera Stabilizers & Supports
+    - Camera & Video Cameras
+    - Film Cameras
+    - Film & Television
+    - Jewelry
+    - Musical Instruments
+    - Optics
+    - Photography
+    - Pinball Machines
+    - Video Game Consoles
+
+11. Home & Garden is a parent of:
+    - Home & Garden
+    - Home Appliance Pumps
+    - Home Automation Kits
+    - Home Heating Oil
+    - Household Cleaning Supplies
+    - Kitchen Cabinets
+    - Kitchen & Dining
+    - Laundry Appliances
+    - Laundry Combo Units
+    - Laundry Supplies
+    - Outdoor Furniture
+    - Outdoor Furniture Sets
+    - Outdoor Misting Systems
+    - Paint Tool Accessories
+    - Plumbing Primer
+    - Power Inlets
+    - Siding
+    - Storage Tanks
+    - Tarps
+    - Wall Paneling
+
+12. Household Supplies is a parent of:
+    - Household Supplies
+    - Air Hockey
+    - Baby Bathing
+    - Baby Health & Grooming Kits
+    - Baby Safety
+    - Baby Safety Harnesses & Leashes
+    - Baby Safety Locks & Guards
+    - Baby Toys & Activity Equipment
+    - Baby & Toddler
+    - Bubble Levels
+    - Carpet Shampooers
+    - Drywall
+    - Erasers
+    - Fabric Softeners & Dryer Sheets
+    - Floor & Steam Cleaners
+    - Furniture
+    - Handheld & PDA Software
+    - Household Appliances
+    - Household Storage Caddies
+    - Insulation
+    - Laundry Supplies
+    - Linens & Bedding
+    - Molding
+    - Paper Products
+    - Play Gyms
+    - Play Mats
+    - Potty Seats
+    - Potty Training
+    - Rattles
+    - Room Divider Accessories
+    - Saw Horses
+    - Shoe Care & Tools
+    - Soap Dishes & Holders
+    - Staircases
+    - Stair Treads
+    - Swaddling & Receiving Blankets
+    - Table Runners
+    - Towels
+    - Washing Machines
+    - Work Safety Protective Gear
+
+13. Office & Chair Mats is a parent of:
+    - Office & Chair Mats
+    - Anti-Fatigue Mats
+    - Chair Accessories
+    - Office Carts
+    - Office Tape
+    - Office Supplies
+    - Office Application Software
+
+14. Office Supplies is a parent of:
+    - Office Supplies
+    - Address Labels
+    - Book Accessories
+    - Book Stands & Rests
+    - Dictionary & Translation Software
+    - Index Cards
+    - Label & Tag Software
+    - Office Tape
+    - Paper Products
+    - Rulers
+    - Staplers
+    - Stationery
+
+15. Office Tape is a parent of:
+    - Office Tape
+    - Adhesive Tapes
+    - Electrical Tape
+    - Masking Tape
+    - Packing Tape
+
+16. Office Application Software is a parent of:
+    - Office Application Software
+    - Accounting Software
+    - Business & Productivity Software
+    - Computer Utilities & Maintenance Software
+    - Handheld & PDA Software
+    - Network Software
+    - Office Supplies
+    - Software
+
+17. Photography is a parent of:
+    - Photography
+    - Camera & Optic Accessories
+    - Camera & Video Camera Lenses
+    - Camera Parts & Accessories
+    - Camera Stabilizers & Supports
+    - Camera & Video Cameras
+    - Film Cameras
+    - Film & Television
+    - Optics
+    - Pinball Machines
+    - Video Game Consoles
+
+18. Sports & Agility Cones is a parent of:
+    - Sports & Agility Cones
+    - Agility Ladders & Hurdles
+    - Athletic Cups
+    - Baseball & Softball Bases & Plates
+    - Baseball & Softball Pitching Mats
+    - Baseball & Softball Protective Gear
+    - Basketball Hoops
+    - Basketball Training Aids
+    - Cricket Balls
+    - Cricket Equipment Sets
+    - Cricket Protective Gear
+    - Cricket
+    - Field Hockey & Lacrosse
+    - Field Hockey & Lacrosse Equipment Sets
+    - Field Hockey & Lacrosse Helmets
+    - Field Hockey & Lacrosse Protective Gear
+    - Gymnastics Bars & Balance Beams
+    - High Jump Crossbars
+    - High Jump Pits
+    - Lacrosse Balls
+    - Lacrosse Equipment Sets
+    - Lacrosse Helmets
+    - Lacrosse Protective Gear
+    - Rugby Posts
+    - Rugby
+    - Shot Puts
+    - Track & Field
+    - Track Starting Blocks
+    - Volleyball Nets
+    - Volleyball Training Aids
+    - Wrestling Headgear
+    - Wrestling Protective Gear
+
+19. Trade Show Counters is a parent of:
+    - Trade Show Counters
+    - Trade Show Displays
+    - Trade Show Equipment
+
+20. Trade Show Displays is a parent of:
+    - Trade Show Displays
+    - Trade Show Counters
+    - Trade Show Equipment
+
+21. Webcams is a parent of:
+    - Webcams
+    - Surveillance Camera Lenses
+    - Two-Way Radios
+    - Video Game Consoles
+
+This is a very long list of parent-child relationships. I've tried to group related concepts together, but there may be some overlap or inconsistencies.
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

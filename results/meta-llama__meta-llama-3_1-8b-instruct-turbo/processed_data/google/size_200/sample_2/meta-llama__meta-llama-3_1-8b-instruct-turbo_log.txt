@@ -1,0 +1,251 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Gun Holsters; Gun Care & Accessories; Staff & Stick Weapons; Spears; Reloading Supplies & Equipment; Weapons; Ammunition Cases & Holders; Google Product Taxonomy; Mature; Combat Knives
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Gun Holsters is a subtopic of Gun Care & Accessories; Combat Knives is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Spears is a subtopic of Weapons; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Gun Cases & Range Bags; Mature; Gun Lights; Swords; Staff & Stick Weapons; Weapons; Ammunition; Stun Guns & Tasers; Google Product Taxonomy
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Stun Guns & Tasers is a subtopic of Weapons; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Ammunition is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Lights is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Swords is a subtopic of Weapons; Weapons is a subtopic of Mature
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Mature; Gun Care & Accessories; Weapons; Throwing Stars; Erotic; Guns; Google Product Taxonomy; Whips; Nunchucks; Stun Guns & Tasers
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Erotic is a subtopic of Mature; Whips is a subtopic of Weapons; Weapons is a subtopic of Mature; Throwing Stars is a subtopic of Weapons; Guns is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Nunchucks is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Mature; Erotic Magazines; Erotic; Pole Dancing Kits; Erotic Games; Erotic Food & Edibles; Google Product Taxonomy; Erotic Clothing; Erotic Books; Erotic DVDs & Videos
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Food & Edibles is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic Games is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Clothing is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Stun Guns & Tasers; Swords; Spears; Google Product Taxonomy; Mature; Gun Slings; Gun Care & Accessories; Staff & Stick Weapons; Gun Grips; Weapons
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Weapons is a subtopic of Mature; Gun Slings is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Spears is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Stun Guns & Tasers is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Duffel Bags; Keyboard Protectors; Computer Risers & Stands; Table Legs; Replacement Shelves; Network Storage Systems; Handbags, Wallets & Cases; Motor Vehicle Power & Electrical Systems; Motor Vehicle Braking; RAM; Crib & Toddler Bed Accessories; Cameras & Optics; Hang Gliding & Skydiving; Messenger Bags; Office Furniture Accessories; Stylus Pens; Golf Tees; Electronics Films & Shields; Motor Vehicle Towing; Barcode Scanners; Video Transmitters; Memory Accessories; Computer Covers & Skins; Baby & Toddler Furniture; Backpacks; Computer Accessory Sets; Ironing Centers; Golf Accessory Sets; Input Device Accessories; Google Product Taxonomy; Anchor Lines & Ropes; Motor Vehicle Engine Parts; Video; Watch Repair Kits; Play Dough & Putty; High Chairs & Booster Seats; Baby Health; Baby Transport Accessories; Furniture Sets; Motor Vehicle Suspension Parts; Vehicle Parts & Accessories; Parachutes; Kitchen Islands; Flying Toy Accessories; Computer Backplates & I/O Shields; China Cabinets & Hutches; Audio & Video Splitters & Switches; Touchpads; Vehicle Hydraulic Clutch Fluid; Crib Conversion Kits; Costumes & Accessories; Media; Docking & Anchoring; Toys & Games; Components; Carts & Islands; Toys; Antenna Accessories; Electronics Accessories; Cosmetic & Toiletry Bags; Outdoor Recreation; Suitcases; Scanner Accessories; USB & FireWire Hubs; Memory; GPS Tracking Devices; Hang Gliders; Motor Vehicle Parts; Table Accessories; 3D Printer Accessories; Diaper Bags; Gesture Control Input Devices; Emergency Preparedness; Magazines & Newspapers; Vehicle Cleaning; Jewelry Cleaning & Care; Desktop Computer & Server Cases; Art & Drawing Toys; Sheet Music; Signal Boosters; Jewelry; Sporting Goods; Floor Chairs; Games; Apparel & Accessories; Optics; Wooden & Pegged Puzzles; Watercraft Steering Parts; Home & Garden; Computer Components; Bassinet & Cradle Accessories; Hard Drives; Bathroom Furniture Sets; Electronics Stickers & Decals; Outdoor Furniture; Baby & Toddler Car Seat Accessories; Circuit Prototyping; Circuit Decoders & Encoders; Aircraft Parts & Accessories; Print, Copy, Scan & Fax; Input Devices; Luggage & Bags; Mouse Pads; Blank Media; Borescopes; Fish Finders; Cameras; Keyboards; Computer Monitors; Video Editing Hardware & Production Equipment; Tape Drives; Furniture; Circuit Boards & Components; Sofa Accessories; Computer System Cooling Parts; 3D Printers; Cables; Chairs; Floppy Drives; Keyboard & Mouse Wrist Rests; Vehicles & Parts; Radar Detectors; Roller Skis; Baby Carrier Accessories; Watercraft Parts & Accessories; Motor Vehicle Frame & Body Parts; Briefcases; Inline Skates; Futons; Ottomans; Fingerprint Readers; Antennas; Cabinets & Storage; Music & Sound Recordings; Kite Buggying; Televisions; Cache Memory; Marine Electronics; Circuit Board Accessories; Electronic Filters; Battle Tops; Golf; Tablet Computer Docks & Stands; E-Book Reader Parts; Electronics; Baby Transport Liners & Sacks; Divot Tools; Surveillance Cameras; Changing Tables; Kitchen & Dining Room Chairs; Garment Bags; Motor Vehicle Transmission & Drivetrain Parts; Tablet Computer Housings & Trim; Crib Bumpers & Liners; Masks; Entertainment Centers & TV Stands; Golf Ball Markers; Inline & Roller Skating; Room Divider Accessories; Futon Pads; Rocking Chairs; File Cabinets; KVM Switches; Vehicle Covers; Motor Vehicle Mirrors; Vehicle Safety Equipment; Puzzles; Bean Bag Chairs; Storage Devices; Vehicle Safety & Security; Carpentry & Woodworking Project Plans; Vehicle Maintenance, Care & Decor; Computer Accessories; Baby & Toddler; Shelving Accessories; Optical Drives; Religious & Ceremonial; Golf Towels; Graphics Tablets; Health & Beauty; Wine Racks; Vehicle Wheel Chocks; Vehicle Fluids; Media Storage Cabinets & Racks; Shoes; Telephone Cables; Vehicle Storage & Cargo; Costume Shoes; Flash Memory; Computer Starter Kits; Software; Cribs & Toddler Beds; Tablet Computer Parts; Train Cases; Game Controllers; Magazines; Watercraft Fuel Systems; Video Servers; Hydration System Accessories; Mobile Phone & Tablet Tripods & Monopods
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to create a taxonomy from it, but it might not be perfect due to the complexity and volume of the data.
+
+Here's a simplified taxonomy:
+
+- Google Product Taxonomy
+  - Mature
+    - Erotic
+      - Erotic Magazines
+      - Erotic Books
+      - Erotic DVDs & Videos
+      - Erotic Food & Edibles
+      - Erotic Games
+      - Erotic Clothing
+      - Pole Dancing Kits
+    - Weapons
+      - Stun Guns & Tasers
+      - Swords
+      - Spears
+      - Staff & Stick Weapons
+      - Gun Slings
+      - Gun Grips
+      - Gun Care & Accessories
+    - Baby & Toddler
+      - Baby & Toddler Furniture
+      - Baby Health
+      - Baby Transport Accessories
+      - Baby Carrier Accessories
+      - Baby Transport Liners & Sacks
+      - Crib & Toddler Bed Accessories
+      - Crib Conversion Kits
+      - Cribs & Toddler Beds
+      - Diaper Bags
+      - High Chairs & Booster Seats
+    - Home & Garden
+      - Home & Garden
+      - Furniture
+      - Sofa Accessories
+      - Chairs
+      - Carts & Islands
+      - Kitchen Islands
+      - Shelving Accessories
+      - Storage Devices
+      - Table Accessories
+      - Table Legs
+    - Electronics
+      - Electronics
+      - Electronics Accessories
+      - Electronics Films & Shields
+      - Electronics Stickers & Decals
+      - Antennas
+      - Audio & Video Splitters & Switches
+      - Barcode Scanners
+      - Borescopes
+      - Cameras
+      - Cameras & Optics
+      - Computer Accessory Sets
+      - Computer Backplates & I/O Shields
+      - Computer Components
+      - Computer Covers & Skins
+      - Computer Monitors
+      - Computer Risers & Stands
+      - Desktop Computer & Server Cases
+      - Docking & Anchoring
+      - Electronics
+      - Floppy Drives
+      - Gesture Control Input Devices
+      - Hard Drives
+      - Input Devices
+      - Keyboard & Mouse Wrist Rests
+      - Keyboard Protectors
+      - Keyboards
+      - Memory
+      - Memory Accessories
+      - Mouse Pads
+      - Network Storage Systems
+      - Print, Copy, Scan & Fax
+      - RAM
+      - Scanner Accessories
+      - Signal Boosters
+      - Stylus Pens
+      - Tablet Computer Docks & Stands
+      - Tablet Computer Housings & Trim
+      - Tablet Computer Parts
+      - Tape Drives
+      - Touchpads
+      - USB & FireWire Hubs
+      - Video Editing Hardware & Production Equipment
+      - Video Transmitters
+      - Video
+    - Outdoor Recreation
+      - Outdoor Recreation
+      - Anchor Lines & Ropes
+      - Hang Gliders
+      - Hang Gliding & Skydiving
+      - Kite Buggying
+      - Parachutes
+      - Roller Skis
+      - Watercraft Fuel Systems
+      - Watercraft Parts & Accessories
+      - Watercraft Steering Parts
+    - Sports & Fitness
+      - Sports & Fitness
+      - Apparel & Accessories
+      - Battle Tops
+      - Divot Tools
+      - Golf
+      - Golf Accessory Sets
+      - Golf Ball Markers
+      - Golf Tees
+      - Inline & Roller Skating
+      - Inline Skates
+      - Roller Skis
+      - Rocking Chairs
+      - Shoes
+    - Toys & Games
+      - Toys & Games
+      - Art & Drawing Toys
+      - Bean Bag Chairs
+      - Costumes & Accessories
+      - Entertainment Centers & TV Stands
+      - Games
+      - Magazines
+      - Music & Sound Recordings
+      - Puzzles
+      - Sheet Music
+      - Toys
+      - Wooden & Pegged Puzzles
+    - Vehicle Parts & Accessories
+      - Vehicle Parts & Accessories
+      - Aircraft Parts & Accessories
+      - Motor Vehicle Braking
+      - Motor Vehicle Engine Parts
+      - Motor Vehicle Frame & Body Parts
+      - Motor Vehicle Maintenance, Care & Decor
+      - Motor Vehicle Mirrors
+      - Motor Vehicle Parts
+      - Motor Vehicle Power & Electrical Systems
+      - Motor Vehicle Suspension Parts
+      - Motor Vehicle Towing
+      - Motor Vehicle Transmission & Drivetrain Parts
+      - Vehicle Cleaning
+      - Vehicle Covers
+      - Vehicle Fluids
+      - Vehicle Hydraulic Clutch Fluid
+      - Vehicle Safety & Security
+      - Vehicle Safety Equipment
+      - Vehicle Storage & Cargo
+      - Vehicle Wheel Chocks
+    - Vehicle
+      - Vehicle
+      - Briefcases
+      - Cables
+      - Futons
+      - Inline Skates
+      - Luggage & Bags
+      - Messenger Bags
+      - Motor Vehicle
+      - Motor Vehicle Parts
+      - Motor Vehicle Towing
+      - Motor Vehicle Transmission & Drivetrain Parts
+      - Motor Vehicle Wheel Chocks
+      - Roller Skis
+      - Suitcases
+      - Train Cases
+    - Watercraft
+      - Watercraft
+      - Borescopes
+      - Fish Finders
+      - Marine Electronics
+      - Watercraft Fuel Systems
+      - Watercraft Parts & Accessories
+      - Watercraft Steering Parts
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 1
+
+Parsed relationships:
+  This is a very long list of concepts and relationships. I'll try to create a taxonomy from it → but it might not be perfect due to the complexity and volume of the data
+
+================================================================================

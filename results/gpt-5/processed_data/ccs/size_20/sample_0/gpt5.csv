@@ -1,0 +1,20 @@
+child,parent
+Hardware,Computing Classification System
+Information systems,Computing Classification System
+Security and privacy,Computing Classification System
+Theory of computation,Computing Classification System
+Electronic design automation,Hardware
+Very large scale integration design,Hardware
+VLSI packaging,Very large scale integration design
+Application-specific VLSI designs,Very large scale integration design
+Design reuse and communication-based design,Electronic design automation
+Information systems applications,Information systems
+Process control systems,Information systems applications
+Design and analysis of algorithms,Theory of computation
+Systems security,Security and privacy
+Database and storage security,Security and privacy
+Formal methods and theory of security,Security and privacy
+Human and societal aspects of security and privacy,Security and privacy
+Security in hardware,Security and privacy
+Hardware attacks and countermeasures,Security in hardware
+Information accountability and usage control,Human and societal aspects of security and privacy

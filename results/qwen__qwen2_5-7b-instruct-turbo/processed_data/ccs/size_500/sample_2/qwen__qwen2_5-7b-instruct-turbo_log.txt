@@ -1,0 +1,468 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Multiple instruction, single data; Embedded and cyber-physical systems; Systolic arrays; Computing Classification System; Parallel architectures; Architectures; Real-time systems; Embedded systems; Computer systems organization; Single instruction, multiple data
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Parallel architectures is a subtopic of Architectures; Systolic arrays is a subtopic of Parallel architectures; Embedded systems is a subtopic of Embedded and cyber-physical systems; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Single instruction, multiple data is a subtopic of Parallel architectures; Multiple instruction, single data is a subtopic of Parallel architectures; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Computer systems organization; Real-time systems; Fault-tolerant network topologies; Embedded and cyber-physical systems; Maintainability and maintenance; Computing Classification System; Architectures; Real-time languages; Dependable and fault-tolerant systems and networks; Processors and memory architectures
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Real-time systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Real-time languages is a subtopic of Real-time systems; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Pipeline computing; Parallel architectures; Maintainability and maintenance; Architectures; Embedded and cyber-physical systems; Dependable and fault-tolerant systems and networks; Computing Classification System; Interconnection architectures; Computer systems organization; Serial architectures
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Serial architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System; Pipeline computing is a subtopic of Serial architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Interconnection architectures is a subtopic of Parallel architectures
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Architectures; Quantum computing; Other architectures; Real-time systems; Computer systems organization; Real-time system specification; Real-time languages; Computing Classification System; Optical computing; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Computer systems organization is a subtopic of Computing Classification System; Quantum computing is a subtopic of Other architectures; Real-time system specification is a subtopic of Real-time systems; Optical computing is a subtopic of Other architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Real-time systems is a subtopic of Computer systems organization; Other architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Serial architectures; Architectures; Computer systems organization; Embedded and cyber-physical systems; Distributed architectures; Real-time system architecture; Computing Classification System; Real-time systems; Dependable and fault-tolerant systems and networks; Processors and memory architectures
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Real-time systems is a subtopic of Computer systems organization; Real-time system architecture is a subtopic of Real-time systems; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Distributed architectures is a subtopic of Architectures
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Mathematical software; Symmetric cryptography and hash functions; Data scans; Men; Models of computation; Penetration testing; Classification and regression trees; Human-centered computing; Empirical studies in ubiquitous and mobile computing; Storage management; Rule learning; Representation of mathematical functions; Security and privacy; Mobile information processing systems; Information integration; Censorship; Hybrid symbolic-numeric methods; Distributed database recovery; Storage architectures; Application-specific VLSI designs; Inodes; Computational control theory; Project and people management; Adult education; Measurement; Machine learning algorithms; Exact arithmetic algorithms; Planning and scheduling; Online social networks; Home networks; Pornography; Triggers and rules; Board- and system-level test; Electromechanical systems; File system security; Directory structures; High-level and register-transfer level synthesis; Spatial-temporal systems; Graph theory; Collaborative and social computing; Simulation evaluation; Distributed storage; Database views; Network data models; Record storage alternatives; Nearest-neighbor search; Computer and information systems training; Management of computing and information systems; Database utilities and tools; Linked lists; Image compression; Network protocols; Mobile devices; Public key (asymmetric) techniques; Supervised learning by regression; Design; Printers; Discrete mathematics; Data structures; Record layout alternatives; Database management system engines; Economics of security and privacy; Systems security; Security services; Electronic design automation; Database design and models; Data model extensions; Digital signatures; Q-learning; Computational thinking; Supervised learning by classification; Modal and temporal logics; Integrity checking; Linear algebra algorithms; Database protection laws; Analog, mixed-signal and radio frequency test; Stream management; Experimentation; Unsupervised learning; Feature selection; Ad hoc networks; Extremal graph theory; Social and professional topics; Continuous simulation; Just-in-time compilers; Network architectures; Animation; Buses and high-speed links; Embedded systems security; Scene understanding; Coverage metrics; Interaction design; Net neutrality; Hardware validation; Computing methodologies; Software fault tolerance; Surveillance; Randomness, geometry and discrete structures; Automated static analysis; Document types; Software performance; Vulnerability management; Topic modeling; Spectral methods; Computational advertising; Assertion checking; Molecular simulation; Verification; Quantum communication complexity; Collaborative and social computing theory, concepts and paradigms; Source separation; Symbolic and algebraic algorithms; Record and buffer management; Systems development; Rendering; Distributed transaction monitors; Modeling methodologies; Checkpoint / restart; Mathematical foundations of cryptography; Abstract machines; Mixture modeling; Object-relational mapping facilities; Computer graphics; Software usability; Simulation and emulation; Computing organizations; Cryptography; Online analytical processing engines; Learning paradigms; Seniors; Middleware for databases; Visualization design and evaluation methods; Discrete-event simulation; Algebraic algorithms; Lexical semantics; Point-in-time copies; Learning from demonstrations; Social network analysis; Development frameworks and environments; Relational storage; Human and societal aspects of security and privacy; Technology audits; Multi-task learning; Collaborative and social computing design and evaluation methods; Medical records; Network access control; History of programming languages; Combinational synthesis; Natural language generation; Microelectromechanical systems; Learning settings; Computing industry; Partially-observable Markov decision processes; Record storage systems; Anomaly detection; Cross-layer protocols; Horizontal partitioning; Genetic information; Supervised learning; Database performance evaluation; Image processing; General programming languages; Computing platforms; Financial crime; Packaging; Simulation theory; Inductive logic learning; Computing occupations; Sustainability; Random walks and Markov chains; Entity relationship models; Mobile agents; Ubiquitous and mobile computing design and evaluation methods; Incomplete data; Compilers; Systems analysis and design; Data access methods; Statistical relational learning; Treaties; Portable media players; Semi-supervised learning settings; Storage virtualization; Ubiquitous and mobile computing theory, concepts and paradigms; Planning under uncertainty; Circuit optimization; Concurrent computing methodologies; Operations scheduling; Modeling and simulation; Signal processing systems; Copyrights; Network operations; Spectra of graphs; Women; Philosophical/theoretical foundations of artificial intelligence; Learning in probabilistic graphical models; Import / export controls; Database query processing; Temporal data; System management; Database administration; Antialiasing; Join algorithms; K-12 education; Reflectance modeling; Policy iteration; Networks; Texturing; Integral equations; Economic impact; Software management; Learning from implicit feedback; Age; Logic synthesis; Interactive simulation; Hardware security implementation; Human computer interaction (HCI); Dynamic analysis; Information storage systems; Design for testability; Completeness; Inconsistent data; Pseudonymity, anonymity and untraceability; Privacy protections; Autonomous database administration; Graph-based database models; Accreditation; Software security engineering; Artificial immune systems; Symbolic and algebraic manipulation; Storage network architectures; Historical people; Software and application security; Approximate dynamic programming methods; Visualization systems and tools; Generative and developmental approaches; Deep belief networks; Computing / technology policy; Proximity search; Network layer protocols; Model development and analysis; Parallel computing methodologies; Formal methods and theory of security; Tactile and hand-based interfaces; Adolescents; Enterprise application integration tools; RAID; Hierarchical representations; Project staffing; Linear logic; Hierarchical data models; Technology-mapping; Network types; Packet-switching networks; Automatic programming; Estimation; Information storage technologies; Data encryption; User characteristics; Boolean algebra algorithms; Testing, certification and licensing; General and reference; Authorization; Interaction devices; Image manipulation; Graphs and surfaces; Secondary liability; Quality assurance; Tamper-proof and tamper-resistant designs; Extraction, transformation and loading; Computer algebra systems; Online learning settings; Data mining; Race and ethnicity; General conference proceedings; Graphics systems and interfaces; Distributed database transactions; Medical information policy; Visualization theory, concepts and paradigms; Accessibility; Software functional properties; Data layout; Intelligent agents; Public Internet; Post-manufacture validation and debug; Empirical studies in collaborative and social computing; Differential equations; Non-photorealistic rendering; Software safety; Multimedia content creation; Structured outputs; General literature; Theorem proving algorithms; Ensemble methods; Visualization techniques; Industry statistics; Software selection and adaptation; Regularization; Cross-computing tools and techniques; Distributed computing methodologies; Privacy policies; Data locking; Representation of polynomials; Database transaction processing; Hoare logic; Theory of computation; Computing education; Ubiquitous and mobile computing; Visual inspection; Uncertainty; Tape libraries; Internet governance / domain names; Active learning settings; Information systems applications; Children; Software and its engineering; Partitioning and floorplanning; Browser security; Genetic algorithms; OAM protocols; Bayesian network models; Extra-functional properties; Computer crime; Hardware description languages and compilation; Correctness; Empirical studies in visualization; Distributed artificial intelligence; Bug detection, localization and diagnosis; History of computing; Database web servers; Hashed file organization; Physical data models; Simulation types and techniques; Data management systems; Biographies; Process control systems; Interoperability; Data streaming; Emerging technologies; Motif discovery; Collaboration in software development; Cultural characteristics; Centralization / decentralization; Multi-factor authentication; Procedural animation; Artificial intelligence; Database recovery; Hardware-software codesign; Key management; Social aspects of security and privacy; Application servers; Maximum a posteriori modeling; Reference works; Communication hardware, interfaces and storage; Phonology / morphology; Collaborative and social computing devices; Maximum likelihood modeling; Formal security models; Information flow control; Security requirements; Geographic characteristics; Very large scale integration design; Malware and its mitigation; Learning latent representations; Patents; Natural language processing; Sequential synthesis; Distributed systems security; Representation of mathematical objects; Dynamic programming for Markov decision processes; Continuous models; Computer manufacturing; Student assessment; Computer vision tasks; Machine learning; Visualization application domains; Domain-specific security and privacy architectures; Physical synthesis; Stochastic games; Computer vision; Multiscale systems; Formal methods; Sensor devices and platforms; Multimedia information systems; Applied computing; Temporal difference learning; Software reliability; Memory test and repair; Privacy-preserving protocols; Government technology policy; Computing literacy; Public key encryption; Logic; Hardware attacks and countermeasures; Storage replication; Information lifecycle management; Machine learning approaches; Software creation and management; On-chip sensors; Software maintenance; Hardware; Evaluation; Mixture models; Methodologies for EDA; Data federation tools; Mathematical analysis; Empirical studies; Machine translation; Batch learning; Maximum entropy modeling; Statistical software; Software notations and tools; Optimization algorithms; Intrusion/anomaly detection and malware mitigation; Intrusion detection systems; Data assimilation; Software maintenance tools; Spintronics and magnetic technologies; Empirical studies in interaction design; Information system economics; Ubiquitous computing; Computing standards, RFCs and guidelines; Trust frameworks; Functional verification; Information systems; Authentication; Quantum computation theory; Differential variational inequalities; Control methods; Remote replication; Computing and business; Soft intellectual property; Streaming models; Federated databases; Assistive technologies; Query optimization; Computing Classification System; Random projections and metric embeddings; Systems and tools for interaction design; Routing protocols; Informal education; Distributed simulation; Value iteration; History of computing theory; Gender; Indexed file organization; Hardware test; Cross-validation; Bio-inspired approaches; Logical and relational learning; Relational database model; Compression strategies; Physical design (EDA); Scene anomaly detection; Software development techniques; Tablet computers; Activity recognition and understanding; Mirroring; Number theory algorithms; Multi-agent systems; Defect-based test; Sexual orientation; Distributed data locking; Automation; Learning linear models; Software organization and properties; Quadrature; Cognitive science; Visualization; Learning from critiques; Cost-sensitive learning; Personal digital assistants; Interactive computation; Funding; Codes of ethics; Query planning; Multi-agent planning; Wireless devices; Metrics; Computing profession; Service buses; Vertical partitioning; Professional topics; Mathematics of computing; Latent variable models; Probability and statistics; Surveys and overviews; Storage recovery strategies; Overlay and other logical network structures; Nonalgebraic algorithms; Computer vision representations; Language resources; Intellectual property; Security in hardware; Web application security; DBMS engine architectures; Separation logic; Reengineering; Religious orientation; People with disabilities; Ubiquitous and mobile devices
+Relationships: 
+
+================================================================================
+Number of entities: 500
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Computing Classification System is a parent topic of:
+- Computer systems organization
+- Mathematical software
+- Models of computation
+- Penetration testing
+- Classification and regression trees
+- Human-centered computing
+- Empirical studies in ubiquitous and mobile computing
+- Storage management
+- Rule learning
+- Representation of mathematical functions
+- Security and privacy
+- Mobile information processing systems
+- Information integration
+- Hybrid symbolic-numeric methods
+- Distributed database recovery
+- Storage architectures
+- Application-specific VLSI designs
+- Inodes
+- Computational control theory
+- Project and people management
+- Adult education
+- Measurement
+- Machine learning algorithms
+- Exact arithmetic algorithms
+- Planning and scheduling
+- Online social networks
+- Home networks
+- Triggers and rules
+- Board- and system-level test
+- Electromechanical systems
+- File system security
+- Directory structures
+- High-level and register-transfer level synthesis
+- Spatial-temporal systems
+- Graph theory
+- Collaborative and social computing
+- Simulation evaluation
+- Distributed storage
+- Database views
+- Network data models
+- Record storage alternatives
+- Nearest-neighbor search
+- Computer and information systems training
+- Management of computing and information systems
+- Database utilities and tools
+- Linked lists
+- Image compression
+- Network protocols
+- Mobile devices
+- Public key (asymmetric) techniques
+- Supervised learning by regression
+- Design
+- Printers
+- Discrete mathematics
+- Data structures
+- Record layout alternatives
+- Database management system engines
+- Economics of security and privacy
+- Systems security
+- Security services
+- Electronic design automation
+- Database design and models
+- Data model extensions
+- Digital signatures
+- Q-learning
+- Computational thinking
+- Supervised learning by classification
+- Modal and temporal logics
+- Integrity checking
+- Linear algebra algorithms
+- Database protection laws
+- Analog, mixed-signal and radio frequency test
+- Stream management
+- Experimentation
+- Unsupervised learning
+- Feature selection
+- Ad hoc networks
+- Extremal graph theory
+- Social and professional topics
+- Continuous simulation
+- Just-in-time compilers
+- Network architectures
+- Animation
+- Buses and high-speed links
+- Embedded systems security
+- Scene understanding
+- Coverage metrics
+- Interaction design
+- Net neutrality
+- Hardware validation
+- Computing methodologies
+- Software fault tolerance
+- Surveillance
+- Randomness, geometry and discrete structures
+- Automated static analysis
+- Document types
+- Software performance
+- Vulnerability management
+- Topic modeling
+- Spectral methods
+- Computational advertising
+- Assertion checking
+- Molecular simulation
+- Verification
+- Quantum communication complexity
+- Collaborative and social computing theory, concepts and paradigms
+- Source separation
+- Symbolic and algebraic algorithms
+- Record and buffer management
+- Systems development
+- Rendering
+- Distributed transaction monitors
+- Modeling methodologies
+- Checkpoint / restart
+- Mathematical foundations of cryptography
+- Abstract machines
+- Mixture modeling
+- Object-relational mapping facilities
+- Computer graphics
+- Software usability
+- Simulation and emulation
+- Computing organizations
+- Cryptography
+- Online analytical processing engines
+- Learning paradigms
+- Seniors
+- Middleware for databases
+- Visualization design and evaluation methods
+- Discrete-event simulation
+- Algebraic algorithms
+- Lexical semantics
+- Point-in-time copies
+- Learning from demonstrations
+- Social network analysis
+- Development frameworks and environments
+- Relational storage
+- Human and societal aspects of security and privacy
+- Technology audits
+- Multi-task learning
+- Collaborative and social computing design and evaluation methods
+- Medical records
+- Network access control
+- History of programming languages
+- Combinational synthesis
+- Natural language generation
+- Microelectromechanical systems
+- Learning settings
+- Computing industry
+- Partially-observable Markov decision processes
+- Record storage systems
+- Anomaly detection
+- Cross-layer protocols
+- Horizontal partitioning
+- Genetic information
+- Supervised learning
+- Database performance evaluation
+- Image processing
+- General programming languages
+- Computing platforms
+- Financial crime
+- Packaging
+- Simulation theory
+- Inductive logic learning
+- Computing occupations
+- Sustainability
+- Random walks and Markov chains
+- Entity relationship models
+- Mobile agents
+- Ubiquitous and mobile computing design and evaluation methods
+- Incomplete data
+- Compilers
+- Systems analysis and design
+- Data access methods
+- Statistical relational learning
+- Treaties
+- Portable media players
+- Semi-supervised learning settings
+- Storage virtualization
+- Ubiquitous and mobile computing theory, concepts and paradigms
+- Planning under uncertainty
+- Circuit optimization
+- Concurrent computing methodologies
+- Operations scheduling
+- Modeling and simulation
+- Signal processing systems
+- Copyrights
+- Network operations
+- Spectra of graphs
+- Women
+- Philosophical/theoretical foundations of artificial intelligence
+- Learning in probabilistic graphical models
+- Import / export controls
+- Database query processing
+- Temporal data
+- System management
+- Database administration
+- Antialiasing
+- Join algorithms
+- K-12 education
+- Reflectance modeling
+- Policy iteration
+- Networks
+- Texturing
+- Integral equations
+- Economic impact
+- Software management
+- Learning from implicit feedback
+- Age
+- Logic synthesis
+- Interactive simulation
+- Hardware security implementation
+- Human computer interaction (HCI)
+- Dynamic analysis
+- Information storage systems
+- Design for testability
+- Completeness
+- Inconsistent data
+- Pseudonymity, anonymity and untraceability
+- Privacy protections
+- Autonomous database administration
+- Graph-based database models
+- Accreditation
+- Software and application security
+- Approximate dynamic programming methods
+- Visualization systems and tools
+- Generative and developmental approaches
+- Deep belief networks
+- Computing / technology policy
+- Proximity search
+- Network layer protocols
+- Model development and analysis
+- Parallel computing methodologies
+- Formal methods and theory of security
+- Tactile and hand-based interfaces
+- Adolescents
+- Enterprise application integration tools
+- RAID
+- Hierarchical representations
+- Project staffing
+- Linear logic
+- Hierarchical data models
+- Technology-mapping
+- Network types
+- Packet-switching networks
+- Automatic programming
+- Estimation
+- Information storage technologies
+- Data encryption
+- User characteristics
+- Boolean algebra algorithms
+- Testing, certification and licensing
+- General and reference
+- Authorization
+- Interaction devices
+- Image manipulation
+- Graphs and surfaces
+- Secondary liability
+- Quality assurance
+- Tamper-proof and tamper-resistant designs
+- Extraction, transformation and loading
+- Computer algebra systems
+- Online learning settings
+- Data mining
+- Race and ethnicity
+- General conference proceedings
+- Graphics systems and interfaces
+- Distributed database transactions
+- Medical information policy
+- Visualization theory, concepts and paradigms
+- Accessibility
+- Software functional properties
+- Data layout
+- Intelligent agents
+- Public Internet
+- Post-manufacture validation and debug
+- Empirical studies in collaborative and social computing
+- Differential equations
+- Non-photorealistic rendering
+- Software safety
+- Multimedia content creation
+- Structured outputs
+- General literature
+- Theorem proving algorithms
+- Ensemble methods
+- Visualization techniques
+- Industry statistics
+- Software selection and adaptation
+- Regularization
+- Cross-computing tools and techniques
+- Distributed computing methodologies
+- Privacy policies
+- Data locking
+- Representation of polynomials
+- Database transaction processing
+- Hoare logic
+- Theory of computation
+- Computing education
+- Ubiquitous and mobile computing
+- Visual inspection
+- Uncertainty
+- Tape libraries
+- Internet governance / domain names
+- Active learning settings
+- Information systems applications
+- Children
+- Software and its engineering
+- Partitioning and floorplanning
+- Browser security
+- Genetic algorithms
+- OAM protocols
+- Bayesian network models
+- Extra-functional properties
+- Computer crime
+- Hardware description languages and compilation
+- Correctness
+- Empirical studies in visualization
+- Distributed artificial intelligence
+- Bug detection, localization and diagnosis
+- History of computing
+- Database web servers
+- Hashed file organization
+- Physical data models
+- Simulation types and techniques
+- Data management systems
+- Biographies
+- Process control systems
+- Interoperability
+- Data streaming
+- Emerging technologies
+- Motif discovery
+- Collaboration in software development
+- Cultural characteristics
+- Centralization / decentralization
+- Multi-factor authentication
+- Procedural animation
+- Artificial intelligence
+- Database recovery
+- Hardware-software codesign
+- Key management
+- Social aspects of security and privacy
+- Geographic characteristics
+- Very large scale integration design
+- Malware and its mitigation
+- Learning latent representations
+- Patents
+- Natural language processing
+- Sequential synthesis
+- Distributed systems security
+- Representation of mathematical objects
+- Dynamic programming for Markov decision processes
+- Continuous models
+- Computer manufacturing
+- Student assessment
+- Computer vision tasks
+- Machine learning
+- Visualization application domains
+- Domain-specific security and privacy architectures
+- Physical synthesis
+- Stochastic games
+- Computer vision
+- Multiscale systems
+- Formal methods
+- Sensor devices and platforms
+- Multimedia information systems
+- Applied computing
+- Temporal difference learning
+- Software reliability
+- Memory test and repair
+- Privacy-preserving protocols
+- Government technology policy
+- Computing literacy
+- Public key encryption
+- Logic
+- Hardware attacks and countermeasures
+- Storage replication
+- Information lifecycle management
+- Machine learning approaches
+- Software creation and management
+- On-chip sensors
+- Software maintenance
+- Hardware
+- Evaluation
+- Mixture models
+- Methodologies for EDA
+- Data federation tools
+- Mathematical analysis
+- Empirical studies in interaction design
+- Information system economics
+- Ubiquitous computing
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

@@ -1,0 +1,20 @@
+child,parent
+Networks,Computing Classification System
+Software and its engineering,Computing Classification System
+Information systems,Computing Classification System
+Network architectures,Networks
+Network protocols,Networks
+Network algorithms,Networks
+Network types,Networks
+Network performance evaluation,Networks
+Network economics,Networks
+Application layer protocols,Network protocols
+Network layer protocols,Network protocols
+Link-layer protocols,Network protocols
+Network protocol design,Network protocols
+Session protocols,Application layer protocols
+Network performance modeling,Network performance evaluation
+Network measurement,Network performance evaluation
+Network simulations,Network performance evaluation
+Network experimentation,Network performance evaluation
+Wireless access networks,Network types

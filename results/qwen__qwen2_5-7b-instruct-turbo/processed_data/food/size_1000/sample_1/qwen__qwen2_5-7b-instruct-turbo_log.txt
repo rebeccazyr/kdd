@@ -1,0 +1,419 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: cannelloni; pasta; food; pici; fusilli; fagottini; occhi di lupo; spaghetti; bavette; gemelli
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+spaghetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta; bavette is a subtopic of pasta; cannelloni is a subtopic of pasta; fusilli is a subtopic of pasta; pici is a subtopic of pasta; fagottini is a subtopic of pasta; gemelli is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: rotini; mezzelune; spaghetti; corzetti; fuži; food; sacchettoni; pasta; linguine; croxetti
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+mezzelune is a subtopic of pasta; corzetti is a subtopic of pasta; fuži is a subtopic of pasta; rotini is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; croxetti is a subtopic of pasta; linguine is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: occhi di lupo; food; corzetti; stringozzi; garganelli; anellini; bigoli; mezzelune; pasta; fuži
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+garganelli is a subtopic of pasta; corzetti is a subtopic of pasta; bigoli is a subtopic of pasta; stringozzi is a subtopic of pasta; mezzelune is a subtopic of pasta; fuži is a subtopic of pasta; occhi di lupo is a subtopic of pasta; anellini is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: ptitim; macaroni; lanterne; spaghetti; passatelli; rotini; casoncelli; pasta; campanelle; food
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+passatelli is a subtopic of pasta; rotini is a subtopic of pasta; campanelle is a subtopic of pasta; macaroni is a subtopic of pasta; lanterne is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of pasta; casoncelli is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: ptitim; food; rotelle; sacchettoni; rotini; penne; stringozzi; mezzelune; spaghetti; pasta
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+spaghetti is a subtopic of pasta; mezzelune is a subtopic of pasta; ptitim is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta; penne is a subtopic of pasta; rotini is a subtopic of pasta; stringozzi is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: schnapps; cheonsachae; fruit-flavoured drinks; ohaw; salsa golf; egg drop soup; longan; caruso sauce; chipped beef; cabinet pudding; likëngë; pumpkin seeds; dacquoise; marble cake; cumberland sausage; houmous; sweet and sour pork; blood soup; celery roots; bolo rei; kaszanka; nataing; disney mickey's magix; squashes; southern illinois chowder; basil; changzhou sesame cake; post toasties; caldo de pollo; welf pudding; cardoon; liver soup; duck soup noodles; honeycomb; restructured steak; tapioca pudding; imoni; grits; debrecener; floss sugar; cherimoyas; shanghai fried noodles; fisherman's soup; dalithoy; grape-nuts; just right; hulatang; sponge cake; soy product; non-dairy frozen dessert; onion powder; tart; plums; gamjatang; henan braised noodles; prepared side dishes; honey bunches of oats; močnik; yucca root; waffles; pork roll; bun rieu; golden crisp; baumkuchen; beetroots; nădlac sausages; king cake; far breton; cantonese seafood soup; ketwurst; halfsies; pea soup; rice vermicelli; sherry; pumpkin soup; taco shells; hog's pudding; jams and preserves; kapusniak; savory; whipped cream; mykyrokka; thenthuk; cornmeal; kumquats; savore sanguino; frying pan dinners; cider; licorice; hodge-podge; oil noodles; soufflé; tkemali; broccoli; pottage; macaroni soup; cellophane noodles; cinnamon; pecel; turnips; harissa; paio; cullen skink; bolo de mel; empal gentong; tinned meat; apricots; pork jowl; black soup; mami soup; chocapic; whisky; millet; buckwheat; vector; kharcho; fennel bulbs; qingtang wanzi; cocoa krispies; lotus roots; cucumber soup; kishka; gummy sweets; sambal; ogbono nuts; hot chocolate; candy bars; ground and whole bean coffee; bouillon; rosemary; milk; kohlwurst; oille; bouneschlupp; yaki udon; weisswurst; lasagnette; cabanossi; rum cake; dobos torte; non-alcoholic beer; rum baba; gobo root; henan braised noodle; tlacoyo; cabbage; sprinkle spangles; macadamia nuts; hemp milk; juk; mala sauce; cherries; baking powder; walnut oil; mbeju; garlic powder; dessert bars; beetroot greens; green sauce; cröonchy stars; butter and margarine; on choy; worcestershire sauce; sopa de mondongo; seeds; mock turtle soup; tripoline; granola; powdered tea; asparagus; homli fruits; cottage cheese; vodka; sobrassada; hundreds and thousands; kugelis; crépinette; ribollita; crispy critters; bierwurst; soy milk; boston butt; erotic cake; šakotis; ho hos; tomatoes; crenvurșt; brési; pork tenderloin; chard; psarosoupa; espagnole sauce; raisin wheats; salami; vispipuuro; pecans; mujdei; sno balls; gourds; energy drinks; agrodolce; honey loops; yonezawa beef; red peas soup; gin; sesame seed cake; under cover bears instant oatmeal; gooey butter cake; manwich; madeleine; eve's pudding; biángbiáng noodles; dried fruit; secca de bœuf; sunny boy cereal; ogi; panada; solyanka; khao poon; gumdrops; braadworst; jook-sing noodles; soto ayam; ciavàr; nintendo cereal system; hot sauce; fruit chews; pepper; janggukjuk; mushroom gravy; frozen noodles; almond milk; nougat; cooking ingredient; frozen meat; chocolate bars; sheer korma; noodle soup; bread soup; tinned soup; batchoy; soup; walnuts; tom kha kai; kasha; pan de pascua; shredded wheat; sapote; pie; bak kut teh; pudding; köttsoppa; pork ribs; jjolmyeon; miso soup; financier; jelly beans; caraway seed cake; rubaboo; changua; consommé; prickly pears; hard sauce; sujebi; celery; ciauscolo; corn oil; instant soup; rum; corn pops; fideo; all-bran; sugar cane; caramels; tacacá; supreme; blush wine; quetschentaart; hochzeitssuppe; pasta sauces; ukha; siskonmakkara; chancaca; génoise cake; pig's organ soup; geera pork; sushi; she-crab soup; cake; dandan noodles; regensburger wurst; eccles cake; brazil nuts; gai lan; vinegar drinks; rouille; turrón; ginger root; disney hunny b's honey-graham; cheese pudding; peppers; kohlrabi; xo sauce; cashews; kix; bratwurst; crazy cow; chocolate assortments; liverwurst; hummingbird cake; poppy milk; tarragon; chili dog; dairy product; korean noodle; flummadiddle; sugar apples; garbure; goody; tarta de santiago; sausage; special k; jerusalem artichokes; canola oil; body buddies; spotted dick; cheese spread; bottled water; harira; prežganka; marinade; kupati; flavoured water; prepared main courses; boiled sweets; taro root; ponzu; water chestnuts; rhubarb; paradise nuts; laksa; honey smacks; cauliflower; diot; grapes; rice noodle roll; kesme; sundae cones; chicory; mulligatawny; dried beans; beans; escudella i carn d'olla; butajiru; tofu; rântaş; white wine; manchester tart; potatoes; kitchen bouquet; figs; pomegranates; pølser; sopa de pata; styrian sour soup; smorz; lollipops; kale; clackers cereal; coney island hot dog; chicago-style hot dog; stonner kebab; ice cream cones; lemon grass; neenish tart; frejon; lung fung soup; canned and jarred vegetable; dotori guksu; linguettine; confiture de lait; rutabagas; frankfurter rindswurst; frozen dessert; mamey; mortadella; wonton noodles; physalis; wow-wow sauce; layer cake; cupcakes; tian mo; quinoa; red-eye gravy; marshmallow sweets; fruit; bakmi; spinach; kue keranjang; torte; grapefruits; cupcone; porridge; bresaola; candy corn; dragon beard noodles; chocos; ajiaco; mushrooms; curry ketchup; aubergines; dragonfruit; sesame oil; persimmons; crossing the bridge noodles; oatibix; metworst; kola nuts; bisque; thukpa; ryynimakkara; curry sauce; sour cherry soup; honey; coulis; sinigang; peanuts; smith & jones instant noodle; gazpacho; carney's; eggnog; suaasat; bún mắm; deli meats; vallée d'aoste lard d'arnad; olive oil; crumpet; kutia; sancocho; pillus; cookie crisp; garak guksu; naengguk; qottab; breton sauce; honey nut clusters; herb; chocolate cake; food; salsa; rượu nếp; fat rascal; apple butter; pine nuts; cotechino modena; unni appam; reese's puffs; rice milk; amsterdam ossenworst; velouté sauce; oyster sauce; extrawurst; sopa teologa; kalguksu; mixed nuts; tamarillos; spring soup; cold borsch; kobe beef; wacky cake; salad mixes; shreddies; nectarines; soto; steak sauce; condensed milk; cracklin' oat bran; donuts; meat patties; lettuce; plumcots; merguez; cruncheroos; limequats; golden nuggets; meunière sauce; chongyang cake; kugel; seafood; powdered milk; lychees; hot dry noodles; alfalfa sprouts; frozen dinners; chocolate covered nuts; korean noodles; colomba di pasqua; idli; tequilaseed; chocolate mints; chestnuts; condiment; aniseed; soy nuts; cheese dog; rhubarb tart; glamorgan sausage; juice; corn dog; pho; meat; 'nduja; frankfurter würstchen; thyme; loose tea leaves; chistorra; potage; torta tre monti; mush; pickled pigs feet; ontbijtkoek; sauce vierge; noodle; pleşcoi sausages; pastirma; dashi; rice noodles; khrenovina sauce; wanko soba; lincolnshire sausage; pan mee; romesco; rice; chicken soup; corn soup; prepared food; es teler; mead; greens; sevai; bánh khoai mì; pizza sauce; wheatgrass; sweet potatoes; purée mongole; knipp; alheira; amaranth; teewurst; soyo; sugar puffs; brown windsor soup; soup number five; fish sauce; potatiskorv; morteau sausage; liquor; oxford sausage; german chocolate cake; sesame seeds; tomato soup; bananas; rømmegrøt; rose hip soup; carne de chango; michigan hot dog; shallots; onions; dip; booyah; lobster sauce; butter cake; binignit; gulyásleves; coffee; tom yum; hyderabadi marag; vanilla beans; corn; yu choy; ábrystir; vegetarian hot dog; weetabix; suet; cucumbers; taco soup; hot dog; artichokes; brown sauce; cudighi; batter and coating mixes; melons; arracachas; magiritsa; olives and capers; caramel tart; duckefett; soup all'imperatrice; soursops; chikhirtma; shortening and lard; quisp; peanut butter cups; fish tea; pork chop; lucanica; fiddlehead ferns; pique verde boricua; sago pudding; drunken noodles; chilli oil; cereals; yam; lebanon bologna; mints; nali sauce; shchi; peas; sachertorte; coriander; goulash; buc wheats cereal; fruit salad; peaches; wodzionka; dried soup; pumpkins; semifreddo; vegetable oil; gajar ka halwa; rosette de lyon; lemons; start; bitters; kulajda; side dishes; crème ninon; béarnaise sauce; dessert platters; mi san dao; french toast; toto; coffee creamer; cooking wine; frosted mini-wheats; wheat; horseradish sauce; flourless chocolate cake; tarte tatin; scotch broth; madroã±o; ahle wurst; barley; bolognese sauce; uncle sam cereal; jagdwurst; mannish water; non-dairy milk; caldo verde; mohnnudel; kek lapis sarawak; suckers; baking chocolate; sujuk; torta alla monferrina; malvern pudding; noodle with tomato egg sauce; gai choi; bean sprouts; rab cake; bottled coffee drinks; sausage making; corn syrup; christmas pudding; udon; seattle-style hot dog; falukorv; brandy; flummery; pastisset; cervelat; talunan; honey garlic sauce; sorrel; tony's turboz; sweets; corn chowder; limes; babi panggang; tavuk göğsü; oxtail soup; fresh seafood; cumin; bánh chuối; oat milk; kouign-amann; rassolnik; berries; andouille; neapolitan ragù; funing big cake; fudge; chick peas; banh canh; rambutans; loquats; cooking starch; tapenade; tekwan; waffle crisp; zuppa alla modenese; petit salé; mettwurst; breakfast sausage; popsicles; okra; sparkling wine; ga'at; kladdkaka; radishes; dill; spice; haggis; wine cake; chorba; jicama; kulen; taffy; pineapples; liqueurs; sangria; katara; czernina; albert sauce; mangosteens; chiffon cake; pesto; kissel; garlic; rawon; nettle soup; quince; tianmianjiang; hors d'oeuvres; cupcake; saucisson; maya nuts; ragù; isterband; snow cone syrup; crunchy nut; ready brek; rasam; bebinca; instant coffee; dodger dog; borscht; may west; tuscan cabbage; opera cake; watercress; moambe; ganjang; ching bo leung; vlaai; borage; buttermilk; champorado; bay leaves; molasses; rice krispies; vegetable; moin moin; vienna sausage; apples; kongguksu; tempeh; gulgukbap; svartsoppa; cream; kyselo; chives; konro; rookworst; fuet; standing rib roast; tamarind; parkin; chocolate covered fruit; bakery; bok choi; alpha-bits; aji; bread crumbs; bundt cake; cocktail mixes; rocket; dessert wine; chutney; berlingozzo; skilandis; wedding soup; black noodles; morning funnies; torta caprese; piti; oats; oranges; fruit 'n fibre; guavas; mangos; papayas; ice cream; krakowska; sugar; beurre blanc; infusion; black pudding; mustard; chocolate truffles; prepared sandwiches; mang tomas; shambar; beurre noisette; porra antequerana; gumbo; sussex pond pudding; shirataki noodles; salt; babacos; salvitxada; weckewerk; sour cream; horseradish root; figgy duff; watalappam; zosui; rice wine; turtle soup; ezogelin soup; silver needle noodles; fresh meat; rosã© wine; fruit sauce; lane cake; lunch meats; parsley; nut butters; bánh tét; leeks; almonds; wine; herman cake; sorbet; bregenwurst; corn flakes; organic beef; french onion soup; scott's porage oats; powdered beverage mixes; chinkiang pot cover noodles; bún bò huế; buttermilk koldskål; shredded coconut; andouillette; bánh bò; tourin; instant noodle; beef; cream cheese; mamoncillo nuts; complete wheat bran flakes; starter cultures; butter tart; paprika; miyeok guk; passion fruit; malangas; fizzy drinks; spekkoek; frozen yoghurt; beer; gomguk; feijoas; salad dressings; marjoram; kamby arro; bordelaise sauce; kalamai; thuringian sausage; bologna sausage; soup alla canavese; tangelos; vori vori; salt pork; currants; sour rye soup; french toast crunch; rocky road cereal; tahini; kulolo; red velvet cake; kream krunch; helmipuuro; figgy pudding; mustamakkara; jeonbokjuk; sunflower seeds; vegetable dip; hot and sour soup; okroshka; manjar branco; cooking oil; mint sauce; hazelnuts; avocados; frosted flakes; buccellato; bread sauce; gazpachuelo; češnovka; zōni; carbonated water; minestrone; sauce ravigote; vichyssoise; sugo all'amatriciana; beef noodle soup; moronga; fanesca; kuy teav; cake pop; pork; tembleque; kaeng som; candy canes; carrots; breakfast sandwiches; sour soup; fläskkorv; toffee brittle; sauce lyonnaise; vinegar; yoghurt; tangerines; mămăligă; syrup; pineapple tart; jatjuk; parsley roots; ajoblanco; siemieniotka; st. honoré cake; eggs; 100% bran; bermuda fish chowder; hidden treasures; pistachios; tartar sauce; cactus leaves; brussels sprouts; vietnamese noodles; sauce; salsify; café de paris sauce; mint; singapore style noodle; sherbet; chewing gum; granula; cimpa; water; sage; pistachio pudding; mahyawa; gastrique; mafalde; chipa guasu; non-alcoholic wine; okinawa soba; pears; breakfast cereal; longaniza; toffee; leek soup; beer soup; sorrel soup; sapodillo; yaka mein; sauce gribiche; barley gruel; edible baking decoration; scorcolga; beverage; yi mein; coconuts; botifarra; rye; newmarket sausage; cheese
+Relationships: 
+
+================================================================================
+Number of entities: 1000
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here is a simplified taxonomy based on the provided concepts:
+
+1. **Food**
+   - **Pasta**
+     - spaghetti
+     - mezzelune
+     - corzetti
+     - fuži
+     - rotini
+     - casoncelli
+     - sacchettoni
+     - stringozzi
+     - bigoli
+     - anellini
+     - rotelle
+     - ptitim
+   - **Sauces and Condiments**
+     - caruso sauce
+     - caponata
+     - chinkiang pot cover noodles
+     - chutney
+     - ciauscolo
+     - ciavàr
+     - cullen skink
+     - cumin
+     - cotechino modena
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     - cotechino
+     -
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

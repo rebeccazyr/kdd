@@ -1,0 +1,174 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Multiple instruction, single data; Single instruction, multiple data; Systolic arrays; Architectures; Computing Classification System; Parallel architectures; Computer systems organization; Real-time systems; Embedded systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Systolic arrays is a subtopic of Parallel architectures; Parallel architectures is a subtopic of Architectures; Embedded systems is a subtopic of Embedded and cyber-physical systems; Real-time systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Multiple instruction, single data is a subtopic of Parallel architectures; Single instruction, multiple data is a subtopic of Parallel architectures
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Real-time languages; Embedded and cyber-physical systems; Maintainability and maintenance; Computer systems organization; Real-time systems; Processors and memory architectures; Fault-tolerant network topologies; Dependable and fault-tolerant systems and networks; Architectures; Computing Classification System
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Real-time systems is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Real-time languages is a subtopic of Real-time systems
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Architectures; Serial architectures; Interconnection architectures; Computer systems organization; Dependable and fault-tolerant systems and networks; Maintainability and maintenance; Embedded and cyber-physical systems; Pipeline computing; Computing Classification System; Parallel architectures
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Parallel architectures is a subtopic of Architectures; Interconnection architectures is a subtopic of Parallel architectures; Pipeline computing is a subtopic of Serial architectures; Architectures is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Real-time system specification; Other architectures; Architectures; Computer systems organization; Optical computing; Quantum computing; Real-time systems; Computing Classification System; Real-time languages
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Real-time languages is a subtopic of Real-time systems; Other architectures is a subtopic of Architectures; Optical computing is a subtopic of Other architectures; Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time system specification is a subtopic of Real-time systems; Quantum computing is a subtopic of Other architectures; Computer systems organization is a subtopic of Computing Classification System; Real-time systems is a subtopic of Computer systems organization
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Processors and memory architectures; Real-time system architecture; Computing Classification System; Real-time systems; Computer systems organization; Distributed architectures; Serial architectures; Architectures; Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Serial architectures is a subtopic of Architectures; Real-time system architecture is a subtopic of Real-time systems; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Distributed architectures is a subtopic of Architectures
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Wireless integrated network sensors; VLSI packaging; Human computer interaction (HCI); Models of computation; Branch-and-bound; Hardware; Graph algorithms analysis; Economics of chip design and manufacturing; Finite Model Theory; Thermal issues; Design and analysis of algorithms; Power and energy; Standard cell libraries; Robustness; Human-centered computing; Timed and hybrid models; Constructive mathematics; Constraint and logic programming; Shortest paths; Scanners; Communication hardware, interfaces and storage; Energy generation and storage; Accessibility systems and tools; Computing Classification System; Interactive systems and tools; Backtracking; Divide and conquer; Social and professional topics; Mathematics of computing; Sensor devices and platforms; Noise reduction; Temperature monitoring; Empirical studies in HCI; Very large scale integration design; Concurrent computing methodologies; Tactile and hand-based interfaces; Preconditioning; Computing methodologies; Logic; Algorithm design techniques; Semantics and reasoning; Signal processing systems; Programming logic; Separation logic; Accessibility; Parameterized complexity and exact algorithms; Hoare logic; Theory of computation; Discrete mathematics; Full-custom circuits
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here are the relationships between the concepts:
+
+1. Accessibility is a subtopic of Accessibility systems and tools; Accessibility systems and tools is a subtopic of Human computer interaction (HCI); Human computer interaction (HCI) is a subtopic of Computing Classification System.
+2. Algorithm design techniques is a subtopic of Computing methodologies; Computing methodologies is a subtopic of Computing Classification System.
+3. Backtracking is a subtopic of Algorithm design techniques; Algorithm design techniques is a subtopic of Computing methodologies; Computing methodologies is a subtopic of Computing Classification System.
+4. Branch-and-bound is a subtopic of Algorithm design techniques; Algorithm design techniques is a subtopic of Computing methodologies; Computing methodologies is a subtopic of Computing Classification System.
+5. Communication hardware, interfaces and storage is a subtopic of Computing Classification System.
+6. Concurrent computing methodologies is a subtopic of Computing methodologies; Computing methodologies is a subtopic of Computing Classification System.
+7. Constructive mathematics is a subtopic of Mathematics of computing; Mathematics of computing is a subtopic of Computing Classification System.
+8. Constraint and logic programming is a subtopic of Computing methodologies; Computing methodologies is a subtopic of Computing Classification System.
+9. Design and analysis of algorithms is a subtopic of Computing methodologies; Computing methodologies is a subtopic of Computing Classification System.
+10. Divide and conquer is a subtopic of Algorithm design techniques; Algorithm design techniques is a subtopic of Computing methodologies; Computing methodologies is a subtopic of Computing Classification System.
+11. Discrete mathematics is a subtopic of Theory of computation; Theory of computation is a subtopic of Computing Classification System.
+12. Economics of chip design and manufacturing is a subtopic of VLSI packaging; VLSI packaging is a subtopic of Hardware; Hardware is a subtopic of Computing Classification System.
+13. Empirical studies in HCI is a subtopic of Human computer interaction (HCI); Human computer interaction (HCI) is a subtopic of Computing Classification System.
+14. Energy generation and storage is a subtopic of Power and energy; Power and energy is a subtopic of Computing Classification System.
+15. Finite Model Theory is a subtopic of Mathematics of computing; Mathematics of computing is a subtopic of Computing Classification System.
+16. Full-custom circuits is a subtopic of VLSI packaging; VLSI packaging is a subtopic of Hardware; Hardware is a subtopic of Computing Classification System.
+17. Graph algorithms analysis is a subtopic of Computing methodologies; Computing methodologies is a subtopic of Computing Classification System.
+18. Hardware is a subtopic of Computing Classification System.
+19. Hoare logic is a subtopic of Logic; Logic is a subtopic of Computing methodologies; Computing methodologies is a subtopic of Computing Classification System.
+20. Human-centered computing is a subtopic of Human computer interaction (HCI); Human computer interaction (HCI) is a subtopic of Computing Classification System.
+21. Human computer interaction (HCI) is a subtopic of Computing Classification System.
+22. Interactive systems and tools is a subtopic of Human computer interaction (HCI); Human computer interaction (HCI) is a subtopic of Computing Classification System.
+23. Logic is a subtopic of Computing methodologies; Computing methodologies is a subtopic of Computing Classification System.
+24. Mathematics of computing is a subtopic of Computing Classification System.
+25. Models of computation is a subtopic of Theory of computation; Theory of computation is a subtopic of Computing Classification System.
+26. Noise reduction is a subtopic of Signal processing systems; Signal processing systems is a subtopic of Computing methodologies; Computing methodologies is a subtopic of Computing Classification System.
+27. Parameterized complexity and exact algorithms is a subtopic of Theory of computation; Theory of computation is a subtopic of Computing Classification System.
+28. Power and energy is a subtopic of Computing Classification System.
+29. Preconditioning is a subtopic of Algorithm design techniques; Algorithm design techniques is a subtopic of Computing methodologies; Computing methodologies is a subtopic of Computing Classification System.
+30. Robustness is a subtopic of Computing methodologies; Computing methodologies is a subtopic of Computing Classification System.
+31. Scanners is a subtopic of Communication hardware, interfaces and storage; Communication hardware, interfaces and storage is a subtopic of Computing Classification System.
+32. Separation logic is a subtopic of Logic; Logic is a subtopic of Computing methodologies; Computing methodologies is a subtopic of Computing Classification System.
+33. Sensor devices and platforms is a subtopic of Wireless integrated network sensors; Wireless integrated network sensors is a subtopic of Hardware; Hardware is a subtopic of Computing Classification System.
+34. Shortest paths is a subtopic of Graph algorithms analysis; Graph algorithms analysis is a subtopic of Computing methodologies; Computing methodologies is a subtopic of Computing Classification System.
+35. Signal processing systems is a subtopic of Computing methodologies; Computing methodologies is a subtopic of Computing Classification System.
+36. Social and professional topics is a subtopic of Computing Classification System.
+37. Standard cell libraries is a subtopic of VLSI packaging; VLSI packaging is a subtopic of Hardware; Hardware is a subtopic of Computing Classification System.
+38. Tactile and hand-based interfaces is a subtopic of Human computer interaction (HCI); Human computer interaction (HCI) is a subtopic of Computing Classification System.
+39. Temperature monitoring is a subtopic of Thermal issues; Thermal issues is a subtopic of Hardware; Hardware is a subtopic of Computing Classification System.
+40. Theory of computation is a subtopic of Computing Classification System.
+41. Timed and hybrid models is a subtopic of Models of computation; Models of computation is a subtopic of Theory of computation; Theory of computation is a subtopic of Computing Classification System.
+42. VLSI packaging is a subtopic of Hardware; Hardware is a subtopic of Computing Classification System.
+43. Wireless integrated network sensors is a subtopic of Hardware; Hardware is a subtopic of Computing Classification System.
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 51
+
+Parsed relationships:
+  Accessibility systems and tools → Human computer interaction (HCI)
+  Human computer interaction (HCI) → Computing Classification System
+  Computing methodologies → Computing Classification System
+  Algorithm design techniques → Computing methodologies
+  Computing methodologies → Computing Classification System
+  Algorithm design techniques → Computing methodologies
+  Computing methodologies → Computing Classification System
+  Computing methodologies → Computing Classification System
+  Mathematics of computing → Computing Classification System
+  Computing methodologies → Computing Classification System
+  Computing methodologies → Computing Classification System
+  Algorithm design techniques → Computing methodologies
+  Computing methodologies → Computing Classification System
+  Theory of computation → Computing Classification System
+  VLSI packaging → Hardware
+  Hardware → Computing Classification System
+  Human computer interaction (HCI) → Computing Classification System
+  Power and energy → Computing Classification System
+  Mathematics of computing → Computing Classification System
+  VLSI packaging → Hardware
+  Hardware → Computing Classification System
+  Computing methodologies → Computing Classification System
+  Logic → Computing methodologies
+  Computing methodologies → Computing Classification System
+  Human computer interaction (HCI) → Computing Classification System
+  Human computer interaction (HCI) → Computing Classification System
+  Computing methodologies → Computing Classification System
+  Theory of computation → Computing Classification System
+  Signal processing systems → Computing methodologies
+  Computing methodologies → Computing Classification System
+  Theory of computation → Computing Classification System
+  Algorithm design techniques → Computing methodologies
+  Computing methodologies → Computing Classification System
+  Computing methodologies → Computing Classification System
+  Communication hardware, interfaces and storage → Computing Classification System
+  Logic → Computing methodologies
+  Computing methodologies → Computing Classification System
+  Wireless integrated network sensors → Hardware
+  Hardware → Computing Classification System
+  Graph algorithms analysis → Computing methodologies
+  Computing methodologies → Computing Classification System
+  Computing methodologies → Computing Classification System
+  VLSI packaging → Hardware
+  Hardware → Computing Classification System
+  Human computer interaction (HCI) → Computing Classification System
+  Thermal issues → Hardware
+  Hardware → Computing Classification System
+  Models of computation → Theory of computation
+  Theory of computation → Computing Classification System
+  Hardware → Computing Classification System
+  Hardware → Computing Classification System
+
+================================================================================

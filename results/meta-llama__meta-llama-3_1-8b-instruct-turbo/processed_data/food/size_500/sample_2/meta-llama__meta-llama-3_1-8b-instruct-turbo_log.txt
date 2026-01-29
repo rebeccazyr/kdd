@@ -1,0 +1,282 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: pici; occhi di lupo; fusilli; pasta; fagottini; cannelloni; food; gemelli; spaghetti; bavette
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+pici is a subtopic of pasta; occhi di lupo is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food; bavette is a subtopic of pasta; cannelloni is a subtopic of pasta; fusilli is a subtopic of pasta; gemelli is a subtopic of pasta; fagottini is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: pasta; corzetti; fuži; croxetti; food; rotini; sacchettoni; mezzelune; spaghetti; linguine
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+sacchettoni is a subtopic of pasta; corzetti is a subtopic of pasta; fuži is a subtopic of pasta; spaghetti is a subtopic of pasta; rotini is a subtopic of pasta; croxetti is a subtopic of pasta; mezzelune is a subtopic of pasta; linguine is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: stringozzi; occhi di lupo; corzetti; anellini; garganelli; pasta; fuži; mezzelune; food; bigoli
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+pasta is a subtopic of food; fuži is a subtopic of pasta; stringozzi is a subtopic of pasta; occhi di lupo is a subtopic of pasta; bigoli is a subtopic of pasta; mezzelune is a subtopic of pasta; corzetti is a subtopic of pasta; garganelli is a subtopic of pasta; anellini is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: rotini; lanterne; spaghetti; food; casoncelli; macaroni; campanelle; pasta; ptitim; passatelli
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+casoncelli is a subtopic of pasta; ptitim is a subtopic of pasta; lanterne is a subtopic of pasta; rotini is a subtopic of pasta; pasta is a subtopic of food; macaroni is a subtopic of pasta; passatelli is a subtopic of pasta; campanelle is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: pasta; spaghetti; food; mezzelune; rotelle; stringozzi; rotini; ptitim; sacchettoni; penne
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+mezzelune is a subtopic of pasta; penne is a subtopic of pasta; rotelle is a subtopic of pasta; rotini is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; stringozzi is a subtopic of pasta; spaghetti is a subtopic of pasta; ptitim is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: schnapps; albufera sauce; caruso sauce; fruit-flavoured drinks; pumpkin seeds; cumberland sausage; coconut oil; houmous; celery roots; squashes; cardoon; hogao; grits; debrecener; floss sugar; grape-nuts; soy product; non-dairy frozen dessert; cake and brownie mixes; tart; plums; flour; prepared side dishes; honey bunches of oats; beetroots; halfsies; maple bar; taco shells; jams and preserves; savore sanguino; cornmeal; kumquats; cider; licorice; tkemali; pecel; gypsy tart; artificial sweeteners; pickles and relishes; tinned meat; pork jowl; whisky; chocapic; buckwheat; vector; fennel bulbs; lotus roots; kishka; gummy sweets; pretzel mixes; ogbono nuts; candy bars; marshmallows; hot chocolate; waffle and pancake mixes; milk; kohlwurst; cabanossi; peanut oil; non-alcoholic beer; gobo root; baking powder; sprinkle spangles; macadamia nuts; mala sauce; walnut oil; hemp milk; green sauce; dessert bars; beetroot greens; cröonchy stars; butter and margarine; on choy; worcestershire sauce; seeds; powdered tea; cottage cheese; dates; vodka; sobrassada; boston butt; tomatoes; brési; espagnole sauce; raisin wheats; mujdei; gourds; agrodolce; energy drinks; honey loops; yonezawa beef; manwich; dried fruit; braadworst; dessert toppings; ciavàr; hot sauce; evaporated milk; mushroom gravy; pepper; cooking ingredient; frozen meat; chocolate bars; chimichurri; walnuts; shredded wheat; pork ribs; jelly beans; hard sauce; celery; ciauscolo; corn oil; sugar cane; corn pops; all-bran; coloured sugar; supreme; quetschentaart; pasta sauces; chancaca; geera pork; sushi; regensburger wurst; brazil nuts; gai lan; food colouring; rouille; ginger root; peppers; kohlrabi; cashews; bratwurst; chocolate assortments; liverwurst; dairy product; sausage; jerusalem artichokes; canola oil; cheese spread; marinade; saveloy; boerewors; boiled sweets; flavoured water; ponzu; water chestnuts; pie crusts; paradise nuts; honey smacks; diot; sundae cones; chicory; peach sauce; beans; dried beans; bean pastes; rântaş; peanut sauce; tomato paste; manchester tart; potatoes; kitchen bouquet; pølser; smorz; kale; clackers cereal; ice cream cones; neenish tart; summer sausage; fritelli; canned and jarred vegetable; frankfurter rindswurst; frozen dessert; mortadella; wow-wow sauce; doughnut; quinoa; red-eye gravy; marshmallow sweets; fruit; spinach; cooking spray; candy corn; honey dew donuts; mushrooms; curry ketchup; aubergines; sesame oil; crostata; kola nuts; curry sauce; ryynimakkara; honey; soy sauce; coulis; peanuts; eggnog; brown bobby; olive oil; deli meats; cookie crisp; breton sauce; honey nut clusters; food; salsa; apple butter; cotechino modena; pine nuts; amsterdam ossenworst; velouté sauce; oyster sauce; almond extract; mixed nuts; tamarillos; nantua sauce; kobe beef; salad mixes; shreddies; steak sauce; condensed milk; cracklin' oat bran; donuts; meat patties; sugar pearls; golden nuggets; merguez; lettuce; cruncheroos; meunière sauce; seafood; powdered milk; yeast; product 19; alfalfa sprouts; frozen dinners; chocolate covered nuts; suprême sauce; chestnuts; condiment; corn dog; rhubarb tart; agave syrup; biscuit mixes; lobster sauce; juice; soy nuts; meat; 'nduja; loose tea leaves; sufganiyah; chistorra; sauce vierge; pleşcoi sausages; noodle; landjäger; lincolnshire sausage; romesco; rice; prepared food; pizza sauce; wheatgrass; knipp; sweet potatoes; amaranth; alheira; potatiskorv; fish sauce; morteau sausage; liquor; sesame seeds; onions; dip; tucupi; coffee; corn; soybean oil; aioli; weetabix; cucumbers; brown sauce; artichokes; béchamel sauce; melons; arracachas; olives and capers; shortening and lard; quisp; baking extracts; peanut butter cups; sour cream doughnut; chilli oil; pique verde boricua; cereals; yam; lebanon bologna; mints; nali sauce; vanilla extract; peas; fruit salad; venetian sauce; pumpkins; semifreddo; start; bitters; side dishes; béarnaise sauce; oliebol; cooking wine; coffee creamer; carbonade flamande; horseradish sauce; wheat; pancake and maple syrup; tarte tatin; ahle wurst; barley; bolognese sauce; uncle sam cereal; jagdwurst; non-dairy milk; suckers; baking chocolate; sujuk; bean sprouts; bottled coffee drinks; corn syrup; cervelat; honey garlic sauce; flavoured malt drinks; sweets; satay sauce; babi panggang; fresh seafood; tortillas; andouille; neapolitan ragù; bread pudding mixes; rice oil; fudge; chick peas; dough; rambutans; cooking starch; tapenade; mettwurst; tonic water; breakfast sausage; popsicles; okra; hemp oil; radishes; spice; gelbwurst; jicama; kulen; taffy; liqueurs; albert sauce; pesto; garlic; quince; tianmianjiang; hors d'oeuvres; saucisson; ragù; maya nuts; snow cone syrup; isterband; ready brek; ganache; tuscan cabbage; watercress; moambe; ganjang; vlaai; molasses; unflavored gelatine; buttermilk; rice krispies; vegetable; tempeh; cream; rookworst; fuet; standing rib roast; chocolate covered fruit; bakery; aji; bread crumbs; bok choi; cocktail mixes; rocket; chutney; skilandis; morning funnies; smultring; oats; fruit 'n fibre; ice cream; krakowska; koeksister; frozen seafood; beurre blanc; infusion; mustard; chocolate truffles; prepared sandwiches; mang tomas; beurre noisette; tallow; salt; salvitxada; weckewerk; sour cream; horseradish root; rice wine; fresh meat; rosã© wine; lunch meats; nut butters; almonds; leeks; wine; sorbet; bregenwurst; corn flakes; scott's porage oats; powdered beverage mixes; shredded coconut; andouillette; beef; starter cultures; mamoncillo nuts; complete wheat bran flakes; cream cheese; malangas; fizzy drinks; frozen yoghurt; beer; salad dressings; bordelaise sauce; thuringian sausage; salt pork; french toast crunch; rocky road cereal; tahini; kream krunch; sunflower seeds; cooking oil; mint sauce; somebody's mother's chocolate sauce; hazelnuts; avocados; ciambella; frosted flakes; hot dogs; cumberland sauce; bread sauce; češnovka; carbonated water; moronga; sauce ravigote; sugo all'amatriciana; pie fillings; pork; candy canes; carrots; breakfast sandwiches; fläskkorv; toffee brittle; sauce lyonnaise; vinegar; yoghurt; syrup; pineapple tart; parsley roots; eggs; 100% bran; hidden treasures; pistachios; tartar sauce; cactus leaves; brussels sprouts; sauce; café de paris sauce; baking mixes; ok sauce; chewing gum; water; mahyawa; non-alcoholic wine; breakfast cereal; longaniza; toffee; sauce gribiche; edible baking decoration; scorcolga; beverage; cheese
+Relationships: 
+
+================================================================================
+Number of entities: 500
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll do my best to create a taxonomy from it. Here's a list of parent-child relationships:
+
+1. food is a subtopic of beverage
+2. beverage is a subtopic of drink
+3. drink is a subtopic of food
+4. food is a subtopic of condiment
+5. condiment is a subtopic of sauce
+6. sauce is a subtopic of food
+7. food is a subtopic of dessert
+8. dessert is a subtopic of sweet
+9. sweet is a subtopic of food
+10. food is a subtopic of snack
+11. snack is a subtopic of food
+12. food is a subtopic of ingredient
+13. ingredient is a subtopic of food
+14. food is a subtopic of dish
+15. dish is a subtopic of food
+16. food is a subtopic of meal
+17. meal is a subtopic of food
+18. food is a subtopic of cuisine
+19. cuisine is a subtopic of food
+20. food is a subtopic of product
+21. product is a subtopic of food
+22. food is a subtopic of item
+23. item is a subtopic of food
+24. food is a subtopic of category
+25. category is a subtopic of food
+26. food is a subtopic of type
+27. type is a subtopic of food
+28. food is a subtopic of class
+29. class is a subtopic of food
+30. food is a subtopic of group
+31. group is a subtopic of food
+32. food is a subtopic of family
+33. family is a subtopic of food
+34. food is a subtopic of category
+35. category is a subtopic of food
+36. food is a subtopic of type
+37. type is a subtopic of food
+38. food is a subtopic of class
+39. class is a subtopic of food
+40. food is a subtopic of group
+41. group is a subtopic of food
+42. food is a subtopic of family
+43. family is a subtopic of food
+44. food is a subtopic of product
+45. product is a subtopic of food
+46. food is a subtopic of item
+47. item is a subtopic of food
+48. food is a subtopic of category
+49. category is a subtopic of food
+50. food is a subtopic of type
+51. type is a subtopic of food
+52. food is a subtopic of class
+53. class is a subtopic of food
+54. food is a subtopic of group
+55. group is a subtopic of food
+56. food is a subtopic of family
+57. family is a subtopic of food
+58. food is a subtopic of product
+59. product is a subtopic of food
+60. food is a subtopic of item
+61. item is a subtopic of food
+62. food is a subtopic of category
+63. category is a subtopic of food
+64. food is a subtopic of type
+65. type is a subtopic of food
+66. food is a subtopic of class
+67. class is a subtopic of food
+68. food is a subtopic of group
+69. group is a subtopic of food
+70. food is a subtopic of family
+71. family is a subtopic of food
+72. food is a subtopic of product
+73. product is a subtopic of food
+74. food is a subtopic of item
+75. item is a subtopic of food
+76. food is a subtopic of category
+77. category is a subtopic of food
+78. food is a subtopic of type
+79. type is a subtopic of food
+80. food is a subtopic of class
+81. class is a subtopic of food
+82. food is a subtopic of group
+83. group is a subtopic of food
+84. food is a subtopic of family
+85. family is a subtopic of food
+86. food is a subtopic of product
+87. product is a subtopic of food
+88. food is a subtopic of item
+89. item is a subtopic of food
+90. food is a subtopic of category
+91. category is a subtopic of food
+92. food is a subtopic of type
+93. type is a subtopic of food
+94. food is a subtopic of class
+95. class is a subtopic of food
+96. food is a subtopic of group
+97. group is a subtopic of food
+98. food is a subtopic of family
+99. family is a subtopic of food
+100. food is a subtopic of product
+101. product is a subtopic of food
+102. food is a subtopic of item
+103. item is a subtopic of food
+104. food is a subtopic of category
+105. category is a subtopic of food
+106. food is a subtopic of type
+107. type is a subtopic of food
+108. food is a subtopic of class
+109. class is a subtopic of food
+110. food is a subtopic of group
+111. group is a subtopic of food
+112. food is a subtopic of family
+113. family is a subtopic of food
+114. food is a subtopic of product
+115. product is a subtopic of food
+116. food is a subtopic of item
+117. item is a subtopic of food
+118. food is a subtopic of category
+119. category is a subtopic of food
+120. food is a subtopic of type
+121. type is a subtopic of food
+122. food is a subtopic of class
+123. class is a subtopic of food
+124. food is a subtopic of group
+125. group is a subtopic of food
+126. food is a subtopic of family
+127. family is a subtopic of food
+128. food is a subtopic of product
+129. product is a subtopic of food
+130. food is a subtopic of item
+131. item is a subtopic of food
+132. food is a subtopic of category
+133. category is a subtopic of food
+134. food is a subtopic of type
+135. type is a subtopic of food
+136. food is a subtopic of class
+137. class is a subtopic of food
+138. food is a subtopic of group
+139. group is a subtopic of food
+140. food is a subtopic of family
+141. family is a subtopic of food
+142. food is a subtopic of product
+143. product is a subtopic of food
+144. food is a subtopic of item
+145. item is a subtopic of food
+146. food is a subtopic of category
+147. category is a subtopic of food
+148. food is a subtopic of type
+149. type is a subtopic of food
+150. food is a subtopic of class
+151. class is a subtopic of food
+152. food is a subtopic of group
+153. group is a subtopic of food
+154. food is a subtopic of family
+155. family is a subtopic of food
+156. food is a subtopic of product
+157. product is a subtopic of food
+158. food is a subtopic of item
+159. item is a subtopic of food
+160. food is a subtopic of category
+161. category is a subtopic of food
+162. food is a subtopic of type
+163. type is a subtopic of food
+164. food is a subtopic of class
+165. class is a subtopic of food
+166. food is a subtopic of group
+167. group is a subtopic of food
+168. food is a subtopic of family
+169. family is a subtopic of food
+170. food is a subtopic of product
+171. product is a subtopic of food
+172. food is a subtopic of item
+173. item is a subtopic of food
+174. food is a subtopic of category
+175. category is a subtopic of food
+176. food is a subtopic of type
+177. type is a subtopic of food
+178. food is a subtopic of class
+179. class is a subtopic of food
+180. food is a subtopic of group
+181. group is a subtopic of food
+182. food is a subtopic of family
+183. family is a subtopic of food
+184. food is a subtopic of product
+185. product is a subtopic of food
+186. food is a subtopic of item
+187. item is a subtopic of food
+188. food is a subtopic of category
+189. category is a subtopic of food
+190. food is a subtopic of type
+191. type is a subtopic of food
+192. food is a subtopic of class
+193. class is a subtopic of food
+194. food is a subtopic of group
+195. group is a subtopic of food
+196. food is a subtopic of family
+197. family is a subtopic of food
+198. food is a subtopic of product
+199. product is a subtopic of food
+200. food is a subtopic of item
+201. item is a subtopic of food
+202. food is
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

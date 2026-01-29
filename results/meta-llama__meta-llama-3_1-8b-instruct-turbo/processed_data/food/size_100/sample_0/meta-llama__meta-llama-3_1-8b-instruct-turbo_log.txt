@@ -1,0 +1,393 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: gemelli; food; bavette; fagottini; cannelloni; spaghetti; fusilli; pasta; pici; occhi di lupo
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+cannelloni is a subtopic of pasta; fagottini is a subtopic of pasta; gemelli is a subtopic of pasta; fusilli is a subtopic of pasta; bavette is a subtopic of pasta; occhi di lupo is a subtopic of pasta; spaghetti is a subtopic of pasta; pici is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: spaghetti; fuži; pasta; rotini; corzetti; linguine; mezzelune; croxetti; food; sacchettoni
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+mezzelune is a subtopic of pasta; croxetti is a subtopic of pasta; fuži is a subtopic of pasta; corzetti is a subtopic of pasta; rotini is a subtopic of pasta; linguine is a subtopic of pasta; sacchettoni is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: pasta; stringozzi; bigoli; occhi di lupo; anellini; mezzelune; corzetti; food; fuži; garganelli
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+occhi di lupo is a subtopic of pasta; mezzelune is a subtopic of pasta; garganelli is a subtopic of pasta; fuži is a subtopic of pasta; pasta is a subtopic of food; stringozzi is a subtopic of pasta; anellini is a subtopic of pasta; corzetti is a subtopic of pasta; bigoli is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: campanelle; spaghetti; passatelli; casoncelli; pasta; rotini; macaroni; food; ptitim; lanterne
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+pasta is a subtopic of food; macaroni is a subtopic of pasta; lanterne is a subtopic of pasta; campanelle is a subtopic of pasta; casoncelli is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; rotini is a subtopic of pasta; passatelli is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: mezzelune; penne; stringozzi; rotini; rotelle; food; pasta; spaghetti; ptitim; sacchettoni
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+sacchettoni is a subtopic of pasta; pasta is a subtopic of food; mezzelune is a subtopic of pasta; rotelle is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; stringozzi is a subtopic of pasta; ptitim is a subtopic of pasta; rotini is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: hors d'oeuvres; caruso sauce; longan; ragù; khrenovina sauce; pasta sauces; prepared food; unflavored gelatine; chancaca; cream; food colouring; floss sugar; rouille; cherimoyas; liquor; bread crumbs; cashews; chocolate assortments; dairy product; sugar apples; mangos; guavas; papayas; frozen seafood; infusion; melons; beurre noisette; soursops; cider; peanut butter cups; pique verde boricua; peach sauce; pecel; rântaş; wine; tomato paste; almonds; figs; pomegranates; powdered beverage mixes; lollipops; shredded coconut; peaches; whisky; lemons; gummy sweets; ogbono nuts; cooking wine; candy bars; physalis; coffee creamer; wow-wow sauce; horseradish sauce; feijoas; beer; marshmallows; salad dressings; fruit; milk; baking chocolate; candy corn; butter and margarine; worcestershire sauce; persimmons; seeds; dates; cottage cheese; homli fruits; powdered tea; vodka; sauce ravigote; pie fillings; sweets; baking soda; food; tinned seafood; eggs; dough; loquats; gumdrops; nectarines; hot sauce; chewing gum; plumcots; cooking ingredient; seafood; pears; taffy; edible baking decoration; katara; tequilaseed; chocolate mints; scorcolga; beverage; chestnuts; condiment; coconuts; prickly pears; pesto; cheese
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here's the taxonomy of the given concepts:
+
+1. food is a subtopic of beverage; 
+2. beverage is a subtopic of food; 
+3. fruit is a subtopic of food; 
+4. persimmons is a subtopic of fruit; 
+5. pears is a subtopic of fruit; 
+6. peaches is a subtopic of fruit; 
+7. melons is a subtopic of fruit; 
+8. mangos is a subtopic of fruit; 
+9. guavas is a subtopic of fruit; 
+10. papayas is a subtopic of fruit; 
+11. cherimoyas is a subtopic of fruit; 
+12. soursops is a subtopic of fruit; 
+13. loquats is a subtopic of fruit; 
+14. nectarines is a subtopic of fruit; 
+15. plumcots is a subtopic of fruit; 
+16. homli fruits is a subtopic of fruit; 
+17. seeds is a subtopic of food; 
+18. ogbono nuts is a subtopic of seeds; 
+19. almonds is a subtopic of seeds; 
+20. cashews is a subtopic of seeds; 
+21. pecel is a subtopic of seeds; 
+22. katara is a subtopic of seeds; 
+23. tequilaseed is a subtopic of seeds; 
+24. coconuts is a subtopic of seeds; 
+25. prickly pears is a subtopic of seeds; 
+26. persimmons is a subtopic of seeds; 
+27. prepared food is a subtopic of food; 
+28. hors d'oeuvres is a subtopic of prepared food; 
+29. dough is a subtopic of prepared food; 
+30. pie fillings is a subtopic of prepared food; 
+31. candy bars is a subtopic of prepared food; 
+32. candy corn is a subtopic of prepared food; 
+33. gumdrops is a subtopic of prepared food; 
+34. taffy is a subtopic of prepared food; 
+35. marshmallows is a subtopic of prepared food; 
+36. lollipops is a subtopic of prepared food; 
+37. gummy sweets is a subtopic of prepared food; 
+38. baking chocolate is a subtopic of prepared food; 
+39. chocolate mints is a subtopic of prepared food; 
+40. chocolate assortments is a subtopic of prepared food; 
+41. peanut butter cups is a subtopic of prepared food; 
+42. pique verde boricua is a subtopic of prepared food; 
+43. wow-wow sauce is a subtopic of prepared food; 
+44. horseradish sauce is a subtopic of prepared food; 
+45. sauce ravigote is a subtopic of prepared food; 
+46. pesto is a subtopic of prepared food; 
+47. worcestershire sauce is a subtopic of prepared food; 
+48. hot sauce is a subtopic of prepared food; 
+49. feijoas is a subtopic of food; 
+50. dairy product is a subtopic of food; 
+51. milk is a subtopic of dairy product; 
+52. cottage cheese is a subtopic of dairy product; 
+53. butter and margarine is a subtopic of dairy product; 
+54. cheese is a subtopic of dairy product; 
+55. eggs is a subtopic of food; 
+56. cooking ingredient is a subtopic of food; 
+57. cooking wine is a subtopic of cooking ingredient; 
+58. beer is a subtopic of cooking ingredient; 
+59. vodka is a subtopic of cooking ingredient; 
+60. whisky is a subtopic of cooking ingredient; 
+61. wine is a subtopic of cooking ingredient; 
+62. cider is a subtopic of cooking ingredient; 
+63. infusion is a subtopic of cooking ingredient; 
+64. coffee creamer is a subtopic of cooking ingredient; 
+65. tea is a subtopic of cooking ingredient; 
+66. powdered tea is a subtopic of cooking ingredient; 
+67. powdered beverage mixes is a subtopic of cooking ingredient; 
+68. baking soda is a subtopic of cooking ingredient; 
+69. baking chocolate is a subtopic of cooking ingredient; 
+70. sugar is a subtopic of cooking ingredient; 
+71. floss sugar is a subtopic of sugar; 
+72. sugar apples is a subtopic of sugar; 
+73. dates is a subtopic of sugar; 
+74. figs is a subtopic of sugar; 
+75. pomegranates is a subtopic of sugar; 
+76. persimmons is a subtopic of sugar; 
+77. sweetener is a subtopic of cooking ingredient; 
+78. unflavored gelatine is a subtopic of cooking ingredient; 
+79. edible baking decoration is a subtopic of cooking ingredient; 
+80. seeds is a subtopic of cooking ingredient; 
+81. ogbono nuts is a subtopic of seeds; 
+82. almonds is a subtopic of seeds; 
+83. cashews is a subtopic of seeds; 
+84. pecel is a subtopic of seeds; 
+85. katara is a subtopic of seeds; 
+86. tequilaseed is a subtopic of seeds; 
+87. coconuts is a subtopic of seeds; 
+88. prickly pears is a subtopic of seeds; 
+89. persimmons is a subtopic of seeds; 
+90. condiment is a subtopic of cooking ingredient; 
+91. sauce is a subtopic of condiment; 
+92. ragù is a subtopic of sauce; 
+93. caruso sauce is a subtopic of sauce; 
+94. khrenovina sauce is a subtopic of sauce; 
+95. wow-wow sauce is a subtopic of sauce; 
+96. horseradish sauce is a subtopic of sauce; 
+97. sauce ravigote is a subtopic of sauce; 
+98. pesto is a subtopic of sauce; 
+99. worcestershire sauce is a subtopic of sauce; 
+100. hot sauce is a subtopic of sauce; 
+101. peach sauce is a subtopic of sauce; 
+102. tomato paste is a subtopic of sauce; 
+103. beurre noisette is a subtopic of sauce; 
+104. rouille is a subtopic of sauce; 
+105. pique verde boricua is a subtopic of sauce; 
+106. rântaş is a subtopic of sauce; 
+107. katara is a subtopic of sauce; 
+108. pomegranates is a subtopic of sauce; 
+109. persimmons is a subtopic of sauce; 
+110. food colouring is a subtopic of cooking ingredient; 
+111. condiment is a subtopic of cooking ingredient; 
+112. cheese is a subtopic of cooking ingredient; 
+113. cooking wine is a subtopic of cooking ingredient; 
+114. beer is a subtopic of cooking ingredient; 
+115. vodka is a subtopic of cooking ingredient; 
+116. whisky is a subtopic of cooking ingredient; 
+117. wine is a subtopic of cooking ingredient; 
+118. cider is a subtopic of cooking ingredient; 
+119. infusion is a subtopic of cooking ingredient; 
+120. coffee creamer is a subtopic of cooking ingredient; 
+121. tea is a subtopic of cooking ingredient; 
+122. powdered tea is a subtopic of cooking ingredient; 
+123. powdered beverage mixes is a subtopic of cooking ingredient; 
+124. baking soda is a subtopic of cooking ingredient; 
+125. baking chocolate is a subtopic of cooking ingredient; 
+126. sugar is a subtopic of cooking ingredient; 
+127. floss sugar is a subtopic of sugar; 
+128. sugar apples is a subtopic of sugar; 
+129. dates is a subtopic of sugar; 
+130. figs is a subtopic of sugar; 
+131. pomegranates is a subtopic of sugar; 
+132. persimmons is a subtopic of sugar; 
+133. sweetener is a subtopic of cooking ingredient; 
+134. unflavored gelatine is a subtopic of cooking ingredient; 
+135. edible baking decoration is a subtopic of cooking ingredient; 
+136. seeds is a subtopic of cooking ingredient; 
+137. ogbono nuts is a subtopic of seeds; 
+138. almonds is a subtopic of seeds; 
+139. cashews is a subtopic of seeds; 
+140. pecel is a subtopic of seeds; 
+141. katara is a subtopic of seeds; 
+142. tequilaseed is a subtopic of seeds; 
+143. coconuts is a subtopic of seeds; 
+144. prickly pears is a subtopic of seeds; 
+145. persimmons is a subtopic of seeds; 
+146. condiment is a subtopic of cooking ingredient; 
+147. sauce is a subtopic of condiment; 
+148. ragù is a subtopic of sauce; 
+149. caruso sauce is a subtopic of sauce; 
+150. khrenovina sauce is a subtopic of sauce; 
+151. wow-wow sauce is a subtopic of sauce; 
+152. horseradish sauce is a subtopic of sauce; 
+153. sauce ravigote is a subtopic of sauce; 
+154. pesto is a subtopic of sauce; 
+155. worcestershire sauce is a subtopic of sauce; 
+156. hot sauce is a subtopic of sauce; 
+157. peach sauce is a subtopic of sauce
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 156
+
+Parsed relationships:
+  beverage → food
+  fruit → food
+  persimmons → fruit
+  pears → fruit
+  peaches → fruit
+  melons → fruit
+  mangos → fruit
+  guavas → fruit
+  papayas → fruit
+  cherimoyas → fruit
+  soursops → fruit
+  loquats → fruit
+  nectarines → fruit
+  plumcots → fruit
+  homli fruits → fruit
+  seeds → food
+  ogbono nuts → seeds
+  almonds → seeds
+  cashews → seeds
+  pecel → seeds
+  katara → seeds
+  tequilaseed → seeds
+  coconuts → seeds
+  prickly pears → seeds
+  persimmons → seeds
+  prepared food → food
+  hors d'oeuvres → prepared food
+  dough → prepared food
+  pie fillings → prepared food
+  candy bars → prepared food
+  candy corn → prepared food
+  gumdrops → prepared food
+  taffy → prepared food
+  marshmallows → prepared food
+  lollipops → prepared food
+  gummy sweets → prepared food
+  baking chocolate → prepared food
+  chocolate mints → prepared food
+  chocolate assortments → prepared food
+  peanut butter cups → prepared food
+  pique verde boricua → prepared food
+  wow-wow sauce → prepared food
+  horseradish sauce → prepared food
+  sauce ravigote → prepared food
+  pesto → prepared food
+  worcestershire sauce → prepared food
+  hot sauce → prepared food
+  feijoas → food
+  dairy product → food
+  milk → dairy product
+  cottage cheese → dairy product
+  butter and margarine → dairy product
+  cheese → dairy product
+  eggs → food
+  cooking ingredient → food
+  cooking wine → cooking ingredient
+  beer → cooking ingredient
+  vodka → cooking ingredient
+  whisky → cooking ingredient
+  wine → cooking ingredient
+  cider → cooking ingredient
+  infusion → cooking ingredient
+  coffee creamer → cooking ingredient
+  tea → cooking ingredient
+  powdered tea → cooking ingredient
+  powdered beverage mixes → cooking ingredient
+  baking soda → cooking ingredient
+  baking chocolate → cooking ingredient
+  sugar → cooking ingredient
+  floss sugar → sugar
+  sugar apples → sugar
+  dates → sugar
+  figs → sugar
+  pomegranates → sugar
+  persimmons → sugar
+  sweetener → cooking ingredient
+  unflavored gelatine → cooking ingredient
+  edible baking decoration → cooking ingredient
+  seeds → cooking ingredient
+  ogbono nuts → seeds
+  almonds → seeds
+  cashews → seeds
+  pecel → seeds
+  katara → seeds
+  tequilaseed → seeds
+  coconuts → seeds
+  prickly pears → seeds
+  persimmons → seeds
+  condiment → cooking ingredient
+  sauce → condiment
+  ragù → sauce
+  caruso sauce → sauce
+  khrenovina sauce → sauce
+  wow-wow sauce → sauce
+  horseradish sauce → sauce
+  sauce ravigote → sauce
+  pesto → sauce
+  worcestershire sauce → sauce
+  hot sauce → sauce
+  peach sauce → sauce
+  tomato paste → sauce
+  beurre noisette → sauce
+  rouille → sauce
+  pique verde boricua → sauce
+  rântaş → sauce
+  katara → sauce
+  pomegranates → sauce
+  persimmons → sauce
+  food colouring → cooking ingredient
+  condiment → cooking ingredient
+  cheese → cooking ingredient
+  cooking wine → cooking ingredient
+  beer → cooking ingredient
+  vodka → cooking ingredient
+  whisky → cooking ingredient
+  wine → cooking ingredient
+  cider → cooking ingredient
+  infusion → cooking ingredient
+  coffee creamer → cooking ingredient
+  tea → cooking ingredient
+  powdered tea → cooking ingredient
+  powdered beverage mixes → cooking ingredient
+  baking soda → cooking ingredient
+  baking chocolate → cooking ingredient
+  sugar → cooking ingredient
+  floss sugar → sugar
+  sugar apples → sugar
+  dates → sugar
+  figs → sugar
+  pomegranates → sugar
+  persimmons → sugar
+  sweetener → cooking ingredient
+  unflavored gelatine → cooking ingredient
+  edible baking decoration → cooking ingredient
+  seeds → cooking ingredient
+  ogbono nuts → seeds
+  almonds → seeds
+  cashews → seeds
+  pecel → seeds
+  katara → seeds
+  tequilaseed → seeds
+  coconuts → seeds
+  prickly pears → seeds
+  persimmons → seeds
+  condiment → cooking ingredient
+  sauce → condiment
+  ragù → sauce
+  caruso sauce → sauce
+  khrenovina sauce → sauce
+  wow-wow sauce → sauce
+  horseradish sauce → sauce
+  sauce ravigote → sauce
+  pesto → sauce
+  worcestershire sauce → sauce
+  hot sauce → sauce
+  peach sauce → sauce
+
+================================================================================

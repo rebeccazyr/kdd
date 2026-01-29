@@ -1,0 +1,87 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: food; fusilli; bavette; gemelli; fagottini; pici; pasta; occhi di lupo; cannelloni; spaghetti
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+pasta is a subtopic of food; spaghetti is a subtopic of pasta; pici is a subtopic of pasta; cannelloni is a subtopic of pasta; gemelli is a subtopic of pasta; bavette is a subtopic of pasta; occhi di lupo is a subtopic of pasta; fagottini is a subtopic of pasta; fusilli is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: linguine; croxetti; food; rotini; corzetti; spaghetti; sacchettoni; mezzelune; fuži; pasta
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+corzetti is a subtopic of pasta; pasta is a subtopic of food; fuži is a subtopic of pasta; spaghetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; mezzelune is a subtopic of pasta; linguine is a subtopic of pasta; rotini is a subtopic of pasta; croxetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: stringozzi; fuži; anellini; bigoli; corzetti; pasta; garganelli; food; mezzelune; occhi di lupo
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+fuži is a subtopic of pasta; garganelli is a subtopic of pasta; corzetti is a subtopic of pasta; bigoli is a subtopic of pasta; pasta is a subtopic of food; mezzelune is a subtopic of pasta; occhi di lupo is a subtopic of pasta; stringozzi is a subtopic of pasta; anellini is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: pasta; casoncelli; lanterne; macaroni; passatelli; ptitim; spaghetti; rotini; food; campanelle
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+lanterne is a subtopic of pasta; casoncelli is a subtopic of pasta; campanelle is a subtopic of pasta; rotini is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of pasta; passatelli is a subtopic of pasta; macaroni is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: rotelle; food; ptitim; penne; stringozzi; sacchettoni; rotini; pasta; spaghetti; mezzelune
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+ptitim is a subtopic of pasta; rotini is a subtopic of pasta; pasta is a subtopic of food; stringozzi is a subtopic of pasta; penne is a subtopic of pasta; spaghetti is a subtopic of pasta; rotelle is a subtopic of pasta; mezzelune is a subtopic of pasta; sacchettoni is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: food; albufera sauce; rântaş; honey garlic sauce; seafood; sauce; condiment; salad dressings; béarnaise sauce; meat
+Relationships: 
+
+================================================================================
+Number of entities: 10
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+albufera sauce is a subtopic of sauce; rântaş is a subtopic of condiment; honey garlic sauce is a subtopic of condiment; béarnaise sauce is a subtopic of sauce; sauce is a subtopic of food; salad dressings is a subtopic of condiment; seafood is a subtopic of food; meat is a subtopic of food
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 8
+
+Parsed relationships:
+  albufera sauce → sauce
+  rântaş → condiment
+  honey garlic sauce → condiment
+  béarnaise sauce → sauce
+  sauce → food
+  salad dressings → condiment
+  seafood → food
+  meat → food
+
+================================================================================

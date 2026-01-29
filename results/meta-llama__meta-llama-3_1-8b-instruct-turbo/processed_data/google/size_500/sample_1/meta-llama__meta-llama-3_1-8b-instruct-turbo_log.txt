@@ -1,0 +1,393 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Ammunition Cases & Holders; Gun Care & Accessories; Combat Knives; Staff & Stick Weapons; Gun Holsters; Mature; Google Product Taxonomy; Spears; Weapons; Reloading Supplies & Equipment
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Combat Knives is a subtopic of Weapons; Spears is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Mature; Gun Lights; Stun Guns & Tasers; Ammunition; Gun Care & Accessories; Swords; Staff & Stick Weapons; Gun Cases & Range Bags; Weapons
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Staff & Stick Weapons is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Swords is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Throwing Stars; Guns; Whips; Mature; Nunchucks; Erotic; Google Product Taxonomy; Weapons; Stun Guns & Tasers; Gun Care & Accessories
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Nunchucks is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Weapons is a subtopic of Mature; Stun Guns & Tasers is a subtopic of Weapons; Erotic is a subtopic of Mature; Whips is a subtopic of Weapons; Guns is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Pole Dancing Kits; Erotic Food & Edibles; Erotic Magazines; Mature; Erotic; Erotic Games; Erotic Clothing; Erotic DVDs & Videos; Erotic Books; Google Product Taxonomy
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Pole Dancing Kits is a subtopic of Erotic; Erotic Games is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Clothing is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Mature; Gun Slings; Staff & Stick Weapons; Gun Grips; Swords; Stun Guns & Tasers; Spears; Weapons; Gun Care & Accessories
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Swords is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Spears is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Gun Slings is a subtopic of Gun Care & Accessories; Gun Grips is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Hardware Pumps; Concrete Molds; Inversion Tables & Systems; Camera Parts & Accessories; Industrial Storage Accessories; Messenger Bags; Snack Foods; Computer Software; Business & Productivity Software; Photographic Enlargers; Lens Bags; Fishing Reel Accessories; Drop Cloths; Golf Accessory Sets; Heating, Ventilation & Air Conditioning; Advertising & Marketing; Baby Health; Golf Balls; Portable Toilets & Showers; Glass; Sport Safety Lights & Reflectors; Office & Chair Mats; Solar Energy Kits; Digital Goods & Currency; Airsoft; Exercise & Fitness Equipment Manuals; Equestrian; Media; Heat Guns; Darkroom; Shutters; Camera Stabilizers & Supports; Lighting & Studio; Toys & Games; Industrial Shelving; Wire Caps & Nuts; Wall Plates & Covers; Special Effects Light Stands; Hand Exercisers; Paddleboards; Altimeters; Camera Lens Zoom Units; Highlighter Refills; Weight Lifting; Flooring & Carpet; Vending Machines; Skateboarding Protective Gear; Model & Toys Manuals; Camera Body Replacement Panels & Doors; Door Hardware; Apparel & Accessories; Gutter Accessories; Restore Disks; Sprinkler, Booster & Irrigation System Pumps; First Aid; Party & Celebration; Food Items; Paintball & Airsoft Protective Gear; Retail; Bicycle Accessories; Luggage Accessories; Luggage & Bags; Free Weight Storage Racks; Skimboards; Camera Digital Backs; Lifting Hooks, Clamps & Shackles; Paper Clips & Clamps; Book Lights; Routing Tools; Handheld & PDA Software; Label Tapes & Refill Rolls; Fishing Gaffs; Lens Hoods; Pillboxes; Baby Toys & Activity Equipment; Exercise Balls; Skateboard Decks; Business & Industrial; Trophies & Awards; Paper Products; Fishing; Paintball & Airsoft; Hot Dog Rollers; Foam Rollers; Bicycle Frames; Computer Utilities & Maintenance Software; Armatures, Rotors & Stators; Moving & Soundproofing Blankets & Covers; Power Inlets; Yoga & Pilates Blocks; Exercise Bands; Bicycle Water Sport Board Racks; Fishing Lines & Leaders; Webcams; Supports & Braces; Writing & Drawing Instrument Accessories; Door Strikes; Darkroom Easels; Call Bells; Generator Accessories; Office Tape; Exercise Equipment Mats; Foam Roller Accessories; Studio Stands & Mounts; Camera Flash Accessories; Special Effects Lighting; Trail Cameras; Pulse Oximeters; Health & Beauty; Graduated Cylinders; Navigational Compasses; Small Engines; Handbag & Wallet Accessories; Surfboards; Spoken Word & Field Recordings; Snowmobiles; Office Instruments; Aerobic Steps; Bicycle Seatpost Clamps; Disposable Cameras; Ballasts & Starters; Mobility & Accessibility; Chains; Swimming; Print Books; Electrical Plug Caps; Film Cameras; Light Meter Accessories; Food Service; Tackle Bags & Boxes; Cameras & Optics; Tie Down Straps; Disposable Lids; Flagging & Caution Tape; Camera & Optic Accessories; Bicycle Cable Housings; Door Keyhole Escutcheons; Staircases; Clay Pigeon Shooting; Laboratory Specimens; Door Frames; Mounting Putty; Free Weight Accessories; Boating & Rafting; Golf Club Headcovers; Eye Wash Supplies; Chain, Wire & Rope; Paper Clips; Exercise Machine & Equipment Sets; Surfing; Siding; Vehicles; Fishing Hook Removal Tools; Riding Crops & Whips; Studio Lighting Controls; Shopping Totes; Fishing Reels; Hardhats; Bicycle Covers; Suitcases; Fly Tying Materials; Bite Alarms; Diaper Bags; Wall Paneling; Fishing Rods; Bicycle Seatposts; Bakery Boxes; Tacks & Pushpins; Sporting Goods; Biometric Monitor Accessories; Live Bait; Dental Cement; Reaction Balls; Camera Film; Baby Mobile Accessories; Power & Electrical Supplies; Golf Carts; Air Ducts; Shipping Tags; Sound Dampening Panels & Foam; Utility Buckles; Incontinence Aids; Camera Silencers & Sound Blimps; Borescopes; Gutters; Blood Pressure Monitors; Lap Desks; Roofing; First Aid Kits; Brass Fasteners; Canoes; Book Stands & Rests; Shoelaces; Check Presenters; Skateboarding; Vehicles & Parts; Bicycle Shock Pumps; Bicycle Training Wheels; Product Manuals; Molding; Recipe Card Boxes; Push Up & Pull Up Bars; Wire Terminals & Connectors; Desk Pads & Blotters; Spray String; Light Meters; Fishing & Hunting Waders; Kite Buggying; Bicycle Handlebar Grips & Decor; On-Camera Monitors; Speed & Resistance Parachutes; Finance & Insurance; Brochures; Food, Beverages & Tobacco; Wire Partitions, Enclosures & Doors; Drawer Slides; Garment Bags; Ring Pillows & Holders; Camping & Hiking; Activity Monitor Accessories; Photographic Paper; Camping Tools; Animals & Pet Supplies; Motor Vehicles; Door Knobs & Handles; Light Therapy Lamps; Pencil Sharpeners; Photography; Live Animals; Exercise Benches; Special Occasion Card Boxes & Holders; Hunting & Shooting; Surfing Gloves; Baby & Toddler; Book Covers; Dry Boxes; Religious & Ceremonial; Fuel Containers & Tanks; Electronics Manuals; Video Cameras; Trade Show Counters; Swim Caps; Golf Club Grips; Bicycle Saddle Pads & Seat Covers; Exercise & Fitness; Power Outlets & Sockets; Hydration System Accessories; Work Safety Harnesses; Piercing & Tattooing; Vents & Flues; Wall & Ceiling Tile; Golf Club Parts & Accessories; Blank ID Cards; Dentistry; Food Washers & Dryers; Bicycle Stands & Storage; Balance Trainers; Vibration Exercise Machines; Disposable Cups; Well Pumps & Systems; Wall Socket Controls & Sensors; Bicycle Child Seat Accessories; Hygrometers; Stopwatches; Weight Lifting Machines & Racks; Surveying; Baby Walkers & Entertainers; Health Care; Poker Chip Accessories; Camera & Video Camera Lenses; Socket Drivers; Construction; Underwater Camera Housing Accessories; Driver Accessories; Google Product Taxonomy; Camera Image Sensors; Pencil Lead & Refills; Extension Cord Accessories; Parachutes; Weighted Clothing; Kickboards; Boating & Water Sport Apparel; Weight Lifting Gloves & Hand Supports; CD/DVD Cases & Organizers; Body Weight Scale Accessories; Spurs; Correction Fluids, Pens & Tapes; Ab Wheels & Rollers; Fishing Bait & Chum Containers; Beakers; Outdoor Recreation; Deburrers; Skate Ramps; Safety Gloves; Grinder Accessories; Medical Identification Tags & Jewelry; Shipping Labels; Ladders & Scaffolding; Camera Lens Accessories; Kitchen Appliance Manuals; Marker Refills; Hardware; Voltage Transformers & Regulators; Skateboard Parts; Tool Accessories; Educational Software; Games; Staples; Enlarging Equipment; Riding Scooters; Disposable Cutlery; Fishing Nets; Power Towers; Chair Mats; Tape Dispensers; Bicycle Child Seats; Cameras; Multifunction Power Tools; Place Card Holders; Impulse Sealers; Hydration Systems; Windbreaks; Fishing Spears; Electrical Switches; Tricycle Accessories; GPS Map Data & Software; Blood Pressure Monitor Accessories; Bookmarks; Network Software; Welding Accessories; Carbon Brushes; Trade Show Displays; Fishing Reel Replacement Spools; Special Effects; Music & Sound Recordings; Baby Safety; Dental Tools; Flashlight Accessories; Hooks, Buckles & Fasteners; Disposable Bowls; Battle Tops; Party Supplies; Golf; Router Accessories; Bicycle Mirrors; General Office Supplies; Anti-Fatigue Mats; Magnifiers; Arts & Entertainment; Camera Remote Controls; Sound Editing Software; Pneumatic Hoses; Yoga & Pilates; Janitorial Carts & Caddies; Lighting Filters & Gobos; Window Hardware; Books; Work Safety Protective Gear; Marker & Highlighter Ink Refills; Diving & Snorkeling; Camera Grips; Ice Bins; Lighters & Matches; Video Game Software; Balloons; Cycling Apparel & Accessories; Skateboard Small Parts; Camera Straps; Medical Alarm Systems; Address Books; Bicycle Locks; Train Cases; Hardware Accessories; Storage Tanks; Bicycle Fenders; Duffel Bags; Riveting Tools; Unicycle Accessories; Photo Negative & Slide Storage; Multimedia & Design Software; Book Accessories; Camera Replacement Screens & Displays; Food Service Baskets; Handbags, Wallets & Cases; Industrial Storage; Hang Gliding & Skydiving; Bicycle Stems; Tools; Bicycle Trainers; Camera & Optic Replacement Cables; Seasonings & Spices; Dictionary & Translation Software; Hot & Cold Therapies; Paddle Leashes; Boating Gloves; Backpacks; Measuring Tools & Sensors; Extension Cords; Contraceptive Cases; Audiobooks; Exercise Wedges; Conductivity Gels & Lotions; Roof Flashings; Name Plates; Cosmetic & Toiletry Bags; Biometric Monitors; Shoe Accessories; Party Supply Kits; Prophy Paste; Hang Gliders; Shapers; Utility Wire; Lumber & Sheet Stock; Camera Replacement Buttons & Knobs; Greeting Card Organizers; Boating & Water Sports; Bicycle Tire Valve Adapters; Video Camera Lights; Springs; Science & Laboratory; Sheet Music; Cycling; Tripods & Monopods; Home Automation Kits; Disposable Plates; Digital Cameras; Welding Helmets; Medicine Balls; Bicycle Parts; Compilers & Programming Tools; Door Stops; Wedding Ceremony Supplies; Generators; Bullet Proof Vests; Food Service Carts; Roofing Shingles & Tiles; Phone & Data Jacks; Camera Accessory Sets; Office Supplies; Medical Thermometers; Cholesterol Analyzers; Door Closers; Cardio; Laboratory Flasks; Folder Tabs; Flower Girl Baskets; Riding Apparel & Accessories; Plate & Dish Warmers; Fishing Beads; Rubber Bands; Candy & Chocolate; Skateboarding Gloves; Shipping Containers; Operating Systems; Golf Flags; Saws; Building Materials; Industrial Cabinets; Bus Tubs; Camera Bags & Cases; Bicycle Toe Straps & Clips; Staple Removers; Flash Brackets; Filing & Organization; Power Tool & Equipment Manuals; Camera Lenses; Kitesurfing; Golf Clubs; Hotel & Hospitality; Baby Monitors; Bicycle Kickstands; Web Design Software; Forestry & Logging; Business Card Books; Activity Monitors; Hinges; Fishing Traps; Air & Filter Dryers; Business Card Stands; Lens Filters; Skateboard Wheels; Golf Bags; Labels & Tags; Weight Lifting Machine & Exercise Bench Accessories; Gas Mask & Respirator Accessories; Unicycles; Surfboard Wax; Darkroom Timers; Shaper Accessories; Work Safety Tethers; Laboratory Supplies; Wire & Cable Hand Tools; Disposable Tableware; Concession Food Containers; Underwater Camera Housings; Accessibility Furniture & Fixtures; Kitesurfing & Windsurfing Harnesses; Software; Address Labels; Studio Backgrounds
+Relationships: 
+
+================================================================================
+Number of entities: 500
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to provide a simplified taxonomy based on the given relationships. However, please note that this might not be a comprehensive or accurate representation of the relationships between all the concepts.
+
+Here's a simplified taxonomy:
+
+1. Google Product Taxonomy
+   - Mature
+     - Weapons
+       - Staff & Stick Weapons
+       - Swords
+       - Spears
+       - Stun Guns & Tasers
+       - Gun Slings
+       - Gun Grips
+     - Gun Care & Accessories
+       - Ammunition
+       - Gun Cases & Range Bags
+       - Gun Holsters
+       - Gun Lights
+       - Reloading Supplies & Equipment
+     - Erotic
+       - Erotic Books
+       - Erotic Clothing
+       - Erotic DVDs & Videos
+       - Erotic Food & Edibles
+       - Erotic Games
+       - Erotic Magazines
+       - Erotic Toys & Games
+     - Business & Productivity Software
+     - Computer Software
+     - Digital Goods & Currency
+     - Handbag & Wallet Accessories
+     - Office & Chair Mats
+     - Office Tape
+     - Office Instruments
+     - Office Supplies
+     - Paper Clips & Clamps
+     - Paper Products
+     - Pencil Sharpeners
+     - Pencil Lead & Refills
+     - Photographic Enlargers
+     - Photographic Paper
+     - Photographic Supplies
+     - Print Books
+     - Recipe Card Boxes
+     - Retail
+     - Shopping Totes
+     - Staple Removers
+     - Stationery
+     - Tacks & Pushpins
+     - Writing & Drawing Instrument Accessories
+   - Airsoft
+     - Paintball & Airsoft
+     - Paintball & Airsoft Protective Gear
+   - Baby Health
+     - Baby Mobile Accessories
+     - Baby Safety
+     - Baby Toys & Activity Equipment
+     - Diaper Bags
+     - Incontinence Aids
+     - Pillboxes
+     - Weighted Clothing
+   - Business & Industrial
+     - Business & Productivity Software
+     - Computer Software
+     - Digital Goods & Currency
+     - Industrial Cabinets
+     - Industrial Shelving
+     - Industrial Storage
+     - Industrial Storage Accessories
+     - Industrial Supplies
+     - Label Tapes & Refill Rolls
+     - Office & Chair Mats
+     - Office Tape
+     - Office Instruments
+     - Office Supplies
+     - Paper Clips & Clamps
+     - Paper Products
+     - Pencil Sharpeners
+     - Pencil Lead & Refills
+     - Photographic Enlargers
+     - Photographic Paper
+     - Photographic Supplies
+     - Print Books
+     - Recipe Card Boxes
+     - Retail
+     - Shopping Totes
+     - Staple Removers
+     - Stationery
+     - Tacks & Pushpins
+     - Writing & Drawing Instrument Accessories
+   - Camera & Optics
+     - Camera & Optic Accessories
+     - Camera & Optic Replacement Cables
+     - Camera & Video Camera Lenses
+     - Camera Bags & Cases
+     - Camera Body Replacement Panels & Doors
+     - Camera Digital Backs
+     - Camera Flash Accessories
+     - Camera Grips
+     - Camera Image Sensors
+     - Camera Lens Accessories
+     - Camera Lens Zoom Units
+     - Camera Remote Controls
+     - Camera Silencers & Sound Blimps
+     - Camera Stabilizers & Supports
+     - Camera Straps
+     - Camera & Video Camera Lenses
+     - Darkroom
+     - Darkroom Easels
+     - Darkroom Timers
+     - Film Cameras
+     - Lens Hoods
+     - Light Meters
+     - Light Meter Accessories
+     - Photographic Enlargers
+     - Photographic Paper
+     - Photographic Supplies
+     - Print Books
+     - Studio Lighting Controls
+     - Studio Stands & Mounts
+     - Tripods & Monopods
+   - Computer Hardware
+     - Computer Utilities & Maintenance Software
+     - Handheld & PDA Software
+     - Network Software
+     - Operating Systems
+     - Software
+   - Electronics
+     - Electrical Plug Caps
+     - Electrical Switches
+     - Power Inlets
+     - Power Outlets & Sockets
+     - Power Tool & Equipment Manuals
+     - Power Towers
+     - Voltage Transformers & Regulators
+   - Exercise & Fitness
+     - Aerobic Steps
+     - Balance Trainers
+     - Exercise & Fitness Equipment Manuals
+     - Exercise & Fitness
+     - Exercise Balls
+     - Exercise Benches
+     - Exercise Machine & Equipment Sets
+     - Exercise Wedges
+     - Foam Rollers
+     - Foam Roller Accessories
+     - Hand Exercisers
+     - Kickboards
+     - Medicine Balls
+     - Pulse Oximeters
+     - Reaction Balls
+     - Vibration Exercise Machines
+     - Weight Lifting
+     - Weight Lifting Gloves & Hand Supports
+     - Weight Lifting Machines & Racks
+     - Yoga & Pilates
+     - Yoga & Pilates Blocks
+   - Food & Beverage
+     - Bakery Boxes
+     - Candy & Chocolate
+     - Disposable Bowls
+     - Disposable Cups
+     - Disposable Plates
+     - Food Items
+     - Food Service
+     - Food Service Baskets
+     - Food Service Carts
+     - Food Washers & Dryers
+     - Hot Dog Rollers
+     - Live Bait
+     - Recipe Card Boxes
+     - Snack Foods
+   - Health & Beauty
+     - Blood Pressure Monitors
+     - Blood Pressure Monitor Accessories
+     - Cholesterol Analyzers
+     - Cosmetic & Toiletry Bags
+     - Dental Cement
+     - Dental Tools
+     - Eye Wash Supplies
+     - First Aid
+     - First Aid Kits
+     - Health & Beauty
+     - Hydration System Accessories
+     - Hygrometers
+     - Medical Alarm Systems
+     - Medical Identification Tags & Jewelry
+     - Medical Thermometers
+     - Pulse Oximeters
+     - Stopwatches
+   - Home & Garden
+     - Air Ducts
+     - Building Materials
+     - Canoes
+     - Door Frames
+     - Door Hardware
+     - Door Knobs & Handles
+     - Door Stops
+     - Door Strikes
+     - Flooring & Carpet
+     - Gutter Accessories
+     - Gutter Systems
+     - Hinges
+     - Home Automation Kits
+     - Hot & Cold Therapies
+     - Ladders & Scaffolding
+     - Lighting Filters & Gobos
+     - Lighting & Studio
+     - Paintball & Airsoft Protective Gear
+     - Roof Flashings
+     - Roofing
+     - Roofing Shingles & Tiles
+     - Siding
+     - Siding Accessories
+     - Spray String
+     - Staircases
+     - Staircase Accessories
+     - Wall & Ceiling Tile
+     - Wall Paneling
+     - Wall Socket Controls & Sensors
+     - Window Hardware
+   - Industrial & Scientific
+     - Armatures, Rotors & Stators
+     - Biometric Monitors
+     - Borescopes
+     - Chains
+     - Conductivity Gels & Lotions
+     - Dental Cement
+     - Dental Tools
+     - Electrical Plug Caps
+     - Electrical Switches
+     - Laboratory Flasks
+     - Laboratory Specimens
+     - Laboratory Supplies
+     - Measuring Tools & Sensors
+     - Power Inlets
+     - Power Outlets & Sockets
+     - Power Tool & Equipment Manuals
+     - Power Towers
+     - Reaction Balls
+     - Science & Laboratory
+     - Surveying
+     - Thermometers
+     - Vibration Exercise Machines
+     - Voltage Transformers & Regulators
+   - Musical Instruments
+     - Book Covers
+     - Book Lights
+     - Bookmarks
+     - Dictionary & Translation Software
+     - Music & Sound Recordings
+     - Sheet Music
+     - Spoken Word & Field Recordings
+   - Office Supplies
+     - Address Books
+     - Address Labels
+     - Book Accessories
+     - Book Covers
+     - Book Lights
+     - Bookmarks
+     - Dictionary & Translation Software
+     - Filing & Organization
+     - Folder Tabs
+     - Office Instruments
+     - Office Supplies
+     - Paper Clips & Clamps
+     - Paper Products
+     - Pencil Sharpeners
+     - Pencil Lead & Refills
+     - Photographic Enlargers
+     - Photographic Paper
+     - Photographic Supplies
+     - Print Books
+     - Recipe Card Boxes
+     - Retail
+     - Shopping Totes
+     - Staple Removers
+     - Stationery
+     - Tacks & Pushpins
+     - Writing & Drawing Instrument Accessories
+   - Outdoor Recreation
+     - Boating & Rafting
+     - Boating & Water Sport Apparel
+     - Boating & Water Sports
+     - Camping & Hiking
+     - Camping Tools
+     - Fishing
+     - Fishing & Hunting Waders
+     - Fishing Bait & Chum Containers
+     - Fishing Hook Removal Tools
+     - Fishing Lines & Leaders
+     - Fishing Nets
+     - Fishing Reel Accessories
+     - Fishing Reels
+     - Fishing Rods
+     - Fishing Spears
+     - Kite Buggying
+     - Kitesurfing
+     - Kitesurfing & Windsurfing Harnesses
+     - Live Bait
+     - Paddle Leashes
+     - Paddleboards
+     - Skateboarding
+     - Skateboarding Gloves
+     - Skateboarding Protective Gear
+     - Skateboarding Small Parts
+     - Skateboarding Wheels
+     - Skimboards
+     - Snowmobiles
+     - Surfboards
+     - Surfing
+     - Surfing Gloves
+     - Underwater Camera Housings
+     - Under
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 1
+
+Parsed relationships:
+  This is a very long list of concepts and relationships. I'll try to provide a simplified taxonomy based on the given relationships. However → please note that this might not be a comprehensive or accurate representation of the relationships between all the concepts
+
+================================================================================

@@ -1,0 +1,131 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Reloading Supplies & Equipment; Gun Holsters; Combat Knives; Staff & Stick Weapons; Mature; Spears; Google Product Taxonomy; Weapons; Ammunition Cases & Holders; Gun Care & Accessories
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Gun Holsters is a subtopic of Gun Care & Accessories; Combat Knives is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Staff & Stick Weapons; Gun Cases & Range Bags; Mature; Gun Lights; Swords; Stun Guns & Tasers; Ammunition; Google Product Taxonomy; Weapons; Gun Care & Accessories
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Weapons is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Gun Lights is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Weapons; Gun Care & Accessories; Throwing Stars; Nunchucks; Stun Guns & Tasers; Mature; Guns; Erotic; Whips; Google Product Taxonomy
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Stun Guns & Tasers is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Whips is a subtopic of Weapons; Guns is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Erotic Food & Edibles; Erotic Magazines; Erotic Games; Erotic DVDs & Videos; Erotic; Erotic Books; Pole Dancing Kits; Mature; Erotic Clothing
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Magazines is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Food & Edibles is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic Games is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Gun Slings; Mature; Swords; Gun Grips; Spears; Weapons; Gun Care & Accessories; Stun Guns & Tasers; Staff & Stick Weapons
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Weapons is a subtopic of Mature; Swords is a subtopic of Weapons; Spears is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Grips is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Memorial Ceremony Supplies; Medical Furniture; Lifts & Hoists; Media; Arts & Entertainment; Office Supply Manuals; Medical Equipment; Name Plates; Office Supplies; Industrial Shelving; Conveyors; Chiropractic Tables; Memorial Urns; Industrial Storage Accessories; Medical; Industrial Storage; Medical Supplies; Food Service; Disposable Lids; Clothing; Film & Television; Arts & Crafts; Heavy Machinery; Emergency Preparedness; Business & Industrial; Stethoscopes; Music CDs; Product Manuals; Juggling; Religious & Ceremonial; Bakery Boxes; Homecare & Hospital Beds; DVDs & Videos; Trade Show Displays; Shipping Supplies; Apparel & Accessories; Desk Pads & Blotters; Google Product Taxonomy; Electronics Manuals; Handbag & Wallet Accessories; Music & Sound Recordings; Industrial Cabinets; Home & Garden; Advertising & Marketing; Tilt Skillets; Material Handling; Brochures; Religious Items; Hobbies & Creative Arts; Scrub Caps
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here's the list of parent-child relationships:
+
+1. Business & Industrial is a subtopic of Google Product Taxonomy
+2. Memorial Ceremony Supplies is a subtopic of Business & Industrial
+3. Medical Furniture is a subtopic of Business & Industrial
+4. Lifts & Hoists is a subtopic of Business & Industrial
+5. Media is a subtopic of Business & Industrial
+6. Arts & Entertainment is a subtopic of Business & Industrial
+7. Office Supply Manuals is a subtopic of Business & Industrial
+8. Medical Equipment is a subtopic of Business & Industrial
+9. Name Plates is a subtopic of Business & Industrial
+10. Office Supplies is a subtopic of Business & Industrial
+11. Industrial Shelving is a subtopic of Business & Industrial
+12. Conveyors is a subtopic of Business & Industrial
+13. Chiropractic Tables is a subtopic of Business & Industrial
+14. Memorial Urns is a subtopic of Business & Industrial
+15. Industrial Storage Accessories is a subtopic of Business & Industrial
+16. Medical is a subtopic of Business & Industrial
+17. Medical Supplies is a subtopic of Medical
+18. Food Service is a subtopic of Business & Industrial
+19. Disposable Lids is a subtopic of Food Service
+20. Clothing is a subtopic of Business & Industrial
+21. Film & Television is a subtopic of Arts & Entertainment
+22. Arts & Crafts is a subtopic of Arts & Entertainment
+23. Heavy Machinery is a subtopic of Business & Industrial
+24. Emergency Preparedness is a subtopic of Business & Industrial
+25. Business & Industrial is a subtopic of Google Product Taxonomy
+26. Stethoscopes is a subtopic of Medical Supplies
+27. Music CDs is a subtopic of Arts & Entertainment
+28. Product Manuals is a subtopic of Business & Industrial
+29. Juggling is a subtopic of Arts & Entertainment
+30. Religious & Ceremonial is a subtopic of Business & Industrial
+31. Memorial Ceremony Supplies is a subtopic of Religious & Ceremonial
+32. Bakery Boxes is a subtopic of Food Service
+33. Homecare & Hospital Beds is a subtopic of Medical
+34. DVDs & Videos is a subtopic of Arts & Entertainment
+35. Trade Show Displays is a subtopic of Business & Industrial
+36. Shipping Supplies is a subtopic of Business & Industrial
+37. Apparel & Accessories is a subtopic of Clothing
+38. Desk Pads & Blotters is a subtopic of Office Supplies
+39. Google Product Taxonomy is a subtopic of itself
+40. Electronics Manuals is a subtopic of Business & Industrial
+41. Handbag & Wallet Accessories is a subtopic of Apparel & Accessories
+42. Music & Sound Recordings is a subtopic of Arts & Entertainment
+43. Industrial Cabinets is a subtopic of Business & Industrial
+44. Home & Garden is a subtopic of Business & Industrial
+45. Advertising & Marketing is a subtopic of Business & Industrial
+46. Tilt Skillets is a subtopic of Food Service
+47. Material Handling is a subtopic of Business & Industrial
+48. Brochures is a subtopic of Advertising & Marketing
+49. Religious Items is a subtopic of Religious & Ceremonial
+50. Hobbies & Creative Arts is a subtopic of Arts & Entertainment
+51. Scrub Caps is a subtopic of Medical Supplies
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

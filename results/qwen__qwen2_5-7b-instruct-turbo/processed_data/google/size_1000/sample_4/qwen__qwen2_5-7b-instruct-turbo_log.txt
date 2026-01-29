@@ -1,0 +1,290 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Staff & Stick Weapons; Gun Care & Accessories; Spears; Google Product Taxonomy; Mature; Ammunition Cases & Holders; Combat Knives; Weapons; Gun Holsters; Reloading Supplies & Equipment
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Spears is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Combat Knives is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Stun Guns & Tasers; Mature; Staff & Stick Weapons; Weapons; Gun Cases & Range Bags; Swords; Gun Lights; Gun Care & Accessories; Ammunition
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Swords is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Ammunition is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Whips; Stun Guns & Tasers; Google Product Taxonomy; Nunchucks; Gun Care & Accessories; Weapons; Erotic; Guns; Throwing Stars; Mature
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Whips is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Weapons is a subtopic of Mature; Throwing Stars is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Erotic is a subtopic of Mature; Guns is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Magazines; Erotic DVDs & Videos; Google Product Taxonomy; Erotic Books; Erotic Clothing; Erotic; Erotic Games; Erotic Food & Edibles; Pole Dancing Kits; Mature
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Books is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Pole Dancing Kits is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic Games is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Staff & Stick Weapons; Swords; Gun Slings; Google Product Taxonomy; Gun Grips; Weapons; Stun Guns & Tasers; Spears; Gun Care & Accessories; Mature
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Swords is a subtopic of Weapons; Spears is a subtopic of Weapons; Weapons is a subtopic of Mature; Stun Guns & Tasers is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Gun Slings is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Pet Supplies; Vacuum Accessories; Decor; Hardware Pumps; Replacement Shelves; Pet Containment Systems; Camera Parts & Accessories; Modem Accessories; Industrial Vibrators; Medicine Cabinets; Industrial Storage Accessories; Ball Pit Accessories; Earthquake Alarms; Medical Reflex Hammers & Tuning Forks; Shoe Covers; American Football Toys; Solar Panels; Hourglasses; Cotton Swabs; Cabinet Hardware; Baby & Toddler Furniture; Fence Posts & Rails; Decorative Bottles; Fly Swatters; Drop Cloths; Decorative Plates; Clocks; Glass Cutters; Furnace & Boiler Accessories; Moisture Absorbers; Heating, Ventilation & Air Conditioning; Pet Carriers & Crates; Putty Knives & Scrapers; Hammer Accessories; Hair Clipper & Trimmer Accessories; Drill Presses; High Chairs & Booster Seats; Dollhouses; Weather Vanes & Roof Decor; Easels; Waste Containment; Axes; Marking Tools; Glass; GPS Accessories; Reptile & Amphibian Supplies; Seeds; Wall Patching Compounds & Plaster; Plants; Religious Items; Polishers & Buffers; Office & Chair Mats; Solar Energy Kits; Compactors; Bedding; Motherboards; Media; Heat Guns; Shutters; Hardware Fasteners; Industrial Shelving; Toys & Games; Construction Set Toys; Snow Globes; Stud Sensors; Impact Wrenches & Drivers; Pet Medicine; Wire Caps & Nuts; Scan Converters; Dressers; Altimeters; Flooring & Carpet; Camera Lens Zoom Units; Cat Treats; Trees; Emergency Preparedness; Bath Towels & Washcloths; Tool Sheaths; Mop Heads & Refills; Pet Oral Care Supplies; Ant Farms; Garden Hose Storage; Thermocouples & Thermopiles; Office Rubber Stamps; Hair Care; Camera Body Replacement Panels & Doors; Sanders; Pliers; Apparel & Accessories; Door Hardware; Event Tickets; Pool & Spa Circuit Boards; Traffic Cones & Barrels; Table Runners; Toy Tools; Bushes & Shrubs; Gutter Accessories; Door Knockers; Sprinkler, Booster & Irrigation System Pumps; Garage Floor Mats; Correction Tapes; Drills; Hard Drive Circuit Boards; Office Equipment; Linens & Bedding; Circuit Prototyping; Electrical Wires & Cable; Hand Dryers; Circuit Decoders & Encoders; Retail; Tarps; Retail Display Cases; Measuring Scales; Vehicle Pet Barriers; Luggage & Bags; Art & Drafting Tables; Flood, Fire & Gas Safety; Household Cleaning Supplies; Deodorant; Bleach; Lifting Hooks, Clamps & Shackles; Camera Digital Backs; Paper Clips & Clamps; Routing Tools; Label Tapes & Refill Rolls; Curtains & Drapes; Emergency Lighting; Card Files; Medical Supplies; Furniture; Rivet Guns; Sofa Accessories; Erasers; Mannequin Parts; Fluorescent Tubes; Carving Chisels & Gouges; Waste Containment Accessories; Household Thermometers; Business & Industrial; Paper Products; Dolls; Radar Detectors; Cabinet & Furniture Keyhole Escutcheons; Saw Horses; Cover Paper; Tripod & Monopod Accessories; Manufacturing; Hot Dog Rollers; Pest Control Traps; Rivet Pliers; Broom & Mop Handles; Dappen Dishes; Cabinets & Storage; End Tables; Playhouses; Marine Electronics; Handkerchiefs; Moving & Soundproofing Blankets & Covers; Pens & Pencils; Power Inlets; Pet Doors; Soldering Iron Accessories; Shoe Brushes; Home Appliance Pumps; Pedicure Chairs; Cut-Off Saws; Doll & Action Figure Accessories; Camera Flashes; Clothespins; Powered Hammers; Business Cards; Specimen Cups; Tripod & Monopod Cases; Scopes; Cement, Mortar & Concrete Mixes; Power Converters; Music Boxes; Axe Heads; Electronic Dictionaries & Translators; Rocking Chairs; Fish Supplies; Writing & Drawing Instrument Accessories; Neck Gaiters; Power Inverters; Door Strikes; Pet Food Scoops; Call Bells; Candles; Puzzles; Office Tape; Pest Control; Generator Accessories; Toy Gift Baskets; Outdoor Ottomans; Holiday Ornament Displays & Stands; Paper Joggers; Trail Cameras; Post Base Plates; Emergency Blankets; Electrical Mount Boxes & Brackets; Fireplace Andirons; Shelving Accessories; Aisle Runners; Marine Radar; Health & Beauty; Nailers & Staplers; Small Engines; Smart Glasses; Handbag & Wallet Accessories; Cat Toys; Wreaths & Garlands; Shoe Care Kits; Coffee Tables; Material Handling; Office Instruments; Cutters; Ballasts & Starters; Soldering Irons; Puppets & Marionettes; Cat Litter Boxes; Lighting; Riding Toy Accessories; Table Legs; Pneumatic Drills; Reptile & Amphibian Substrates; Fire Extinguishers; Tool Sockets; Print Books; Electrical Plug Caps; Film Cameras; Time & Attendance Clocks; Bird & Wildlife Feeder Accessories; Flashlights; Educational Toys; Outdoor Play Equipment; Emergency Food Kits; Food Service; Robotic Toys; Cameras & Optics; Dolls, Playsets & Toy Figures; Laser Pointers; Flagging & Caution Tape; Camera & Optic Accessories; Electrical Motors; Costume Hats; Game Timers; Tie Down Straps; Wax Tarts; pH Meters; LED Light Bulbs; Pet Bowl Mats; Vanities; Tool Storage & Organization; Bathroom Accessory Sets; Headlamps; Gas Detectors; Correction Pens; Toy Instruments; Aquariums; Tongue Depressors; Door Frames; Mounting Putty; Otoscopes & Ophthalmoscopes; Tool Safety Tethers; Safety & Crowd Control Barriers; Tool Knives; Home Game Console Accessories; Paint Rollers; Coils; Chain, Wire & Rope; Paper Clips; Marine Chartplotters & GPS; Beach & Sand Toys; Indoor & Outdoor Plants; File Boxes; Siding; Weapon Scope & Sight Accessories; Floor & Grandfather Clocks; Levels; Calculator Accessories; Modulators; Flying Toy Accessories; Costume Capes; Rebar & Remesh; Shopping Totes; Workspace Tables; Small Animal Treats; Hardhats; Tool Sets; Hockey Toys; Pet Bowl Stands; Trunks; Chalkboards; Components; Carts & Islands; Microcontrollers; Umbrella Sleeves & Cases; Nail Pullers; Window Cranks; Mail Carts; Grinders; Marble Track Sets; Fabric Softeners & Dryer Sheets; Gaming Chairs; Facility Identification Signs; Boomerangs; Incandescent Light Bulbs; Sight Levels; Pet Eye Drops & Lubricants; Diaper Bags; Brooms; Storage Chests; Wall Paneling; Toy Abacuses; Thermal Imaging Cameras; Toilet Brushes & Holders; Bird Cage Food & Water Dishes; Hammers; Bakery Boxes; Jewelry; Sneeze Guards; Prophy Cups; Sporting Goods; Dental Cement; Dehumidifier Accessories; Home & Garden; Flowers; Bath Caddies; Fence Panels; Sofas; Fence & Gate Accessories; Office Mats; Utility Carts; Reptile & Amphibian Food; Personal Care; Address Signs; Power & Electrical Supplies; HVAC Controls; Toy Helicopters; Air Ducts; Shipping Tags; Salon Chairs; Humidor Accessories; Camera Silencers & Sound Blimps; GPS Cases; Borescopes; Fish Finders; Magnetic Sweepers; Stilts; Alarm Clocks; Pretend Lawn & Garden; Roofing; Tiki Torches & Oil Lamps; Pet Steps & Ramps; Waste Container Lids; Sports Toys; Medical; Hardware Torches; Dummy Surveillance Cameras; Pesticides; Pet Waste Bags; Multifunction Writing Instruments; Hair Color Removers; Fire Sprinklers; Pet Waste Disposal Systems & Tools; Brass Fasteners; Medical Instruments; Shower Rods; Chairs; Potted Houseplants; Bed Pans; Pretend Shopping & Grocery; Vehicles & Parts; Touch Table Computers; Twine; Tablet Computers; Stationery; Laundry Detergent; Check Presenters; Jigs; Hair Coloring Accessories; Welding Guns & Plasma Cutters; Foam Blocks; Sundials; Door Bells & Chimes; Nap Mats; Wire Terminals & Connectors; Futons; Desk Pads & Blotters; Plumbing Primer; Tarot Cards; Religious Altars; Desks; Concentrators & Multiplexers; Medical Needles & Syringes; Drill & Screwdriver Accessories; Diodes; Bathroom Accessories; Wire Partitions, Enclosures & Doors; Table Skirts; Drawer Slides; Fireplace Screens; Changing Tables; Bedroom Vanities; Bath Pillows; Landscaping & Garden Plants; Concrete Brooms; Nightstands; Paint Sponges; Bird Gyms & Playstands; Shoe Scrapers; Vital Signs Monitors; Entertainment Centers & TV Stands; Grips; Table Linens; Animals & Pet Supplies; Drawer & Shelf Liners; Pencil Sharpeners; Photography; Live Animals; Shoe Care & Tools; Racquet Sport Toys; Surgical Gowns; Primers; Armoires & Wardrobes; Ladders; Lanyards; Flying Discs; Security Monitors & Recorders; Tool Files; Baby & Toddler; Dry Boxes; Pretend Jewelry; Bathroom Vanities; Religious & Ceremonial; Typewriters; Book Covers; Fuel Containers & Tanks; Measuring Tool & Sensor Accessories; Pet First Aid & Emergency Kits; Paint Strainers; Grout; Reptile & Amphibian Habitats; Aquarium Fish Nets; Taps & Dies; Video Cameras; Checkbook Covers; Shower Curtain Rings; Play Vehicles; Pretend Play; Book Carts; Utility Pumps; Shoes; Chain Connectors & Links; Index Cards; Mattocks & Pickaxes; Waste Container Labels & Signs; Small Animal Food; Napkin Rings; Bird Cage Accessories; Casters; Hope Chests; Dog Apparel; Lattice; Wood Stoves; Power Outlets & Sockets; Solder & Flux; Tripod Collars & Mounts; Windows; Household Supplies; Outdoor Furniture Accessories; Science & Exploration Sets; Work Safety Harnesses; Robe Hooks; Vents & Flues; Scrub Caps; Vision Care; Wall & Ceiling Tile; Blank ID Cards; Dentistry; Brackets & Reinforcement Braces; Holiday Stockings; Conveyors; Diapering; Magnetizers & Demagnetizers; Cat Litter Box Liners; Policy Signs; Disposable Cups; Augers; Lawn Ornaments & Garden Sculptures; Seasonal & Holiday Decorations; Wall Socket Controls & Sensors; Interlocking Blocks; Crib & Toddler Bed Accessories; Mixing Tool Paddles; Pet Leash Extensions; Post Cards; Household Insect Repellents; Hearth Pads; Light Bulbs; Hygrometers; Boot Liners; Shoe Bags; Office Furniture Accessories; Hearing Aids; GPS Mounts; Pry Bars; Health Care; Industrial Staples; Receipt & Adding Machine Paper Rolls; Accelerometers; Camera & Video Camera Lenses; Pet Door Accessories; Office Shredders; Ceiling Light Fixtures; Office Furniture; Hand Saws; Smoking Accessories; Socket Drivers; Construction; Surveillance Camera Accessories; Fireplace & Wood Stove Accessories; Home Fragrances; Toy Drawing Tablets; Document Cameras; Protective Aprons; Fire Alarms; Writing & Drawing Instruments; Underwater Camera Housing Accessories; Driver Accessories; Trash Cans & Wastebaskets; Deodorant & Anti-Perspirant; Google Product Taxonomy; Seeds & Seed Tape; Hospital Curtains; Mattock & Pickaxe Accessories; Bed & Bed Frame Accessories; Shaving & Grooming; Camera Image Sensors; Printer, Copier, & Fax Machine Circuit Boards; Pillows; Extension Cord Accessories; Pallets & Loading Platforms; Lubricants; Accent Tables; Cabinet Backplates; Room Dividers; Cosmetics; Costumes & Accessories; Safety Grab Bars; Wallets & Money Clips; Security System Sensors; Pickup Tools; Lathes; Footbags; Toys; Ball Pit Balls; Fire Extinguisher & Equipment Storage; Correction Fluids, Pens & Tapes; Home Decor Decals; Road & Traffic Signs; Dry-Erase Boards; Waste Container Enclosures; Reading Toys; Deburrers; Hairdressing Capes & Neck Covers; Wood Stove Fans & Blowers; Fireplaces; Grinder Accessories; Soldering Iron Tips; Safety Gloves; Astronomy Toys & Models; Toll Collection Devices; Shipping Labels; Ladders & Scaffolding; Camera Lens Accessories; Laser Levels; Kitchen Islands; Electrician Fish Tape; Balaclavas; Hardware; Slipcovers; Voltage Transformers & Regulators; Circuit Breaker Panels; Heat Detectors; Tool Accessories; Mattresses; Basketball Toys; Pet Bells & Charms; Power Tool Chargers; Staples; Toy Race Car & Track Sets; Cabinet Knobs & Handles; Bassinet & Cradle Accessories; Ground Spikes; Towel Racks & Holders; Chair Mats; Pet Strollers; Laptops; Filters & Screens; Poker & Game Tables; Puppet & Puppet Theater Accessories; Log Splitters; Wall Shelves & Ledges; Animal & Pet Repellents; Sports Toy Accessories; Dowel Pins & Rods; Plant & Flower Bulbs; Aftershave; Rangefinders; Disposable Gloves; Cameras; Pens; Heating Radiator Accessories; Multifunction Power Tools; Pipe & Bar Benders; Dog Supplies; Folding Tables; Camera Gears; Play Food; Laundry Supplies; Plungers; Tweezers; Parking Signs & Permits; Computer Circuit Boards; Sewing Machine Tables; Finials; Toy Kitchens & Play Food; Screws; Costume Tobacco Products; Axe Accessories; Electrical Testing Tool Accessories; Fencing & Barriers; Bath Mats & Rugs; Welding Accessories; Communications; Abrasive Blasters; Safety & Security Mirrors; Ottomans; Masonry Consumables; File Carts; Wind-Up Toys; Costume Accessories; Dental Tools; Hatches; Binocular & Monocular Accessories; Clothing Display Racks; Hardware Tape; Flashlight Accessories; Basic Calculators; Puppet Theaters; Hooks, Buckles & Fasteners; Kotatsu; Pipe Cutters; Business & Home Security; Toy Kitchens; Painting Consumables; Cigar Cases; Artificial Food; Disposable Bowls; Christmas Tree Stands; Wine & Liquor Cabinets; Measuring Scale Accessories; Reptile & Amphibian Habitat Accessories; Electronics; Kitchen & Dining Room Chairs; General Office Supplies; GPS Navigation Systems; Office Carts; Anti-Fatigue Mats; Monoculars; Memorial Ceremony Supplies; Magnifiers; Converters; Masks; Grease Guns; Wall Jacks & Braces; Arts & Entertainment; Medical Equipment; Handheld Power Mixers; Shower Curtains; Room Divider Accessories; Sharpeners; Kitchen Cabinets; Camera Remote Controls; Pneumatic Hoses; Riding Toys; Paper Handling; Cat Supplies; Boot Pulls; Memorial Urns; Play Money & Banking; Pencil Boards; Beds & Accessories; Masonry & Tile Saws; Window Hardware; Laundry Appliance Accessories; Surgical Lubricants; Bowling Toys; Swing Sets & Playsets; Books; Fragrance Oil; Film & Television; Work Safety Protective Gear; Pagers; Heavy Machinery; Trash Compactor Accessories; Dental Tool Sets; Chalk; Handheld Power Drills; Camera Grips; Bobblehead Figures; Inflatable Bouncer Accessories; Ice Bins; Condoms; Flashlights & Headlamps; Examination Chairs & Tables; Calculators; Gates; Dry Cleaning Kits; Personal Lubricants; Oil Filter Drains; Gas Hoses; Rebar Cutters; Post Hole Diggers; Computer Servers; Camera Straps; Modems; Cat Furniture; Sound Meters; Hairdressing & Cosmetology; Work Benches; Ecospheres; Wireless Presenters; Train Cases; Hardware Accessories; Optic Accessories; Storage Tanks; Desk & Shelf Clocks; Duffel Bags; Medical Furniture; Paper Folding Machines; Video Game Console Accessories; Laminating Film, Pouches & Sheets; Humidors; Riveting Tools; Wallpaper; Educational Flash Cards; Ironing Boards; Book Accessories; Food Service Baskets; Handbags, Wallets & Cases; Wall Clocks; Bathroom Accessory Mounts; Industrial Storage; Air Purifier Accessories; File Folders; Table & Bar Stools; Tools; Camera & Optic Replacement Cables; Humidifier Filters; Building Consumables; Stuffed Animals; Surgical Needles & Sutures; Outdoor Storage Boxes; AV Carts; Tool & Equipment Belts; Cash Boxes; Signage; Keychains; Log Rack & Carrier Accessories; Backpacks; Weather Forecasters & Stations; Conference Room Tables; Measuring Tools & Sensors; Toy Cookware; Wedge Tools; Pet Apparel Hangers; Picture Lights; Fabric Stain Removers; Bath Toys; Fire Alarm Control Panels; Chandeliers; Safety & Warning Signs; Track Lighting; Tables; Play Dough & Putty; Ashtrays; Shoe Dryers; Envelopes; Networking; Contraceptive Cases; Paint Tools; Tie Clips; Changing Mat & Tray Covers; China Cabinets & Hutches; Clock Parts; Conductivity Gels & Lotions; Threaded Rods; Roof Flashings; Play Swings; Fingerboards & Fingerboard Sets; Play Vehicle Accessories; Fishing Toys; Name Plates; Camera Circuit Boards; Tool Keys; Belt Buckles; Shoe Accessories; Bird Cages & Stands; Ladder Carts; Household Appliance Accessories; Office Chairs; Shapers; Threading Machines; Lumber & Sheet Stock; Utility Wire; Humidifier Accessories; Camera Replacement Buttons & Knobs; Table Accessories; Label Makers; Panel Saws; Garbage Bags; Medical Cabinets; Handrails & Railing Systems; Video Camera Lights; Presentation Supplies; Drying Racks & Hangers; Art & Drawing Toys; Tripods & Monopods; Digital Cameras; Light Bulb Changers; Welding Helmets; Mattress Protectors; Optics; Pretend Electronics; Window Treatments; In-Ground Lights; Ironing Board Replacement Parts; Hair Removal; Hand Dryer Accessories; Wedding Ceremony Supplies; Generators; Bullet Proof Vests; Fish Feeders; Laminators; Food Service Carts; Outdoor Furniture; Scanner Circuit Boards; Fireplace & Wood Stove Grates; Lighting Fixtures; Cabinet Light Fixtures; Sticky Notes; Drywall; Baseball Toys; Flag & Windsock Accessories; Cabinet Doors; Tripod Spreaders; Suncatchers; Video Game Consoles; Scrubs; Office Supplies; Mining & Quarrying; Computers; Paint Trays; Highlighters; Home Alarm Systems; Solvents, Strippers & Thinners; Bug Collecting Kits; Medical Bedding; Planes; Holiday Ornaments; Grinding Wheels & Points; Reamers; Folder Tabs; Aquatic Plants; Slides; Circuit Boards & Components; Bungee Cords; Bassinets & Cradles; Ropes & Hardware Cable; Log Racks & Carriers; Electric Massaging Chairs; Building Toys; Checks; Stains; Plate & Dish Warmers; Flower Girl Baskets; Blankets; Electronics Component Connectors; Rubber Bands; Costumes; Tool Bags; Air Conditioner Accessories; Musical Toys; Plant & Herb Growing Kits; Decorative Bowls; Hardware Glue & Adhesives; Bald Caps; Scaffolding; Communication Radio Accessories; Saws; Air Fresheners; Building Materials; Window Valances & Cornices; Kitchen Linens Sets; Bus Tubs; Camera Bags & Cases; Paperweights; Lens Caps; Weather Stripping & Weatherization Supplies; Staple Removers; Towels; Flash Brackets; Pet Agility Equipment; Filing & Organization; Table Tops; Iron Rests; Protractors; Camera Lenses; Emergency Tools & Kits; Chair Accessories; Hotel & Hospitality; Bird & Wildlife Houses; Mortisers; Insulation; Countertops; Baby Bathing; Stair Treads; Play Tents & Tunnels; Chair & Sofa Cushions; Repellents; Vase Fillers & Table Scatters; Dusters; Crib Bumpers & Liners; Forestry & Logging; Business Card Books; Markers & Highlighters; Printed Circuit Boards; Chiropractic Tables; Multimeter Accessories; Jigsaw Puzzles; Artwork; Clothing Accessories; Toy Weapon & Gadget Accessories; Pet Medical Collars; Printer & Copier Paper; File Cabinets; Telescope Accessories; Anvils; Lens Filters; Caulking Tools; Toilet Paper Holders; Dog Treats; Shadow Boxes; Vibration Meters; Labels & Tags; Carpentry Jointers; Television Circuit Boards; Gas Mask & Respirator Accessories; Reptile & Amphibian Habitat Heating & Lighting; Pet ID Tags; Soap Dishes & Holders; Handheld Metal Shears & Nibblers; Pipe & Tube Cleaners; Bird Supplies; Shaper Accessories; Dollhouse Accessories; Marine Radios; Outdoor Tables; Wire & Cable Hand Tools; Disposable Tableware; Pet Leashes; Take-Out Containers; Furniture Floor Protectors; Compressors; Costume Gloves; Squares; Shelving; Toy Boats; Concession Food Containers; Underwater Camera Housings; Beach Towels; Gear Ties; Religious Veils; Pet Heating Pads; Mechanical Puzzles; Small Animal Supplies; Action & Toy Figures; Hand Tool Sets; Semiconductors; Arcade Equipment; Garden Borders & Edging; Work Lights; Sanding Blocks; Binder Paper; Fan Accessories; Pet Bowls, Feeders & Waterers; Address Labels; Surgical Tables
+Relationships: 
+
+================================================================================
+Number of entities: 1000
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Creating a taxonomy from the given list of concepts involves organizing them into a hierarchical structure. Here are the parent-child relationships:
+
+1. **Google Product Taxonomy**
+   - **Mature**
+     - **Erotic**
+       - **Erotic Books**
+       - **Erotic Magazines**
+       - **Erotic DVDs & Videos**
+       - **Erotic Games**
+       - **Erotic Food & Edibles**
+       - **Pole Dancing Kits**
+     - **Weapons**
+       - **Staff & Stick Weapons**
+       - **Swords**
+       - **Spears**
+       - **Stun Guns & Tasers**
+       - **Gun Grips**
+       - **Gun Slings**
+     - **Pet Supplies**
+       - **Pet Containment Systems**
+         - **Pet Carriers & Crates**
+         - **Pet Doors**
+       - **Pet Supplies**
+         - **Pet Food Scoops**
+         - **Pet Waste Bags**
+         - **Pet Waste Disposal Systems & Tools**
+         - **Pet First Aid & Emergency Kits**
+         - **Pet Medical Collars**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leash Extensions**
+         - **Pet Steps & Ramps**
+         - **Pet Strollers**
+         - **Pet Waste Bags**
+         - **Pet Waste Disposal Systems & Tools**
+         - **Pet ID Tags**
+         - **Pet Medical Collars**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms**
+         - **Pet Bowls, Feeders & Waterers**
+         - **Pet Leashes**
+         - **Pet Bells & Charms
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

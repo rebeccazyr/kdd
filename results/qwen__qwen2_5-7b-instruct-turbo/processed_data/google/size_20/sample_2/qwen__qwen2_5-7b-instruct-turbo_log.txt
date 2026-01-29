@@ -1,0 +1,98 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Ammunition Cases & Holders; Mature; Spears; Gun Care & Accessories; Staff & Stick Weapons; Weapons; Combat Knives; Gun Holsters; Google Product Taxonomy; Reloading Supplies & Equipment
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Spears is a subtopic of Weapons; Weapons is a subtopic of Mature; Combat Knives is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Weapons; Gun Cases & Range Bags; Google Product Taxonomy; Gun Care & Accessories; Ammunition; Stun Guns & Tasers; Staff & Stick Weapons; Mature; Gun Lights; Swords
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Staff & Stick Weapons is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Swords is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Lights is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Whips; Stun Guns & Tasers; Google Product Taxonomy; Weapons; Erotic; Guns; Mature; Nunchucks; Throwing Stars
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Guns is a subtopic of Weapons; Erotic is a subtopic of Mature; Weapons is a subtopic of Mature; Nunchucks is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Whips is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Books; Erotic Magazines; Erotic; Erotic Food & Edibles; Mature; Google Product Taxonomy; Erotic Games; Erotic DVDs & Videos; Pole Dancing Kits; Erotic Clothing
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Games is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Erotic Food & Edibles is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Spears; Weapons; Mature; Gun Slings; Staff & Stick Weapons; Gun Care & Accessories; Google Product Taxonomy; Gun Grips; Swords; Stun Guns & Tasers
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Swords is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Gun Grips is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Luggage & Bags; Media; Components; Computers; Electronics Accessories; Cosmetic & Toiletry Bags; Toll Collection Devices; Electronics Films & Shields; Diaper Bags; Vehicles & Parts; Religious & Ceremonial; DVDs & Videos; Google Product Taxonomy; Music & Sound Recordings; Spoken Word & Field Recordings; Film & Television VHS Tapes; Electronics Stickers & Decals; GPS Accessories; Food, Beverages & Tobacco; Electronics
+Relationships: 
+
+================================================================================
+Number of entities: 20
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Electronics is a subtopic of Google Product Taxonomy; Luggage & Bags is a subtopic of Electronics; Media is a subtopic of Electronics; Components is a subtopic of Electronics; Computers is a subtopic of Electronics; Electronics Accessories is a subtopic of Electronics; Cosmetic & Toiletry Bags is a subtopic of Luggage & Bags; Toll Collection Devices is a subtopic of Electronics; Electronics Films & Shields is a subtopic of Media; Diaper Bags is a subtopic of Luggage & Bags; Vehicles & Parts is a subtopic of Electronics; Religious & Ceremonial is a subtopic of Electronics; DVDs & Videos is a subtopic of Media; Music & Sound Recordings is a subtopic of Media; Spoken Word & Field Recordings is a subtopic of Media; Film & Television VHS Tapes is a subtopic of Media; Electronics Stickers & Decals is a subtopic of Electronics; GPS Accessories is a subtopic of Electronics; Food, Beverages & Tobacco is not directly related to Electronics but can be considered under a broader category like "Miscellaneous" if needed.
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 19
+
+Parsed relationships:
+  Electronics → Google Product Taxonomy
+  Luggage & Bags → Electronics
+  Media → Electronics
+  Components → Electronics
+  Computers → Electronics
+  Electronics Accessories → Electronics
+  Cosmetic & Toiletry Bags → Luggage & Bags
+  Toll Collection Devices → Electronics
+  Electronics Films & Shields → Media
+  Diaper Bags → Luggage & Bags
+  Vehicles & Parts → Electronics
+  Religious & Ceremonial → Electronics
+  DVDs & Videos → Media
+  Music & Sound Recordings → Media
+  Spoken Word & Field Recordings → Media
+  Film & Television VHS Tapes → Media
+  Electronics Stickers & Decals → Electronics
+  GPS Accessories → Electronics
+  Food → Beverages & Tobacco is not directly related to Electronics but can be considered under a broader category like "Miscellaneous" if needed
+
+================================================================================

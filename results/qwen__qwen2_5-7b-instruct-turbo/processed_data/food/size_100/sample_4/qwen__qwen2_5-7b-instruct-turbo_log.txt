@@ -1,0 +1,271 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: food; fusilli; pici; pasta; bavette; occhi di lupo; gemelli; cannelloni; spaghetti; fagottini
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+fagottini is a subtopic of pasta; pici is a subtopic of pasta; bavette is a subtopic of pasta; fusilli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; spaghetti is a subtopic of pasta; gemelli is a subtopic of pasta; cannelloni is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: corzetti; spaghetti; sacchettoni; pasta; fuži; food; croxetti; mezzelune; linguine; rotini
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+fuži is a subtopic of pasta; mezzelune is a subtopic of pasta; corzetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; linguine is a subtopic of pasta; rotini is a subtopic of pasta; spaghetti is a subtopic of pasta; croxetti is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: food; stringozzi; pasta; corzetti; fuži; garganelli; mezzelune; bigoli; anellini; occhi di lupo
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+stringozzi is a subtopic of pasta; corzetti is a subtopic of pasta; mezzelune is a subtopic of pasta; fuži is a subtopic of pasta; garganelli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; bigoli is a subtopic of pasta; anellini is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: food; lanterne; passatelli; ptitim; campanelle; macaroni; rotini; casoncelli; spaghetti; pasta
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+spaghetti is a subtopic of pasta; lanterne is a subtopic of pasta; macaroni is a subtopic of pasta; campanelle is a subtopic of pasta; rotini is a subtopic of pasta; ptitim is a subtopic of pasta; passatelli is a subtopic of pasta; casoncelli is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: spaghetti; rotini; ptitim; pasta; food; rotelle; penne; sacchettoni; mezzelune; stringozzi
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+mezzelune is a subtopic of pasta; stringozzi is a subtopic of pasta; rotelle is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; rotini is a subtopic of pasta; ptitim is a subtopic of pasta; pasta is a subtopic of food; sacchettoni is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: chistorra; cheonsachae; ontbijtkoek; fideo; likëngë; noodle; vlaai; prepared food; siskonmakkara; cake; sushi; eccles cake; upside-down cake; alheira; tamarind; morteau sausage; chocolate covered fruit; bakery; liquor; soy product; oxford sausage; bratwurst; tart; dairy product; dip; butter cake; torta caprese; oranges; nădlac sausages; sausage; game cake; chocolate truffles; meat; bánh bó; savory; caramel tart; meatcake; licorice; babacos; weckewerk; sour cream; fresh meat; lane cake; tofu; mints; lollipops; stonner kebab; ice cream cones; trdelník; gummy sweets; side dishes; mamey; passion fruit; candy bars; feijoas; ahle wurst; fruit; kek lapis sarawak; pastries; torta alla monferrina; butter and margarine; persimmons; metworst; ryynimakkara; eggnog; sorrel; candy canes; deli meats; kinnathappam; toffee brittle; sweets; garak guksu; herb; chocolate cake; food; cotechino modena; st. honoré cake; pastiera; rambutans; shrimp roe noodles; wacky cake; breakfast sausage; sage; heavy cake; merguez; chipa guasu; chocolate bars; spice; toffee; pain d'épices; sapodillo; taffy; mangosteens; fruit cake; jelly beans; beverage; chiffon cake; torta tre monti; frankfurter würstchen; esterházy torte
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+chistorra is a subtopic of prepared food; ontbijtkoek is a subtopic of cake; fideo is a subtopic of noodle; likëngë is a subtopic of noodle; vlaai is a subtopic of tart; siskonmakkara is a subtopic of sausage; tamarind is a subtopic of food; oxford sausage is a subtopic of sausage; bratwurst is a subtopic of sausage; alheira is a subtopic of sausage; tamarind is a subtopic of food; chistorra is a subtopic of food; chistorra is a subtopic of meat; chistorra is a subtopic of prepared food; chistorra is a subtopic of sausage; chistorra is a subtopic of food; chistorra is a subtopic of meatcake; chistorra is a subtopic of game cake; chistorra is a subtopic of sweets; chistorra is a subtopic of candy bars; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake; chistorra is a subtopic of candy bars; chistorra is a subtopic of sweets; chistorra is a subtopic of candy canes; chistorra is a subtopic of sweets; chistorra is a subtopic of fruit; chistorra is a subtopic of fruit cake;
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 192
+
+Parsed relationships:
+  chistorra → prepared food
+  ontbijtkoek → cake
+  fideo → noodle
+  likëngë → noodle
+  vlaai → tart
+  siskonmakkara → sausage
+  tamarind → food
+  oxford sausage → sausage
+  bratwurst → sausage
+  alheira → sausage
+  tamarind → food
+  chistorra → food
+  chistorra → meat
+  chistorra → prepared food
+  chistorra → sausage
+  chistorra → food
+  chistorra → meatcake
+  chistorra → game cake
+  chistorra → sweets
+  chistorra → candy bars
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+  chistorra → candy bars
+  chistorra → sweets
+  chistorra → candy canes
+  chistorra → sweets
+  chistorra → fruit
+  chistorra → fruit cake
+
+================================================================================

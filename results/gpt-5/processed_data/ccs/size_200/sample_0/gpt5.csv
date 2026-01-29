@@ -1,0 +1,187 @@
+child,parent
+Hardware,Computing Classification System
+Information systems,Computing Classification System
+Software and its engineering,Computing Classification System
+Computing methodologies,Computing Classification System
+Networks,Computing Classification System
+Human-centered computing,Computing Classification System
+Applied computing,Computing Classification System
+Social and professional topics,Computing Classification System
+Computing education,Computing Classification System
+Mathematics of computing,Computing Classification System
+General and reference,Computing Classification System
+Security and privacy,Computing Classification System
+Embedded and cyber-physical systems,Computing Classification System
+Electronic design automation,Hardware
+VLSI packaging,Hardware
+Printed circuit boards,Hardware
+Logic families,Hardware
+Emerging technologies,Hardware
+Circuits power issues,Hardware
+Power and energy,Hardware
+Process variations,Hardware
+Yield and cost modeling,Hardware
+Electromagnetic interference and compatibility,Hardware
+Hardware test,Hardware
+Spintronics and magnetic technologies,Emerging technologies
+Plasmonics,Emerging technologies
+Emerging optical and photonic technologies,Emerging technologies
+Chip-level power issues,Circuits power issues
+Energy generation and storage,Power and energy
+Energy distribution,Power and energy
+Renewable energy,Energy generation and storage
+Reusable energy storage,Energy generation and storage
+Standard cell libraries,Integrated circuits
+Very large scale integration design,Integrated circuits
+Application specific integrated circuits,Integrated circuits
+VLSI system specification and constraints,Very large scale integration design
+Design for manufacturability,Very large scale integration design
+Design for testability,Very large scale integration design
+Logic synthesis,Very large scale integration design
+Sequential synthesis,Very large scale integration design
+Technology-mapping,Very large scale integration design
+On-chip resource management,Very large scale integration design
+Functional verification,Electronic design automation
+Physical verification,Electronic design automation
+Assertion checking,Electronic design automation
+Power estimation and optimization,Electronic design automation
+Power and thermal analysis,Electronic design automation
+Modeling and parameter extraction,Electronic design automation
+PCB design and layout,Printed circuit boards
+Reversible logic,Logic families
+Digital switches,Logic families
+Fault models and test metrics,Hardware test
+Test-pattern generation and fault simulation,Hardware test
+Post-manufacture validation and debug,Hardware test
+Process validation,Hardware test
+Hardware validation,Hardware test
+Hardware reliability screening,Hardware test
+Bug fixing (hardware),Hardware test
+Information storage systems,Information systems
+Enterprise computing,Applied computing
+Enterprise data management,Information systems
+Document management and text processing,Information systems
+Data extraction and integration,Information systems
+Health care information systems,Information systems
+Web services,World Wide Web
+Web mining,World Wide Web
+Web log analysis,World Wide Web
+Web data description languages,World Wide Web
+Universal Description Discovery and Integration (UDDI),Web services
+Storage management,Information storage systems
+Memory and dense storage,Information storage systems
+Image compression,Information storage systems
+Business process management,Enterprise computing
+Business process modeling,Business process management
+Document management,Document management and text processing
+Document metadata,Document management and text processing
+Health informatics,Health care information systems
+Computer graphics,Computing methodologies
+Modeling and simulation,Computing methodologies
+Computer vision,Computing methodologies
+Parallel computing methodologies,Computing methodologies
+Concurrent computing methodologies,Computing methodologies
+Distributed computing methodologies,Computing methodologies
+Visualization,Computing methodologies
+Machine learning,Artificial intelligence
+Knowledge representation and reasoning,Artificial intelligence
+Search methodologies,Artificial intelligence
+Philosophical/theoretical foundations of artificial intelligence,Artificial intelligence
+Cognitive robotics,Artificial intelligence
+Ontology engineering,Knowledge representation and reasoning
+"Nonmonotonic, default reasoning and belief revision",Knowledge representation and reasoning
+Causal reasoning and diagnostics,Knowledge representation and reasoning
+Probabilistic reasoning,Knowledge representation and reasoning
+Reasoning about belief and knowledge,Knowledge representation and reasoning
+Learning paradigms,Machine learning
+Batch learning,Learning paradigms
+Learning from demonstrations,Learning paradigms
+Simulation theory,Modeling and simulation
+Simulation evaluation,Modeling and simulation
+Simulation support systems,Modeling and simulation
+Model development and analysis,Modeling and simulation
+Experimentation,Modeling and simulation
+Graphics systems and interfaces,Computer graphics
+Animation,Computer graphics
+Shape modeling,Computer graphics
+Collision detection,Computer graphics
+Point-based models,Shape modeling
+Volumetric models,Shape modeling
+Visualization techniques,Visualization
+Heat maps,Visualization techniques
+Empirical studies in visualization,Visualization
+Network measurement,Networks
+Network performance analysis,Networks
+Network simulations,Networks
+Data center networks,Networks
+Network services,Networks
+Network types,Networks
+Application layer protocols,Network protocols
+Transport protocols,Network protocols
+Link-layer protocols,Network protocols
+Cross-layer protocols,Network protocols
+Network performance evaluation,Network performance analysis
+Network performance modeling,Network performance analysis
+Wired access networks,Network types
+Packet-switching networks,Network types
+People with disabilities,Human-centered computing
+Text editing,Human-centered computing
+Gender,User characteristics
+Men,User characteristics
+Age,User characteristics
+Sexual orientation,User characteristics
+Cultural characteristics,User characteristics
+Ubiquitous and mobile computing,Applied computing
+Online advertising,Applied computing
+Arts and humanities,Applied computing
+Ubiquitous and mobile computing systems and tools,Ubiquitous and mobile computing
+Empirical studies in ubiquitous and mobile computing,Ubiquitous and mobile computing
+Consumer health,Life and medical sciences
+Metabolomics / metabonomics,Life and medical sciences
+Systems biology,Life and medical sciences
+Biology-related information processing,Life and medical sciences
+Computing / technology policy,Social and professional topics
+Impact on the environment,Social and professional topics
+Censorship,Social and professional topics
+Hate speech,Social and professional topics
+IT governance,Professional topics
+IT architectures,Professional topics
+Government technology policy,Computing / technology policy
+Commerce policy,Computing / technology policy
+Import / export controls,Computing / technology policy
+Online auctions policy,Computing / technology policy
+History of computing,Social and professional topics
+Computational thinking,Computing education
+Active learning settings,Computing education
+Learning settings,Computing education
+Student assessment,Computing education
+Computer algebra systems,Symbolic and algebraic manipulation
+Representation of mathematical objects,Symbolic and algebraic manipulation
+Representation of mathematical functions,Representation of mathematical objects
+Representation of polynomials,Representation of mathematical objects
+Validation,General and reference
+Cross-computing tools and techniques,General and reference
+Design,General and reference
+Empirical studies,Evaluation
+Walkthroughs,Evaluation
+Cross-validation,Validation
+Automatic programming,Software and its engineering
+Software development techniques,Software and its engineering
+Software creation and management,Software and its engineering
+Development frameworks and environments,Software and its engineering
+Software notations and tools,Software and its engineering
+Software verification and validation,Software and its engineering
+Designing software,Software design engineering
+Pair programming,Software development techniques
+Error handling and recovery,Software development techniques
+Software configuration management and version control systems,Software creation and management
+Traceability,Software creation and management
+Reusability,Software creation and management
+Formal software verification,Software verification and validation
+Empirical software validation,Software verification and validation
+"Bug detection, localization and diagnosis",Software verification and validation
+Search-based software engineering,Software and its engineering
+Safety critical systems,Embedded and cyber-physical systems
+Control methods,Embedded and cyber-physical systems
+Fault tree analysis,Safety critical systems
+Robustness,Safety critical systems

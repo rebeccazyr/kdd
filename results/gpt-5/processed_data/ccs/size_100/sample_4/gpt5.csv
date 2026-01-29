@@ -1,0 +1,102 @@
+child,parent
+Human-centered computing,Computing Classification System
+General and reference,Computing Classification System
+Security and privacy,Computing Classification System
+Hardware,Computing Classification System
+Information systems,Computing Classification System
+Networks,Computing Classification System
+Computing methodologies,Computing Classification System
+Mathematics of computing,Computing Classification System
+Theory of computation,Computing Classification System
+Cross-computing tools and techniques,General and reference
+Design,General and reference
+Measurement,Cross-computing tools and techniques
+Experimentation,Cross-computing tools and techniques
+Information storage systems,Information systems
+Information retrieval,Information systems
+Document structure,Information systems
+Record storage systems,Information storage systems
+Document representation,Information retrieval
+Network performance evaluation,Networks
+Systems security,Security and privacy
+Software and application security,Security and privacy
+Database and storage security,Security and privacy
+Human and societal aspects of security and privacy,Security and privacy
+Information accountability and usage control,Security and privacy
+Intrusion detection systems,Systems security
+Distributed systems security,Systems security
+Intrusion/anomaly detection and malware mitigation,Intrusion detection systems
+Hardware test,Hardware
+Hardware validation,Hardware
+Integrated circuits,Hardware
+Power and energy,Hardware
+Security in hardware,Hardware
+Board- and system-level test,Hardware test
+Test-pattern generation and fault simulation,Hardware test
+Defect-based test,Hardware test
+Hardware reliability screening,Hardware test
+Functional verification,Hardware validation
+Equivalence checking,Functional verification
+Digital switches,Integrated circuits
+Thermal issues,Power and energy
+Hardware attacks and countermeasures,Security in hardware
+Hardware security implementation,Security in hardware
+Human computer interaction (HCI),Human-centered computing
+Accessibility,Human-centered computing
+Collaborative and social computing,Human-centered computing
+Interaction design,Human computer interaction (HCI)
+Interaction devices,Human computer interaction (HCI)
+Interaction techniques,Human computer interaction (HCI)
+HCI design and evaluation methods,Human computer interaction (HCI)
+"Interaction design theory, concepts and paradigms",Human computer interaction (HCI)
+Systems and tools for interaction design,Interaction design
+Keyboards,Interaction devices
+Gestural input,Interaction techniques
+User studies,HCI design and evaluation methods
+Usability testing,HCI design and evaluation methods
+Walkthrough evaluations,HCI design and evaluation methods
+Empirical studies in interaction design,HCI design and evaluation methods
+"Accessibility theory, concepts and paradigms",Accessibility
+Accessibility technologies,Accessibility
+Empirical studies in accessibility,Accessibility
+Collaborative and social computing devices,Collaborative and social computing
+Collaborative and social computing design and evaluation methods,Collaborative and social computing
+Social network analysis,Collaborative and social computing
+User models,"Interaction design theory, concepts and paradigms"
+Computing methodologies,Computing Classification System
+Modeling and simulation,Computing methodologies
+Artificial intelligence,Computing methodologies
+Distributed computing methodologies,Computing methodologies
+Parallel computing methodologies,Computing methodologies
+Modeling methodologies,Modeling and simulation
+Model development and analysis,Modeling and simulation
+Mathematics of computing,Computing Classification System
+Discrete mathematics,Mathematics of computing
+Continuous mathematics,Mathematics of computing
+Probability and statistics,Mathematics of computing
+Symbolic and algebraic manipulation,Mathematics of computing
+Mathematical software,Mathematics of computing
+Graph theory,Discrete mathematics
+Combinatorics,Discrete mathematics
+Continuous functions,Continuous mathematics
+Nonparametric statistics,Probability and statistics
+Symbolic and algebraic algorithms,Symbolic and algebraic manipulation
+Statistical software,Mathematical software
+Mathematical software performance,Mathematical software
+Spectra of graphs,Graph theory
+Matchings and factors,Graph theory
+Extremal graph theory,Graph theory
+Paths and connectivity problems,Graph theory
+Permutations and combinations,Combinatorics
+Combinatoric problems,Combinatorics
+Theory of computation,Computing Classification System
+Models of computation,Theory of computation
+Formal languages and automata theory,Theory of computation
+Design and analysis of algorithms,Theory of computation
+Information theory,Theory of computation
+Automata extensions,Formal languages and automata theory
+Algebraic algorithms,Design and analysis of algorithms
+Nonalgebraic algorithms,Design and analysis of algorithms
+Optimization algorithms,Design and analysis of algorithms
+Exact arithmetic algorithms,Algebraic algorithms
+Number theory algorithms,Algebraic algorithms

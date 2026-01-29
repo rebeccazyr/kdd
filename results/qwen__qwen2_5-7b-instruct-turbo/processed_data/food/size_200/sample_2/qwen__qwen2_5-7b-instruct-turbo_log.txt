@@ -1,0 +1,101 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: occhi di lupo; pasta; spaghetti; food; gemelli; fusilli; fagottini; bavette; cannelloni; pici
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+cannelloni is a subtopic of pasta; occhi di lupo is a subtopic of pasta; fusilli is a subtopic of pasta; bavette is a subtopic of pasta; spaghetti is a subtopic of pasta; fagottini is a subtopic of pasta; gemelli is a subtopic of pasta; pici is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: linguine; rotini; sacchettoni; croxetti; fuži; corzetti; spaghetti; mezzelune; food; pasta
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+mezzelune is a subtopic of pasta; croxetti is a subtopic of pasta; spaghetti is a subtopic of pasta; linguine is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; fuži is a subtopic of pasta; rotini is a subtopic of pasta; corzetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: corzetti; stringozzi; food; fuži; occhi di lupo; pasta; mezzelune; garganelli; anellini; bigoli
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+mezzelune is a subtopic of pasta; stringozzi is a subtopic of pasta; anellini is a subtopic of pasta; corzetti is a subtopic of pasta; bigoli is a subtopic of pasta; fuži is a subtopic of pasta; occhi di lupo is a subtopic of pasta; pasta is a subtopic of food; garganelli is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: spaghetti; campanelle; food; pasta; passatelli; casoncelli; macaroni; ptitim; rotini; lanterne
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+rotini is a subtopic of pasta; spaghetti is a subtopic of pasta; lanterne is a subtopic of pasta; macaroni is a subtopic of pasta; casoncelli is a subtopic of pasta; ptitim is a subtopic of pasta; passatelli is a subtopic of pasta; campanelle is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: penne; pasta; rotini; sacchettoni; food; ptitim; rotelle; mezzelune; stringozzi; spaghetti
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+stringozzi is a subtopic of pasta; rotelle is a subtopic of pasta; ptitim is a subtopic of pasta; mezzelune is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food; rotini is a subtopic of pasta; sacchettoni is a subtopic of pasta; penne is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: quince; tianmianjiang; cheonsachae; salsa golf; sauce vierge; longan; fideo; ragù; noodle; caramels; rice noodles; wanko soba; garlic; pan mee; pasta sauces; chancaca; vegetable; sevai; apples; dandan noodles; pizza sauce; sweet potatoes; vinegar drinks; konro; floss sugar; cherimoyas; shanghai fried noodles; fish sauce; bread crumbs; soy product; non-dairy frozen dessert; starfruits; chocolate assortments; plums; henan braised noodles; dairy product; flour; dip; sugar apples; oranges; coffee; guavas; cantonese seafood soup; papayas; ice cream; sugar; rice vermicelli; chocolate truffles; marinade; boiled sweets; olives and capers; kumquats; ponzu; water chestnuts; soursops; licorice; baking extracts; salvitxada; oil noodles; grapes; rice noodle roll; kesme; silver needle noodles; sundae cones; pique verde boricua; peach sauce; drunken noodles; cellophane noodles; lunch meats; bean pastes; nut butters; rântaş; tomato paste; nali sauce; pickles and relishes; apricots; pomegranates; figs; black soup; chinkiang pot cover noodles; lollipops; atemoyas; kiwis; fruit salad; shredded coconut; goulash; peaches; beef; cream cheese; dotori guksu; linguettine; bitters; frozen dessert; mamey; béarnaise sauce; passion fruit; coffee creamer; candy bars; marshmallows; fizzy drinks; hot chocolate; frozen yoghurt; feijoas; beer; schupfnudel; physalis; pancake and maple syrup; salad dressings; doughnut; madroã±o; marshmallow sweets; fruit; bakmi; bolognese sauce; yaki udon; lasagnette; grapefruits; currants; suckers; henan braised noodle; tahini; bresaola; baking powder; candy corn; honey dew donuts; biscuit mixes; noodle with tomato egg sauce; dragon beard noodles; worcestershire sauce; bean sprouts; persimmons; avocados; hot dogs; dates; hundreds and thousands; soy sauce; pie fillings; eggnog; candy canes; toffee brittle; sweets; garak guksu; satay sauce; babi panggang; vinegar; spätzle; fresh seafood; food; syrup; eggs; dried fruit; rambutans; tartar sauce; shrimp roe noodles; vietnamese noodles; dough; brussels sprouts; loquats; tapenade; tekwan; solyanka; jook-sing noodles; gumdrops; dessert toppings; baking mixes; sherbet; hot sauce; evaporated milk; fruit chews; chewing gum; condensed milk; popsicles; frozen noodles; plumcots; nougat; mahyawa; mafalde; cooking ingredient; chocolate bars; seafood; pears; yeast; hot dry noodles; soup; korean noodles; sapote; taffy; edible baking decoration; katara; mangosteens; chocolate mints; jelly beans; beverage; condiment; chinese noodles; yi mein; prickly pears; coconuts; meat; cheese
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here's a structured taxonomy based on the provided concepts:
+
+1. **Food**
+   - **Pasta Sauces**
+     - Bolognese sauce
+     - Béarnaise sauce
+     - Goulash
+     - Rântaş
+     - Salvitxada
+     - Spätzle
+     - Linguettine
+     - Lasagnette
+     - Lasagna
+     - Mafalde
+     - Mamey
+     - Nali sauce
+     - Oils (e.g., olive oil, vegetable oil)
+     - Tomato paste
+     - Baking extracts
+     - Baking powder
+     - Cooking ingredients
+     - Condiments
+     - Sauces (e.g., salsa golf, sauce vierge, chancaca, chinkiang pot cover noodles, ponzu, garak guksu, satay sauce, babi panggang, worcestershire sauce, bresaola, mahyawa, mafalde, mafaldine, mafaldette, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, mafaldine, m
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

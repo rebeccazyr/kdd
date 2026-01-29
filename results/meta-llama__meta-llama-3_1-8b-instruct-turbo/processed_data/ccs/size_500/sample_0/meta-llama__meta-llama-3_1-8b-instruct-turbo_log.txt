@@ -1,0 +1,379 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Architectures; Computer systems organization; Embedded and cyber-physical systems; Computing Classification System; Systolic arrays; Real-time systems; Embedded systems; Multiple instruction, single data; Single instruction, multiple data; Parallel architectures
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Single instruction, multiple data is a subtopic of Parallel architectures; Embedded systems is a subtopic of Embedded and cyber-physical systems; Multiple instruction, single data is a subtopic of Parallel architectures; Architectures is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures; Real-time systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Systolic arrays is a subtopic of Parallel architectures
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Dependable and fault-tolerant systems and networks; Maintainability and maintenance; Computer systems organization; Computing Classification System; Processors and memory architectures; Real-time systems; Real-time languages; Architectures; Fault-tolerant network topologies
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Computer systems organization is a subtopic of Computing Classification System; Real-time languages is a subtopic of Real-time systems; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Parallel architectures; Interconnection architectures; Computer systems organization; Architectures; Serial architectures; Embedded and cyber-physical systems; Computing Classification System; Pipeline computing; Maintainability and maintenance; Dependable and fault-tolerant systems and networks
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Computer systems organization is a subtopic of Computing Classification System; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Pipeline computing is a subtopic of Serial architectures; Parallel architectures is a subtopic of Architectures; Interconnection architectures is a subtopic of Parallel architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Serial architectures is a subtopic of Architectures
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Real-time system specification; Optical computing; Real-time systems; Other architectures; Architectures; Embedded and cyber-physical systems; Real-time languages; Computer systems organization; Quantum computing; Computing Classification System
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Other architectures is a subtopic of Architectures; Optical computing is a subtopic of Other architectures; Real-time languages is a subtopic of Real-time systems; Architectures is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Quantum computing is a subtopic of Other architectures; Real-time system specification is a subtopic of Real-time systems
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Distributed architectures; Real-time systems; Serial architectures; Real-time system architecture; Computing Classification System; Computer systems organization; Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems; Architectures; Processors and memory architectures
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Real-time systems is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Real-time system architecture is a subtopic of Real-time systems; Computer systems organization is a subtopic of Computing Classification System; Distributed architectures is a subtopic of Architectures
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Mathematical software; Symmetric cryptography and hash functions; Data scans; Content match advertising; Simulation languages; Constraint and logic languages; Penetration testing; Call level interfaces; Agent / discrete models; Network algorithms; Human-centered computing; Search results deduplication; Enterprise architecture frameworks; Image and video acquisition; Representation of mathematical functions; Security and privacy; Information integration; Censorship; Hybrid symbolic-numeric methods; Computational control theory; Project and people management; Measurement; Machine learning algorithms; Mesh models; Clustering; Exact arithmetic algorithms; Planning and scheduling; Model curricula; Document collection models; Governmental surveillance; Triggers and rules; Education; Hash functions and message authentication codes; Motion path planning; Electromechanical systems; File system security; Document representation; Graph theory; Language features; Ontology engineering; Simulation evaluation; Crowdsourcing; Database views; Record storage alternatives; Mashups; Management and querying of encrypted data; Very high level languages; Graph algorithms; Simulation support systems; Data extraction and integration; Computer and information systems training; Management of computing and information systems; Database utilities and tools; Flowcharts; Transborder data flow; Public key (asymmetric) techniques; Game tree search; System description languages; Design; Discrete mathematics; Data structures; Trusted computing; Database management system engines; Nonlinear equations; Presentation of retrieval results; Mobile platform security; Database activity monitoring; Web applications; Integrated and visual development environments; Systems security; Security services; Electronic design automation; Health information exchanges; Query languages for non-relational engines; Language types; Digital signatures; Site wrapping; Technology and censorship; Q-learning; Computational thinking; Business-IT alignment; Modal and temporal logics; Integrity checking; Database protection laws; Stream management; Query languages; Abstraction and micro-operators; Transient errors and upsets; Social and professional topics; Process, voltage and temperature variations; Animation; Commerce policy; Relevance assessment; Embedded systems security; Point lookups; System modeling languages; Net neutrality; Hardware validation; Computing methodologies; Abstract data types; Surveillance; Randomness, geometry and discrete structures; Computers in other domains; Document types; Retrieval models and ranking; Enterprise modeling; Data encoding and canonicalization; Vulnerability management; World Wide Web; Quantum mechanic simulation; Algebraic topology; Spectral methods; Computational advertising; Verification; Symbolic and algebraic algorithms; Rendering; Record and buffer management; Systems development; Software product lines; Mathematical foundations of cryptography; Numerical differentiation; Modeling and parameter extraction; Command and control languages; Computer graphics; Online auctions policy; Surfacing; Object oriented frameworks; Event-driven architectures; Implementation management; Architecture (buildings); Cryptography; Online analytical processing engines; Shape modeling; Algebraic algorithms; Imperative languages; Multidimensional range search; Software as a service orchestration system; Development frameworks and environments; Antitrust and competition; Human and societal aspects of security and privacy; Technology audits; Patient privacy; Specification languages; Motion processing; Block and stream ciphers; Evaluation of retrieval results; Medical records; Network access control; Thesauri; Natural language generation; Query log analysis; Semiconductor memory; Web searching and information discovery; Learning settings; Perception; Continuous mathematics; Partially-observable Markov decision processes; Computing industry; Web search engines; Record storage systems; Integrated circuits; Genetic information; Computing equipment management; Knowledge representation and reasoning; IT governance; Political speech; Database performance evaluation; Image processing; Point-based models; General programming languages; Real-time simulation; Dictionaries; Network access restrictions; Patterns; Side-channel analysis and countermeasures; Simulation theory; Online advertising; Ubiquitous and mobile computing design and evaluation methods; Cognitive robotics; Shape analysis; Automatic differentiation; Compilers; Data access methods; Systems analysis and design; Walkthroughs; Task models; Social advertising; Search methodologies; Computations in finite fields; Business process monitoring; Entity resolution; Treaties; Portable media players; Ubiquitous and mobile computing theory, concepts and paradigms; Concurrent computing methodologies; Solvers; Agriculture; Continuous functions; Modeling and simulation; Copyrights; Broadband access; Network operations; Partial differential equations; Topology; Display advertising; Enterprise computing; Philosophical/theoretical foundations of artificial intelligence; Network components; Plasmonics; Design languages; Enterprise architecture management; Database query processing; Operating systems security; Rare-event simulation; Equation and inequality solving algorithms; System management; Cryptanalysis and other attacks; Information retrieval; Database administration; Join algorithms; Logic programming and answer set programming; Enterprise computing infrastructures; Reflectance modeling; Networks; Texturing; Malicious design modifications; Validation; Integral equations; Data dictionaries; Search-based software engineering; Digital switches; Planning with abstraction and generalization; Transaction logging; Software management; Collaborative learning; Sound and music computing; Interactive simulation; Hardware security implementation; Scripting languages; Information storage systems; Pseudonymity, anonymity and untraceability; Privacy protections; Autonomous database administration; Software security engineering; Robustness; Artificial immune systems; Symbolic and algebraic manipulation; Approximation algorithms; Software and application security; Computing / technology policy; Graph enumeration; Parallel computing methodologies; Formal methods and theory of security; Programming by example; Retrieval tasks and goals; Learning management systems; Graph coloring; RAID; Rasterization; Project staffing; Software configuration management and version control systems; Linear logic; XPath; Automatic programming; Estimation; Social network security and privacy; Causal reasoning and diagnostics; Random network models; Medical technologies; Project management techniques; Enterprise data management; Interface definition languages; Boolean algebra algorithms; State based definitions; General and reference; Operations research; Simulation by animation; Design for manufacturability; Language translation; Authorization; Search with partial observations; Cross-organizational business processes; Canonical correlation analysis; Enterprise architectures; Geometric topology; Image manipulation; Collaborative search; Extraction, transformation and loading; Tamper-proof and tamper-resistant designs; Computer algebra systems; Theory of mind; Data mining; Spatial and physical reasoning; Arts and humanities; Computer-managed instruction; General conference proceedings; Graphics systems and interfaces; Medical information policy; Accessibility; Arbitrary-precision arithmetic; Intelligent agents; Aging of circuits and systems; Differential equations; Discourse, dialogue and pragmatics; Non-photorealistic rendering; Photonic and optical interconnect; Web mining; Visibility; Web interfaces; General literature; Ensemble methods; Regularization; Cross-computing tools and techniques; Email; Distributed computing methodologies; Law, social and behavioral sciences; Main memory engines; Empirical software validation; Point-set topology; Data locking; XML query languages; Language models; Representation of polynomials; Hardware reliability; Database transaction processing; Theory of computation; Texting; Computing education; Symbolic calculus algorithms; Graphics processors; Ubiquitous and mobile computing; Business process modeling; Internet governance / domain names; Information systems applications; Software and its engineering; Deduplication; Browser security; Systems theory; Acceptance testing; Computer crime; Open source model; Distributed artificial intelligence; History of computing; Media arts; Query reformulation; Hashed file organization; Volumetric models; Simulation types and techniques; Data management systems; Biographies; Graphical / visual passwords; Business rules; Emerging technologies; Similarity measures; Data anonymization and sanitization; Collaboration in software development; Extensible languages; Information accountability and usage control; Centralization / decentralization; Procedural animation; Artificial intelligence; Vagueness and fuzzy logic; Key management; Social aspects of security and privacy; Reference works; Corporate surveillance; Top-k retrieval in databases; Taxation; Formal security models; Information flow control; Massively parallel and high-performance simulations; Combinational circuits; Malware and its mitigation; Patents; Natural language processing; Process validation; Distributed systems security; Computation of transforms; Representation of mathematical objects; Dynamic programming for Markov decision processes; Continuous models; Cooperation and coordination; Coroutines; Business process management; Functional languages; Student assessment; Simulation tools; Nonmonotonic, default reasoning and belief revision; Risk management; Application specific development environments; Assembly languages; Software libraries and repositories; Machine learning; Physical simulation; Domain-specific security and privacy architectures; Stochastic games; Heuristic function construction; Computer vision; Planning for deterministic actions; Access control; Applied computing; Computing literacy; Logic; Hardware attacks and countermeasures; Storage replication; Machine learning approaches; Software creation and management; Camera calibration; Object oriented languages; Hardware; Object oriented development; Coding theory; Macro languages; Interactive learning environments; Logic circuits; Mathematical analysis; Operational analysis; Empirical studies; Machine translation; Interval arithmetic; Software notations and tools; Optimization algorithms; Intrusion/anomaly detection and malware mitigation; Fault tree analysis; Intrusion detection systems; Data assimilation; Deep web; Mesh geometry models; Sequential circuits; Information system economics; Ubiquitous and mobile computing systems and tools; Parametric curve and surface models; Computing standards, RFCs and guidelines; Trust frameworks; Software verification and validation; Users and interactive retrieval; Information systems; Authentication; Information retrieval query processing; Discrete calculus algorithms; Rank aggregation; Software defect analysis; Image-based rendering; Control methods; Interconnect; Remote replication; Soft intellectual property; Computing and business; Formal language definitions; Information theory; Computing Classification System; Static memory; Informal education; Acceptable use policy restrictions; Distributed simulation; Incentive schemes; Query representation; Indexed file organization; Translator writing systems and compiler generators; Web data description languages; Concurrent programming structures; Factorization methods; Database and storage security; Software development techniques; Software development process management; Browsers; Internet communications tools; Content analysis and feature selection; Number theory algorithms; Vulnerability scanners; Learning linear models; Quadrature; Context specific languages; Recommender systems; Cognitive science; Representation of Boolean functions; Search interfaces; Clustering and classification; Multi-agent planning; Query planning; 3D imaging; Metrics; Hyperspectral imaging; Professional topics; Mathematics of computing; Simulation environments; Hardware-based security protocols; Surveys and overviews; Nonalgebraic algorithms; Computer vision representations; Parsers; Intellectual property; Reusability; Security in hardware; Numerical analysis; Web application security; Data flow languages; Separation logic; Unified Modeling Language (UML); Ubiquitous and mobile devices
+Relationships: 
+
+================================================================================
+Number of entities: 500
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to provide a simplified taxonomy, but please note that it might not be exhaustive due to the sheer number of concepts.
+
+Here's a simplified taxonomy:
+
+1. Computing Classification System
+   - Computer systems organization
+     - Architectures
+       - Parallel architectures
+       - Serial architectures
+       - Other architectures
+     - Embedded and cyber-physical systems
+     - Real-time systems
+     - Dependable and fault-tolerant systems and networks
+   - Information integration
+   - Human-centered computing
+   - Ubiquitous and mobile computing
+   - Distributed computing
+   - Artificial intelligence
+   - Machine learning
+   - Data mining
+   - Information retrieval
+   - Database systems
+   - Software engineering
+   - Computer networks
+   - Network security
+   - Cryptography
+   - Information security
+   - Security and privacy
+   - Human and societal aspects of security and privacy
+   - Technology audits
+   - IT governance
+   - Business process management
+   - Enterprise computing
+   - Computing industry
+   - Computing education
+   - Computing standards, RFCs and guidelines
+   - Computing and business
+   - Computing literacy
+   - Computing crime
+   - History of computing
+   - Media arts
+   - Arts and humanities
+   - Social and professional topics
+   - Law, social and behavioral sciences
+   - General literature
+   - Reference works
+   - Biographies
+   - Business process monitoring
+   - Business process modeling
+   - Business rules
+   - Commerce policy
+   - Antitrust and competition
+   - Intellectual property
+   - Patents
+   - Copyrights
+   - Treaties
+   - Taxation
+   - Governmental surveillance
+   - Censorship
+   - Technology and censorship
+   - Online auctions policy
+   - Online analytical processing engines
+   - Online advertising
+   - Digital signatures
+   - Digital switches
+   - Electronic design automation
+   - Embedded systems security
+   - Hardware security implementation
+   - Hardware validation
+   - Hardware attacks and countermeasures
+   - Hardware reliability
+   - Hardware-based security protocols
+   - Software security engineering
+   - Software and application security
+   - Software creation and management
+   - Software development techniques
+   - Software development process management
+   - Software libraries and repositories
+   - Software product lines
+   - Software verification and validation
+   - Software defect analysis
+   - Software management
+   - Software configuration management and version control systems
+   - Software notations and tools
+   - Software development frameworks and environments
+   - Software as a service orchestration system
+   - Software development
+   - Software engineering
+   - Software project management
+   - Software testing
+   - Software maintenance
+   - Software quality
+   - Software metrics
+   - Software process improvement
+   - Software reuse
+   - Software reusability
+   - Software reliability
+   - Software security
+   - Software testing and validation
+   - Software verification and validation
+   - Software development methodologies
+   - Software development processes
+   - Software development life cycle
+   - Software development models
+   - Software development methods
+   - Software development tools
+   - Software development environments
+   - Software development frameworks
+   - Software development platforms
+   - Software development languages
+   - Software development standards
+   - Software development best practices
+   - Software development guidelines
+   - Software development principles
+   - Software development ethics
+   - Software development professionalism
+   - Software development culture
+   - Software development team management
+   - Software development project management
+   - Software development risk management
+   - Software development quality management
+   - Software development security management
+   - Software development compliance management
+   - Software development governance
+   - Software development auditing
+   - Software development testing
+   - Software development validation
+   - Software development verification
+   - Software development certification
+   - Software development accreditation
+   - Software development standards compliance
+   - Software development best practices compliance
+   - Software development guidelines compliance
+   - Software development principles compliance
+   - Software development ethics compliance
+   - Software development professionalism compliance
+   - Software development culture compliance
+   - Software development team management compliance
+   - Software development project management compliance
+   - Software development risk management compliance
+   - Software development quality management compliance
+   - Software development security management compliance
+   - Software development compliance management
+   - Software development governance compliance
+   - Software development auditing compliance
+   - Software development testing compliance
+   - Software development validation compliance
+   - Software development verification compliance
+   - Software development certification compliance
+   - Software development accreditation compliance
+   - Software development standards compliance
+   - Software development best practices compliance
+   - Software development guidelines compliance
+   - Software development principles compliance
+   - Software development ethics compliance
+   - Software development professionalism compliance
+   - Software development culture compliance
+   - Software development team management compliance
+   - Software development project management compliance
+   - Software development risk management compliance
+   - Software development quality management compliance
+   - Software development security management compliance
+   - Software development compliance management
+   - Software development governance compliance
+   - Software development auditing compliance
+   - Software development testing compliance
+   - Software development validation compliance
+   - Software development verification compliance
+   - Software development certification compliance
+   - Software development accreditation compliance
+   - Software development standards compliance
+   - Software development best practices compliance
+   - Software development guidelines compliance
+   - Software development principles compliance
+   - Software development ethics compliance
+   - Software development professionalism compliance
+   - Software development culture compliance
+   - Software development team management compliance
+   - Software development project management compliance
+   - Software development risk management compliance
+   - Software development quality management compliance
+   - Software development security management compliance
+   - Software development compliance management
+   - Software development governance compliance
+   - Software development auditing compliance
+   - Software development testing compliance
+   - Software development validation compliance
+   - Software development verification compliance
+   - Software development certification compliance
+   - Software development accreditation compliance
+   - Software development standards compliance
+   - Software development best practices compliance
+   - Software development guidelines compliance
+   - Software development principles compliance
+   - Software development ethics compliance
+   - Software development professionalism compliance
+   - Software development culture compliance
+   - Software development team management compliance
+   - Software development project management compliance
+   - Software development risk management compliance
+   - Software development quality management compliance
+   - Software development security management compliance
+   - Software development compliance management
+   - Software development governance compliance
+   - Software development auditing compliance
+   - Software development testing compliance
+   - Software development validation compliance
+   - Software development verification compliance
+   - Software development certification compliance
+   - Software development accreditation compliance
+   - Software development standards compliance
+   - Software development best practices compliance
+   - Software development guidelines compliance
+   - Software development principles compliance
+   - Software development ethics compliance
+   - Software development professionalism compliance
+   - Software development culture compliance
+   - Software development team management compliance
+   - Software development project management compliance
+   - Software development risk management compliance
+   - Software development quality management compliance
+   - Software development security management compliance
+   - Software development compliance management
+   - Software development governance compliance
+   - Software development auditing compliance
+   - Software development testing compliance
+   - Software development validation compliance
+   - Software development verification compliance
+   - Software development certification compliance
+   - Software development accreditation compliance
+   - Software development standards compliance
+   - Software development best practices compliance
+   - Software development guidelines compliance
+   - Software development principles compliance
+   - Software development ethics compliance
+   - Software development professionalism compliance
+   - Software development culture compliance
+   - Software development team management compliance
+   - Software development project management compliance
+   - Software development risk management compliance
+   - Software development quality management compliance
+   - Software development security management compliance
+   - Software development compliance management
+   - Software development governance compliance
+   - Software development auditing compliance
+   - Software development testing compliance
+   - Software development validation compliance
+   - Software development verification compliance
+   - Software development certification compliance
+   - Software development accreditation compliance
+   - Software development standards compliance
+   - Software development best practices compliance
+   - Software development guidelines compliance
+   - Software development principles compliance
+   - Software development ethics compliance
+   - Software development professionalism compliance
+   - Software development culture compliance
+   - Software development team management compliance
+   - Software development project management compliance
+   - Software development risk management compliance
+   - Software development quality management compliance
+   - Software development security management compliance
+   - Software development compliance management
+   - Software development governance compliance
+   - Software development auditing compliance
+   - Software development testing compliance
+   - Software development validation compliance
+   - Software development verification compliance
+   - Software development certification compliance
+   - Software development accreditation compliance
+   - Software development standards compliance
+   - Software development best practices compliance
+   - Software development guidelines compliance
+   - Software development principles compliance
+   - Software development ethics compliance
+   - Software development professionalism compliance
+   - Software development culture compliance
+   - Software development team management compliance
+   - Software development project management compliance
+   - Software development risk management compliance
+   - Software development quality management compliance
+   - Software development security management compliance
+   - Software development compliance management
+   - Software development governance compliance
+   - Software development auditing compliance
+   - Software development testing compliance
+   - Software development validation compliance
+   - Software development verification compliance
+   - Software development certification compliance
+   - Software development accreditation compliance
+   - Software development standards compliance
+   - Software development best practices compliance
+   - Software development guidelines compliance
+   - Software development principles compliance
+   - Software development ethics compliance
+   - Software development professionalism compliance
+   - Software development culture compliance
+   - Software development team management compliance
+   - Software development project management compliance
+   - Software development
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 1
+
+Parsed relationships:
+  This is a very long list of concepts and relationships. I'll try to provide a simplified taxonomy → but please note that it might not be exhaustive due to the sheer number of concepts
+
+================================================================================

@@ -1,0 +1,549 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Architectures; Embedded systems; Computing Classification System; Multiple instruction, single data; Systolic arrays; Parallel architectures; Computer systems organization; Real-time systems; Single instruction, multiple data; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Computer systems organization is a subtopic of Computing Classification System; Real-time systems is a subtopic of Computer systems organization; Systolic arrays is a subtopic of Parallel architectures; Embedded systems is a subtopic of Embedded and cyber-physical systems; Multiple instruction, single data is a subtopic of Parallel architectures; Single instruction, multiple data is a subtopic of Parallel architectures; Parallel architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Computer systems organization; Real-time systems; Dependable and fault-tolerant systems and networks; Maintainability and maintenance; Architectures; Embedded and cyber-physical systems; Computing Classification System; Real-time languages; Processors and memory architectures; Fault-tolerant network topologies
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Real-time languages is a subtopic of Real-time systems; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Parallel architectures; Maintainability and maintenance; Architectures; Serial architectures; Embedded and cyber-physical systems; Pipeline computing; Interconnection architectures; Computer systems organization; Dependable and fault-tolerant systems and networks; Computing Classification System
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Computer systems organization is a subtopic of Computing Classification System; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures; Interconnection architectures is a subtopic of Parallel architectures; Architectures is a subtopic of Computer systems organization; Pipeline computing is a subtopic of Serial architectures; Serial architectures is a subtopic of Architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Real-time systems; Computing Classification System; Real-time system specification; Real-time languages; Computer systems organization; Other architectures; Optical computing; Architectures; Quantum computing
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Real-time systems is a subtopic of Computer systems organization; Optical computing is a subtopic of Other architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time system specification is a subtopic of Real-time systems; Real-time languages is a subtopic of Real-time systems; Computer systems organization is a subtopic of Computing Classification System; Quantum computing is a subtopic of Other architectures; Other architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Dependable and fault-tolerant systems and networks; Computing Classification System; Distributed architectures; Real-time system architecture; Processors and memory architectures; Embedded and cyber-physical systems; Computer systems organization; Serial architectures; Real-time systems; Architectures
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Real-time system architecture is a subtopic of Real-time systems; Real-time systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Distributed architectures is a subtopic of Architectures
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Mathematical software; Telecommunications; Decision analysis; Student assessment; Computing industry; Physical links; Human-centered computing; Astronomy; General and reference; Operations research; Machine learning; Visualization application domains; Security and privacy; Network privacy and anonymity; Computer forensics; Imaging; Image manipulation; Applied computing; End nodes; Physical sciences and engineering; Metabolomics / metabonomics; Arts and humanities; Network range; Network adapters; Graphics systems and interfaces; Accessibility; Marketing; Evidence collection, storage and analysis; Differential equations; Presentation protocols; Education; Mathematical analysis; Statistical software; Cross-computing tools and techniques; Functional analysis; Fine arts; Mathematics and statistics; Transportation; Concurrent computing methodologies; Network design principles; Archaeology; Metropolitan area networks; Network protocols; Partial differential equations; Computing education; Differential variational inequalities; Wide area networks; Signaling protocols; Network components; Socio-technical systems; Computing and business; Layering; Short-range networks; Information theory; Life and medical sciences; Computing Classification System; Antialiasing; Social and professional topics; Routing protocols; Informal education; Network architectures; Media arts; Embedded systems security; Networks; Aerospace; Network reliability; Texturing; Earth and atmospheric sciences; Health care information systems; Computing methodologies; Sound and music computing; Network properties; Network dynamics; Wired access networks; Mobile networks; Human computer interaction (HCI); Visualization; Performing arts; Forecasting; Network forensics; Software security engineering; Computer graphics; Architecture (buildings); Computational biology; Software and application security; Visualization systems and tools; Learning paradigms; Shape modeling; Network layer protocols; Chemistry; Professional topics; Mathematics of computing; Parallel computing methodologies; Ordinary differential equations; Mathematical software performance; Security in hardware; Numerical analysis; Multi-task learning; Link-layer protocols; Network types
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Computing Classification System is a parent of:
+- Computing industry
+- Computing education
+- Computing methodologies
+- Computing and business
+- Social and professional topics
+- Professional topics
+- Mathematics of computing
+- Numerical analysis
+- Mathematical software
+- Mathematical analysis
+- Statistical software
+- Mathematical software performance
+- Ordinary differential equations
+- Partial differential equations
+- Differential equations
+- Differential variational inequalities
+- Functional analysis
+- General and reference
+- Life and medical sciences
+- Physical sciences and engineering
+- Earth and atmospheric sciences
+- Aerospace
+- Chemistry
+- Metabolomics / metabonomics
+- Health care information systems
+- Transportation
+- Networks
+- Metropolitan area networks
+- Wide area networks
+- Short-range networks
+- Wired access networks
+- Mobile networks
+- Network architectures
+- Network components
+- Network protocols
+- Network design principles
+- Network properties
+- Network dynamics
+- Network range
+- Network reliability
+- Network range
+- Network adapters
+- Network privacy and anonymity
+- Network forensics
+- Network layer protocols
+- Link-layer protocols
+- Routing protocols
+- Signaling protocols
+- Network types
+- Physical links
+- End nodes
+- Concurrent computing methodologies
+- Parallel computing methodologies
+- Decision analysis
+- Student assessment
+- Evidence collection, storage and analysis
+- Information theory
+- Security and privacy
+- Computer forensics
+- Security in hardware
+- Software security engineering
+- Software and application security
+- Machine learning
+- Multi-task learning
+- Multi-task learning
+- Visualization application domains
+- Visualization
+- Visualization systems and tools
+- Graphics systems and interfaces
+- Antialiasing
+- Texturing
+- Shape modeling
+- Image manipulation
+- Imaging
+- Fine arts
+- Performing arts
+- Media arts
+- Arts and humanities
+- Social and professional topics
+- Professional topics
+- Human computer interaction (HCI)
+- Human-centered computing
+- Education
+- Computing and business
+- Computing education
+- Computing industry
+- Education
+- Informal education
+- Formal education
+- Archaeology
+- Astronomy
+- Sociology
+- Fine arts
+- Performing arts
+- Media arts
+- Transportation
+- Architecture (buildings)
+- Aerospace
+- Earth and atmospheric sciences
+- Health care information systems
+- Life and medical sciences
+- Physical sciences and engineering
+- Chemistry
+- Metabolomics / metabonomics
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+- Computing education
+- Computing industry
+- Computing methodologies
+- Computing and business
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

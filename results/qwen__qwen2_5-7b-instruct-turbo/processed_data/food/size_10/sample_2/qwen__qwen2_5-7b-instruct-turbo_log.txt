@@ -1,0 +1,89 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: fagottini; pasta; cannelloni; occhi di lupo; bavette; fusilli; gemelli; spaghetti; food; pici
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+occhi di lupo is a subtopic of pasta; bavette is a subtopic of pasta; pasta is a subtopic of food; pici is a subtopic of pasta; fagottini is a subtopic of pasta; fusilli is a subtopic of pasta; spaghetti is a subtopic of pasta; cannelloni is a subtopic of pasta; gemelli is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: corzetti; fuži; spaghetti; rotini; food; pasta; mezzelune; sacchettoni; linguine; croxetti
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+linguine is a subtopic of pasta; rotini is a subtopic of pasta; fuži is a subtopic of pasta; croxetti is a subtopic of pasta; mezzelune is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food; sacchettoni is a subtopic of pasta; corzetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: food; pasta; anellini; stringozzi; garganelli; mezzelune; corzetti; occhi di lupo; bigoli; fuži
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+corzetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta; stringozzi is a subtopic of pasta; fuži is a subtopic of pasta; mezzelune is a subtopic of pasta; bigoli is a subtopic of pasta; pasta is a subtopic of food; anellini is a subtopic of pasta; garganelli is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: lanterne; campanelle; rotini; pasta; food; ptitim; spaghetti; passatelli; macaroni; casoncelli
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+macaroni is a subtopic of pasta; pasta is a subtopic of food; campanelle is a subtopic of pasta; casoncelli is a subtopic of pasta; passatelli is a subtopic of pasta; rotini is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; lanterne is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: spaghetti; penne; ptitim; sacchettoni; rotini; rotelle; pasta; food; stringozzi; mezzelune
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+pasta is a subtopic of food; penne is a subtopic of pasta; rotini is a subtopic of pasta; stringozzi is a subtopic of pasta; sacchettoni is a subtopic of pasta; rotelle is a subtopic of pasta; spaghetti is a subtopic of pasta; ptitim is a subtopic of pasta; mezzelune is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: chikhirtma; food; sour rye soup; talunan; cold borsch; dalithoy; bisque; soup; crème ninon; pottage
+Relationships: 
+
+================================================================================
+Number of entities: 10
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+chikhirtma is a subtopic of soup; sour rye soup is a subtopic of chikhirtma; talunan is a subtopic of soup; cold borsch is a subtopic of soup; dalithoy is a subtopic of soup; bisque is a subtopic of soup; crème ninon is a subtopic of bisque; pottage is a subtopic of soup
+
+Note: "bisque" and "crème ninon" are typically not directly related to "soup" in a culinary taxonomy, but for the purpose of this exercise, I have included them under "soup". "Chikhirtma" is a traditional Mongolian dish, often served as a soup, and "sour rye soup" is a specific type of chikhirtma. "Talunan" is a type of soup from the Caucasus region. "Cold borsch" is a variation of borsch, which is typically a hot soup. "Dalithoy" is a type of soup from the Maldives.
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 8
+
+Parsed relationships:
+  chikhirtma → soup
+  sour rye soup → chikhirtma
+  talunan → soup
+  cold borsch → soup
+  dalithoy → soup
+  bisque → soup
+  crème ninon → bisque
+  pottage → soup
+
+================================================================================

@@ -1,0 +1,50 @@
+child,parent
+Human-centered computing,Computing Classification System
+Networks,Computing Classification System
+Security and privacy,Computing Classification System
+Computing methodologies,Computing Classification System
+Mathematics of computing,Computing Classification System
+Applied computing,Computing Classification System
+Information systems,Computing Classification System
+Social and professional topics,Computing Classification System
+Human computer interaction (HCI),Human-centered computing
+Visualization,Human-centered computing
+Collaborative and social computing,Human-centered computing
+Accessibility,Human-centered computing
+Interaction techniques,Human computer interaction (HCI)
+Interaction devices,Human computer interaction (HCI)
+User interface toolkits,Human computer interaction (HCI)
+Interactive systems and tools,Human computer interaction (HCI)
+Auditory feedback,Interaction techniques
+Empirical studies in accessibility,Accessibility
+"Collaborative and social computing theory, concepts and paradigms",Collaborative and social computing
+Collaborative and social computing devices,Collaborative and social computing
+Empirical studies in collaborative and social computing,Collaborative and social computing
+Systems security,Security and privacy
+Software and application security,Security and privacy
+Cryptography,Security and privacy
+Intrusion/anomaly detection and malware mitigation,Security and privacy
+Information flow control,Security and privacy
+Operating systems security,Systems security
+Web application security,Software and application security
+Network components,Networks
+Network protocols,Networks
+Network services,Networks
+Network management,Networks
+Network types,Networks
+Network properties,Networks
+Network performance evaluation,Networks
+In-network processing,Networks
+OAM protocols,Network management
+Machine learning,Computing methodologies
+Modeling and simulation,Computing methodologies
+Concurrent computing methodologies,Computing methodologies
+Symbolic and algebraic manipulation,Mathematics of computing
+Enterprise computing,Applied computing
+Enterprise computing infrastructures,Enterprise computing
+Enterprise architectures,Information systems
+Business process management,Information systems
+Enterprise modeling,Information systems
+Business rules,Information systems
+Enterprise architecture management,Information systems
+Business-IT alignment,Information systems

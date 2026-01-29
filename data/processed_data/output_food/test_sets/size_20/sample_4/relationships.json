@@ -1,0 +1,97 @@
+[
+  {
+    "child_name": "soybean oil",
+    "parent_name": "cooking oil",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "marshmallows",
+    "parent_name": "cooking ingredient",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "fideo",
+    "parent_name": "noodle",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "noodle",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "batter and coating mixes",
+    "parent_name": "cooking ingredient",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "rice oil",
+    "parent_name": "cooking oil",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "molasses",
+    "parent_name": "cooking ingredient",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "unflavored gelatine",
+    "parent_name": "cooking ingredient",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "baking chocolate",
+    "parent_name": "cooking ingredient",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "baking powder",
+    "parent_name": "cooking ingredient",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "cooking oil",
+    "parent_name": "cooking ingredient",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "sesame oil",
+    "parent_name": "cooking oil",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "floss sugar",
+    "parent_name": "cooking ingredient",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "cooking ingredient",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "food colouring",
+    "parent_name": "cooking ingredient",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "seeds",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "yeast",
+    "parent_name": "cooking ingredient",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "bread crumbs",
+    "parent_name": "cooking ingredient",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "corn oil",
+    "parent_name": "cooking oil",
+    "relation_type": "IsA"
+  }
+]

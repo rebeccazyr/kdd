@@ -1,0 +1,52 @@
+child,parent
+Hardware,Computing Classification System
+Networks,Computing Classification System
+Security and privacy,Computing Classification System
+Human-centered computing,Computing Classification System
+Applied computing,Computing Classification System
+Theory of computation,Computing Classification System
+General and reference,Computing Classification System
+Electronic design automation,Hardware
+Electronics,Hardware
+Hardware reliability,Hardware
+Very large scale integration design,Electronic design automation
+Logic synthesis,Electronic design automation
+Transistor-level synthesis,Electronic design automation
+Design for manufacturability,Electronic design automation
+Hardware test,Electronic design automation
+Hardware validation,Electronic design automation
+Fault models and test metrics,Hardware test
+Test-pattern generation and fault simulation,Hardware test
+Testing with distributed and parallel systems,Hardware test
+Process variations,Design for manufacturability
+Robustness,Design for manufacturability
+Fault tolerance,Hardware reliability
+Network architectures,Networks
+Network algorithms,Networks
+Network services,Networks
+Network economics,Networks
+Programmable networks,Network architectures
+Database and storage security,Security and privacy
+Management and querying of encrypted data,Database and storage security
+Human computer interaction (HCI),Human-centered computing
+Collaborative and social computing,Human-centered computing
+Visualization,Human-centered computing
+"HCI theory, concepts and models",Human computer interaction (HCI)
+HCI design and evaluation methods,Human computer interaction (HCI)
+Programming interfaces,Human computer interaction (HCI)
+Accessibility,Human computer interaction (HCI)
+User studies,HCI design and evaluation methods
+Empirical studies in HCI,HCI design and evaluation methods
+Visualization techniques,Visualization
+Treemaps,Visualization techniques
+Applied computing,Computing Classification System
+Operations research,Applied computing
+Decision analysis,Operations research
+Computers in other domains,Applied computing
+Consumer products,Computers in other domains
+Physical sciences and engineering,Applied computing
+Theory of computation,Computing Classification System
+Formal languages and automata theory,Theory of computation
+Oracles and decision trees,Theory of computation
+Computational complexity and cryptography,Theory of computation
+Marketing,Applied computing

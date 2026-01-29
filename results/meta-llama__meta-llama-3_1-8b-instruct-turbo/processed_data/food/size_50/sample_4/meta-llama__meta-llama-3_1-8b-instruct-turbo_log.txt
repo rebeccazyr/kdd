@@ -1,0 +1,289 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: food; pici; spaghetti; cannelloni; gemelli; fagottini; occhi di lupo; bavette; pasta; fusilli
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+fusilli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; spaghetti is a subtopic of pasta; cannelloni is a subtopic of pasta; fagottini is a subtopic of pasta; pici is a subtopic of pasta; pasta is a subtopic of food; gemelli is a subtopic of pasta; bavette is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: pasta; spaghetti; sacchettoni; food; croxetti; corzetti; rotini; linguine; mezzelune; fuži
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+corzetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; linguine is a subtopic of pasta; mezzelune is a subtopic of pasta; croxetti is a subtopic of pasta; pasta is a subtopic of food; rotini is a subtopic of pasta; fuži is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: bigoli; stringozzi; occhi di lupo; pasta; food; fuži; anellini; mezzelune; corzetti; garganelli
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+mezzelune is a subtopic of pasta; garganelli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; bigoli is a subtopic of pasta; corzetti is a subtopic of pasta; stringozzi is a subtopic of pasta; pasta is a subtopic of food; anellini is a subtopic of pasta; fuži is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: rotini; spaghetti; pasta; passatelli; macaroni; food; campanelle; lanterne; ptitim; casoncelli
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+casoncelli is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of pasta; rotini is a subtopic of pasta; spaghetti is a subtopic of pasta; campanelle is a subtopic of pasta; passatelli is a subtopic of pasta; lanterne is a subtopic of pasta; macaroni is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: ptitim; food; spaghetti; penne; stringozzi; rotini; rotelle; sacchettoni; pasta; mezzelune
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+spaghetti is a subtopic of pasta; ptitim is a subtopic of pasta; sacchettoni is a subtopic of pasta; stringozzi is a subtopic of pasta; penne is a subtopic of pasta; pasta is a subtopic of food; rotini is a subtopic of pasta; mezzelune is a subtopic of pasta; rotelle is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: tortillas; food; uirō; marble cake; paris buns; noodle; unni appam; layer cake; rice noodles; memela; wanko soba; fudge; yaki udon; salt; rye; kue keranjang; rum baba; cupcone; red velvet cake; prepared food; jook-sing noodles; depression cake; cake; tempeh; happy cake; cereals; cellophane noodles; rab cake; babka; seeds; bánh tét; seafood; turrón; granola; calas; spice; bakery; bundt cake; soy product; otak-otak; tart; pie; coffee cakes; instant noodle; kakara pitha; kinnathappam; king cake; muskazine; mi san dao; basbousa
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+instant noodle is a subtopic of noodle; muskazine is a subtopic of soy product; basbousa is a subtopic of bakery; mi san dao is a subtopic of noodle; kinnathappam is a subtopic of bakery; kue keranjang is a subtopic of bakery; babka is a subtopic of bakery; rab cake is a subtopic of bakery; rum baba is a subtopic of bakery; bundt cake is a subtopic of bakery; cake is a subtopic of bakery; red velvet cake is a subtopic of bakery; marble cake is a subtopic of bakery; layer cake is a subtopic of bakery; happy cake is a subtopic of bakery; depression cake is a subtopic of bakery; fudge is a subtopic of bakery; turrón is a subtopic of bakery; tart is a subtopic of bakery; pie is a subtopic of bakery; coffee cakes is a subtopic of bakery; calas is a subtopic of bakery; yaki udon is a subtopic of noodle; wanko soba is a subtopic of noodle; rice noodles is a subtopic of noodle; cellophane noodles is a subtopic of noodle; jook-sing noodles is a subtopic of noodle; uirō is a subtopic of noodle; unni appam is a subtopic of soy product; tempeh is a subtopic of soy product; otak-otak is a subtopic of soy product; kakara pitha is a subtopic of soy product; kue keranjang is a subtopic of soy product; muskazine is a subtopic of soy product; mi san dao is a subtopic of soy product; basbousa is a subtopic of soy product; instant noodle is a subtopic of prepared food; noodle is a subtopic of prepared food; soy product is a subtopic of prepared food; tortillas is a subtopic of prepared food; food is a subtopic of prepared food; prepared food is a subtopic of food; seafood is a subtopic of food; spice is a subtopic of food; seeds is a subtopic of food; cereals is a subtopic of food; granola is a subtopic of food; salt is a subtopic of food; seeds is a subtopic of food; calas is a subtopic of food; paris buns is a subtopic of bakery; marble cake is a subtopic of bakery; rum baba is a subtopic of bakery; bundt cake is a subtopic of bakery; cake is a subtopic of bakery; red velvet cake is a subtopic of bakery; marble cake is a subtopic of bakery; layer cake is a subtopic of bakery; happy cake is a subtopic of bakery; depression cake is a subtopic of bakery; fudge is a subtopic of bakery; turrón is a subtopic of bakery; tart is a subtopic of bakery; pie is a subtopic of bakery; coffee cakes is a subtopic of bakery; calas is a subtopic of bakery; yaki udon is a subtopic of noodle; wanko soba is a subtopic of noodle; rice noodles is a subtopic of noodle; cellophane noodles is a subtopic of noodle; jook-sing noodles is a subtopic of noodle; uirō is a subtopic of noodle; unni appam is a subtopic of soy product; tempeh is a subtopic of soy product; otak-otak is a subtopic of soy product; kakara pitha is a subtopic of soy product; muskazine is a subtopic of soy product; mi san dao is a subtopic of soy product; basbousa is a subtopic of soy product; instant noodle is a subtopic of prepared food; noodle is a subtopic of prepared food; soy product is a subtopic of prepared food; tortillas is a subtopic of prepared food; food is a subtopic of prepared food; prepared food is a subtopic of food; seafood is a subtopic of food; spice is a subtopic of food; seeds is a subtopic of food; cereals is a subtopic of food; granola is a subtopic of food; calas is a subtopic of food; ptitim is a subtopic of food; mezzelune is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of food; mezzelune is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of food; mezzelune is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of food; mezzelune is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of food; mezzelune is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of food; mezzelune is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of food; mezzelune is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of food; mezzelune is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of food; mezzelune is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of food; mezzelune is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of food; mezzelune is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of food; mezzelune is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta;
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 210
+
+Parsed relationships:
+  instant noodle → noodle
+  muskazine → soy product
+  basbousa → bakery
+  mi san dao → noodle
+  kinnathappam → bakery
+  kue keranjang → bakery
+  babka → bakery
+  rab cake → bakery
+  rum baba → bakery
+  bundt cake → bakery
+  cake → bakery
+  red velvet cake → bakery
+  marble cake → bakery
+  layer cake → bakery
+  happy cake → bakery
+  depression cake → bakery
+  fudge → bakery
+  turrón → bakery
+  tart → bakery
+  pie → bakery
+  coffee cakes → bakery
+  calas → bakery
+  yaki udon → noodle
+  wanko soba → noodle
+  rice noodles → noodle
+  cellophane noodles → noodle
+  jook-sing noodles → noodle
+  uirō → noodle
+  unni appam → soy product
+  tempeh → soy product
+  otak-otak → soy product
+  kakara pitha → soy product
+  kue keranjang → soy product
+  muskazine → soy product
+  mi san dao → soy product
+  basbousa → soy product
+  instant noodle → prepared food
+  noodle → prepared food
+  soy product → prepared food
+  tortillas → prepared food
+  food → prepared food
+  prepared food → food
+  seafood → food
+  spice → food
+  seeds → food
+  cereals → food
+  granola → food
+  salt → food
+  seeds → food
+  calas → food
+  paris buns → bakery
+  marble cake → bakery
+  rum baba → bakery
+  bundt cake → bakery
+  cake → bakery
+  red velvet cake → bakery
+  marble cake → bakery
+  layer cake → bakery
+  happy cake → bakery
+  depression cake → bakery
+  fudge → bakery
+  turrón → bakery
+  tart → bakery
+  pie → bakery
+  coffee cakes → bakery
+  calas → bakery
+  yaki udon → noodle
+  wanko soba → noodle
+  rice noodles → noodle
+  cellophane noodles → noodle
+  jook-sing noodles → noodle
+  uirō → noodle
+  unni appam → soy product
+  tempeh → soy product
+  otak-otak → soy product
+  kakara pitha → soy product
+  muskazine → soy product
+  mi san dao → soy product
+  basbousa → soy product
+  instant noodle → prepared food
+  noodle → prepared food
+  soy product → prepared food
+  tortillas → prepared food
+  food → prepared food
+  prepared food → food
+  seafood → food
+  spice → food
+  seeds → food
+  cereals → food
+  granola → food
+  calas → food
+  ptitim → food
+  mezzelune → pasta
+  ptitim → pasta
+  spaghetti → pasta
+  penne → pasta
+  stringozzi → pasta
+  rotini → pasta
+  rotelle → pasta
+  sacchettoni → pasta
+  pasta → food
+  ptitim → food
+  mezzelune → pasta
+  ptitim → pasta
+  spaghetti → pasta
+  penne → pasta
+  stringozzi → pasta
+  rotini → pasta
+  rotelle → pasta
+  sacchettoni → pasta
+  pasta → food
+  ptitim → food
+  mezzelune → pasta
+  ptitim → pasta
+  spaghetti → pasta
+  penne → pasta
+  stringozzi → pasta
+  rotini → pasta
+  rotelle → pasta
+  sacchettoni → pasta
+  pasta → food
+  ptitim → food
+  mezzelune → pasta
+  ptitim → pasta
+  spaghetti → pasta
+  penne → pasta
+  stringozzi → pasta
+  rotini → pasta
+  rotelle → pasta
+  sacchettoni → pasta
+  pasta → food
+  ptitim → food
+  mezzelune → pasta
+  ptitim → pasta
+  spaghetti → pasta
+  penne → pasta
+  stringozzi → pasta
+  rotini → pasta
+  rotelle → pasta
+  sacchettoni → pasta
+  pasta → food
+  ptitim → food
+  mezzelune → pasta
+  ptitim → pasta
+  spaghetti → pasta
+  penne → pasta
+  stringozzi → pasta
+  rotini → pasta
+  rotelle → pasta
+  sacchettoni → pasta
+  pasta → food
+  ptitim → food
+  mezzelune → pasta
+  ptitim → pasta
+  spaghetti → pasta
+  penne → pasta
+  stringozzi → pasta
+  rotini → pasta
+  rotelle → pasta
+  sacchettoni → pasta
+  pasta → food
+  ptitim → food
+  mezzelune → pasta
+  ptitim → pasta
+  spaghetti → pasta
+  penne → pasta
+  stringozzi → pasta
+  rotini → pasta
+  rotelle → pasta
+  sacchettoni → pasta
+  pasta → food
+  ptitim → food
+  mezzelune → pasta
+  ptitim → pasta
+  spaghetti → pasta
+  penne → pasta
+  stringozzi → pasta
+  rotini → pasta
+  rotelle → pasta
+  sacchettoni → pasta
+  pasta → food
+  ptitim → food
+  mezzelune → pasta
+  ptitim → pasta
+  spaghetti → pasta
+  penne → pasta
+  stringozzi → pasta
+  rotini → pasta
+  rotelle → pasta
+  sacchettoni → pasta
+  pasta → food
+  ptitim → food
+  mezzelune → pasta
+  ptitim → pasta
+  spaghetti → pasta
+  penne → pasta
+  stringozzi → pasta
+  rotini → pasta
+  rotelle → pasta
+  sacchettoni → pasta
+  pasta → food
+  ptitim → food
+  mezzelune → pasta
+  ptitim → pasta
+  spaghetti → pasta
+  penne → pasta
+  stringozzi → pasta
+  rotini → pasta
+  rotelle → pasta
+  sacchettoni → pasta
+
+================================================================================

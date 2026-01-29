@@ -1,0 +1,795 @@
+child,parent
+Theory of computation,Computing Classification System
+Mathematics of computing,Computing Classification System
+Information systems,Computing Classification System
+Information retrieval,Information systems
+Security and privacy,Computing Classification System
+Networks,Computing Classification System
+Software and its engineering,Computing Classification System
+Computer systems organization,Computing Classification System
+Hardware,Computing Classification System
+Human-centered computing,Computing Classification System
+Computing methodologies,Computing Classification System
+Applied computing,Computing Classification System
+General and reference,Computing Classification System
+Social and professional topics,Computing Classification System
+Serial architectures,Architectures
+Parallel architectures,Architectures
+Distributed architectures,Architectures
+Event-driven architectures,Architectures
+Service-oriented architectures,Architectures
+Emerging architectures,Architectures
+Processors and memory architectures,Architectures
+Dependable and fault-tolerant systems and networks,Computer systems organization
+Maintainability and maintenance,Dependable and fault-tolerant systems and networks
+"Failure recovery, maintenance and self-repair",Dependable and fault-tolerant systems and networks
+Fault tolerance,Computer systems organization
+Real-time systems,Computer systems organization
+Real-time schedulability,Real-time systems
+Embedded and cyber-physical systems,Computer systems organization
+Mobile information processing systems,Computer systems organization
+Computing platforms,Computer systems organization
+Virtual machines,Computing platforms
+Mobile agents,Computing platforms
+Virtual worlds software,Computing platforms
+Microcomputers,Computer systems organization
+On-chip resource management,Computer systems organization
+Networking hardware,"Communication hardware, interfaces and storage"
+Network components,Networking hardware
+Middle boxes / network appliances,Networking hardware
+Digital switches,Networking hardware
+High-speed input / output,"Communication hardware, interfaces and storage"
+Radio frequency and wireless circuits,Hardware
+Photonic and optical interconnect,Hardware
+Buses and high-speed links,Hardware
+Package-level interconnect,Hardware
+Printed circuit boards,Hardware
+Interconnect,Hardware
+Metallic interconnect,Interconnect
+Interconnect power issues,Interconnect
+Electronic design automation,Hardware
+VLSI system specification and constraints,Electronic design automation
+VLSI design manufacturing considerations,Electronic design automation
+Standard cell libraries,Electronic design automation
+Design rules,Electronic design automation
+Design rule checking,Electronic design automation
+Physical verification,Electronic design automation
+Layout-versus-schematics,Electronic design automation
+Design for manufacturability,Electronic design automation
+Design reuse and communication-based design,Electronic design automation
+Control path algorithms,Electronic design automation
+Data path algorithms,Electronic design automation
+Integrated circuits,Hardware
+Application specific integrated circuits,Integrated circuits
+Application specific processors,Integrated circuits
+Application specific instruction set processors,Application specific processors
+Full-custom circuits,Integrated circuits
+Arithmetic and datapath circuits,Integrated circuits
+Sequential circuits,Integrated circuits
+Logic circuits,Integrated circuits
+Analog and mixed-signal circuits,Integrated circuits
+Analog and mixed-signal circuit synthesis,Analog and mixed-signal circuits
+Analog and mixed-signal circuit optimization,Analog and mixed-signal circuits
+Clock generation and timing,Integrated circuits
+Timing analysis and sign-off,Clock generation and timing
+Programmable logic elements,Hardware
+Reconfigurable logic and FPGAs,Programmable logic elements
+Reconfigurable logic applications,Reconfigurable logic and FPGAs
+Hardware accelerators,Hardware
+Hardware test,Hardware
+Test-pattern generation and fault simulation,Hardware test
+Defect-based test,Hardware test
+Built-in self-test,Hardware test
+Board- and system-level test,Hardware test
+Online test and diagnostics,Hardware test
+Design for testability,Hardware
+Design for debug,Hardware
+Hardware validation,Hardware
+Post-manufacture validation and debug,Hardware
+Bug fixing (hardware),Post-manufacture validation and debug
+Process variations,Hardware
+"Process, voltage and temperature variations",Process variations
+Electromagnetic interference and compatibility,Hardware
+Hardware reliability,Hardware
+Hardware reliability screening,Hardware reliability
+Transient errors and upsets,Hardware reliability
+Early-life failures and infant mortality,Hardware reliability
+Power and energy,Hardware
+Power estimation and optimization,Power and energy
+Chip-level power issues,Power and energy
+Switching devices power issues,Power and energy
+Platform power issues,Power and energy
+Power and thermal analysis,Power and energy
+Thermal issues,Power and energy
+Temperature simulation and estimation,Thermal issues
+Temperature control,Thermal issues
+Temperature optimization,Thermal issues
+Temperature monitoring,Thermal issues
+Yield and cost optimization,Hardware
+Yield and cost modeling,Yield and cost optimization
+Economics of chip design and manufacturing,Hardware
+Sensors devices and platforms,Hardware
+Wireless integrated network sensors,Sensor devices and platforms
+Sensor applications and deployments,Sensor devices and platforms
+On-chip sensors,Sensor devices and platforms
+Electromechanical systems,Hardware
+Electro-mechanical devices,Electromechanical systems
+Microelectromechanical systems,Electromechanical systems
+Nanoelectromechanical systems,Electromechanical systems
+Circuit substrates,Hardware
+III-V compounds,Circuit substrates
+Analysis and design of emerging devices and systems,Hardware
+Emerging optical and photonic technologies,Hardware
+Tunneling devices,Hardware
+Superconducting circuits,Hardware
+Quantum technologies,Hardware
+Single electron devices,Quantum technologies
+Quantum dots and cellular automata,Quantum technologies
+Physical links,"Communication hardware, interfaces and storage"
+Security in hardware,Hardware
+Hardware-based security protocols,Security in hardware
+Hardware attacks and countermeasures,Security in hardware
+Tamper-proof and tamper-resistant designs,Security in hardware
+Malicious design modifications,Security in hardware
+Storage architectures,Information storage systems
+Network attached storage,Storage architectures
+Direct attached storage,Storage architectures
+Storage virtualization,Storage architectures
+Storage network architectures,Storage architectures
+RAID,Storage architectures
+Disk arrays,Storage architectures
+Information storage technologies,Information storage systems
+Magnetic disks,Information storage technologies
+Optical / magneto-optical disks,Information storage technologies
+Magnetic tapes,Information storage technologies
+Tape libraries,Information storage technologies
+Flash memory,Information storage technologies
+Non-volatile memory,Information storage technologies
+Read-only memory,Information storage technologies
+Storage class memory,Information storage technologies
+Memory and dense storage,Information storage technologies
+External storage,Information storage technologies
+Cloud based storage,Information storage technologies
+Storage management,Information storage systems
+Storage power management,Storage management
+Hierarchical storage management,Storage management
+Storage replication,Storage management
+Remote replication,Storage replication
+Thin provisioning,Storage management
+Point-in-time copies,Storage management
+Data recovery,Storage management
+Record storage systems,Data structures and algorithms for data management
+Inodes,Record storage systems
+Vnodes,Record storage systems
+Directory structures,Record storage systems
+Record layout alternatives,Record storage systems
+Variable length attributes,Record layout alternatives
+Fixed length attributes,Record layout alternatives
+Null values in records,Record storage systems
+Interpage free-space management,Record storage systems
+Intrapage space management,Record storage systems
+Relational database model,Database design and models
+Entity relationship models,Database design and models
+Network data models,Database design and models
+Hierarchical data models,Database design and models
+Graph-based database models,Database design and models
+Temporal data,Database design and models
+Semi-structured data,Database design and models
+Data model extensions,Database design and models
+Physical data models,Database design and models
+Data structures and algorithms for data management,Information systems
+Data access methods,Data structures and algorithms for data management
+B-trees,Data access methods
+Predecessor queries,Data access methods
+Point lookups,Data access methods
+Block / page strategies,Data structures and algorithms for data management
+Data streaming,Data structures and algorithms for data management
+Data streams,Data structures and algorithms for data management
+Horizontal partitioning,Data structures and algorithms for data management
+Vertical partitioning,Data structures and algorithms for data management
+Database theory,Information systems
+Database constraints theory,Database theory
+Finite Model Theory,Database theory
+Database query processing and optimization (theory),Database theory
+Theory of database privacy and security,Database theory
+"Incomplete, inconsistent, and uncertain databases",Database theory
+Database interoperability,Information systems
+Mediators and data integration,Database interoperability
+Information integration,Database interoperability
+Information integration and interoperability,Database interoperability
+Data extraction and integration,Database interoperability
+Database utilities and tools,Information systems
+Data federation tools,Database utilities and tools
+Data replication tools,Database utilities and tools
+Database administration,Information systems
+Backup procedures,Database administration
+Database performance evaluation,Database administration
+Data management systems,Information systems
+Data conversion,Data management systems
+Object-relational mapping facilities,Information systems
+Relational database query languages,Information systems
+Query languages,Information systems
+Query reformulation,Query languages
+Query representation,Query languages
+API languages,Query languages
+Data encoding and canonicalization,Information systems
+"Extraction, transformation and loading",Information systems
+Database web servers,Information systems
+Online analytical processing,Information systems
+Retrieval models and ranking,Information retrieval
+Probabilistic retrieval models,Retrieval models and ranking
+Retrieval tasks and goals,Information retrieval
+Information retrieval diversity,Information retrieval
+Novelty in information retrieval,Information retrieval
+Adversarial retrieval,Information retrieval
+Users and interactive retrieval,Information retrieval
+Search interfaces,Information retrieval
+Presentation of retrieval results,Information retrieval
+Evaluation of retrieval results,Information retrieval
+Relevance assessment,Evaluation of retrieval results
+Test collections,Evaluation of retrieval results
+Information retrieval query processing,Information retrieval
+Search index compression,Information retrieval
+Distributed retrieval,Information retrieval
+Peer-to-peer retrieval,Distributed retrieval
+Structured text search,Information retrieval
+Environment-specific retrieval,Information retrieval
+Searching with auxiliary databases,Information retrieval
+Multilingual and cross-lingual retrieval,Information retrieval
+Specialized information retrieval,Information retrieval
+Mathematics retrieval,Specialized information retrieval
+Speech / audio search,Specialized information retrieval
+Desktop search,Information retrieval
+Image search,Information retrieval
+Video search,Information retrieval
+Question answering,Information retrieval
+Document representation,Information retrieval
+Document collection models,Information retrieval
+Document filtering,Information retrieval
+Web searching and information discovery,Information retrieval
+Web search engines,Web searching and information discovery
+Search engine architectures and scalability,Web search engines
+Search engine indexing,Web search engines
+Web crawling,Web search engines
+Web and social media search,Web search engines
+Link and co-citation analysis,Web searching and information discovery
+Page and site ranking,Web searching and information discovery
+Expert search,Information retrieval
+Enterprise search,Information retrieval
+Annotation,Information retrieval
+Web applications,World Wide Web
+Web services,Web applications
+Simple Object Access Protocol (SOAP),Web services
+RESTful web services,Web services
+Service discovery and interfaces,Web services
+Mashups,Web applications
+Web interfaces,Web applications
+Web data description languages,Web applications
+Browsers,Web applications
+Web mining,Web applications
+Internet communications tools,World Wide Web
+Email,Internet communications tools
+Chat,Internet communications tools
+Texting,Internet communications tools
+Web conferencing,Internet communications tools
+Network architectures,Networks
+Network topology types,Network architectures
+Physical topologies,Network topology types
+Logical / virtual topologies,Network topology types
+Packet-switching networks,Network architectures
+Star networks,Network architectures
+Bus networks,Network architectures
+Mesh networks,Network architectures
+Hybrid networks,Network architectures
+Ad hoc networks,Network architectures
+Wireless local area networks,Network architectures
+Wireless personal area networks,Network architectures
+Short-range networks,Network architectures
+Wide area networks,Network architectures
+Very long-range networks,Network architectures
+Network types,Networks
+Home networks,Networks
+Mobile networks,Networks
+Wireless access networks,Networks
+Wireline communication,Networks
+Network protocols,Networks
+Link-layer protocols,Network protocols
+Transport protocols,Network protocols
+Application layer protocols,Network protocols
+Presentation protocols,Application layer protocols
+Cross-layer protocols,Network protocols
+Time synchronization protocols,Network protocols
+Protocol correctness,Network protocols
+Protocol testing and verification,Network protocols
+OAM protocols,Network protocols
+Network services,Networks
+Network access control,Networks
+Network monitoring,Networks
+Network measurement,Networks
+Network performance evaluation,Networks
+Network performance analysis,Networks
+Network performance modeling,Networks
+Network simulations,Networks
+Network experimentation,Networks
+Network manageability,Networks
+Network management,Networks
+Network policy,Networks
+Network resources allocation,Networks
+Packet classification,Networks
+Packet scheduling,Networks
+Programmable networks,Networks
+In-network processing,Networks
+Network privacy and anonymity,Networks
+Network reliability,Networks
+Network mobility,Networks
+Network domains,Networks
+Intermediate nodes,Network architectures
+Network economics,Networks
+Network science,Networks
+Network structure,Network science
+Network properties,Network science
+Network dynamics,Network science
+Topology analysis and generation,Network science
+Deep packet inspection,Networking hardware
+Power networks,Networks
+Smart grid,Power networks
+Cryptography,Security and privacy
+Cryptographic primitives,Cryptography
+Hash functions and message authentication codes,Cryptographic primitives
+Block and stream ciphers,Cryptographic primitives
+Public key (asymmetric) techniques,Cryptographic primitives
+Digital signatures,Cryptographic primitives
+Key management,Cryptography
+Cryptographic protocols,Cryptography
+Mathematical foundations of cryptography,Cryptography
+Cryptanalysis and other attacks,Cryptography
+Side-channel analysis and countermeasures,Security and privacy
+Security services,Security and privacy
+Authentication,Security services
+Authorization,Security services
+Access control,Security services
+Graphical / visual passwords,Authentication
+Privacy protections,Security and privacy
+"Pseudonymity, anonymity and untraceability",Privacy protections
+Patient privacy,Privacy protections
+Information flow control,Security and privacy
+Security requirements,Security and privacy
+Trust frameworks,Security and privacy
+Systems security,Security and privacy
+Operating systems security,Systems security
+File system security,Operating systems security
+Web application security,Systems security
+Browser security,Systems security
+Embedded systems security,Systems security
+Malware and its mitigation,Systems security
+Intrusion detection systems,Systems security
+Intrusion/anomaly detection and malware mitigation,Systems security
+Vulnerability management,Systems security
+Formal methods and theory of security,Security and privacy
+Formal security models,Formal methods and theory of security
+Theory of database privacy and security,Formal methods and theory of security
+Computer forensics,Security and privacy
+Investigation techniques,Computer forensics
+"Evidence collection, storage and analysis",Computer forensics
+System forensics,Computer forensics
+Usability in security and privacy,Security and privacy
+Economics of security and privacy,Security and privacy
+Social aspects of security and privacy,Social and professional topics
+Social network security and privacy,Social aspects of security and privacy
+Corporate surveillance,Social aspects of security and privacy
+Surveillance,Social aspects of security and privacy
+Surveillance mechanisms,Surveillance
+Cyberwarfare,Security and privacy
+Domain-specific security and privacy architectures,Security and privacy
+Quantum communication and cryptography,Quantum computation
+Software design engineering,Software and its engineering
+Requirements analysis,Software design engineering
+Use cases,Requirements analysis
+Designing software,Software design engineering
+Software design tradeoffs,Software design engineering
+Unified Modeling Language (UML),Software design engineering
+System description languages,Software design engineering
+Reference models,Software and its engineering
+Software development methods,Software and its engineering
+Agile software development,Software development methods
+Rapid application development,Software development methods
+Waterfall model,Software development methods
+V-model,Software development methods
+Software development process management,Software and its engineering
+Software implementation planning,Software development process management
+Collaboration in software development,Software development process management
+Pair programming,Collaboration in software development
+Traceability,Collaboration in software development
+Software creation and management,Software and its engineering
+Software configuration management and version control systems,Software creation and management
+Version control,Software configuration management and version control systems
+Software version control,Software configuration management and version control systems
+Version management,Software configuration management and version control systems
+Software testing and debugging,Software and its engineering
+Automated static analysis,Software testing and debugging
+Dynamic analysis,Software testing and debugging
+Program analysis,Software testing and debugging
+Invariants,Program analysis
+Program reasoning,Software testing and debugging
+Program verification,Software testing and debugging
+Software verification and validation,Software testing and debugging
+Formal software verification,Software testing and debugging
+"Testing, certification and licensing",Software testing and debugging
+Acceptance testing,"Testing, certification and licensing"
+Testing with distributed and parallel systems,Software testing and debugging
+Software evolution,Software and its engineering
+Software post-development issues,Software evolution
+Software defect analysis,Software testing and debugging
+Software usability,Software and its engineering
+Software safety,Software and its engineering
+Software security engineering,Software and its engineering
+Software organization and properties,Software and its engineering
+Software functional properties,Software organization and properties
+Extra-functional properties,Software organization and properties
+Software notations and tools,Software and its engineering
+Object oriented development,Software and its engineering
+Programming interfaces,Software and its engineering
+General programming languages,Software and its engineering
+Scripting languages,General programming languages
+Constraint and logic programming,General programming languages
+Formal language definitions,General programming languages
+Program constructs,General programming languages
+Functional constructs,Program constructs
+Object oriented constructs,Program constructs
+Control primitives,Program constructs
+Program specifications,Software and its engineering
+Pre- and post-conditions,Program specifications
+Operational semantics,Software and its engineering
+Compilers,Software and its engineering
+Translator writing systems and compiler generators,Compilers
+Emerging languages and compilers,Compilers
+Middleware business process managers,Software infrastructure
+Software infrastructure,Software and its engineering
+Application servers,Software infrastructure
+Message queues,Software infrastructure
+Distributed transaction monitors,Software infrastructure
+Enterprise application integration,Software infrastructure
+Enterprise application integration tools,Enterprise application integration
+Integration frameworks,Software infrastructure
+Middleware for databases,Software infrastructure
+IT architectures,Software and its engineering
+Enterprise architectures,IT architectures
+Enterprise architecture frameworks,Enterprise architectures
+Enterprise architecture modeling,Enterprise architectures
+Enterprise architecture management,Enterprise architectures
+Business-IT alignment,IT architectures
+Human computer interaction (HCI),Human-centered computing
+"HCI theory, concepts and models",Human computer interaction (HCI)
+HCI design and evaluation methods,Human computer interaction (HCI)
+Usability testing,HCI design and evaluation methods
+Heuristic evaluations,HCI design and evaluation methods
+Walkthrough evaluations,HCI design and evaluation methods
+Walkthroughs,HCI design and evaluation methods
+Empirical studies in HCI,HCI design and evaluation methods
+User studies,Human computer interaction (HCI)
+User characteristics,Human computer interaction (HCI)
+Interaction design,Human-centered computing
+"Interaction design theory, concepts and paradigms",Interaction design
+Interaction design process and methods,Interaction design
+Systems and tools for interaction design,Interaction design
+Interface design prototyping,Interaction design
+Wireframes,Interaction design
+Task models,Interaction design
+Interaction techniques,Human computer interaction (HCI)
+Interaction devices,Human computer interaction (HCI)
+Pointing devices,Interaction devices
+Pointing,Interaction devices
+Online handwriting recognition,Interaction techniques
+User interface management systems,Human computer interaction (HCI)
+User interface toolkits,Human computer interaction (HCI)
+Accessibility,Human-centered computing
+Accessibility technologies,Accessibility
+Accessibility design and evaluation methods,Accessibility
+Accessibility systems and tools,Accessibility
+Emerging interfaces,Human computer interaction (HCI)
+Hypertext / hypermedia creation,Human computer interaction (HCI)
+Contextual design,Human computer interaction (HCI)
+Visualization,Human-centered computing
+"Visualization theory, concepts and paradigms",Visualization
+Visualization techniques,Visualization
+Treemaps,Visualization techniques
+Heat maps,Visualization techniques
+Visualization design and evaluation methods,Visualization
+Visualization systems and tools,Visualization
+Visualization toolkits,Visualization systems and tools
+Visualization application domains,Visualization
+Information visualization,Visualization
+Geographic visualization,Visualization application domains
+Collaborative and social computing,Human-centered computing
+"Collaborative and social computing theory, concepts and paradigms",Collaborative and social computing
+Empirical studies in collaborative and social computing,Collaborative and social computing
+Collaborative content creation,Collaborative and social computing
+Collaborative search,Collaborative and social computing
+Social media,Collaborative and social computing
+Social content sharing,Collaborative and social computing
+Desktop search,Human-centered computing
+Artificial intelligence,Computing methodologies
+Philosophical/theoretical foundations of artificial intelligence,Artificial intelligence
+Intelligent agents,Artificial intelligence
+Expert systems,Artificial intelligence
+Automated reasoning,Artificial intelligence
+Search methodologies,Artificial intelligence
+Machine learning,Computing methodologies
+Machine learning theory,Machine learning
+Online learning theory,Machine learning theory
+Sample complexity and generalization bounds,Machine learning theory
+Models of learning,Machine learning theory
+Stochastic approximation,Machine learning theory
+Online learning algorithms,Machine learning
+Active learning,Machine learning
+Semi-supervised learning,Machine learning
+Unsupervised learning and clustering,Machine learning
+Clustering and classification,Machine learning
+Clustering,Machine learning
+Instance-based learning,Machine learning
+Boolean function learning,Machine learning
+Learning in probabilistic graphical models,Machine learning
+Multi-agent learning,Machine learning
+Structured prediction,Machine learning
+Bayesian analysis,Machine learning
+Maximum entropy modeling,Machine learning
+Machine learning approaches,Machine learning
+Data mining,Computing methodologies
+Association rules,Data mining
+Similarity measures,Data mining
+Entity resolution,Data mining
+Wrappers (data mining),Data mining
+Content analysis and feature selection,Data mining
+Summarization,Data mining
+Sentiment analysis,Data mining
+Data analytics,Data mining
+Modeling and simulation,Computing methodologies
+Modeling methodologies,Modeling and simulation
+Model development and analysis,Modeling and simulation
+Model verification and validation,Modeling and simulation
+Simulation theory,Modeling and simulation
+Simulation tools,Modeling and simulation
+Simulation support systems,Modeling and simulation
+Parallel computing models,Computing methodologies
+Distributed computing methodologies,Computing methodologies
+Concurrent computing methodologies,Computing methodologies
+Concurrency,Concurrent computing methodologies
+Process calculi,Concurrency
+Synchronization,Concurrency
+Signal processing systems,Computing methodologies
+Digital signal processing,Signal processing systems
+Noise reduction,Digital signal processing
+Beamforming,Signal processing systems
+Computational control theory,Computing methodologies
+Control methods,Computational control theory
+Computational geometry,Computing methodologies
+Solvers,Computing methodologies
+Models of computation,Theory of computation
+Turing machines,Models of computation
+Abstract machines,Models of computation
+Finite state machines,Models of computation
+Automata over infinite objects,Models of computation
+Automata extensions,Models of computation
+Quantitative automata,Models of computation
+Formal languages and automata theory,Theory of computation
+Grammars and context-free languages,Formal languages and automata theory
+Algebraic language theory,Formal languages and automata theory
+Rewrite systems,Theory of computation
+Equational logic and rewriting,Rewrite systems
+Logic,Theory of computation
+Programming logic,Theory of computation
+Hoare logic,Programming logic
+Separation logic,Programming logic
+Linear logic,Programming logic
+Higher order logic,Programming logic
+Type theory,Theory of computation
+Type structures,Type theory
+Semantics and reasoning,Theory of computation
+Operational semantics,Theory of computation
+Denotational semantics,Theory of computation
+Axiomatic semantics,Theory of computation
+Program semantics,Theory of computation
+Program schemes,Theory of computation
+Formal methods,Theory of computation
+Verification,Theory of computation
+Verification by model checking,Verification
+Theorem proving algorithms,Theory of computation
+Proof theory,Theory of computation
+Proof complexity,Theory of computation
+Completeness,Theory of computation
+Correctness,Theory of computation
+Design and analysis of algorithms,Theory of computation
+Algorithm design techniques,Design and analysis of algorithms
+Divide and conquer,Algorithm design techniques
+Optimization algorithms,Design and analysis of algorithms
+Approximation algorithms,Design and analysis of algorithms
+Approximation algorithms analysis,Approximation algorithms
+Rounding techniques,Approximation algorithms
+Randomized search,Design and analysis of algorithms
+Online algorithms,Design and analysis of algorithms
+K-server algorithms,Online algorithms
+"Streaming, sublinear and near linear time algorithms",Design and analysis of algorithms
+Cell probe models and lower bounds,Theory of computation
+Oracles and decision trees,Theory of computation
+Graph algorithms analysis,Design and analysis of algorithms
+Paths and connectivity problems,Graph algorithms analysis
+Shortest paths,Graph algorithms analysis
+Dynamic graph algorithms,Graph algorithms analysis
+Sorting and searching,Design and analysis of algorithms
+Nearest neighbor algorithms,Sorting and searching
+Nearest-neighbor search,Sorting and searching
+Unidimensional range search,Sorting and searching
+Distributed computing models,Theory of computation
+Computational complexity and cryptography,Theory of computation
+Complexity theory and logic,Theory of computation
+Complexity classes,Complexity theory and logic
+Circuit complexity,Complexity theory and logic
+"Problems, reductions and completeness",Theory of computation
+"Randomness, geometry and discrete structures",Theory of computation
+Pseudorandomness and derandomization,"Randomness, geometry and discrete structures"
+Expander graphs and randomness extractors,"Randomness, geometry and discrete structures"
+Communication complexity,Theory of computation
+Random order and robust communication complexity,Communication complexity
+Quantum computation theory,Theory of computation
+Quantum query complexity,Quantum computation theory
+Quantum computation,Theory of computation
+Quantum error correction and fault tolerance,Quantum computation
+Quantum communication complexity,Communication complexity
+Discrete mathematics,Mathematics of computing
+Combinatorics,Discrete mathematics
+Permutations and combinations,Combinatorics
+Combinatorics on words,Combinatorics
+Graph theory,Discrete mathematics
+Extremal graph theory,Graph theory
+Random graphs,Graph theory
+Graphs and surfaces,Graph theory
+Graph drawings,Graph theory
+Graph enumeration,Graph theory
+Spectra of graphs,Graph theory
+Hypergraphs,Graph theory
+Random walks and Markov chains,Mathematics of computing
+Linear algebra algorithms,Mathematics of computing
+Generating functions,Mathematics of computing
+Representation of mathematical objects,Mathematics of computing
+Representation of mathematical functions,Mathematics of computing
+Algebraic algorithms,Mathematics of computing
+Symbolic and algebraic manipulation,Mathematics of computing
+Algebraic topology,Mathematics of computing
+Topology,Mathematics of computing
+Point-set topology,Topology
+Numeric approximation algorithms,Mathematics of computing
+Preconditioning,Mathematics of computing
+Continuous mathematics,Mathematics of computing
+Continuous functions,Continuous mathematics
+Mathematics and statistics,Mathematics of computing
+Bayesian analysis,Mathematics and statistics
+Information theory,Mathematics of computing
+Information-theoretic techniques,Information theory
+Error-correcting codes,Information theory
+Random projections and metric embeddings,Mathematics of computing
+Mathematical software,Mathematics of computing
+Statistical software,Mathematical software
+Information systems applications,Applied computing
+Enterprise data management,Information systems applications
+Enterprise computing,Information systems applications
+Enterprise computing infrastructures,Enterprise computing
+Enterprise modeling,Applied computing
+Decision support systems,Applied computing
+Recommender systems,Information systems applications
+Health informatics,Information systems applications
+Health information exchanges,Health informatics
+Medical records,Health informatics
+Personal health records,Health informatics
+Geographic information systems,Information systems applications
+Cartography,Geographic information systems
+Geographic characteristics,Geographic information systems
+Multimedia information systems,Information systems applications
+Multimedia databases,Multimedia information systems
+Multimedia and multimodal retrieval,Multimedia information systems
+Multimedia content creation,Multimedia information systems
+Multimedia streaming,Multimedia information systems
+Sound and music computing,Multimedia information systems
+Web applications,Information systems applications
+Computing and business,Applied computing
+Business rules,Computing and business
+Enterprise interoperability,Computing and business
+Computational advertising,Information systems applications
+Sponsored search advertising,Computational advertising
+Content match advertising,Computational advertising
+Display advertising,Computational advertising
+Online advertising,Computational advertising
+Social advertising,Computational advertising
+Education,Applied computing
+E-learning,Education
+Distance learning,E-learning
+Learning management systems,E-learning
+Computer-managed instruction,Education
+Computer-assisted instruction,Education
+Student assessment,Education
+Computers in other domains,Applied computing
+Military,Computers in other domains
+Life and medical sciences,Applied computing
+Biology-related information processing,Life and medical sciences
+Computational biology,Life and medical sciences
+Computational transcriptomics,Computational biology
+Molecular sequence analysis,Computational biology
+Molecular structural biology,Computational biology
+Genomics,Computational biology
+Metabolomics / metabonomics,Computational biology
+Systems biology,Life and medical sciences
+Physical sciences and engineering,Applied computing
+Physics,Physical sciences and engineering
+Chemistry,Physical sciences and engineering
+Earth and atmospheric sciences,Physical sciences and engineering
+Environmental sciences,Physical sciences and engineering
+Astronomy,Physical sciences and engineering
+Process control systems,Applied computing
+Energy generation and storage,Applied computing
+Reusable energy storage,Energy generation and storage
+Fuel-based energy,Energy generation and storage
+Renewable energy,Energy generation and storage
+Batteries,Energy generation and storage
+Power conversion,Energy generation and storage
+Energy distribution,Applied computing
+Energy metering,Applied computing
+Sustainability,Applied computing
+Impact on the environment,Applied computing
+Contextual software domains,Applied computing
+Fine arts,Arts and humanities
+Performing arts,Arts and humanities
+Architecture (buildings),Arts and humanities
+Arts and humanities,Applied computing
+"Law, social and behavioral sciences",Applied computing
+Law,"Law, social and behavioral sciences"
+Economics,"Law, social and behavioral sciences"
+Psychology,"Law, social and behavioral sciences"
+Sociology,"Law, social and behavioral sciences"
+Anthropology,"Law, social and behavioral sciences"
+Archaeology,"Law, social and behavioral sciences"
+Computer games,Applied computing
+General literature,General and reference
+General conference proceedings,General and reference
+Surveys and overviews,General and reference
+Evaluation,General and reference
+Experimentation,General and reference
+Empirical studies,General and reference
+Reference works,General and reference
+Model curricula,General and reference
+History of computing,General and reference
+History of hardware,History of computing
+History of software,History of computing
+History of programming languages,History of computing
+Publishing,General and reference
+Computing organizations,Social and professional topics
+Computing occupations,Social and professional topics
+Computing profession,Social and professional topics
+Computing education,Social and professional topics
+K-12 education,Computing education
+Computing literacy,Computing education
+Informal education,Computing education
+Accreditation,Computing education
+Computing / technology policy,Social and professional topics
+Government technology policy,Computing / technology policy
+Internet governance / domain names,Computing / technology policy
+Medical information policy,Computing / technology policy
+Privacy policies,Computing / technology policy
+Antitrust and competition,Computing / technology policy
+Taxation,Computing / technology policy
+Economic impact,Computing / technology policy
+Database protection laws,Computing / technology policy
+Intellectual property,Social and professional topics
+Patents,Intellectual property
+Trademarks,Intellectual property
+Copyrights,Intellectual property
+Licensing,Intellectual property
+Computing and business,Social and professional topics
+Computing industry,Social and professional topics
+Computer manufacturing,Computing industry
+Computer crime,Social and professional topics
+Malware / spyware crime,Computer crime
+Risk management,Professional topics
+Professional topics,Social and professional topics
+Gender,Social and professional topics
+Women,Gender
+Men,Gender
+Race and ethnicity,Social and professional topics

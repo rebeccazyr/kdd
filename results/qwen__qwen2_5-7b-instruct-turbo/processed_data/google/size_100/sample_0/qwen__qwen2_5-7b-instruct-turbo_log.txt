@@ -1,0 +1,359 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Combat Knives; Spears; Weapons; Gun Care & Accessories; Gun Holsters; Reloading Supplies & Equipment; Google Product Taxonomy; Ammunition Cases & Holders; Mature; Staff & Stick Weapons
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Weapons is a subtopic of Mature; Gun Holsters is a subtopic of Gun Care & Accessories; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Combat Knives is a subtopic of Weapons; Spears is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Gun Cases & Range Bags; Google Product Taxonomy; Swords; Weapons; Ammunition; Stun Guns & Tasers; Staff & Stick Weapons; Gun Lights; Mature
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Swords is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Staff & Stick Weapons is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Whips; Stun Guns & Tasers; Nunchucks; Throwing Stars; Mature; Erotic; Google Product Taxonomy; Guns; Weapons
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature; Throwing Stars is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Guns is a subtopic of Weapons; Whips is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Magazines; Erotic Clothing; Mature; Erotic Food & Edibles; Erotic Books; Erotic Games; Erotic; Google Product Taxonomy; Erotic DVDs & Videos; Pole Dancing Kits
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Games is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Books is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic Magazines is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Stun Guns & Tasers; Staff & Stick Weapons; Spears; Gun Slings; Swords; Gun Care & Accessories; Mature; Google Product Taxonomy; Gun Grips; Weapons
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature; Staff & Stick Weapons is a subtopic of Weapons; Spears is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Swords is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Gun Grips is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Lighting; Brooches & Lapel Pins; Diapering; Food Service; Bibs; Messenger Bags; Charms & Pendants; Cash Boxes; Binding Supplies; Fuel; Backpacks; Fireplace & Wood Stove Accessories; Google Product Taxonomy; Heating, Ventilation & Air Conditioning; File Boxes; Olives & Capers; Tobacco Products; Media; Vaporizers & Electronic Cigarettes; Name Plates; Spurs; Plumbing Repair Kits; Cosmetic & Toiletry Bags; Shoe Accessories; Household Appliance Accessories; Baby Transport; Wood Stove Fans & Blowers; Fireplaces; Hardware; Water Levelers; Condiments & Sauces; Pool & Spa; Key Card Entry Systems; Jewelry; Sporting Goods; Apparel & Accessories; Night Lights & Ambient Lighting; Key Blanks; Oil Lamp Fuel; Home & Garden; Office Equipment; Lighting Timers; Baby Care Timers; Fireplace & Wood Stove Grates; Food Items; Diaper Liners; Nursing Covers; Luggage & Bags; Dowel Pins & Rods; Pen & Pencil Cases; Lap Desks; Office Supplies; Bleach; Baby Bottles; Laundry Supplies; Fanny Packs; Shoelaces; Baby Bottle Nipples & Liners; Business & Industrial; Vehicles & Parts; Locks & Latches; Storage & Organization; Swaddling & Receiving Blankets; Fencing & Barriers; Hot Dog Rollers; Firewood & Fuel; Diaper Wet Bags; Music & Sound Recordings; Breast Milk Storage Containers; Plumbing; Filing & Organization; Food, Beverages & Tobacco; Nursing Pillow Covers; Garment Bags; Janitorial Carts & Caddies; Business Card Stands; Necklaces; Water Timers; Laundry Wash Bags & Frames; Film & Television; Baby Bottle Nipples; Tattooing Supplies; Nursing & Feeding; Baby & Toddler; Agriculture; Lighting Accessories; Locks & Keys; Gates; Small Engines; Kerosene; Chewing Tobacco; Plumbing Pipes; Parasols & Rain Umbrellas; Address Books; Diaper Pail Accessories; Household Supplies; Train Cases; Hardware Accessories; Piercing & Tattooing; Lamp Post Bases
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Creating a taxonomy from the given concepts involves organizing them into a hierarchical structure. Here's a possible taxonomy:
+
+1. **Google Product Taxonomy**
+   - **Mature**
+     - **Baby Care Timers**
+     - **Baby & Toddler**
+       - **Diaper Liners**
+       - **Nursing Covers**
+       - **Breast Milk Storage Containers**
+       - **Nursing Pillow Covers**
+       - **Diaper Wet Bags**
+     - **Baby Transport**
+       - **Baby Bottles**
+       - **Laundry Supplies**
+       - **Luggage & Bags**
+         - **Messenger Bags**
+         - **Backpacks**
+         - **Fanny Packs**
+         - **Cosmetic & Toiletry Bags**
+         - **Shoe Accessories**
+         - **Shoelaces**
+         - **Bleach**
+         - **Laundry Wash Bags & Frames**
+         - **Diaper Pail Accessories**
+         - **Train Cases**
+     - **Baby Care**
+       - **Diapering**
+       - **Nursing & Feeding**
+         - **Baby Bottle Nipples & Liners**
+         - **Baby Bottle Nipples**
+     - **Apparel & Accessories**
+       - **Bibs**
+       - **Night Lights & Ambient Lighting**
+       - **Night Lights**
+       - **Lamp Post Bases**
+       - **Lighting Accessories**
+       - **Lighting Timers**
+       - **Lighting**
+     - **Jewelry**
+       - **Brooches & Lapel Pins**
+       - **Necklaces**
+       - **Name Plates**
+       - **Spurs**
+       - **Piercing & Tattooing**
+         - **Tattooing Supplies**
+         - **Tattooing**
+       - **Necklaces**
+     - **Sporting Goods**
+       - **Pole Dancing Kits**
+       - **Sports**
+     - **Sporting Goods Accessories**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+     - **Sporting Goods Equipment**
+       - **Sports Equipment**
+     - **Sporting Goods Gear**
+       - **Sports Gear**
+     - **Sporting Goods Apparel**
+       - **Sports Apparel**
+     - **Sporting Goods Footwear**
+       - **Sports Footwear**
+     - **Sporting Goods Accessories**
+       - **Sports Accessories**
+
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

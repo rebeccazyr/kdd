@@ -1,0 +1,344 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Gun Care & Accessories; Ammunition Cases & Holders; Staff & Stick Weapons; Spears; Gun Holsters; Mature; Weapons; Combat Knives; Reloading Supplies & Equipment
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Staff & Stick Weapons is a subtopic of Weapons; Combat Knives is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Spears is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Holsters is a subtopic of Gun Care & Accessories; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Staff & Stick Weapons; Swords; Gun Lights; Ammunition; Gun Cases & Range Bags; Weapons; Stun Guns & Tasers; Mature; Google Product Taxonomy; Gun Care & Accessories
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Staff & Stick Weapons is a subtopic of Weapons; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Ammunition is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Weapons; Stun Guns & Tasers; Google Product Taxonomy; Erotic; Mature; Whips; Gun Care & Accessories; Throwing Stars; Nunchucks; Guns
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Stun Guns & Tasers is a subtopic of Weapons; Erotic is a subtopic of Mature; Guns is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Whips is a subtopic of Weapons; Weapons is a subtopic of Mature; Throwing Stars is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic; Erotic DVDs & Videos; Pole Dancing Kits; Mature; Erotic Food & Edibles; Google Product Taxonomy; Erotic Clothing; Erotic Books; Erotic Magazines; Erotic Games
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Games is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic Books is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Gun Grips; Google Product Taxonomy; Weapons; Gun Slings; Staff & Stick Weapons; Gun Care & Accessories; Mature; Stun Guns & Tasers; Swords; Spears
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Swords is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Slings is a subtopic of Gun Care & Accessories; Gun Grips is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Spears is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Vacuum Accessories; Decor; Billiards; Backrest Pillows; Skate Helmets; Modem Accessories; Medicine Cabinets; Air Conditioner Covers; Hourglasses; Laundry Baskets; Decorative Bottles; Climbing Webbing; Clocks; Input Device Accessories; Moisture Absorbers; Keyboard Trays & Platforms; Homebrewing & Winemaking Supplies; Flag & Windsock Pole Mounting Hardware & Kits; Heating, Ventilation & Air Conditioning; Ice Screws; Putty Knives & Scrapers; Weather Vanes & Roof Decor; Axes; GPS Accessories; Computer Backplates & I/O Shields; Coat & Hat Racks; Plants; Pedal Boats; Radios; Stylus Pen Nibs & Refills; Equestrian; Media; Windsurfing; Billiard Tables; Toys & Games; Nativity Sets; Tap Reseaters; Cigar Cutters & Punches; USB & FireWire Hubs; GPS Tracking Devices; Skateboarding Protective Gear; Passive Circuit Components; Athletics; Bicycle Forks; Tetherball; Pool Cleaners & Chemicals; Bird Baths; Event Tickets; Motor Vehicle Trailers; Door Hardware; Ski & Snowboard Wax; Computer Components; Breast Pumps; Garage Floor Mats; Lacrosse Goals; Disco Balls; Billiard Ball Racks; Microphone Stands; Party & Celebration; Circuit Prototyping; Linens & Bedding; Floor & Steam Cleaner Accessories; Audio; Video Accessories; Hobbies & Creative Arts; Luggage & Bags; Flood, Fire & Gas Safety; Boxing & Martial Arts Training Equipment; Breadboards; Electronics Cleaners; Video Cards & Adapters; Keyboard & Mouse Wrist Rests; Household Thermometers; Business & Industrial; Radar Detectors; Briefcases; Row Boats; Bicycle Frames; Breast Milk Storage Containers; Bicycle Cleat Accessories; Laptop Docking Stations; Marine Electronics; Circuit Board Accessories; Remote Control Toys; Tablet Computer Docks & Stands; Utility & Cargo Trailers; Shoe Brushes; Clothespins; Stained Glass Panels; Music Boxes; Buoyancy Compensators; Diving & Snorkeling Equipment Sets; Climbing Harnesses; Pickleball; Puzzles; Cigarette Holders; Billiard Cue Racks; Toy Gift Baskets; Soda; Diving & Snorkeling Masks; Billiard Table Parts & Accessories; Field Hockey Sticks; Wallpaper Steamers; Computer Accessories; Dollies & Hand Trucks; Lighting Accessories; Health & Beauty; Surfboards; MP3 Players; Fruit Flavored Drinks; Rugby Gloves; Milling Machines; Water Heaters; Mobile Phone & Tablet Tripods & Monopods; Wrestling; Keyboard Protectors; Swimming; Deck Shuffleboard; Fire Extinguishers; Tetherball Poles; Tool Sockets; Windsurfing Sails; Dreamcatchers; Outdoor Play Equipment; Robotic Toys; Cameras & Optics; Stylus Pens; Electronics Films & Shields; Field Hockey & Lacrosse; Lacrosse Balls; Computer Covers & Skins; Garage Door Keypads & Remotes; Lamp Post Mounts; Sauna Accessories; Headphone Cushions & Tips; Boating & Rafting; Tool Knives; Video; Climbing Rope; Marine Chartplotters & GPS; Indoor & Outdoor Plants; Surfing; Siding; Lacrosse Training Aids; Wrestling Knee Pads; Tea & Infusions; Barcode Scanner Stands; Shopping Totes; Boxing & MMA Punch Mitts; Trunks; Spas; Microcontrollers; Umbrella Sleeves & Cases; Window Cranks; Development Boards; Wireless Transmitters; Tactile Transducers; Jigsaw Puzzle Accessories; Diaper Bags; Flying Toys; Toilet Brushes & Holders; Antenna Rotators; Video Game Arcade Cabinet Accessories; Pool & Spa; Sporting Goods; Bicycle Tires; Dehumidifier Accessories; Home & Garden; Flowers; Bath Caddies; Shuffleboard Tables; Toy Cars; Personal Care; Bicycle Cables; Lighting Timers; I/O Cards & Adapters; Turntables & Record Players; HVAC Controls; Ball Pits; Billiard Cue Cases; Boxing & Martial Arts; Executive Toys; GPS Cases; Fish Finders; Beverages; Swim Goggle & Mask Accessories; Ice Climbing Tools; Turntable Accessories; Video Editing Hardware & Production Equipment; Hardware Torches; Fire Sprinklers; Bicycle Small Parts; Skiing & Snowboarding; Canoes; Shower Rods; Skateboarding; Vehicles & Parts; E-Book Reader Accessories; Roller Skis; Audio Players & Recorders; Storage & Organization; Indoor Games; Molding; DVDs & Videos; Butterfly Feeders; Soccer; Window Treatment Replacement Parts; Diodes; Bathroom Accessories; Food, Beverages & Tobacco; Bath Pillows; Bicycle Headset Parts; Concrete Brooms; Field Hockey Goals; Animals & Pet Supplies; Speaker Accessories; Drawer & Shelf Liners; Remote Controls; Photography; Satellite LNBs; Computer Racks & Mounts; Decorative Plaques; Shoe Care & Tools; Fencing Weapons; Decorative Bells; Bird Feeders; Fountains & Ponds; Surfing Gloves; Pull Buoys; Security Monitors & Recorders; Baby & Toddler; Dry Boxes; Table Shuffleboard Pucks; Religious & Ceremonial; Fuel Containers & Tanks; Locks & Keys; Shower Curtain Rings; Play Vehicles; Swim Caps; Vehicle Storage & Cargo; Parasols & Rain Umbrellas; Sanding Accessories; Billiard Cue Accessories; Winter Sports & Activities; Wood Stoves; Household Supplies; Robe Hooks; Flags & Windsocks; Curtain & Drape Rings; Computer Risers & Stands; Holiday Stockings; Swimming Nose Clips; Magnetizers & Demagnetizers; Dried Flowers; Grappling Dummies; Seasonal & Holiday Decorations; Bicycle Brake Parts; Growth Charts; Quickdraws; Ponds; Floor & Carpet Dryers; Racquetball & Squash; Dancing; Posters, Prints, & Visual Artwork; Remote Control Boats & Watercraft; Smoking Accessories; Rain Chains; Household Appliances; Computer Accessory Sets; Ecospheres; Home Fragrances; Fire Alarms; Driver Accessories; Google Product Taxonomy; Curtain Holdbacks & Tassels; Mattock & Pickaxe Accessories; Printer, Copier, & Fax Machine Circuit Boards; Wind Wheels & Spinners; Toy Spaceships; Vehicle Parts & Accessories; Bicycle Saddles; Audio Cards & Adapters; Cheerleading; Masonry Tools; Kickboards; Safety Grab Bars; Bicycles; Squirrel Feeders; Antenna Accessories; Toys; Fire Extinguisher & Equipment Storage; Electronics Accessories; Table Shuffleboard; Outdoor Recreation; Audio Accessories; Skate Ramps; Fireplaces; Toilet Brush Replacement Heads; Water; Billiard Cue Chalk; Vacuums; Hardware; Abrasive Blaster Accessories; Desktop Computer & Server Cases; Heat Detectors; Skateboard Parts; Handheld Device Accessories; Tool Accessories; Signal Boosters; Snowboard Bindings; Cardboard Cutouts; Snowboards; Oil Lamp Fuel; Riding Scooters; Towel Racks & Holders; Integrated Circuits & Chips; Log Splitters; Climbing Ascenders & Descenders; Speaker Bags, Covers & Cases; Basketball; Trampolines; Windsurfing Boards; Multifunction Power Tools; Satellite Radio Accessories; Laundry Supplies; Tricycle Accessories; Floor Protection Films & Runners; Finials; Rugby Balls; General Purpose Athletic Equipment; Climbing; Climbing Chalk Bags; Bath Mats & Rugs; Welding Accessories; Paddles & Oars; Abrasive Blasters; Communications; Household Storage Containers; Bicycle Handlebar Extensions; Safety & Security Mirrors; Special Effects; Speaker Stand Bags; Flashlight Accessories; Electronic Filters; Christmas Tree Skirts; Diving Belts; Business & Home Security; Golf; Router Accessories; Electronics; TV Tuner Cards & Adapters; GPS Navigation Systems; Memorial Ceremony Supplies; Fountains & Waterfalls; Arts & Entertainment; Shower Curtains; Bird & Wildlife Feeders; Riding Toys; Window Films; Avalanche Safety; Motorcycle Bags & Panniers; Window Hardware; Public Address Systems; Whitewater Rafts; Mailbox Posts; Remote Control Airships & Blimps; Nursing & Feeding; Diving & Snorkeling; Figurines; Patch Panels; Inflatable Bouncer Accessories; Musical Instruments; Network Security & Firewall Devices; Outdoor Games; Climbing Crash Pads; Cycling Apparel & Accessories; Fencing; Skateboard Small Parts; Ottoman Cushions; Bird & Wildlife House Accessories; Multitrack Recorders; Bicycle Tubes; House Numbers & Letters; Humidors; Unicycle Accessories; Flag & Windsock Poles; Basketball Training Aids; Bathroom Accessory Mounts; Air Purifier Accessories; Bicycle Stems; Tools; Disc Golf; Pool & Spa Accessories; Stage Equipment; Voice Recorders; Mailbox Accessories; Backpacks; Ski Binding Parts; Rugby; Boxing Ring Parts; Floor Polishers & Buffers; Fabric Stain Removers; Bath Toys; Fire Alarm Control Panels; Hubs & Switches; Ashtrays; Networking; Baskets; Speed Radars; Tricycles; Punching & Training Bag Accessories; Headphone & Headset Accessories; Home Fragrance Accessories; Remote Control Cars & Trucks; Cosmetic & Toiletry Bags; Household Appliance Accessories; Platform & Paddle Tennis; Lumber & Sheet Stock; Boating & Water Sports; Wrestling Protective Gear; Computer Power Supplies; Bicycle Tire Valve Adapters; Bookends; Child Swimming Aids; Sports & Energy Drinks; Cycling; Billiard Table Lights; Bicycle Parts; Window Treatments; Bat Houses; Air Conditioner Filters; Hand Dryer Accessories; Flat Mineral Water; Towed Water Sports; Scanner Circuit Boards; Wallyball Equipment; Computer Processors; Jigsaws; Candle Snuffers; Drywall; Flag & Windsock Accessories; Platform Tennis Balls; Suncatchers; Video Game Consoles; Speaker Stands & Mounts; Toothbrush Holders; Facial Tissue Holders; Candle & Oil Warmers; Home Alarm Systems; Reamers; Cable Management; Circuit Boards & Components; Rain Gauges; Computer System Cooling Parts; Air Conditioner Accessories; Plant & Herb Growing Kits; Skateboarding Gloves; Saws; Air Fresheners; Building Materials; Sleds; Video Players & Recorders; Kitchen Linens Sets; Iron Rests; E-Book Reader Parts; Bird & Wildlife Houses; Insulation; Countertops; Stair Treads; Chair & Sofa Cushions; Bicycle Kickstands; Mailbox Replacement Doors; Inline & Roller Skating; Printed Circuit Boards; Artwork; Watercraft Storage Racks; Window Magnets; Kayak Accessories; Anvils; Lamp Shades; Toilet Paper Holders; Skateboard Wheels; Wire & Cable Ties; Television Circuit Boards; Carpentry Jointers; Unicycles; Surfboard Wax; Soap Dishes & Holders; Team Handball; Vehicle Maintenance, Care & Decor; Cable Clips; Racquetball & Squash Balls; Furniture Floor Protectors; Compressors; Water & Flood Detectors; Window Treatment Accessories; Lawn Games; Semiconductors; Arcade Equipment; Fan Accessories
+Relationships: 
+
+================================================================================
+Number of entities: 500
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Creating a taxonomy from the provided concepts involves organizing them into a hierarchical structure. Here's a possible taxonomy:
+
+1. **Google Product Taxonomy**
+   - **Mature**
+     - **Decor**
+       - **Bath Caddies**
+       - **Bath Mats & Rugs**
+       - **Bath Pillows**
+       - **Bath Toys**
+       - **Bathroom Accessory Mounts**
+       - **Bathroom Accessories**
+       - **Bathroom Accessory Mounts**
+       - **Bathroom Supplies**
+       - **Bathroom Linens**
+       - **Bathroom Storage**
+       - **Bathroom Organizers**
+       - **Bathroom Mirrors**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware**
+       - **Bathroom Lighting**
+       - **Bathroom Fans**
+       - **Bathroom Exhaust Fans**
+       - **Bathroom Sinks**
+       - **Bathroom Vanities**
+       - **Bathroom Faucets**
+       - **Bathroom Taps**
+       - **Bathroom Fixtures**
+       - **Bathroom Hardware
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

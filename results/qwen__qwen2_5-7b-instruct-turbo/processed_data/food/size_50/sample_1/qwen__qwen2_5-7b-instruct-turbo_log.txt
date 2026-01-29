@@ -1,0 +1,267 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: fagottini; food; spaghetti; fusilli; occhi di lupo; gemelli; bavette; cannelloni; pasta; pici
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+occhi di lupo is a subtopic of pasta; pici is a subtopic of pasta; pasta is a subtopic of food; fusilli is a subtopic of pasta; gemelli is a subtopic of pasta; cannelloni is a subtopic of pasta; spaghetti is a subtopic of pasta; bavette is a subtopic of pasta; fagottini is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: linguine; mezzelune; spaghetti; corzetti; sacchettoni; pasta; croxetti; fuži; food; rotini
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+rotini is a subtopic of pasta; pasta is a subtopic of food; croxetti is a subtopic of pasta; corzetti is a subtopic of pasta; linguine is a subtopic of pasta; mezzelune is a subtopic of pasta; sacchettoni is a subtopic of pasta; fuži is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: occhi di lupo; fuži; anellini; garganelli; pasta; stringozzi; corzetti; bigoli; mezzelune; food
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+mezzelune is a subtopic of pasta; stringozzi is a subtopic of pasta; corzetti is a subtopic of pasta; bigoli is a subtopic of pasta; garganelli is a subtopic of pasta; fuži is a subtopic of pasta; pasta is a subtopic of food; occhi di lupo is a subtopic of pasta; anellini is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: food; rotini; ptitim; macaroni; campanelle; pasta; spaghetti; passatelli; casoncelli; lanterne
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+campanelle is a subtopic of pasta; ptitim is a subtopic of pasta; macaroni is a subtopic of pasta; passatelli is a subtopic of pasta; spaghetti is a subtopic of pasta; lanterne is a subtopic of pasta; rotini is a subtopic of pasta; pasta is a subtopic of food; casoncelli is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: penne; mezzelune; food; spaghetti; pasta; stringozzi; ptitim; rotini; rotelle; sacchettoni
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+mezzelune is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; rotini is a subtopic of pasta; stringozzi is a subtopic of pasta; penne is a subtopic of pasta; sacchettoni is a subtopic of pasta; rotelle is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: yu choy; food; chocolate truffles; frozen yoghurt; caramels; mangos; taro root; fruit; eggs; watercress; tangelos; rye; squashes; gobo root; grapes; cabbage; vegetable; chewing gum; fruit chews; popsicles; amaranth; cereals; butter and margarine; lunch meats; grits; sweets; spice; potatoes; asparagus; cottage cheese; kohlrabi; rocket; chocolate assortments; fruit salad; papayas; dairy product; yucca root; chocolate mints; jelly beans; beverage; carrots; oats; tomatoes; prickly pears; rutabagas; toffee brittle; frozen dessert; meat; celery; yoghurt
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+- yu choy is a subtopic of vegetable
+- tangelos is a subtopic of fruit
+- mangos is a subtopic of fruit
+- taro root is a subtopic of vegetable
+- gobo root is a subtopic of vegetable
+- grapes is a subtopic of fruit
+- cabbage is a subtopic of vegetable
+- watercress is a subtopic of vegetable
+- rocket is a subtopic of vegetable
+- kohlrabi is a subtopic of vegetable
+- asparagus is a subtopic of vegetable
+- carrots is a subtopic of vegetable
+- celery is a subtopic of vegetable
+- tomatoes is a subtopic of vegetable
+- rutabagas is a subtopic of vegetable
+- prickly pears is a subtopic of fruit
+- potatoes is a subtopic of vegetable
+- amaranth is a subtopic of vegetable
+- oats is a subtopic of vegetable
+- yucca root is a subtopic of vegetable
+- jelly beans is a subtopic of sweets
+- chocolate mints is a subtopic of sweets
+- chocolate truffles is a subtopic of sweets
+- fruit chews is a subtopic of sweets
+- fruit salad is a subtopic of sweets
+- chocolate assortments is a subtopic of sweets
+- fruit salad is a subtopic of sweets
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of frozen dessert
+- popsicles is a subtopic of
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 1
+
+Parsed relationships:
+  - yu choy → vegetable
+
+================================================================================

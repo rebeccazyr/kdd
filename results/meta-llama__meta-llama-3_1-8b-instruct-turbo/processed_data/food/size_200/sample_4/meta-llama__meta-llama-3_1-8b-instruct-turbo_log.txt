@@ -1,0 +1,471 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: cannelloni; fagottini; pasta; spaghetti; pici; gemelli; bavette; food; occhi di lupo; fusilli
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+spaghetti is a subtopic of pasta; fagottini is a subtopic of pasta; pici is a subtopic of pasta; occhi di lupo is a subtopic of pasta; pasta is a subtopic of food; bavette is a subtopic of pasta; fusilli is a subtopic of pasta; gemelli is a subtopic of pasta; cannelloni is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: linguine; corzetti; mezzelune; food; spaghetti; croxetti; pasta; fuži; sacchettoni; rotini
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+croxetti is a subtopic of pasta; mezzelune is a subtopic of pasta; pasta is a subtopic of food; corzetti is a subtopic of pasta; fuži is a subtopic of pasta; spaghetti is a subtopic of pasta; linguine is a subtopic of pasta; sacchettoni is a subtopic of pasta; rotini is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: pasta; food; mezzelune; corzetti; fuži; occhi di lupo; garganelli; anellini; bigoli; stringozzi
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+fuži is a subtopic of pasta; corzetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta; garganelli is a subtopic of pasta; stringozzi is a subtopic of pasta; mezzelune is a subtopic of pasta; bigoli is a subtopic of pasta; pasta is a subtopic of food; anellini is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: campanelle; lanterne; ptitim; casoncelli; spaghetti; macaroni; passatelli; food; pasta; rotini
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+macaroni is a subtopic of pasta; campanelle is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta; passatelli is a subtopic of pasta; lanterne is a subtopic of pasta; casoncelli is a subtopic of pasta; rotini is a subtopic of pasta; ptitim is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: food; pasta; stringozzi; penne; rotelle; sacchettoni; rotini; spaghetti; mezzelune; ptitim
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+mezzelune is a subtopic of pasta; sacchettoni is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; rotelle is a subtopic of pasta; rotini is a subtopic of pasta; ptitim is a subtopic of pasta; pasta is a subtopic of food; stringozzi is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: nettle soup; tianmianjiang; schnapps; ohaw; caruso sauce; sauce vierge; sugar cane; supreme; houmous; tuscan cabbage; moambe; squashes; southern illinois chowder; ganjang; caldo de pollo; ching bo leung; corn soup; cardoon; liver soup; chancaca; she-crab soup; vegetable; gulgukbap; svartsoppa; wheatgrass; gai lan; rouille; fish sauce; ginger root; chocolate covered fruit; bakery; liquor; bok choi; peppers; xo sauce; tomato soup; chutney; rose hip soup; dairy product; yucca root; dip; piti; beetroots; garbure; tom yum; hyderabadi marag; yu choy; frozen seafood; beurre blanc; pumpkin soup; cucumbers; arracachas; olives and capers; ponzu; beurre noisette; rhubarb; chikhirtma; cider; licorice; cauliflower; peanut butter cups; hodge-podge; fish tea; tkemali; ezogelin soup; chicory; pique verde boricua; broccoli; mulligatawny; macaroni soup; fresh meat; peach sauce; butajiru; nut butters; cullen skink; leeks; empal gentong; kitchen bouquet; tinned meat; french onion soup; goulash; bún bò huế; buttermilk koldskål; kale; tourin; whisky; ice cream cones; frejon; lung fung soup; cucumber soup; qingtang wanzi; rutabagas; kulajda; gummy sweets; crème ninon; bitters; miyeok guk; malangas; horseradish sauce; beer; gomguk; bouillon; salad dressings; scotch broth; senate bean soup; red-eye gravy; oille; soup alla canavese; caldo verde; non-alcoholic beer; gobo root; tahini; candy corn; okroshka; green sauce; ajiaco; beetroot greens; mushrooms; cheez whiz; curry ketchup; on choy; bean sprouts; worcestershire sauce; bisque; asparagus; curry sauce; honey; sour cherry soup; draw soup; minestrone; sinigang; zōni; beef noodle soup; fanesca; kuy teav; eggnog; ribollita; suaasat; carrots; sancocho; tomatoes; sour soup; pozole; sweets; corn chowder; babi panggang; yoghurt; fresh seafood; food; apple butter; mujdei; kissel; gourds; agrodolce; pistou; red peas soup; siemieniotka; gin; eggs; fudge; sopa teologa; sauce; spring soup; cold borsch; tekwan; soto ayam; tonic water; mushroom gravy; ok sauce; pepper; donuts; water; gastrique; mahyawa; okra; seafood; noodle soup; chimichurri; spice; leek soup; batchoy; sorrel soup; soup; tom kha kai; sauce gribiche; beer soup; yaka mein; taffy; bak kut teh; katara; suprême sauce; köttsoppa; phu quoc fish sauce; chocolate mints; beverage; condiment; pesto; pho; meat; celery
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to create a taxonomy for you, but it might not be exhaustive due to the sheer number of concepts.
+
+Here's a simplified taxonomy:
+
+- food
+  - vegetable
+    - gai lan
+    - bok choi
+    - yu choy
+    - broccoli
+    - kale
+    - beetroot greens
+    - mushrooms
+    - okra
+    - asparagus
+    - carrots
+    - celery
+  - dairy product
+    - buttermilk
+    - yoghurt
+    - cheese whiz
+    - beurre blanc
+    - beurre noisette
+    - crème ninon
+  - meat
+    - fresh meat
+    - tinned meat
+    - frozen seafood
+  - sauce
+    - pesto
+    - chimichurri
+    - pesto
+    - sauce vierge
+    - rouille
+    - beurre blanc
+    - beurre noisette
+    - crème ninon
+    - horseradish sauce
+    - curry sauce
+    - peanut butter cups
+    - tahini
+    - nut butters
+    - peanut butter cups
+    - chocolate mints
+    - chocolate covered fruit
+  - soup
+    - nettle soup
+    - corn soup
+    - pumpkin soup
+    - cucumber soup
+    - tomato soup
+    - fish soup
+    - seafood soup
+    - bouillon
+    - caldo de pollo
+    - caldo verde
+    - chancaca
+    - chikhirtma
+    - ching bo leung
+    - cullen skink
+    - empal gentong
+    - fanesca
+    - frejon
+    - gomguk
+    - goulash
+    - kuy teav
+    - lung fung soup
+    - miyeok guk
+    - okroshka
+    - pozole
+    - ribollita
+    - senate bean soup
+    - siemieniotka
+    - sinigang
+    - sopa teologa
+    - suprême sauce
+    - tkemali
+    - tom kha kai
+    - tom yum
+    - tourin
+    - zōni
+  - condiment
+    - worcestershire sauce
+    - soy sauce
+    - fish sauce
+    - phu quoc fish sauce
+    - vinegar
+    - honey
+    - apple butter
+    - jam
+    - chutney
+    - sauce gribiche
+    - gastrique
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+    - pesto
+   
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 1
+
+Parsed relationships:
+  This is a very long list of concepts and relationships. I'll try to create a taxonomy for you → but it might not be exhaustive due to the sheer number of concepts
+
+================================================================================

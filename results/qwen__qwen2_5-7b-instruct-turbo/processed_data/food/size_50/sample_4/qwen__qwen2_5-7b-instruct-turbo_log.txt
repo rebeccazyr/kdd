@@ -1,0 +1,264 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: occhi di lupo; pasta; gemelli; bavette; cannelloni; food; fagottini; pici; fusilli; spaghetti
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+pici is a subtopic of pasta; fusilli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; gemelli is a subtopic of pasta; cannelloni is a subtopic of pasta; bavette is a subtopic of pasta; spaghetti is a subtopic of pasta; fagottini is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: food; pasta; sacchettoni; mezzelune; rotini; corzetti; croxetti; spaghetti; linguine; fuži
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+corzetti is a subtopic of pasta; spaghetti is a subtopic of pasta; fuži is a subtopic of pasta; linguine is a subtopic of pasta; pasta is a subtopic of food; rotini is a subtopic of pasta; mezzelune is a subtopic of pasta; croxetti is a subtopic of pasta; sacchettoni is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: fuži; bigoli; food; occhi di lupo; corzetti; anellini; mezzelune; stringozzi; pasta; garganelli
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+stringozzi is a subtopic of pasta; fuži is a subtopic of pasta; anellini is a subtopic of pasta; garganelli is a subtopic of pasta; corzetti is a subtopic of pasta; bigoli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; pasta is a subtopic of food; mezzelune is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: campanelle; macaroni; spaghetti; lanterne; passatelli; casoncelli; food; rotini; pasta; ptitim
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+passatelli is a subtopic of pasta; spaghetti is a subtopic of pasta; ptitim is a subtopic of pasta; macaroni is a subtopic of pasta; casoncelli is a subtopic of pasta; rotini is a subtopic of pasta; campanelle is a subtopic of pasta; pasta is a subtopic of food; lanterne is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: rotelle; sacchettoni; rotini; food; penne; ptitim; spaghetti; stringozzi; mezzelune; pasta
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+pasta is a subtopic of food; stringozzi is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; rotelle is a subtopic of pasta; mezzelune is a subtopic of pasta; sacchettoni is a subtopic of pasta; rotini is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: tortillas; food; uirō; marble cake; paris buns; noodle; unni appam; layer cake; rice noodles; memela; wanko soba; fudge; yaki udon; salt; rye; kue keranjang; rum baba; cupcone; red velvet cake; prepared food; jook-sing noodles; depression cake; cake; tempeh; happy cake; cereals; cellophane noodles; rab cake; babka; seeds; bánh tét; seafood; turrón; granola; calas; spice; bakery; bundt cake; soy product; otak-otak; tart; pie; coffee cakes; instant noodle; kakara pitha; kinnathappam; king cake; muskazine; mi san dao; basbousa
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+tortillas is a subtopic of prepared food; uirō is a subtopic of prepared food; marble cake is a subtopic of cake; paris buns is a subtopic of prepared food; noodle is a subtopic of food; unni appam is a subtopic of prepared food; layer cake is a subtopic of cake; rice noodles is a subtopic of noodle; memela is a subtopic of prepared food; wanko soba is a subtopic of noodle; fudge is a subtopic of prepared food; yaki udon is a subtopic of noodle; salt is a subtopic of spice; rye is a subtopic of seed; kue keranjang is a subtopic of prepared food; rum baba is a subtopic of cake; cupcone is a subtopic of prepared food; red velvet cake is a subtopic of cake; prepared food is a subtopic of food; jook-sing noodles is a subtopic of noodle; depression cake is a subtopic of cake; cake is a subtopic of bakery; tempeh is a subtopic of soy product; otak-otak is a subtopic of seafood; kinnathappam is a subtopic of prepared food; king cake is a subtopic of cake; muskazine is a subtopic of prepared food; mi san dao is a subtopic of noodle; basbousa is a subtopic of cake; kakara pitha is a subtopic of prepared food; kinnathappam is a subtopic of prepared food; king cake is a subtopic of cake; muskazine is a subtopic of prepared food; mi san dao is a subtopic of noodle; basbousa is a subtopic of cake; kakara pitha is a subtopic of prepared food; kinnathappam is a subtopic of prepared food; king cake is a subtopic of cake; muskazine is a subtopic of prepared food; mi san dao is a subtopic of noodle; basbousa is a subtopic of cake; kakara pitha is a subtopic of prepared food; kinnathappam is a subtopic of prepared food; king cake is a subtopic of cake; muskazine is a subtopic of prepared food; mi san dao is a subtopic of noodle; basbousa is a subtopic of cake; bundt cake is a subtopic of cake; calas is a subtopic of prepared food; spice is a subtopic of spice; bakery is a subtopic of food; bundt cake is a subtopic of cake; coffee cakes is a subtopic of cake; instant noodle is a subtopic of noodle; kakara pitha is a subtopic of prepared food; kinnathappam is a subtopic of prepared food; king cake is a subtopic of cake; muskazine is a subtopic of prepared food; mi san dao is a subtopic of noodle; basbousa is a subtopic of cake; rab cake is a subtopic of prepared food; babka is a subtopic of cake; turrón is a subtopic of prepared food; granola is a subtopic of prepared food; calas is a subtopic of prepared food; spice is a subtopic of spice; bakery is a subtopic of food; bundt cake is a subtopic of cake; coffee cakes is a subtopic of cake; instant noodle is a subtopic of noodle; kakara pitha is a subtopic of prepared food; kinnathappam is a subtopic of prepared food; king cake is a subtopic of cake; muskazine is a subtopic of prepared food; mi san dao is a subtopic of noodle; basbousa is a subtopic of cake; otak-otak is a subtopic of seafood; tart is a subtopic of pie; pie is a subtopic of bakery; coffee cakes is a subtopic of cake; instant noodle is a subtopic of noodle; kakara pitha is a subtopic of prepared food; kinnathappam is a subtopic of prepared food; king cake is a subtopic of cake; muskazine is a subtopic of prepared food; mi san dao is a subtopic of noodle; basbousa is a subtopic of cake; otak-otak is a subtopic of seafood; turrón is a subtopic of prepared food; granola is a subtopic of prepared food; calas is a subtopic of prepared food; spice is a subtopic of spice; bakery is a subtopic of food; bundt cake is a subtopic of cake; coffee cakes is a subtopic of cake; instant noodle is a subtopic of noodle; kakara pitha is a subtopic of prepared food; kinnathappam is a subtopic of prepared food; king cake is a subtopic of cake; muskazine is a subtopic of prepared food; mi san dao is a subtopic of noodle; basbousa is a subtopic of cake; otak-otak is a subtopic of seafood; turrón is a subtopic of prepared food; granola is a subtopic of prepared food; calas is a subtopic of prepared food; spice is a subtopic of spice; bakery is a subtopic of food; bundt cake is a subtopic of cake; coffee cakes is a subtopic of cake; instant noodle is a subtopic of noodle; kakara pitha is a subtopic of prepared food; kinnathappam is a subtopic of prepared food; king cake is a subtopic of cake; muskazine is a subtopic of prepared food; mi san dao is a subtopic of noodle; basbousa is a subtopic of cake; otak-otak is a subtopic of seafood; turrón is a subtopic of prepared food; granola is a subtopic of prepared food; calas is a subtopic of prepared food; spice is a subtopic of spice; bakery is a subtopic of food; bundt cake is a subtopic of cake; coffee cakes is a subtopic of cake; instant noodle is a subtopic of noodle; kakara pitha is a subtopic of prepared food; kinnathappam is a subtopic of prepared food; king cake is a subtopic of cake; muskazine is a subtopic of prepared food; mi san dao is a subtopic of noodle; basbousa is a subtopic of cake; otak-otak is a subtopic of seafood; turrón is a subtopic of prepared food; granola is a subtopic of prepared food; calas is a subtopic of prepared food; spice is a subtopic of spice; bakery is a subtopic of food; bundt cake is a subtopic of cake; coffee cakes is a subtopic of cake; instant noodle is a subtopic of noodle; kakara pitha is a subtopic of prepared food; kinnathappam is a subtopic of prepared food; king cake is a subtopic of cake; muskazine is a subtopic of prepared food; mi san dao is a subtopic of noodle; basbousa is a subtopic of cake; otak-otak is a subtopic of seafood; turrón is a subtopic of prepared food; granola is a subtopic of prepared food; calas is a subtopic of prepared food; spice is a subtopic of spice; bakery is a subtopic of food; bundt cake is a subtopic of cake; coffee cakes is a subtopic of cake; instant noodle is a subtopic of noodle; kakara pitha is a subtopic of prepared food; kinnathappam is a subtopic of prepared food; king cake is a subtopic of cake; muskazine is a subtopic of prepared food; mi san dao is a subtopic of noodle; basbousa is a subtopic of cake; otak-otak is a subtopic of seafood; turrón is a subtopic of prepared food; granola is a subtopic of prepared food; calas is a subtopic of prepared food; spice is a subtopic of spice; bakery is a subtopic of food; bundt cake is a subtopic of cake; coffee cakes is a subtopic of cake; instant noodle is a subtopic of noodle; kakara pitha is a subtopic of prepared food; kinnathappam is a subtopic of prepared food; king cake is a subtopic of cake; muskazine is a subtopic of prepared food; mi san dao is a subtopic of noodle; basbousa is a subtopic of cake; otak-otak is a subtopic of seafood; turrón is a subtopic of prepared food; granola is a subtopic of prepared food; calas is a subtopic of prepared food; spice is a subtopic of spice; bakery is a subtopic of food; bundt cake is a subtopic of cake; coffee cakes is a subtopic of cake; instant noodle is a subtopic of noodle; kakara pitha is a subtopic of prepared food; kinnathappam is a subtopic of prepared food; king cake is a subtopic of cake; muskazine is a subtopic of prepared food; mi san dao is a subtopic of noodle; basbousa is a subtopic of cake; otak-otak is a subtopic of seafood; turrón is a subtopic of prepared food; granola is a sub
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 185
+
+Parsed relationships:
+  tortillas → prepared food
+  uirō → prepared food
+  marble cake → cake
+  paris buns → prepared food
+  noodle → food
+  unni appam → prepared food
+  layer cake → cake
+  rice noodles → noodle
+  memela → prepared food
+  wanko soba → noodle
+  fudge → prepared food
+  yaki udon → noodle
+  salt → spice
+  rye → seed
+  kue keranjang → prepared food
+  rum baba → cake
+  cupcone → prepared food
+  red velvet cake → cake
+  prepared food → food
+  jook-sing noodles → noodle
+  depression cake → cake
+  cake → bakery
+  tempeh → soy product
+  otak-otak → seafood
+  kinnathappam → prepared food
+  king cake → cake
+  muskazine → prepared food
+  mi san dao → noodle
+  basbousa → cake
+  kakara pitha → prepared food
+  kinnathappam → prepared food
+  king cake → cake
+  muskazine → prepared food
+  mi san dao → noodle
+  basbousa → cake
+  kakara pitha → prepared food
+  kinnathappam → prepared food
+  king cake → cake
+  muskazine → prepared food
+  mi san dao → noodle
+  basbousa → cake
+  kakara pitha → prepared food
+  kinnathappam → prepared food
+  king cake → cake
+  muskazine → prepared food
+  mi san dao → noodle
+  basbousa → cake
+  bundt cake → cake
+  calas → prepared food
+  bakery → food
+  bundt cake → cake
+  coffee cakes → cake
+  instant noodle → noodle
+  kakara pitha → prepared food
+  kinnathappam → prepared food
+  king cake → cake
+  muskazine → prepared food
+  mi san dao → noodle
+  basbousa → cake
+  rab cake → prepared food
+  babka → cake
+  turrón → prepared food
+  granola → prepared food
+  calas → prepared food
+  bakery → food
+  bundt cake → cake
+  coffee cakes → cake
+  instant noodle → noodle
+  kakara pitha → prepared food
+  kinnathappam → prepared food
+  king cake → cake
+  muskazine → prepared food
+  mi san dao → noodle
+  basbousa → cake
+  otak-otak → seafood
+  tart → pie
+  pie → bakery
+  coffee cakes → cake
+  instant noodle → noodle
+  kakara pitha → prepared food
+  kinnathappam → prepared food
+  king cake → cake
+  muskazine → prepared food
+  mi san dao → noodle
+  basbousa → cake
+  otak-otak → seafood
+  turrón → prepared food
+  granola → prepared food
+  calas → prepared food
+  bakery → food
+  bundt cake → cake
+  coffee cakes → cake
+  instant noodle → noodle
+  kakara pitha → prepared food
+  kinnathappam → prepared food
+  king cake → cake
+  muskazine → prepared food
+  mi san dao → noodle
+  basbousa → cake
+  otak-otak → seafood
+  turrón → prepared food
+  granola → prepared food
+  calas → prepared food
+  bakery → food
+  bundt cake → cake
+  coffee cakes → cake
+  instant noodle → noodle
+  kakara pitha → prepared food
+  kinnathappam → prepared food
+  king cake → cake
+  muskazine → prepared food
+  mi san dao → noodle
+  basbousa → cake
+  otak-otak → seafood
+  turrón → prepared food
+  granola → prepared food
+  calas → prepared food
+  bakery → food
+  bundt cake → cake
+  coffee cakes → cake
+  instant noodle → noodle
+  kakara pitha → prepared food
+  kinnathappam → prepared food
+  king cake → cake
+  muskazine → prepared food
+  mi san dao → noodle
+  basbousa → cake
+  otak-otak → seafood
+  turrón → prepared food
+  granola → prepared food
+  calas → prepared food
+  bakery → food
+  bundt cake → cake
+  coffee cakes → cake
+  instant noodle → noodle
+  kakara pitha → prepared food
+  kinnathappam → prepared food
+  king cake → cake
+  muskazine → prepared food
+  mi san dao → noodle
+  basbousa → cake
+  otak-otak → seafood
+  turrón → prepared food
+  granola → prepared food
+  calas → prepared food
+  bakery → food
+  bundt cake → cake
+  coffee cakes → cake
+  instant noodle → noodle
+  kakara pitha → prepared food
+  kinnathappam → prepared food
+  king cake → cake
+  muskazine → prepared food
+  mi san dao → noodle
+  basbousa → cake
+  otak-otak → seafood
+  turrón → prepared food
+  granola → prepared food
+  calas → prepared food
+  bakery → food
+  bundt cake → cake
+  coffee cakes → cake
+  instant noodle → noodle
+  kakara pitha → prepared food
+  kinnathappam → prepared food
+  king cake → cake
+  muskazine → prepared food
+  mi san dao → noodle
+  basbousa → cake
+  otak-otak → seafood
+  turrón → prepared food
+  granola → prepared food
+  calas → prepared food
+  bakery → food
+  bundt cake → cake
+  coffee cakes → cake
+  instant noodle → noodle
+  kakara pitha → prepared food
+  kinnathappam → prepared food
+  king cake → cake
+  muskazine → prepared food
+  mi san dao → noodle
+  basbousa → cake
+  otak-otak → seafood
+  turrón → prepared food
+
+================================================================================

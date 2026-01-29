@@ -1,0 +1,106 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Mature; Staff & Stick Weapons; Combat Knives; Reloading Supplies & Equipment; Gun Holsters; Weapons; Google Product Taxonomy; Gun Care & Accessories; Ammunition Cases & Holders; Spears
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Staff & Stick Weapons is a subtopic of Weapons; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Gun Holsters is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Combat Knives is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Mature; Gun Cases & Range Bags; Staff & Stick Weapons; Weapons; Stun Guns & Tasers; Gun Care & Accessories; Gun Lights; Google Product Taxonomy; Swords; Ammunition
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Weapons is a subtopic of Mature; Staff & Stick Weapons is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Swords is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Google Product Taxonomy; Nunchucks; Weapons; Guns; Stun Guns & Tasers; Mature; Erotic; Throwing Stars; Whips
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Erotic is a subtopic of Mature; Guns is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Whips is a subtopic of Weapons; Weapons is a subtopic of Mature; Throwing Stars is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic; Erotic Magazines; Pole Dancing Kits; Erotic Books; Erotic DVDs & Videos; Erotic Games; Google Product Taxonomy; Erotic Clothing; Erotic Food & Edibles; Mature
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic is a subtopic of Mature; Erotic Clothing is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic Games is a subtopic of Erotic; Erotic Books is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Swords; Google Product Taxonomy; Staff & Stick Weapons; Gun Care & Accessories; Weapons; Stun Guns & Tasers; Mature; Gun Slings; Gun Grips; Spears
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Swords is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Spears is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Gun Grips is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Spermicides; Animals & Pet Supplies; Biometric Monitors; Surgical Lubricants; Live Animals; Furniture; Benches; Health Care; Occupational & Physical Therapy Equipment; Vehicles & Parts; Shelving Accessories; Condoms; Spray Tanning Tents; Deodorant & Anti-Perspirant; Health & Beauty; Sporting Goods; Google Product Taxonomy; Personal Care; Outdoor Furniture Accessories; Room Dividers
+Relationships: 
+
+================================================================================
+Number of entities: 20
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Health & Beauty is a subtopic of Health Care; Condoms is a subtopic of Health & Beauty; Spermicides is a subtopic of Health & Beauty; Deodorant & Anti-Perspirant is a subtopic of Health & Beauty; Biometric Monitors is a subtopic of Health Care; Surgical Lubricants is a subtopic of Health Care; Occupational & Physical Therapy Equipment is a subtopic of Health Care; Shelving Accessories is a subtopic of Furniture; Benches is a subtopic of Outdoor Furniture Accessories; Room Dividers is a subtopic of Outdoor Furniture Accessories; Furniture is a subtopic of Shelving Accessories; Outdoor Furniture Accessories is a subtopic of Furniture; Sporting Goods is a subtopic of Google Product Taxonomy; Animals & Pet Supplies is a subtopic of Google Product Taxonomy; Live Animals is a subtopic of Animals & Pet Supplies; Vehicles & Parts is a subtopic of Google Product Taxonomy; Health Care is a subtopic of Google Product Taxonomy; Personal Care is a subtopic of Health & Beauty; Condoms is a subtopic of Personal Care; Spermicides is a subtopic of Personal Care; Deodorant & Anti-Perspirant is a subtopic of Personal Care; Spray Tanning Tents is a subtopic of Sporting Goods; Spermicides is a subtopic of Health & Beauty; Condoms is a subtopic of Personal Care; Spermicides is a subtopic of Personal Care; Spermicides is a subtopic of Health & Beauty; Spermicides is a subtopic of Health Care
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 27
+
+Parsed relationships:
+  Health & Beauty → Health Care
+  Condoms → Health & Beauty
+  Spermicides → Health & Beauty
+  Deodorant & Anti-Perspirant → Health & Beauty
+  Biometric Monitors → Health Care
+  Surgical Lubricants → Health Care
+  Occupational & Physical Therapy Equipment → Health Care
+  Shelving Accessories → Furniture
+  Benches → Outdoor Furniture Accessories
+  Room Dividers → Outdoor Furniture Accessories
+  Furniture → Shelving Accessories
+  Outdoor Furniture Accessories → Furniture
+  Sporting Goods → Google Product Taxonomy
+  Animals & Pet Supplies → Google Product Taxonomy
+  Live Animals → Animals & Pet Supplies
+  Vehicles & Parts → Google Product Taxonomy
+  Health Care → Google Product Taxonomy
+  Personal Care → Health & Beauty
+  Condoms → Personal Care
+  Spermicides → Personal Care
+  Deodorant & Anti-Perspirant → Personal Care
+  Spray Tanning Tents → Sporting Goods
+  Spermicides → Health & Beauty
+  Condoms → Personal Care
+  Spermicides → Personal Care
+  Spermicides → Health & Beauty
+  Spermicides → Health Care
+
+================================================================================

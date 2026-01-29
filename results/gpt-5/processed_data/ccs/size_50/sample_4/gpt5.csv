@@ -1,0 +1,50 @@
+child,parent
+Hardware,Computing Classification System
+Human-centered computing,Computing Classification System
+Software and its engineering,Computing Classification System
+Mathematics of computing,Computing Classification System
+Theory of computation,Computing Classification System
+Social and professional topics,Computing Classification System
+General and reference,Computing Classification System
+"Communication hardware, interfaces and storage",Hardware
+Integrated circuits,Hardware
+Printed circuit boards,Hardware
+Hardware validation,Hardware
+Power and energy,Hardware
+Wireless integrated network sensors,"Communication hardware, interfaces and storage"
+Functional verification,Hardware validation
+Physical verification,Hardware validation
+Semi-formal verification,Hardware validation
+Timing analysis and sign-off,Hardware validation
+Power and thermal analysis,Hardware validation
+Layout-versus-schematics,Physical verification
+Human computer interaction (HCI),Human-centered computing
+Interaction design,Human-centered computing
+Collaborative and social computing,Human-centered computing
+Visualization,Human-centered computing
+Accessibility,Human computer interaction (HCI)
+Interaction techniques,Human computer interaction (HCI)
+Empirical studies in HCI,Human computer interaction (HCI)
+Interaction design process and methods,Interaction design
+"Interaction design theory, concepts and paradigms",Interaction design
+Systems and tools for interaction design,Interaction design
+Wireframes,Systems and tools for interaction design
+Collaborative and social computing design and evaluation methods,Collaborative and social computing
+Empirical studies in collaborative and social computing,Collaborative and social computing
+Social network analysis,Collaborative and social computing
+Visualization systems and tools,Visualization
+Information visualization,Visualization
+Visualization application domains,Visualization
+Design and analysis of algorithms,Theory of computation
+Algorithm design techniques,Design and analysis of algorithms
+Divide and conquer,Algorithm design techniques
+Backtracking,Algorithm design techniques
+Branch-and-bound,Algorithm design techniques
+"Streaming, sublinear and near linear time algorithms",Design and analysis of algorithms
+Theory and algorithms for application domains,Theory of computation
+Continuous mathematics,Mathematics of computing
+Probability and statistics,Mathematics of computing
+Mathematical analysis,Continuous mathematics
+Differential equations,Continuous mathematics
+Quadrature,Mathematical analysis
+Computing / technology policy,Social and professional topics

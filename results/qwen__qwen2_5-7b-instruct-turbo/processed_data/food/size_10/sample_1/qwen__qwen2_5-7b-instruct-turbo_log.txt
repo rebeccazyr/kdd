@@ -1,0 +1,94 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: fagottini; occhi di lupo; cannelloni; pasta; food; bavette; gemelli; spaghetti; fusilli; pici
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+pici is a subtopic of pasta; fagottini is a subtopic of pasta; cannelloni is a subtopic of pasta; bavette is a subtopic of pasta; gemelli is a subtopic of pasta; pasta is a subtopic of food; occhi di lupo is a subtopic of pasta; fusilli is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: pasta; food; corzetti; croxetti; rotini; fuži; spaghetti; sacchettoni; mezzelune; linguine
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+croxetti is a subtopic of pasta; spaghetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; fuži is a subtopic of pasta; pasta is a subtopic of food; rotini is a subtopic of pasta; corzetti is a subtopic of pasta; linguine is a subtopic of pasta; mezzelune is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: garganelli; mezzelune; anellini; occhi di lupo; bigoli; food; fuži; stringozzi; pasta; corzetti
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+corzetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta; bigoli is a subtopic of pasta; mezzelune is a subtopic of pasta; fuži is a subtopic of pasta; garganelli is a subtopic of pasta; anellini is a subtopic of pasta; stringozzi is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: rotini; ptitim; casoncelli; passatelli; macaroni; spaghetti; pasta; food; lanterne; campanelle
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+macaroni is a subtopic of pasta; ptitim is a subtopic of pasta; pasta is a subtopic of food; lanterne is a subtopic of pasta; rotini is a subtopic of pasta; spaghetti is a subtopic of pasta; casoncelli is a subtopic of pasta; passatelli is a subtopic of pasta; campanelle is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: stringozzi; pasta; sacchettoni; penne; spaghetti; mezzelune; ptitim; food; rotini; rotelle
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+sacchettoni is a subtopic of pasta; rotini is a subtopic of pasta; penne is a subtopic of pasta; rotelle is a subtopic of pasta; pasta is a subtopic of food; stringozzi is a subtopic of pasta; mezzelune is a subtopic of pasta; spaghetti is a subtopic of pasta; ptitim is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: food; dairy product; beverage; spice; whipped cream; soy product; frozen dessert; eggs; cereals; cream
+Relationships: 
+
+================================================================================
+Number of entities: 10
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+whipped cream is a subtopic of cream; cream is a subtopic of dairy product; soy product is a subtopic of food; eggs are a subtopic of food; cereals are a subtopic of food; dairy product is a subtopic of food; beverage is a subtopic of food
+
+So the relationships are:
+
+- whipped cream is a subtopic of cream
+- cream is a subtopic of dairy product
+- soy product is a subtopic of food
+- eggs are a subtopic of food
+- cereals are a subtopic of food
+- dairy product is a subtopic of food
+- beverage is a subtopic of food
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 5
+
+Parsed relationships:
+  whipped cream → cream
+  cream → dairy product
+  soy product → food
+  dairy product → food
+  beverage → food
+
+================================================================================

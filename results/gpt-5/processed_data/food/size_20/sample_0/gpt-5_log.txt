@@ -1,0 +1,98 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: pasta; food; bavette; pici; gemelli; spaghetti; fagottini; cannelloni; occhi di lupo; fusilli
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+pasta is a subtopic of food; spaghetti is a subtopic of pasta; fusilli is a subtopic of pasta; pici is a subtopic of pasta; cannelloni is a subtopic of pasta; gemelli is a subtopic of pasta; bavette is a subtopic of pasta; fagottini is a subtopic of pasta; occhi di lupo is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: mezzelune; rotini; pasta; sacchettoni; corzetti; croxetti; linguine; spaghetti; food; fuži
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+pasta is a subtopic of food; corzetti is a subtopic of pasta; fuži is a subtopic of pasta; mezzelune is a subtopic of pasta; spaghetti is a subtopic of pasta; linguine is a subtopic of pasta; croxetti is a subtopic of pasta; rotini is a subtopic of pasta; sacchettoni is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: food; pasta; occhi di lupo; garganelli; anellini; fuži; corzetti; mezzelune; stringozzi; bigoli
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+pasta is a subtopic of food; mezzelune is a subtopic of pasta; fuži is a subtopic of pasta; bigoli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; garganelli is a subtopic of pasta; anellini is a subtopic of pasta; corzetti is a subtopic of pasta; stringozzi is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: food; pasta; casoncelli; spaghetti; passatelli; lanterne; campanelle; macaroni; rotini; ptitim
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+pasta is a subtopic of food; lanterne is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; campanelle is a subtopic of pasta; passatelli is a subtopic of pasta; casoncelli is a subtopic of pasta; rotini is a subtopic of pasta; macaroni is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: stringozzi; ptitim; penne; rotini; food; spaghetti; rotelle; pasta; sacchettoni; mezzelune
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+stringozzi is a subtopic of pasta; rotelle is a subtopic of pasta; ptitim is a subtopic of pasta; rotini is a subtopic of pasta; pasta is a subtopic of food; sacchettoni is a subtopic of pasta; mezzelune is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: food; pecans; wheat; pine nuts; frozen yoghurt; mixed nuts; macadamia nuts; cereals; grits; seeds; bakery; soup; walnuts; frozen dessert; dairy product; beverage; chestnuts; soy nuts; rye; meat
+Relationships: 
+
+================================================================================
+Number of entities: 20
+Model: gpt-5
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+bakery is a subtopic of food; beverage is a subtopic of food; cereals is a subtopic of food; dairy product is a subtopic of food; frozen dessert is a subtopic of food; meat is a subtopic of food; seeds is a subtopic of food; soup is a subtopic of food; wheat is a subtopic of cereals; rye is a subtopic of cereals; grits is a subtopic of cereals; frozen yoghurt is a subtopic of frozen dessert; pecans is a subtopic of seeds; macadamia nuts is a subtopic of seeds; pine nuts is a subtopic of seeds; walnuts is a subtopic of seeds; chestnuts is a subtopic of seeds; soy nuts is a subtopic of seeds; mixed nuts is a subtopic of seeds
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 19
+
+Parsed relationships:
+  bakery → food
+  beverage → food
+  cereals → food
+  dairy product → food
+  frozen dessert → food
+  meat → food
+  seeds → food
+  soup → food
+  wheat → cereals
+  rye → cereals
+  grits → cereals
+  frozen yoghurt → frozen dessert
+  pecans → seeds
+  macadamia nuts → seeds
+  pine nuts → seeds
+  walnuts → seeds
+  chestnuts → seeds
+  soy nuts → seeds
+  mixed nuts → seeds
+
+================================================================================

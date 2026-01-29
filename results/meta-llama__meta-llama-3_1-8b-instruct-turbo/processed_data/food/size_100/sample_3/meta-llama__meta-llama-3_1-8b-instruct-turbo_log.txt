@@ -1,0 +1,226 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: cannelloni; spaghetti; pasta; food; bavette; fusilli; occhi di lupo; pici; fagottini; gemelli
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+fagottini is a subtopic of pasta; spaghetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta; fusilli is a subtopic of pasta; cannelloni is a subtopic of pasta; pici is a subtopic of pasta; pasta is a subtopic of food; gemelli is a subtopic of pasta; bavette is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: rotini; fuži; linguine; corzetti; croxetti; food; spaghetti; pasta; mezzelune; sacchettoni
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+sacchettoni is a subtopic of pasta; croxetti is a subtopic of pasta; pasta is a subtopic of food; linguine is a subtopic of pasta; fuži is a subtopic of pasta; corzetti is a subtopic of pasta; mezzelune is a subtopic of pasta; rotini is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: mezzelune; stringozzi; fuži; garganelli; occhi di lupo; anellini; corzetti; bigoli; pasta; food
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+bigoli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; anellini is a subtopic of pasta; stringozzi is a subtopic of pasta; mezzelune is a subtopic of pasta; corzetti is a subtopic of pasta; garganelli is a subtopic of pasta; pasta is a subtopic of food; fuži is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: lanterne; casoncelli; spaghetti; rotini; ptitim; campanelle; food; macaroni; passatelli; pasta
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; passatelli is a subtopic of pasta; casoncelli is a subtopic of pasta; lanterne is a subtopic of pasta; rotini is a subtopic of pasta; pasta is a subtopic of food; macaroni is a subtopic of pasta; campanelle is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: stringozzi; spaghetti; rotelle; mezzelune; penne; food; sacchettoni; rotini; pasta; ptitim
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+penne is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; mezzelune is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: nettle soup; maya nuts; pumpkin seeds; rice; unflavored gelatine; liver soup; she-crab soup; purée mongole; imoni; brown windsor soup; food colouring; floss sugar; dalithoy; bakery; soy product; tomato soup; poppy milk; gamjatang; dip; oats; oranges; garbure; tom yum; sugar; jams and preserves; kapusniak; shambar; chikhirtma; soursops; baking extracts; zosui; mulligatawny; cereals; butajiru; bean pastes; nut butters; tomato paste; dried soup; frejon; lung fung soup; qingtang wanzi; frozen dessert; crème ninon; ogbono nuts; cooking wine; physalis; marshmallows; gomguk; fruit; bouneschlupp; vori vori; baking chocolate; vegetable dip; hot and sour soup; okroshka; sopa de mondongo; seeds; hazelnuts; avocados; kola nuts; corn syrup; gazpachuelo; hundreds and thousands; zōni; draw soup; beef noodle soup; ribollita; coffee cakes; deli meats; sancocho; corn chowder; psarosoupa; oxtail soup; food; rassolnik; ajoblanco; eggs; fudge; pistachios; dough; mixed nuts; tapenade; tekwan; panada; evaporated milk; pepper; sugar pearls; cooking ingredient; frozen meat; spice; bread soup; leek soup; soup; chocolate covered nuts; chorba; edible baking decoration; köttsoppa; miso soup; soy nuts; meat
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll create a taxonomy for you, but please note that it might not be exhaustive due to the sheer number of concepts.
+
+Here's the taxonomy:
+
+- food
+  - bakery
+    - bread soup
+    - coffee cakes
+    - dough
+  - cereals
+    - oats
+  - cooking ingredient
+    - cooking wine
+    - cooking oil
+  - deli meats
+  - dried soup
+  - edible baking decoration
+    - hundreds and thousands
+    - sugar pearls
+  - frozen dessert
+    - crème ninon
+    - frozen meat
+  - fruit
+    - oranges
+    - physalis
+    - soursops
+  - jams and preserves
+  - meat
+    - beef noodle soup
+    - oxtail soup
+    - sancocho
+  - nut butters
+    - hazelnuts
+    - pistachios
+  - seeds
+    - ogbono nuts
+    - pumpkin seeds
+  - soup
+    - bouneschlupp
+    - chikhirtma
+    - gazpachuelo
+    - gomguk
+    - hot and sour soup
+    - kapusniak
+    - lung fung soup
+    - maya nuts
+    - mulligatawny
+    - okroshka
+    - oxtail soup
+    - qingtang wanzi
+    - ribollita
+    - rassolnik
+    - shambar
+    - sopa de mondongo
+    - soup
+    - tapenade
+    - tekwan
+    - tom yum
+    - vori vori
+  - spice
+  - sugar
+    - floss sugar
+  - vegetable dip
+  - baking extracts
+  - baking chocolate
+  - bean pastes
+  - corn syrup
+  - dip
+  - dried soup
+  - evaporated milk
+  - food colouring
+  - frozen dessert
+  - fruit
+  - fudge
+  - jams and preserves
+  - marshmallows
+  - nut butters
+  - oats
+  - pepper
+  - rice
+  - seeds
+  - soy product
+  - tomato paste
+  - vegetable dip
+  - zosui
+- pasta
+  - anellini
+  - bigoli
+  - campanelle
+  - cannelloni
+  - casoncelli
+  - corzetti
+  - fuži
+  - fagottini
+  - fusilli
+  - garganelli
+  - gemelli
+  - lanterne
+  - mezzelune
+  - occhi di lupo
+  - penne
+  - pici
+  - rotelle
+  - rotini
+  - sacchettoni
+  - spaghetti
+  - stringozzi
+  - ptitim
+- food
+  - bakery
+  - cereals
+  - cooking ingredient
+  - deli meats
+  - dried soup
+  - edible baking decoration
+  - frozen dessert
+  - fruit
+  - jams and preserves
+  - meat
+  - nut butters
+  - seeds
+  - soup
+  - spice
+  - sugar
+  - vegetable dip
+  - baking extracts
+  - baking chocolate
+  - bean pastes
+  - corn syrup
+  - dip
+  - dried soup
+  - evaporated milk
+  - food colouring
+  - frozen dessert
+  - fruit
+  - fudge
+  - jams and preserves
+  - marshmallows
+  - nut butters
+  - oats
+  - pepper
+  - rice
+  - seeds
+  - soy product
+  - tomato paste
+  - vegetable dip
+  - zosui
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 1
+
+Parsed relationships:
+  This is a very long list of concepts and relationships. I'll create a taxonomy for you → but please note that it might not be exhaustive due to the sheer number of concepts
+
+================================================================================

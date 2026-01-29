@@ -1,0 +1,10 @@
+child,parent
+Costumes & Accessories,Apparel & Accessories
+Handbag & Wallet Accessories,"Handbags, Wallets & Cases"
+Handbags,"Handbags, Wallets & Cases"
+"Handbags, Wallets & Cases",Apparel & Accessories
+Badge & Pass Holders,Handbag & Wallet Accessories
+Business Card Cases,Handbag & Wallet Accessories
+Vehicles & Parts,Google Product Taxonomy
+Media,Google Product Taxonomy
+Google Product Taxonomy,itself

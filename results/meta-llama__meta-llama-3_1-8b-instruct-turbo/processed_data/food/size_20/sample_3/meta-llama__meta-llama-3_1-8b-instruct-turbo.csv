@@ -1,0 +1,21 @@
+child,parent
+millet,cereals
+cereals,food
+whisky,liquor
+liquor,beverage
+bitters,liquor
+cocktail mixes,beverage
+vinegar drinks,beverage
+beverage,food
+pillus,soy product
+soy product,food
+dip,food
+fudge,food
+cupcakes,bakery
+bakery,food
+donuts,bakery
+salsa,food
+frozen seafood,seafood
+seafood,food
+noodle,food
+vinegar drinks,beverage

@@ -1,0 +1,958 @@
+/Users/yiruizhang/Documents/kdd/taxonomy_gpt.py:524: LangChainDeprecationWarning: The class `ChatOpenAI` was deprecated in LangChain 0.0.10 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-openai package and should be used instead. To use it run `pip install -U :class:`~langchain-openai` and import as `from :class:`~langchain_openai import ChatOpenAI``.
+  llm = ChatOpenAI(model=model_name, temperature=1.0)
+/Users/yiruizhang/Documents/kdd/taxonomy_gpt.py:525: LangChainDeprecationWarning: The class `LLMChain` was deprecated in LangChain 0.1.17 and will be removed in 1.0. Use :meth:`~RunnableSequence, e.g., `prompt | llm`` instead.
+  chain = LLMChain(llm=llm, prompt=prompt, output_parser=parser)
+/Users/yiruizhang/Documents/kdd/taxonomy_gpt.py:312: LangChainDeprecationWarning: The method `Chain.run` was deprecated in langchain 0.1.0 and will be removed in 1.0. Use :meth:`~invoke` instead.
+  result = chain.run(
+=== Running Taxonomy Generation with gpt-5 ===
+
+Found 70 test samples across 2 datasets
+
+
+================================================================================
+Processing input: food/size_10/sample_0
+Entities file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_10/sample_0/entities.json
+Relationships file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_10/sample_0/relationships.json
+================================================================================
+
+--- Output will be written to results/gpt-5/processed_data/food/size_10/sample_0/gpt-5.csv ---
+[Few-shot] Loaded sample_0 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_1 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_2 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_3 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_4 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+Loading entities from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_10/sample_0/entities.json...
+Loaded 10 entities
+Ground truth has 9 relationships
+
+Generating taxonomy...
+Using 5 few-shot examples
+Failed to count input tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+Calling LLM...
+
+================================================================================
+RAW GPT OUTPUT:
+================================================================================
+noodle is a subtopic of food; yaki udon is a subtopic of noodle; shrimp roe noodles is a subtopic of noodle; dairy product is a subtopic of food; cheese is a subtopic of dairy product; cottage cheese is a subtopic of cheese; dip is a subtopic of food; tapenade is a subtopic of dip; cheese spread is a subtopic of dip
+================================================================================
+
+
+============================================================
+✓ Successfully parsed 9 relationships
+Sample parsed relationships (first 5):
+  - 'noodle' → 'food'
+  - 'yaki udon' → 'noodle'
+  - 'shrimp roe noodles' → 'noodle'
+  - 'dairy product' → 'food'
+  - 'cheese' → 'dairy product'
+============================================================
+
+Failed to count output tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+
+✓ Results saved to results/gpt-5/processed_data/food/size_10/sample_0/gpt-5.csv
+✓ Generated 9 relationships
+✓ Log saved to results/gpt-5/processed_data/food/size_10/sample_0/gpt-5_log.txt
+
+============================================================
+Evaluation Results:
+============================================================
+Edge metrics:
+  Ground Truth Relationships: 9
+  Predicted Relationships: 9
+  True Positives: 8
+  False Positives: 1
+  False Negatives: 1
+  Precision: 0.8889
+  Recall: 0.8889
+  F1 Score: 0.8889
+
+Node metrics:
+  Ground Truth Nodes: 10
+  Predicted Nodes: 10
+  True Positives: 10
+  False Positives: 0
+  False Negatives: 0
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+
+Ancestor metrics:
+  Ground Truth Ancestor pairs: 15
+  Predicted Ancestor pairs: 16
+  True Positives: 15
+  False Positives: 1
+  False Negatives: 0
+  Precision: 0.9375
+  Recall: 1.0000
+  F1 Score: 0.9677
+============================================================
+
+Some correct predictions:
+  ✓ dip is a subtopic of food
+  ✓ shrimp roe noodles is a subtopic of noodle
+  ✓ cheese spread is a subtopic of dip
+  ✓ yaki udon is a subtopic of noodle
+  ✓ dairy product is a subtopic of food
+
+Some incorrect predictions:
+  ✗ cottage cheese is a subtopic of cheese (not in ground truth)
+
+Some missed relationships:
+  ⊗ cottage cheese is a subtopic of dairy product (should be predicted)
+
+================================================================================
+Processing input: food/size_10/sample_1
+Entities file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_10/sample_1/entities.json
+Relationships file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_10/sample_1/relationships.json
+================================================================================
+
+--- Output will be written to results/gpt-5/processed_data/food/size_10/sample_1/gpt-5.csv ---
+[Few-shot] Loaded sample_0 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_1 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_2 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_3 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_4 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+Loading entities from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_10/sample_1/entities.json...
+Loaded 10 entities
+Ground truth has 9 relationships
+
+Generating taxonomy...
+Using 5 few-shot examples
+Failed to count input tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+Calling LLM...
+
+================================================================================
+RAW GPT OUTPUT:
+================================================================================
+whipped cream is a subtopic of cream; cream is a subtopic of dairy product; dairy product is a subtopic of food; beverage is a subtopic of food; spice is a subtopic of food; soy product is a subtopic of food; frozen dessert is a subtopic of food; eggs is a subtopic of food; cereals is a subtopic of food
+================================================================================
+
+
+============================================================
+✓ Successfully parsed 9 relationships
+Sample parsed relationships (first 5):
+  - 'whipped cream' → 'cream'
+  - 'cream' → 'dairy product'
+  - 'dairy product' → 'food'
+  - 'beverage' → 'food'
+  - 'spice' → 'food'
+============================================================
+
+Failed to count output tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+
+✓ Results saved to results/gpt-5/processed_data/food/size_10/sample_1/gpt-5.csv
+✓ Generated 9 relationships
+✓ Log saved to results/gpt-5/processed_data/food/size_10/sample_1/gpt-5_log.txt
+
+============================================================
+Evaluation Results:
+============================================================
+Edge metrics:
+  Ground Truth Relationships: 9
+  Predicted Relationships: 9
+  True Positives: 8
+  False Positives: 1
+  False Negatives: 1
+  Precision: 0.8889
+  Recall: 0.8889
+  F1 Score: 0.8889
+
+Node metrics:
+  Ground Truth Nodes: 10
+  Predicted Nodes: 10
+  True Positives: 10
+  False Positives: 0
+  False Negatives: 0
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+
+Ancestor metrics:
+  Ground Truth Ancestor pairs: 11
+  Predicted Ancestor pairs: 12
+  True Positives: 11
+  False Positives: 1
+  False Negatives: 0
+  Precision: 0.9167
+  Recall: 1.0000
+  F1 Score: 0.9565
+============================================================
+
+Some correct predictions:
+  ✓ cereals is a subtopic of food
+  ✓ soy product is a subtopic of food
+  ✓ spice is a subtopic of food
+  ✓ eggs is a subtopic of food
+  ✓ beverage is a subtopic of food
+
+Some incorrect predictions:
+  ✗ whipped cream is a subtopic of cream (not in ground truth)
+
+Some missed relationships:
+  ⊗ whipped cream is a subtopic of dairy product (should be predicted)
+
+================================================================================
+Processing input: food/size_10/sample_2
+Entities file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_10/sample_2/entities.json
+Relationships file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_10/sample_2/relationships.json
+================================================================================
+
+--- Output will be written to results/gpt-5/processed_data/food/size_10/sample_2/gpt-5.csv ---
+[Few-shot] Loaded sample_0 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_1 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_2 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_3 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_4 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+Loading entities from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_10/sample_2/entities.json...
+Loaded 10 entities
+Ground truth has 9 relationships
+
+Generating taxonomy...
+Using 5 few-shot examples
+Failed to count input tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+Calling LLM...
+
+================================================================================
+RAW GPT OUTPUT:
+================================================================================
+chikhirtma is a subtopic of soup; sour rye soup is a subtopic of soup; talunan is a subtopic of soup; cold borsch is a subtopic of soup; dalithoy is a subtopic of soup; bisque is a subtopic of soup; crème ninon is a subtopic of soup; pottage is a subtopic of soup; soup is a subtopic of food
+================================================================================
+
+
+============================================================
+✓ Successfully parsed 9 relationships
+Sample parsed relationships (first 5):
+  - 'chikhirtma' → 'soup'
+  - 'sour rye soup' → 'soup'
+  - 'talunan' → 'soup'
+  - 'cold borsch' → 'soup'
+  - 'dalithoy' → 'soup'
+============================================================
+
+Failed to count output tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+
+✓ Results saved to results/gpt-5/processed_data/food/size_10/sample_2/gpt-5.csv
+✓ Generated 9 relationships
+✓ Log saved to results/gpt-5/processed_data/food/size_10/sample_2/gpt-5_log.txt
+
+============================================================
+Evaluation Results:
+============================================================
+Edge metrics:
+  Ground Truth Relationships: 9
+  Predicted Relationships: 9
+  True Positives: 9
+  False Positives: 0
+  False Negatives: 0
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+
+Node metrics:
+  Ground Truth Nodes: 10
+  Predicted Nodes: 10
+  True Positives: 10
+  False Positives: 0
+  False Negatives: 0
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+
+Ancestor metrics:
+  Ground Truth Ancestor pairs: 17
+  Predicted Ancestor pairs: 17
+  True Positives: 17
+  False Positives: 0
+  False Negatives: 0
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+============================================================
+
+Some correct predictions:
+  ✓ talunan is a subtopic of soup
+  ✓ cold borsch is a subtopic of soup
+  ✓ chikhirtma is a subtopic of soup
+  ✓ dalithoy is a subtopic of soup
+  ✓ sour rye soup is a subtopic of soup
+
+================================================================================
+Processing input: food/size_10/sample_3
+Entities file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_10/sample_3/entities.json
+Relationships file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_10/sample_3/relationships.json
+================================================================================
+
+--- Output will be written to results/gpt-5/processed_data/food/size_10/sample_3/gpt-5.csv ---
+[Few-shot] Loaded sample_0 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_1 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_2 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_3 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_4 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+Loading entities from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_10/sample_3/entities.json...
+Loaded 10 entities
+Ground truth has 9 relationships
+
+Generating taxonomy...
+Using 5 few-shot examples
+Failed to count input tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+Calling LLM...
+
+================================================================================
+RAW GPT OUTPUT:
+================================================================================
+rice is a subtopic of cereals; grits is a subtopic of cereals; cereals is a subtopic of food; cooking ingredient is a subtopic of food; tomato paste is a subtopic of cooking ingredient; prepared food is a subtopic of food; dip is a subtopic of prepared food; jams and preserves is a subtopic of prepared food; apple butter is a subtopic of jams and preserves
+================================================================================
+
+
+============================================================
+✓ Successfully parsed 9 relationships
+Sample parsed relationships (first 5):
+  - 'rice' → 'cereals'
+  - 'grits' → 'cereals'
+  - 'cereals' → 'food'
+  - 'cooking ingredient' → 'food'
+  - 'tomato paste' → 'cooking ingredient'
+============================================================
+
+Failed to count output tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+
+✓ Results saved to results/gpt-5/processed_data/food/size_10/sample_3/gpt-5.csv
+✓ Generated 9 relationships
+✓ Log saved to results/gpt-5/processed_data/food/size_10/sample_3/gpt-5_log.txt
+
+============================================================
+Evaluation Results:
+============================================================
+Edge metrics:
+  Ground Truth Relationships: 9
+  Predicted Relationships: 9
+  True Positives: 6
+  False Positives: 3
+  False Negatives: 3
+  Precision: 0.6667
+  Recall: 0.6667
+  F1 Score: 0.6667
+
+Node metrics:
+  Ground Truth Nodes: 10
+  Predicted Nodes: 10
+  True Positives: 10
+  False Positives: 0
+  False Negatives: 0
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+
+Ancestor metrics:
+  Ground Truth Ancestor pairs: 14
+  Predicted Ancestor pairs: 16
+  True Positives: 12
+  False Positives: 4
+  False Negatives: 2
+  Precision: 0.7500
+  Recall: 0.8571
+  F1 Score: 0.8000
+============================================================
+
+Some correct predictions:
+  ✓ rice is a subtopic of cereals
+  ✓ cereals is a subtopic of food
+  ✓ prepared food is a subtopic of food
+  ✓ grits is a subtopic of cereals
+  ✓ cooking ingredient is a subtopic of food
+
+Some incorrect predictions:
+  ✗ apple butter is a subtopic of jams and preserves (not in ground truth)
+  ✗ jams and preserves is a subtopic of prepared food (not in ground truth)
+  ✗ dip is a subtopic of prepared food (not in ground truth)
+
+Some missed relationships:
+  ⊗ dip is a subtopic of food (should be predicted)
+  ⊗ apple butter is a subtopic of dip (should be predicted)
+  ⊗ jams and preserves is a subtopic of dip (should be predicted)
+
+================================================================================
+Processing input: food/size_10/sample_4
+Entities file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_10/sample_4/entities.json
+Relationships file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_10/sample_4/relationships.json
+================================================================================
+
+--- Output will be written to results/gpt-5/processed_data/food/size_10/sample_4/gpt-5.csv ---
+[Few-shot] Loaded sample_0 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_1 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_2 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_3 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_4 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+Loading entities from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_10/sample_4/entities.json...
+Loaded 10 entities
+Ground truth has 9 relationships
+
+Generating taxonomy...
+Using 5 few-shot examples
+Failed to count input tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+Calling LLM...
+
+================================================================================
+RAW GPT OUTPUT:
+================================================================================
+condiment is a subtopic of food; sauce is a subtopic of condiment; seafood is a subtopic of food; meat is a subtopic of food; salad dressings is a subtopic of sauce; albufera sauce is a subtopic of sauce; honey garlic sauce is a subtopic of sauce; béarnaise sauce is a subtopic of sauce; rântaş is a subtopic of sauce
+================================================================================
+
+
+============================================================
+✓ Successfully parsed 9 relationships
+Sample parsed relationships (first 5):
+  - 'condiment' → 'food'
+  - 'sauce' → 'condiment'
+  - 'seafood' → 'food'
+  - 'meat' → 'food'
+  - 'salad dressings' → 'sauce'
+============================================================
+
+Failed to count output tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+
+✓ Results saved to results/gpt-5/processed_data/food/size_10/sample_4/gpt-5.csv
+✓ Generated 9 relationships
+✓ Log saved to results/gpt-5/processed_data/food/size_10/sample_4/gpt-5_log.txt
+
+============================================================
+Evaluation Results:
+============================================================
+Edge metrics:
+  Ground Truth Relationships: 9
+  Predicted Relationships: 9
+  True Positives: 6
+  False Positives: 3
+  False Negatives: 3
+  Precision: 0.6667
+  Recall: 0.6667
+  F1 Score: 0.6667
+
+Node metrics:
+  Ground Truth Nodes: 10
+  Predicted Nodes: 10
+  True Positives: 10
+  False Positives: 0
+  False Negatives: 0
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+
+Ancestor metrics:
+  Ground Truth Ancestor pairs: 17
+  Predicted Ancestor pairs: 20
+  True Positives: 17
+  False Positives: 3
+  False Negatives: 0
+  Precision: 0.8500
+  Recall: 1.0000
+  F1 Score: 0.9189
+============================================================
+
+Some correct predictions:
+  ✓ sauce is a subtopic of condiment
+  ✓ albufera sauce is a subtopic of sauce
+  ✓ condiment is a subtopic of food
+  ✓ honey garlic sauce is a subtopic of sauce
+  ✓ meat is a subtopic of food
+
+Some incorrect predictions:
+  ✗ béarnaise sauce is a subtopic of sauce (not in ground truth)
+  ✗ salad dressings is a subtopic of sauce (not in ground truth)
+  ✗ rântaş is a subtopic of sauce (not in ground truth)
+
+Some missed relationships:
+  ⊗ béarnaise sauce is a subtopic of condiment (should be predicted)
+  ⊗ salad dressings is a subtopic of condiment (should be predicted)
+  ⊗ rântaş is a subtopic of condiment (should be predicted)
+
+================================================================================
+Processing input: food/size_20/sample_0
+Entities file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_20/sample_0/entities.json
+Relationships file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_20/sample_0/relationships.json
+================================================================================
+
+--- Output will be written to results/gpt-5/processed_data/food/size_20/sample_0/gpt-5.csv ---
+[Few-shot] No examples for size_20; falling back to size_10
+[Few-shot] Loaded sample_0 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_1 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_2 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_3 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_4 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+Loading entities from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_20/sample_0/entities.json...
+Loaded 20 entities
+Ground truth has 19 relationships
+
+Generating taxonomy...
+Using 5 few-shot examples
+Failed to count input tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+Calling LLM...
+
+================================================================================
+RAW GPT OUTPUT:
+================================================================================
+bakery is a subtopic of food; beverage is a subtopic of food; cereals is a subtopic of food; dairy product is a subtopic of food; frozen dessert is a subtopic of food; meat is a subtopic of food; seeds is a subtopic of food; soup is a subtopic of food; wheat is a subtopic of cereals; rye is a subtopic of cereals; grits is a subtopic of cereals; frozen yoghurt is a subtopic of frozen dessert; pecans is a subtopic of seeds; macadamia nuts is a subtopic of seeds; pine nuts is a subtopic of seeds; walnuts is a subtopic of seeds; chestnuts is a subtopic of seeds; soy nuts is a subtopic of seeds; mixed nuts is a subtopic of seeds
+================================================================================
+
+
+============================================================
+✓ Successfully parsed 19 relationships
+Sample parsed relationships (first 5):
+  - 'bakery' → 'food'
+  - 'beverage' → 'food'
+  - 'cereals' → 'food'
+  - 'dairy product' → 'food'
+  - 'frozen dessert' → 'food'
+============================================================
+
+Failed to count output tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+
+✓ Results saved to results/gpt-5/processed_data/food/size_20/sample_0/gpt-5.csv
+✓ Generated 19 relationships
+✓ Log saved to results/gpt-5/processed_data/food/size_20/sample_0/gpt-5_log.txt
+
+============================================================
+Evaluation Results:
+============================================================
+Edge metrics:
+  Ground Truth Relationships: 19
+  Predicted Relationships: 19
+  True Positives: 19
+  False Positives: 0
+  False Negatives: 0
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+
+Node metrics:
+  Ground Truth Nodes: 20
+  Predicted Nodes: 20
+  True Positives: 20
+  False Positives: 0
+  False Negatives: 0
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+
+Ancestor metrics:
+  Ground Truth Ancestor pairs: 30
+  Predicted Ancestor pairs: 30
+  True Positives: 30
+  False Positives: 0
+  False Negatives: 0
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+============================================================
+
+Some correct predictions:
+  ✓ cereals is a subtopic of food
+  ✓ soy nuts is a subtopic of seeds
+  ✓ macadamia nuts is a subtopic of seeds
+  ✓ walnuts is a subtopic of seeds
+  ✓ chestnuts is a subtopic of seeds
+
+================================================================================
+Processing input: food/size_20/sample_1
+Entities file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_20/sample_1/entities.json
+Relationships file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_20/sample_1/relationships.json
+================================================================================
+
+--- Output will be written to results/gpt-5/processed_data/food/size_20/sample_1/gpt-5.csv ---
+[Few-shot] No examples for size_20; falling back to size_10
+[Few-shot] Loaded sample_0 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_1 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_2 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_3 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_4 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+Loading entities from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_20/sample_1/entities.json...
+Loaded 20 entities
+Ground truth has 19 relationships
+
+Generating taxonomy...
+Using 5 few-shot examples
+Failed to count input tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+Calling LLM...
+
+================================================================================
+RAW GPT OUTPUT:
+================================================================================
+noodle is a subtopic of food; meat is a subtopic of food; cooking ingredient is a subtopic of food; frozen dessert is a subtopic of food; chocolate covered nuts is a subtopic of food; seeds is a subtopic of cooking ingredient; cereals is a subtopic of seeds; pecans is a subtopic of seeds; pistachios is a subtopic of seeds; beef is a subtopic of meat; brési is a subtopic of beef; frozen meat is a subtopic of meat; popsicles is a subtopic of frozen dessert; spätzle is a subtopic of noodle; shirataki noodles is a subtopic of noodle; silver needle noodles is a subtopic of noodle; dandan noodles is a subtopic of noodle; korean noodles is a subtopic of noodle; yaki udon is a subtopic of noodle
+================================================================================
+
+
+============================================================
+✓ Successfully parsed 19 relationships
+Sample parsed relationships (first 5):
+  - 'noodle' → 'food'
+  - 'meat' → 'food'
+  - 'cooking ingredient' → 'food'
+  - 'frozen dessert' → 'food'
+  - 'chocolate covered nuts' → 'food'
+============================================================
+
+Failed to count output tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+
+✓ Results saved to results/gpt-5/processed_data/food/size_20/sample_1/gpt-5.csv
+✓ Generated 19 relationships
+✓ Log saved to results/gpt-5/processed_data/food/size_20/sample_1/gpt-5_log.txt
+
+============================================================
+Evaluation Results:
+============================================================
+Edge metrics:
+  Ground Truth Relationships: 19
+  Predicted Relationships: 19
+  True Positives: 16
+  False Positives: 3
+  False Negatives: 3
+  Precision: 0.8421
+  Recall: 0.8421
+  F1 Score: 0.8421
+
+Node metrics:
+  Ground Truth Nodes: 20
+  Predicted Nodes: 20
+  True Positives: 20
+  False Positives: 0
+  False Negatives: 0
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+
+Ancestor metrics:
+  Ground Truth Ancestor pairs: 33
+  Predicted Ancestor pairs: 37
+  True Positives: 32
+  False Positives: 5
+  False Negatives: 1
+  Precision: 0.8649
+  Recall: 0.9697
+  F1 Score: 0.9143
+============================================================
+
+Some correct predictions:
+  ✓ shirataki noodles is a subtopic of noodle
+  ✓ popsicles is a subtopic of frozen dessert
+  ✓ silver needle noodles is a subtopic of noodle
+  ✓ frozen meat is a subtopic of meat
+  ✓ korean noodles is a subtopic of noodle
+
+Some incorrect predictions:
+  ✗ chocolate covered nuts is a subtopic of food (not in ground truth)
+  ✗ seeds is a subtopic of cooking ingredient (not in ground truth)
+  ✗ cereals is a subtopic of seeds (not in ground truth)
+
+Some missed relationships:
+  ⊗ cereals is a subtopic of food (should be predicted)
+  ⊗ seeds is a subtopic of food (should be predicted)
+  ⊗ chocolate covered nuts is a subtopic of seeds (should be predicted)
+
+================================================================================
+Processing input: food/size_20/sample_2
+Entities file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_20/sample_2/entities.json
+Relationships file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_20/sample_2/relationships.json
+================================================================================
+
+--- Output will be written to results/gpt-5/processed_data/food/size_20/sample_2/gpt-5.csv ---
+[Few-shot] No examples for size_20; falling back to size_10
+[Few-shot] Loaded sample_0 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_1 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_2 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_3 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_4 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+Loading entities from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_20/sample_2/entities.json...
+Loaded 20 entities
+Ground truth has 19 relationships
+
+Generating taxonomy...
+Using 5 few-shot examples
+Failed to count input tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+Calling LLM...
+
+================================================================================
+RAW GPT OUTPUT:
+================================================================================
+cooking ingredient is a subtopic of food; beverage is a subtopic of food; bakery is a subtopic of food; frozen dessert is a subtopic of food; cereals is a subtopic of food; seeds is a subtopic of food; soy product is a subtopic of food; barley is a subtopic of cereals; rye is a subtopic of cereals; millet is a subtopic of cereals; macadamia nuts is a subtopic of seeds; almonds is a subtopic of seeds; tempeh is a subtopic of soy product; cooking wine is a subtopic of cooking ingredient; shortening and lard is a subtopic of cooking ingredient; edible baking decoration is a subtopic of cooking ingredient; eggnog is a subtopic of beverage; flavoured malt drinks is a subtopic of beverage; juice is a subtopic of beverage
+================================================================================
+
+
+============================================================
+✓ Successfully parsed 19 relationships
+Sample parsed relationships (first 5):
+  - 'cooking ingredient' → 'food'
+  - 'beverage' → 'food'
+  - 'bakery' → 'food'
+  - 'frozen dessert' → 'food'
+  - 'cereals' → 'food'
+============================================================
+
+Failed to count output tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+
+✓ Results saved to results/gpt-5/processed_data/food/size_20/sample_2/gpt-5.csv
+✓ Generated 19 relationships
+✓ Log saved to results/gpt-5/processed_data/food/size_20/sample_2/gpt-5_log.txt
+
+============================================================
+Evaluation Results:
+============================================================
+Edge metrics:
+  Ground Truth Relationships: 19
+  Predicted Relationships: 19
+  True Positives: 19
+  False Positives: 0
+  False Negatives: 0
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+
+Node metrics:
+  Ground Truth Nodes: 20
+  Predicted Nodes: 20
+  True Positives: 20
+  False Positives: 0
+  False Negatives: 0
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+
+Ancestor metrics:
+  Ground Truth Ancestor pairs: 31
+  Predicted Ancestor pairs: 31
+  True Positives: 31
+  False Positives: 0
+  False Negatives: 0
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+============================================================
+
+Some correct predictions:
+  ✓ cereals is a subtopic of food
+  ✓ macadamia nuts is a subtopic of seeds
+  ✓ tempeh is a subtopic of soy product
+  ✓ edible baking decoration is a subtopic of cooking ingredient
+  ✓ cooking ingredient is a subtopic of food
+
+================================================================================
+Processing input: food/size_20/sample_3
+Entities file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_20/sample_3/entities.json
+Relationships file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_20/sample_3/relationships.json
+================================================================================
+
+--- Output will be written to results/gpt-5/processed_data/food/size_20/sample_3/gpt-5.csv ---
+[Few-shot] No examples for size_20; falling back to size_10
+[Few-shot] Loaded sample_0 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_1 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_2 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_3 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_4 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+Loading entities from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_20/sample_3/entities.json...
+Loaded 20 entities
+Ground truth has 19 relationships
+
+Generating taxonomy...
+Using 5 few-shot examples
+Failed to count input tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+Calling LLM...
+
+================================================================================
+RAW GPT OUTPUT:
+================================================================================
+beverage is a subtopic of food; bakery is a subtopic of food; seafood is a subtopic of food; soy product is a subtopic of food; cereals is a subtopic of food; dip is a subtopic of food; noodle is a subtopic of food; frozen seafood is a subtopic of seafood; vinegar drinks is a subtopic of beverage; cocktail mixes is a subtopic of beverage; liquor is a subtopic of beverage; whisky is a subtopic of liquor; bitters is a subtopic of liquor; donuts is a subtopic of bakery; cupcakes is a subtopic of bakery; fudge is a subtopic of bakery; salsa is a subtopic of dip; pillus is a subtopic of noodle; millet is a subtopic of cereals
+================================================================================
+
+
+============================================================
+✓ Successfully parsed 19 relationships
+Sample parsed relationships (first 5):
+  - 'beverage' → 'food'
+  - 'bakery' → 'food'
+  - 'seafood' → 'food'
+  - 'soy product' → 'food'
+  - 'cereals' → 'food'
+============================================================
+
+Failed to count output tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+
+✓ Results saved to results/gpt-5/processed_data/food/size_20/sample_3/gpt-5.csv
+✓ Generated 19 relationships
+✓ Log saved to results/gpt-5/processed_data/food/size_20/sample_3/gpt-5_log.txt
+
+============================================================
+Evaluation Results:
+============================================================
+Edge metrics:
+  Ground Truth Relationships: 19
+  Predicted Relationships: 19
+  True Positives: 18
+  False Positives: 1
+  False Negatives: 1
+  Precision: 0.9474
+  Recall: 0.9474
+  F1 Score: 0.9474
+
+Node metrics:
+  Ground Truth Nodes: 20
+  Predicted Nodes: 20
+  True Positives: 20
+  False Positives: 0
+  False Negatives: 0
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+
+Ancestor metrics:
+  Ground Truth Ancestor pairs: 32
+  Predicted Ancestor pairs: 33
+  True Positives: 32
+  False Positives: 1
+  False Negatives: 0
+  Precision: 0.9697
+  Recall: 1.0000
+  F1 Score: 0.9846
+============================================================
+
+Some correct predictions:
+  ✓ cereals is a subtopic of food
+  ✓ salsa is a subtopic of dip
+  ✓ liquor is a subtopic of beverage
+  ✓ seafood is a subtopic of food
+  ✓ dip is a subtopic of food
+
+Some incorrect predictions:
+  ✗ bitters is a subtopic of liquor (not in ground truth)
+
+Some missed relationships:
+  ⊗ bitters is a subtopic of beverage (should be predicted)
+
+================================================================================
+Processing input: food/size_20/sample_4
+Entities file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_20/sample_4/entities.json
+Relationships file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_20/sample_4/relationships.json
+================================================================================
+
+--- Output will be written to results/gpt-5/processed_data/food/size_20/sample_4/gpt-5.csv ---
+[Few-shot] No examples for size_20; falling back to size_10
+[Few-shot] Loaded sample_0 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_1 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_2 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_3 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_4 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+Loading entities from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_20/sample_4/entities.json...
+Loaded 20 entities
+Ground truth has 19 relationships
+
+Generating taxonomy...
+Using 5 few-shot examples
+Failed to count input tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+Calling LLM...
+
+================================================================================
+RAW GPT OUTPUT:
+================================================================================
+cooking ingredient is a subtopic of food; noodle is a subtopic of food; marshmallows is a subtopic of food; cooking oil is a subtopic of cooking ingredient; soybean oil is a subtopic of cooking oil; rice oil is a subtopic of cooking oil; sesame oil is a subtopic of cooking oil; corn oil is a subtopic of cooking oil; fideo is a subtopic of noodle; baking powder is a subtopic of cooking ingredient; baking chocolate is a subtopic of cooking ingredient; unflavored gelatine is a subtopic of cooking ingredient; molasses is a subtopic of cooking ingredient; floss sugar is a subtopic of cooking ingredient; food colouring is a subtopic of cooking ingredient; seeds is a subtopic of cooking ingredient; yeast is a subtopic of cooking ingredient; bread crumbs is a subtopic of cooking ingredient; batter and coating mixes is a subtopic of cooking ingredient
+================================================================================
+
+
+============================================================
+✓ Successfully parsed 19 relationships
+Sample parsed relationships (first 5):
+  - 'cooking ingredient' → 'food'
+  - 'noodle' → 'food'
+  - 'marshmallows' → 'food'
+  - 'cooking oil' → 'cooking ingredient'
+  - 'soybean oil' → 'cooking oil'
+============================================================
+
+Failed to count output tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+
+✓ Results saved to results/gpt-5/processed_data/food/size_20/sample_4/gpt-5.csv
+✓ Generated 19 relationships
+✓ Log saved to results/gpt-5/processed_data/food/size_20/sample_4/gpt-5_log.txt
+
+============================================================
+Evaluation Results:
+============================================================
+Edge metrics:
+  Ground Truth Relationships: 19
+  Predicted Relationships: 19
+  True Positives: 17
+  False Positives: 2
+  False Negatives: 2
+  Precision: 0.8947
+  Recall: 0.8947
+  F1 Score: 0.8947
+
+Node metrics:
+  Ground Truth Nodes: 20
+  Predicted Nodes: 20
+  True Positives: 20
+  False Positives: 0
+  False Negatives: 0
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
+
+Ancestor metrics:
+  Ground Truth Ancestor pairs: 39
+  Predicted Ancestor pairs: 39
+  True Positives: 38
+  False Positives: 1
+  False Negatives: 1
+  Precision: 0.9744
+  Recall: 0.9744
+  F1 Score: 0.9744
+============================================================
+
+Some correct predictions:
+  ✓ batter and coating mixes is a subtopic of cooking ingredient
+  ✓ soybean oil is a subtopic of cooking oil
+  ✓ baking powder is a subtopic of cooking ingredient
+  ✓ floss sugar is a subtopic of cooking ingredient
+  ✓ corn oil is a subtopic of cooking oil
+
+Some incorrect predictions:
+  ✗ seeds is a subtopic of cooking ingredient (not in ground truth)
+  ✗ marshmallows is a subtopic of food (not in ground truth)
+
+Some missed relationships:
+  ⊗ seeds is a subtopic of food (should be predicted)
+  ⊗ marshmallows is a subtopic of cooking ingredient (should be predicted)
+
+================================================================================
+Processing input: food/size_50/sample_0
+Entities file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_50/sample_0/entities.json
+Relationships file: /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_50/sample_0/relationships.json
+================================================================================
+
+--- Output will be written to results/gpt-5/processed_data/food/size_50/sample_0/gpt-5.csv ---
+[Few-shot] No examples for size_50; falling back to size_10
+[Few-shot] Loaded sample_0 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_1 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_2 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_3 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+[Few-shot] Loaded sample_4 from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/fewshot_examples/size_10: 10 nodes, 9 edges
+Loading entities from /Users/yiruizhang/Documents/kdd/data/processed_data/output_food/test_sets/size_50/sample_0/entities.json...
+Loaded 50 entities
+Ground truth has 49 relationships
+
+Generating taxonomy...
+Using 5 few-shot examples
+Failed to count input tokens: Could not import tiktoken python package. This is needed in order to calculate get_token_ids. Please install it with `pip install tiktoken`.
+Calling LLM...
+
+================================================================================
+RAW GPT OUTPUT:
+================================================================================
+prepared food is a subtopic of food; beverage is a subtopic of food; cooking ingredient is a subtopic of food; condiment is a subtopic of food; dairy product is a subtopic of food; soy product is a subtopic of food; sauce is a subtopic of condiment; salsa golf is a subtopic of sauce; curry ketchup is a subtopic of sauce; rouille is a subtopic of sauce; soup is a subtopic of prepared food; chikhirtma is a subtopic of soup; sancocho is a subtopic of soup; svartsoppa is a subtopic of soup; bakery is a subtopic of prepared food; pie is a subtopic of bakery; coffee cakes is a subtopic of bakery; dessert platters is a subtopic of prepared food; taco shells is a subtopic of prepared food; marshmallows is a subtopic of prepared food; baking mixes is a subtopic of cooking ingredient; pretzel mixes is a subtopic of baking mixes; eggs is a subtopic of cooking ingredient; salt is a subtopic of cooking ingredient; baking soda is a subtopic of cooking ingredient; cooking starch is a subtopic of cooking ingredient; corn syrup is a subtopic of cooking ingredient; molasses is a subtopic of cooking ingredient; flour is a subtopic of cooking ingredient; cooking oil is a subtopic of cooking ingredient; olive oil is a subtopic of cooking oil; spice is a subtopic of cooking ingredient; floss sugar is a subtopic of cooking ingredient; cheese is a subtopic of dairy product; yoghurt is a subtopic of dairy product; cream is a subtopic of dairy product; evaporated milk is a subtopic of dairy product; cottage cheese is a subtopic of dairy product; water is a subtopic of beverage; beer is a subtopic of beverage; wine is a subtopic of beverage; white wine is a subtopic of wine; vinegar drinks is a subtopic of beverage; fruit-flavoured drinks is a subtopic of beverage; eggnog is a subtopic of beverage; sangria is a subtopic of beverage; cocktail mixes is a subtopic of beverage; powdered beverage mixes is a subtopic of beverage; bitters is a subtopic of beverage
+================================================================================
+
+
+============================================================
+✓ Successfully parsed 49 relationships
+Sample parsed relationships (first 5):
+  - 'prepared food' → 'food'
+  - 'beverage' → 'food'
+  - 'cooking ingredient' → 'food'
+  - 'condiment' → 'food'

@@ -1,0 +1,352 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Weapons; Combat Knives; Gun Holsters; Reloading Supplies & Equipment; Staff & Stick Weapons; Mature; Spears; Google Product Taxonomy; Gun Care & Accessories; Ammunition Cases & Holders
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Combat Knives is a subtopic of Weapons; Spears is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Stun Guns & Tasers; Gun Care & Accessories; Google Product Taxonomy; Staff & Stick Weapons; Mature; Gun Cases & Range Bags; Weapons; Gun Lights; Ammunition; Swords
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Gun Lights is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Throwing Stars; Erotic; Mature; Weapons; Guns; Gun Care & Accessories; Whips; Stun Guns & Tasers; Nunchucks; Google Product Taxonomy
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Guns is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Whips is a subtopic of Weapons; Weapons is a subtopic of Mature; Stun Guns & Tasers is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Erotic is a subtopic of Mature
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Mature; Google Product Taxonomy; Erotic Clothing; Erotic Food & Edibles; Erotic DVDs & Videos; Erotic Magazines; Erotic Games; Pole Dancing Kits; Erotic; Erotic Books
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Books is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic Games is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic is a subtopic of Mature
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Spears; Google Product Taxonomy; Gun Slings; Weapons; Mature; Gun Care & Accessories; Staff & Stick Weapons; Gun Grips; Stun Guns & Tasers; Swords
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Spears is a subtopic of Weapons; Weapons is a subtopic of Mature; Swords is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Stun Guns & Tasers is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Vacuum Accessories; Decor; Billiards; Backrest Pillows; Skate Helmets; Modem Accessories; Medicine Cabinets; Air Conditioner Covers; Hourglasses; Laundry Baskets; Decorative Bottles; Climbing Webbing; Clocks; Input Device Accessories; Moisture Absorbers; Keyboard Trays & Platforms; Homebrewing & Winemaking Supplies; Flag & Windsock Pole Mounting Hardware & Kits; Heating, Ventilation & Air Conditioning; Ice Screws; Putty Knives & Scrapers; Weather Vanes & Roof Decor; Axes; GPS Accessories; Computer Backplates & I/O Shields; Coat & Hat Racks; Plants; Pedal Boats; Radios; Stylus Pen Nibs & Refills; Equestrian; Media; Windsurfing; Billiard Tables; Toys & Games; Nativity Sets; Tap Reseaters; Cigar Cutters & Punches; USB & FireWire Hubs; GPS Tracking Devices; Skateboarding Protective Gear; Passive Circuit Components; Athletics; Bicycle Forks; Tetherball; Pool Cleaners & Chemicals; Bird Baths; Event Tickets; Motor Vehicle Trailers; Door Hardware; Ski & Snowboard Wax; Computer Components; Breast Pumps; Garage Floor Mats; Lacrosse Goals; Disco Balls; Billiard Ball Racks; Microphone Stands; Party & Celebration; Circuit Prototyping; Linens & Bedding; Floor & Steam Cleaner Accessories; Audio; Video Accessories; Hobbies & Creative Arts; Luggage & Bags; Flood, Fire & Gas Safety; Boxing & Martial Arts Training Equipment; Breadboards; Electronics Cleaners; Video Cards & Adapters; Keyboard & Mouse Wrist Rests; Household Thermometers; Business & Industrial; Radar Detectors; Briefcases; Row Boats; Bicycle Frames; Breast Milk Storage Containers; Bicycle Cleat Accessories; Laptop Docking Stations; Marine Electronics; Circuit Board Accessories; Remote Control Toys; Tablet Computer Docks & Stands; Utility & Cargo Trailers; Shoe Brushes; Clothespins; Stained Glass Panels; Music Boxes; Buoyancy Compensators; Diving & Snorkeling Equipment Sets; Climbing Harnesses; Pickleball; Puzzles; Cigarette Holders; Billiard Cue Racks; Toy Gift Baskets; Soda; Diving & Snorkeling Masks; Billiard Table Parts & Accessories; Field Hockey Sticks; Wallpaper Steamers; Computer Accessories; Dollies & Hand Trucks; Lighting Accessories; Health & Beauty; Surfboards; MP3 Players; Fruit Flavored Drinks; Rugby Gloves; Milling Machines; Water Heaters; Mobile Phone & Tablet Tripods & Monopods; Wrestling; Keyboard Protectors; Swimming; Deck Shuffleboard; Fire Extinguishers; Tetherball Poles; Tool Sockets; Windsurfing Sails; Dreamcatchers; Outdoor Play Equipment; Robotic Toys; Cameras & Optics; Stylus Pens; Electronics Films & Shields; Field Hockey & Lacrosse; Lacrosse Balls; Computer Covers & Skins; Garage Door Keypads & Remotes; Lamp Post Mounts; Sauna Accessories; Headphone Cushions & Tips; Boating & Rafting; Tool Knives; Video; Climbing Rope; Marine Chartplotters & GPS; Indoor & Outdoor Plants; Surfing; Siding; Lacrosse Training Aids; Wrestling Knee Pads; Tea & Infusions; Barcode Scanner Stands; Shopping Totes; Boxing & MMA Punch Mitts; Trunks; Spas; Microcontrollers; Umbrella Sleeves & Cases; Window Cranks; Development Boards; Wireless Transmitters; Tactile Transducers; Jigsaw Puzzle Accessories; Diaper Bags; Flying Toys; Toilet Brushes & Holders; Antenna Rotators; Video Game Arcade Cabinet Accessories; Pool & Spa; Sporting Goods; Bicycle Tires; Dehumidifier Accessories; Home & Garden; Flowers; Bath Caddies; Shuffleboard Tables; Toy Cars; Personal Care; Bicycle Cables; Lighting Timers; I/O Cards & Adapters; Turntables & Record Players; HVAC Controls; Ball Pits; Billiard Cue Cases; Boxing & Martial Arts; Executive Toys; GPS Cases; Fish Finders; Beverages; Swim Goggle & Mask Accessories; Ice Climbing Tools; Turntable Accessories; Video Editing Hardware & Production Equipment; Hardware Torches; Fire Sprinklers; Bicycle Small Parts; Skiing & Snowboarding; Canoes; Shower Rods; Skateboarding; Vehicles & Parts; E-Book Reader Accessories; Roller Skis; Audio Players & Recorders; Storage & Organization; Indoor Games; Molding; DVDs & Videos; Butterfly Feeders; Soccer; Window Treatment Replacement Parts; Diodes; Bathroom Accessories; Food, Beverages & Tobacco; Bath Pillows; Bicycle Headset Parts; Concrete Brooms; Field Hockey Goals; Animals & Pet Supplies; Speaker Accessories; Drawer & Shelf Liners; Remote Controls; Photography; Satellite LNBs; Computer Racks & Mounts; Decorative Plaques; Shoe Care & Tools; Fencing Weapons; Decorative Bells; Bird Feeders; Fountains & Ponds; Surfing Gloves; Pull Buoys; Security Monitors & Recorders; Baby & Toddler; Dry Boxes; Table Shuffleboard Pucks; Religious & Ceremonial; Fuel Containers & Tanks; Locks & Keys; Shower Curtain Rings; Play Vehicles; Swim Caps; Vehicle Storage & Cargo; Parasols & Rain Umbrellas; Sanding Accessories; Billiard Cue Accessories; Winter Sports & Activities; Wood Stoves; Household Supplies; Robe Hooks; Flags & Windsocks; Curtain & Drape Rings; Computer Risers & Stands; Holiday Stockings; Swimming Nose Clips; Magnetizers & Demagnetizers; Dried Flowers; Grappling Dummies; Seasonal & Holiday Decorations; Bicycle Brake Parts; Growth Charts; Quickdraws; Ponds; Floor & Carpet Dryers; Racquetball & Squash; Dancing; Posters, Prints, & Visual Artwork; Remote Control Boats & Watercraft; Smoking Accessories; Rain Chains; Household Appliances; Computer Accessory Sets; Ecospheres; Home Fragrances; Fire Alarms; Driver Accessories; Google Product Taxonomy; Curtain Holdbacks & Tassels; Mattock & Pickaxe Accessories; Printer, Copier, & Fax Machine Circuit Boards; Wind Wheels & Spinners; Toy Spaceships; Vehicle Parts & Accessories; Bicycle Saddles; Audio Cards & Adapters; Cheerleading; Masonry Tools; Kickboards; Safety Grab Bars; Bicycles; Squirrel Feeders; Antenna Accessories; Toys; Fire Extinguisher & Equipment Storage; Electronics Accessories; Table Shuffleboard; Outdoor Recreation; Audio Accessories; Skate Ramps; Fireplaces; Toilet Brush Replacement Heads; Water; Billiard Cue Chalk; Vacuums; Hardware; Abrasive Blaster Accessories; Desktop Computer & Server Cases; Heat Detectors; Skateboard Parts; Handheld Device Accessories; Tool Accessories; Signal Boosters; Snowboard Bindings; Cardboard Cutouts; Snowboards; Oil Lamp Fuel; Riding Scooters; Towel Racks & Holders; Integrated Circuits & Chips; Log Splitters; Climbing Ascenders & Descenders; Speaker Bags, Covers & Cases; Basketball; Trampolines; Windsurfing Boards; Multifunction Power Tools; Satellite Radio Accessories; Laundry Supplies; Tricycle Accessories; Floor Protection Films & Runners; Finials; Rugby Balls; General Purpose Athletic Equipment; Climbing; Climbing Chalk Bags; Bath Mats & Rugs; Welding Accessories; Paddles & Oars; Abrasive Blasters; Communications; Household Storage Containers; Bicycle Handlebar Extensions; Safety & Security Mirrors; Special Effects; Speaker Stand Bags; Flashlight Accessories; Electronic Filters; Christmas Tree Skirts; Diving Belts; Business & Home Security; Golf; Router Accessories; Electronics; TV Tuner Cards & Adapters; GPS Navigation Systems; Memorial Ceremony Supplies; Fountains & Waterfalls; Arts & Entertainment; Shower Curtains; Bird & Wildlife Feeders; Riding Toys; Window Films; Avalanche Safety; Motorcycle Bags & Panniers; Window Hardware; Public Address Systems; Whitewater Rafts; Mailbox Posts; Remote Control Airships & Blimps; Nursing & Feeding; Diving & Snorkeling; Figurines; Patch Panels; Inflatable Bouncer Accessories; Musical Instruments; Network Security & Firewall Devices; Outdoor Games; Climbing Crash Pads; Cycling Apparel & Accessories; Fencing; Skateboard Small Parts; Ottoman Cushions; Bird & Wildlife House Accessories; Multitrack Recorders; Bicycle Tubes; House Numbers & Letters; Humidors; Unicycle Accessories; Flag & Windsock Poles; Basketball Training Aids; Bathroom Accessory Mounts; Air Purifier Accessories; Bicycle Stems; Tools; Disc Golf; Pool & Spa Accessories; Stage Equipment; Voice Recorders; Mailbox Accessories; Backpacks; Ski Binding Parts; Rugby; Boxing Ring Parts; Floor Polishers & Buffers; Fabric Stain Removers; Bath Toys; Fire Alarm Control Panels; Hubs & Switches; Ashtrays; Networking; Baskets; Speed Radars; Tricycles; Punching & Training Bag Accessories; Headphone & Headset Accessories; Home Fragrance Accessories; Remote Control Cars & Trucks; Cosmetic & Toiletry Bags; Household Appliance Accessories; Platform & Paddle Tennis; Lumber & Sheet Stock; Boating & Water Sports; Wrestling Protective Gear; Computer Power Supplies; Bicycle Tire Valve Adapters; Bookends; Child Swimming Aids; Sports & Energy Drinks; Cycling; Billiard Table Lights; Bicycle Parts; Window Treatments; Bat Houses; Air Conditioner Filters; Hand Dryer Accessories; Flat Mineral Water; Towed Water Sports; Scanner Circuit Boards; Wallyball Equipment; Computer Processors; Jigsaws; Candle Snuffers; Drywall; Flag & Windsock Accessories; Platform Tennis Balls; Suncatchers; Video Game Consoles; Speaker Stands & Mounts; Toothbrush Holders; Facial Tissue Holders; Candle & Oil Warmers; Home Alarm Systems; Reamers; Cable Management; Circuit Boards & Components; Rain Gauges; Computer System Cooling Parts; Air Conditioner Accessories; Plant & Herb Growing Kits; Skateboarding Gloves; Saws; Air Fresheners; Building Materials; Sleds; Video Players & Recorders; Kitchen Linens Sets; Iron Rests; E-Book Reader Parts; Bird & Wildlife Houses; Insulation; Countertops; Stair Treads; Chair & Sofa Cushions; Bicycle Kickstands; Mailbox Replacement Doors; Inline & Roller Skating; Printed Circuit Boards; Artwork; Watercraft Storage Racks; Window Magnets; Kayak Accessories; Anvils; Lamp Shades; Toilet Paper Holders; Skateboard Wheels; Wire & Cable Ties; Television Circuit Boards; Carpentry Jointers; Unicycles; Surfboard Wax; Soap Dishes & Holders; Team Handball; Vehicle Maintenance, Care & Decor; Cable Clips; Racquetball & Squash Balls; Furniture Floor Protectors; Compressors; Water & Flood Detectors; Window Treatment Accessories; Lawn Games; Semiconductors; Arcade Equipment; Fan Accessories
+Relationships: 
+
+================================================================================
+Number of entities: 500
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to create a taxonomy for you, but it might be a bit complex. Here's a simplified version of the relationships:
+
+1. Google Product Taxonomy is a parent of:
+   - Mature
+   - Decor
+   - Billiards
+   - Home & Garden
+   - Business & Industrial
+   - Health & Beauty
+   - Food, Beverages & Tobacco
+   - Arts & Entertainment
+   - Sports & Outdoors
+   - Electronics
+   - Home Fragrances
+   - Household Supplies
+   - Home & Kitchen
+   - Home Decor
+   - Home Improvement
+   - Home Security
+   - Home Appliances
+   - Home Cleaning
+   - Home Organization
+   - Home Storage
+   - Home Maintenance
+   - Home Repair
+   - Home Renovation
+   - Home Design
+   - Home Architecture
+   - Home Planning
+   - Home Building
+   - Home Construction
+   - Home Inspection
+   - Home Appraisal
+   - Home Staging
+   - Home Selling
+   - Home Buying
+   - Home Financing
+   - Home Insurance
+   - Home Warranty
+   - Home Maintenance
+   - Home Repair
+   - Home Renovation
+   - Home Design
+   - Home Architecture
+   - Home Planning
+   - Home Building
+   - Home Construction
+   - Home Inspection
+   - Home Appraisal
+   - Home Staging
+   - Home Selling
+   - Home Buying
+   - Home Financing
+   - Home Insurance
+   - Home Warranty
+
+2. Mature is a parent of:
+   - Erotic
+   - Erotic Clothing
+   - Erotic Food & Edibles
+   - Erotic DVDs & Videos
+   - Erotic Magazines
+   - Erotic Games
+   - Pole Dancing Kits
+   - Erotic Books
+
+3. Erotic is a parent of:
+   - Erotic Books
+   - Erotic DVDs & Videos
+   - Erotic Food & Edibles
+   - Erotic Games
+   - Erotic Magazines
+   - Erotic Clothing
+   - Pole Dancing Kits
+
+4. Decor is a parent of:
+   - Decorative Bells
+   - Decorative Bottles
+   - Decorative Plaques
+   - Fountains & Ponds
+   - Fountains & Waterfalls
+   - Suncatchers
+   - Window Films
+   - Window Magnets
+   - Window Treatment Replacement Parts
+   - Window Treatment Accessories
+   - Window Treatment
+   - Window Hardware
+   - Window Cranks
+   - Window Shades
+   - Window Blinds
+   - Window Curtains
+   - Window Treatments
+   - Window Decor
+   - Window Art
+   - Window Stickers
+   - Window Clings
+   - Window Decals
+   - Window Signs
+   - Window Graphics
+   - Window Lettering
+   - Window Painting
+   - Window Etching
+   - Window Engraving
+   - Window Stamping
+   - Window Embossing
+   - Window Debossing
+   - Window Foil
+   - Window Film
+   - Window Coating
+   - Window Treatment
+   - Window Decor
+   - Window Art
+   - Window Stickers
+   - Window Clings
+   - Window Decals
+   - Window Signs
+   - Window Graphics
+   - Window Lettering
+   - Window Painting
+   - Window Etching
+   - Window Engraving
+   - Window Stamping
+   - Window Embossing
+   - Window Debossing
+   - Window Foil
+   - Window Film
+   - Window Coating
+
+5. Billiards is a parent of:
+   - Billiard Tables
+   - Billiard Table Parts & Accessories
+   - Billiard Cue Racks
+   - Billiard Cue Cases
+   - Billiard Cue Chalk
+   - Billiard Ball Racks
+   - Billiard Table Lights
+   - Billiard Table Covers
+   - Billiard Table Liners
+   - Billiard Table Mats
+   - Billiard Table Felt
+   - Billiard Table Cloth
+   - Billiard Table Skins
+   - Billiard Table Wraps
+   - Billiard Table Decals
+   - Billiard Table Signs
+   - Billiard Table Graphics
+   - Billiard Table Lettering
+   - Billiard Table Painting
+   - Billiard Table Etching
+   - Billiard Table Engraving
+   - Billiard Table Stamping
+   - Billiard Table Embossing
+   - Billiard Table Debossing
+   - Billiard Table Foil
+   - Billiard Table Film
+   - Billiard Table Coating
+   - Billiard Table Treatment
+   - Billiard Table Decor
+   - Billiard Table Art
+   - Billiard Table Stickers
+   - Billiard Table Clings
+   - Billiard Table Decals
+   - Billiard Table Signs
+   - Billiard Table Graphics
+   - Billiard Table Lettering
+   - Billiard Table Painting
+   - Billiard Table Etching
+   - Billiard Table Engraving
+   - Billiard Table Stamping
+   - Billiard Table Embossing
+   - Billiard Table Debossing
+   - Billiard Table Foil
+   - Billiard Table Film
+   - Billiard Table Coating
+
+6. Home & Garden is a parent of:
+   - Home Decor
+   - Home Improvement
+   - Home Security
+   - Home Appliances
+   - Home Cleaning
+   - Home Organization
+   - Home Storage
+   - Home Maintenance
+   - Home Repair
+   - Home Renovation
+   - Home Design
+   - Home Architecture
+   - Home Planning
+   - Home Building
+   - Home Construction
+   - Home Inspection
+   - Home Appraisal
+   - Home Staging
+   - Home Selling
+   - Home Buying
+   - Home Financing
+   - Home Insurance
+   - Home Warranty
+   - Home Maintenance
+   - Home Repair
+   - Home Renovation
+   - Home Design
+   - Home Architecture
+   - Home Planning
+   - Home Building
+   - Home Construction
+   - Home Inspection
+   - Home Appraisal
+   - Home Staging
+   - Home Selling
+   - Home Buying
+   - Home Financing
+   - Home Insurance
+   - Home Warranty
+
+7. Business & Industrial is a parent of:
+   - Business & Home Security
+   - Business & Industrial Supplies
+   - Business & Office Equipment
+   - Business & Office Furniture
+   - Business & Office Supplies
+   - Business & Office Software
+   - Business & Office Services
+   - Business & Office Solutions
+   - Business & Office Technology
+   - Business & Office Tools
+   - Business & Office Training
+   - Business & Office Tutoring
+   - Business & Office Tutoring Services
+   - Business & Office Tutoring Solutions
+   - Business & Office Tutoring Technology
+   - Business & Office Tutoring Tools
+   - Business & Office Tutoring Training
+   - Business & Office Tutoring Tutoring
+   - Business & Office Tutoring Tutoring Services
+   - Business & Office Tutoring Tutoring Solutions
+   - Business & Office Tutoring Tutoring Technology
+   - Business & Office Tutoring Tutoring Tools
+   - Business & Office Tutoring Tutoring Training
+   - Business & Office Tutoring Tutoring Tutoring
+   - Business & Office Tutoring Tutoring Tutoring Services
+   - Business & Office Tutoring Tutoring Tutoring Solutions
+   - Business & Office Tutoring Tutoring Tutoring Technology
+   - Business & Office Tutoring Tutoring Tutoring Tools
+   - Business & Office Tutoring Tutoring Tutoring Training
+   - Business & Office Tutoring Tutoring Tutoring Tutoring
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Services
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Solutions
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Technology
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tools
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Training
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring Services
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring Solutions
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring Technology
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring Tools
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring Training
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring Services
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring Solutions
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring Technology
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring Tools
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring Training
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring Services
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring Solutions
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring Technology
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring Tools
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring Training
+   - Business & Office Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring Tutoring
+  
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 1
+
+Parsed relationships:
+  but it might be a bit complex. Here's a simplified version of the relationships → This is a very long list of concepts and relationships. I'll try to create a taxonomy for you
+
+================================================================================

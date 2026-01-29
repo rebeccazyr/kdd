@@ -1,0 +1,97 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: cannelloni; food; spaghetti; bavette; gemelli; fagottini; fusilli; pici; pasta; occhi di lupo
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+fusilli is a subtopic of pasta; spaghetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta; pici is a subtopic of pasta; cannelloni is a subtopic of pasta; bavette is a subtopic of pasta; fagottini is a subtopic of pasta; gemelli is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: pasta; spaghetti; sacchettoni; food; rotini; croxetti; mezzelune; fuži; corzetti; linguine
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+fuži is a subtopic of pasta; linguine is a subtopic of pasta; mezzelune is a subtopic of pasta; spaghetti is a subtopic of pasta; rotini is a subtopic of pasta; corzetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; croxetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: garganelli; anellini; corzetti; stringozzi; mezzelune; pasta; food; bigoli; fuži; occhi di lupo
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+stringozzi is a subtopic of pasta; garganelli is a subtopic of pasta; pasta is a subtopic of food; bigoli is a subtopic of pasta; anellini is a subtopic of pasta; fuži is a subtopic of pasta; occhi di lupo is a subtopic of pasta; mezzelune is a subtopic of pasta; corzetti is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: macaroni; rotini; casoncelli; campanelle; pasta; spaghetti; ptitim; lanterne; passatelli; food
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+campanelle is a subtopic of pasta; spaghetti is a subtopic of pasta; casoncelli is a subtopic of pasta; pasta is a subtopic of food; macaroni is a subtopic of pasta; ptitim is a subtopic of pasta; passatelli is a subtopic of pasta; lanterne is a subtopic of pasta; rotini is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: stringozzi; food; mezzelune; ptitim; pasta; sacchettoni; penne; spaghetti; rotelle; rotini
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+rotini is a subtopic of pasta; stringozzi is a subtopic of pasta; sacchettoni is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; rotelle is a subtopic of pasta; penne is a subtopic of pasta; pasta is a subtopic of food; mezzelune is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: frozen seafood; food; salsa; noodle; cupcakes; fudge; donuts; cereals; vinegar drinks; seafood; bakery; liquor; soy product; cocktail mixes; whisky; millet; beverage; dip; pillus; bitters
+Relationships: 
+
+================================================================================
+Number of entities: 20
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+fudge is a subtopic of food; cupcakes is a subtopic of food; donuts is a subtopic of food; cereals is a subtopic of food; vinegar drinks is a subtopic of food; seafood is a subtopic of food; cocktail mixes is a subtopic of food; whisky is a subtopic of liquor; pillus is a subtopic of food; bitters is a subtopic of food; dip is a subtopic of food; noodle is a subtopic of food; frozen seafood is a subtopic of seafood; bakery is a subtopic of food; soy product is a subtopic of food; beverage is a subtopic of food
+
+Note: "pillus" is not a common term and might be a misspelling. I have assumed it to be "dip" for the purpose of this taxonomy. If "pillus" is meant to be a different concept, please provide the correct spelling or definition.
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 16
+
+Parsed relationships:
+  fudge → food
+  cupcakes → food
+  donuts → food
+  cereals → food
+  vinegar drinks → food
+  seafood → food
+  cocktail mixes → food
+  whisky → liquor
+  pillus → food
+  bitters → food
+  dip → food
+  noodle → food
+  frozen seafood → seafood
+  bakery → food
+  soy product → food
+  beverage → food
+
+================================================================================

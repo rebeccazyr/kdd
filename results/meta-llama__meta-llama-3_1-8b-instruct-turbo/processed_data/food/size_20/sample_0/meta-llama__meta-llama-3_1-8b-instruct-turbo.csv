@@ -1,0 +1,20 @@
+child,parent
+cereals,bakery
+bakery,food
+rye,bakery
+grits,bakery
+pecans,mixed nuts
+mixed nuts,bakery
+macadamia nuts,mixed nuts
+walnuts,mixed nuts
+soy nuts,mixed nuts
+chestnuts,mixed nuts
+pine nuts,mixed nuts
+seeds,mixed nuts
+frozen yoghurt,frozen dessert
+frozen dessert,dairy product
+dairy product,food
+beverage,food
+soup,food
+meat,food
+wheat,bakery

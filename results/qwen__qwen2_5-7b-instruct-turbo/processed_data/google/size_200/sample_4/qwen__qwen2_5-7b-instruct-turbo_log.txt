@@ -1,0 +1,340 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Reloading Supplies & Equipment; Combat Knives; Gun Holsters; Staff & Stick Weapons; Mature; Google Product Taxonomy; Spears; Weapons; Ammunition Cases & Holders; Gun Care & Accessories
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Staff & Stick Weapons is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Holsters is a subtopic of Gun Care & Accessories; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Combat Knives is a subtopic of Weapons; Spears is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Swords; Stun Guns & Tasers; Gun Lights; Google Product Taxonomy; Mature; Gun Care & Accessories; Gun Cases & Range Bags; Staff & Stick Weapons; Weapons; Ammunition
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Gun Lights is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Swords is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Mature; Google Product Taxonomy; Guns; Nunchucks; Gun Care & Accessories; Weapons; Erotic; Throwing Stars; Whips; Stun Guns & Tasers
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Throwing Stars is a subtopic of Weapons; Erotic is a subtopic of Mature; Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Guns is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Whips is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Magazines; Google Product Taxonomy; Erotic; Erotic DVDs & Videos; Erotic Games; Pole Dancing Kits; Mature; Erotic Food & Edibles; Erotic Books; Erotic Clothing
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Clothing is a subtopic of Erotic; Erotic is a subtopic of Mature; Pole Dancing Kits is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Erotic Games is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Gun Grips; Swords; Google Product Taxonomy; Staff & Stick Weapons; Gun Slings; Gun Care & Accessories; Mature; Weapons; Stun Guns & Tasers; Spears
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Spears is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Slings is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Video Game Console Accessories; Baby Wipes; Brooches & Lapel Pins; Diapering; Replacement Shelves; Barebone Computers; Handbags, Wallets & Cases; Gaiters; Envelope Seals; Motor Vehicle Braking; Corsages & Boutonnières; Cameras & Optics; GPS Mounts; Office Furniture Accessories; Charms & Pendants; Camera & Optic Accessories; Collectibles; Confetti; Skee-Ball Machines; Shoe Covers; Stage Equipment; Video Transmitters; Diaper Organizers; Music Cassette Tapes; Voice Recorders; Music CDs; Fireworks & Firecrackers; Diaper Kits; Keychains; Office Furniture; Fuel; Sparklers; Law Enforcement; Google Product Taxonomy; Motor Vehicle Engine Parts; Home Game Console Accessories; Jewelry Sets; Video; Interactive Kiosks; Baby Transport Accessories; Film & Television VHS Tapes; Vehicles; Vehicle Parts & Accessories; GPS Accessories; Room Dividers; Sippy Cups; Digital Goods & Currency; Aircraft; Speed Radars; Radios; Desktop Computers; Costumes & Accessories; Exercise & Fitness Equipment Manuals; Media; Banners; Wallets & Money Clips; Folding Chairs & Stools; Gift Giving; Toys & Games; Carts & Islands; Antenna Accessories; Kitchen & Dining Carts; DJ & Specialty Audio; Electronics Accessories; Hanging Chairs; Special Effects Light Stands; Shoe Accessories; Piñatas; Baby Transport; Motor Vehicle Carpet & Upholstery; Audio Accessories; Fresh Cut Flowers; Response Cards; Toll Collection Devices; Motor Vehicle Parts; Motor Vehicle Sensors & Gauges; Benches; Cocktail Decorations; Motor Vehicle Wheel Systems; Camera Lens Accessories; Birthday Candles; Hardware; Karaoke System Accessories; Video Game Arcade Cabinet Accessories; Model & Toys Manuals; Place Cards; Sheet Music; Jewelry; Event Tickets; Apparel & Accessories; Sporting Goods; Floor Chairs; Optics; Motor Vehicle Video Monitor Mounts; Basketball Arcade Games; Watercraft Steering Parts; Motor Vehicle Exhaust; Motor Vehicle Equalizers & Crossovers; Party & Celebration; Laptops; Audio; Diaper Liners; Nursing Covers; Retail; Home Heating Oil; Hobbies & Creative Arts; GPS Cases; Party Favors; Rangefinders; Office Supply Manuals; Chair Sashes; Video Game Consoles; Office Supplies; Motor Vehicle Electronics; Wallet Chains; Mining & Quarrying; Computers; Stereo Systems; Motor Vehicle Lighting; Camera & Optics Manuals; Furniture; Digital Music Downloads; Circuit Boards & Components; MiniDisc Players & Recorders; Motor Vehicle Engine Oil Circulation; Baby Carriers; Chairs; Shoelaces; Watercraft Engine Parts; Touch Table Computers; Vehicles & Parts; Business & Industrial; Radar Detectors; Tablet Computers; Audio Players & Recorders; Collectible Weapons; Product Manuals; Household Appliance Manuals; Baby Carrier Accessories; Watercraft Parts & Accessories; Desk Parts & Accessories; DVDs & Videos; Spray String; Special Effects; Costume Accessories; Music & Sound Recordings; Vanity Benches; Bullhorns; Breast Milk Storage Containers; Office Furniture Sets; Lens Caps; Marine Electronics; Cassette Players & Recorders; Party Supplies; Power Tool & Equipment Manuals; Chair Accessories; Food, Beverages & Tobacco; Electronics; Diaper Rash Treatments; Arts & Entertainment; Masks; Entertainment Centers & TV Stands; Room Divider Accessories; Futon Frames; Animals & Pet Supplies; Motor Vehicles; Public Address Systems; Sailboat Parts; Workstations & Cubicles; Film & Television; Nursing & Feeding; Special Occasion Card Boxes & Holders; Lanyards; Bracelets; Invitations; Party Hats; Watches; Marine Radios; Baby & Toddler; Pretend Jewelry; Shelving Accessories; Storage & Entryway Benches; Portable Game Console Accessories; Health & Beauty; Checkbook Covers; Smart Glasses; Computer Servers; Handbag & Wallet Accessories; Shoes; Spoken Word & Field Recordings; Costume Shoes; Motor Vehicle Interior Fittings; Diaper Pail Accessories; Event Programs; Software; Arcade Equipment; Propane; Motor Vehicle Parking Cameras; Hardware Accessories; Karaoke Systems
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Creating a taxonomy from this extensive list of concepts involves organizing them into a hierarchical structure. Here are the parent-child relationships:
+
+1. **Google Product Taxonomy**
+   - **Mature**
+     - **Video Game Console Accessories**
+     - **Home Game Console Accessories**
+     - **Video Game Arcade Cabinet Accessories**
+     - **Video Game Consoles**
+     - **Portable Game Console Accessories**
+   - **Vehicles**
+     - **Motor Vehicles**
+       - **Motor Vehicle Parts**
+         - **Motor Vehicle Engine Parts**
+         - **Motor Vehicle Engine Oil Circulation**
+         - **Motor Vehicle Exhaust**
+         - **Motor Vehicle Interior Fittings**
+         - **Motor Vehicle Lighting**
+         - **Motor Vehicle Parking Cameras**
+         - **Motor Vehicle Sensors & Gauges**
+         - **Motor Vehicle Wheel Systems**
+       - **Motor Vehicle Accessories**
+         - **Motor Vehicle Braking**
+         - **Motor Vehicle Carpet & Upholstery**
+         - **Motor Vehicle Equalizers & Crossovers**
+         - **Motor Vehicle Exhaust**
+         - **Motor Vehicle Engine Parts**
+         - **Motor Vehicle Engine Oil Circulation**
+         - **Motor Vehicle Interior Fittings**
+         - **Motor Vehicle Lighting**
+         - **Motor Vehicle Parts & Accessories**
+         - **Motor Vehicle Sensors & Gauges**
+         - **Motor Vehicle Wheel Systems**
+         - **Motor Vehicle Video Monitor Mounts**
+         - **Motor Vehicle Wheel Systems**
+     - **Watercraft**
+       - **Watercraft Parts & Accessories**
+         - **Watercraft Engine Parts**
+         - **Watercraft Steering Parts**
+     - **Aircraft**
+     - **Boats**
+     - **Trains**
+     - **Bicycles**
+     - **Motorcycles**
+     - **Sailboats**
+     - **Electric Vehicles**
+   - **Electronics**
+     - **Cameras & Optics**
+       - **Camera & Optics Manuals**
+       - **Camera Lens Accessories**
+       - **Camera & Optics**
+     - **Audio**
+       - **Audio Accessories**
+       - **Audio Players & Recorders**
+       - **Stereo Systems**
+     - **Video**
+       - **Video Game Consoles**
+       - **Video Game Arcade Cabinet Accessories**
+       - **Video Transmitters**
+     - **Computers**
+       - **Desktop Computers**
+       - **Laptops**
+       - **Barebone Computers**
+       - **Tablet Computers**
+       - **Computer Servers**
+     - **Electronics Accessories**
+       - **GPS Accessories**
+       - **GPS Cases**
+       - **GPS Mounts**
+       - **GPS Cases**
+     - **Electronics**
+       - **Electronics Accessories**
+       - **Electronics**
+     - **Digital Goods & Currency**
+     - **Digital Music Downloads**
+     - **Digital Music Downloads**
+   - **Office Supplies**
+     - **Office Furniture**
+       - **Office Furniture Sets**
+       - **Office Furniture Accessories**
+       - **Office Furniture**
+     - **Office Supplies**
+       - **Office Supply Manuals**
+       - **Office Supplies**
+     - **Office Furniture Accessories**
+     - **Office Supply Manuals**
+   - **Jewelry**
+     - **Brooches & Lapel Pins**
+     - **Charms & Pendants**
+     - **Jewelry Sets**
+     - **Jewelry**
+     - **Pole Dancing Kits**
+     - **Piñatas**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **Rangefinders**
+     - **
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

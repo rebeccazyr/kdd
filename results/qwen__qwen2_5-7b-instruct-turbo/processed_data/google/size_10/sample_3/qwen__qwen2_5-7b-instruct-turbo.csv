@@ -1,0 +1,11 @@
+child,parent
+Luggage & Bags,Home & Garden
+Media,Google Product Taxonomy
+Fireplaces,Home & Garden
+Carpentry & Woodworking Project Plans,Hardware
+Lighting Accessories,Hardware
+Sporting Goods,Home & Garden
+Google Product Taxonomy is a parent category that can contain various subtopics such as Media,"Fireplaces, etc"
+Food,Beverages & Tobacco is a separate subtopic under Google Product Taxonomy
+Hardware,Home & Garden
+Home & Garden is a parent category that can contain subtopics like Luggage & Bags,"Fireplaces, Lighting Accessories, etc"

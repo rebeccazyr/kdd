@@ -1,0 +1,468 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Architectures; Embedded systems; Systolic arrays; Parallel architectures; Embedded and cyber-physical systems; Computing Classification System; Multiple instruction, single data; Single instruction, multiple data; Computer systems organization; Real-time systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Embedded systems is a subtopic of Embedded and cyber-physical systems; Architectures is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures; Single instruction, multiple data is a subtopic of Parallel architectures; Computer systems organization is a subtopic of Computing Classification System; Multiple instruction, single data is a subtopic of Parallel architectures; Real-time systems is a subtopic of Computer systems organization; Systolic arrays is a subtopic of Parallel architectures
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Real-time systems; Embedded and cyber-physical systems; Processors and memory architectures; Computing Classification System; Fault-tolerant network topologies; Real-time languages; Dependable and fault-tolerant systems and networks; Maintainability and maintenance; Computer systems organization; Architectures
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Real-time systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Real-time languages is a subtopic of Real-time systems; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Maintainability and maintenance; Interconnection architectures; Parallel architectures; Computing Classification System; Embedded and cyber-physical systems; Computer systems organization; Serial architectures; Pipeline computing; Architectures; Dependable and fault-tolerant systems and networks
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Pipeline computing is a subtopic of Serial architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Interconnection architectures is a subtopic of Parallel architectures; Serial architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Optical computing; Architectures; Other architectures; Quantum computing; Computing Classification System; Real-time languages; Computer systems organization; Real-time system specification; Real-time systems
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Real-time system specification is a subtopic of Real-time systems; Other architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Quantum computing is a subtopic of Other architectures; Optical computing is a subtopic of Other architectures; Real-time systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Distributed architectures; Architectures; Real-time system architecture; Computer systems organization; Serial architectures; Real-time systems; Embedded and cyber-physical systems; Computing Classification System; Processors and memory architectures; Dependable and fault-tolerant systems and networks
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Serial architectures is a subtopic of Architectures; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Distributed architectures is a subtopic of Architectures; Real-time systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Real-time system architecture is a subtopic of Real-time systems
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Empirical studies in accessibility; Mathematical software; Telecommunications; Symmetric cryptography and hash functions; VLSI packaging; Text input; Men; Sorting and searching; Models of computation; Sketching and sampling; Proteomics; Simulation languages; Database query languages (principles); Design languages; Equational logic and rewriting; Semantic networks; Agent / discrete models; Classification and regression trees; Network algorithms; Algorithmic game theory; Human-centered computing; Storage management; Empirical studies in ubiquitous and mobile computing; Search results deduplication; Universal access; Enterprise architecture frameworks; Image and video acquisition; Speech recognition; Bug fixing (hardware); Representation of mathematical functions; Security and privacy; Mobile information processing systems; Graphics recognition and interpretation; Hypertext / hypermedia; Computer forensics; Censorship; Multivariate statistics; Proof complexity; Text editing; Randomized search; Testing with distributed and parallel systems; Hybrid symbolic-numeric methods; Packing and covering problems; Transport protocols; Consumer health; Storage architectures; Fault models and test metrics; Appearance and texture representations; Representation of exact numbers; Application-specific VLSI designs; Environmental sciences; Distribution functions; Test-pattern generation and fault simulation; Computational control theory; Project and people management; Measurement; Orchestration languages; Machine learning algorithms; Mesh models; Exact arithmetic algorithms; Caching and paging algorithms; Planning and scheduling; Video summarization; Online social networks; Governmental surveillance; Home networks; Streaming, sublinear and near linear time algorithms; Middle boxes / network appliances; Education; Board- and system-level test; Electromechanical systems; Power and energy; Motion path planning; Hash functions and message authentication codes; File system security; Hardware accelerators; Spatial-temporal systems; Graph theory; Document scripting languages; Collaborative and social computing; Simulation evaluation; Ontology engineering; Concurrency; Transistors; Backtracking; Management and querying of encrypted data; Network science; Nanoelectromechanical systems; Hypertext / hypermedia creation; Interaction design theory, concepts and paradigms; Inductive inference; Transition-based timing analysis; Mathematics and statistics; Graph algorithms; Interaction design process and methods; Simulation support systems; Semi-supervised learning; Data extraction and integration; Computer and information systems training; Management of computing and information systems; Facility location and clustering; Transborder data flow; Non-volatile memory; Image compression; Network domains; Network protocols; Mobile devices; Public key (asymmetric) techniques; Supervised learning by regression; Game tree search; Generating functions; System description languages; Discrete mathematics; Printers; Design; Trusted computing; Record layout alternatives; Nonlinear equations; Numeric approximation algorithms; Database activity monitoring; Mobile platform security; Integrated and visual development environments; Systems security; Security services; Electronic design automation; Signaling protocols; Social engineering (social sciences); Health information exchanges; Site wrapping; Q-learning; Carbon based electronics; Business-IT alignment; Modal and temporal logics; Data structures design and analysis; Linear algebra algorithms; Layering; Analog, mixed-signal and radio frequency test; Database protection laws; Error-correcting codes; Data integration; Experimentation; Feature selection; Abstraction and micro-operators; Predecessor queries; Life and medical sciences; Electro-mechanical devices; Ad hoc networks; Magnetic tapes; Extremal graph theory; Social and professional topics; Random order and robust communication complexity; Just-in-time compilers; Network architectures; Stochastic processes; Animation; Law; Buses and high-speed links; Commerce policy; Scene understanding; Network reliability; Coverage metrics; Interaction design; Hardware validation; Fuel-based energy; Computing methodologies; Network measurement; Surveillance; Randomness, geometry and discrete structures; Interactive whiteboards; Computers in other domains; Combinatorial optimization; E-learning; Document types; Market equilibria; Program reasoning; Enterprise modeling; Health informatics; Vulnerability management; Quantum mechanic simulation; World Wide Web; Algebraic topology; Spectral methods; Assertion checking; Molecular simulation; Theory of database privacy and security; Collaborative and social computing theory, concepts and paradigms; Symbolic and algebraic algorithms; Rendering; Retargetable compilers; Cognitive radios; Social media networks; Geographic information systems; Mathematical foundations of cryptography; Physical verification; Online algorithms; Abstract machines; Proof theory; Temperature simulation and estimation; Optical / magneto-optical disks; Modeling and parameter extraction; Document scanning; Computer graphics; Event-driven architectures; Bridges and switches; Architecture (buildings); Simulation and emulation; Implementation management; Electronics; Thin provisioning; Cryptography; Learning paradigms; Document capture; Shape modeling; Visual content-based indexing and retrieval; Object recognition; Wireless access networks; Chemistry; Visualization design and evaluation methods; Biology-related information processing; Algebraic algorithms; Factor analysis; Discrete-event simulation; Point-in-time copies; Bayesian analysis; Software as a service orchestration system; Learning from demonstrations; Logic and databases; Lexical semantics; Social network analysis; Development frameworks and environments; Antitrust and competition; Relational storage; Storage class memory; Online learning theory; Patient privacy; Dynamic graph algorithms; Specification languages; Interconnect power issues; Motion processing; Multi-task learning; Block and stream ciphers; Collaborative and social computing design and evaluation methods; Link-layer protocols; Medical records; Network access control; Reconfigurable logic applications; Pointing; Asynchronous circuits; Combinational synthesis; Natural language generation; Input / output circuits; Design rule checking; Semiconductor memory; Algebraic complexity theory; Microelectromechanical systems; Document management; Design for debug; Learning settings; Web searching and information discovery; Continuous mathematics; Perception; Partially-observable Markov decision processes; Emerging interfaces; Computing industry; Static timing analysis; Web search engines; Cartography; Record storage systems; Document searching; Astronomy; Invariants; Cross-layer protocols; Integrated circuits; Network monitoring; Knowledge representation and reasoning; Online learning algorithms; Network File System (NFS) protocol; IT governance; Computing equipment management; Supervised learning; Horizontal partitioning; Political speech; Protocol testing and verification; Time synchronization protocols; Query learning; Image processing; Point-based models; General programming languages; Real-time simulation; Network privacy and anonymity; Object identification; Financial crime; Imaging; Circuit complexity; Mobile ad hoc networks; Packaging; Complexity classes; Simulation theory; Virtualization and security; End nodes; Preconditioning; Image segmentation; Random walks and Markov chains; Sustainability; Graphical user interfaces; Sparsification and spanners; Multi / mixed media creation; Expander graphs and randomness extractors; High-speed input / output; Parsing; Ubiquitous and mobile computing design and evaluation methods; Ray tracing; Cognitive robotics; Information integration and interoperability; Logic families; Cryptographic primitives; Shape analysis; Automatic differentiation; Dynamic compilers; Compilers; Finite Model Theory; Systems analysis and design; Presentation protocols; Design reuse and communication-based design; Temperature control; Design and analysis of algorithms; Analog and mixed-signal circuits; Search methodologies; Instance-based learning; Computations in finite fields; Adversary models; Business process monitoring; Statistical relational learning; Semi-formal verification; Network games; Multi-agent learning; Portable media players; E-government; Computational pricing and auctions; Publishing; Application specific processors; Semi-supervised learning settings; Theory and algorithms for application domains; Fine arts; Ubiquitous and mobile computing theory, concepts and paradigms; Internet telephony; Planning under uncertainty; Pseudorandomness and derandomization; Empirical studies in HCI; Matching; Application specific instruction set processors; Concurrent computing methodologies; Solvers; Agriculture; Continuous functions; Modeling and simulation; Signal processing systems; Archaeology; HCI design and evaluation methods; Computer vision problems; Copyrights; Graph drawings; Computational complexity and cryptography; Partial differential equations; Distributed computing models; Computational transcriptomics; Network operations; Full-custom circuits; Topology; Representations of games and their complexity; Combinatoric problems; Spectra of graphs; Enterprise computing; Tunneling devices; Women; Active vision; Philosophical/theoretical foundations of artificial intelligence; Flexible and printable circuits; Graph algorithms analysis; Accessibility theory, concepts and paradigms; Network components; Plasmonics; Superconducting circuits; Intermediate nodes; Personal health records; Pricing and resource allocation; Regret bounds; Enterprise architecture management; Trademarks; Socio-technical systems; Categorical semantics; Learning in probabilistic graphical models; Import / export controls; Power networks; Operating systems security; Pattern matching; Random graphs; Rare-event simulation; Arithmetic and datapath circuits; Object detection; Constraint and logic programming; Equation and inequality solving algorithms; Input / output styles; Printed circuit boards; Cryptanalysis and other attacks; Fixed parameter tractability; Smart grid; Antialiasing; Enterprise level and data centers power issues; Enterprise computing infrastructures; Reflectance modeling; Policy iteration; Networks; Texturing; Wireless access points, base stations and infrastructure; Power grid design; Service-oriented architectures; Earth and atmospheric sciences; Aerospace; Ethnographic studies; Integral equations; Validation; Digital switches; Economic impact; Planning with abstraction and generalization; Sound and music computing; Recognition of genes and regulatory elements; Network simulations; Database interoperability; Learning from implicit feedback; Age; Nearest neighbor algorithms; Logic synthesis; Algorithmic game theory and mechanism design; Unsupervised learning and clustering; Quality of equilibria; Sequencing and genotyping technologies; Operational semantics; Hardware security implementation; Human computer interaction (HCI); Social content sharing; Interest point and salient region detections; Data center networks; Handheld game consoles; Theory of randomized search heuristics; Design for testability; Performing arts; Information storage systems; Cloud based storage; Electromagnetic interference and compatibility; Pseudonymity, anonymity and untraceability; Quantum dots and cellular automata; Reasoning about belief and knowledge; Robustness; Theorem proving and SAT solving; Document metadata; Symbolic and algebraic manipulation; Reversible logic; Approximation algorithms; Software and application security; Deep belief networks; Interactive systems and tools; Computing / technology policy; Radio frequency and wireless interconnect; Network layer protocols; User interface toolkits; Failure recovery, maintenance and self-repair; Nonparametric representations; Treemaps; Accessibility technologies; Graph enumeration; Molecular structural biology; Parallel computing methodologies; Formal methods and theory of security; Architecture description languages; Version control; Version management; Web crawling; Machine learning theory; Column based storage; Power estimation and optimization; Molecular evolution; Computability; Tactile and hand-based interfaces; Adolescents; Ordinary differential equations; Graph coloring; Collaborative content creation; RAID; Hierarchical representations; Rasterization; Program specifications; Software configuration management and version control systems; Project staffing; Algorithmic mechanism design; Parameterized complexity and exact algorithms; Network types; Packet-switching networks; Quantum technologies; Linear logic; Interaction techniques; Estimation; Social network security and privacy; Causal reasoning and diagnostics; Network mobility; User interface programming; Functional constructs; Activity centered design; Medical technologies; Project management techniques; Sample complexity and generalization bounds; Enterprise data management; Network manageability; Information storage technologies; User characteristics; Boolean algebra algorithms; Rounding techniques; Physical links; Testing, certification and licensing; Standard cell libraries; General and reference; Simulation by animation; Mobile phones; Interactive proof systems; Control primitives; Language translation; Design for manufacturability; Authorization; Search with partial observations; Session protocols; Cross-organizational business processes; Canonical correlation analysis; Interaction devices; Analysis and design of emerging devices and systems; Reconfigurable logic and FPGAs; Enterprise architectures; Geometric topology; Image manipulation; Molecular sequence analysis; Graphs and surfaces; Secondary liability; Program semantics; Tamper-proof and tamper-resistant designs; Temperature monitoring; Continuous space search; Convergence and learning in games; Computer algebra systems; Number-theoretic computations; Online learning settings; Theory of mind; Enterprise ontologies, taxonomies and vocabularies; Spatial and physical reasoning; Race and ethnicity; Arts and humanities; Data mining; VLSI design manufacturing considerations; Switching devices power issues; General conference proceedings; Wireline communication; Graphics systems and interfaces; Accessibility; Visualization theory, concepts and paradigms; Medical information policy; User interface management systems; Enterprise architecture modeling; Timing analysis; Public Internet; Shape representations; Interaction paradigms; Post-manufacture validation and debug; Sensor applications and deployments; Differential equations; Empirical studies in collaborative and social computing; Discourse, dialogue and pragmatics; Non-photorealistic rendering; Photonic and optical interconnect; Energy metering; Web mining; Visibility; Interface design prototyping; Structured outputs; General literature; Theorem proving algorithms; Enterprise application integration; Ensemble methods; Visualization techniques; Principal component analysis; Industry statistics; Regularization; Image composition; Cross-computing tools and techniques; Type theory; Distributed computing methodologies; Law, social and behavioral sciences; Emerging architectures; Collision detection; Point-set topology; Circuit substrates; Enterprise interoperability; Wireless personal area networks; Document analysis; Online test and diagnostics; Participatory design; Approximation; Graphics file formats; Command line interfaces; Representation of polynomials; Network design principles; Trees; Wireless local area networks; Quantum communication and cryptography; Theory of computation; Smartphones; On-chip resource management; Stochastic approximation; Emerging optical and photonic technologies; Ubiquitous and mobile computing; Symbolic calculus algorithms; Reconstruction; In-network processing; Keyboards; Visual inspection; Graphics processors; Offshoring; Parallel computing models; Business process modeling; Internet governance / domain names; Active learning settings; Probabilistic representations; Axiomatic semantics; Information systems applications; Wide area networks; Protocol correctness; Software and its engineering; Partitioning and floorplanning; Browser security; Genetic algorithms; Systems theory; Cyber-physical networks; OAM protocols; Bayesian network models; III-V compounds; Multi-chip modules; Energy generation and storage; Anthropology; Computer crime; Hardware description languages and compilation; Platform power issues; Renewable energy; Divide and conquer; Empirical studies in visualization; Distributed artificial intelligence; Incomplete, inconsistent, and uncertain databases; Decision support systems; Quantum computation; Assertions; Media arts; Preprocessors; Paths and connectivity problems; Volumetric models; Simulation types and techniques; Programmable networks; Networking hardware; Consumer products policy; Content ranking; Combinatorics; Electrical-level simulation; Perceptron algorithm; Algorithm design techniques; Process control systems; Business rules; Emerging technologies; Dendrograms; Network performance evaluation; Reusable energy storage; Biological networks; Data anonymization and sanitization; Engineering; Batteries; Model-order reduction; Information accountability and usage control; Vision for robotics; Clock-network synthesis; Contextual design; Cultural characteristics; Computing in government; Procedural animation; Shape inference; Artificial intelligence; Network forensics; Systems biology; Hardware selection; Key management; Transfer learning; Computational biology; Maximum a posteriori modeling; Corporate surveillance; Reference works; Communication hardware, interfaces and storage; Phonology / morphology; Collaborative and social computing devices; Taxation; Database theory; Maximum likelihood modeling; Formal security models; IT architectures; Information flow control; Metallic interconnect; Massively parallel and high-performance simulations; Combinational circuits; Security requirements; Document management and text processing; Geographic characteristics; Matroids and greedoids; Noise reduction; Network management; Very large scale integration design; Malware and its mitigation; Learning latent representations; Patents; Collaborative interaction; Mathematical software performance; Natural language processing; Sequential synthesis; Distributed systems security; Computation of transforms; Structured prediction; Representation of mathematical objects; Dynamic programming for Markov decision processes; Memory and dense storage; Continuous models; Hypergraphs; Computer manufacturing; Cooperation and coordination; Business process management; Document preparation; Nonmonotonic, default reasoning and belief revision; Simulation tools; E-book readers; Generating random combinatorial structures; Application specific development environments; Quantum error correction and fault tolerance; Thermal issues; Discretization; Models of learning; Routing and network design problems; Software libraries and repositories; Computer vision tasks; Timed and hybrid models; Physical simulation; Machine learning; Shortest paths; Visualization application domains; Domain-specific security and privacy architectures; Gestural input; Stochastic games; Chip-level power issues; Network performance analysis; Computer vision; Heuristic function construction; Solution concepts in game theory; Multiscale systems; World Wide Web (network structure); Fault tolerance; Oracles and decision trees; Planning for deterministic actions; Sensor devices and platforms; Spam detection; Cladograms; Ranking; Access control; Applied computing; HCI theory, concepts and models; Epipolar geometry; Memory test and repair; Privacy-preserving protocols; Safety critical systems; Beamforming; Physical sciences and engineering; Government technology policy; Public key encryption; Metabolomics / metabonomics; Logic; Network range; Semantics and reasoning; Program schemes; Lifelong machine learning; Placement; Storage replication; Combinatorics on words; Machine learning approaches; Information lifecycle management; Network adapters; Camera calibration; Malware / spyware crime; Learning under covariate shift; Analog and mixed-signal circuit synthesis; Network formation; Lower bounds and information complexity; Finite state machines; Hardware; Random search heuristics; External storage; Evaluation; Hyperbolic trees; Coding theory; Mixture models; Genetics; Compact delay models; Complexity theory and logic; Logic circuits; Test data compression; Mathematical analysis; Hardware reliability screening; Format and notation; Database constraints theory; Empirical studies; Machine translation; Scanners; Data conversion; Batch learning; Statistical timing analysis; Interval arithmetic; Maximum entropy modeling; Statistical software; Software notations and tools; Network performance modeling; Network policy; Optimization algorithms; Functional analysis; Intrusion/anomaly detection and malware mitigation; Intrusion detection systems; Data assimilation; Mesh geometry models; Spintronics and magnetic technologies; Non-negative matrix factorization; Bio-embedded electronics; Software maintenance tools; Sequential circuits; Empirical studies in interaction design; Routers; Deep web; Database query processing and optimization (theory); Web-based interaction; Information system economics; Ubiquitous and mobile computing systems and tools; Parametric curve and surface models; Program verification; Trust frameworks; Functional verification; Active learning; Transcriptomics; Computing standards, RFCs and guidelines; Energy distribution; Peer-to-peer networks; Information systems; Authentication; Action semantics; Quantum computation theory; Discrete calculus algorithms; Neural systems; Accessibility design and evaluation methods; Single electron devices; Logical nodes; Differential variational inequalities; Dynamic programming; Temporal reasoning; Global positioning systems; Image-based rendering; Control methods; Mesh generation; Annotation; Program analysis; Cryptographic protocols; Type structures; W hierarchy; Interconnect; Remote replication; Computing and business; Computational advertising theory; Streaming models; Formal language definitions; Soft intellectual property; Network servers; Short-range networks; Built-in self-test; Information theory; Exact and approximate computation of equilibria; Accessibility systems and tools; Computing Classification System; Random projections and metric embeddings; Heat maps; Impact on the environment; Systems and tools for interaction design; Static memory; Routing protocols; Program constructs; Quantum query complexity; Distributed simulation; Discrete space search; Emerging languages and compilers; VLSI system specification and constraints; Video segmentation; Dynamic memory; Gender; Translator writing systems and compiler generators; Hardware test; Cross-validation; Web data description languages; Bio-inspired approaches; Interpolation; Health care information systems; Factorization methods; Communication complexity; Logical and relational learning; System forensics; Special-purpose algebraic systems; Compression strategies; Physical design (EDA); Database and storage security; Temperature optimization; Scene anomaly detection; Activity recognition and understanding; Tablet computers; Mirroring; Transistor-level synthesis; Number theory algorithms; Network properties; Design modules and hierarchy; Vulnerability scanners; Probabilistic computation; Defect-based test; Sexual orientation; Network dynamics; Automation; Quadrature; Learning linear models; Wired access networks; Storage power management; Software organization and properties; Differential algebraic equations; Cognitive science; Mobile networks; Visualization; Cell probe models and lower bounds; Learning from critiques; Personal digital assistants; Interactive computation; Social navigation; Enumeration; Representation of Boolean functions; Data modeling; Funding; PCB design and layout; Image representations; Power conversion; Expert systems; Layout-versus-schematics; 3D imaging; Wireless devices; Network protocol design; Computing profession; Hyperspectral imaging; Metrics; Problems, reductions and completeness; Boolean function learning; Vertical partitioning; Pre- and post-conditions; Web log analysis; Professional topics; Mathematics of computing; Formal specifications; Latent variable models; Network services; Simulation environments; Cellular neural networks; Circuits power issues; Probability and statistics; Permutations and combinations; Physics; Surveys and overviews; Overlay and other logical network structures; Optical character recognition; Computer vision representations; Language resources; Hate speech; Intellectual property; Security in hardware; Numerical analysis; Mobile computing; Population genetics; Reengineering; Approximation algorithms analysis; Separation logic; Religious orientation; Web application security; People with disabilities; Network economics; Ubiquitous and mobile devices; Data structures and algorithms for data management
+Relationships: 
+
+================================================================================
+Number of entities: 1000
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Computing Classification System is a parent of:
+- Computer systems organization
+- Embedded and cyber-physical systems
+- Human-centered computing
+- Real-time systems
+- Dependable and fault-tolerant systems and networks
+- Architectures
+- Telecommunications
+- Optical computing
+- Quantum computing
+- Mathematical software
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+- Graphics file formats
+- Graphics recognition and interpretation
+- Graphics processors
+- Graphics systems and interfaces
+
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

@@ -1,0 +1,98 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Single instruction, multiple data; Multiple instruction, single data; Computer systems organization; Parallel architectures; Embedded and cyber-physical systems; Architectures; Computing Classification System; Real-time systems; Systolic arrays; Embedded systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Parallel architectures is a subtopic of Architectures; Systolic arrays is a subtopic of Parallel architectures; Embedded systems is a subtopic of Embedded and cyber-physical systems; Single instruction, multiple data is a subtopic of Parallel architectures; Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Real-time systems is a subtopic of Computer systems organization; Multiple instruction, single data is a subtopic of Parallel architectures
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Architectures; Processors and memory architectures; Maintainability and maintenance; Embedded and cyber-physical systems; Real-time languages; Real-time systems; Fault-tolerant network topologies; Computing Classification System; Dependable and fault-tolerant systems and networks; Computer systems organization
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Serial architectures; Dependable and fault-tolerant systems and networks; Parallel architectures; Computer systems organization; Computing Classification System; Architectures; Embedded and cyber-physical systems; Interconnection architectures; Maintainability and maintenance; Pipeline computing
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Pipeline computing is a subtopic of Serial architectures; Parallel architectures is a subtopic of Architectures; Interconnection architectures is a subtopic of Parallel architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Computer systems organization; Architectures; Quantum computing; Other architectures; Embedded and cyber-physical systems; Real-time languages; Computing Classification System; Real-time systems; Real-time system specification; Optical computing
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Real-time system specification is a subtopic of Real-time systems; Real-time systems is a subtopic of Computer systems organization; Optical computing is a subtopic of Other architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Quantum computing is a subtopic of Other architectures; Other architectures is a subtopic of Architectures; Real-time languages is a subtopic of Real-time systems; Architectures is a subtopic of Computer systems organization
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Computer systems organization; Real-time system architecture; Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems; Architectures; Computing Classification System; Real-time systems; Distributed architectures; Serial architectures; Processors and memory architectures
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Computer systems organization is a subtopic of Computing Classification System; Distributed architectures is a subtopic of Architectures; Serial architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Real-time system architecture is a subtopic of Real-time systems; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: VLSI packaging; Hardware; Economics of chip design and manufacturing; Software and its engineering; Standard cell libraries; Robustness; Printed circuit boards; Computing Classification System; Security and privacy; Software notations and tools; Software creation and management; Architecture description languages; Software maintenance tools; Very large scale integration design; VLSI design manufacturing considerations; Software development techniques; Emerging technologies; Theory of computation; System description languages; Emerging optical and photonic technologies
+Relationships: 
+
+================================================================================
+Number of entities: 20
+Model: gpt-5
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Hardware is a subtopic of Computing Classification System; Software and its engineering is a subtopic of Computing Classification System; Security and privacy is a subtopic of Computing Classification System; Theory of computation is a subtopic of Computing Classification System; Very large scale integration design is a subtopic of Hardware; Printed circuit boards is a subtopic of Hardware; Emerging technologies is a subtopic of Hardware; VLSI design manufacturing considerations is a subtopic of Very large scale integration design; VLSI packaging is a subtopic of VLSI design manufacturing considerations; Economics of chip design and manufacturing is a subtopic of VLSI design manufacturing considerations; Standard cell libraries is a subtopic of Very large scale integration design; Emerging optical and photonic technologies is a subtopic of Emerging technologies; Software notations and tools is a subtopic of Software and its engineering; System description languages is a subtopic of Software notations and tools; Architecture description languages is a subtopic of System description languages; Software creation and management is a subtopic of Software and its engineering; Software maintenance tools is a subtopic of Software creation and management; Software development techniques is a subtopic of Software and its engineering; Robustness is a subtopic of Software and its engineering
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 19
+
+Parsed relationships:
+  Hardware → Computing Classification System
+  Software and its engineering → Computing Classification System
+  Security and privacy → Computing Classification System
+  Theory of computation → Computing Classification System
+  Very large scale integration design → Hardware
+  Printed circuit boards → Hardware
+  Emerging technologies → Hardware
+  VLSI design manufacturing considerations → Very large scale integration design
+  VLSI packaging → VLSI design manufacturing considerations
+  Economics of chip design and manufacturing → VLSI design manufacturing considerations
+  Standard cell libraries → Very large scale integration design
+  Emerging optical and photonic technologies → Emerging technologies
+  Software notations and tools → Software and its engineering
+  System description languages → Software notations and tools
+  Architecture description languages → System description languages
+  Software creation and management → Software and its engineering
+  Software maintenance tools → Software creation and management
+  Software development techniques → Software and its engineering
+  Robustness → Software and its engineering
+
+================================================================================

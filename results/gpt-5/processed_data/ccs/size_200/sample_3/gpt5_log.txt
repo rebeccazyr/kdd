@@ -1,0 +1,290 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Embedded systems; Multiple instruction, single data; Computer systems organization; Architectures; Computing Classification System; Real-time systems; Systolic arrays; Parallel architectures; Embedded and cyber-physical systems; Single instruction, multiple data
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Parallel architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Single instruction, multiple data is a subtopic of Parallel architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Systolic arrays is a subtopic of Parallel architectures; Multiple instruction, single data is a subtopic of Parallel architectures; Real-time systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Embedded systems is a subtopic of Embedded and cyber-physical systems
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Real-time systems; Architectures; Real-time languages; Computing Classification System; Processors and memory architectures; Dependable and fault-tolerant systems and networks; Fault-tolerant network topologies; Maintainability and maintenance; Computer systems organization
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Computer systems organization is a subtopic of Computing Classification System; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Real-time systems is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Computer systems organization; Maintainability and maintenance; Parallel architectures; Embedded and cyber-physical systems; Pipeline computing; Computing Classification System; Architectures; Interconnection architectures; Dependable and fault-tolerant systems and networks; Serial architectures
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Pipeline computing is a subtopic of Serial architectures; Computer systems organization is a subtopic of Computing Classification System; Interconnection architectures is a subtopic of Parallel architectures
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Computer systems organization; Real-time systems; Optical computing; Computing Classification System; Embedded and cyber-physical systems; Architectures; Real-time system specification; Real-time languages; Quantum computing; Other architectures
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Optical computing is a subtopic of Other architectures; Real-time system specification is a subtopic of Real-time systems; Real-time languages is a subtopic of Real-time systems; Architectures is a subtopic of Computer systems organization; Other architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System; Real-time systems is a subtopic of Computer systems organization; Quantum computing is a subtopic of Other architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Serial architectures; Computer systems organization; Dependable and fault-tolerant systems and networks; Distributed architectures; Real-time system architecture; Real-time systems; Embedded and cyber-physical systems; Computing Classification System; Architectures; Processors and memory architectures
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Distributed architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System; Serial architectures is a subtopic of Architectures; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time system architecture is a subtopic of Real-time systems; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Mathematical software; Design rule checking; VLSI packaging; Analog and mixed-signal circuit optimization; Network mobility; Business process management; Document preparation; Simulation languages; Proteomics; Decision analysis; Design for debug; Static timing analysis; Economics of chip design and manufacturing; Project management techniques; Enterprise data management; Network algorithms; Human-centered computing; General and reference; Operations research; Physical synthesis; Wire routing; Security and privacy; Network privacy and anonymity; Cross-organizational business processes; World Wide Web (network structure); Computer forensics; Circuit complexity; Web services; Applied computing; Proof complexity; Packaging; Side-channel analysis and countermeasures; Software reliability; Testing with distributed and parallel systems; Hybrid symbolic-numeric methods; Simulation theory; Computing occupations; Mobile ad hoc networks; Physical sciences and engineering; Arts and humanities; Network range; Computer-managed instruction; Hardware attacks and countermeasures; Project and people management; Software creation and management; Design rules; Timing analysis; Home networks; Hardware; Marketing; Post-manufacture validation and debug; Education; Genetics; Analog and mixed-signal circuits; Compact delay models; Design and analysis of algorithms; Power and energy; Board- and system-level test; Hardware reliability screening; Visibility; General literature; Enterprise application integration; Collaborative and social computing; Simulation evaluation; Crowdsourcing; Statistical software; Cross-computing tools and techniques; Bioinformatics; Distributed computing methodologies; Theory and algorithms for application domains; Ubiquitous and mobile computing theory, concepts and paradigms; Collision detection; Enterprise interoperability; Simulation support systems; Concurrent computing methodologies; Management of computing and information systems; Solvers; Very long-range networks; Information system economics; Network design principles; Modeling and simulation; Wireless local area networks; Archaeology; Image compression; Metropolitan area networks; Computational complexity and cryptography; Theory of computation; Information systems; Printers; Computing education; Ubiquitous and mobile computing; In-network processing; Web applications; Enterprise computing; Discrete calculus algorithms; Wide area networks; Electronic design automation; Software and its engineering; Network structure; Cryptographic protocols; Business-IT alignment; Computing and business; Layering; Linear algebra algorithms; Software system structures; Extra-functional properties; Printed circuit boards; Short-range networks; Clock generation and timing; System management; Life and medical sciences; Computing Classification System; Ad hoc networks; Impact on the environment; Social and professional topics; K-12 education; Genomics; Network architectures; History of computing; Animation; Media arts; Networks; Network reliability; Simulation types and techniques; Hardware test; Search-based software engineering; Hardware validation; Biographies; Economic impact; Computing methodologies; Electrical-level simulation; System forensics; Software fault tolerance; Physical design (EDA); Business rules; Interoperability; E-learning; Document types; Software performance; Health informatics; Network properties; Engineering; Interactive simulation; Quantum mechanic simulation; World Wide Web; Network dynamics; Software organization and properties; Wired access networks; Visualization; Symbolic and algebraic algorithms; Rendering; Data center networks; Design for testability; Performing arts; Mathematical foundations of cryptography; Physical verification; Electromagnetic interference and compatibility; Privacy protections; Funding; Procedural animation; Accreditation; PCB design and layout; Radio frequency and wireless circuits; Systems biology; Symbolic and algebraic manipulation; Computer graphics; Event-driven architectures; Wireless devices; Implementation management; Computing profession; Computer-assisted instruction; Cryptography; Communication hardware, interfaces and storage; Shape modeling; Computing / technology policy; Wireless access networks; Chemistry; Professional topics; Model development and analysis; Mathematics of computing; Local area networks; Power and thermal analysis; Programming interfaces; Network services; Discrete-event simulation; Algebraic algorithms; Massively parallel and high-performance simulations; Document management and text processing; Network management; Physics; Overlay and other logical network structures; Human and societal aspects of security and privacy; Very large scale integration design; Tactile and hand-based interfaces; Mathematical software performance; Security in hardware; Network economics; Approximation algorithms analysis; Network types; Packet-switching networks
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: gpt-5
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+General and reference is a subtopic of Computing Classification System; Hardware is a subtopic of Computing Classification System; Software and its engineering is a subtopic of Computing Classification System; Networks is a subtopic of Computing Classification System; Information systems is a subtopic of Computing Classification System; Theory of computation is a subtopic of Computing Classification System; Computing methodologies is a subtopic of Computing Classification System; Applied computing is a subtopic of Computing Classification System; Social and professional topics is a subtopic of Computing Classification System; Computing education is a subtopic of Computing Classification System; Human-centered computing is a subtopic of Computing Classification System; Mathematics of computing is a subtopic of Computing Classification System; Security and privacy is a subtopic of Computing Classification System
+
+Cross-computing tools and techniques is a subtopic of General and reference; General literature is a subtopic of General and reference; Document types is a subtopic of General and reference; Document preparation is a subtopic of General and reference; Biographies is a subtopic of General and reference
+
+Communication hardware, interfaces and storage is a subtopic of Hardware; Electronic design automation is a subtopic of Hardware; Power and energy is a subtopic of Hardware; Printed circuit boards is a subtopic of Hardware; Packaging is a subtopic of Hardware; Radio frequency and wireless circuits is a subtopic of Hardware; Analog and mixed-signal circuits is a subtopic of Hardware; Security in hardware is a subtopic of Hardware; Hardware test is a subtopic of Hardware; Electromagnetic interference and compatibility is a subtopic of Hardware
+Printers is a subtopic of Communication hardware, interfaces and storage; Wireless devices is a subtopic of Communication hardware, interfaces and storage
+Very large scale integration design is a subtopic of Electronic design automation; Physical design (EDA) is a subtopic of Electronic design automation; Physical verification is a subtopic of Electronic design automation; Timing analysis is a subtopic of Electronic design automation; Electrical-level simulation is a subtopic of Electronic design automation; Power and thermal analysis is a subtopic of Electronic design automation
+Wire routing is a subtopic of Physical design (EDA); Physical synthesis is a subtopic of Physical design (EDA)
+Design rules is a subtopic of Physical verification; Design rule checking is a subtopic of Physical verification
+Static timing analysis is a subtopic of Timing analysis; Compact delay models is a subtopic of Timing analysis; Clock generation and timing is a subtopic of Timing analysis
+VLSI packaging is a subtopic of Packaging; PCB design and layout is a subtopic of Printed circuit boards
+Hardware validation is a subtopic of Hardware test; Hardware reliability screening is a subtopic of Hardware test; Board- and system-level test is a subtopic of Hardware test; Design for testability is a subtopic of Hardware test; Design for debug is a subtopic of Hardware test; Post-manufacture validation and debug is a subtopic of Hardware test
+Side-channel analysis and countermeasures is a subtopic of Security in hardware; Hardware attacks and countermeasures is a subtopic of Security in hardware
+Analog and mixed-signal circuit optimization is a subtopic of Analog and mixed-signal circuits
+
+Software creation and management is a subtopic of Software and its engineering; Software organization and properties is a subtopic of Software and its engineering; Software system structures is a subtopic of Software and its engineering; Testing with distributed and parallel systems is a subtopic of Software and its engineering
+Programming interfaces is a subtopic of Software system structures; Event-driven architectures is a subtopic of Software system structures
+Search-based software engineering is a subtopic of Software creation and management; Project and people management is a subtopic of Software creation and management; Project management techniques is a subtopic of Software creation and management; Implementation management is a subtopic of Software creation and management
+Extra-functional properties is a subtopic of Software organization and properties; Software reliability is a subtopic of Extra-functional properties; Software performance is a subtopic of Extra-functional properties; Software fault tolerance is a subtopic of Extra-functional properties
+
+Network architectures is a subtopic of Networks; Network services is a subtopic of Networks; Network properties is a subtopic of Networks; Network management is a subtopic of Networks; Network algorithms is a subtopic of Networks; Network structure is a subtopic of Networks; Network types is a subtopic of Networks; Network economics is a subtopic of Networks
+Layering is a subtopic of Network architectures; Network design principles is a subtopic of Network architectures
+Overlay and other logical network structures is a subtopic of Network structure; World Wide Web (network structure) is a subtopic of Network structure
+Network dynamics is a subtopic of Network properties; Network reliability is a subtopic of Network properties; Network range is a subtopic of Network properties; Network mobility is a subtopic of Network properties
+In-network processing is a subtopic of Network services
+Packet-switching networks is a subtopic of Network types; Local area networks is a subtopic of Network types; Metropolitan area networks is a subtopic of Network types; Wide area networks is a subtopic of Network types; Very long-range networks is a subtopic of Network types; Short-range networks is a subtopic of Network types; Wired access networks is a subtopic of Network types; Wireless access networks is a subtopic of Network types; Data center networks is a subtopic of Network types; Ad hoc networks is a subtopic of Network types
+Wireless local area networks is a subtopic of Local area networks; Home networks is a subtopic of Local area networks; Mobile ad hoc networks is a subtopic of Ad hoc networks
+
+Cryptography is a subtopic of Security and privacy; Cryptographic protocols is a subtopic of Cryptography; Privacy protections is a subtopic of Security and privacy; Human and societal aspects of security and privacy is a subtopic of Security and privacy; Computer forensics is a subtopic of Security and privacy; System forensics is a subtopic of Security and privacy; Network privacy and anonymity is a subtopic of Security and privacy
+
+Enterprise computing is a subtopic of Information systems; Enterprise data management is a subtopic of Information systems; Document management and text processing is a subtopic of Information systems; World Wide Web is a subtopic of Information systems; Business process management is a subtopic of Information systems; Management of computing and information systems is a subtopic of Information systems
+Web applications is a subtopic of World Wide Web; Web services is a subtopic of World Wide Web
+Enterprise application integration is a subtopic of Enterprise computing; Enterprise interoperability is a subtopic of Enterprise computing; Business rules is a subtopic of Enterprise computing
+Cross-organizational business processes is a subtopic of Business process management
+System management is a subtopic of Management of computing and information systems
+
+Modeling and simulation is a subtopic of Computing methodologies; Computer graphics is a subtopic of Computing methodologies; Distributed computing methodologies is a subtopic of Computing methodologies; Concurrent computing methodologies is a subtopic of Computing methodologies; Visualization is a subtopic of Human-centered computing
+Interactive simulation is a subtopic of Modeling and simulation; Simulation theory is a subtopic of Modeling and simulation; Simulation languages is a subtopic of Modeling and simulation; Simulation types and techniques is a subtopic of Modeling and simulation; Simulation evaluation is a subtopic of Modeling and simulation; Simulation support systems is a subtopic of Modeling and simulation; Model development and analysis is a subtopic of Modeling and simulation; Quantum mechanic simulation is a subtopic of Modeling and simulation
+Discrete-event simulation is a subtopic of Simulation types and techniques; Massively parallel and high-performance simulations is a subtopic of Simulation types and techniques
+Rendering is a subtopic of Computer graphics; Animation is a subtopic of Computer graphics; Procedural animation is a subtopic of Animation; Shape modeling is a subtopic of Computer graphics; Image compression is a subtopic of Computer graphics; Collision detection is a subtopic of Computer graphics; Visibility is a subtopic of Rendering
+
+Symbolic and algebraic manipulation is a subtopic of Mathematics of computing; Symbolic and algebraic algorithms is a subtopic of Mathematics of computing; Algebraic algorithms is a subtopic of Mathematics of computing; Solvers is a subtopic of Mathematics of computing; Mathematical software is a subtopic of Mathematics of computing
+Linear algebra algorithms is a subtopic of Algebraic algorithms; Discrete calculus algorithms is a subtopic of Algebraic algorithms; Hybrid symbolic-numeric methods is a subtopic of Symbolic and algebraic algorithms
+Mathematical software performance is a subtopic of Mathematical software; Statistical software is a subtopic of Mathematical software
+
+Design and analysis of algorithms is a subtopic of Theory of computation; Proof complexity is a subtopic of Theory of computation; Circuit complexity is a subtopic of Theory of computation; Computational complexity and cryptography is a subtopic of Theory of computation; Mathematical foundations of cryptography is a subtopic of Theory of computation
+Approximation algorithms analysis is a subtopic of Design and analysis of algorithms
+
+Engineering is a subtopic of Applied computing; Physical sciences and engineering is a subtopic of Applied computing; Life and medical sciences is a subtopic of Applied computing; Arts and humanities is a subtopic of Applied computing; Computing and business is a subtopic of Applied computing; Theory and algorithms for application domains is a subtopic of Applied computing; Education is a subtopic of Applied computing
+Health informatics is a subtopic of Life and medical sciences; Bioinformatics is a subtopic of Life and medical sciences; Genetics is a subtopic of Life and medical sciences
+Genomics is a subtopic of Bioinformatics; Proteomics is a subtopic of Bioinformatics; Systems biology is a subtopic of Bioinformatics
+Physics is a subtopic of Physical sciences and engineering; Chemistry is a subtopic of Physical sciences and engineering
+Archaeology is a subtopic of Arts and humanities; Media arts is a subtopic of Arts and humanities; Performing arts is a subtopic of Arts and humanities
+Operations research is a subtopic of Applied computing; Decision analysis is a subtopic of Operations research
+Marketing is a subtopic of Computing and business; Economic impact is a subtopic of Computing and business; Information system economics is a subtopic of Computing and business; Economics of chip design and manufacturing is a subtopic of Computing and business
+E-learning is a subtopic of Education; Computer-assisted instruction is a subtopic of E-learning; Computer-managed instruction is a subtopic of E-learning
+
+Collaborative and social computing is a subtopic of Human-centered computing; Crowdsourcing is a subtopic of Collaborative and social computing; Ubiquitous and mobile computing is a subtopic of Human-centered computing; Tactile and hand-based interfaces is a subtopic of Human-centered computing
+Ubiquitous and mobile computing theory, concepts and paradigms is a subtopic of Ubiquitous and mobile computing
+
+Professional topics is a subtopic of Social and professional topics; Computing profession is a subtopic of Social and professional topics; History of computing is a subtopic of Social and professional topics; Computing / technology policy is a subtopic of Social and professional topics; Impact on the environment is a subtopic of Social and professional topics
+Computing occupations is a subtopic of Computing profession; Accreditation is a subtopic of Professional topics; Funding is a subtopic of Professional topics
+
+Computing education is a subtopic of Computing Classification System; K-12 education is a subtopic of Computing education
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 148
+
+Parsed relationships:
+  General and reference → Computing Classification System
+  Hardware → Computing Classification System
+  Software and its engineering → Computing Classification System
+  Networks → Computing Classification System
+  Information systems → Computing Classification System
+  Theory of computation → Computing Classification System
+  Computing methodologies → Computing Classification System
+  Applied computing → Computing Classification System
+  Social and professional topics → Computing Classification System
+  Computing education → Computing Classification System
+  Human-centered computing → Computing Classification System
+  Mathematics of computing → Computing Classification System
+  Security and privacy → Computing Classification System
+  General literature → General and reference
+  Document types → General and reference
+  Document preparation → General and reference
+  Biographies → General and reference
+  Electronic design automation → Hardware
+  Power and energy → Hardware
+  Printed circuit boards → Hardware
+  Packaging → Hardware
+  Radio frequency and wireless circuits → Hardware
+  Analog and mixed-signal circuits → Hardware
+  Security in hardware → Hardware
+  Hardware test → Hardware
+  Electromagnetic interference and compatibility → Hardware
+  Wireless devices → Communication hardware, interfaces and storage
+  Physical design (EDA) → Electronic design automation
+  Physical verification → Electronic design automation
+  Timing analysis → Electronic design automation
+  Electrical-level simulation → Electronic design automation
+  Power and thermal analysis → Electronic design automation
+  Physical synthesis → Physical design (EDA)
+  Design rule checking → Physical verification
+  Compact delay models → Timing analysis
+  Clock generation and timing → Timing analysis
+  PCB design and layout → Printed circuit boards
+  Hardware reliability screening → Hardware test
+  Board- and system-level test → Hardware test
+  Design for testability → Hardware test
+  Design for debug → Hardware test
+  Post-manufacture validation and debug → Hardware test
+  Hardware attacks and countermeasures → Security in hardware
+  Software organization and properties → Software and its engineering
+  Software system structures → Software and its engineering
+  Testing with distributed and parallel systems → Software and its engineering
+  Event-driven architectures → Software system structures
+  Project and people management → Software creation and management
+  Project management techniques → Software creation and management
+  Implementation management → Software creation and management
+  Software reliability → Extra-functional properties
+  Software performance → Extra-functional properties
+  Software fault tolerance → Extra-functional properties
+  Network services → Networks
+  Network properties → Networks
+  Network management → Networks
+  Network algorithms → Networks
+  Network structure → Networks
+  Network types → Networks
+  Network economics → Networks
+  Network design principles → Network architectures
+  World Wide Web (network structure) → Network structure
+  Network reliability → Network properties
+  Network range → Network properties
+  Network mobility → Network properties
+  Local area networks → Network types
+  Metropolitan area networks → Network types
+  Wide area networks → Network types
+  Very long-range networks → Network types
+  Short-range networks → Network types
+  Wired access networks → Network types
+  Wireless access networks → Network types
+  Data center networks → Network types
+  Ad hoc networks → Network types
+  Home networks → Local area networks
+  Mobile ad hoc networks → Ad hoc networks
+  Cryptographic protocols → Cryptography
+  Privacy protections → Security and privacy
+  Human and societal aspects of security and privacy → Security and privacy
+  Computer forensics → Security and privacy
+  System forensics → Security and privacy
+  Network privacy and anonymity → Security and privacy
+  Enterprise data management → Information systems
+  Document management and text processing → Information systems
+  World Wide Web → Information systems
+  Business process management → Information systems
+  Management of computing and information systems → Information systems
+  Web services → World Wide Web
+  Enterprise interoperability → Enterprise computing
+  Business rules → Enterprise computing
+  Computer graphics → Computing methodologies
+  Distributed computing methodologies → Computing methodologies
+  Concurrent computing methodologies → Computing methodologies
+  Visualization → Human-centered computing
+  Simulation theory → Modeling and simulation
+  Simulation languages → Modeling and simulation
+  Simulation types and techniques → Modeling and simulation
+  Simulation evaluation → Modeling and simulation
+  Simulation support systems → Modeling and simulation
+  Model development and analysis → Modeling and simulation
+  Quantum mechanic simulation → Modeling and simulation
+  Massively parallel and high-performance simulations → Simulation types and techniques
+  Animation → Computer graphics
+  Procedural animation → Animation
+  Shape modeling → Computer graphics
+  Image compression → Computer graphics
+  Collision detection → Computer graphics
+  Visibility → Rendering
+  Symbolic and algebraic algorithms → Mathematics of computing
+  Algebraic algorithms → Mathematics of computing
+  Solvers → Mathematics of computing
+  Mathematical software → Mathematics of computing
+  Discrete calculus algorithms → Algebraic algorithms
+  Hybrid symbolic-numeric methods → Symbolic and algebraic algorithms
+  Statistical software → Mathematical software
+  Proof complexity → Theory of computation
+  Circuit complexity → Theory of computation
+  Computational complexity and cryptography → Theory of computation
+  Mathematical foundations of cryptography → Theory of computation
+  Physical sciences and engineering → Applied computing
+  Life and medical sciences → Applied computing
+  Arts and humanities → Applied computing
+  Computing and business → Applied computing
+  Theory and algorithms for application domains → Applied computing
+  Education → Applied computing
+  Bioinformatics → Life and medical sciences
+  Genetics → Life and medical sciences
+  Proteomics → Bioinformatics
+  Systems biology → Bioinformatics
+  Chemistry → Physical sciences and engineering
+  Media arts → Arts and humanities
+  Performing arts → Arts and humanities
+  Decision analysis → Operations research
+  Economic impact → Computing and business
+  Information system economics → Computing and business
+  Economics of chip design and manufacturing → Computing and business
+  Computer-assisted instruction → E-learning
+  Computer-managed instruction → E-learning
+  Crowdsourcing → Collaborative and social computing
+  Ubiquitous and mobile computing → Human-centered computing
+  Tactile and hand-based interfaces → Human-centered computing
+  Computing profession → Social and professional topics
+  History of computing → Social and professional topics
+  Computing / technology policy → Social and professional topics
+  Impact on the environment → Social and professional topics
+  Accreditation → Professional topics
+  Funding → Professional topics
+  K-12 education → Computing education
+
+================================================================================

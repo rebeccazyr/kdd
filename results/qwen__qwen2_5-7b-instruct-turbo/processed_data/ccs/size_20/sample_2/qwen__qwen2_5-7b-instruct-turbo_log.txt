@@ -1,0 +1,95 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Computer systems organization; Computing Classification System; Embedded and cyber-physical systems; Single instruction, multiple data; Systolic arrays; Parallel architectures; Embedded systems; Multiple instruction, single data; Architectures; Real-time systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Systolic arrays is a subtopic of Parallel architectures; Computer systems organization is a subtopic of Computing Classification System; Parallel architectures is a subtopic of Architectures; Multiple instruction, single data is a subtopic of Parallel architectures; Single instruction, multiple data is a subtopic of Parallel architectures; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Embedded systems is a subtopic of Embedded and cyber-physical systems
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Maintainability and maintenance; Architectures; Processors and memory architectures; Embedded and cyber-physical systems; Dependable and fault-tolerant systems and networks; Fault-tolerant network topologies; Real-time languages; Real-time systems; Computer systems organization; Computing Classification System
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Real-time systems is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Real-time languages is a subtopic of Real-time systems; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Dependable and fault-tolerant systems and networks; Serial architectures; Pipeline computing; Interconnection architectures; Computing Classification System; Architectures; Maintainability and maintenance; Computer systems organization; Parallel architectures; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Serial architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Interconnection architectures is a subtopic of Parallel architectures; Pipeline computing is a subtopic of Serial architectures; Parallel architectures is a subtopic of Architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Real-time system specification; Computing Classification System; Architectures; Embedded and cyber-physical systems; Quantum computing; Optical computing; Real-time languages; Real-time systems; Other architectures; Computer systems organization
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Other architectures is a subtopic of Architectures; Real-time system specification is a subtopic of Real-time systems; Architectures is a subtopic of Computer systems organization; Optical computing is a subtopic of Other architectures; Quantum computing is a subtopic of Other architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Computer systems organization is a subtopic of Computing Classification System; Real-time systems is a subtopic of Computer systems organization
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Real-time systems; Computer systems organization; Computing Classification System; Dependable and fault-tolerant systems and networks; Distributed architectures; Serial architectures; Architectures; Embedded and cyber-physical systems; Processors and memory architectures; Real-time system architecture
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Real-time system architecture is a subtopic of Real-time systems; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Distributed architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System; Real-time systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Mathematical software; Probabilistic representations; Hardware; Systems security; Continuous mathematics; Mathematical analysis; Statistical software; Computing Classification System; Security and privacy; Mathematics of computing; Programming interfaces; Network architectures; Networks; Probability and statistics; Data management systems; Human and societal aspects of security and privacy; Solvers; Network design principles; Emerging technologies; Information systems
+Relationships: 
+
+================================================================================
+Number of entities: 20
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Mathematics of computing is a subtopic of Computing Classification System; Mathematical analysis is a subtopic of Mathematics of computing; Continuous mathematics is a subtopic of Mathematics of computing; Probabilistic representations is a subtopic of Probability and statistics; Probability and statistics is a subtopic of Mathematics of computing; Statistical software is a subtopic of Mathematical software; Mathematical software is a subtopic of Mathematics of computing; Programming interfaces is a subtopic of Mathematics of computing; Network design principles is a subtopic of Network architectures; Network architectures is a subtopic of Networks; Solvers is a subtopic of Mathematical software; Security and privacy is a subtopic of Systems security; Human and societal aspects of security and privacy is a subtopic of Security and privacy; Systems security is a subtopic of Computing Classification System; Information systems is a subtopic of Networks; Emerging technologies is a subtopic of Computing Classification System
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 16
+
+Parsed relationships:
+  Mathematics of computing → Computing Classification System
+  Mathematical analysis → Mathematics of computing
+  Continuous mathematics → Mathematics of computing
+  Probabilistic representations → Probability and statistics
+  Probability and statistics → Mathematics of computing
+  Statistical software → Mathematical software
+  Mathematical software → Mathematics of computing
+  Programming interfaces → Mathematics of computing
+  Network design principles → Network architectures
+  Network architectures → Networks
+  Solvers → Mathematical software
+  Security and privacy → Systems security
+  Human and societal aspects of security and privacy → Security and privacy
+  Systems security → Computing Classification System
+  Information systems → Networks
+  Emerging technologies → Computing Classification System
+
+================================================================================

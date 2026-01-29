@@ -1,0 +1,88 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: fagottini; gemelli; pasta; fusilli; food; spaghetti; bavette; occhi di lupo; cannelloni; pici
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+gemelli is a subtopic of pasta; bavette is a subtopic of pasta; cannelloni is a subtopic of pasta; fusilli is a subtopic of pasta; pici is a subtopic of pasta; fagottini is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: food; croxetti; mezzelune; pasta; fuži; corzetti; spaghetti; linguine; sacchettoni; rotini
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+fuži is a subtopic of pasta; sacchettoni is a subtopic of pasta; rotini is a subtopic of pasta; corzetti is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food; linguine is a subtopic of pasta; croxetti is a subtopic of pasta; mezzelune is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: fuži; food; anellini; mezzelune; corzetti; occhi di lupo; bigoli; garganelli; pasta; stringozzi
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+fuži is a subtopic of pasta; corzetti is a subtopic of pasta; anellini is a subtopic of pasta; garganelli is a subtopic of pasta; bigoli is a subtopic of pasta; pasta is a subtopic of food; occhi di lupo is a subtopic of pasta; mezzelune is a subtopic of pasta; stringozzi is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: rotini; passatelli; casoncelli; food; pasta; campanelle; ptitim; lanterne; spaghetti; macaroni
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+spaghetti is a subtopic of pasta; lanterne is a subtopic of pasta; passatelli is a subtopic of pasta; ptitim is a subtopic of pasta; campanelle is a subtopic of pasta; rotini is a subtopic of pasta; casoncelli is a subtopic of pasta; pasta is a subtopic of food; macaroni is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: pasta; penne; rotini; ptitim; food; spaghetti; rotelle; stringozzi; mezzelune; sacchettoni
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+stringozzi is a subtopic of pasta; penne is a subtopic of pasta; sacchettoni is a subtopic of pasta; rotelle is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; mezzelune is a subtopic of pasta; pasta is a subtopic of food; rotini is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: yaki udon; food; cheese spread; shrimp roe noodles; dairy product; dip; tapenade; noodle; cottage cheese; cheese
+Relationships: 
+
+================================================================================
+Number of entities: 10
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+shrimp roe noodles is a subtopic of noodle; yaki udon is a subtopic of noodle; noodle is a subtopic of food; cottage cheese is a subtopic of dairy product; cheese spread is a subtopic of dairy product; tapenade is a subtopic of dip; dip is a subtopic of food; dairy product is a subtopic of food; cheese is a subtopic of dairy product
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 9
+
+Parsed relationships:
+  shrimp roe noodles → noodle
+  yaki udon → noodle
+  noodle → food
+  cottage cheese → dairy product
+  cheese spread → dairy product
+  tapenade → dip
+  dip → food
+  dairy product → food
+  cheese → dairy product
+
+================================================================================

@@ -1,0 +1,415 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Computing Classification System; Parallel architectures; Single instruction, multiple data; Embedded and cyber-physical systems; Computer systems organization; Architectures; Real-time systems; Systolic arrays; Embedded systems; Multiple instruction, single data
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Computer systems organization is a subtopic of Computing Classification System; Architectures is a subtopic of Computer systems organization; Embedded systems is a subtopic of Embedded and cyber-physical systems; Real-time systems is a subtopic of Computer systems organization; Single instruction, multiple data is a subtopic of Parallel architectures; Parallel architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Multiple instruction, single data is a subtopic of Parallel architectures; Systolic arrays is a subtopic of Parallel architectures
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Fault-tolerant network topologies; Embedded and cyber-physical systems; Dependable and fault-tolerant systems and networks; Computer systems organization; Architectures; Maintainability and maintenance; Real-time languages; Processors and memory architectures; Computing Classification System; Real-time systems
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Parallel architectures; Maintainability and maintenance; Interconnection architectures; Architectures; Embedded and cyber-physical systems; Pipeline computing; Dependable and fault-tolerant systems and networks; Computer systems organization; Computing Classification System; Serial architectures
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Computer systems organization is a subtopic of Computing Classification System; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Serial architectures is a subtopic of Architectures; Interconnection architectures is a subtopic of Parallel architectures; Architectures is a subtopic of Computer systems organization; Pipeline computing is a subtopic of Serial architectures; Parallel architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Other architectures; Computing Classification System; Computer systems organization; Embedded and cyber-physical systems; Real-time system specification; Quantum computing; Real-time languages; Optical computing; Architectures; Real-time systems
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Quantum computing is a subtopic of Other architectures; Computer systems organization is a subtopic of Computing Classification System; Optical computing is a subtopic of Other architectures; Other architectures is a subtopic of Architectures; Real-time system specification is a subtopic of Real-time systems; Real-time languages is a subtopic of Real-time systems; Real-time systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Distributed architectures; Serial architectures; Real-time system architecture; Computer systems organization; Computing Classification System; Processors and memory architectures; Real-time systems; Dependable and fault-tolerant systems and networks; Architectures; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Real-time system architecture is a subtopic of Real-time systems; Computer systems organization is a subtopic of Computing Classification System; Distributed architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Real-time systems is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: VLSI packaging; Search engine indexing; Continuous mathematics; Economics of chip design and manufacturing; Thermal issues; Statistical graphics; Network algorithms; Standard cell libraries; Human-centered computing; Identity theft; General and reference; Integrated circuits; Security and privacy; Fault tolerance; Dictionaries; Censorship; Collaborative search; Applied computing; Equational models; Temperature monitoring; Physical sciences and engineering; Arts and humanities; Distribution functions; Resampling methods; Accessibility; Malware / spyware crime; Software creation and management; Document collection models; Hardware; Design reuse and communication-based design; Empirical studies in collaborative and social computing; Pornography; Task models; Education; Temperature control; Power and energy; Document representation; Collaborative and social computing; Software notations and tools; Contingency table analysis; Search engine architectures and scalability; Intrusion/anomaly detection and malware mitigation; Continuous functions; Users and interactive retrieval; Information systems; On-chip resource management; Full-custom circuits; Offshoring; Probabilistic representations; Systems security; Accessibility theory, concepts and paradigms; Software and its engineering; Queueing theory; Interconnect; Computing and business; Input / output styles; Printed circuit boards; Information theory; Computer crime; Accessibility systems and tools; Computing Classification System; Information retrieval; Specialized information retrieval; Statistical paradigms; Social and professional topics; Probabilistic algorithms; Networks; Designing software; Retrieval efficiency; Test collections; Search-based software engineering; Biographies; Probabilistic reasoning algorithms; Sound and music computing; Surveillance; Content analysis and feature selection; Document types; Retrieval models and ranking; Time series analysis; Collaborative and social computing theory, concepts and paradigms; PCB design and layout; Variable elimination; Robustness; Cryptography; Retrieval effectiveness; Computing / technology policy; Professional topics; Mathematics of computing; Accessibility technologies; Nonparametric statistics; Development frameworks and environments; Probability and statistics; Surveys and overviews; Very large scale integration design; Hate speech; Evaluation of retrieval results; Ontologies; Reengineering; Network access control; Requirements analysis
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Computing Classification System is a broad category that encompasses the following subtopics:
+
+- Computer systems organization
+  - Architectures
+    - Distributed architectures
+    - Serial architectures
+  - VLSI packaging
+  - Standard cell libraries
+  - Full-custom circuits
+  - On-chip resource management
+  - Design reuse and communication-based design
+  - Very large scale integration design
+- Information systems
+  - Information retrieval
+    - Document collection models
+    - Document representation
+    - Document types
+    - Retrieval models and ranking
+    - Retrieval efficiency
+    - Retrieval effectiveness
+    - Search engine architectures and scalability
+    - Search engine indexing
+    - Search-based software engineering
+  - Information theory
+  - Information theory
+- Computing and business
+  - Economics of chip design and manufacturing
+  - Offshoring
+  - Computing / technology policy
+- Software and its engineering
+  - Software creation and management
+    - Software notations and tools
+    - Development frameworks and environments
+    - Requirements analysis
+    - Reengineering
+  - Software notations and tools
+  - Software notations and tools
+- Hardware
+  - Integrated circuits
+  - Printed circuit boards
+  - PCB design and layout
+- Networks
+  - Network algorithms
+  - Network access control
+- Security and privacy
+  - Security and privacy
+  - Systems security
+  - Cryptography
+  - Malware / spyware crime
+  - Intrusion/anomaly detection and malware mitigation
+- Fault tolerance
+  - Fault tolerance
+- Real-time systems
+  - Real-time system architecture
+  - Real-time languages
+- Dependable and fault-tolerant systems and networks
+  - Dependable and fault-tolerant systems and networks
+  - Thermal issues
+  - Temperature monitoring
+  - Temperature control
+  - Power and energy
+- Human-centered computing
+  - Human-centered computing
+  - Accessibility
+  - Accessibility theory, concepts and paradigms
+  - Accessibility systems and tools
+  - Accessibility technologies
+- Collaborative and social computing
+  - Collaborative and social computing
+  - Collaborative and social computing theory, concepts and paradigms
+  - Collaborative search
+  - Empirical studies in collaborative and social computing
+- Arts and humanities
+  - Biographies
+  - Pornography
+  - Hate speech
+  - Surveillance
+- Social and professional topics
+  - Professional topics
+  - Social and professional topics
+- Mathematics of computing
+  - Continuous mathematics
+    - Continuous functions
+    - Continuous functions
+  - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and statistics
+    - Probability and
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

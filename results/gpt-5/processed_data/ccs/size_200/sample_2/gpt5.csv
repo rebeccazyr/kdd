@@ -1,0 +1,194 @@
+child,parent
+Hardware,Computing Classification System
+Networks,Computing Classification System
+Computing methodologies,Computing Classification System
+Mathematics of computing,Computing Classification System
+Software and its engineering,Computing Classification System
+Theory of computation,Computing Classification System
+Applied computing,Computing Classification System
+Human-centered computing,Computing Classification System
+Social and professional topics,Computing Classification System
+General and reference,Computing Classification System
+Computers in other domains,Computing Classification System
+Security and privacy,Computing Classification System
+"Communication hardware, interfaces and storage",Hardware
+Very large scale integration design,Hardware
+VLSI packaging,Hardware
+Printed circuit boards,Hardware
+Electro-mechanical devices,Hardware
+Analog and mixed-signal circuits,Hardware
+Clock generation and timing,Hardware
+Electromagnetic interference and compatibility,Hardware
+Hardware validation,Hardware
+Graphics processors,Hardware
+Power and energy,Hardware
+External storage,"Communication hardware, interfaces and storage"
+Wireline communication,"Communication hardware, interfaces and storage"
+Network adapters,"Communication hardware, interfaces and storage"
+VLSI system specification and constraints,Very large scale integration design
+Design for manufacturability,Very large scale integration design
+Physical verification,Very large scale integration design
+On-chip resource management,Very large scale integration design
+Layout-versus-schematics,Physical verification
+Package-level interconnect,VLSI packaging
+Multi-chip modules,VLSI packaging
+Die and wafer stacking,VLSI packaging
+Analog and mixed-signal circuit synthesis,Analog and mixed-signal circuits
+Data conversion,Analog and mixed-signal circuits
+Power estimation and optimization,Power and energy
+Platform power issues,Power and energy
+Switching devices power issues,Power and energy
+Emerging technologies,Hardware
+Quantum technologies,Emerging technologies
+Quantum dots and cellular automata,Emerging technologies
+Machine learning,Computing methodologies
+Modeling and simulation,Computing methodologies
+Computer graphics,Computing methodologies
+Signal processing systems,Computing methodologies
+Distributed computing methodologies,Computing methodologies
+Parallel computing methodologies,Computing methodologies
+Concurrent computing methodologies,Computing methodologies
+Parallel computing models,Parallel computing methodologies
+Machine learning approaches,Machine learning
+Learning settings,Machine learning
+Active learning settings,Learning settings
+Learning from critiques,Learning settings
+Cross-validation,Machine learning
+Modeling methodologies,Modeling and simulation
+Model development and analysis,Modeling methodologies
+Simulation theory,Modeling and simulation
+Simulation types and techniques,Modeling and simulation
+Simulation support systems,Modeling and simulation
+Simulation evaluation,Modeling and simulation
+Massively parallel and high-performance simulations,Modeling and simulation
+Multiscale systems,Modeling and simulation
+Discrete-event simulation,Simulation types and techniques
+Continuous simulation,Simulation types and techniques
+Distributed simulation,Simulation types and techniques
+Physical simulation,Simulation types and techniques
+Interactive simulation,Simulation types and techniques
+Simulation by animation,Simulation types and techniques
+Animation,Simulation types and techniques
+Molecular simulation,Physical simulation
+Quantum mechanic simulation,Physical simulation
+Rendering,Computer graphics
+Image-based rendering,Computer graphics
+Graphics systems and interfaces,Computer graphics
+Graphics file formats,Computer graphics
+Motion processing,Computer graphics
+Image manipulation,Computer graphics
+Design and analysis of algorithms,Theory of computation
+Models of computation,Theory of computation
+Formal languages and automata theory,Theory of computation
+Semantics and reasoning,Theory of computation
+Computational complexity and cryptography,Theory of computation
+Computability,Theory of computation
+Interactive computation,Theory of computation
+Interactive proof systems,Theory of computation
+Graph algorithms analysis,Design and analysis of algorithms
+Approximation algorithms analysis,Design and analysis of algorithms
+"Streaming, sublinear and near linear time algorithms",Design and analysis of algorithms
+Online algorithms,Design and analysis of algorithms
+Data path algorithms,Design and analysis of algorithms
+Control path algorithms,Design and analysis of algorithms
+Turing machines,Models of computation
+Abstract machines,Models of computation
+Streaming models,Models of computation
+Quantum computation theory,Models of computation
+Algebraic language theory,Formal languages and automata theory
+Tree languages,Formal languages and automata theory
+Rewrite systems,Formal languages and automata theory
+Denotational semantics,Semantics and reasoning
+Algebraic semantics,Semantics and reasoning
+Categorical semantics,Semantics and reasoning
+Action semantics,Semantics and reasoning
+Program semantics,Semantics and reasoning
+Lower bounds and information complexity,Computational complexity and cryptography
+Proof complexity,Computational complexity and cryptography
+Quantum communication complexity,Computational complexity and cryptography
+Mathematical analysis,Mathematics of computing
+Integral equations,Mathematical analysis
+Mathematical software,Mathematics of computing
+Software organization and properties,Software and its engineering
+Software notations and tools,Software and its engineering
+Software libraries and repositories,Software and its engineering
+Contextual software domains,Software and its engineering
+Software functional properties,Software organization and properties
+Extra-functional properties,Software organization and properties
+Program constructs,Software organization and properties
+Concurrency,Software organization and properties
+Process calculi,Concurrency
+System description languages,Software notations and tools
+Specification languages,Software notations and tools
+Formalisms,Software notations and tools
+Operations research,Applied computing
+Decision analysis,Operations research
+Control methods,Operations research
+Computer forensics,Applied computing
+Computer-aided manufacturing,Applied computing
+Human computer interaction (HCI),Human-centered computing
+Interaction design,Human-centered computing
+User centered design,Human-centered computing
+User interface design,Human-centered computing
+User interface programming,Human-centered computing
+Interaction devices,Human-centered computing
+Accessibility,Human-centered computing
+Systems and tools for interaction design,Interaction design
+Interaction design process and methods,Interaction design
+Scenario-based design,Interaction design
+Empirical studies in HCI,Human-centered computing
+Empirical studies in interaction design,Interaction design
+Interactive systems and tools,Human-centered computing
+Computing / technology policy,Social and professional topics
+Government technology policy,Computing / technology policy
+Impact on the environment,Social and professional topics
+Education,Social and professional topics
+Cross-computing tools and techniques,General and reference
+Document types,General and reference
+Experimentation,Cross-computing tools and techniques
+Measurement,Cross-computing tools and techniques
+Validation,Cross-computing tools and techniques
+Performance,Cross-computing tools and techniques
+Design,Cross-computing tools and techniques
+Empirical studies,General and reference
+Computers in other domains,Computing Classification System
+Life and medical sciences,Computers in other domains
+Bioinformatics,Life and medical sciences
+Arts and humanities,Computers in other domains
+Security services,Security and privacy
+Cryptographic primitives,Security and privacy
+Censorship,Security and privacy
+Surveillance,Security and privacy
+Network architectures,Networks
+Network protocols,Networks
+Network properties,Networks
+Network performance analysis,Networks
+Network components,Networks
+Network manageability,Networks
+Network design principles,Networks
+Network reliability,Networks
+Network algorithms,Networks
+Network domains,Networks
+Network types,Networks
+Network dynamics,Network properties
+Network range,Network properties
+Network performance evaluation,Network performance analysis
+Network structure,Network architectures
+Physical topologies,Network architectures
+Physical links,Network components
+End nodes,Network structure
+Intermediate nodes,Network structure
+Logical nodes,Network structure
+Application layer protocols,Network protocols
+Transport protocols,Network protocols
+Protocol correctness,Network protocols
+Data center networks,Network domains
+Public Internet,Network domains
+Home networks,Network domains
+Social media networks,Network domains
+Wired access networks,Network types
+Wireless integrated network sensors,Network types
+"Wireless access points, base stations and infrastructure",Network types
+Overlay and other logical network structures,Network types
+Beamforming,Network types
+Network economics,Networks

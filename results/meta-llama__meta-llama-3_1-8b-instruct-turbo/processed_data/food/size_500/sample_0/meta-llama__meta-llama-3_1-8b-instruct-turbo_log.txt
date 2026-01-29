@@ -1,0 +1,394 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: spaghetti; fusilli; cannelloni; occhi di lupo; pasta; food; bavette; pici; fagottini; gemelli
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+fagottini is a subtopic of pasta; cannelloni is a subtopic of pasta; pici is a subtopic of pasta; bavette is a subtopic of pasta; occhi di lupo is a subtopic of pasta; gemelli is a subtopic of pasta; pasta is a subtopic of food; fusilli is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: linguine; croxetti; fuži; rotini; sacchettoni; pasta; food; spaghetti; corzetti; mezzelune
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+fuži is a subtopic of pasta; sacchettoni is a subtopic of pasta; mezzelune is a subtopic of pasta; corzetti is a subtopic of pasta; croxetti is a subtopic of pasta; pasta is a subtopic of food; linguine is a subtopic of pasta; spaghetti is a subtopic of pasta; rotini is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: bigoli; stringozzi; corzetti; anellini; food; fuži; mezzelune; garganelli; occhi di lupo; pasta
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+garganelli is a subtopic of pasta; pasta is a subtopic of food; anellini is a subtopic of pasta; fuži is a subtopic of pasta; corzetti is a subtopic of pasta; mezzelune is a subtopic of pasta; bigoli is a subtopic of pasta; stringozzi is a subtopic of pasta; occhi di lupo is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: spaghetti; pasta; campanelle; casoncelli; food; lanterne; rotini; ptitim; macaroni; passatelli
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+rotini is a subtopic of pasta; lanterne is a subtopic of pasta; campanelle is a subtopic of pasta; passatelli is a subtopic of pasta; casoncelli is a subtopic of pasta; spaghetti is a subtopic of pasta; ptitim is a subtopic of pasta; pasta is a subtopic of food; macaroni is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: pasta; rotini; penne; stringozzi; spaghetti; ptitim; food; sacchettoni; rotelle; mezzelune
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+sacchettoni is a subtopic of pasta; penne is a subtopic of pasta; pasta is a subtopic of food; rotelle is a subtopic of pasta; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta; spaghetti is a subtopic of pasta; ptitim is a subtopic of pasta; mezzelune is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: schnapps; cheonsachae; fruit-flavoured drinks; longan; chipped beef; likëngë; pumpkin seeds; sweet and sour pork; blood soup; celery roots; nataing; squashes; basil; caldo de pollo; hogao; restructured steak; imoni; debrecener; cherimoyas; chilli powder; fisherman's soup; hulatang; sponge cake; soy product; plums; henan braised noodles; yucca root; pork roll; nădlac sausages; far breton; cantonese seafood soup; taco shells; hog's pudding; kapusniak; whipped cream; savory; mykyrokka; kumquats; frying pan dinners; cider; hodge-podge; pottage; broccoli; cellophane noodles; pecel; paio; tu; apricots; tinned meat; pork jowl; black soup; kharcho; coffee cake; gummy sweets; kishka; lotus roots; angel food cake; sambal; ogbono nuts; candy bars; ground and whole bean coffee; bouillon; rosemary; kohlwurst; bouneschlupp; oille; weisswurst; lasagnette; cabanossi; gobo root; macadamia nuts; cherries; green sauce; garlic powder; dessert bars; beetroot greens; seeds; dates; asparagus; homli fruits; vodka; sobrassada; crépinette; ribollita; šakotis; tomatoes; crenvurșt; brési; pork tenderloin; basbousa; espagnole sauce; pecans; energy drinks; agrodolce; yonezawa beef; gin; manwich; dried fruit; panada; solyanka; braadworst; gumdrops; dessert toppings; soto ayam; ciavàr; hot sauce; mushroom gravy; fruit chews; pepper; frozen noodles; nougat; chocolate bars; soup; walnuts; tom kha kai; sapote; bak kut teh; pork ribs; jjolmyeon; miso soup; jelly beans; changua; prickly pears; sujebi; celery; ciauscolo; rum; fideo; caramels; tacacá; supreme; hochzeitssuppe; ukha; siskonmakkara; pig's organ soup; geera pork; sushi; cake; dandan noodles; regensburger wurst; brazil nuts; vinegar drinks; kohlrabi; xo sauce; bratwurst; chocolate assortments; cashews; liverwurst; candle salad; korean noodle; dairy product; sugar apples; garbure; tarta de santiago; sausage; harira; marinade; saveloy; kupati; boiled sweets; boerewors; taro root; paradise nuts; rhubarb; cauliflower; diot; grapes; rice noodle roll; kesme; sundae cones; chicory; mulligatawny; dried beans; beans; escudella i carn d'olla; butajiru; tofu; peanut sauce; kitchen bouquet; figs; pomegranates; pølser; sopa de pata; lollipops; styrian sour soup; kale; frejon; trdelník; rutabagas; frankfurter rindswurst; frozen dessert; mamey; tian mo; bakmi; fruit; marshmallow sweets; spinach; torte; grapefruits; bresaola; kornigou; ding dong; dragon beard noodles; ajiaco; dragonfruit; aubergines; persimmons; kola nuts; bisque; ryynimakkara; honey; curry sauce; soy sauce; sinigang; gazpacho; eggnog; vallée d'aoste lard d'arnad; deli meats; crumpet; sancocho; pillus; naengguk; qottab; breton sauce; herb; chocolate cake; food; pine nuts; pistou; amsterdam ossenworst; oyster sauce; sopa teologa; mixed nuts; nantua sauce; salad mixes; soto; nectarines; oregano; meat patties; plumcots; limequats; lychees; hot dry noodles; alfalfa sprouts; frozen dinners; chocolate covered nuts; korean noodles; chocolate mints; chestnuts; kakara pitha; condiment; corn dog; soy nuts; 'nduja; meat; frankfurter würstchen; loose tea leaves; pickled pigs feet; noodle; pastirma; landjäger; soubise sauce; wanko soba; lincolnshire sausage; pan mee; chicken soup; corn soup; prepared food; greens; sevai; knipp; sweet potatoes; soyo; brown windsor soup; soup number five; potatiskorv; morteau sausage; liquor; sesame seeds; tomato soup; bananas; rose hip soup; red bean cake; carne de chango; onions; booyah; tucupi; sfouf; binignit; gulyásleves; lolly cake; coffee; tom yum; yu choy; suet; aioli; cucumbers; taco soup; artichokes; brown sauce; béchamel sauce; melons; arracachas; magiritsa; olives and capers; soup all'imperatrice; chikhirtma; peanut butter cups; fish tea; lucanica; drunken noodles; lebanon bologna; yam; mints; nali sauce; lekach; shchi; peas; goulash; fruit salad; wodzionka; lemons; kulajda; béarnaise sauce; crème ninon; dessert platters; carbonade flamande; scotch broth; ahle wurst; madroã±o; wedding cake; jagdwurst; mannish water; caldo verde; suckers; sujuk; gai choi; bean sprouts; bottled coffee drinks; sausage making; udon; falukorv; brandy; cervelat; talunan; flavoured malt drinks; tahinopita; kinnathappam; pozole; sweets; corn chowder; babi panggang; andouille; neapolitan ragù; fudge; banh canh; rambutans; zuppa alla modenese; popsicles; okra; choi sum; radishes; spice; gelbwurst; chorba; jicama; liqueurs; pineapples; czernina; mangosteens; chiffon cake; pesto; kissel; rawon; quince; hors d'oeuvres; maya nuts; ragù; rasam; instant coffee; borscht; may west; opera cake; watercress; moambe; ganjang; ching bo leung; borage; buttermilk; vegetable; apples; tempeh; svartsoppa; rookworst; fuet; standing rib roast; tamarind; bakery; aji; starfruits; chutney; skilandis; wedding soup; torta caprese; piti; oranges; guavas; mangos; papayas; beutelwurst; krakowska; nagasari; infusion; black pudding; chocolate truffles; mang tomas; shambar; beurre noisette; porra antequerana; tallow; shirataki noodles; meatcake; salvitxada; zosui; ezogelin soup; lunch meats; parsnips; almonds; leeks; sorbet; bregenwurst; organic beef; powdered beverage mixes; chinkiang pot cover noodles; buttermilk koldskål; andouillette; tourin; instant noodle; beef; passion fruit; miyeok guk; malangas; fizzy drinks; feijoas; beer; salad dressings; thuringian sausage; tangelos; vori vori; currants; sour rye soup; red velvet cake; sunflower seeds; hot and sour soup; okroshka; cheez whiz; mint sauce; hazelnuts; avocados; buccellato; hot dogs; češnovka; gazpachuelo; draw soup; minestrone; moronga; sauce ravigote; vichyssoise; sugo all'amatriciana; fanesca; cake pop; pork; carrots; fläskkorv; sour soup; toffee brittle; sauce lyonnaise; bredela; ajoblanco; parsley roots; eggs; bermuda fish chowder; pistachios; tartar sauce; sauce; café de paris sauce; mint; ok sauce; chipa guasu; pears; longaniza; toffee; leek soup; beer soup; sorrel soup; sapodillo; sauce gribiche; beverage; yi mein; coconuts
+Relationships: 
+
+================================================================================
+Number of entities: 500
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very large list of concepts and relationships. I'll do my best to create a taxonomy for you. Here's a list of parent-child relationships:
+
+1. fruit-flavoured drinks is a subtopic of beverage; 
+2. sweet and sour pork is a subtopic of food; 
+3. blood soup is a subtopic of food; 
+4. celery roots is a subtopic of food; 
+5. squashes is a subtopic of food; 
+6. basil is a subtopic of food; 
+7. caldo de pollo is a subtopic of food; 
+8. hogao is a subtopic of food; 
+9. restructured steak is a subtopic of food; 
+10. imoni is a subtopic of food; 
+11. debrecener is a subtopic of food; 
+12. cherimoyas is a subtopic of food; 
+13. chilli powder is a subtopic of food; 
+14. fisherman's soup is a subtopic of food; 
+15. hulatang is a subtopic of food; 
+16. sponge cake is a subtopic of food; 
+17. soy product is a subtopic of food; 
+18. plums is a subtopic of food; 
+19. yucca root is a subtopic of food; 
+20. pork roll is a subtopic of food; 
+21. nădlac sausages is a subtopic of food; 
+22. far breton is a subtopic of food; 
+23. cantonese seafood soup is a subtopic of food; 
+24. taco shells is a subtopic of food; 
+25. hog's pudding is a subtopic of food; 
+26. kapusniak is a subtopic of food; 
+27. whipped cream is a subtopic of food; 
+28. savory is a subtopic of food; 
+29. mykyrokka is a subtopic of food; 
+30. kumquats is a subtopic of food; 
+31. frying pan dinners is a subtopic of food; 
+32. cider is a subtopic of food; 
+33. hodge-podge is a subtopic of food; 
+34. pottage is a subtopic of food; 
+35. broccoli is a subtopic of food; 
+36. cellophane noodles is a subtopic of food; 
+37. pecel is a subtopic of food; 
+38. paio is a subtopic of food; 
+39. tu is a subtopic of food; 
+40. apricots is a subtopic of food; 
+41. tinned meat is a subtopic of food; 
+42. pork jowl is a subtopic of food; 
+43. black soup is a subtopic of food; 
+44. kharcho is a subtopic of food; 
+45. coffee cake is a subtopic of food; 
+46. gummy sweets is a subtopic of food; 
+47. kishka is a subtopic of food; 
+48. lotus roots is a subtopic of food; 
+49. angel food cake is a subtopic of food; 
+50. sambal is a subtopic of food; 
+51. ogbono nuts is a subtopic of food; 
+52. candy bars is a subtopic of food; 
+53. ground and whole bean coffee is a subtopic of food; 
+54. bouillon is a subtopic of food; 
+55. rosemary is a subtopic of food; 
+56. kohlwurst is a subtopic of food; 
+57. bouneschlupp is a subtopic of food; 
+58. oille is a subtopic of food; 
+59. weisswurst is a subtopic of food; 
+60. lasagnette is a subtopic of food; 
+61. cabanossi is a subtopic of food; 
+62. gobo root is a subtopic of food; 
+63. macadamia nuts is a subtopic of food; 
+64. cherries is a subtopic of food; 
+65. green sauce is a subtopic of food; 
+66. garlic powder is a subtopic of food; 
+67. dessert bars is a subtopic of food; 
+68. beetroot greens is a subtopic of food; 
+69. seeds is a subtopic of food; 
+70. dates is a subtopic of food; 
+71. asparagus is a subtopic of food; 
+72. homli fruits is a subtopic of food; 
+73. vodka is a subtopic of food; 
+74. sobrassada is a subtopic of food; 
+75. crépinette is a subtopic of food; 
+76. ribollita is a subtopic of food; 
+77. šakotis is a subtopic of food; 
+78. tomatoes is a subtopic of food; 
+79. crenvurșt is a subtopic of food; 
+80. brési is a subtopic of food; 
+81. pork tenderloin is a subtopic of food; 
+82. basbousa is a subtopic of food; 
+83. espagnole sauce is a subtopic of food; 
+84. pecans is a subtopic of food; 
+85. energy drinks is a subtopic of food; 
+86. agrodolce is a subtopic of food; 
+87. yonezawa beef is a subtopic of food; 
+88. gin is a subtopic of food; 
+89. manwich is a subtopic of food; 
+90. dried fruit is a subtopic of food; 
+91. panada is a subtopic of food; 
+92. solyanka is a subtopic of food; 
+93. braadworst is a subtopic of food; 
+94. gumdrops is a subtopic of food; 
+95. dessert toppings is a subtopic of food; 
+96. soto ayam is a subtopic of food; 
+97. ciavàr is a subtopic of food; 
+98. hot sauce is a subtopic of food; 
+99. mushroom gravy is a subtopic of food; 
+100. fruit chews is a subtopic of food; 
+101. pepper is a subtopic of food; 
+102. frozen noodles is a subtopic of food; 
+103. nougat is a subtopic of food; 
+104. chocolate bars is a subtopic of food; 
+105. soup is a subtopic of food; 
+106. walnuts is a subtopic of food; 
+107. tom kha kai is a subtopic of food; 
+108. sapote is a subtopic of food; 
+109. bak kut teh is a subtopic of food; 
+110. pork ribs is a subtopic of food; 
+111. jjolmyeon is a subtopic of food; 
+112. miso soup is a subtopic of food; 
+113. jelly beans is a subtopic of food; 
+114. changua is a subtopic of food; 
+115. prickly pears is a subtopic of food; 
+116. sujebi is a subtopic of food; 
+117. celery is a subtopic of food; 
+118. ciauscolo is a subtopic of food; 
+119. rum is a subtopic of food; 
+120. fideo is a subtopic of food; 
+121. caramels is a subtopic of food; 
+122. tacacá is a subtopic of food; 
+123. supreme is a subtopic of food; 
+124. hochzeitssuppe is a subtopic of food; 
+125. ukha is a subtopic of food; 
+126. siskonmakkara is a subtopic of food; 
+127. pig's organ soup is a subtopic of food; 
+128. geera pork is a subtopic of food; 
+129. sushi is a subtopic of food; 
+130. cake is a subtopic of food; 
+131. dandan noodles is a subtopic of food; 
+132. regensburger wurst is a subtopic of food; 
+133. brazil nuts is a subtopic of food; 
+134. vinegar drinks is a subtopic of food; 
+135. kohlrabi is a subtopic of food; 
+136. xo sauce is a subtopic of food; 
+137. bratwurst is a subtopic of food; 
+138. chocolate assortments is a subtopic of food; 
+139. cashews is a subtopic of food; 
+140. liverwurst is a subtopic of food; 
+141. candle salad is a subtopic of food; 
+142. korean noodle is a subtopic of food; 
+143. dairy product is a subtopic of food; 
+144. sugar apples is a subtopic of food; 
+145. garbure is a subtopic of food; 
+146. tarta de santiago is a subtopic of food; 
+147. sausage is a subtopic of food; 
+148. harira is a subtopic of food; 
+149. marinade is a subtopic of food; 
+150. saveloy is a subtopic of food; 
+151. kupati is a subtopic of food; 
+152. boiled sweets is a subtopic of food; 
+153. boerewors is a subtopic of food; 
+154. taro root is a subtopic of food; 
+155. paradise nuts is a subtopic of food; 
+156. rhubarb is a subtopic of food; 
+157. cauliflower is a subtopic of food; 
+158. diot is a subtopic
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 156
+
+Parsed relationships:
+  sweet and sour pork → food
+  blood soup → food
+  celery roots → food
+  squashes → food
+  basil → food
+  caldo de pollo → food
+  hogao → food
+  restructured steak → food
+  imoni → food
+  debrecener → food
+  cherimoyas → food
+  chilli powder → food
+  fisherman's soup → food
+  hulatang → food
+  sponge cake → food
+  soy product → food
+  plums → food
+  yucca root → food
+  pork roll → food
+  nădlac sausages → food
+  far breton → food
+  cantonese seafood soup → food
+  taco shells → food
+  hog's pudding → food
+  kapusniak → food
+  whipped cream → food
+  savory → food
+  mykyrokka → food
+  kumquats → food
+  frying pan dinners → food
+  cider → food
+  hodge-podge → food
+  pottage → food
+  broccoli → food
+  cellophane noodles → food
+  pecel → food
+  paio → food
+  tu → food
+  apricots → food
+  tinned meat → food
+  pork jowl → food
+  black soup → food
+  kharcho → food
+  coffee cake → food
+  gummy sweets → food
+  kishka → food
+  lotus roots → food
+  angel food cake → food
+  sambal → food
+  ogbono nuts → food
+  candy bars → food
+  ground and whole bean coffee → food
+  bouillon → food
+  rosemary → food
+  kohlwurst → food
+  bouneschlupp → food
+  oille → food
+  weisswurst → food
+  lasagnette → food
+  cabanossi → food
+  gobo root → food
+  macadamia nuts → food
+  cherries → food
+  green sauce → food
+  garlic powder → food
+  dessert bars → food
+  beetroot greens → food
+  seeds → food
+  dates → food
+  asparagus → food
+  homli fruits → food
+  vodka → food
+  sobrassada → food
+  crépinette → food
+  ribollita → food
+  šakotis → food
+  tomatoes → food
+  crenvurșt → food
+  brési → food
+  pork tenderloin → food
+  basbousa → food
+  espagnole sauce → food
+  pecans → food
+  energy drinks → food
+  agrodolce → food
+  yonezawa beef → food
+  gin → food
+  manwich → food
+  dried fruit → food
+  panada → food
+  solyanka → food
+  braadworst → food
+  gumdrops → food
+  dessert toppings → food
+  soto ayam → food
+  ciavàr → food
+  hot sauce → food
+  mushroom gravy → food
+  fruit chews → food
+  pepper → food
+  frozen noodles → food
+  nougat → food
+  chocolate bars → food
+  soup → food
+  walnuts → food
+  tom kha kai → food
+  sapote → food
+  bak kut teh → food
+  pork ribs → food
+  jjolmyeon → food
+  miso soup → food
+  jelly beans → food
+  changua → food
+  prickly pears → food
+  sujebi → food
+  celery → food
+  ciauscolo → food
+  rum → food
+  fideo → food
+  caramels → food
+  tacacá → food
+  supreme → food
+  hochzeitssuppe → food
+  ukha → food
+  siskonmakkara → food
+  pig's organ soup → food
+  geera pork → food
+  sushi → food
+  cake → food
+  dandan noodles → food
+  regensburger wurst → food
+  brazil nuts → food
+  vinegar drinks → food
+  kohlrabi → food
+  xo sauce → food
+  bratwurst → food
+  chocolate assortments → food
+  cashews → food
+  liverwurst → food
+  candle salad → food
+  korean noodle → food
+  dairy product → food
+  sugar apples → food
+  garbure → food
+  tarta de santiago → food
+  sausage → food
+  harira → food
+  marinade → food
+  saveloy → food
+  kupati → food
+  boiled sweets → food
+  boerewors → food
+  taro root → food
+  paradise nuts → food
+  rhubarb → food
+  cauliflower → food
+
+================================================================================

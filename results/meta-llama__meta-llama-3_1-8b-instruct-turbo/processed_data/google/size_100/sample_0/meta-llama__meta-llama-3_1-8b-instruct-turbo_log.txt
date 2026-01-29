@@ -1,0 +1,316 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Gun Holsters; Mature; Reloading Supplies & Equipment; Ammunition Cases & Holders; Spears; Google Product Taxonomy; Staff & Stick Weapons; Weapons; Combat Knives; Gun Care & Accessories
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Gun Holsters is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Combat Knives is a subtopic of Weapons; Spears is a subtopic of Weapons; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Staff & Stick Weapons; Mature; Weapons; Swords; Gun Lights; Google Product Taxonomy; Ammunition; Gun Cases & Range Bags; Stun Guns & Tasers
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Stun Guns & Tasers is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Staff & Stick Weapons is a subtopic of Weapons; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Ammunition is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Swords is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Stun Guns & Tasers; Gun Care & Accessories; Mature; Google Product Taxonomy; Nunchucks; Throwing Stars; Weapons; Whips; Guns; Erotic
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Stun Guns & Tasers is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Weapons is a subtopic of Mature; Throwing Stars is a subtopic of Weapons; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Guns is a subtopic of Weapons; Whips is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Clothing; Pole Dancing Kits; Erotic Books; Erotic; Erotic Games; Google Product Taxonomy; Erotic DVDs & Videos; Mature; Erotic Food & Edibles; Erotic Magazines
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Books is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Pole Dancing Kits is a subtopic of Erotic; Erotic Games is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Staff & Stick Weapons; Mature; Weapons; Gun Slings; Stun Guns & Tasers; Gun Grips; Swords; Gun Care & Accessories; Google Product Taxonomy; Spears
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Stun Guns & Tasers is a subtopic of Weapons; Swords is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Grips is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Lighting; Brooches & Lapel Pins; Diapering; Food Service; Bibs; Messenger Bags; Charms & Pendants; Cash Boxes; Binding Supplies; Fuel; Backpacks; Fireplace & Wood Stove Accessories; Google Product Taxonomy; Heating, Ventilation & Air Conditioning; File Boxes; Olives & Capers; Tobacco Products; Media; Vaporizers & Electronic Cigarettes; Name Plates; Spurs; Plumbing Repair Kits; Cosmetic & Toiletry Bags; Shoe Accessories; Household Appliance Accessories; Baby Transport; Wood Stove Fans & Blowers; Fireplaces; Hardware; Water Levelers; Condiments & Sauces; Pool & Spa; Key Card Entry Systems; Jewelry; Sporting Goods; Apparel & Accessories; Night Lights & Ambient Lighting; Key Blanks; Oil Lamp Fuel; Home & Garden; Office Equipment; Lighting Timers; Baby Care Timers; Fireplace & Wood Stove Grates; Food Items; Diaper Liners; Nursing Covers; Luggage & Bags; Dowel Pins & Rods; Pen & Pencil Cases; Lap Desks; Office Supplies; Bleach; Baby Bottles; Laundry Supplies; Fanny Packs; Shoelaces; Baby Bottle Nipples & Liners; Business & Industrial; Vehicles & Parts; Locks & Latches; Storage & Organization; Swaddling & Receiving Blankets; Fencing & Barriers; Hot Dog Rollers; Firewood & Fuel; Diaper Wet Bags; Music & Sound Recordings; Breast Milk Storage Containers; Plumbing; Filing & Organization; Food, Beverages & Tobacco; Nursing Pillow Covers; Garment Bags; Janitorial Carts & Caddies; Business Card Stands; Necklaces; Water Timers; Laundry Wash Bags & Frames; Film & Television; Baby Bottle Nipples; Tattooing Supplies; Nursing & Feeding; Baby & Toddler; Agriculture; Lighting Accessories; Locks & Keys; Gates; Small Engines; Kerosene; Chewing Tobacco; Plumbing Pipes; Parasols & Rain Umbrellas; Address Books; Diaper Pail Accessories; Household Supplies; Train Cases; Hardware Accessories; Piercing & Tattooing; Lamp Post Bases
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts, and it's challenging to establish relationships between them. However, I'll try to identify some relationships based on the provided concepts. Here's a list of relationships:
+
+1. Baby & Toddler is a subtopic of Baby Care Timers; 
+2. Baby & Toddler is a subtopic of Diaper Wet Bags; 
+3. Baby & Toddler is a subtopic of Diaper Liners; 
+4. Baby & Toddler is a subtopic of Nursing Covers; 
+5. Baby & Toddler is a subtopic of Nursing Pillow Covers; 
+6. Baby & Toddler is a subtopic of Swaddling & Receiving Blankets; 
+7. Baby & Toddler is a subtopic of Baby Bottles; 
+8. Baby & Toddler is a subtopic of Breast Milk Storage Containers; 
+9. Baby & Toddler is a subtopic of Baby Bottle Nipples & Liners; 
+10. Baby & Toddler is a subtopic of Diaper Pail Accessories; 
+11. Baby & Toddler is a subtopic of Diapering; 
+12. Baby & Toddler is a subtopic of Baby Transport; 
+13. Baby & Toddler is a subtopic of Nursing & Feeding; 
+14. Baby & Toddler is a subtopic of Baby Care Timers; 
+15. Baby & Toddler is a subtopic of Baby Bottle Nipples; 
+16. Baby & Toddler is a subtopic of Diaper Wet Bags; 
+17. Baby & Toddler is a subtopic of Diaper Liners; 
+18. Baby & Toddler is a subtopic of Nursing Covers; 
+19. Baby & Toddler is a subtopic of Nursing Pillow Covers; 
+20. Baby & Toddler is a subtopic of Swaddling & Receiving Blankets; 
+21. Baby & Toddler is a subtopic of Baby Bottles; 
+22. Baby & Toddler is a subtopic of Breast Milk Storage Containers; 
+23. Baby & Toddler is a subtopic of Baby Bottle Nipples & Liners; 
+24. Baby & Toddler is a subtopic of Diaper Pail Accessories; 
+25. Baby & Toddler is a subtopic of Diapering; 
+26. Baby & Toddler is a subtopic of Baby Transport; 
+27. Baby & Toddler is a subtopic of Nursing & Feeding; 
+28. Baby & Toddler is a subtopic of Baby Care Timers; 
+29. Baby & Toddler is a subtopic of Baby Bottle Nipples; 
+30. Baby & Toddler is a subtopic of Diaper Wet Bags; 
+31. Baby & Toddler is a subtopic of Diaper Liners; 
+32. Baby & Toddler is a subtopic of Nursing Covers; 
+33. Baby & Toddler is a subtopic of Nursing Pillow Covers; 
+34. Baby & Toddler is a subtopic of Swaddling & Receiving Blankets; 
+35. Baby & Toddler is a subtopic of Baby Bottles; 
+36. Baby & Toddler is a subtopic of Breast Milk Storage Containers; 
+37. Baby & Toddler is a subtopic of Baby Bottle Nipples & Liners; 
+38. Baby & Toddler is a subtopic of Diaper Pail Accessories; 
+39. Baby & Toddler is a subtopic of Diapering; 
+40. Baby & Toddler is a subtopic of Baby Transport; 
+41. Baby & Toddler is a subtopic of Nursing & Feeding; 
+42. Baby & Toddler is a subtopic of Baby Care Timers; 
+43. Baby & Toddler is a subtopic of Baby Bottle Nipples; 
+44. Baby & Toddler is a subtopic of Diaper Wet Bags; 
+45. Baby & Toddler is a subtopic of Diaper Liners; 
+46. Baby & Toddler is a subtopic of Nursing Covers; 
+47. Baby & Toddler is a subtopic of Nursing Pillow Covers; 
+48. Baby & Toddler is a subtopic of Swaddling & Receiving Blankets; 
+49. Baby & Toddler is a subtopic of Baby Bottles; 
+50. Baby & Toddler is a subtopic of Breast Milk Storage Containers; 
+51. Baby & Toddler is a subtopic of Baby Bottle Nipples & Liners; 
+52. Baby & Toddler is a subtopic of Diaper Pail Accessories; 
+53. Baby & Toddler is a subtopic of Diapering; 
+54. Baby & Toddler is a subtopic of Baby Transport; 
+55. Baby & Toddler is a subtopic of Nursing & Feeding; 
+56. Baby & Toddler is a subtopic of Baby Care Timers; 
+57. Baby & Toddler is a subtopic of Baby Bottle Nipples; 
+58. Baby & Toddler is a subtopic of Diaper Wet Bags; 
+59. Baby & Toddler is a subtopic of Diaper Liners; 
+60. Baby & Toddler is a subtopic of Nursing Covers; 
+61. Baby & Toddler is a subtopic of Nursing Pillow Covers; 
+62. Baby & Toddler is a subtopic of Swaddling & Receiving Blankets; 
+63. Baby & Toddler is a subtopic of Baby Bottles; 
+64. Baby & Toddler is a subtopic of Breast Milk Storage Containers; 
+65. Baby & Toddler is a subtopic of Baby Bottle Nipples & Liners; 
+66. Baby & Toddler is a subtopic of Diaper Pail Accessories; 
+67. Baby & Toddler is a subtopic of Diapering; 
+68. Baby & Toddler is a subtopic of Baby Transport; 
+69. Baby & Toddler is a subtopic of Nursing & Feeding; 
+70. Baby & Toddler is a subtopic of Baby Care Timers; 
+71. Baby & Toddler is a subtopic of Baby Bottle Nipples; 
+72. Baby & Toddler is a subtopic of Diaper Wet Bags; 
+73. Baby & Toddler is a subtopic of Diaper Liners; 
+74. Baby & Toddler is a subtopic of Nursing Covers; 
+75. Baby & Toddler is a subtopic of Nursing Pillow Covers; 
+76. Baby & Toddler is a subtopic of Swaddling & Receiving Blankets; 
+77. Baby & Toddler is a subtopic of Baby Bottles; 
+78. Baby & Toddler is a subtopic of Breast Milk Storage Containers; 
+79. Baby & Toddler is a subtopic of Baby Bottle Nipples & Liners; 
+80. Baby & Toddler is a subtopic of Diaper Pail Accessories; 
+81. Baby & Toddler is a subtopic of Diapering; 
+82. Baby & Toddler is a subtopic of Baby Transport; 
+83. Baby & Toddler is a subtopic of Nursing & Feeding; 
+84. Baby & Toddler is a subtopic of Baby Care Timers; 
+85. Baby & Toddler is a subtopic of Baby Bottle Nipples; 
+86. Baby & Toddler is a subtopic of Diaper Wet Bags; 
+87. Baby & Toddler is a subtopic of Diaper Liners; 
+88. Baby & Toddler is a subtopic of Nursing Covers; 
+89. Baby & Toddler is a subtopic of Nursing Pillow Covers; 
+90. Baby & Toddler is a subtopic of Swaddling & Receiving Blankets; 
+91. Baby & Toddler is a subtopic of Baby Bottles; 
+92. Baby & Toddler is a subtopic of Breast Milk Storage Containers; 
+93. Baby & Toddler is a subtopic of Baby Bottle Nipples & Liners; 
+94. Baby & Toddler is a subtopic of Diaper Pail Accessories; 
+95. Baby & Toddler is a subtopic of Diapering; 
+96. Baby & Toddler is a subtopic of Baby Transport; 
+97. Baby & Toddler is a subtopic of Nursing & Feeding; 
+98. Baby & Toddler is a subtopic of Baby Care Timers; 
+99. Baby & Toddler is a subtopic of Baby Bottle Nipples; 
+100. Baby & Toddler is a subtopic of Diaper Wet Bags; 
+101. Baby & Toddler is a subtopic of Diaper Liners; 
+102. Baby & Toddler is a subtopic of Nursing Covers; 
+103. Baby & Toddler is a subtopic of Nursing Pillow Covers; 
+104. Baby & Toddler is a subtopic of Swaddling & Receiving Blankets; 
+105. Baby & Toddler is a subtopic of Baby Bottles; 
+106. Baby & Toddler is a subtopic of Breast Milk Storage Containers; 
+107. Baby & Toddler is a subtopic of Baby Bottle Nipples & Liners; 
+108. Baby & Toddler is a subtopic of Diaper Pail Accessories; 
+109. Baby & Toddler is a subtopic of Diapering; 
+110. Baby & Toddler is a subtopic of Baby Transport; 
+111. Baby & Toddler is a subtopic of Nursing & Feeding; 
+112. Baby & Toddler is a subtopic of Baby Care Timers; 
+113. Baby & Toddler is a subtopic of Baby Bottle Nipples; 
+114. Baby & Toddler is a subtopic of Diaper Wet Bags; 
+115. Baby & Toddler is a subtopic of Diaper Liners; 
+116. Baby & Toddler is a subtopic of Nursing Covers; 
+117. Baby & Toddler is a subtopic of Nursing Pillow Covers; 
+118. Baby & Toddler is a subtopic of Swadd
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 118
+
+Parsed relationships:
+  This is a very long list of concepts → and it's challenging to establish relationships between them. However, I'll try to identify some relationships based on the provided concepts. Here's a list of relationships
+  Baby & Toddler → Diaper Wet Bags
+  Baby & Toddler → Diaper Liners
+  Baby & Toddler → Nursing Covers
+  Baby & Toddler → Nursing Pillow Covers
+  Baby & Toddler → Swaddling & Receiving Blankets
+  Baby & Toddler → Baby Bottles
+  Baby & Toddler → Breast Milk Storage Containers
+  Baby & Toddler → Baby Bottle Nipples & Liners
+  Baby & Toddler → Diaper Pail Accessories
+  Baby & Toddler → Diapering
+  Baby & Toddler → Baby Transport
+  Baby & Toddler → Nursing & Feeding
+  Baby & Toddler → Baby Care Timers
+  Baby & Toddler → Baby Bottle Nipples
+  Baby & Toddler → Diaper Wet Bags
+  Baby & Toddler → Diaper Liners
+  Baby & Toddler → Nursing Covers
+  Baby & Toddler → Nursing Pillow Covers
+  Baby & Toddler → Swaddling & Receiving Blankets
+  Baby & Toddler → Baby Bottles
+  Baby & Toddler → Breast Milk Storage Containers
+  Baby & Toddler → Baby Bottle Nipples & Liners
+  Baby & Toddler → Diaper Pail Accessories
+  Baby & Toddler → Diapering
+  Baby & Toddler → Baby Transport
+  Baby & Toddler → Nursing & Feeding
+  Baby & Toddler → Baby Care Timers
+  Baby & Toddler → Baby Bottle Nipples
+  Baby & Toddler → Diaper Wet Bags
+  Baby & Toddler → Diaper Liners
+  Baby & Toddler → Nursing Covers
+  Baby & Toddler → Nursing Pillow Covers
+  Baby & Toddler → Swaddling & Receiving Blankets
+  Baby & Toddler → Baby Bottles
+  Baby & Toddler → Breast Milk Storage Containers
+  Baby & Toddler → Baby Bottle Nipples & Liners
+  Baby & Toddler → Diaper Pail Accessories
+  Baby & Toddler → Diapering
+  Baby & Toddler → Baby Transport
+  Baby & Toddler → Nursing & Feeding
+  Baby & Toddler → Baby Care Timers
+  Baby & Toddler → Baby Bottle Nipples
+  Baby & Toddler → Diaper Wet Bags
+  Baby & Toddler → Diaper Liners
+  Baby & Toddler → Nursing Covers
+  Baby & Toddler → Nursing Pillow Covers
+  Baby & Toddler → Swaddling & Receiving Blankets
+  Baby & Toddler → Baby Bottles
+  Baby & Toddler → Breast Milk Storage Containers
+  Baby & Toddler → Baby Bottle Nipples & Liners
+  Baby & Toddler → Diaper Pail Accessories
+  Baby & Toddler → Diapering
+  Baby & Toddler → Baby Transport
+  Baby & Toddler → Nursing & Feeding
+  Baby & Toddler → Baby Care Timers
+  Baby & Toddler → Baby Bottle Nipples
+  Baby & Toddler → Diaper Wet Bags
+  Baby & Toddler → Diaper Liners
+  Baby & Toddler → Nursing Covers
+  Baby & Toddler → Nursing Pillow Covers
+  Baby & Toddler → Swaddling & Receiving Blankets
+  Baby & Toddler → Baby Bottles
+  Baby & Toddler → Breast Milk Storage Containers
+  Baby & Toddler → Baby Bottle Nipples & Liners
+  Baby & Toddler → Diaper Pail Accessories
+  Baby & Toddler → Diapering
+  Baby & Toddler → Baby Transport
+  Baby & Toddler → Nursing & Feeding
+  Baby & Toddler → Baby Care Timers
+  Baby & Toddler → Baby Bottle Nipples
+  Baby & Toddler → Diaper Wet Bags
+  Baby & Toddler → Diaper Liners
+  Baby & Toddler → Nursing Covers
+  Baby & Toddler → Nursing Pillow Covers
+  Baby & Toddler → Swaddling & Receiving Blankets
+  Baby & Toddler → Baby Bottles
+  Baby & Toddler → Breast Milk Storage Containers
+  Baby & Toddler → Baby Bottle Nipples & Liners
+  Baby & Toddler → Diaper Pail Accessories
+  Baby & Toddler → Diapering
+  Baby & Toddler → Baby Transport
+  Baby & Toddler → Nursing & Feeding
+  Baby & Toddler → Baby Care Timers
+  Baby & Toddler → Baby Bottle Nipples
+  Baby & Toddler → Diaper Wet Bags
+  Baby & Toddler → Diaper Liners
+  Baby & Toddler → Nursing Covers
+  Baby & Toddler → Nursing Pillow Covers
+  Baby & Toddler → Swaddling & Receiving Blankets
+  Baby & Toddler → Baby Bottles
+  Baby & Toddler → Breast Milk Storage Containers
+  Baby & Toddler → Baby Bottle Nipples & Liners
+  Baby & Toddler → Diaper Pail Accessories
+  Baby & Toddler → Diapering
+  Baby & Toddler → Baby Transport
+  Baby & Toddler → Nursing & Feeding
+  Baby & Toddler → Baby Care Timers
+  Baby & Toddler → Baby Bottle Nipples
+  Baby & Toddler → Diaper Wet Bags
+  Baby & Toddler → Diaper Liners
+  Baby & Toddler → Nursing Covers
+  Baby & Toddler → Nursing Pillow Covers
+  Baby & Toddler → Swaddling & Receiving Blankets
+  Baby & Toddler → Baby Bottles
+  Baby & Toddler → Breast Milk Storage Containers
+  Baby & Toddler → Baby Bottle Nipples & Liners
+  Baby & Toddler → Diaper Pail Accessories
+  Baby & Toddler → Diapering
+  Baby & Toddler → Baby Transport
+  Baby & Toddler → Nursing & Feeding
+  Baby & Toddler → Baby Care Timers
+  Baby & Toddler → Baby Bottle Nipples
+  Baby & Toddler → Diaper Wet Bags
+  Baby & Toddler → Diaper Liners
+  Baby & Toddler → Nursing Covers
+  Baby & Toddler → Nursing Pillow Covers
+  Baby & Toddler → Swadd
+
+================================================================================

@@ -1,0 +1,128 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Embedded systems; Multiple instruction, single data; Computer systems organization; Systolic arrays; Computing Classification System; Architectures; Single instruction, multiple data; Real-time systems; Parallel architectures
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Systolic arrays is a subtopic of Parallel architectures; Computer systems organization is a subtopic of Computing Classification System; Multiple instruction, single data is a subtopic of Parallel architectures; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Single instruction, multiple data is a subtopic of Parallel architectures; Parallel architectures is a subtopic of Architectures; Embedded systems is a subtopic of Embedded and cyber-physical systems
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Computing Classification System; Maintainability and maintenance; Dependable and fault-tolerant systems and networks; Fault-tolerant network topologies; Real-time systems; Real-time languages; Processors and memory architectures; Computer systems organization; Embedded and cyber-physical systems; Architectures
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Real-time languages is a subtopic of Real-time systems; Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Architectures; Embedded and cyber-physical systems; Serial architectures; Computing Classification System; Computer systems organization; Maintainability and maintenance; Parallel architectures; Interconnection architectures; Pipeline computing; Dependable and fault-tolerant systems and networks
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Pipeline computing is a subtopic of Serial architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System; Interconnection architectures is a subtopic of Parallel architectures; Architectures is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Computing Classification System; Architectures; Real-time languages; Optical computing; Computer systems organization; Quantum computing; Real-time system specification; Real-time systems; Other architectures; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Real-time system specification is a subtopic of Real-time systems; Computer systems organization is a subtopic of Computing Classification System; Real-time systems is a subtopic of Computer systems organization; Optical computing is a subtopic of Other architectures; Other architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Quantum computing is a subtopic of Other architectures
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Real-time system architecture; Dependable and fault-tolerant systems and networks; Distributed architectures; Architectures; Serial architectures; Real-time systems; Computer systems organization; Computing Classification System; Processors and memory architectures; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Distributed architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Real-time system architecture is a subtopic of Real-time systems; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Wireless integrated network sensors; Full-custom circuits; VLSI packaging; Hardware; Systems security; Usability in security and privacy; Electronic design automation; Electromagnetic interference and compatibility; Software and its engineering; Privacy protections; Network properties; PCB design and layout; Browser security; Logic circuits; Standard cell libraries; Modeling and parameter extraction; Mathematical analysis; Performance; General and reference; Symbolic and algebraic manipulation; Integrated circuits; Machine learning; Wireless devices; Printed circuit boards; Multi-chip modules; Communication hardware, interfaces and storage; Computing Classification System; Package-level interconnect; Security and privacy; Cross-computing tools and techniques; Mathematics of computing; Sensor devices and platforms; Information flow control; Networks; Noise reduction; Simulation theory; Application specific instruction set processors; Human and societal aspects of security and privacy; Very large scale integration design; Concurrent computing methodologies; Tactile and hand-based interfaces; Computing methodologies; Application-specific VLSI designs; VLSI design manufacturing considerations; Signal processing systems; Modeling and simulation; Network performance evaluation; Theory of computation; Machine learning algorithms; On-chip sensors
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: gpt-5
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Hardware is a subtopic of Computing Classification System; Software and its engineering is a subtopic of Computing Classification System; Security and privacy is a subtopic of Computing Classification System; Networks is a subtopic of Computing Classification System; Computing methodologies is a subtopic of Computing Classification System; Mathematics of computing is a subtopic of Computing Classification System; Theory of computation is a subtopic of Computing Classification System; General and reference is a subtopic of Computing Classification System; Cross-computing tools and techniques is a subtopic of Computing Classification System; Communication hardware, interfaces and storage is a subtopic of Hardware; Integrated circuits is a subtopic of Hardware; VLSI packaging is a subtopic of Hardware; Printed circuit boards is a subtopic of Hardware; Sensor devices and platforms is a subtopic of Hardware; Electromagnetic interference and compatibility is a subtopic of Hardware; Signal processing systems is a subtopic of Hardware; Electronic design automation is a subtopic of Hardware; Wireless devices is a subtopic of Communication hardware, interfaces and storage; Tactile and hand-based interfaces is a subtopic of Communication hardware, interfaces and storage; Full-custom circuits is a subtopic of Integrated circuits; Standard cell libraries is a subtopic of Integrated circuits; Logic circuits is a subtopic of Integrated circuits; Application-specific VLSI designs is a subtopic of Integrated circuits; Very large scale integration design is a subtopic of Integrated circuits; Application specific instruction set processors is a subtopic of Integrated circuits; VLSI design manufacturing considerations is a subtopic of Electronic design automation; Modeling and parameter extraction is a subtopic of Electronic design automation; Package-level interconnect is a subtopic of VLSI packaging; Multi-chip modules is a subtopic of VLSI packaging; PCB design and layout is a subtopic of Printed circuit boards; Wireless integrated network sensors is a subtopic of Sensor devices and platforms; On-chip sensors is a subtopic of Sensor devices and platforms; Noise reduction is a subtopic of Signal processing systems; Systems security is a subtopic of Security and privacy; Human and societal aspects of security and privacy is a subtopic of Security and privacy; Privacy protections is a subtopic of Security and privacy; Information flow control is a subtopic of Security and privacy; Browser security is a subtopic of Systems security; Usability in security and privacy is a subtopic of Human and societal aspects of security and privacy; Network properties is a subtopic of Networks; Network performance evaluation is a subtopic of Networks; Machine learning is a subtopic of Computing methodologies; Modeling and simulation is a subtopic of Computing methodologies; Concurrent computing methodologies is a subtopic of Computing methodologies; Machine learning algorithms is a subtopic of Machine learning; Simulation theory is a subtopic of Modeling and simulation; Symbolic and algebraic manipulation is a subtopic of Mathematics of computing; Mathematical analysis is a subtopic of Mathematics of computing; Performance is a subtopic of General and reference
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 49
+
+Parsed relationships:
+  Hardware → Computing Classification System
+  Software and its engineering → Computing Classification System
+  Security and privacy → Computing Classification System
+  Networks → Computing Classification System
+  Computing methodologies → Computing Classification System
+  Mathematics of computing → Computing Classification System
+  Theory of computation → Computing Classification System
+  General and reference → Computing Classification System
+  Cross-computing tools and techniques → Computing Classification System
+  Communication hardware, interfaces and storage → Hardware
+  Integrated circuits → Hardware
+  VLSI packaging → Hardware
+  Printed circuit boards → Hardware
+  Sensor devices and platforms → Hardware
+  Electromagnetic interference and compatibility → Hardware
+  Signal processing systems → Hardware
+  Electronic design automation → Hardware
+  Wireless devices → Communication hardware, interfaces and storage
+  Tactile and hand-based interfaces → Communication hardware, interfaces and storage
+  Full-custom circuits → Integrated circuits
+  Standard cell libraries → Integrated circuits
+  Logic circuits → Integrated circuits
+  Application-specific VLSI designs → Integrated circuits
+  Very large scale integration design → Integrated circuits
+  Application specific instruction set processors → Integrated circuits
+  VLSI design manufacturing considerations → Electronic design automation
+  Modeling and parameter extraction → Electronic design automation
+  Package-level interconnect → VLSI packaging
+  Multi-chip modules → VLSI packaging
+  PCB design and layout → Printed circuit boards
+  Wireless integrated network sensors → Sensor devices and platforms
+  On-chip sensors → Sensor devices and platforms
+  Noise reduction → Signal processing systems
+  Systems security → Security and privacy
+  Human and societal aspects of security and privacy → Security and privacy
+  Privacy protections → Security and privacy
+  Information flow control → Security and privacy
+  Browser security → Systems security
+  Usability in security and privacy → Human and societal aspects of security and privacy
+  Network properties → Networks
+  Network performance evaluation → Networks
+  Machine learning → Computing methodologies
+  Modeling and simulation → Computing methodologies
+  Concurrent computing methodologies → Computing methodologies
+  Machine learning algorithms → Machine learning
+  Simulation theory → Modeling and simulation
+  Symbolic and algebraic manipulation → Mathematics of computing
+  Mathematical analysis → Mathematics of computing
+  Performance → General and reference
+
+================================================================================

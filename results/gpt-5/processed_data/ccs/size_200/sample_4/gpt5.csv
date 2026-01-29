@@ -1,0 +1,199 @@
+child,parent
+General and reference,Computing Classification System
+Applied computing,Computing Classification System
+Mathematics of computing,Computing Classification System
+Theory of computation,Computing Classification System
+Hardware,Computing Classification System
+Networks,Computing Classification System
+Software and its engineering,Computing Classification System
+Information systems,Computing Classification System
+Security and privacy,Computing Classification System
+Human-centered computing,Computing Classification System
+Social and professional topics,Computing Classification System
+Information theory,Computing Classification System
+Mathematics and statistics,Applied computing
+Physical sciences and engineering,Applied computing
+Education,Applied computing
+Computers in other domains,Applied computing
+Industry and manufacturing,Applied computing
+"Law, social and behavioral sciences",Applied computing
+Economics,Applied computing
+Professional topics,Social and professional topics
+Computing industry,Professional topics
+Law,Social and professional topics
+World Wide Web,Information systems
+Data management systems,Information systems
+Information storage systems,Information systems
+Document management and text processing,Information systems
+Information systems applications,Information systems
+Database management system engines,Data management systems
+Query languages,Data management systems
+Call level interfaces,Data management systems
+Middleware for databases,Data management systems
+Data federation tools,Data management systems
+Information storage technologies,Information storage systems
+Storage architectures,Information storage systems
+Storage management,Information storage systems
+Cloud based storage,Information storage systems
+Data replication tools,Information storage systems
+Data recovery,Information storage systems
+Storage class memory,Information storage technologies
+Document preparation,Document management and text processing
+Document searching,Document management and text processing
+Document capture,Document management and text processing
+Annotation,Document management and text processing
+Graphics recognition and interpretation,Document management and text processing
+Format and notation,Document preparation
+Image composition,Document preparation
+Optical character recognition,Document capture
+Online handwriting recognition,Document capture
+Mobile information processing systems,Information systems applications
+Web services,World Wide Web
+Web data description languages,World Wide Web
+Hypertext / hypermedia creation,World Wide Web
+Web log analysis,World Wide Web
+Site wrapping,World Wide Web
+Online advertising,World Wide Web
+Display advertising,Online advertising
+Social advertising,Online advertising
+Semantic web description languages,Web data description languages
+Web Ontology Language (OWL),Semantic web description languages
+Web Services Description Language (WSDL),Web data description languages
+Universal Description Discovery and Integration (UDDI),Web services
+Data mining,Information systems
+Web mining,Data mining
+Network architectures,Networks
+Network components,Networks
+Network types,Networks
+Network properties,Networks
+Network performance evaluation,Networks
+Network manageability,Networks
+Network services,Networks
+Physical topologies,Network architectures
+Logical / virtual topologies,Network architectures
+End nodes,Network components
+Wireless devices,Network components
+Ad hoc networks,Network types
+Packet-switching networks,Network types
+Network reliability,Network properties
+Network dynamics,Network properties
+Network structure,Network properties
+Topology analysis and generation,Network properties
+Network performance analysis,Network performance evaluation
+Network performance modeling,Network performance evaluation
+Network measurement,Network performance evaluation
+Network simulations,Network performance evaluation
+Traffic analysis,Network measurement
+Network experimentation,Network measurement
+Wireless integrated network sensors,Wireless devices
+Security services,Security and privacy
+Authentication,Security services
+Authorization,Security services
+Multi-factor authentication,Authentication
+Cryptography,Security and privacy
+Cryptographic protocols,Security and privacy
+Cryptanalysis and other attacks,Security and privacy
+Computer forensics,Security and privacy
+Network forensics,Computer forensics
+"Evidence collection, storage and analysis",Computer forensics
+Embedded systems security,Security and privacy
+Software and application security,Security and privacy
+Software security engineering,Security and privacy
+Security in hardware,Security and privacy
+Human and societal aspects of security and privacy,Security and privacy
+Usability in security and privacy,Human and societal aspects of security and privacy
+Design and analysis of algorithms,Theory of computation
+Formal languages and automata theory,Theory of computation
+Logic,Theory of computation
+Models of computation,Theory of computation
+Complexity theory and logic,Theory of computation
+Semantics and reasoning,Theory of computation
+Computational complexity and cryptography,Theory of computation
+Online algorithms,Design and analysis of algorithms
+"Streaming, sublinear and near linear time algorithms",Design and analysis of algorithms
+Nearest neighbor algorithms,Design and analysis of algorithms
+Data structures design and analysis,Design and analysis of algorithms
+Online learning algorithms,Design and analysis of algorithms
+K-server algorithms,Online algorithms
+Caching and paging algorithms,Data structures design and analysis
+Bloom filters and hashing,Data structures design and analysis
+Regular languages,Formal languages and automata theory
+Tree languages,Formal languages and automata theory
+Automata over infinite objects,Formal languages and automata theory
+Automata extensions,Formal languages and automata theory
+Algebraic language theory,Formal languages and automata theory
+Equational logic and rewriting,Logic
+Higher order logic,Logic
+Modal and temporal logics,Logic
+Finite Model Theory,Logic
+Automated reasoning,Logic
+Program semantics,Semantics and reasoning
+Program reasoning,Semantics and reasoning
+Formalisms,Semantics and reasoning
+Type theory,Semantics and reasoning
+Algebraic semantics,Program semantics
+Categorical semantics,Program semantics
+Algebraic complexity theory,Complexity theory and logic
+Circuit complexity,Complexity theory and logic
+Proof complexity,Complexity theory and logic
+Lower bounds and information complexity,Complexity theory and logic
+Interactive proof systems,Complexity theory and logic
+Oracles and decision trees,Complexity theory and logic
+Mathematical foundations of cryptography,Computational complexity and cryptography
+Probability and statistics,Mathematics of computing
+Continuous mathematics,Mathematics of computing
+Topology,Mathematics of computing
+Stochastic processes,Probability and statistics
+Nonparametric statistics,Probability and statistics
+Probabilistic inference problems,Probability and statistics
+Max marginal computation,Probabilistic inference problems
+Mathematical analysis,Continuous mathematics
+Integral equations,Mathematical analysis
+Algebraic topology,Topology
+Coding theory,Information theory
+"Communication hardware, interfaces and storage",Hardware
+Integrated circuits,Hardware
+Electronics,Hardware
+Power management,Hardware
+Buses and high-speed links,"Communication hardware, interfaces and storage"
+Physical links,"Communication hardware, interfaces and storage"
+Software organization and properties,Software and its engineering
+Software system structures,Software organization and properties
+Program constructs,Software and its engineering
+Object oriented constructs,Program constructs
+Software infrastructure,Software and its engineering
+Programming interfaces,Software infrastructure
+Message queues,Software infrastructure
+Service buses,Software infrastructure
+Operating systems,Software and its engineering
+Monitors,Operating systems
+Process management,Operating systems
+Contextual software domains,Software and its engineering
+Accessibility,Human-centered computing
+Accessibility technologies,Accessibility
+Empirical studies in accessibility,Accessibility
+User characteristics,Human-centered computing
+Interaction design,Human-centered computing
+Empirical studies in interaction design,Interaction design
+Tactile and hand-based interfaces,Human-centered computing
+Virtual worlds software,Human-centered computing
+Operations research,Applied computing
+Decision analysis,Operations research
+Forecasting,Operations research
+Engineering,Physical sciences and engineering
+Earth and atmospheric sciences,Physical sciences and engineering
+Computer-assisted instruction,Education
+Computer-managed instruction,Education
+Distance learning,Education
+Collaborative learning,Education
+Supply chain management,Industry and manufacturing
+Computer-aided manufacturing,Industry and manufacturing
+Process control systems,Industry and manufacturing
+Aerospace,Computers in other domains
+Agriculture,Computers in other domains
+Archaeology,Computers in other domains
+Transportation,Computers in other domains
+Command and control,Aerospace
+Psychology,"Law, social and behavioral sciences"
+Sociology,"Law, social and behavioral sciences"
+Anthropology,"Law, social and behavioral sciences"

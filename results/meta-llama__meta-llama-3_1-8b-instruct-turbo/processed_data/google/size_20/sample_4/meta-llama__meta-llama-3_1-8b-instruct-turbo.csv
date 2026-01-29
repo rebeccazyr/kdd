@@ -1,0 +1,19 @@
+child,parent
+Event Tickets,Media
+Scanners,"Print, Copy, Scan & Fax"
+"Print, Copy, Scan & Fax",Computers
+GPS Navigation Systems,Electronics
+Electronics,Hardware
+Speed Radars,Electronics
+Circuit Boards & Components,Electronics
+Building Consumables,Hardware
+"Heating, Ventilation & Air Conditioning",Hardware
+Luggage & Bags,Apparel & Accessories
+Train Cases,Luggage & Bags
+Fencing & Barriers,Religious & Ceremonial
+Religious & Ceremonial,Google Product Taxonomy
+Media,Google Product Taxonomy
+Arts & Entertainment,Google Product Taxonomy
+Baby & Toddler,Google Product Taxonomy
+Google Product Taxonomy,itself
+Computers,Google Product Taxonomy

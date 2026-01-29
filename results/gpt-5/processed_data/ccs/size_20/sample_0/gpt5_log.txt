@@ -1,0 +1,98 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Single instruction, multiple data; Computer systems organization; Systolic arrays; Computing Classification System; Embedded systems; Real-time systems; Architectures; Multiple instruction, single data; Parallel architectures; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Computer systems organization is a subtopic of Computing Classification System; Architectures is a subtopic of Computer systems organization; Systolic arrays is a subtopic of Parallel architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Single instruction, multiple data is a subtopic of Parallel architectures; Multiple instruction, single data is a subtopic of Parallel architectures; Embedded systems is a subtopic of Embedded and cyber-physical systems; Parallel architectures is a subtopic of Architectures; Real-time systems is a subtopic of Computer systems organization
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Real-time systems; Real-time languages; Computer systems organization; Maintainability and maintenance; Embedded and cyber-physical systems; Fault-tolerant network topologies; Dependable and fault-tolerant systems and networks; Processors and memory architectures; Computing Classification System; Architectures
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System; Real-time languages is a subtopic of Real-time systems
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Interconnection architectures; Architectures; Parallel architectures; Computer systems organization; Serial architectures; Pipeline computing; Embedded and cyber-physical systems; Computing Classification System; Maintainability and maintenance; Dependable and fault-tolerant systems and networks
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Parallel architectures is a subtopic of Architectures; Serial architectures is a subtopic of Architectures; Pipeline computing is a subtopic of Serial architectures; Computer systems organization is a subtopic of Computing Classification System; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Interconnection architectures is a subtopic of Parallel architectures
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Optical computing; Embedded and cyber-physical systems; Computing Classification System; Computer systems organization; Real-time system specification; Real-time languages; Other architectures; Real-time systems; Architectures; Quantum computing
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Real-time languages is a subtopic of Real-time systems; Quantum computing is a subtopic of Other architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Other architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Real-time system specification is a subtopic of Real-time systems; Optical computing is a subtopic of Other architectures; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Computing Classification System; Embedded and cyber-physical systems; Real-time systems; Processors and memory architectures; Dependable and fault-tolerant systems and networks; Architectures; Real-time system architecture; Computer systems organization; Distributed architectures; Serial architectures
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time system architecture is a subtopic of Real-time systems; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Distributed architectures is a subtopic of Architectures
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Information accountability and usage control; VLSI packaging; Hardware; Information systems applications; Systems security; Electronic design automation; Design reuse and communication-based design; Design and analysis of algorithms; Computing Classification System; Security and privacy; Formal methods and theory of security; Human and societal aspects of security and privacy; Very large scale integration design; Application-specific VLSI designs; Process control systems; Hardware attacks and countermeasures; Database and storage security; Security in hardware; Theory of computation; Information systems
+Relationships: 
+
+================================================================================
+Number of entities: 20
+Model: gpt-5
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Hardware is a subtopic of Computing Classification System; Information systems is a subtopic of Computing Classification System; Security and privacy is a subtopic of Computing Classification System; Theory of computation is a subtopic of Computing Classification System; Electronic design automation is a subtopic of Hardware; Very large scale integration design is a subtopic of Hardware; VLSI packaging is a subtopic of Very large scale integration design; Application-specific VLSI designs is a subtopic of Very large scale integration design; Design reuse and communication-based design is a subtopic of Electronic design automation; Information systems applications is a subtopic of Information systems; Process control systems is a subtopic of Information systems applications; Design and analysis of algorithms is a subtopic of Theory of computation; Systems security is a subtopic of Security and privacy; Database and storage security is a subtopic of Security and privacy; Formal methods and theory of security is a subtopic of Security and privacy; Human and societal aspects of security and privacy is a subtopic of Security and privacy; Security in hardware is a subtopic of Security and privacy; Hardware attacks and countermeasures is a subtopic of Security in hardware; Information accountability and usage control is a subtopic of Human and societal aspects of security and privacy
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 19
+
+Parsed relationships:
+  Hardware → Computing Classification System
+  Information systems → Computing Classification System
+  Security and privacy → Computing Classification System
+  Theory of computation → Computing Classification System
+  Electronic design automation → Hardware
+  Very large scale integration design → Hardware
+  VLSI packaging → Very large scale integration design
+  Application-specific VLSI designs → Very large scale integration design
+  Design reuse and communication-based design → Electronic design automation
+  Information systems applications → Information systems
+  Process control systems → Information systems applications
+  Design and analysis of algorithms → Theory of computation
+  Systems security → Security and privacy
+  Database and storage security → Security and privacy
+  Formal methods and theory of security → Security and privacy
+  Human and societal aspects of security and privacy → Security and privacy
+  Security in hardware → Security and privacy
+  Hardware attacks and countermeasures → Security in hardware
+  Information accountability and usage control → Human and societal aspects of security and privacy
+
+================================================================================

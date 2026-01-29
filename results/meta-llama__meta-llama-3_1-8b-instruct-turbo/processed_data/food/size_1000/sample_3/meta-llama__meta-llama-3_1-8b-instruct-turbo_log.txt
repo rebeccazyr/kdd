@@ -1,0 +1,528 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: occhi di lupo; gemelli; pasta; pici; bavette; fagottini; food; fusilli; cannelloni; spaghetti
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+pici is a subtopic of pasta; fagottini is a subtopic of pasta; bavette is a subtopic of pasta; occhi di lupo is a subtopic of pasta; gemelli is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta; cannelloni is a subtopic of pasta; fusilli is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: corzetti; mezzelune; rotini; spaghetti; food; pasta; croxetti; fuži; linguine; sacchettoni
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+spaghetti is a subtopic of pasta; pasta is a subtopic of food; croxetti is a subtopic of pasta; linguine is a subtopic of pasta; rotini is a subtopic of pasta; mezzelune is a subtopic of pasta; corzetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; fuži is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: garganelli; food; stringozzi; mezzelune; occhi di lupo; bigoli; anellini; fuži; pasta; corzetti
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+stringozzi is a subtopic of pasta; anellini is a subtopic of pasta; fuži is a subtopic of pasta; corzetti is a subtopic of pasta; pasta is a subtopic of food; garganelli is a subtopic of pasta; bigoli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; mezzelune is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: casoncelli; ptitim; passatelli; pasta; lanterne; macaroni; spaghetti; rotini; food; campanelle
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+macaroni is a subtopic of pasta; casoncelli is a subtopic of pasta; rotini is a subtopic of pasta; lanterne is a subtopic of pasta; passatelli is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food; campanelle is a subtopic of pasta; ptitim is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: ptitim; rotelle; pasta; rotini; sacchettoni; mezzelune; food; spaghetti; penne; stringozzi
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+sacchettoni is a subtopic of pasta; rotelle is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; rotini is a subtopic of pasta; pasta is a subtopic of food; stringozzi is a subtopic of pasta; mezzelune is a subtopic of pasta; penne is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: schnapps; cheonsachae; albufera sauce; caruso sauce; fruit-flavoured drinks; salsa golf; egg drop soup; ohaw; marble cake; uirō; cabinet pudding; chipped beef; pumpkin seeds; likëngë; dacquoise; cumberland sausage; houmous; blood soup; celery roots; bolo rei; disney mickey's magix; nataing; squashes; southern illinois chowder; changzhou sesame cake; post toasties; caldo de pollo; welf pudding; cardoon; liver soup; duck soup noodles; hogao; honeycomb; restructured steak; imoni; grits; debrecener; cherimoyas; tea loaf; dalithoy; fisherman's soup; just right; hulatang; sponge cake; soy product; non-dairy frozen dessert; red wine; onion powder; cake and brownie mixes; tart; plums; gamjatang; henan braised noodles; yucca root; honey bunches of oats; waffles; močnik; baumkuchen; pork roll; bun rieu; golden crisp; beetroots; king cake; far breton; lai fun; cantonese seafood soup; halfsies; pea soup; rice vermicelli; sherry; pumpkin soup; taco shells; kuchen; kapusniak; hog's pudding; jams and preserves; mykyrokka; savore sanguino; cornmeal; thenthuk; frying pan dinners; cider; licorice; hodge-podge; oil noodles; tkemali; pottage; broccoli; macaroni soup; taiyaki; cellophane noodles; pecel; turnips; gypsy tart; babka; cullen skink; bolo de mel; tu; hot milk cake; artificial sweeteners; pickles and relishes; empal gentong; tinned meat; apricots; coconut milk; pork jowl; fudge cake; black soup; mami soup; whisky; chocapic; buckwheat; vector; kharcho; fennel bulbs; qingtang wanzi; cucumber soup; gummy sweets; coffee cake; lotus roots; kishka; cocoa krispies; maafe; sambal; ogbono nuts; pretzel mixes; hot chocolate; candy bars; marshmallows; ground and whole bean coffee; bouillon; memela; milk; kohlwurst; bouneschlupp; oille; yaki udon; dobos torte; lasagnette; rum cake; rum baba; weisswurst; non-alcoholic beer; cabanossi; gobo root; henan braised noodle; tlacoyo; cabbage; pastries; sprinkle spangles; hemp milk; juk; mala sauce; cherries; malva pudding; mbeju; green sauce; dessert bars; cröonchy stars; beetroot greens; butter and margarine; on choy; worcestershire sauce; sopa de mondongo; seeds; tripoline; mock turtle soup; granola; dates; asparagus; cottage cheese; powdered tea; vodka; sobrassada; homli fruits; kugelis; crépinette; ribollita; crispy critters; soy milk; boston butt; erotic cake; šakotis; ho hos; tomatoes; crenvurșt; brési; chard; psarosoupa; mung bean sheets; espagnole sauce; raisin wheats; pecans; mujdei; sno balls; gourds; energy drinks; agrodolce; honey loops; gin; red peas soup; sesame seed cake; under cover bears instant oatmeal; manwich; gooey butter cake; biángbiáng noodles; shrimp roe noodles; sunny boy cereal; ogi; panada; solyanka; khao poon; dessert toppings; jook-sing noodles; gumdrops; soto ayam; braadworst; ciavàr; hot sauce; mushroom gravy; fruit chews; frozen noodles; almond milk; nougat; cooking ingredient; frozen meat; chocolate bars; noodle soup; chimichurri; bread soup; tinned soup; youmian; batchoy; soup; tom kha kai; walnuts; kasha; pan de pascua; ladyfinger; sapote; shredded wheat; pie; bak kut teh; pudding; corn dog; köttsoppa; jjolmyeon; miso soup; financier; jelly beans; caraway seed cake; rubaboo; changua; consommé; prickly pears; hard sauce; sujebi; celery; ciauscolo; instant soup; rum; fideo; all-bran; supreme; tacacá; caramels; blush wine; quetschentaart; hochzeitssuppe; pasta sauces; cheese dog; ukha; siskonmakkara; chancaca; génoise cake; she-crab soup; depression cake; sushi; cake; pig's organ soup; geera pork; eccles cake; dandan noodles; regensburger wurst; brazil nuts; gai lan; vinegar drinks; port; food colouring; rouille; turrón; ginger root; disney hunny b's honey-graham; cheese pudding; peppers; kohlrabi; xo sauce; cashews; chocolate assortments; crazy cow; kix; liverwurst; hummingbird cake; candle salad; dairy product; chili dog; korean noodle; flummadiddle; castella; sugar apples; garbure; goody; tarta de santiago; sausage; special k; jerusalem artichokes; body buddies; spotted dick; cheese spread; bottled water; harira; prežganka; marinade; kupati; boerewors; boiled sweets; flavoured water; prepared main courses; taro root; ponzu; water chestnuts; paradise nuts; rhubarb; honey smacks; cauliflower; diot; rice noodle roll; grapes; kesme; sundae cones; chicory; chipa so'o; peach sauce; mulligatawny; beans; dried beans; escudella i carn d'olla; butajiru; bean pastes; rântaş; white wine; peanut sauce; manchester tart; tomato paste; potatoes; kitchen bouquet; instant noodles; pomegranates; figs; sopa de pata; lollipops; smorz; styrian sour soup; kale; clackers cereal; stonner kebab; chicago-style hot dog; ice cream cones; lemon grass; neenish tart; frejon; summer sausage; lung fung soup; canned and jarred vegetable; dotori guksu; trdelník; linguettine; confiture de lait; rutabagas; frozen dessert; mamey; mortadella; wonton noodles; wow-wow sauce; layer cake; cupcakes; quinoa; tian mo; red-eye gravy; bakmi; fruit; marshmallow sweets; spinach; kue keranjang; torte; cupcone; porridge; kornigou; candy corn; tiramisu; ding dong; dragon beard noodles; chocos; ajiaco; mushrooms; curry ketchup; crostata; aubergines; dragonfruit; persimmons; crossing the bridge noodles; oatibix; kola nuts; bisque; curry sauce; honey; sour cherry soup; coulis; soy sauce; sinigang; peanuts; smith & jones instant noodle; eggnog; suaasat; bún mắm; crumpet; sancocho; kutia; pillus; jewish apple cake; garak guksu; naengguk; qottab; cumian; breton sauce; honey nut clusters; herb; chocolate cake; baking soda; food; salsa; fat rascal; rượu nếp; apple butter; pine nuts; cotechino modena; paris buns; unni appam; pound cake; rice milk; pistou; reese's puffs; velouté sauce; oyster sauce; extrawurst; sopa teologa; mixed nuts; nantua sauce; spring soup; cold borsch; tamarillos; wacky cake; salad mixes; kobe beef; shreddies; steak sauce; soto; nectarines; oregano; donuts; soul cake; plumcots; heavy cake; lettuce; cruncheroos; limequats; golden nuggets; merguez; meunière sauce; chongyang cake; kugel; seafood; powdered milk; product 19; hot dry noodles; alfalfa sprouts; colomba di pasqua; chocolate covered nuts; korean noodles; boston cream pie; idli; suprême sauce; phu quoc fish sauce; chocolate mints; tequilaseed; chestnuts; kakara pitha; condiment; soy nuts; rhubarb tart; agave syrup; lobster sauce; janggukjuk; juice; pho; potage; torta tre monti; meat; frankfurter würstchen; loose tea leaves; chistorra; ontbijtkoek; sauce vierge; noodle; dashi; pleşcoi sausages; soubise sauce; rice noodles; khrenovina sauce; wanko soba; pan mee; romesco; rice; chicken soup; corn soup; prepared food; mead; greens; sevai; happy cake; bánh khoai mì; pizza sauce; purée mongole; sweet potatoes; wheatgrass; knipp; alheira; teewurst; soyo; sugar puffs; brown windsor soup; soup number five; fish sauce; morteau sausage; liquor; oxford sausage; german chocolate cake; red bean cake; tomato soup; sesame seeds; rose hip soup; rømmegrøt; bananas; shallots; michigan hot dog; onions; dip; booyah; butter cake; tucupi; sfouf; lolly cake; gulyásleves; coffee; tom yum; hyderabadi marag; vanilla beans; corn; yu choy; ábrystir; aioli; weetabix; cucumbers; taco soup; hot dog; brown sauce; artichokes; cudighi; béchamel sauce; batter and coating mixes; arracachas; olives and capers; magiritsa; caramel tart; duckefett; raisin bran; soup all'imperatrice; soursops; chikhirtma; pandan cake; bulla cake; quisp; aniseed; peanut butter cups; fish tea; pork chop; lucanica; fiddlehead ferns; pique verde boricua; sago pudding; drunken noodles; ladurée; cereals; yam; nali sauce; mints; lekach; shchi; peas; sachertorte; coriander; goulash; buc wheats cereal; atemoyas; fruit salad; peaches; venetian sauce; wodzionka; dried soup; pumpkins; semifreddo; gajar ka halwa; lemons; start; bitters; kulajda; béarnaise sauce; crème ninon; side dishes; dessert platters; toto; french toast; mi san dao; coffee creamer; carbonade flamande; horseradish sauce; wheat; schupfnudel; flourless chocolate cake; tarte tatin; pancake and maple syrup; scotch broth; wedding cake; senate bean soup; madroã±o; ahle wurst; barley; bolognese sauce; uncle sam cereal; mannish water; non-dairy milk; kek lapis sarawak; mohnnudel; caldo verde; suckers; torta alla monferrina; sujuk; malvern pudding; noodle with tomato egg sauce; gai choi; bean sprouts; rab cake; bottled coffee drinks; corn syrup; christmas pudding; udon; falukorv; brandy; flummery; pastisset; cervelat; honey garlic sauce; flavoured malt drinks; talunan; tahinopita; tony's turboz; milky; shahe fen; kinnathappam; pozole; sweets; corn chowder; babi panggang; satay sauce; tavuk göğsü; limes; oxtail soup; tortillas; bánh chuối; oat milk; kouign-amann; rassolnik; berries; neapolitan ragù; andouille; amandine; tinned seafood; funing big cake; bread pudding mixes; fudge; chick peas; banh canh; rambutans; loquats; zuppa alla modenese; waffle crisp; tekwan; petit salé; kuzumochi; mettwurst; breakfast sausage; popsicles; okra; sparkling wine; choi sum; ga'at; calas; dill; haggis; spice; italian hot dog; wine cake; chorba; jicama; kulen; taffy; pineapples; tipsy cake; sangria; katara; albert sauce; czernina; mangosteens; chinese noodles; chiffon cake; pesto; kissel; black sesame rice cake; garlic; rawon; nettle soup; tianmianjiang; hors d'oeuvres; madeira cake; saucisson; snow cone syrup; tres leches cake; anchovy essence; maya nuts; crunchy nut; ready brek; instant coffee; rasam; ganache; isterband; may west; borscht; tuscan cabbage; opera cake; watercress; moambe; ganjang; vlaai; ching bo leung; borage; buttermilk; champorado; molasses; rice krispies; vegetable; moin moin; kongguksu; tempeh; svartsoppa; upside-down cake; cream; kyselo; chives; konro; rookworst; fuet; standing rib roast; tamarind; parkin; chocolate covered fruit; bakery; aji; bok choi; bundt cake; alpha-bits; cocktail mixes; otak-otak; rocket; starfruits; dessert wine; chutney; berlingozzo; skilandis; morning funnies; black noodles; torta caprese; piti; oats; oranges; muskazine; guavas; mangos; papayas; ice cream; krakowska; beurre blanc; frozen seafood; nagasari; infusion; mustard; black pudding; chocolate truffles; prepared sandwiches; mang tomas; shambar; beurre noisette; porra antequerana; sussex pond pudding; gumbo; tallow; shirataki noodles; salt; babacos; salvitxada; weckewerk; sour cream; zosui; horseradish root; figgy duff; rice wine; turtle soup; ezogelin soup; silver needle noodles; fresh meat; rosã© wine; fruit sauce; lane cake; parsnips; bánh tét; carrot cake; wine; leeks; herman cake; almonds; sorbet; organic beef; corn flakes; french onion soup; scott's porage oats; powdered beverage mixes; chinkiang pot cover noodles; bún bò huế; buttermilk koldskål; kiwis; bánh bò; tourin; instant noodle; complete wheat bran flakes; mamoncillo nuts; beef; butter tart; miyeok guk; bika ambon; malangas; fizzy drinks; frozen yoghurt; beer; gomguk; feijoas; salad dressings; kamby arro; bordelaise sauce; kalamai; bologna sausage; soup alla canavese; vori vori; tangelos; salt pork; currants; sour rye soup; french toast crunch; rocky road cereal; tahini; red velvet cake; kulolo; saang mein; helmipuuro; kream krunch; mustamakkara; jeonbokjuk; sunflower seeds; vegetable dip; hot and sour soup; kai kou xiao; okroshka; manjar branco; cheez whiz; apple sauce; mint sauce; somebody's mother's chocolate sauce; hazelnuts; buccellato; bread sauce; cumberland sauce; češnovka; gazpachuelo; zōni; draw soup; minestrone; carbonated water; sauce ravigote; sugo all'amatriciana; vichyssoise; beef noodle soup; moronga; fanesca; kuy teav; cake pop; tembleque; pork; kaeng som; coffee cakes; candy canes; carrots; breakfast sandwiches; sour soup; toffee brittle; vermouth; sauce lyonnaise; vinegar; yoghurt; tangerines; mămăligă; syrup; pineapple tart; bredela; jatjuk; ajoblanco; parsley roots; siemieniotka; st. honoré cake; spice cake; eggs; 100% bran; bermuda fish chowder; hidden treasures; pistachios; pastiera; tartar sauce; cactus leaves; vietnamese noodles; sauce; brussels sprouts; café de paris sauce; flavoured syrup; baking mixes; mint; miguelitos; singapore style noodle; sherbet; ok sauce; chewing gum; granula; longan; cimpa; water; pistachio pudding; mahyawa; gastrique; garash cake; chipa guasu; mafalde; non-alcoholic wine; okinawa soba; pears; princess cake; breakfast cereal; longaniza; pain d'épices; toffee; leek soup; beer soup; sorrel soup; sauce gribiche; yaka mein; sapodillo; louis dressing; barley gruel; scorcolga; beverage; yi mein; coconuts; rye; newmarket sausage; cheese
+Relationships: 
+
+================================================================================
+Number of entities: 1000
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to create a taxonomy from it. Here's a list of parent-child relationships:
+
+1. food is a parent of:
+   - pasta
+   - fruit-flavoured drinks
+   - egg drop soup
+   - soups
+   - sauces
+   - desserts
+   - beverages
+   - condiments
+   - spices
+   - oils
+   - vinegars
+   - syrups
+   - honey
+   - sugar
+   - salt
+   - coffee
+   - tea
+   - chocolate
+   - nuts
+   - seeds
+   - grains
+   - legumes
+   - dairy products
+   - meat
+   - fish
+   - poultry
+   - seafood
+   - eggs
+   - fruits
+   - vegetables
+   - herbs
+   - mushrooms
+   - bread
+   - pastries
+   - cakes
+   - cookies
+   - candies
+   - ice cream
+   - frozen desserts
+   - beverages
+   - wine
+   - beer
+   - spirits
+   - soft drinks
+   - juices
+   - milk
+   - yogurt
+   - cheese
+   - butter
+   - margarine
+   - oils
+   - vinegars
+   - syrups
+   - honey
+   - sugar
+   - salt
+   - spices
+   - herbs
+   - seasonings
+   - marinades
+   - dressings
+   - sauces
+   - gravies
+   - soups
+   - stews
+   - braises
+   - roasts
+   - grilled meats
+   - fried foods
+   - baked goods
+   - pastries
+   - cakes
+   - cookies
+   - candies
+   - ice cream
+   - frozen desserts
+   - beverages
+   - wine
+   - beer
+   - spirits
+   - soft drinks
+   - juices
+   - milk
+   - yogurt
+   - cheese
+   - butter
+   - margarine
+   - oils
+   - vinegars
+   - syrups
+   - honey
+   - sugar
+   - salt
+   - spices
+   - herbs
+   - seasonings
+   - marinades
+   - dressings
+   - sauces
+   - gravies
+   - soups
+   - stews
+   - braises
+   - roasts
+   - grilled meats
+   - fried foods
+   - baked goods
+   - pastries
+   - cakes
+   - cookies
+   - candies
+   - ice cream
+   - frozen desserts
+   - beverages
+   - wine
+   - beer
+   - spirits
+   - soft drinks
+   - juices
+   - milk
+   - yogurt
+   - cheese
+   - butter
+   - margarine
+   - oils
+   - vinegars
+   - syrups
+   - honey
+   - sugar
+   - salt
+   - spices
+   - herbs
+   - seasonings
+   - marinades
+   - dressings
+   - sauces
+   - gravies
+   - soups
+   - stews
+   - braises
+   - roasts
+   - grilled meats
+   - fried foods
+   - baked goods
+   - pastries
+   - cakes
+   - cookies
+   - candies
+   - ice cream
+   - frozen desserts
+   - beverages
+   - wine
+   - beer
+   - spirits
+   - soft drinks
+   - juices
+   - milk
+   - yogurt
+   - cheese
+   - butter
+   - margarine
+   - oils
+   - vinegars
+   - syrups
+   - honey
+   - sugar
+   - salt
+   - spices
+   - herbs
+   - seasonings
+   - marinades
+   - dressings
+   - sauces
+   - gravies
+   - soups
+   - stews
+   - braises
+   - roasts
+   - grilled meats
+   - fried foods
+   - baked goods
+   - pastries
+   - cakes
+   - cookies
+   - candies
+   - ice cream
+   - frozen desserts
+   - beverages
+   - wine
+   - beer
+   - spirits
+   - soft drinks
+   - juices
+   - milk
+   - yogurt
+   - cheese
+   - butter
+   - margarine
+   - oils
+   - vinegars
+   - syrups
+   - honey
+   - sugar
+   - salt
+   - spices
+   - herbs
+   - seasonings
+   - marinades
+   - dressings
+   - sauces
+   - gravies
+   - soups
+   - stews
+   - braises
+   - roasts
+   - grilled meats
+   - fried foods
+   - baked goods
+   - pastries
+   - cakes
+   - cookies
+   - candies
+   - ice cream
+   - frozen desserts
+   - beverages
+   - wine
+   - beer
+   - spirits
+   - soft drinks
+   - juices
+   - milk
+   - yogurt
+   - cheese
+   - butter
+   - margarine
+   - oils
+   - vinegars
+   - syrups
+   - honey
+   - sugar
+   - salt
+   - spices
+   - herbs
+   - seasonings
+   - marinades
+   - dressings
+   - sauces
+   - gravies
+   - soups
+   - stews
+   - braises
+   - roasts
+   - grilled meats
+   - fried foods
+   - baked goods
+   - pastries
+   - cakes
+   - cookies
+   - candies
+   - ice cream
+   - frozen desserts
+   - beverages
+   - wine
+   - beer
+   - spirits
+   - soft drinks
+   - juices
+   - milk
+   - yogurt
+   - cheese
+   - butter
+   - margarine
+   - oils
+   - vinegars
+   - syrups
+   - honey
+   - sugar
+   - salt
+   - spices
+   - herbs
+   - seasonings
+   - marinades
+   - dressings
+   - sauces
+   - gravies
+   - soups
+   - stews
+   - braises
+   - roasts
+   - grilled meats
+   - fried foods
+   - baked goods
+   - pastries
+   - cakes
+   - cookies
+   - candies
+   - ice cream
+   - frozen desserts
+   - beverages
+   - wine
+   - beer
+   - spirits
+   - soft drinks
+   - juices
+   - milk
+   - yogurt
+   - cheese
+   - butter
+   - margarine
+   - oils
+   - vinegars
+   - syrups
+   - honey
+   - sugar
+   - salt
+   - spices
+   - herbs
+   - seasonings
+   - marinades
+   - dressings
+   - sauces
+   - gravies
+   - soups
+   - stews
+   - braises
+   - roasts
+   - grilled meats
+   - fried foods
+   - baked goods
+   - pastries
+   - cakes
+   - cookies
+   - candies
+   - ice cream
+   - frozen desserts
+   - beverages
+   - wine
+   - beer
+   - spirits
+   - soft drinks
+   - juices
+   - milk
+   - yogurt
+   - cheese
+   - butter
+   - margarine
+   - oils
+   - vinegars
+   - syrups
+   - honey
+   - sugar
+   - salt
+   - spices
+   - herbs
+   - seasonings
+   - marinades
+   - dressings
+   - sauces
+   - gravies
+   - soups
+   - stews
+   - braises
+   - roasts
+   - grilled meats
+   - fried foods
+   - baked goods
+   - pastries
+   - cakes
+   - cookies
+   - candies
+   - ice cream
+   - frozen desserts
+   - beverages
+   - wine
+   - beer
+   - spirits
+   - soft drinks
+   - juices
+   - milk
+   - yogurt
+   - cheese
+   - butter
+   - margarine
+   - oils
+   - vinegars
+   - syrups
+   - honey
+   - sugar
+   - salt
+   - spices
+   - herbs
+   - seasonings
+   - marinades
+   - dressings
+   - sauces
+   - gravies
+   - soups
+   - stews
+   - braises
+   - roasts
+   - grilled meats
+   - fried foods
+   - baked goods
+   - pastries
+   - cakes
+   - cookies
+   - candies
+   - ice cream
+   - frozen desserts
+   - beverages
+   - wine
+   - beer
+   - spirits
+   - soft drinks
+   - juices
+   - milk
+   - yogurt
+   - cheese
+   - butter
+   - margarine
+   - oils
+   - vinegars
+   - syrups
+   - honey
+   - sugar
+   - salt
+   - spices
+   - herbs
+   - seasonings
+   - marinades
+   - dressings
+   - sauces
+   - gravies
+   - soups
+   - stews
+   - braises
+   - roasts
+   - grilled meats
+   - fried foods
+   - baked goods
+   - pastries
+   - cakes
+   - cookies
+   - candies
+   - ice cream
+   - frozen desserts
+  
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

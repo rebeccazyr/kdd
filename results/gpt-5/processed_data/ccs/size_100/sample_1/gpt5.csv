@@ -1,0 +1,100 @@
+child,parent
+Hardware,Computing Classification System
+Software and its engineering,Computing Classification System
+Information systems,Computing Classification System
+Security and privacy,Computing Classification System
+Human-centered computing,Computing Classification System
+Networks,Computing Classification System
+Applied computing,Computing Classification System
+Social and professional topics,Computing Classification System
+Mathematics of computing,Computing Classification System
+General and reference,Computing Classification System
+Surveys and overviews,General and reference
+Biographies,General and reference
+Dictionaries,General and reference
+Integrated circuits,Hardware
+Printed circuit boards,Hardware
+Power and energy,Hardware
+On-chip resource management,Hardware
+Interconnect,Integrated circuits
+Very large scale integration design,Integrated circuits
+VLSI packaging,Integrated circuits
+Full-custom circuits,Very large scale integration design
+Standard cell libraries,Very large scale integration design
+Design reuse and communication-based design,Very large scale integration design
+PCB design and layout,Printed circuit boards
+Thermal issues,Power and energy
+Temperature monitoring,Power and energy
+Temperature control,Power and energy
+Information retrieval,Information systems
+Ontologies,Information systems
+Document representation,Information retrieval
+Document collection models,Information retrieval
+Content analysis and feature selection,Information retrieval
+Retrieval models and ranking,Information retrieval
+Evaluation of retrieval results,Information retrieval
+Retrieval effectiveness,Evaluation of retrieval results
+Retrieval efficiency,Information retrieval
+Specialized information retrieval,Information retrieval
+Users and interactive retrieval,Information retrieval
+Search engine indexing,Information retrieval
+Search engine architectures and scalability,Information retrieval
+Test collections,Information retrieval
+Document types,Information retrieval
+Probabilistic representations,Document representation
+Collaborative search,Information retrieval
+Robustness,Information retrieval
+Systems security,Security and privacy
+Cryptography,Security and privacy
+Intrusion/anomaly detection and malware mitigation,Systems security
+Network access control,Systems security
+Professional topics,Social and professional topics
+Computing / technology policy,Social and professional topics
+Censorship,Computing / technology policy
+Surveillance,Computing / technology policy
+Hate speech,Computing / technology policy
+Pornography,Social and professional topics
+Computer crime,Social and professional topics
+Malware / spyware crime,Computer crime
+Identity theft,Computer crime
+Accessibility,Human-centered computing
+Accessibility technologies,Accessibility
+Accessibility systems and tools,Accessibility
+"Accessibility theory, concepts and paradigms",Accessibility
+Collaborative and social computing,Human-centered computing
+"Collaborative and social computing theory, concepts and paradigms",Collaborative and social computing
+Empirical studies in collaborative and social computing,Collaborative and social computing
+Task models,Human-centered computing
+Input / output styles,Human-centered computing
+Sound and music computing,Human-centered computing
+Network algorithms,Networks
+Physical sciences and engineering,Applied computing
+Computing and business,Applied computing
+Arts and humanities,Applied computing
+Education,Applied computing
+Offshoring,Computing and business
+Economics of chip design and manufacturing,Computing and business
+Probability and statistics,Mathematics of computing
+Continuous mathematics,Mathematics of computing
+Information theory,Mathematics of computing
+Statistical paradigms,Probability and statistics
+Statistical graphics,Probability and statistics
+Contingency table analysis,Probability and statistics
+Nonparametric statistics,Probability and statistics
+Resampling methods,Probability and statistics
+Distribution functions,Probability and statistics
+Time series analysis,Probability and statistics
+Queueing theory,Probability and statistics
+Continuous functions,Continuous mathematics
+Equational models,Continuous mathematics
+Probabilistic algorithms,Mathematics of computing
+Probabilistic reasoning algorithms,Probabilistic algorithms
+Variable elimination,Probabilistic reasoning algorithms
+Software creation and management,Software and its engineering
+Software notations and tools,Software and its engineering
+Designing software,Software and its engineering
+Development frameworks and environments,Software and its engineering
+Requirements analysis,Software and its engineering
+Reengineering,Software creation and management
+Search-based software engineering,Software and its engineering
+Fault tolerance,Software and its engineering

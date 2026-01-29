@@ -1,0 +1,102 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Computing Classification System; Multiple instruction, single data; Embedded systems; Computer systems organization; Architectures; Embedded and cyber-physical systems; Parallel architectures; Systolic arrays; Single instruction, multiple data; Real-time systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Embedded systems is a subtopic of Embedded and cyber-physical systems; Parallel architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System; Systolic arrays is a subtopic of Parallel architectures; Multiple instruction, single data is a subtopic of Parallel architectures; Real-time systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Single instruction, multiple data is a subtopic of Parallel architectures
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Dependable and fault-tolerant systems and networks; Maintainability and maintenance; Embedded and cyber-physical systems; Fault-tolerant network topologies; Architectures; Processors and memory architectures; Computer systems organization; Computing Classification System; Real-time systems; Real-time languages
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Real-time languages is a subtopic of Real-time systems; Real-time systems is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Architectures; Maintainability and maintenance; Computing Classification System; Interconnection architectures; Pipeline computing; Dependable and fault-tolerant systems and networks; Parallel architectures; Embedded and cyber-physical systems; Serial architectures; Computer systems organization
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Parallel architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Interconnection architectures is a subtopic of Parallel architectures; Architectures is a subtopic of Computer systems organization; Pipeline computing is a subtopic of Serial architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Computer systems organization; Embedded and cyber-physical systems; Other architectures; Computing Classification System; Quantum computing; Real-time languages; Real-time systems; Optical computing; Architectures; Real-time system specification
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Other architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Real-time system specification is a subtopic of Real-time systems; Real-time languages is a subtopic of Real-time systems; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Quantum computing is a subtopic of Other architectures; Computer systems organization is a subtopic of Computing Classification System; Optical computing is a subtopic of Other architectures
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Processors and memory architectures; Architectures; Real-time system architecture; Distributed architectures; Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems; Computer systems organization; Real-time systems; Serial architectures; Computing Classification System
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Serial architectures is a subtopic of Architectures; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Real-time system architecture is a subtopic of Real-time systems; Distributed architectures is a subtopic of Architectures
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Information systems; Power and energy; Mathematics of computing; Robustness; Operations research; Hardware; Applied computing; Software and its engineering; Computing Classification System; Discrete mathematics
+Relationships: 
+
+================================================================================
+Number of entities: 10
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Discrete mathematics is a subtopic of Mathematics of computing; Robustness is a subtopic of Software and its engineering; Operations research is a subtopic of Applied computing; Power and energy is a subtopic of Hardware; Software and its engineering is a subtopic of Applied computing; Hardware is a subtopic of Computing Classification System; Information systems is a subtopic of Applied computing; Computing Classification System is a top-level category
+
+The relationships can be structured as follows:
+
+- Mathematics of computing is a subtopic of Computing Classification System
+  - Discrete mathematics is a subtopic of Mathematics of computing
+- Applied computing is a subtopic of Computing Classification System
+  - Information systems is a subtopic of Applied computing
+  - Software and its engineering is a subtopic of Applied computing
+    - Robustness is a subtopic of Software and its engineering
+  - Operations research is a subtopic of Applied computing
+- Computing Classification System is a top-level category
+  - Computing Classification System includes:
+    - Hardware
+      - Power and energy is a subtopic of Hardware
+    - Software and its engineering
+    - Information systems
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 7
+
+Parsed relationships:
+  Discrete mathematics → Mathematics of computing
+  Robustness → Software and its engineering
+  Operations research → Applied computing
+  Power and energy → Hardware
+  Software and its engineering → Applied computing
+  Hardware → Computing Classification System
+  Information systems → Applied computing
+
+================================================================================

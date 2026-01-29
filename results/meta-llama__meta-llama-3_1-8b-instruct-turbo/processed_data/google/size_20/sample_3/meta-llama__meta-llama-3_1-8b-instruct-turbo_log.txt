@@ -1,0 +1,99 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Reloading Supplies & Equipment; Google Product Taxonomy; Weapons; Ammunition Cases & Holders; Mature; Staff & Stick Weapons; Combat Knives; Gun Care & Accessories; Spears; Gun Holsters
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Combat Knives is a subtopic of Weapons; Weapons is a subtopic of Mature; Spears is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Staff & Stick Weapons; Gun Lights; Stun Guns & Tasers; Mature; Swords; Ammunition; Gun Cases & Range Bags; Google Product Taxonomy; Weapons
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Swords is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Gun Lights is a subtopic of Gun Care & Accessories; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Weapons; Google Product Taxonomy; Stun Guns & Tasers; Nunchucks; Guns; Mature; Erotic; Whips; Throwing Stars; Gun Care & Accessories
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Weapons is a subtopic of Mature; Guns is a subtopic of Weapons; Whips is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Erotic is a subtopic of Mature
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Games; Erotic Clothing; Erotic; Google Product Taxonomy; Pole Dancing Kits; Mature; Erotic Food & Edibles; Erotic Books; Erotic Magazines; Erotic DVDs & Videos
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Food & Edibles is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Games is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Stun Guns & Tasers; Spears; Staff & Stick Weapons; Gun Care & Accessories; Weapons; Google Product Taxonomy; Swords; Gun Slings; Gun Grips; Mature
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Spears is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories; Gun Grips is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Swords is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Drywall; Wall & Ceiling Tile; Hardware Pumps; Roofing; Flooring & Carpet; Furniture; Tools; Table Accessories; Nursing & Feeding; Hardware; Baby & Toddler; Molding; Fuel Containers & Tanks; Google Product Taxonomy; Oil Filter Drains; Building Materials; Putty Knives & Scrapers; Pool, Fountain & Pond Pumps; Baby Health; Milling Machines
+Relationships: 
+
+================================================================================
+Number of entities: 20
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Baby Health is a subtopic of Baby & Toddler; Baby & Toddler is a subtopic of Google Product Taxonomy; Milling Machines is a subtopic of Tools; Tools is a subtopic of Hardware; Hardware is a subtopic of Google Product Taxonomy; Pool, Fountain & Pond Pumps is a subtopic of Hardware Pumps; Hardware Pumps is a subtopic of Tools; Oil Filter Drains is a subtopic of Tools; Putty Knives & Scrapers is a subtopic of Tools; Drywall is a subtopic of Building Materials; Wall & Ceiling Tile is a subtopic of Building Materials; Molding is a subtopic of Building Materials; Building Materials is a subtopic of Google Product Taxonomy; Roofing is a subtopic of Building Materials; Flooring & Carpet is a subtopic of Building Materials; Furniture is a subtopic of Google Product Taxonomy; Table Accessories is a subtopic of Furniture; Nursing & Feeding is a subtopic of Baby & Toddler; Fuel Containers & Tanks is a subtopic of Hardware; Tools is a subtopic of Hardware;
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 20
+
+Parsed relationships:
+  Baby Health → Baby & Toddler
+  Baby & Toddler → Google Product Taxonomy
+  Milling Machines → Tools
+  Tools → Hardware
+  Hardware → Google Product Taxonomy
+  Pool, Fountain & Pond Pumps → Hardware Pumps
+  Hardware Pumps → Tools
+  Oil Filter Drains → Tools
+  Putty Knives & Scrapers → Tools
+  Drywall → Building Materials
+  Wall & Ceiling Tile → Building Materials
+  Molding → Building Materials
+  Building Materials → Google Product Taxonomy
+  Roofing → Building Materials
+  Flooring & Carpet → Building Materials
+  Furniture → Google Product Taxonomy
+  Table Accessories → Furniture
+  Nursing & Feeding → Baby & Toddler
+  Fuel Containers & Tanks → Hardware
+  Tools → Hardware
+
+================================================================================

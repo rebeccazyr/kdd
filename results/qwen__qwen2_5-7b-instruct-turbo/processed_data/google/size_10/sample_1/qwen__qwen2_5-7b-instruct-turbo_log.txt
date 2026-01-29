@@ -1,0 +1,86 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Google Product Taxonomy; Mature; Reloading Supplies & Equipment; Spears; Weapons; Ammunition Cases & Holders; Staff & Stick Weapons; Gun Holsters; Combat Knives
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Combat Knives is a subtopic of Weapons; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Spears is a subtopic of Weapons; Weapons is a subtopic of Mature
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Mature; Gun Cases & Range Bags; Staff & Stick Weapons; Ammunition; Gun Care & Accessories; Weapons; Swords; Gun Lights; Stun Guns & Tasers
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Swords is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Staff & Stick Weapons is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Stun Guns & Tasers is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Guns; Stun Guns & Tasers; Erotic; Weapons; Mature; Whips; Throwing Stars; Nunchucks; Google Product Taxonomy; Gun Care & Accessories
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Nunchucks is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Whips is a subtopic of Weapons; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Throwing Stars is a subtopic of Weapons; Guns is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Magazines; Erotic Food & Edibles; Mature; Erotic Games; Erotic Books; Google Product Taxonomy; Pole Dancing Kits; Erotic Clothing; Erotic; Erotic DVDs & Videos
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Food & Edibles is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Books is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Games is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic Magazines is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Mature; Spears; Staff & Stick Weapons; Google Product Taxonomy; Stun Guns & Tasers; Swords; Weapons; Gun Grips; Gun Slings; Gun Care & Accessories
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Staff & Stick Weapons is a subtopic of Weapons; Spears is a subtopic of Weapons; Swords is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Gun Grips is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Business Card Cases; Media; Badge & Pass Holders; Apparel & Accessories; Vehicles & Parts; Google Product Taxonomy; Handbag & Wallet Accessories; Handbags, Wallets & Cases; Handbags; Costumes & Accessories
+Relationships: 
+
+================================================================================
+Number of entities: 10
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Business Card Cases is a subtopic of Handbag & Wallet Accessories; Badge & Pass Holders is a subtopic of Handbag & Wallet Accessories; Handbag & Wallet Accessories is a subtopic of Handbags, Wallets & Cases; Handbags is a subtopic of Apparel & Accessories; Handbags, Wallets & Cases is a subtopic of Apparel & Accessories; Costumes & Accessories is a subtopic of Apparel & Accessories; Vehicles & Parts is a subtopic of Vehicles & Parts; Media is a subtopic of Media; Apparel & Accessories is a subtopic of Google Product Taxonomy
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 7
+
+Parsed relationships:
+  Business Card Cases → Handbag & Wallet Accessories
+  Badge & Pass Holders → Handbag & Wallet Accessories
+  Handbag & Wallet Accessories → Handbags, Wallets & Cases
+  Handbags → Apparel & Accessories
+  Handbags, Wallets & Cases → Apparel & Accessories
+  Costumes & Accessories → Apparel & Accessories
+  Apparel & Accessories → Google Product Taxonomy
+
+================================================================================

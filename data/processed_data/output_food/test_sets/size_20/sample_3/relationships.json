@@ -1,0 +1,97 @@
+[
+  {
+    "child_name": "frozen seafood",
+    "parent_name": "seafood",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "salsa",
+    "parent_name": "dip",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "noodle",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "cupcakes",
+    "parent_name": "bakery",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "fudge",
+    "parent_name": "bakery",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "donuts",
+    "parent_name": "bakery",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "cereals",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "vinegar drinks",
+    "parent_name": "beverage",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "seafood",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "bakery",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "liquor",
+    "parent_name": "beverage",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "soy product",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "cocktail mixes",
+    "parent_name": "beverage",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "whisky",
+    "parent_name": "liquor",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "millet",
+    "parent_name": "cereals",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "beverage",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "dip",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "pillus",
+    "parent_name": "noodle",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "bitters",
+    "parent_name": "beverage",
+    "relation_type": "IsA"
+  }
+]

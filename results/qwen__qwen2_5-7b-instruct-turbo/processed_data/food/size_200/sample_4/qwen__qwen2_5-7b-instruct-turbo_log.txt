@@ -1,0 +1,417 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: fagottini; fusilli; gemelli; pici; pasta; occhi di lupo; cannelloni; bavette; food; spaghetti
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+spaghetti is a subtopic of pasta; pasta is a subtopic of food; cannelloni is a subtopic of pasta; bavette is a subtopic of pasta; occhi di lupo is a subtopic of pasta; gemelli is a subtopic of pasta; fusilli is a subtopic of pasta; fagottini is a subtopic of pasta; pici is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: corzetti; fuži; spaghetti; mezzelune; food; sacchettoni; linguine; croxetti; rotini; pasta
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+rotini is a subtopic of pasta; spaghetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; linguine is a subtopic of pasta; corzetti is a subtopic of pasta; fuži is a subtopic of pasta; mezzelune is a subtopic of pasta; croxetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: bigoli; corzetti; garganelli; food; anellini; occhi di lupo; mezzelune; stringozzi; pasta; fuži
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+occhi di lupo is a subtopic of pasta; fuži is a subtopic of pasta; pasta is a subtopic of food; corzetti is a subtopic of pasta; bigoli is a subtopic of pasta; garganelli is a subtopic of pasta; anellini is a subtopic of pasta; stringozzi is a subtopic of pasta; mezzelune is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: ptitim; campanelle; rotini; food; passatelli; spaghetti; pasta; macaroni; casoncelli; lanterne
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+spaghetti is a subtopic of pasta; lanterne is a subtopic of pasta; rotini is a subtopic of pasta; casoncelli is a subtopic of pasta; campanelle is a subtopic of pasta; passatelli is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of pasta; macaroni is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: sacchettoni; food; mezzelune; ptitim; rotini; penne; stringozzi; rotelle; pasta; spaghetti
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+ptitim is a subtopic of pasta; rotini is a subtopic of pasta; sacchettoni is a subtopic of pasta; mezzelune is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; pasta is a subtopic of food; rotelle is a subtopic of pasta; stringozzi is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: nettle soup; tianmianjiang; schnapps; ohaw; caruso sauce; sauce vierge; sugar cane; supreme; houmous; tuscan cabbage; moambe; squashes; southern illinois chowder; ganjang; caldo de pollo; ching bo leung; corn soup; cardoon; liver soup; chancaca; she-crab soup; vegetable; gulgukbap; svartsoppa; wheatgrass; gai lan; rouille; fish sauce; ginger root; chocolate covered fruit; bakery; liquor; bok choi; peppers; xo sauce; tomato soup; chutney; rose hip soup; dairy product; yucca root; dip; piti; beetroots; garbure; tom yum; hyderabadi marag; yu choy; frozen seafood; beurre blanc; pumpkin soup; cucumbers; arracachas; olives and capers; ponzu; beurre noisette; rhubarb; chikhirtma; cider; licorice; cauliflower; peanut butter cups; hodge-podge; fish tea; tkemali; ezogelin soup; chicory; pique verde boricua; broccoli; mulligatawny; macaroni soup; fresh meat; peach sauce; butajiru; nut butters; cullen skink; leeks; empal gentong; kitchen bouquet; tinned meat; french onion soup; goulash; bún bò huế; buttermilk koldskål; kale; tourin; whisky; ice cream cones; frejon; lung fung soup; cucumber soup; qingtang wanzi; rutabagas; kulajda; gummy sweets; crème ninon; bitters; miyeok guk; malangas; horseradish sauce; beer; gomguk; bouillon; salad dressings; scotch broth; senate bean soup; red-eye gravy; oille; soup alla canavese; caldo verde; non-alcoholic beer; gobo root; tahini; candy corn; okroshka; green sauce; ajiaco; beetroot greens; mushrooms; cheez whiz; curry ketchup; on choy; bean sprouts; worcestershire sauce; bisque; asparagus; curry sauce; honey; sour cherry soup; draw soup; minestrone; sinigang; zōni; beef noodle soup; fanesca; kuy teav; eggnog; ribollita; suaasat; carrots; sancocho; tomatoes; sour soup; pozole; sweets; corn chowder; babi panggang; yoghurt; fresh seafood; food; apple butter; mujdei; kissel; gourds; agrodolce; pistou; red peas soup; siemieniotka; gin; eggs; fudge; sopa teologa; sauce; spring soup; cold borsch; tekwan; soto ayam; tonic water; mushroom gravy; ok sauce; pepper; donuts; water; gastrique; mahyawa; okra; seafood; noodle soup; chimichurri; spice; leek soup; batchoy; sorrel soup; soup; tom kha kai; sauce gribiche; beer soup; yaka mein; taffy; bak kut teh; katara; suprême sauce; köttsoppa; phu quoc fish sauce; chocolate mints; beverage; condiment; pesto; pho; meat; celery
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+To construct a taxonomy from the given list of concepts, we will organize them into a hierarchical structure with parent-child relationships. Here's the taxonomy:
+
+- **food**
+  - **sauce**
+    - caruso sauce
+    - rouille
+    - gomguk
+    - bisque
+    - soup alla canavese
+    - caldo verde
+    - soup gribiche
+    - suprême sauce
+    - köttsoppa
+    - pho
+    - sauce vierge
+    - chutney
+    - ching bo leung
+    - chancaca
+    - chikhirtma
+    - goulash
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai lan
+    - gai
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 1
+
+Parsed relationships:
+  To construct a taxonomy from the given list of concepts → we will organize them into a hierarchical structure with parent-child relationships. Here's the taxonomy
+
+================================================================================

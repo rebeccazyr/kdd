@@ -1,0 +1,97 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: spaghetti; bavette; fagottini; pasta; occhi di lupo; fusilli; food; pici; gemelli; cannelloni
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+fusilli is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food; fagottini is a subtopic of pasta; gemelli is a subtopic of pasta; pici is a subtopic of pasta; cannelloni is a subtopic of pasta; bavette is a subtopic of pasta; occhi di lupo is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: rotini; linguine; pasta; mezzelune; corzetti; fuži; croxetti; spaghetti; sacchettoni; food
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+linguine is a subtopic of pasta; rotini is a subtopic of pasta; mezzelune is a subtopic of pasta; pasta is a subtopic of food; croxetti is a subtopic of pasta; spaghetti is a subtopic of pasta; corzetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; fuži is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: occhi di lupo; garganelli; mezzelune; bigoli; stringozzi; food; anellini; corzetti; fuži; pasta
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+bigoli is a subtopic of pasta; garganelli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; pasta is a subtopic of food; fuži is a subtopic of pasta; stringozzi is a subtopic of pasta; corzetti is a subtopic of pasta; anellini is a subtopic of pasta; mezzelune is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: passatelli; campanelle; macaroni; food; spaghetti; pasta; casoncelli; rotini; lanterne; ptitim
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+spaghetti is a subtopic of pasta; lanterne is a subtopic of pasta; ptitim is a subtopic of pasta; rotini is a subtopic of pasta; casoncelli is a subtopic of pasta; pasta is a subtopic of food; campanelle is a subtopic of pasta; macaroni is a subtopic of pasta; passatelli is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: rotelle; penne; spaghetti; pasta; mezzelune; ptitim; sacchettoni; food; rotini; stringozzi
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+pasta is a subtopic of food; sacchettoni is a subtopic of pasta; penne is a subtopic of pasta; ptitim is a subtopic of pasta; rotini is a subtopic of pasta; spaghetti is a subtopic of pasta; mezzelune is a subtopic of pasta; stringozzi is a subtopic of pasta; rotelle is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: spätzle; food; pecans; noodle; shirataki noodles; pistachios; yaki udon; silver needle noodles; dandan noodles; popsicles; cereals; cooking ingredient; seeds; frozen meat; chocolate covered nuts; korean noodles; beef; brési; frozen dessert; meat
+Relationships: 
+
+================================================================================
+Number of entities: 20
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+spätzle is a subtopic of noodle; shirataki noodles is a subtopic of noodle; dandan noodles is a subtopic of noodle; silver needle noodles is a subtopic of noodle; brési is a subtopic of noodle; yaki udon is a subtopic of noodle; beef is a subtopic of meat; popsicles is a subtopic of frozen dessert; cereals is a subtopic of food; cooking ingredient is a subtopic of food; spätzle is a subtopic of cooking ingredient; pecans is a subtopic of seeds; pistachios is a subtopic of seeds; chocolate covered nuts is a subtopic of food; frozen meat is a subtopic of frozen dessert; korean noodles is a subtopic of noodle
+
+Note: Some items like "popsicles" and "frozen meat" are typically not considered cooking ingredients or noodles, but for the purpose of this taxonomy, they are included under the broader category of "food".
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 16
+
+Parsed relationships:
+  spätzle → noodle
+  shirataki noodles → noodle
+  dandan noodles → noodle
+  silver needle noodles → noodle
+  brési → noodle
+  yaki udon → noodle
+  beef → meat
+  popsicles → frozen dessert
+  cereals → food
+  cooking ingredient → food
+  spätzle → cooking ingredient
+  pecans → seeds
+  pistachios → seeds
+  chocolate covered nuts → food
+  frozen meat → frozen dessert
+  korean noodles → noodle
+
+================================================================================

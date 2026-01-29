@@ -1,0 +1,231 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Multiple instruction, single data; Architectures; Embedded and cyber-physical systems; Embedded systems; Parallel architectures; Single instruction, multiple data; Computing Classification System; Computer systems organization; Systolic arrays; Real-time systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Real-time systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures; Embedded systems is a subtopic of Embedded and cyber-physical systems; Multiple instruction, single data is a subtopic of Parallel architectures; Systolic arrays is a subtopic of Parallel architectures; Single instruction, multiple data is a subtopic of Parallel architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Real-time languages; Dependable and fault-tolerant systems and networks; Fault-tolerant network topologies; Processors and memory architectures; Maintainability and maintenance; Architectures; Real-time systems; Embedded and cyber-physical systems; Computer systems organization; Computing Classification System
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Real-time languages is a subtopic of Real-time systems; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Architectures is a subtopic of Computer systems organization
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Pipeline computing; Parallel architectures; Maintainability and maintenance; Computing Classification System; Embedded and cyber-physical systems; Architectures; Computer systems organization; Serial architectures; Interconnection architectures; Dependable and fault-tolerant systems and networks
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Interconnection architectures is a subtopic of Parallel architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System; Architectures is a subtopic of Computer systems organization; Pipeline computing is a subtopic of Serial architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Parallel architectures is a subtopic of Architectures
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Real-time system specification; Architectures; Real-time systems; Optical computing; Quantum computing; Computer systems organization; Real-time languages; Embedded and cyber-physical systems; Other architectures; Computing Classification System
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Quantum computing is a subtopic of Other architectures; Other architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Real-time system specification is a subtopic of Real-time systems; Optical computing is a subtopic of Other architectures; Real-time languages is a subtopic of Real-time systems; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Architectures; Serial architectures; Real-time system architecture; Computer systems organization; Embedded and cyber-physical systems; Real-time systems; Processors and memory architectures; Computing Classification System; Dependable and fault-tolerant systems and networks; Distributed architectures
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Distributed architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Real-time system architecture is a subtopic of Real-time systems; Serial architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Empirical studies in accessibility; Interaction techniques; Mathematical software; Models of computation; Continuous mathematics; Thermal issues; Record storage systems; Human-centered computing; General and reference; Integrated circuits; Gestural input; User studies; Security and privacy; Interaction devices; User models; Hybrid symbolic-numeric methods; Hardware attacks and countermeasures; Test-pattern generation and fault simulation; Accessibility; Measurement; Exact arithmetic algorithms; Hardware; Board- and system-level test; Design and analysis of algorithms; Automata extensions; Power and energy; Hardware reliability screening; Document representation; Graph theory; Collaborative and social computing; Statistical software; Optimization algorithms; Cross-computing tools and techniques; Intrusion/anomaly detection and malware mitigation; Distributed computing methodologies; Interaction design theory, concepts and paradigms; Intrusion detection systems; Empirical studies in interaction design; Formal languages and automata theory; Continuous functions; Modeling and simulation; HCI design and evaluation methods; Functional verification; Theory of computation; Information systems; Discrete mathematics; Design; Combinatoric problems; Keyboards; Spectra of graphs; Matchings and factors; Systems security; Accessibility theory, concepts and paradigms; Walkthrough evaluations; Experimentation; Information theory; Information retrieval; Computing Classification System; Extremal graph theory; Systems and tools for interaction design; Equivalence checking; Networks; Paths and connectivity problems; Hardware test; Interaction design; Digital switches; Hardware validation; Computing methodologies; Combinatorics; Database and storage security; Network performance evaluation; Number theory algorithms; Defect-based test; Information accountability and usage control; Hardware security implementation; Human computer interaction (HCI); Symbolic and algebraic algorithms; Modeling methodologies; Information storage systems; Artificial intelligence; Symbolic and algebraic manipulation; Software and application security; Collaborative and social computing devices; Model development and analysis; Mathematics of computing; Usability testing; Algebraic algorithms; Accessibility technologies; Nonparametric statistics; Parallel computing methodologies; Social network analysis; Probability and statistics; Permutations and combinations; Human and societal aspects of security and privacy; Nonalgebraic algorithms; Mathematical software performance; Security in hardware; Distributed systems security; Collaborative and social computing design and evaluation methods; Document structure
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts, and it's challenging to establish relationships between them. However, I'll try to identify some relationships based on the given concepts. Here's a list of relationships:
+
+1. Accessibility is a subtopic of Human-centered computing and Accessibility theory, concepts and paradigms.
+2. Interaction techniques is a subtopic of Human-centered computing and Interaction design.
+3. Interaction design is a subtopic of Human-centered computing and Interaction design theory, concepts and paradigms.
+4. Human-centered computing is a subtopic of Computing Classification System.
+5. Human computer interaction (HCI) is a subtopic of Human-centered computing.
+6. Accessibility technologies is a subtopic of Accessibility.
+7. User models is a subtopic of Human-centered computing.
+8. User studies is a subtopic of Human-centered computing.
+9. Gestural input is a subtopic of Interaction techniques.
+10. Interaction devices is a subtopic of Interaction techniques.
+11. Keyboards is a subtopic of Interaction devices.
+12. Security and privacy is a subtopic of Human-centered computing and Human and societal aspects of security and privacy.
+13. Systems security is a subtopic of Security and privacy.
+14. Database and storage security is a subtopic of Systems security.
+15. Network performance evaluation is a subtopic of Systems security.
+16. Information accountability and usage control is a subtopic of Security and privacy.
+17. Information systems is a subtopic of Computing Classification System.
+18. Information storage systems is a subtopic of Information systems.
+19. Information retrieval is a subtopic of Information systems.
+20. Information theory is a subtopic of Information systems.
+21. Document representation is a subtopic of Information systems.
+22. Document structure is a subtopic of Information systems.
+23. Document structure is a subtopic of Document representation.
+24. Document representation is a subtopic of Information retrieval.
+25. Information retrieval is a subtopic of Information systems.
+26. Information systems is a subtopic of Computing Classification System.
+27. Information storage systems is a subtopic of Information systems.
+28. Information theory is a subtopic of Information systems.
+29. Information accountability and usage control is a subtopic of Information systems.
+30. Information systems is a subtopic of Computing Classification System.
+31. Information storage systems is a subtopic of Information systems.
+32. Information theory is a subtopic of Information systems.
+33. Information accountability and usage control is a subtopic of Information systems.
+34. Information systems is a subtopic of Computing Classification System.
+35. Information storage systems is a subtopic of Information systems.
+36. Information theory is a subtopic of Information systems.
+37. Information accountability and usage control is a subtopic of Information systems.
+38. Information systems is a subtopic of Computing Classification System.
+39. Information storage systems is a subtopic of Information systems.
+40. Information theory is a subtopic of Information systems.
+41. Information accountability and usage control is a subtopic of Information systems.
+42. Information systems is a subtopic of Computing Classification System.
+43. Information storage systems is a subtopic of Information systems.
+44. Information theory is a subtopic of Information systems.
+45. Information accountability and usage control is a subtopic of Information systems.
+46. Information systems is a subtopic of Computing Classification System.
+47. Information storage systems is a subtopic of Information systems.
+48. Information theory is a subtopic of Information systems.
+49. Information accountability and usage control is a subtopic of Information systems.
+50. Information systems is a subtopic of Computing Classification System.
+51. Information storage systems is a subtopic of Information systems.
+52. Information theory is a subtopic of Information systems.
+53. Information accountability and usage control is a subtopic of Information systems.
+54. Information systems is a subtopic of Computing Classification System.
+55. Information storage systems is a subtopic of Information systems.
+56. Information theory is a subtopic of Information systems.
+57. Information accountability and usage control is a subtopic of Information systems.
+58. Information systems is a subtopic of Computing Classification System.
+59. Information storage systems is a subtopic of Information systems.
+60. Information theory is a subtopic of Information systems.
+61. Information accountability and usage control is a subtopic of Information systems.
+62. Information systems is a subtopic of Computing Classification System.
+63. Information storage systems is a subtopic of Information systems.
+64. Information theory is a subtopic of Information systems.
+65. Information accountability and usage control is a subtopic of Information systems.
+66. Information systems is a subtopic of Computing Classification System.
+67. Information storage systems is a subtopic of Information systems.
+68. Information theory is a subtopic of Information systems.
+69. Information accountability and usage control is a subtopic of Information systems.
+70. Information systems is a subtopic of Computing Classification System.
+71. Information storage systems is a subtopic of Information systems.
+72. Information theory is a subtopic of Information systems.
+73. Information accountability and usage control is a subtopic of Information systems.
+74. Information systems is a subtopic of Computing Classification System.
+75. Information storage systems is a subtopic of Information systems.
+76. Information theory is a subtopic of Information systems.
+77. Information accountability and usage control is a subtopic of Information systems.
+78. Information systems is a subtopic of Computing Classification System.
+79. Information storage systems is a subtopic of Information systems.
+80. Information theory is a subtopic of Information systems.
+81. Information accountability and usage control is a subtopic of Information systems.
+82. Information systems is a subtopic of Computing Classification System.
+83. Information storage systems is a subtopic of Information systems.
+84. Information theory is a subtopic of Information systems.
+85. Information accountability and usage control is a subtopic of Information systems.
+86. Information systems is a subtopic of Computing Classification System.
+87. Information storage systems is a subtopic of Information systems.
+88. Information theory is a subtopic of Information systems.
+89. Information accountability and usage control is a subtopic of Information systems.
+90. Information systems is a subtopic of Computing Classification System.
+91. Information storage systems is a subtopic of Information systems.
+92. Information theory is a subtopic of Information systems.
+93. Information accountability and usage control is a subtopic of Information systems.
+94. Information systems is a subtopic of Computing Classification System.
+95. Information storage systems is a subtopic of Information systems.
+96. Information theory is a subtopic of Information systems.
+97. Information accountability and usage control is a subtopic of Information systems.
+98. Information systems is a subtopic of Computing Classification System.
+99. Information storage systems is a subtopic of Information systems.
+100. Information theory is a subtopic of Information systems.
+101. Information accountability and usage control is a subtopic of Information systems.
+102. Information systems is a subtopic of Computing Classification System.
+103. Information storage systems is a subtopic of Information systems.
+104. Information theory is a subtopic of Information systems.
+105. Information accountability and usage control is a subtopic of Information systems.
+106. Information systems is a subtopic of Computing Classification System.
+107. Information storage systems is a subtopic of Information systems.
+108. Information theory is a subtopic of Information systems.
+109. Information accountability and usage control is a subtopic of Information systems.
+110. Information systems is a subtopic of Computing Classification System.
+111. Information storage systems is a subtopic of Information systems.
+112. Information theory is a subtopic of Information systems.
+113. Information accountability and usage control is a subtopic of Information systems.
+114. Information systems is a subtopic of Computing Classification System.
+115. Information storage systems is a subtopic of Information systems.
+116. Information theory is a subtopic of Information systems.
+117. Information accountability and usage control is a subtopic of Information systems.
+118. Information systems is a subtopic of Computing Classification System.
+119. Information storage systems is a subtopic of Information systems.
+120. Information theory is a subtopic of Information systems.
+121. Information accountability and usage control is a subtopic of Information systems.
+122. Information systems is a subtopic of Computing Classification System.
+123. Information storage systems is a subtopic of Information systems.
+124. Information theory is a subtopic of Information systems.
+125. Information accountability and usage control is a subtopic of Information systems.
+126. Information systems is a subtopic of Computing Classification System.
+127. Information storage systems is a subtopic of Information systems.
+128. Information theory is a subtopic of Information systems.
+129. Information accountability and usage control is a subtopic of Information systems.
+130. Information systems is a subtopic of Computing Classification System.
+131. Information storage systems is a subtopic of Information systems.
+132. Information theory is a subtopic of Information systems.
+133. Information accountability and usage control is a subtopic of Information systems.
+134. Information systems is a subtopic of Computing Classification System.
+135. Information storage systems is a subtopic of Information systems.
+136. Information theory is a subtopic of Information systems.
+137. Information accountability and usage control is a subtopic of Information systems.
+138. Information systems is a subtopic of Computing Classification System.
+139. Information storage systems is a subtopic of Information systems.
+140. Information theory is a subtopic of Information systems.
+141. Information accountability and usage control is a subtopic of Information systems.
+142. Information systems is a subtopic of Computing Classification System.
+143. Information storage systems is a subtopic of Information systems.
+144. Information theory is a subtopic of Information systems.
+145. Information accountability and usage control is a subtopic of Information systems.
+146. Information systems is a subtopic of Computing Classification System.
+147. Information storage systems is a subtopic of Information systems.
+148. Information theory is a subtopic of Information systems.
+149. Information accountability and usage control is a subtopic of Information systems.
+150. Information systems is a subtopic of Computing
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 1
+
+Parsed relationships:
+  This is a very long list of concepts → and it's challenging to establish relationships between them. However, I'll try to identify some relationships based on the given concepts. Here's a list of relationships
+
+================================================================================

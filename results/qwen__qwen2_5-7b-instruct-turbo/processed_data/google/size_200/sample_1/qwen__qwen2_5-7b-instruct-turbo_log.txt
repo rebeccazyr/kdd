@@ -1,0 +1,337 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Mature; Combat Knives; Weapons; Spears; Staff & Stick Weapons; Gun Care & Accessories; Google Product Taxonomy; Ammunition Cases & Holders; Gun Holsters; Reloading Supplies & Equipment
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Spears is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Combat Knives is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Holsters is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Stun Guns & Tasers; Gun Lights; Staff & Stick Weapons; Swords; Ammunition; Gun Care & Accessories; Gun Cases & Range Bags; Weapons; Mature; Google Product Taxonomy
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Staff & Stick Weapons is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Ammunition is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Swords is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Stun Guns & Tasers is a subtopic of Weapons; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Mature; Erotic; Gun Care & Accessories; Guns; Stun Guns & Tasers; Weapons; Whips; Throwing Stars; Nunchucks; Google Product Taxonomy
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Guns is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Nunchucks is a subtopic of Weapons; Erotic is a subtopic of Mature; Whips is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Mature; Erotic DVDs & Videos; Pole Dancing Kits; Erotic; Erotic Books; Erotic Clothing; Erotic Food & Edibles; Erotic Magazines; Erotic Games
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Erotic Games is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Magazines is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Swords; Gun Slings; Stun Guns & Tasers; Staff & Stick Weapons; Gun Grips; Weapons; Mature; Google Product Taxonomy; Spears
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Stun Guns & Tasers is a subtopic of Weapons; Spears is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Swords is a subtopic of Weapons; Weapons is a subtopic of Mature; Staff & Stick Weapons is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Gun Slings is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Medical Furniture; Burp Cloths; Video Game Console Accessories; Laminating Film, Pouches & Sheets; Riding Toy Accessories; Dentistry; Antenna Mounts & Brackets; Educational Flash Cards; Book Accessories; Handbags, Wallets & Cases; Educational Toys; Industrial Storage Accessories; Dolls, Playsets & Toy Figures; Laser Pointers; GPS Mounts; Ball Pit Accessories; Game Timers; Skee-Ball Machines; Stylus Pens; Caller IDs; American Football Toys; Video Transmitters; Memory Accessories; Computer Covers & Skins; Suspenders; Accelerometers; Baby & Toddler Furniture; Handheld Devices; Keychains; Office Shredders; Office Furniture; Document Cameras; Keyboard Trays & Platforms; Baby Safety Rails; Google Product Taxonomy; Home Game Console Accessories; Video; Beach & Sand Toys; Dollhouses; Easels; GPS Accessories; Flying Toy Accessories; Modulators; Audio & Video Splitters & Switches; Office & Chair Mats; Radios; Exercise & Fitness Equipment Manuals; Play Vehicle Accessories; Media; Name Plates; Components; Toys & Games; Toys; Antenna Accessories; Beakers; Electronics Accessories; Printers, Copiers & Fax Machines; Reading Toys; Audio Accessories; Business Card Cases; Thin & Zero Clients; Astronomy Toys & Models; Boomerangs; Label Makers; 3D Printer Accessories; Medical Cabinets; Karaoke System Accessories; Hardware; Passive Circuit Components; Biochemicals; Presentation Supplies; Ant Farms; Audio Converters; Science & Laboratory; Mattresses; Sheet Music; Automation Control Components; Basketball Toys; Shipping Supplies; Apparel & Accessories; Wooden & Pegged Puzzles; Basketball Arcade Games; Wedding Ceremony Supplies; Chair Mats; Office Equipment; Turntables & Record Players; Laptops; Ball Pits; Audio; Retail; Executive Toys; Print, Copy, Scan & Fax; GPS Cases; Sports Toy Accessories; Audio Components; Office Supply Manuals; Video Game Consoles; Lap Desks; Office Supplies; Wallet Chains; Sectional Sofa Units; Computers; Paper Clips & Clamps; Book Lights; Baby Bottles; Impulse Sealers; Sports Toys; Bug Collecting Kits; Medical Bedding; Video Multiplexers; Medical; Video Editing Hardware & Production Equipment; Cable Management; Furniture; Circuit Boards & Components; Sofa Accessories; MiniDisc Players & Recorders; Erasers; Building Toys; Chairs; Gloves & Mittens; Keyboard & Mouse Wrist Rests; Electronics Component Connectors; Business & Industrial; Vehicles & Parts; Audio Players & Recorders; Product Manuals; Musical Toys; Communications; Desk Pads & Blotters; Antennas; Baby Safety; Music & Sound Recordings; Splitters; Televisions; Breast Milk Storage Containers; Laptop Docking Stations; Mounting Boards; Arm Chairs, Recliners & Sleeper Chairs; Tablet Computer Docks & Stands; Chair Accessories; Electronics; Cable Tie Guns; Magnet Toys; Hotel & Hospitality; Nursing Pillow Covers; Paper & Magnetic Dolls; Doll & Action Figure Accessories; General Office Supplies; GPS Navigation Systems; Ring Pillows & Holders; Converters; Potty Training; Headboards & Footboards; Forestry & Logging; Fitness Toys; Futon Pads; Printed Circuit Boards; Cable Trays; Futon Frames; Electronic Dictionaries & Translators; Fitness Toy Accessories; Animals & Pet Supplies; Riding Toys; Clothing Accessories; Beds & Accessories; Remote Controls; Live Animals; Puzzles; Bean Bag Chairs; Toy Gift Baskets; Film & Television; Racquet Sport Toys; Wire & Cable Sleeves; Heavy Machinery; Nursing & Feeding; Carpentry & Woodworking Project Plans; Computer Accessories; Baby & Toddler; Shelving Accessories; Laboratory Supplies; Religious & Ceremonial; Health & Beauty; Examination Chairs & Tables; Electronics Manuals; Play Vehicles; Handbag & Wallet Accessories; Display Boards; Shoes; Mechanical Puzzles; Material Handling; Software; Semiconductors; Nursing Pads & Shields; Boomboxes; Resistors; Arcade Equipment; Outdoor Furniture Accessories; Karaoke Systems; Mobile Phone & Tablet Tripods & Monopods
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Creating a taxonomy from this list involves organizing the concepts into a hierarchical structure. Here's a possible taxonomy:
+
+1. **Google Product Taxonomy**
+   - **Toys & Games**
+     - **Toys**
+       - **Sports Toys**
+         - **Riding Toys**
+           - **Riding Toy Accessories**
+       - **Executive Toys**
+       - **American Football Toys**
+       - **Basketball Toys**
+       - **Skee-Ball Machines**
+       - **Boomerangs**
+       - **Soccer Toys**
+       - **Racquet Sport Toys**
+       - **Tennis Toys**
+       - **Golf Toys**
+       - **Baseball Toys**
+       - **Basketball Arcade Games**
+       - **Sports Toy Accessories**
+     - **Games**
+       - **Video Games**
+         - **Video Game Consoles**
+           - **Video Game Console Accessories**
+         - **Video Game Controllers**
+       - **Board Games**
+       - **Card Games**
+       - **Puzzle Games**
+       - **Role-Playing Games**
+       - **Strategy Games**
+       - **Video Transmitters**
+       - **Game Timers**
+     - **Educational Toys**
+       - **Educational Flash Cards**
+       - **Educational Puzzles**
+       - **Building Toys**
+       - **Wooden & Pegged Puzzles**
+       - **Science & Laboratory Toys**
+       - **Science & Laboratory Equipment**
+       - **Science & Laboratory Supplies**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science & Laboratory Manuals**
+       - **Science & Laboratory Software**
+       - **Science & Laboratory Hardware**
+       - **Science & Laboratory Components**
+       - **Science & Laboratory Materials**
+       - **Science & Laboratory Tools**
+       - **Science & Laboratory Accessories**
+       - **Science & Laboratory Instruments**
+       - **Science &
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

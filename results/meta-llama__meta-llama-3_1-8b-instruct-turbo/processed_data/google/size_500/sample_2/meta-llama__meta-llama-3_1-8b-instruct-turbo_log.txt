@@ -1,0 +1,386 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Reloading Supplies & Equipment; Weapons; Gun Care & Accessories; Combat Knives; Mature; Staff & Stick Weapons; Google Product Taxonomy; Ammunition Cases & Holders; Spears; Gun Holsters
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Gun Holsters is a subtopic of Gun Care & Accessories; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Weapons is a subtopic of Mature; Combat Knives is a subtopic of Weapons; Spears is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Stun Guns & Tasers; Gun Care & Accessories; Mature; Staff & Stick Weapons; Gun Cases & Range Bags; Weapons; Gun Lights; Swords; Ammunition; Google Product Taxonomy
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Ammunition is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Stun Guns & Tasers; Nunchucks; Google Product Taxonomy; Guns; Whips; Weapons; Mature; Gun Care & Accessories; Throwing Stars; Erotic
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Whips is a subtopic of Weapons; Erotic is a subtopic of Mature; Weapons is a subtopic of Mature; Stun Guns & Tasers is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Guns is a subtopic of Weapons; Nunchucks is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Books; Erotic Clothing; Pole Dancing Kits; Google Product Taxonomy; Erotic Magazines; Erotic DVDs & Videos; Mature; Erotic Food & Edibles; Erotic; Erotic Games
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic DVDs & Videos is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Clothing is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic Games is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Mature; Staff & Stick Weapons; Gun Care & Accessories; Gun Grips; Google Product Taxonomy; Swords; Gun Slings; Stun Guns & Tasers; Weapons; Spears
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Swords is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Spears is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Pet Supplies; Vacuum Accessories; Billiards; Hardware Pumps; Concrete Molds; Replacement Shelves; Inversion Tables & Systems; Pet Containment Systems; Disease Control; Weed Trimmer Accessories; Food Gift Baskets; Drain Cleaners; Fonts; Snack Foods; Solar Panels; Food Mixers & Blenders; Chaises; Cabinet Hardware; Baby & Toddler Furniture; Fence Posts & Rails; Fuel; Drop Cloths; Homebrewing & Winemaking Supplies; Meat Alternatives; Hammer Accessories; High Chairs & Booster Seats; Portable Toilets & Showers; Glass; Sport Safety Lights & Reflectors; Wall Patching Compounds & Plaster; Seeds; Plants; Bedding; Cabinet Catches; Digital Goods & Currency; Media; Fence Pickets; Power Tool Batteries; Shutters; Toys & Games; Tequila; Dishwashers; Wall Plates & Covers; Cotton Candy Machines; Water Filters; Hand Exercisers; Weight Lifting; Baking Soda; Non-Dairy Milk; Drill Bit Extensions; Pet Oral Care Supplies; Athletics; Garden Hose Storage; Pool Cleaners & Chemicals; Door Hardware; Night Lights & Ambient Lighting; Pizza Makers & Ovens; Lighter Fluid; Outdoor Power Equipment Batteries; Band Saw Accessories; Party & Celebration; Pet Heating Pad Accessories; Linens & Bedding; Food Items; Audio; Electrical Wires & Cable; Alcoholic Beverages; Tarps; Print, Copy, Scan & Fax; Hobbies & Creative Arts; Luggage & Bags; Art & Drafting Tables; Vehicle Pet Barriers; Audio Components; Free Weight Storage Racks; Mattress Pads; Paint Roller Accessories; Pots & Planters; Furniture; Sofa Accessories; Exercise Balls; Pet Muzzles; Cabinet & Furniture Keyhole Escutcheons; Gardening; Pool Ladders, Steps & Ramps; Desk Parts & Accessories; Laundry Appliances; Inline Skate Parts; Loudspeaker Management Systems; Pool, Fountain & Pond Pumps; Armatures, Rotors & Stators; Security Lights; Power Inlets; Arm Chairs, Recliners & Sleeper Chairs; Frosting & Icing; Soldering Iron Accessories; Home Appliance Pumps; Surveillance Cameras; Chemicals; Meal; Computer Icons; Brandy; Power Converters; Futon Pads; Yeast; Saw Accessories; Webcams; Rocking Chairs; Puzzles; Toy Gift Baskets; Whiskey; Outdoor Ottomans; Milk Frothers & Steamers; Garage Doors; Post Base Plates; Electrical Mount Boxes & Brackets; Deck & Fence Cleaners; Wallpaper Steamers; Shelving Accessories; Lighting Accessories; Greeting & Note Cards; Health & Beauty; Navigational Compasses; Small Engines; Fruit Flavored Drinks; Snow Removal; Snack Cakes; Ballasts & Starters; Lighting; Table Legs; Riding Toy Accessories; Film Cameras; Outdoor Play Equipment; Drill & Screwdriver Accessories; Cameras & Optics; Tie Down Straps; Tool Stands; Game Timers; Ice Crusher & Shaver Accessories; Edible Baking Decorations; Video Transmitters; Tool Storage & Organization; Lawn & Garden; Security Safe Accessories; Garage Door Keypads & Remotes; Bricks & Concrete Blocks; Lamp Post Mounts; Pool Heaters; Pool & Spa Maintenance Kits; Sandboxes; Free Weight Accessories; Tool Safety Tethers; Crackers; Airbrush Accessories; Safety & Crowd Control Barriers; Signal Processors; Cutter Accessories; Video; Coils; Chain, Wire & Rope; Exercise Machine & Equipment Sets; Motion Sensors; Siding; Tea & Infusions; Kitchen & Dining; Shopping Totes; Workspace Tables; Landscape Fabric; Beverage Warmers; Ice Cream Makers; Spas; Gift Giving; Components; Grinders; Suitcases; Gaming Chairs; Studio Recording Bundles; Pet Eye Drops & Lubricants; Diaper Bags; Kitchen Appliances; Powdered Beverage Mixes; Hunting; Pool & Spa; Bed Canopies; Donut Makers; Sporting Goods; Reaction Balls; Home & Garden; Flowers; Fence Panels; Sofas; Fence & Gate Accessories; Pet Collars & Harnesses; Sump, Sewage & Effluent Pumps; Power & Electrical Supplies; Doors; Sound Dampening Panels & Foam; Tool Handle Wedges; Borescopes; Toasters & Grills; Beverages; Tortilla & Flatbread Makers; Sticky Rice Cakes; Roofing; Pet Steps & Ramps; Soups & Broths; Dummy Surveillance Cameras; Hardware Torches; Hole Saws; Chairs; Nibbler Dies; Pretend Shopping & Grocery; Vehicles & Parts; Indoor Games; Push Up & Pull Up Bars; Wire Terminals & Connectors; Futons; Plumbing Primer; Shaper Cutters; Desks; Liquor & Spirits; Ammonia; Speed & Resistance Parachutes; Cooking & Baking Ingredients; Food, Beverages & Tobacco; Fireplace Screens; Drawer Slides; Changing Tables; Garment Bags; Cooking Oils; Breadmakers; Camping & Hiking; Corn Syrup; Camping Tools; Animals & Pet Supplies; Photography; Pot & Planter Liners; Live Animals; Exercise Benches; Workstations & Cubicles; Hunting & Shooting; Hunting Dog Equipment; Security Monitors & Recorders; Baking Chips; Fuel Containers & Tanks; Measuring Tool & Sensor Accessories; Grout; Video Cameras; Pretend Play; Outdoor Furniture Sets; Utility Pumps; Exercise & Fitness; Cribs & Toddler Beds; Power Outlets & Sockets; Hydration System Accessories; Prepared Foods; Slot Machines; Yoga & Pilates Towels; Wall & Ceiling Tile; Brackets & Reinforcement Braces; Magnetizers & Demagnetizers; Balance Trainers; Vibration Exercise Machines; Wall Socket Controls & Sensors; Drill & Screwdriver Bits; Mixing Tool Paddles; Crib & Toddler Bed Accessories; Pet Leash Extensions; Office Furniture Accessories; Stopwatches; Weight Lifting Machines & Racks; Egg Replacers; Industrial Staples; Barware; Sandwich Makers; Floor & Carpet Dryers; Photo Mounting Supplies; Pet Door Accessories; Office Furniture; Tofu, Soy & Vegetarian Products; Household Appliances; Fireplace & Wood Stove Accessories; Landscape Fabric Accessories; Lubrication Hoses; Driver Accessories; Baking Flavors & Extracts; Google Product Taxonomy; Bed & Bed Frame Accessories; Billiard Cues & Bridges; Window Frames; Paint Tool Accessories; Extension Cord Accessories; Cabinet Backplates; Room Dividers; Irons & Ironing Systems; Weight Lifting Gloves & Hand Supports; Security System Sensors; Toys; Outdoor Power Equipment Accessories; Outdoor Recreation; Beverage Tubs & Chillers; Deburrers; Wood Stove Fans & Blowers; Dairy Products; Fireplaces; Saw Stands; Hardware; Voltage Transformers & Regulators; Digital Artwork; Sugar & Sweeteners; Paint Brush Cleaning Solutions; Hot Drink Makers; Tool Accessories; Workstation & Cubicle Accessories; Pet Bells & Charms; Games; Swimming Pools; Cabinet Knobs & Handles; Bassinet & Cradle Accessories; Ground Spikes; Power Towers; Pet Strollers; Filters & Screens; Poker & Game Tables; Baking Chocolate; Eggnog; Wall Shelves & Ledges; Sports Toy Accessories; Trampolines; Cameras; Mattress Foundations; Office Chair Accessories; Electrical Switches; Wine; Satellite & Cable TV; Chimney Brushes; Sewing Machine Tables; Food Warmers; Tents; Juggling; Septic Tank & Cesspool Treatments; Fencing & Barriers; Welding Accessories; Carbon Brushes; Ottomans; Masonry Consumables; Acid Neutralizers; Hardware Tape; Flashlight Accessories; Absinthe; Business & Home Security; Golf; Ultrasonic Cleaners; Router Accessories; Electronics; Kitchen & Dining Room Chairs; Slipper Chairs; Monoculars; Climate Control Appliances; Arts & Entertainment; Room Divider Accessories; Futon Frames; Pneumatic Hoses; Ovens; Yoga & Pilates; Window Hardware; Beds & Accessories; Mochi Makers; Liqueurs; Security Safes; Musical Instruments; Bottle Stoppers & Savers; Electric Griddles & Grills; Sleeping Pads; Soy Milk Makers; Video Game Software; Network Security & Firewall Devices; Gas Hoses; Bitters; Chair & Sofa Supports; Hockey Sticks; Hardware Accessories; Garment Steamers; Fertilizers; Gin; Jigsaw Accessories; Table & Bar Stools; Projectors; Tools; Pool & Spa Accessories; Saw Blades; Building Consumables; Outdoor Storage Boxes; Backpacks; Floor Polishers & Buffers; Router Tables; Picture Lights; Pet Apparel Hangers; Beer; Tables; Mattress Encasements; Extension Cords; Networking; Exercise Wedges; Tool Blades; Canned & Dry Milk; Play Swings; Roof Flashings; Folding Chairs & Stools; Baby & Toddler Furniture Sets; Nuts & Seeds; Cocktail & Barware Tool Sets; Milk; Household Appliance Accessories; Gardening Accessories; Musical Instrument & Orchestra Accessories; Office Chairs; Lumber & Sheet Stock; Utility Wire; Tractor Parts & Accessories; Table Accessories; Portable Cooking Stoves; Springs; Garbage Disposal Accessories; Sports & Energy Drinks; Document Templates; Cycling; Digital Cameras; Home Automation Kits; Light Bulb Changers; Mattress Protectors; Optics; Generators; Outdoor Furniture; Wallyball Equipment; Phone & Data Jacks; Pipe Brushes; Hiking Pole Accessories; Drywall; Cabinet Doors; Sectional Sofa Units; Herbicides; Bird Toys; Door Closers; Solvents, Strippers & Thinners; Flour; Flavored Alcoholic Beverages; Bungee Cords; Bassinets & Cradles; Blankets; Magic & Novelties; Fanny Packs; High Chair & Booster Seat Accessories; Trampoline Accessories; Air Conditioner Accessories; Plant & Herb Growing Kits; Hardware Glue & Adhesives; Cooking Wine; Outdoor Beds; Building Materials; Air Hockey; Activity Tables; Televisions; Weather Stripping & Weatherization Supplies; Duvet Covers; Table Tops; Chair Accessories; Desktop Wallpaper; Bird Treats; Countertops; Quilts & Comforters; Kitchen Appliance Accessories; Inline & Roller Skating; Binoculars; Garden Pot Saucers & Trays; Garbage Disposals; Air Hammer Accessories; Bird Food; Anvils; Lamp Shades; Weight Lifting Belts; Bean Bag Chairs; Hedge Trimmer Accessories; Weight Lifting Machine & Exercise Bench Accessories; Pet Flea & Tick Control; Gas Griddles; Shaper Accessories; Bird Supplies; Hockey Stick Care; Outdoor Tables; Wire & Cable Hand Tools; Plant Stands; Shelving; Figure Skating & Hockey; Pet Bed Accessories; Software; Roulette Wheels & Sets; Garden Borders & Edging; See Saws; Yoga Mat Bags & Straps
+Relationships: 
+
+================================================================================
+Number of entities: 500
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts. I'll create a taxonomy by creating a list of their parent-child relationships. Here's the result:
+
+1. Google Product Taxonomy is a parent of:
+   - Mature
+   - Pet Supplies
+   - Hardware Pumps
+   - Concrete Molds
+   - Replacement Shelves
+   - Inversion Tables & Systems
+   - Pet Containment Systems
+   - Disease Control
+   - Weed Trimmer Accessories
+   - Food Gift Baskets
+   - Drain Cleaners
+   - Fonts
+   - Snack Foods
+   - Solar Panels
+   - Food Mixers & Blenders
+   - Chaises
+   - Cabinet Hardware
+   - Baby & Toddler Furniture
+   - Fence Posts & Rails
+   - Fuel
+   - Drop Cloths
+   - Homebrewing & Winemaking Supplies
+   - Meat Alternatives
+   - Hammer Accessories
+   - High Chairs & Booster Seats
+   - Portable Toilets & Showers
+   - Glass
+   - Sport Safety Lights & Reflectors
+   - Wall Patching Compounds & Plaster
+   - Seeds
+   - Plants
+   - Bedding
+   - Cabinet Catches
+   - Digital Goods & Currency
+   - Media
+   - Fence Pickets
+   - Power Tool Batteries
+   - Shutters
+   - Toys & Games
+   - Tequila
+   - Dishwashers
+   - Wall Plates & Covers
+   - Cotton Candy Machines
+   - Water Filters
+   - Hand Exercisers
+   - Weight Lifting
+   - Baking Soda
+   - Non-Dairy Milk
+   - Drill Bit Extensions
+   - Pet Oral Care Supplies
+   - Athletics
+   - Garden Hose Storage
+   - Pool Cleaners & Chemicals
+   - Door Hardware
+   - Night Lights & Ambient Lighting
+   - Pizza Makers & Ovens
+   - Lighter Fluid
+   - Outdoor Power Equipment Batteries
+   - Band Saw Accessories
+   - Party & Celebration
+   - Pet Heating Pad Accessories
+   - Linens & Bedding
+   - Food Items
+   - Audio
+   - Electrical Wires & Cable
+   - Alcoholic Beverages
+   - Tarps
+   - Print, Copy, Scan & Fax
+   - Hobbies & Creative Arts
+   - Luggage & Bags
+   - Art & Drafting Tables
+   - Vehicle Pet Barriers
+   - Audio Components
+   - Free Weight Storage Racks
+   - Mattress Pads
+   - Paint Roller Accessories
+   - Pots & Planters
+   - Furniture
+   - Sofa Accessories
+   - Exercise Balls
+   - Pet Muzzles
+   - Cabinet & Furniture Keyhole Escutcheons
+   - Gardening
+   - Pool Ladders, Steps & Ramps
+   - Desk Parts & Accessories
+   - Laundry Appliances
+   - Inline Skate Parts
+   - Loudspeaker Management Systems
+   - Pool, Fountain & Pond Pumps
+   - Armatures, Rotors & Stators
+   - Security Lights
+   - Power Inlets
+   - Arm Chairs, Recliners & Sleeper Chairs
+   - Frosting & Icing
+   - Soldering Iron Accessories
+   - Home Appliance Pumps
+   - Surveillance Cameras
+   - Chemicals
+   - Meal
+   - Computer Icons
+   - Brandy
+   - Power Converters
+   - Futon Pads
+   - Yeast
+   - Saw Accessories
+   - Webcams
+   - Rocking Chairs
+   - Puzzles
+   - Toy Gift Baskets
+   - Whiskey
+   - Outdoor Ottomans
+   - Milk Frothers & Steamers
+   - Garage Doors
+   - Post Base Plates
+   - Electrical Mount Boxes & Brackets
+   - Deck & Fence Cleaners
+   - Wallpaper Steamers
+   - Shelving Accessories
+   - Lighting Accessories
+   - Greeting & Note Cards
+   - Health & Beauty
+   - Navigational Compasses
+   - Small Engines
+   - Fruit Flavored Drinks
+   - Snow Removal
+   - Snack Cakes
+   - Ballasts & Starters
+   - Lighting
+   - Table Legs
+   - Riding Toy Accessories
+   - Film Cameras
+   - Outdoor Play Equipment
+   - Drill & Screwdriver Accessories
+   - Cameras & Optics
+   - Tie Down Straps
+   - Tool Stands
+   - Game Timers
+   - Ice Crusher & Shaver Accessories
+   - Edible Baking Decorations
+   - Video Transmitters
+   - Tool Storage & Organization
+   - Lawn & Garden
+   - Security Safe Accessories
+   - Garage Door Keypads & Remotes
+   - Bricks & Concrete Blocks
+   - Lamp Post Mounts
+   - Pool Heaters
+   - Pool & Spa Maintenance Kits
+   - Sandboxes
+   - Free Weight Accessories
+   - Tool Safety Tethers
+   - Crackers
+   - Airbrush Accessories
+   - Safety & Crowd Control Barriers
+   - Signal Processors
+   - Cutter Accessories
+   - Video
+   - Coils
+   - Chain, Wire & Rope
+   - Exercise Machine & Equipment Sets
+   - Motion Sensors
+   - Siding
+   - Tea & Infusions
+   - Kitchen & Dining
+   - Shopping Totes
+   - Workspace Tables
+   - Landscape Fabric
+   - Beverage Warmers
+   - Ice Cream Makers
+   - Spas
+   - Gift Giving
+   - Components
+   - Grinders
+   - Suitcases
+   - Gaming Chairs
+   - Studio Recording Bundles
+   - Pet Eye Drops & Lubricants
+   - Diaper Bags
+   - Kitchen Appliances
+   - Powdered Beverage Mixes
+   - Hunting
+   - Pool & Spa
+   - Bed Canopies
+   - Donut Makers
+   - Sporting Goods
+   - Reaction Balls
+   - Home & Garden
+   - Flowers
+   - Fence Panels
+   - Sofas
+   - Fence & Gate Accessories
+   - Pet Collars & Harnesses
+   - Sump, Sewage & Effluent Pumps
+   - Power & Electrical Supplies
+   - Doors
+   - Sound Dampening Panels & Foam
+   - Tool Handle Wedges
+   - Borescopes
+   - Toasters & Grills
+   - Beverages
+   - Tortilla & Flatbread Makers
+   - Sticky Rice Cakes
+   - Roofing
+   - Pet Steps & Ramps
+   - Soups & Broths
+   - Dummy Surveillance Cameras
+   - Hardware Torches
+   - Hole Saws
+   - Chairs
+   - Nibbler Dies
+   - Pretend Shopping & Grocery
+   - Vehicles & Parts
+   - Indoor Games
+   - Push Up & Pull Up Bars
+   - Wire Terminals & Connectors
+   - Futons
+   - Plumbing Primer
+   - Shaper Cutters
+   - Desks
+   - Liquor & Spirits
+   - Ammonia
+   - Speed & Resistance Parachutes
+   - Cooking & Baking Ingredients
+   - Food, Beverages & Tobacco
+   - Fireplace Screens
+   - Drawer Slides
+   - Changing Tables
+   - Garment Bags
+   - Cooking Oils
+   - Breadmakers
+   - Camping & Hiking
+   - Corn Syrup
+   - Camping Tools
+   - Animals & Pet Supplies
+   - Photography
+   - Pot & Planter Liners
+   - Live Animals
+   - Exercise Benches
+   - Workstations & Cubicles
+   - Hunting & Shooting
+   - Hunting Dog Equipment
+   - Security Monitors & Recorders
+   - Baking Chips
+   - Fuel Containers & Tanks
+   - Measuring Tool & Sensor Accessories
+   - Grout
+   - Video Cameras
+   - Pretend Play
+   - Outdoor Furniture Sets
+   - Utility Pumps
+   - Exercise & Fitness
+   - Cribs & Toddler Beds
+   - Power Outlets & Sockets
+   - Hydration System Accessories
+   - Prepared Foods
+   - Slot Machines
+   - Yoga & Pilates Towels
+   - Wall & Ceiling Tile
+   - Brackets & Reinforcement Braces
+   - Magnetizers & Demagnetizers
+   - Balance Trainers
+   - Vibration Exercise Machines
+   - Wall Socket Controls & Sensors
+   - Drill & Screwdriver Bits
+   - Mixing Tool Paddles
+   - Crib & Toddler Bed Accessories
+   - Pet Leash Extensions
+   - Office Furniture Accessories
+   - Stopwatches
+   - Weight Lifting Machines & Racks
+   - Egg Replacers
+   - Industrial Staples
+   - Barware
+   - Sandwich Makers
+   - Floor & Carpet Dryers
+   - Photo Mounting Supplies
+   - Pet Door Accessories
+   - Office Furniture
+   - Tofu, Soy & Vegetarian Products
+   - Household Appliances
+   - Fireplace & Wood Stove Accessories
+   - Landscape Fabric Accessories
+   - Lubrication Hoses
+   - Driver Accessories
+   - Baking Flavors & Extracts
+   - Google Product Taxonomy is a parent of: Mature
+   - Mature is a parent of:
+     - Erotic
+     - Staff & Stick Weapons
+     - Gun Care & Accessories
+     - Gun Grips
+     - Swords
+     - Gun Slings
+     - Stun Guns & Tasers
+     - Spears
+     - Weapons
+   - Mature is a parent of: Erotic
+   - Erotic is a parent of:
+     - Erotic Books
+     - Erotic Clothing
+     - Pole Dancing Kits
+     - Erotic Magazines
+     - Erotic DVDs & Videos
+     - Erotic Food & Edibles
+     - Erotic
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

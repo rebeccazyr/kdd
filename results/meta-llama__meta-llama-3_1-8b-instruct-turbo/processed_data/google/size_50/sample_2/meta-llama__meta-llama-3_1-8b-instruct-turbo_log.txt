@@ -1,0 +1,158 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Weapons; Gun Care & Accessories; Gun Holsters; Combat Knives; Reloading Supplies & Equipment; Ammunition Cases & Holders; Staff & Stick Weapons; Google Product Taxonomy; Spears; Mature
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Spears is a subtopic of Weapons; Combat Knives is a subtopic of Weapons; Weapons is a subtopic of Mature; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Gun Holsters is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Staff & Stick Weapons; Mature; Gun Cases & Range Bags; Ammunition; Weapons; Gun Lights; Stun Guns & Tasers; Gun Care & Accessories; Google Product Taxonomy; Swords
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Weapons is a subtopic of Mature; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Ammunition is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Stun Guns & Tasers is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Stun Guns & Tasers; Google Product Taxonomy; Throwing Stars; Mature; Nunchucks; Guns; Erotic; Weapons; Whips; Gun Care & Accessories
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Guns is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Stun Guns & Tasers is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Erotic is a subtopic of Mature; Throwing Stars is a subtopic of Weapons; Weapons is a subtopic of Mature; Whips is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Games; Erotic; Pole Dancing Kits; Erotic Magazines; Google Product Taxonomy; Erotic Clothing; Mature; Erotic DVDs & Videos; Erotic Food & Edibles; Erotic Books
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Pole Dancing Kits is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic Clothing is a subtopic of Erotic; Erotic Games is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Books is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Weapons; Gun Grips; Gun Slings; Staff & Stick Weapons; Stun Guns & Tasers; Mature; Gun Care & Accessories; Swords; Google Product Taxonomy; Spears
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Gun Slings is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Spears is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Swords is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Luggage & Bags; Memorial Ceremony Supplies; Media; Hardhats; Forestry & Logging; Specimen Cups; Conveyors; Toys & Games; Mining & Quarrying; Janitorial Carts & Caddies; Light Therapy Lamps; Suitcases; Industrial Storage; Food Service; Facility Identification Signs; Cameras & Optics; Medical; GPS Tracking Devices; Disposable Lids; Books; Variable Frequency & Adjustable Speed Drives; Work Safety Protective Gear; Heavy Machinery; Health Care; Business & Industrial; Hardware; Radar Detectors; Signage; Product Manuals; Religious & Ceremonial; Automation Control Components; DVDs & Videos; Trade Show Displays; Health & Beauty; Law Enforcement; Google Product Taxonomy; Retail & Sale Signs; Music & Sound Recordings; Advertising & Marketing; Wedding Ceremony Supplies; Material Handling; Contraceptive Cases; Acupuncture; Power Tool & Equipment Manuals; Power & Electrical Supplies; Brochures; GPS Accessories; Electronics; Garment Bags; GPS Navigation Systems
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Business & Industrial is a subtopic of Google Product Taxonomy; Medical is a subtopic of Business & Industrial; Health Care is a subtopic of Medical; Law Enforcement is a subtopic of Business & Industrial; Retail & Sale Signs is a subtopic of Law Enforcement; Advertising & Marketing is a subtopic of Law Enforcement; Signage is a subtopic of Advertising & Marketing; Trade Show Displays is a subtopic of Advertising & Marketing; Material Handling is a subtopic of Business & Industrial; Conveyors is a subtopic of Material Handling; Industrial Storage is a subtopic of Material Handling; Janitorial Carts & Caddies is a subtopic of Material Handling; Heavy Machinery is a subtopic of Business & Industrial; Power & Electrical Supplies is a subtopic of Heavy Machinery; Power Tool & Equipment Manuals is a subtopic of Power & Electrical Supplies; Variable Frequency & Adjustable Speed Drives is a subtopic of Power & Electrical Supplies; Automation Control Components is a subtopic of Power & Electrical Supplies; Work Safety Protective Gear is a subtopic of Business & Industrial; Hardhats is a subtopic of Work Safety Protective Gear; Luggage & Bags is a subtopic of Business & Industrial; Suitcases is a subtopic of Luggage & Bags; Garment Bags is a subtopic of Luggage & Bags; Medical is a subtopic of Business & Industrial; Health Care is a subtopic of Medical; Health & Beauty is a subtopic of Health Care; Acupuncture is a subtopic of Health Care; Contraceptive Cases is a subtopic of Health Care; Specimen Cups is a subtopic of Health Care; Food Service is a subtopic of Business & Industrial; Disposable Lids is a subtopic of Food Service; Facility Identification Signs is a subtopic of Food Service; Memorial Ceremony Supplies is a subtopic of Business & Industrial; Religious & Ceremonial is a subtopic of Memorial Ceremony Supplies; Wedding Ceremony Supplies is a subtopic of Religious & Ceremonial; Cameras & Optics is a subtopic of Business & Industrial; Radar Detectors is a subtopic of Cameras & Optics; GPS Navigation Systems is a subtopic of Cameras & Optics; GPS Tracking Devices is a subtopic of GPS Navigation Systems; GPS Accessories is a subtopic of GPS Navigation Systems; Electronics is a subtopic of Business & Industrial; DVDs & Videos is a subtopic of Electronics; Music & Sound Recordings is a subtopic of Electronics; Books is a subtopic of Electronics; Brochures is a subtopic of Electronics; Product Manuals is a subtopic of Electronics; Forestry & Logging is a subtopic of Business & Industrial; Mining & Quarrying is a subtopic of Forestry & Logging; Conveyors is a subtopic of Mining & Quarrying; Industrial Storage is a subtopic of Mining & Quarrying; Janitorial Carts & Caddies is a subtopic of Mining & Quarrying; Heavy Machinery is a subtopic of Forestry & Logging; Power & Electrical Supplies is a subtopic of Heavy Machinery; Power Tool & Equipment Manuals is a subtopic of Power & Electrical Supplies; Variable Frequency & Adjustable Speed Drives is a subtopic of Power & Electrical Supplies; Automation Control Components is a subtopic of Power & Electrical Supplies; Work Safety Protective Gear is a subtopic of Forestry & Logging; Hardhats is a subtopic of Work Safety Protective Gear; Toys & Games is a subtopic of Business & Industrial; Signage is a subtopic of Toys & Games; Trade Show Displays is a subtopic of Toys & Games; Material Handling is a subtopic of Business & Industrial; Conveyors is a subtopic of Material Handling; Industrial Storage is a subtopic of Material Handling; Janitorial Carts & Caddies is a subtopic of Material Handling; Heavy Machinery is a subtopic of Business & Industrial; Power & Electrical Supplies is a subtopic of Heavy Machinery; Power Tool & Equipment Manuals is a subtopic of Power & Electrical Supplies; Variable Frequency & Adjustable Speed Drives is a subtopic of Power & Electrical Supplies; Automation Control Components is a subtopic of Power & Electrical Supplies; Work Safety Protective Gear is a subtopic of Business & Industrial; Hardhats is a subtopic of Work Safety Protective Gear; Media is a subtopic of Business & Industrial; DVDs & Videos is a subtopic of Media; Music & Sound Recordings is a subtopic of Media; Books is a subtopic of Media; Brochures is a subtopic of Media; Product Manuals is a subtopic of Media; Business & Industrial is a subtopic of Google Product Taxonomy; Google Product Taxonomy is a subtopic of itself
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 79
+
+Parsed relationships:
+  Business & Industrial → Google Product Taxonomy
+  Medical → Business & Industrial
+  Health Care → Medical
+  Law Enforcement → Business & Industrial
+  Retail & Sale Signs → Law Enforcement
+  Advertising & Marketing → Law Enforcement
+  Signage → Advertising & Marketing
+  Trade Show Displays → Advertising & Marketing
+  Material Handling → Business & Industrial
+  Conveyors → Material Handling
+  Industrial Storage → Material Handling
+  Janitorial Carts & Caddies → Material Handling
+  Heavy Machinery → Business & Industrial
+  Power & Electrical Supplies → Heavy Machinery
+  Power Tool & Equipment Manuals → Power & Electrical Supplies
+  Variable Frequency & Adjustable Speed Drives → Power & Electrical Supplies
+  Automation Control Components → Power & Electrical Supplies
+  Work Safety Protective Gear → Business & Industrial
+  Hardhats → Work Safety Protective Gear
+  Luggage & Bags → Business & Industrial
+  Suitcases → Luggage & Bags
+  Garment Bags → Luggage & Bags
+  Medical → Business & Industrial
+  Health Care → Medical
+  Health & Beauty → Health Care
+  Acupuncture → Health Care
+  Contraceptive Cases → Health Care
+  Specimen Cups → Health Care
+  Food Service → Business & Industrial
+  Disposable Lids → Food Service
+  Facility Identification Signs → Food Service
+  Memorial Ceremony Supplies → Business & Industrial
+  Religious & Ceremonial → Memorial Ceremony Supplies
+  Wedding Ceremony Supplies → Religious & Ceremonial
+  Cameras & Optics → Business & Industrial
+  Radar Detectors → Cameras & Optics
+  GPS Navigation Systems → Cameras & Optics
+  GPS Tracking Devices → GPS Navigation Systems
+  GPS Accessories → GPS Navigation Systems
+  Electronics → Business & Industrial
+  DVDs & Videos → Electronics
+  Music & Sound Recordings → Electronics
+  Books → Electronics
+  Brochures → Electronics
+  Product Manuals → Electronics
+  Forestry & Logging → Business & Industrial
+  Mining & Quarrying → Forestry & Logging
+  Conveyors → Mining & Quarrying
+  Industrial Storage → Mining & Quarrying
+  Janitorial Carts & Caddies → Mining & Quarrying
+  Heavy Machinery → Forestry & Logging
+  Power & Electrical Supplies → Heavy Machinery
+  Power Tool & Equipment Manuals → Power & Electrical Supplies
+  Variable Frequency & Adjustable Speed Drives → Power & Electrical Supplies
+  Automation Control Components → Power & Electrical Supplies
+  Work Safety Protective Gear → Forestry & Logging
+  Hardhats → Work Safety Protective Gear
+  Toys & Games → Business & Industrial
+  Signage → Toys & Games
+  Trade Show Displays → Toys & Games
+  Material Handling → Business & Industrial
+  Conveyors → Material Handling
+  Industrial Storage → Material Handling
+  Janitorial Carts & Caddies → Material Handling
+  Heavy Machinery → Business & Industrial
+  Power & Electrical Supplies → Heavy Machinery
+  Power Tool & Equipment Manuals → Power & Electrical Supplies
+  Variable Frequency & Adjustable Speed Drives → Power & Electrical Supplies
+  Automation Control Components → Power & Electrical Supplies
+  Work Safety Protective Gear → Business & Industrial
+  Hardhats → Work Safety Protective Gear
+  Media → Business & Industrial
+  DVDs & Videos → Media
+  Music & Sound Recordings → Media
+  Books → Media
+  Brochures → Media
+  Product Manuals → Media
+  Business & Industrial → Google Product Taxonomy
+  Google Product Taxonomy → itself
+
+================================================================================

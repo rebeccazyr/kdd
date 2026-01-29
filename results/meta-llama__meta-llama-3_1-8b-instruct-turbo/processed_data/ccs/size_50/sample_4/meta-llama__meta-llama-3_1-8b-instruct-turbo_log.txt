@@ -1,0 +1,228 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Architectures; Systolic arrays; Computer systems organization; Embedded systems; Parallel architectures; Real-time systems; Multiple instruction, single data; Single instruction, multiple data; Embedded and cyber-physical systems; Computing Classification System
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Multiple instruction, single data is a subtopic of Parallel architectures; Embedded systems is a subtopic of Embedded and cyber-physical systems; Single instruction, multiple data is a subtopic of Parallel architectures; Parallel architectures is a subtopic of Architectures; Real-time systems is a subtopic of Computer systems organization; Systolic arrays is a subtopic of Parallel architectures
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Processors and memory architectures; Real-time languages; Dependable and fault-tolerant systems and networks; Real-time systems; Architectures; Computer systems organization; Fault-tolerant network topologies; Computing Classification System; Maintainability and maintenance
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Real-time languages is a subtopic of Real-time systems; Computer systems organization is a subtopic of Computing Classification System; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Computer systems organization; Interconnection architectures; Serial architectures; Parallel architectures; Maintainability and maintenance; Dependable and fault-tolerant systems and networks; Pipeline computing; Architectures; Computing Classification System
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Serial architectures is a subtopic of Architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System; Architectures is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Interconnection architectures is a subtopic of Parallel architectures; Pipeline computing is a subtopic of Serial architectures
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Real-time systems; Optical computing; Computer systems organization; Architectures; Quantum computing; Embedded and cyber-physical systems; Other architectures; Real-time system specification; Real-time languages; Computing Classification System
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Optical computing is a subtopic of Other architectures; Other architectures is a subtopic of Architectures; Real-time languages is a subtopic of Real-time systems; Real-time system specification is a subtopic of Real-time systems; Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Quantum computing is a subtopic of Other architectures; Computer systems organization is a subtopic of Computing Classification System; Real-time systems is a subtopic of Computer systems organization
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems; Real-time systems; Serial architectures; Computer systems organization; Real-time system architecture; Architectures; Processors and memory architectures; Distributed architectures; Computing Classification System
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Real-time system architecture is a subtopic of Real-time systems; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Distributed architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Wireless integrated network sensors; Quadrature; Interaction techniques; Human computer interaction (HCI); Branch-and-bound; Visualization; Streaming, sublinear and near linear time algorithms; Hardware; Continuous mathematics; Physical verification; Empirical studies in collaborative and social computing; Software and its engineering; Differential equations; Design and analysis of algorithms; Power and energy; Human-centered computing; Mathematical analysis; General and reference; Semi-formal verification; Integrated circuits; Layout-versus-schematics; Visualization application domains; Printed circuit boards; Collaborative and social computing; Communication hardware, interfaces and storage; Visualization systems and tools; Information visualization; Wireframes; Computing Classification System; Systems and tools for interaction design; Social and professional topics; Computing / technology policy; Divide and conquer; Backtracking; Mathematics of computing; Power and thermal analysis; Theory and algorithms for application domains; Interaction design theory, concepts and paradigms; Social network analysis; Probability and statistics; Interaction design process and methods; Empirical studies in HCI; Interaction design; Timing analysis and sign-off; Hardware validation; Algorithm design techniques; Functional verification; Collaborative and social computing design and evaluation methods; Accessibility; Theory of computation
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Here are the relationships between the concepts:
+
+1. Human-centered computing is a subtopic of Human computer interaction (HCI); Human computer interaction (HCI) is a subtopic of Computing Classification System.
+2. Interaction design is a subtopic of Human-centered computing; Human-centered computing is a subtopic of Computing Classification System.
+3. Interaction design theory, concepts and paradigms is a subtopic of Interaction design; Interaction design is a subtopic of Human-centered computing.
+4. Interaction design process and methods is a subtopic of Interaction design; Interaction design is a subtopic of Human-centered computing.
+5. Systems and tools for interaction design is a subtopic of Interaction design; Interaction design is a subtopic of Human-centered computing.
+6. Collaborative and social computing is a subtopic of Human-centered computing; Human-centered computing is a subtopic of Computing Classification System.
+7. Empirical studies in collaborative and social computing is a subtopic of Collaborative and social computing; Collaborative and social computing is a subtopic of Human-centered computing.
+8. Social and professional topics is a subtopic of Collaborative and social computing; Collaborative and social computing is a subtopic of Human-centered computing.
+9. Collaborative and social computing design and evaluation methods is a subtopic of Collaborative and social computing; Collaborative and social computing is a subtopic of Human-centered computing.
+10. Accessibility is a subtopic of Collaborative and social computing; Collaborative and social computing is a subtopic of Human-centered computing.
+11. Human computer interaction (HCI) is a subtopic of Computing Classification System.
+12. Empirical studies in HCI is a subtopic of Human computer interaction (HCI); Human computer interaction (HCI) is a subtopic of Computing Classification System.
+13. Interaction techniques is a subtopic of Human computer interaction (HCI); Human computer interaction (HCI) is a subtopic of Computing Classification System.
+14. Visualization is a subtopic of Human computer interaction (HCI); Human computer interaction (HCI) is a subtopic of Computing Classification System.
+15. Visualization application domains is a subtopic of Visualization; Visualization is a subtopic of Human computer interaction (HCI).
+16. Visualization systems and tools is a subtopic of Visualization; Visualization is a subtopic of Human computer interaction (HCI).
+17. Information visualization is a subtopic of Visualization; Visualization is a subtopic of Human computer interaction (HCI).
+18. Wireframes is a subtopic of Human computer interaction (HCI); Human computer interaction (HCI) is a subtopic of Computing Classification System.
+19. Communication hardware, interfaces and storage is a subtopic of Computing Classification System.
+20. Hardware is a subtopic of Computing Classification System.
+21. Integrated circuits is a subtopic of Hardware; Hardware is a subtopic of Computing Classification System.
+22. Layout-versus-schematics is a subtopic of Integrated circuits; Integrated circuits is a subtopic of Hardware.
+23. Printed circuit boards is a subtopic of Integrated circuits; Integrated circuits is a subtopic of Hardware.
+24. Power and energy is a subtopic of Hardware; Hardware is a subtopic of Computing Classification System.
+25. Power and thermal analysis is a subtopic of Power and energy; Power and energy is a subtopic of Hardware.
+26. Timing analysis and sign-off is a subtopic of Power and energy; Power and energy is a subtopic of Hardware.
+27. Hardware validation is a subtopic of Hardware; Hardware is a subtopic of Computing Classification System.
+28. Algorithm design techniques is a subtopic of Software and its engineering; Software and its engineering is a subtopic of Computing Classification System.
+29. Divide and conquer is a subtopic of Algorithm design techniques; Algorithm design techniques is a subtopic of Software and its engineering.
+30. Backtracking is a subtopic of Algorithm design techniques; Algorithm design techniques is a subtopic of Software and its engineering.
+31. Branch-and-bound is a subtopic of Algorithm design techniques; Algorithm design techniques is a subtopic of Software and its engineering.
+32. Theory of computation is a subtopic of Software and its engineering; Software and its engineering is a subtopic of Computing Classification System.
+33. Mathematics of computing is a subtopic of Software and its engineering; Software and its engineering is a subtopic of Computing Classification System.
+34. Probability and statistics is a subtopic of Mathematics of computing; Mathematics of computing is a subtopic of Software and its engineering.
+35. Differential equations is a subtopic of Mathematics of computing; Mathematics of computing is a subtopic of Software and its engineering.
+36. Continuous mathematics is a subtopic of Mathematics of computing; Mathematics of computing is a subtopic of Software and its engineering.
+37. Semi-formal verification is a subtopic of Software and its engineering; Software and its engineering is a subtopic of Computing Classification System.
+38. Functional verification is a subtopic of Software and its engineering; Software and its engineering is a subtopic of Computing Classification System.
+39. Physical verification is a subtopic of Software and its engineering; Software and its engineering is a subtopic of Computing Classification System.
+40. Streaming, sublinear and near linear time algorithms is a subtopic of Software and its engineering; Software and its engineering is a subtopic of Computing Classification System.
+41. Design and analysis of algorithms is a subtopic of Software and its engineering; Software and its engineering is a subtopic of Computing Classification System.
+42. Theory and algorithms for application domains is a subtopic of Software and its engineering; Software and its engineering is a subtopic of Computing Classification System.
+43. Quadrature is a subtopic of Continuous mathematics; Continuous mathematics is a subtopic of Mathematics of computing.
+44. Empirical studies in collaborative and social computing is a subtopic of Collaborative and social computing; Collaborative and social computing is a subtopic of Human-centered computing.
+45. Social network analysis is a subtopic of Collaborative and social computing; Collaborative and social computing is a subtopic of Human-centered computing.
+46. Collaborative and social computing design and evaluation methods is a subtopic of Collaborative and social computing; Collaborative and social computing is a subtopic of Human-centered computing.
+47. Accessibility is a subtopic of Collaborative and social computing; Collaborative and social computing is a subtopic of Human-centered computing.
+48. Empirical studies in HCI is a subtopic of Human computer interaction (HCI); Human computer interaction (HCI) is a subtopic of Computing Classification System.
+49. Interaction techniques is a subtopic of Human computer interaction (HCI); Human computer interaction (HCI) is a subtopic of Computing Classification System.
+50. Visualization is a subtopic of Human computer interaction (HCI); Human computer interaction (HCI) is a subtopic of Computing Classification System.
+51. Visualization application domains is a subtopic of Visualization; Visualization is a subtopic of Human computer interaction (HCI).
+52. Visualization systems and tools is a subtopic of Visualization; Visualization is a subtopic of Human computer interaction (HCI).
+53. Information visualization is a subtopic of Visualization; Visualization is a subtopic of Human computer interaction (HCI).
+54. Wireframes is a subtopic of Human computer interaction (HCI); Human computer interaction (HCI) is a subtopic of Computing Classification System.
+55. Communication hardware, interfaces and storage is a subtopic of Computing Classification System.
+56. Hardware is a subtopic of Computing Classification System.
+57. Integrated circuits is a subtopic of Hardware; Hardware is a subtopic of Computing Classification System.
+58. Layout-versus-schematics is a subtopic of Integrated circuits; Integrated circuits is a subtopic of Hardware.
+59. Printed circuit boards is a subtopic of Integrated circuits; Integrated circuits is a subtopic of Hardware.
+60. Power and energy is a subtopic of Hardware; Hardware is a subtopic of Computing Classification System.
+61. Power and thermal analysis is a subtopic of Power and energy; Power and energy is a subtopic of Hardware.
+62. Timing analysis and sign-off is a subtopic of Power and energy; Power and energy is a subtopic of Hardware.
+63. Hardware validation is a subtopic of Hardware; Hardware is a subtopic of Computing Classification System.
+64. Algorithm design techniques is a subtopic of Software and its engineering; Software and its engineering is a subtopic of Computing Classification System.
+65. Divide and conquer is a subtopic of Algorithm design techniques; Algorithm design techniques is a subtopic of Software and its engineering.
+66. Backtracking is a subtopic of Algorithm design techniques; Algorithm design techniques is a subtopic of Software and its engineering.
+67. Branch-and-bound is a subtopic of Algorithm design techniques; Algorithm design techniques is a subtopic of Software and its engineering.
+68. Theory of computation is a subtopic of Software and its engineering; Software and its engineering is a subtopic of Computing Classification System.
+69. Mathematics of computing is a subtopic of Software and its engineering; Software and its engineering is a subtopic of Computing Classification System.
+70. Probability and statistics is a subtopic of Mathematics of computing; Mathematics of computing is a subtopic of Software and its engineering.
+71. Differential equations is a subtopic of Mathematics of computing; Mathematics of computing is a subtopic of Software and its engineering.
+72. Continuous mathematics is a subtopic of Mathematics of computing; Mathematics of computing is a subtopic of Software and its engineering.
+73. Semi-formal verification is a subtopic of Software and its engineering; Software and its engineering is a subtopic of Computing Classification System.
+74. Functional verification is a subtopic of Software and its engineering; Software and its engineering is a subtopic of Computing Classification System.
+75. Physical verification is a subtopic of Software and its engineering; Software and its engineering is a subtopic of Computing Classification System.
+76. Streaming, sublinear and near linear time algorithms is a subtopic of Software and its engineering; Software and its engineering is a subtopic of Computing Classification System.
+77. Design and analysis of algorithms is a subtopic of Software and its engineering; Software and its engineering is a
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 71
+
+Parsed relationships:
+  Human computer interaction (HCI) → Computing Classification System
+  Human-centered computing → Computing Classification System
+  Interaction design → Human-centered computing
+  Interaction design → Human-centered computing
+  Interaction design → Human-centered computing
+  Human-centered computing → Computing Classification System
+  Collaborative and social computing → Human-centered computing
+  Collaborative and social computing → Human-centered computing
+  Collaborative and social computing → Human-centered computing
+  Collaborative and social computing → Human-centered computing
+  Human computer interaction (HCI) → Computing Classification System
+  Human computer interaction (HCI) → Computing Classification System
+  Human computer interaction (HCI) → Computing Classification System
+  Visualization → Human computer interaction (HCI)
+  Visualization → Human computer interaction (HCI)
+  Visualization → Human computer interaction (HCI)
+  Human computer interaction (HCI) → Computing Classification System
+  Hardware → Computing Classification System
+  Integrated circuits → Hardware
+  Integrated circuits → Hardware
+  Hardware → Computing Classification System
+  Power and energy → Hardware
+  Power and energy → Hardware
+  Hardware → Computing Classification System
+  Software and its engineering → Computing Classification System
+  Algorithm design techniques → Software and its engineering
+  Algorithm design techniques → Software and its engineering
+  Algorithm design techniques → Software and its engineering
+  Software and its engineering → Computing Classification System
+  Software and its engineering → Computing Classification System
+  Mathematics of computing → Software and its engineering
+  Mathematics of computing → Software and its engineering
+  Mathematics of computing → Software and its engineering
+  Software and its engineering → Computing Classification System
+  Software and its engineering → Computing Classification System
+  Software and its engineering → Computing Classification System
+  Software and its engineering → Computing Classification System
+  Software and its engineering → Computing Classification System
+  Software and its engineering → Computing Classification System
+  Continuous mathematics → Mathematics of computing
+  Collaborative and social computing → Human-centered computing
+  Collaborative and social computing → Human-centered computing
+  Collaborative and social computing → Human-centered computing
+  Collaborative and social computing → Human-centered computing
+  Human computer interaction (HCI) → Computing Classification System
+  Human computer interaction (HCI) → Computing Classification System
+  Human computer interaction (HCI) → Computing Classification System
+  Visualization → Human computer interaction (HCI)
+  Visualization → Human computer interaction (HCI)
+  Visualization → Human computer interaction (HCI)
+  Human computer interaction (HCI) → Computing Classification System
+  Hardware → Computing Classification System
+  Integrated circuits → Hardware
+  Integrated circuits → Hardware
+  Hardware → Computing Classification System
+  Power and energy → Hardware
+  Power and energy → Hardware
+  Hardware → Computing Classification System
+  Software and its engineering → Computing Classification System
+  Algorithm design techniques → Software and its engineering
+  Algorithm design techniques → Software and its engineering
+  Algorithm design techniques → Software and its engineering
+  Software and its engineering → Computing Classification System
+  Software and its engineering → Computing Classification System
+  Mathematics of computing → Software and its engineering
+  Mathematics of computing → Software and its engineering
+  Mathematics of computing → Software and its engineering
+  Software and its engineering → Computing Classification System
+  Software and its engineering → Computing Classification System
+  Software and its engineering → Computing Classification System
+  Software and its engineering → Computing Classification System
+
+================================================================================

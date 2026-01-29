@@ -1,0 +1,122 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Mature; Reloading Supplies & Equipment; Gun Care & Accessories; Google Product Taxonomy; Spears; Weapons; Gun Holsters; Combat Knives; Staff & Stick Weapons; Ammunition Cases & Holders
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Staff & Stick Weapons is a subtopic of Weapons; Spears is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Combat Knives is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Stun Guns & Tasers; Staff & Stick Weapons; Gun Cases & Range Bags; Swords; Ammunition; Gun Care & Accessories; Google Product Taxonomy; Gun Lights; Mature; Weapons
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Stun Guns & Tasers is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Swords is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Lights is a subtopic of Gun Care & Accessories; Ammunition is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Guns; Weapons; Whips; Nunchucks; Stun Guns & Tasers; Throwing Stars; Gun Care & Accessories; Erotic; Mature; Google Product Taxonomy
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Guns is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Whips is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Erotic is a subtopic of Mature; Weapons is a subtopic of Mature; Nunchucks is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Books; Erotic Magazines; Erotic Clothing; Erotic Games; Pole Dancing Kits; Google Product Taxonomy; Erotic DVDs & Videos; Erotic; Erotic Food & Edibles; Mature
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Clothing is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Pole Dancing Kits is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Games is a subtopic of Erotic; Erotic Books is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Stun Guns & Tasers; Swords; Gun Care & Accessories; Google Product Taxonomy; Spears; Gun Slings; Gun Grips; Staff & Stick Weapons; Mature; Weapons
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Gun Slings is a subtopic of Gun Care & Accessories; Gun Grips is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Spears is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature; Swords is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Decor; Flag & Windsock Accessories; Lighting; Thermoses; Wallpaper; Trunks; Button Studs; Office Supplies; Butterfly Houses; Music Boxes; Toys & Games; Piggy Banks & Money Jars; Animals & Pet Supplies; Clothing Accessories; Seasonal & Holiday Decorations; Lawn Ornaments & Garden Sculptures; Belt Buckles; Growth Charts; Sunglasses; Flasks; Mirrors; Garden & Stepping Stones; Decorative Bells; Emergency Preparedness; Mailboxes; Figurines; Food & Beverage Carriers; Slipcovers; Lawn & Garden; Picture Frames; Emergency Blankets; Holiday Stocking Hangers; Rain Chains; Apparel & Accessories; Coolers; Google Product Taxonomy; Seasonal Village Sets & Accessories; Window Valances & Cornices; Window Treatments; Home & Garden; Floating & Submersible Lights; Napkin Rings; Christmas Tree Stands; Kitchen & Dining; Food, Beverages & Tobacco; Electronics; Bird & Wildlife Houses; Snow Removal; Speed Radars; Easter Egg Decorating Kits
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Apparel & Accessories is a subtopic of Clothing Accessories; Bird & Wildlife Houses is a subtopic of Animals & Pet Supplies; Christmas Tree Stands is a subtopic of Seasonal & Holiday Decorations; Clothing Accessories is a subtopic of Apparel & Accessories; Coolers is a subtopic of Food & Beverage Carriers; Decor is a subtopic of Home & Garden; Decorative Bells is a subtopic of Decor; Easter Egg Decorating Kits is a subtopic of Toys & Games; Emergency Blankets is a subtopic of Emergency Preparedness; Emergency Preparedness is a subtopic of Google Product Taxonomy; Flag & Windsock Accessories is a subtopic of Decor; Flasks is a subtopic of Food & Beverage Carriers; Floating & Submersible Lights is a subtopic of Lighting; Food & Beverage Carriers is a subtopic of Kitchen & Dining; Food, Beverages & Tobacco is a subtopic of Google Product Taxonomy; Garden & Stepping Stones is a subtopic of Lawn & Garden; Garden & Stepping Stones is a subtopic of Decor; Growth Charts is a subtopic of Home & Garden; Holiday Stocking Hangers is a subtopic of Seasonal & Holiday Decorations; Kitchen & Dining is a subtopic of Google Product Taxonomy; Lawn & Garden is a subtopic of Home & Garden; Lawn Ornaments & Garden Sculptures is a subtopic of Decor; Lighting is a subtopic of Home & Garden; Mailboxes is a subtopic of Decor; Mirrors is a subtopic of Decor; Music Boxes is a subtopic of Toys & Games; Napkin Rings is a subtopic of Decor; Office Supplies is a subtopic of Google Product Taxonomy; Picture Frames is a subtopic of Decor; Rain Chains is a subtopic of Decor; Seasonal & Holiday Decorations is a subtopic of Decor; Seasonal Village Sets & Accessories is a subtopic of Seasonal & Holiday Decorations; Slipcovers is a subtopic of Home & Garden; Snow Removal is a subtopic of Google Product Taxonomy; Speed Radars is a subtopic of Electronics; Sunglasses is a subtopic of Apparel & Accessories; Thermoses is a subtopic of Food & Beverage Carriers; Toys & Games is a subtopic of Google Product Taxonomy; Trunks is a subtopic of Decor; Wallpaper is a subtopic of Decor; Window Treatments is a subtopic of Home & Garden; Window Valances & Cornices is a subtopic of Window Treatments; Home & Garden is a subtopic of Google Product Taxonomy
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 43
+
+Parsed relationships:
+  Apparel & Accessories → Clothing Accessories
+  Bird & Wildlife Houses → Animals & Pet Supplies
+  Christmas Tree Stands → Seasonal & Holiday Decorations
+  Clothing Accessories → Apparel & Accessories
+  Coolers → Food & Beverage Carriers
+  Decor → Home & Garden
+  Decorative Bells → Decor
+  Easter Egg Decorating Kits → Toys & Games
+  Emergency Blankets → Emergency Preparedness
+  Emergency Preparedness → Google Product Taxonomy
+  Flag & Windsock Accessories → Decor
+  Flasks → Food & Beverage Carriers
+  Floating & Submersible Lights → Lighting
+  Food & Beverage Carriers → Kitchen & Dining
+  Food, Beverages & Tobacco → Google Product Taxonomy
+  Garden & Stepping Stones → Lawn & Garden
+  Garden & Stepping Stones → Decor
+  Growth Charts → Home & Garden
+  Holiday Stocking Hangers → Seasonal & Holiday Decorations
+  Kitchen & Dining → Google Product Taxonomy
+  Lawn & Garden → Home & Garden
+  Lawn Ornaments & Garden Sculptures → Decor
+  Lighting → Home & Garden
+  Mailboxes → Decor
+  Mirrors → Decor
+  Music Boxes → Toys & Games
+  Napkin Rings → Decor
+  Office Supplies → Google Product Taxonomy
+  Picture Frames → Decor
+  Rain Chains → Decor
+  Seasonal & Holiday Decorations → Decor
+  Seasonal Village Sets & Accessories → Seasonal & Holiday Decorations
+  Slipcovers → Home & Garden
+  Snow Removal → Google Product Taxonomy
+  Speed Radars → Electronics
+  Sunglasses → Apparel & Accessories
+  Thermoses → Food & Beverage Carriers
+  Toys & Games → Google Product Taxonomy
+  Trunks → Decor
+  Wallpaper → Decor
+  Window Treatments → Home & Garden
+  Window Valances & Cornices → Window Treatments
+  Home & Garden → Google Product Taxonomy
+
+================================================================================

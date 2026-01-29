@@ -1,0 +1,100 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Weapons; Gun Holsters; Spears; Reloading Supplies & Equipment; Ammunition Cases & Holders; Mature; Google Product Taxonomy; Gun Care & Accessories; Staff & Stick Weapons; Combat Knives
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Weapons is a subtopic of Mature; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Combat Knives is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Weapons; Staff & Stick Weapons; Ammunition; Stun Guns & Tasers; Mature; Gun Care & Accessories; Gun Lights; Swords; Gun Cases & Range Bags; Google Product Taxonomy
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Gun Lights is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Swords is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Weapons is a subtopic of Mature; Ammunition is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Nunchucks; Gun Care & Accessories; Erotic; Guns; Throwing Stars; Mature; Stun Guns & Tasers; Weapons; Google Product Taxonomy; Whips
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Whips is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Guns is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Stun Guns & Tasers is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Erotic is a subtopic of Mature
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Books; Pole Dancing Kits; Erotic; Google Product Taxonomy; Erotic DVDs & Videos; Erotic Food & Edibles; Erotic Clothing; Mature; Erotic Magazines; Erotic Games
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Pole Dancing Kits is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic Magazines is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Books is a subtopic of Erotic; Erotic Games is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Weapons; Spears; Gun Care & Accessories; Google Product Taxonomy; Staff & Stick Weapons; Gun Grips; Gun Slings; Mature; Stun Guns & Tasers; Swords
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Gun Grips is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Gun Slings is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Swords is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Spears is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Media; Office Supplies; Animals & Pet Supplies; Furniture; Nursing & Feeding; Sewing Machine Tables; Carpentry & Woodworking Project Plans; Baby & Toddler; Shelving Accessories; Apparel & Accessories; Google Product Taxonomy; Checkbook Covers; Handbag & Wallet Accessories; Breast Pump Accessories; Tables; Baby Transport Accessories; Poker & Game Tables; Food, Beverages & Tobacco; Sippy Cups; Outdoor Furniture Accessories
+Relationships: 
+
+================================================================================
+Number of entities: 20
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Media is a subtopic of Apparel & Accessories; Office Supplies is a subtopic of Apparel & Accessories; Animals & Pet Supplies is a subtopic of Apparel & Accessories; Furniture is a subtopic of Apparel & Accessories; Nursing & Feeding is a subtopic of Apparel & Accessories; Sewing Machine Tables is a subtopic of Tables; Carpentry & Woodworking Project Plans is a subtopic of Furniture; Baby & Toddler is a subtopic of Apparel & Accessories; Shelving Accessories is a subtopic of Furniture; Apparel & Accessories is a subtopic of Google Product Taxonomy; Checkbook Covers is a subtopic of Media; Handbag & Wallet Accessories is a subtopic of Apparel & Accessories; Breast Pump Accessories is a subtopic of Nursing & Feeding; Tables is a subtopic of Furniture; Baby Transport Accessories is a subtopic of Baby & Toddler; Poker & Game Tables is a subtopic of Tables; Food, Beverages & Tobacco is a subtopic of Apparel & Accessories; Sippy Cups is a subtopic of Baby & Toddler; Outdoor Furniture Accessories is a subtopic of Furniture
+
+Note: The concept "Google Product Taxonomy" is a broader category that encompasses all the subtopics listed. Therefore, all the subtopics listed above are subtopics of "Google Product Taxonomy".
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 19
+
+Parsed relationships:
+  Media → Apparel & Accessories
+  Office Supplies → Apparel & Accessories
+  Animals & Pet Supplies → Apparel & Accessories
+  Furniture → Apparel & Accessories
+  Nursing & Feeding → Apparel & Accessories
+  Sewing Machine Tables → Tables
+  Carpentry & Woodworking Project Plans → Furniture
+  Baby & Toddler → Apparel & Accessories
+  Shelving Accessories → Furniture
+  Apparel & Accessories → Google Product Taxonomy
+  Checkbook Covers → Media
+  Handbag & Wallet Accessories → Apparel & Accessories
+  Breast Pump Accessories → Nursing & Feeding
+  Tables → Furniture
+  Baby Transport Accessories → Baby & Toddler
+  Poker & Game Tables → Tables
+  Food, Beverages & Tobacco → Apparel & Accessories
+  Sippy Cups → Baby & Toddler
+  Outdoor Furniture Accessories → Furniture
+
+================================================================================

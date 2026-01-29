@@ -1,0 +1,89 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Weapons; Gun Care & Accessories; Reloading Supplies & Equipment; Mature; Google Product Taxonomy; Spears; Ammunition Cases & Holders; Gun Holsters; Staff & Stick Weapons; Combat Knives
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Weapons is a subtopic of Mature; Combat Knives is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Spears is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Staff & Stick Weapons; Google Product Taxonomy; Mature; Swords; Gun Cases & Range Bags; Ammunition; Gun Care & Accessories; Weapons; Gun Lights; Stun Guns & Tasers
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Ammunition is a subtopic of Gun Care & Accessories; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Weapons is a subtopic of Mature
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Stun Guns & Tasers; Gun Care & Accessories; Erotic; Whips; Guns; Google Product Taxonomy; Mature; Throwing Stars; Nunchucks; Weapons
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Erotic is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature; Whips is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Guns is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Food & Edibles; Erotic Clothing; Erotic Magazines; Erotic; Erotic Books; Erotic DVDs & Videos; Erotic Games; Mature; Pole Dancing Kits; Google Product Taxonomy
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Erotic Games is a subtopic of Erotic; Erotic is a subtopic of Mature; Pole Dancing Kits is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Weapons; Stun Guns & Tasers; Spears; Mature; Staff & Stick Weapons; Gun Care & Accessories; Google Product Taxonomy; Swords; Gun Slings; Gun Grips
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Weapons is a subtopic of Mature; Gun Slings is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Swords is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Staff & Stick Weapons is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: GPS Cases; Video Game Consoles; Components; GPS Accessories; Apparel & Accessories; Google Product Taxonomy; Electronics; Hardware; Vehicles & Parts; GPS Navigation Systems
+Relationships: 
+
+================================================================================
+Number of entities: 10
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+GPS Cases is a subtopic of GPS Accessories; GPS Accessories is a subtopic of GPS Navigation Systems; GPS Navigation Systems is a subtopic of Electronics; Video Game Consoles is a subtopic of Electronics; Components is a subtopic of Hardware; Apparel & Accessories is a subtopic of Apparel & Accessories; Electronics is a subtopic of Google Product Taxonomy; Hardware is a subtopic of Components; Vehicles & Parts is a subtopic of Components
+
+Note: The relationship between "Apparel & Accessories" and "Apparel & Accessories" is reflexive and typically not represented in a taxonomy. If you meant to include a specific subcategory under Apparel & Accessories, please provide more details.
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 8
+
+Parsed relationships:
+  GPS Cases → GPS Accessories
+  GPS Accessories → GPS Navigation Systems
+  GPS Navigation Systems → Electronics
+  Video Game Consoles → Electronics
+  Components → Hardware
+  Electronics → Google Product Taxonomy
+  Hardware → Components
+  Vehicles & Parts → Components
+
+================================================================================

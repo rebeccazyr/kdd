@@ -1,0 +1,47 @@
+[
+  {
+    "child_name": "yaki udon",
+    "parent_name": "noodle",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "cheese spread",
+    "parent_name": "dip",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "shrimp roe noodles",
+    "parent_name": "noodle",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "dairy product",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "dip",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "tapenade",
+    "parent_name": "dip",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "noodle",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "cottage cheese",
+    "parent_name": "dairy product",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "cheese",
+    "parent_name": "dairy product",
+    "relation_type": "IsA"
+  }
+]

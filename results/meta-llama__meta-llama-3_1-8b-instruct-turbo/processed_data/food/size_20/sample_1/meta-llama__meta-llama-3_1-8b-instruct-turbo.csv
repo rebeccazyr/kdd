@@ -1,0 +1,20 @@
+child,parent
+popsicles,frozen dessert
+frozen dessert,food
+frozen meat,meat
+meat,food
+beef,meat
+chocolate covered nuts,food
+pecans,food
+pistachios,food
+yaki udon,noodle
+noodle,cooking ingredient
+spätzle,noodle
+shirataki noodles,noodle
+silver needle noodles,noodle
+dandan noodles,noodle
+korean noodles,noodle
+brési,cooking ingredient
+cereals,cooking ingredient
+seeds,cooking ingredient
+cooking ingredient,food

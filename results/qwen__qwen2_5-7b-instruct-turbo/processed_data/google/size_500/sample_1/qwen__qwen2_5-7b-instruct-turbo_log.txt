@@ -1,0 +1,368 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Ammunition Cases & Holders; Combat Knives; Gun Care & Accessories; Gun Holsters; Staff & Stick Weapons; Google Product Taxonomy; Mature; Reloading Supplies & Equipment; Spears; Weapons
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Staff & Stick Weapons is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons; Combat Knives is a subtopic of Weapons; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Gun Holsters is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Gun Lights; Stun Guns & Tasers; Google Product Taxonomy; Staff & Stick Weapons; Mature; Gun Care & Accessories; Gun Cases & Range Bags; Swords; Weapons; Ammunition
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Swords is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Gun Lights is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Erotic; Throwing Stars; Nunchucks; Stun Guns & Tasers; Mature; Google Product Taxonomy; Whips; Gun Care & Accessories; Guns; Weapons
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Nunchucks is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature; Whips is a subtopic of Weapons; Guns is a subtopic of Weapons; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Food & Edibles; Erotic Clothing; Erotic DVDs & Videos; Pole Dancing Kits; Erotic; Mature; Erotic Books; Erotic Magazines; Erotic Games; Google Product Taxonomy
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Games is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic Clothing is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic is a subtopic of Mature
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Staff & Stick Weapons; Spears; Swords; Stun Guns & Tasers; Gun Care & Accessories; Mature; Google Product Taxonomy; Weapons; Gun Grips; Gun Slings
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Swords is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Gun Slings is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Weapons is a subtopic of Mature; Staff & Stick Weapons is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Stun Guns & Tasers is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Hardware Pumps; Concrete Molds; Inversion Tables & Systems; Camera Parts & Accessories; Industrial Storage Accessories; Messenger Bags; Snack Foods; Computer Software; Business & Productivity Software; Photographic Enlargers; Lens Bags; Fishing Reel Accessories; Drop Cloths; Golf Accessory Sets; Heating, Ventilation & Air Conditioning; Advertising & Marketing; Baby Health; Golf Balls; Portable Toilets & Showers; Glass; Sport Safety Lights & Reflectors; Office & Chair Mats; Solar Energy Kits; Digital Goods & Currency; Airsoft; Exercise & Fitness Equipment Manuals; Equestrian; Media; Heat Guns; Darkroom; Shutters; Camera Stabilizers & Supports; Lighting & Studio; Toys & Games; Industrial Shelving; Wire Caps & Nuts; Wall Plates & Covers; Special Effects Light Stands; Hand Exercisers; Paddleboards; Altimeters; Camera Lens Zoom Units; Highlighter Refills; Weight Lifting; Flooring & Carpet; Vending Machines; Skateboarding Protective Gear; Model & Toys Manuals; Camera Body Replacement Panels & Doors; Door Hardware; Apparel & Accessories; Gutter Accessories; Restore Disks; Sprinkler, Booster & Irrigation System Pumps; First Aid; Party & Celebration; Food Items; Paintball & Airsoft Protective Gear; Retail; Bicycle Accessories; Luggage Accessories; Luggage & Bags; Free Weight Storage Racks; Skimboards; Camera Digital Backs; Lifting Hooks, Clamps & Shackles; Paper Clips & Clamps; Book Lights; Routing Tools; Handheld & PDA Software; Label Tapes & Refill Rolls; Fishing Gaffs; Lens Hoods; Pillboxes; Baby Toys & Activity Equipment; Exercise Balls; Skateboard Decks; Business & Industrial; Trophies & Awards; Paper Products; Fishing; Paintball & Airsoft; Hot Dog Rollers; Foam Rollers; Bicycle Frames; Computer Utilities & Maintenance Software; Armatures, Rotors & Stators; Moving & Soundproofing Blankets & Covers; Power Inlets; Yoga & Pilates Blocks; Exercise Bands; Bicycle Water Sport Board Racks; Fishing Lines & Leaders; Webcams; Supports & Braces; Writing & Drawing Instrument Accessories; Door Strikes; Darkroom Easels; Call Bells; Generator Accessories; Office Tape; Exercise Equipment Mats; Foam Roller Accessories; Studio Stands & Mounts; Camera Flash Accessories; Special Effects Lighting; Trail Cameras; Pulse Oximeters; Health & Beauty; Graduated Cylinders; Navigational Compasses; Small Engines; Handbag & Wallet Accessories; Surfboards; Spoken Word & Field Recordings; Snowmobiles; Office Instruments; Aerobic Steps; Bicycle Seatpost Clamps; Disposable Cameras; Ballasts & Starters; Mobility & Accessibility; Chains; Swimming; Print Books; Electrical Plug Caps; Film Cameras; Light Meter Accessories; Food Service; Tackle Bags & Boxes; Cameras & Optics; Tie Down Straps; Disposable Lids; Flagging & Caution Tape; Camera & Optic Accessories; Bicycle Cable Housings; Door Keyhole Escutcheons; Staircases; Clay Pigeon Shooting; Laboratory Specimens; Door Frames; Mounting Putty; Free Weight Accessories; Boating & Rafting; Golf Club Headcovers; Eye Wash Supplies; Chain, Wire & Rope; Paper Clips; Exercise Machine & Equipment Sets; Surfing; Siding; Vehicles; Fishing Hook Removal Tools; Riding Crops & Whips; Studio Lighting Controls; Shopping Totes; Fishing Reels; Hardhats; Bicycle Covers; Suitcases; Fly Tying Materials; Bite Alarms; Diaper Bags; Wall Paneling; Fishing Rods; Bicycle Seatposts; Bakery Boxes; Tacks & Pushpins; Sporting Goods; Biometric Monitor Accessories; Live Bait; Dental Cement; Reaction Balls; Camera Film; Baby Mobile Accessories; Power & Electrical Supplies; Golf Carts; Air Ducts; Shipping Tags; Sound Dampening Panels & Foam; Utility Buckles; Incontinence Aids; Camera Silencers & Sound Blimps; Borescopes; Gutters; Blood Pressure Monitors; Lap Desks; Roofing; First Aid Kits; Brass Fasteners; Canoes; Book Stands & Rests; Shoelaces; Check Presenters; Skateboarding; Vehicles & Parts; Bicycle Shock Pumps; Bicycle Training Wheels; Product Manuals; Molding; Recipe Card Boxes; Push Up & Pull Up Bars; Wire Terminals & Connectors; Desk Pads & Blotters; Spray String; Light Meters; Fishing & Hunting Waders; Kite Buggying; Bicycle Handlebar Grips & Decor; On-Camera Monitors; Speed & Resistance Parachutes; Finance & Insurance; Brochures; Food, Beverages & Tobacco; Wire Partitions, Enclosures & Doors; Drawer Slides; Garment Bags; Ring Pillows & Holders; Camping & Hiking; Activity Monitor Accessories; Photographic Paper; Camping Tools; Animals & Pet Supplies; Motor Vehicles; Door Knobs & Handles; Light Therapy Lamps; Pencil Sharpeners; Photography; Live Animals; Exercise Benches; Special Occasion Card Boxes & Holders; Hunting & Shooting; Surfing Gloves; Baby & Toddler; Book Covers; Dry Boxes; Religious & Ceremonial; Fuel Containers & Tanks; Electronics Manuals; Video Cameras; Trade Show Counters; Swim Caps; Golf Club Grips; Bicycle Saddle Pads & Seat Covers; Exercise & Fitness; Power Outlets & Sockets; Hydration System Accessories; Work Safety Harnesses; Piercing & Tattooing; Vents & Flues; Wall & Ceiling Tile; Golf Club Parts & Accessories; Blank ID Cards; Dentistry; Food Washers & Dryers; Bicycle Stands & Storage; Balance Trainers; Vibration Exercise Machines; Disposable Cups; Well Pumps & Systems; Wall Socket Controls & Sensors; Bicycle Child Seat Accessories; Hygrometers; Stopwatches; Weight Lifting Machines & Racks; Surveying; Baby Walkers & Entertainers; Health Care; Poker Chip Accessories; Camera & Video Camera Lenses; Socket Drivers; Construction; Underwater Camera Housing Accessories; Driver Accessories; Google Product Taxonomy; Camera Image Sensors; Pencil Lead & Refills; Extension Cord Accessories; Parachutes; Weighted Clothing; Kickboards; Boating & Water Sport Apparel; Weight Lifting Gloves & Hand Supports; CD/DVD Cases & Organizers; Body Weight Scale Accessories; Spurs; Correction Fluids, Pens & Tapes; Ab Wheels & Rollers; Fishing Bait & Chum Containers; Beakers; Outdoor Recreation; Deburrers; Skate Ramps; Safety Gloves; Grinder Accessories; Medical Identification Tags & Jewelry; Shipping Labels; Ladders & Scaffolding; Camera Lens Accessories; Kitchen Appliance Manuals; Marker Refills; Hardware; Voltage Transformers & Regulators; Skateboard Parts; Tool Accessories; Educational Software; Games; Staples; Enlarging Equipment; Riding Scooters; Disposable Cutlery; Fishing Nets; Power Towers; Chair Mats; Tape Dispensers; Bicycle Child Seats; Cameras; Multifunction Power Tools; Place Card Holders; Impulse Sealers; Hydration Systems; Windbreaks; Fishing Spears; Electrical Switches; Tricycle Accessories; GPS Map Data & Software; Blood Pressure Monitor Accessories; Bookmarks; Network Software; Welding Accessories; Carbon Brushes; Trade Show Displays; Fishing Reel Replacement Spools; Special Effects; Music & Sound Recordings; Baby Safety; Dental Tools; Flashlight Accessories; Hooks, Buckles & Fasteners; Disposable Bowls; Battle Tops; Party Supplies; Golf; Router Accessories; Bicycle Mirrors; General Office Supplies; Anti-Fatigue Mats; Magnifiers; Arts & Entertainment; Camera Remote Controls; Sound Editing Software; Pneumatic Hoses; Yoga & Pilates; Janitorial Carts & Caddies; Lighting Filters & Gobos; Window Hardware; Books; Work Safety Protective Gear; Marker & Highlighter Ink Refills; Diving & Snorkeling; Camera Grips; Ice Bins; Lighters & Matches; Video Game Software; Balloons; Cycling Apparel & Accessories; Skateboard Small Parts; Camera Straps; Medical Alarm Systems; Address Books; Bicycle Locks; Train Cases; Hardware Accessories; Storage Tanks; Bicycle Fenders; Duffel Bags; Riveting Tools; Unicycle Accessories; Photo Negative & Slide Storage; Multimedia & Design Software; Book Accessories; Camera Replacement Screens & Displays; Food Service Baskets; Handbags, Wallets & Cases; Industrial Storage; Hang Gliding & Skydiving; Bicycle Stems; Tools; Bicycle Trainers; Camera & Optic Replacement Cables; Seasonings & Spices; Dictionary & Translation Software; Hot & Cold Therapies; Paddle Leashes; Boating Gloves; Backpacks; Measuring Tools & Sensors; Extension Cords; Contraceptive Cases; Audiobooks; Exercise Wedges; Conductivity Gels & Lotions; Roof Flashings; Name Plates; Cosmetic & Toiletry Bags; Biometric Monitors; Shoe Accessories; Party Supply Kits; Prophy Paste; Hang Gliders; Shapers; Utility Wire; Lumber & Sheet Stock; Camera Replacement Buttons & Knobs; Greeting Card Organizers; Boating & Water Sports; Bicycle Tire Valve Adapters; Video Camera Lights; Springs; Science & Laboratory; Sheet Music; Cycling; Tripods & Monopods; Home Automation Kits; Disposable Plates; Digital Cameras; Welding Helmets; Medicine Balls; Bicycle Parts; Compilers & Programming Tools; Door Stops; Wedding Ceremony Supplies; Generators; Bullet Proof Vests; Food Service Carts; Roofing Shingles & Tiles; Phone & Data Jacks; Camera Accessory Sets; Office Supplies; Medical Thermometers; Cholesterol Analyzers; Door Closers; Cardio; Laboratory Flasks; Folder Tabs; Flower Girl Baskets; Riding Apparel & Accessories; Plate & Dish Warmers; Fishing Beads; Rubber Bands; Candy & Chocolate; Skateboarding Gloves; Shipping Containers; Operating Systems; Golf Flags; Saws; Building Materials; Industrial Cabinets; Bus Tubs; Camera Bags & Cases; Bicycle Toe Straps & Clips; Staple Removers; Flash Brackets; Filing & Organization; Power Tool & Equipment Manuals; Camera Lenses; Kitesurfing; Golf Clubs; Hotel & Hospitality; Baby Monitors; Bicycle Kickstands; Web Design Software; Forestry & Logging; Business Card Books; Activity Monitors; Hinges; Fishing Traps; Air & Filter Dryers; Business Card Stands; Lens Filters; Skateboard Wheels; Golf Bags; Labels & Tags; Weight Lifting Machine & Exercise Bench Accessories; Gas Mask & Respirator Accessories; Unicycles; Surfboard Wax; Darkroom Timers; Shaper Accessories; Work Safety Tethers; Laboratory Supplies; Wire & Cable Hand Tools; Disposable Tableware; Concession Food Containers; Underwater Camera Housings; Accessibility Furniture & Fixtures; Kitesurfing & Windsurfing Harnesses; Software; Address Labels; Studio Backgrounds
+Relationships: 
+
+================================================================================
+Number of entities: 500
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Creating a taxonomy from the provided concepts involves organizing them into a hierarchical structure. Here are the parent-child relationships:
+
+1. **Google Product Taxonomy**
+   - **Mature**
+     - **Erotic**
+       - **Erotic Food & Edibles**
+       - **Erotic Clothing**
+       - **Erotic DVDs & Videos**
+       - **Erotic Books**
+       - **Erotic Magazines**
+       - **Erotic Games**
+     - **Weapons**
+       - **Staff & Stick Weapons**
+         - **Staff & Stick Weapons**
+       - **Spears**
+       - **Swords**
+       - **Stun Guns & Tasers**
+       - **Gun Care & Accessories**
+         - **Gun Grips**
+         - **Gun Slings**
+         - **Gun Cases & Range Bags**
+       - **Guns**
+         - **Ammunition**
+         - **Hardware Pumps**
+         - **Concrete Molds**
+         - **Camera Parts & Accessories**
+         - **Industrial Storage Accessories**
+         - **Camera Body Replacement Panels & Doors**
+         - **Camera Lens Zoom Units**
+         - **Camera Lens Accessories**
+         - **Camera Lens Accessories**
+         - **Camera Image Sensors**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **Camera Lenses**
+         - **
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

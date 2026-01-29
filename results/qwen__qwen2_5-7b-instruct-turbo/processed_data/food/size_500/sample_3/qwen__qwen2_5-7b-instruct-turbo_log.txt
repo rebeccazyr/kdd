@@ -1,0 +1,293 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: fagottini; pici; fusilli; bavette; pasta; food; gemelli; spaghetti; cannelloni; occhi di lupo
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+cannelloni is a subtopic of pasta; bavette is a subtopic of pasta; pasta is a subtopic of food; gemelli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; spaghetti is a subtopic of pasta; fagottini is a subtopic of pasta; fusilli is a subtopic of pasta; pici is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: spaghetti; corzetti; mezzelune; fuži; rotini; croxetti; sacchettoni; food; linguine; pasta
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+fuži is a subtopic of pasta; pasta is a subtopic of food; sacchettoni is a subtopic of pasta; mezzelune is a subtopic of pasta; corzetti is a subtopic of pasta; croxetti is a subtopic of pasta; linguine is a subtopic of pasta; spaghetti is a subtopic of pasta; rotini is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: garganelli; bigoli; occhi di lupo; food; stringozzi; anellini; pasta; corzetti; mezzelune; fuži
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+garganelli is a subtopic of pasta; anellini is a subtopic of pasta; occhi di lupo is a subtopic of pasta; bigoli is a subtopic of pasta; corzetti is a subtopic of pasta; fuži is a subtopic of pasta; mezzelune is a subtopic of pasta; pasta is a subtopic of food; stringozzi is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: pasta; passatelli; casoncelli; food; spaghetti; campanelle; ptitim; lanterne; macaroni; rotini
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+spaghetti is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of pasta; macaroni is a subtopic of pasta; passatelli is a subtopic of pasta; lanterne is a subtopic of pasta; campanelle is a subtopic of pasta; casoncelli is a subtopic of pasta; rotini is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: mezzelune; rotelle; ptitim; food; stringozzi; penne; pasta; rotini; spaghetti; sacchettoni
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+stringozzi is a subtopic of pasta; spaghetti is a subtopic of pasta; ptitim is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta; mezzelune is a subtopic of pasta; pasta is a subtopic of food; rotini is a subtopic of pasta; penne is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: schnapps; cheonsachae; albufera sauce; ohaw; longan; egg drop soup; fennel seeds; pumpkin seeds; coconut oil; houmous; duck soup noodles; liver soup; honeycomb; restructured steak; grits; debrecener; floss sugar; cherimoyas; shanghai fried noodles; tea loaf; dalithoy; fisherman's soup; grape-nuts; just right; hulatang; soy product; non-dairy frozen dessert; plums; gamjatang; henan braised noodles; flour; honey bunches of oats; yucca root; golden crisp; beetroots; far breton; cantonese seafood soup; halfsies; pea soup; rice vermicelli; game cake; pumpkin soup; kapusniak; mykyrokka; cornmeal; cider; hodge-podge; oil noodles; macaroni soup; cinnamon; cellophane noodles; paio; artificial sweeteners; hot milk cake; empal gentong; apricots; tinned meat; mami soup; chocapic; buckwheat; vector; kharcho; cucumber soup; kishka; hot chocolate; marshmallows; bouillon; rosemary; milk; kohlwurst; yaki udon; peanut oil; pastries; baking powder; macadamia nuts; mala sauce; walnut oil; garlic powder; seeds; granola; dates; powdered tea; homli fruits; cottage cheese; crispy critters; tomatoes; psarosoupa; spätzle; espagnole sauce; raisin wheats; salami; energy drinks; honey loops; red peas soup; yonezawa beef; gin; sesame seed cake; manwich; dried fruit; biángbiáng noodles; shrimp roe noodles; secca de bœuf; jook-sing noodles; soto ayam; ciavàr; nintendo cereal system; evaporated milk; pepper; cooking ingredient; noodle soup; bread soup; tinned soup; youmian; soup; sapote; shredded wheat; pie; bak kut teh; köttsoppa; financier; miso soup; changua; consommé; sujebi; corn oil; corn pops; sugar cane; all-bran; supreme; pasta sauces; ukha; cake; dandan noodles; regensburger wurst; vinegar drinks; ginger root; peppers; bratwurst; tarragon; dairy product; sugar apples; sausage; special k; canola oil; cheese spread; bottled water; prežganka; kupati; flavoured water; ponzu; paradise nuts; pie crusts; laksa; honey smacks; diot; rice noodle roll; grapes; kesme; sundae cones; chicory; peach sauce; mulligatawny; escudella i carn d'olla; bean pastes; tofu; potatoes; instant noodles; figs; sopa de pata; styrian sour soup; smorz; stonner kebab; coney island hot dog; ice cream cones; summer sausage; canned and jarred vegetable; lung fung soup; dotori guksu; confiture de lait; frozen dessert; mamey; wonton noodles; physalis; cupcakes; tian mo; bakmi; fruit; cooking spray; grapefruits; bresaola; dragon beard noodles; chocos; ajiaco; curry ketchup; dragonfruit; sesame oil; persimmons; crossing the bridge noodles; oatibix; metworst; bisque; curry sauce; sour cherry soup; soy sauce; carney's; eggnog; suaasat; deli meats; sancocho; cookie crisp; pillus; jewish apple cake; garak guksu; naengguk; cumian; honey nut clusters; herb; baking soda; food; apple butter; amsterdam ossenworst; oyster sauce; extrawurst; mixed nuts; spring soup; salad mixes; nectarines; oregano; meat patties; lettuce; golden nuggets; limequats; chongyang cake; yeast; product 19; lychees; hot dry noodles; colomba di pasqua; chocolate covered nuts; korean noodles; kakara pitha; condiment; aniseed; agave syrup; juice; pho; meat; frankfurter würstchen; thyme; chistorra; sauce vierge; noodle; pleşcoi sausages; landjäger; dashi; rice noodles; khrenovina sauce; lincolnshire sausage; pan mee; rice; chicken soup; corn soup; sevai; pizza sauce; amaranth; wheatgrass; soyo; brown windsor soup; fish sauce; morteau sausage; liquor; red bean cake; tomato soup; michigan hot dog; onions; dip; butter cake; coffee; hyderabadi marag; vegetarian hot dog; taco soup; hot dog; brown sauce; batter and coating mixes; béchamel sauce; melons; olives and capers; soursops; quisp; baking extracts; fish tea; chilli oil; lucanica; pique verde boricua; drunken noodles; cereals; lebanon bologna; vanilla extract; lekach; shchi; goulash; atemoyas; venetian sauce; wodzionka; dried soup; vegetable oil; lemons; bitters; kulajda; cooking wine; carbonade flamande; wheat; horseradish sauce; schupfnudel; scotch broth; ahle wurst; wedding cake; jagdwurst; caldo verde; mannish water; kek lapis sarawak; mohnnudel; sujuk; noodle with tomato egg sauce; bean sprouts; bottled coffee drinks; falukorv; brandy; cervelat; talunan; flavoured malt drinks; sorrel; tony's turboz; pozole; corn chowder; babi panggang; limes; oxtail soup; cumin; bánh chuối; rassolnik; berries; neapolitan ragù; rice oil; banh canh; dough; rambutans; loquats; cooking starch; tapenade; mettwurst; tonic water; popsicles; okra; choi sum; hemp oil; dill; radishes; italian hot dog; spice; bockwurst; czernina; mangosteens; chinese noodles; pesto; kissel; garlic; rawon; quince; nettle soup; saucisson; maya nuts; anchovy essence; isterband; crunchy nut; rasam; dodger dog; moambe; ching bo leung; unflavored gelatine; rice krispies; vegetable; gulgukbap; standing rib roast; tamarind; parkin; bakery; bundt cake; bread crumbs; misua; alpha-bits; starfruits; dessert wine; chutney; wedding soup; oats; oranges; fruit 'n fibre; guavas; bow wow sauce; ice cream; sugar; beurre blanc; nagasari; infusion; shambar; porra antequerana; gumbo; shirataki noodles; meatcake; babacos; salvitxada; weckewerk; sour cream; zosui; silver needle noodles; fresh meat; parsley; lamian; nut butters; wine; sorbet; bregenwurst; french onion soup; chinkiang pot cover noodles; kiwis; bún bò huế; buttermilk koldskål; tourin; beef; mamoncillo nuts; cream cheese; paprika; passion fruit; miyeok guk; malangas; spekkoek; feijoas; salad dressings; marjoram; soup alla canavese; sour rye soup; french toast crunch; rocky road cereal; saang mein; vegetable dip; hot and sour soup; okroshka; cooking oil; mint sauce; somebody's mother's chocolate sauce; frosted flakes; hot dogs; češnovka; zōni; sugo all'amatriciana; vichyssoise; beef noodle soup; fanesca; pie fillings; kuy teav; cake pop; coffee cakes; sour soup; fläskkorv; vinegar; yoghurt; tangerines; syrup; ajoblanco; eggs; 100% bran; pistachios; vietnamese noodles; sauce; brussels sprouts; salsify; café de paris sauce; flavoured syrup; mint; sherbet; singapore style noodle; granula; sage; water; gastrique; okinawa soba; pears; breakfast cereal; leek soup; beer soup; sauce gribiche; sapodillo; scorcolga; beverage; yi mein; coconuts; rye; newmarket sausage; cheese
+Relationships: 
+
+================================================================================
+Number of entities: 500
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Creating a taxonomy from the provided list of concepts involves organizing them into a hierarchical structure. Here's a simplified taxonomy focusing on the main categories:
+
+1. **Food**
+   - **Pasta**
+     - spaghetti
+     - campanelle
+     - macaroni
+     - rotini
+     - penne
+     - sacchettoni
+     - stringozzi
+     - garganelli
+     - bigoli
+     - mezzelune
+     - fuži
+     - corzetti
+     - anellini
+     - fennel seeds
+     - pumpkin seeds
+     - ptitim
+     - cellophane noodles
+     - spätzle
+     - biángbiáng noodles
+     - shrimp roe noodles
+     - dandan noodles
+     - dotori guksu
+     - jook-sing noodles
+     - kharcho
+     - kishka
+     - kola guksu
+     - kochujang
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guksu
+     - kochujang guks
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

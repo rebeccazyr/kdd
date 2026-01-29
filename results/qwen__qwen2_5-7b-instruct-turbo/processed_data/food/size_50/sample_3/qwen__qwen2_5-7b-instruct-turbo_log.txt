@@ -1,0 +1,302 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: fagottini; pasta; gemelli; bavette; cannelloni; occhi di lupo; food; fusilli; spaghetti; pici
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+cannelloni is a subtopic of pasta; pasta is a subtopic of food; bavette is a subtopic of pasta; pici is a subtopic of pasta; occhi di lupo is a subtopic of pasta; fusilli is a subtopic of pasta; spaghetti is a subtopic of pasta; fagottini is a subtopic of pasta; gemelli is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: mezzelune; linguine; rotini; corzetti; pasta; sacchettoni; croxetti; fuži; spaghetti; food
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+croxetti is a subtopic of pasta; mezzelune is a subtopic of pasta; sacchettoni is a subtopic of pasta; spaghetti is a subtopic of pasta; rotini is a subtopic of pasta; corzetti is a subtopic of pasta; pasta is a subtopic of food; fuži is a subtopic of pasta; linguine is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: stringozzi; anellini; bigoli; mezzelune; occhi di lupo; fuži; pasta; garganelli; food; corzetti
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+garganelli is a subtopic of pasta; mezzelune is a subtopic of pasta; pasta is a subtopic of food; stringozzi is a subtopic of pasta; corzetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta; anellini is a subtopic of pasta; fuži is a subtopic of pasta; bigoli is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: macaroni; food; casoncelli; spaghetti; campanelle; rotini; lanterne; passatelli; ptitim; pasta
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+spaghetti is a subtopic of pasta; macaroni is a subtopic of pasta; casoncelli is a subtopic of pasta; pasta is a subtopic of food; passatelli is a subtopic of pasta; ptitim is a subtopic of pasta; campanelle is a subtopic of pasta; rotini is a subtopic of pasta; lanterne is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: rotelle; mezzelune; rotini; food; sacchettoni; penne; spaghetti; ptitim; stringozzi; pasta
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+mezzelune is a subtopic of pasta; spaghetti is a subtopic of pasta; ptitim is a subtopic of pasta; pasta is a subtopic of food; penne is a subtopic of pasta; rotini is a subtopic of pasta; stringozzi is a subtopic of pasta; rotelle is a subtopic of pasta; sacchettoni is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: fresh seafood; chocolate cake; food; spekkoek; horseradish sauce; paris buns; kuchen; marinade; quinoa; st. honoré cake; tinned seafood; memela; khrenovina sauce; fruit; pastiera; pasta sauces; changzhou sesame cake; tahini; torta alla monferrina; cake; sundae cones; sherbet; hot sauce; bánh khoai mì; pizza sauce; cereals; cheez whiz; cream; babka; bánh tét; seafood; bakery; waffle; wine cake; cottage cheese; sponge cake; pan de pascua; german chocolate cake; frozen dessert; hummingbird cake; ice cream cones; dairy product; financier; millet; condiment; jewish apple cake; king cake; far breton; mi san dao; satay sauce
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+fresh seafood is a subtopic of seafood; tinned seafood is a subtopic of seafood; spekkoek is a subtopic of cake; babka is a subtopic of cake; bánh tét is a subtopic of cake; st. honoré cake is a subtopic of cake; pastiera is a subtopic of cake; khrenovina sauce is a subtopic of condiment; babka is a subtopic of bakery; bánh khoai mì is a subtopic of bakery; pizza sauce is a subtopic of pasta sauces; marinade is a subtopic of condiment; quinoa is a subtopic of food; memela is a subtopic of food; wine cake is a subtopic of cake; german chocolate cake is a subtopic of cake; torta alla monferrina is a subtopic of cake; sherbet is a subtopic of frozen dessert; sundae cones is a subtopic of ice cream cones; hot sauce is a subtopic of condiment; horseradish sauce is a subtopic of condiment; cheese whiz is a subtopic of dairy product; cream is a subtopic of dairy product; cottage cheese is a subtopic of dairy product; cheese is a subtopic of dairy product; wine is a subtopic of food; humingbird cake is a subtopic of cake; mi san dao is a subtopic of food; satay sauce is a subtopic of condiment; far breton is a subtopic of cake; jelly is a subtopic of frozen dessert; ice cream is a subtopic of frozen dessert; frozen dessert is a subtopic of food; wine cake is a subtopic of cake; cake is a subtopic of food; sponge cake is a subtopic of cake; financier is a subtopic of cake; jelly is a subtopic of dessert; fruit is a subtopic of food; chocolate cake is a subtopic of cake; pastry is a subtopic of bakery; waffle is a subtopic of bakery; pan de pascua is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is a subtopic of bakery; babka is a subtopic of cake; babka is
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 223
+
+Parsed relationships:
+  fresh seafood → seafood
+  tinned seafood → seafood
+  spekkoek → cake
+  babka → cake
+  bánh tét → cake
+  st. honoré cake → cake
+  pastiera → cake
+  khrenovina sauce → condiment
+  babka → bakery
+  bánh khoai mì → bakery
+  pizza sauce → pasta sauces
+  marinade → condiment
+  quinoa → food
+  memela → food
+  wine cake → cake
+  german chocolate cake → cake
+  torta alla monferrina → cake
+  sherbet → frozen dessert
+  sundae cones → ice cream cones
+  hot sauce → condiment
+  horseradish sauce → condiment
+  cheese whiz → dairy product
+  cream → dairy product
+  cottage cheese → dairy product
+  cheese → dairy product
+  wine → food
+  humingbird cake → cake
+  mi san dao → food
+  satay sauce → condiment
+  far breton → cake
+  jelly → frozen dessert
+  ice cream → frozen dessert
+  frozen dessert → food
+  wine cake → cake
+  cake → food
+  sponge cake → cake
+  financier → cake
+  jelly → dessert
+  fruit → food
+  chocolate cake → cake
+  pastry → bakery
+  waffle → bakery
+  pan de pascua → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+  babka → bakery
+  babka → cake
+
+================================================================================

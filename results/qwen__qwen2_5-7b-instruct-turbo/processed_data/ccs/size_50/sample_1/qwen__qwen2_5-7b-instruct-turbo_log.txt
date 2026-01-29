@@ -1,0 +1,88 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Embedded systems; Computing Classification System; Systolic arrays; Single instruction, multiple data; Architectures; Parallel architectures; Computer systems organization; Multiple instruction, single data; Real-time systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Single instruction, multiple data is a subtopic of Parallel architectures; Systolic arrays is a subtopic of Parallel architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Embedded systems is a subtopic of Embedded and cyber-physical systems; Multiple instruction, single data is a subtopic of Parallel architectures; Real-time systems is a subtopic of Computer systems organization
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Maintainability and maintenance; Fault-tolerant network topologies; Real-time languages; Processors and memory architectures; Architectures; Computer systems organization; Dependable and fault-tolerant systems and networks; Real-time systems; Computing Classification System; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Architectures; Maintainability and maintenance; Computing Classification System; Interconnection architectures; Pipeline computing; Parallel architectures; Computer systems organization; Serial architectures; Dependable and fault-tolerant systems and networks
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Interconnection architectures is a subtopic of Parallel architectures; Pipeline computing is a subtopic of Serial architectures; Parallel architectures is a subtopic of Architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Optical computing; Embedded and cyber-physical systems; Real-time languages; Real-time system specification; Real-time systems; Computing Classification System; Other architectures; Architectures; Quantum computing; Computer systems organization
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Real-time system specification is a subtopic of Real-time systems; Optical computing is a subtopic of Other architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Quantum computing is a subtopic of Other architectures; Real-time languages is a subtopic of Real-time systems; Real-time systems is a subtopic of Computer systems organization; Other architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Dependable and fault-tolerant systems and networks; Processors and memory architectures; Architectures; Embedded and cyber-physical systems; Computing Classification System; Real-time systems; Real-time system architecture; Computer systems organization; Serial architectures; Distributed architectures
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization; Real-time system architecture is a subtopic of Real-time systems; Computer systems organization is a subtopic of Computing Classification System; Distributed architectures is a subtopic of Architectures; Real-time systems is a subtopic of Computer systems organization
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Human computer interaction (HCI); Visualization; Decision analysis; Process variations; Hardware; Marketing; Electronic design automation; Network algorithms; Robustness; Human-centered computing; General and reference; Operations research; Electronics; Design for manufacturability; Visualization techniques; Collaborative and social computing; Consumer products; Computing Classification System; User studies; Security and privacy; Fault tolerance; Management and querying of encrypted data; Treemaps; Programming interfaces; Oracles and decision trees; Network services; Network architectures; Networks; Applied computing; HCI theory, concepts and models; Testing with distributed and parallel systems; Hardware test; Programmable networks; Empirical studies in HCI; Physical sciences and engineering; Very large scale integration design; Hardware validation; Fault models and test metrics; Formal languages and automata theory; Database and storage security; HCI design and evaluation methods; Computers in other domains; Test-pattern generation and fault simulation; Transistor-level synthesis; Accessibility; Hardware reliability; Computational complexity and cryptography; Network economics; Theory of computation; Logic synthesis
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Human computer interaction (HCI) is a subtopic of Human-centered computing; Visualization is a subtopic of Visualization techniques; Decision analysis is a subtopic of Decision analysis; Process variations is a subtopic of Process variations; Hardware is a subtopic of Hardware; Marketing is a subtopic of Marketing; Electronic design automation is a subtopic of Electronics; Network algorithms is a subtopic of Network algorithms; Robustness is a subtopic of Robustness; Human-centered computing is a subtopic of Applied computing; General and reference is a subtopic of General and reference; Operations research is a subtopic of Operations research; Electronics is a subtopic of Electronics; Design for manufacturability is a subtopic of Design for manufacturability; Visualization techniques is a subtopic of Visualization; Collaborative and social computing is a subtopic of Collaborative and social computing; Consumer products is a subtopic of Consumer products; Computing Classification System is a parent topic for all; User studies is a subtopic of User studies; Security and privacy is a subtopic of Security and privacy; Fault tolerance is a subtopic of Fault tolerance; Management and querying of encrypted data is a subtopic of Database and storage security; Treemaps is a subtopic of Visualization techniques; Programming interfaces is a subtopic of Programming interfaces; Oracles and decision trees is a subtopic of Oracles and decision trees; Network services is a subtopic of Network services; Network architectures is a subtopic of Network architectures; Networks is a subtopic of Networks; Applied computing is a subtopic of Applied computing; HCI theory, concepts and models is a subtopic of HCI theory, concepts and models; Testing with distributed and parallel systems is a subtopic of Testing with distributed and parallel systems; Hardware test is a subtopic of Hardware test; Programmable networks is a subtopic of Programmable networks; Empirical studies in HCI is a subtopic of Empirical studies in HCI; Physical sciences and engineering is a subtopic of Physical sciences and engineering; Very large scale integration design is a subtopic of Very large scale integration design; Hardware validation is a subtopic of Hardware validation; Fault models and test metrics is a subtopic of Fault models and test metrics; Formal languages and automata theory is a subtopic of Formal languages and automata theory; Database and storage security is a subtopic of Database and storage security; HCI design and evaluation methods is a subtopic of HCI design and evaluation methods; Computers in other domains is a subtopic of Computers in other domains; Test-pattern generation and fault simulation is a subtopic of Test-pattern generation and fault simulation; Transistor-level synthesis is a subtopic of Very large scale integration design; Accessibility is a subtopic of Accessibility; Hardware reliability is a subtopic of Hardware reliability; Computational complexity and cryptography is a subtopic of Computational complexity and cryptography; Network economics is a subtopic of Network economics; Theory of computation is a subtopic of Theory of computation; Logic synthesis is a subtopic of Logic synthesis
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 9
+
+Parsed relationships:
+  Human computer interaction (HCI) → Human-centered computing
+  Visualization → Visualization techniques
+  Electronic design automation → Electronics
+  Human-centered computing → Applied computing
+  Visualization techniques → Visualization
+  Management and querying of encrypted data → Database and storage security
+  Treemaps → Visualization techniques
+  HCI theory → concepts and models is a subtopic of HCI theory, concepts and models
+  Transistor-level synthesis → Very large scale integration design
+
+================================================================================

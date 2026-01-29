@@ -1,0 +1,191 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Staff & Stick Weapons; Spears; Mature; Ammunition Cases & Holders; Reloading Supplies & Equipment; Gun Care & Accessories; Combat Knives; Google Product Taxonomy; Weapons; Gun Holsters
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Combat Knives is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Gun Cases & Range Bags; Staff & Stick Weapons; Weapons; Swords; Gun Lights; Mature; Gun Care & Accessories; Ammunition; Google Product Taxonomy; Stun Guns & Tasers
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Gun Lights is a subtopic of Gun Care & Accessories; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Ammunition is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Weapons is a subtopic of Mature; Stun Guns & Tasers is a subtopic of Weapons; Swords is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Gun Care & Accessories; Google Product Taxonomy; Nunchucks; Guns; Erotic; Mature; Weapons; Whips; Throwing Stars; Stun Guns & Tasers
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Whips is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Guns is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Throwing Stars is a subtopic of Weapons; Weapons is a subtopic of Mature; Erotic is a subtopic of Mature
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Games; Erotic; Erotic DVDs & Videos; Pole Dancing Kits; Erotic Magazines; Erotic Clothing; Google Product Taxonomy; Erotic Books; Mature; Erotic Food & Edibles
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Games is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Pole Dancing Kits is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Spears; Google Product Taxonomy; Gun Grips; Mature; Staff & Stick Weapons; Swords; Stun Guns & Tasers; Gun Care & Accessories; Gun Slings; Weapons
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Swords is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Stun Guns & Tasers is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Spears is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Slings is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Pet Supplies; Lifts & Hoists; Decor; Hardware Pumps; Concrete Molds; Backrest Pillows; Pet Containment Systems; Industrial Storage Accessories; Repeaters & Transceivers; Messenger Bags; Computer Software; Business & Productivity Software; Cotton Swabs; Shoe Covers; Chaises; Hourglasses; Suspenders; Drug Tests; Baby & Toddler Furniture; Maternity Belts & Support Bands; Decorative Bottles; Fuel; Decorative Plates; Piercing Needles; Input Device Accessories; Law Enforcement; Heating, Ventilation & Air Conditioning; Pet Carriers & Crates; Putty Knives & Scrapers; Perfume & Cologne; Watch Repair Kits; Nail Polishes; Axes; Reptile & Amphibian Supplies; Coat & Hat Racks; Computer Backplates & I/O Shields; Plants; Audio & Video Splitters & Switches; Compactors; Solar Energy Kits; Digital Goods & Currency; Water Heater Accessories; Heat Guns; Pet Medicine; Intercom Accessories; Game Controller Accessories; USB & FireWire Hubs; Fitness & Nutrition; GPS Tracking Devices; Eyeglass Lenses; Two-Way Radios; Trees; Emergency Preparedness; Blade Server Enclosures; Jewelry Cleaning & Care; Pet Oral Care Supplies; Dog Diapers; Walking Aids; Cast & Bandage Protectors; Makeup; Bird Baths; Apparel & Accessories; Traffic Cones & Barrels; Pool & Spa Circuit Boards; Bunion Care Supplies; Computer Components; Restore Disks; Sprinkler, Booster & Irrigation System Pumps; First Aid; Pet Heating Pad Accessories; Linens & Bedding; Floor & Steam Cleaner Accessories; Audio; Circuit Decoders & Encoders; Control Panels; Luggage & Bags; Vehicle Pet Barriers; Flood, Fire & Gas Safety; Nail Care; Stereo Systems; Electronics Cleaners; Arm Warmers & Sleeves; Furniture; Pillboxes; Carving Chisels & Gouges; Business & Industrial; Radar Detectors; Saw Horses; Tripod & Monopod Accessories; Nutrition Bars; Manufacturing; Tripod & Monopod Heads; Gardening; Briefcases; Laundry Appliances; Antennas; Cabinets & Storage; Splitters; Pool, Fountain & Pond Pumps; Marine Electronics; Power Inlets; Steam Mops; Home Appliance Pumps; Dog Kennel & Run Accessories; Eyeglasses; Computer Icons; Specimen Cups; Tripod & Monopod Cases; Music Boxes; Supports & Braces; Rocking Chairs; Fish Supplies; Neck Gaiters; Power Inverters; Pet Food Containers; Pet Food Scoops; Marine Speakers; Video Conferencing; Outdoor Ottomans; Floor & Steam Cleaners; Storage Devices; Emergency Blankets; Stair Lifts; Wallpaper Steamers; Lighting Accessories; Pulse Oximeters; Marine Radar; Health & Beauty; Material Handling; Snow Removal; Mobile Phone & Tablet Tripods & Monopods; Ballasts & Starters; Mobility & Accessibility; Accessibility Equipment; Lighting; Table Legs; Tool Sockets; Garden Hose Spray Nozzles; Cameras & Optics; Camera & Optic Accessories; Wax Tarts; Memory Accessories; Nutritional Food Purées; Pet Bowl Mats; Vanities; Lawn & Garden; Garage Door Keypads & Remotes; Cutter Accessories; Coils; Marine Chartplotters & GPS; Indoor & Outdoor Plants; Motion Sensors; Prenatal Heart Rate Monitors; Anklets; Modulators; Barcode Scanner Stands; Shopping Totes; Crib Conversion Kits; Bath & Body Gift Sets; Landscape Fabric; Pet Bowl Stands; Components; Carts & Islands; Umbrella Sleeves & Cases; Jewelry Cleaning Tools; Nutrition Drinks & Shakes; Memory; Pregnancy Tests; Massage & Relaxation; Cuticle Cream & Oil; Diaper Bags; Video Game Arcade Cabinet Accessories; Foot Odor Removers; Jewelry; Sporting Goods; Biometric Monitor Accessories; Dental Cement; Basketball Arcade Games; Home & Garden; Flowers; Reptile & Amphibian Food; Personal Care; Nutrition Gels & Chews; Lighting Timers; Power & Electrical Supplies; I/O Cards & Adapters; Eyewear Accessories; HVAC Controls; Air Ducts; Incontinence Aids; Blood Pressure Monitors; Fish Finders; Magnetic Sweepers; Insoles & Inserts; Dummy Surveillance Cameras; Stock Photographs & Video Footage; Medical; First Aid Kits; Vitamins & Supplements; Chairs; Tablet Computers; Audio Players & Recorders; Jigs; Indoor Games; Sundials; Answering Machines; Bathroom Accessories; Wire Partitions, Enclosures & Doors; Drawer Slides; Garment Bags; Changing Tables; Nail Polish Thinners; Urinary Tract Infection Tests; Activity Monitor Accessories; Animals & Pet Supplies; Light Therapy Lamps; Communication Radios; Sunglass Lenses; Live Animals; Necklaces; Pet Sunscreen; Signal Jammers; Security Monitors & Recorders; Foot Care; Tool Files; Agriculture; Aquarium Fish Nets; Fuel Containers & Tanks; Wine Racks; Shower Curtain Rings; Outdoor Furniture Sets; Napkin Rings; Dog Apparel; Lattice; Wood Stoves; Cribs & Toddler Beds; Propane; Outdoor Furniture Accessories; Outdoor Power Equipment; Electrical Muscle Stimulators; Piercing & Tattooing; Vents & Flues; Massage Tables; Vision Care; Fertility Monitors and Ovulation Tests; Dentistry; Conveyors; Magnetizers & Demagnetizers; Dried Flowers; Well Pumps & Systems; Wall Socket Controls & Sensors; Growth Charts; Pet Leash Extensions; Crib & Toddler Bed Accessories; Office Furniture Accessories; Hearing Aids; Garden & Stepping Stones; Health Care; Accelerometers; Office Furniture; Construction; Pet Carrier & Crate Accessories; Protective Aprons; Household Appliances; Home Fragrances; Rain Chains; Deodorant & Anti-Perspirant; Flameless Candles; Driver Accessories; Google Product Taxonomy; Marine Audio & Video Receivers; Printer, Copier, & Fax Machine Circuit Boards; Pallets & Loading Platforms; Lip Makeup; Audio Cards & Adapters; Tanning Beds; Cosmetics; Wallets & Money Clips; Pickup Tools; Lathes; Spurs; Home Decor Decals; Electronics Accessories; Intercoms; Deburrers; Safety Gloves; Grinder Accessories; Toll Collection Devices; Medical Identification Tags & Jewelry; Balaclavas; Hardware; Slipcovers; Abrasive Blaster Accessories; Voltage Transformers & Regulators; Desktop Computer & Server Cases; Tool Accessories; Signal Boosters; Baby & Toddler Hats; Automation Control Components; Workstation & Cubicle Accessories; Pet Bells & Charms; Power Tool Chargers; Educational Software; Oil Lamp Fuel; Bassinet & Cradle Accessories; Pet Strollers; Enema Kits & Supplies; Blank Media; Jewelry Steam Cleaners; Heating Radiator Accessories; Pipe & Bar Benders; Dog Supplies; Piercing Supplies; Fertility Tests & Monitors; Plungers; Tweezers; Graphic Design & Illustration Software; Back Scratchers; Chimney Brushes; Computer Circuit Boards; Sewing Machine Tables; Finials; Wheelchairs; Network Software; Welding Accessories; Fencing & Barriers; Bath Mats & Rugs; Communications; Bandanas & Headties; Safety & Security Mirrors; Flashlight Accessories; Electronic Filters; Hooks, Buckles & Fasteners; Watering & Irrigation; Business & Home Security; Electronics; TV Tuner Cards & Adapters; Kitchen & Dining Room Chairs; GPS Navigation Systems; Climate Control Appliances; Arts & Entertainment; Sharpeners; Massage Oil; Room Divider Accessories; Sound Editing Software; Hoists, Cranes & Trolleys; Mobile Phone Jammers; Janitorial Carts & Caddies; Transfer Boards & Sheets; Fragrance Oil; Work Safety Protective Gear; Tattooing Supplies; Heavy Machinery; Antiseptics & Cleaning Supplies; Occupational & Physical Therapy Equipment; Condoms; Stump Shrinkers; Video Game Software; Tube Feeding Supplements; Jewelry Cleaning Solutions & Polishes; Flashlights & Headlamps; Personal Lubricants; Gas Hoses; Computer Servers; Video Game Arcade Cabinets; Ottoman Cushions; Baby & Toddler Clothing Accessories; Train Cases; Hardware Accessories; Duffel Bags; Riveting Tools; Wallpaper; Multimedia & Design Software; Handbags, Wallets & Cases; Industrial Storage; Tools; Variable Frequency & Adjustable Speed Drives; Therapeutic Swings; Camera & Optic Replacement Cables; CD Players & Recorders; Dictionary & Translation Software; Makeup Finishing Sprays; Leis; Outdoor Storage Boxes; Voice Recorders; Breathalyzers; Mailbox Accessories; Wedge Tools; Household Appliance Circuit Boards; Picture Lights; Tables; Hubs & Switches; Interactive Kiosks; Networking; Contraceptive Cases; Clock Parts; Conductivity Gels & Lotions; Speed Radars; Medical Tests; Dog Houses; Rain Barrels; Folding Chairs & Stools; Spermicides; Baby & Toddler Furniture Sets; Hanging Chairs; Belt Buckles; Biometric Monitors; Shoe Accessories; Duct Heaters; Contact Lens Care; Household Appliance Accessories; Sunglasses; Prophy Paste; Threading Machines; Protective Masks; Table Accessories; Wristbands; Springs; Document Templates; Outdoor Living; Tripods & Monopods; Compilers & Programming Tools; Bullet Proof Vests; Fish Feeders; Heating Radiator Reflectors; Outdoor Furniture; Pipe Brushes; Phone & Data Jacks; Lighting Fixtures; Button Studs; Walking Aid Accessories; Back Care; Suncatchers; Video Game Consoles; Cholesterol Analyzers; Medical Thermometers; Mining & Quarrying; Computers; Carpet Steamers; Home Alarm Systems; Lawn Vacuums; Planes; Pet Vitamins & Supplements; Aquatic Plants; Circuit Boards & Components; Decorative Bowls; Bassinets & Cradles; Watch Accessories; Electronics Component Connectors; Pinball Machines; Shipping Containers; Building Materials; Activity Tables; Cache Memory; Riser Cards; Pulleys, Blocks & Sheaves; Eye Drops & Lubricants; Bird & Wildlife Houses; Computer Interface Cards & Adapters; Vase Fillers & Table Scatters; Crib Bumpers & Liners; Forestry & Logging; Activity Monitors; Hinges; Printed Circuit Boards; Artwork; Clothing Accessories; Window Magnets; Pet Medical Collars; Air & Filter Dryers; Body Makeup; Accessibility Equipment Accessories; Dog Treats; Caulking Tools; Pet Flea & Tick Control; Soap Dishes & Holders; Respiratory Care; Lawn Mowers; Marine Radios; Antivirus & Security Software; Outdoor Tables; Dog Kennels & Runs; Pet Leashes; Nail Polish Drying Drops & Sprays; Aquatic Plant Fertilizers; Shelving; Gear Ties; Pet Heating Pads; Massage Stone Warmers; Back & Lumbar Support Cushions; Accessibility Furniture & Fixtures; Pet Bed Accessories; Software; Nail Art Kits & Accessories; Arcade Equipment; Tablet Computer Parts; Pet Bowls, Feeders & Waterers; Steam Inhalers; Karaoke Systems; Crutches
+Relationships: 
+
+================================================================================
+Number of entities: 500
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll do my best to create a taxonomy from this list. Here's a possible taxonomy:
+
+1. Google Product Taxonomy
+    1. Mature
+        1. Erotic
+            1. Erotic Games
+            2. Erotic Magazines
+            3. Erotic Books
+            4. Erotic DVDs & Videos
+            5. Erotic Food & Edibles
+            6. Erotic Clothing
+            7. Pole Dancing Kits
+        2. Weapons
+            1. Staff & Stick Weapons
+            2. Spears
+            3. Swords
+            4. Stun Guns & Tasers
+            5. Gun Care & Accessories
+                1. Gun Lights
+                2. Gun Cases & Range Bags
+                3. Ammunition
+                4. Gun Grips
+                5. Gun Slings
+            6. Combat Knives
+        3. Pet Supplies
+            1. Pet Food Containers
+            2. Pet Food Scoops
+            3. Pet Carriers & Crates
+            4. Pet Heating Pad Accessories
+            5. Pet Oral Care Supplies
+            6. Pet Medicine
+            7. Pet Sunscreen
+            8. Pet Vitamins & Supplements
+            9. Pet Leash Extensions
+            10. Pet Bells & Charms
+        4. Home & Garden
+            1. Home Decor Decals
+            2. Lawn & Garden
+            3. Outdoor Furniture Sets
+            4. Outdoor Furniture Accessories
+            5. Outdoor Power Equipment
+            6. Rain Chains
+            7. Rain Barrels
+            8. Bird Baths
+            9. Bird & Wildlife Houses
+        5. Health & Beauty
+            1. Health Care
+            2. Makeup
+            3. Makeup Finishing Sprays
+            4. Lip Makeup
+            5. Nail Makeup
+            6. Nail Care
+            7. Nail Polish Drying Drops & Sprays
+            8. Nail Polish Thinners
+            9. Personal Lubricants
+            10. Personal Care
+        6. Business & Industrial
+            1. Business & Productivity Software
+            2. Business & Home Security
+            3. Industrial Storage
+            4. Industrial Storage Accessories
+            5. Material Handling
+            6. Manufacturing
+            7. Construction
+            8. Heavy Machinery
+            9. Forestry & Logging
+            10. Mining & Quarrying
+        7. Electronics
+            1. Electronics Accessories
+            2. Electronics Component Connectors
+            3. Electronics Cleaners
+            4. Electronic Filters
+            5. Flashlight Accessories
+            6. Flashlights & Headlamps
+            7. Mobile Phone Jammers
+            8. Mobile Phone & Tablet Tripods & Monopods
+            9. Networking
+            10. Networking Accessories
+        8. Sports & Outdoors
+            1. Sports Equipment
+            2. Outdoor Living
+            3. Outdoor Tables
+            4. Outdoor Ottomans
+            5. Outdoor Storage Boxes
+            6. Outdoor Power Equipment
+            7. Lawn Mowers
+            8. Lawn Vacuums
+            9. Fishing Supplies
+            10. Reptile & Amphibian Supplies
+        9. Arts & Entertainment
+            1. Arts & Entertainment Software
+            2. Music Boxes
+            3. Karaoke Systems
+            4. Arcade Equipment
+            5. Video Game Arcade Cabinets
+            6. Video Game Consoles
+            7. Video Game Software
+            8. Video Game Accessories
+            9. Camera & Optic Accessories
+            10. Camera & Optic Replacement Cables
+        10. Education
+            1. Educational Software
+            2. Dictionary & Translation Software
+            3. Multimedia & Design Software
+            4. Graphic Design & Illustration Software
+            5. Software
+            6. Computer Icons
+            7. Computer Interface Cards & Adapters
+            8. Computer Servers
+            9. Computer Components
+            10. Computer Circuit Boards
+
+This is just one possible taxonomy, and there are many other ways to organize these concepts.
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

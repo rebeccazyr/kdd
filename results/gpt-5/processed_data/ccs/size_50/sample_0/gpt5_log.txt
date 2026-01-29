@@ -1,0 +1,128 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Real-time systems; Systolic arrays; Computer systems organization; Architectures; Embedded systems; Parallel architectures; Multiple instruction, single data; Single instruction, multiple data; Computing Classification System; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Real-time systems is a subtopic of Computer systems organization; Single instruction, multiple data is a subtopic of Parallel architectures; Parallel architectures is a subtopic of Architectures; Embedded systems is a subtopic of Embedded and cyber-physical systems; Multiple instruction, single data is a subtopic of Parallel architectures; Computer systems organization is a subtopic of Computing Classification System; Systolic arrays is a subtopic of Parallel architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Real-time systems; Embedded and cyber-physical systems; Architectures; Dependable and fault-tolerant systems and networks; Computing Classification System; Maintainability and maintenance; Processors and memory architectures; Computer systems organization; Fault-tolerant network topologies; Real-time languages
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Real-time languages is a subtopic of Real-time systems; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Real-time systems is a subtopic of Computer systems organization
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Pipeline computing; Computing Classification System; Parallel architectures; Serial architectures; Architectures; Interconnection architectures; Maintainability and maintenance; Embedded and cyber-physical systems; Computer systems organization; Dependable and fault-tolerant systems and networks
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Serial architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures; Pipeline computing is a subtopic of Serial architectures; Interconnection architectures is a subtopic of Parallel architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Architectures; Real-time system specification; Embedded and cyber-physical systems; Computer systems organization; Real-time languages; Optical computing; Other architectures; Real-time systems; Computing Classification System; Quantum computing
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Quantum computing is a subtopic of Other architectures; Computer systems organization is a subtopic of Computing Classification System; Other architectures is a subtopic of Architectures; Real-time system specification is a subtopic of Real-time systems; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Optical computing is a subtopic of Other architectures; Real-time systems is a subtopic of Computer systems organization
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Dependable and fault-tolerant systems and networks; Processors and memory architectures; Real-time system architecture; Serial architectures; Computing Classification System; Real-time systems; Embedded and cyber-physical systems; Architectures; Computer systems organization; Distributed architectures
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Real-time system architecture is a subtopic of Real-time systems; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Serial architectures is a subtopic of Architectures; Distributed architectures is a subtopic of Architectures; Real-time systems is a subtopic of Computer systems organization
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Empirical studies in accessibility; Interaction techniques; In-network processing; Human computer interaction (HCI); Enterprise computing; Business process management; Collaborative and social computing theory, concepts and paradigms; Visualization; Systems security; Network components; Empirical studies in collaborative and social computing; Enterprise architecture management; Operating systems security; Human-centered computing; Business-IT alignment; Symbolic and algebraic manipulation; Machine learning; OAM protocols; Cryptography; Collaborative and social computing; Software and application security; Collaborative and social computing devices; Computing Classification System; Security and privacy; Interactive systems and tools; User interface toolkits; Social and professional topics; Interaction devices; Mathematics of computing; Intrusion/anomaly detection and malware mitigation; Network services; Auditory feedback; Enterprise computing infrastructures; Information flow control; Enterprise architectures; Networks; Applied computing; Network management; Concurrent computing methodologies; Computing methodologies; Modeling and simulation; Business rules; Network protocols; Web application security; Accessibility; Network performance evaluation; Enterprise modeling; Network types; Network properties; Information systems
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: gpt-5
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Human-centered computing is a subtopic of Computing Classification System; Networks is a subtopic of Computing Classification System; Security and privacy is a subtopic of Computing Classification System; Computing methodologies is a subtopic of Computing Classification System; Mathematics of computing is a subtopic of Computing Classification System; Applied computing is a subtopic of Computing Classification System; Information systems is a subtopic of Computing Classification System; Social and professional topics is a subtopic of Computing Classification System; Human computer interaction (HCI) is a subtopic of Human-centered computing; Visualization is a subtopic of Human-centered computing; Collaborative and social computing is a subtopic of Human-centered computing; Accessibility is a subtopic of Human-centered computing; Interaction techniques is a subtopic of Human computer interaction (HCI); Interaction devices is a subtopic of Human computer interaction (HCI); User interface toolkits is a subtopic of Human computer interaction (HCI); Interactive systems and tools is a subtopic of Human computer interaction (HCI); Auditory feedback is a subtopic of Interaction techniques; Empirical studies in accessibility is a subtopic of Accessibility; Collaborative and social computing theory, concepts and paradigms is a subtopic of Collaborative and social computing; Collaborative and social computing devices is a subtopic of Collaborative and social computing; Empirical studies in collaborative and social computing is a subtopic of Collaborative and social computing; Systems security is a subtopic of Security and privacy; Software and application security is a subtopic of Security and privacy; Cryptography is a subtopic of Security and privacy; Intrusion/anomaly detection and malware mitigation is a subtopic of Security and privacy; Information flow control is a subtopic of Security and privacy; Operating systems security is a subtopic of Systems security; Web application security is a subtopic of Software and application security; Network components is a subtopic of Networks; Network protocols is a subtopic of Networks; Network services is a subtopic of Networks; Network management is a subtopic of Networks; Network types is a subtopic of Networks; Network properties is a subtopic of Networks; Network performance evaluation is a subtopic of Networks; In-network processing is a subtopic of Networks; OAM protocols is a subtopic of Network management; Machine learning is a subtopic of Computing methodologies; Modeling and simulation is a subtopic of Computing methodologies; Concurrent computing methodologies is a subtopic of Computing methodologies; Symbolic and algebraic manipulation is a subtopic of Mathematics of computing; Enterprise computing is a subtopic of Applied computing; Enterprise computing infrastructures is a subtopic of Enterprise computing; Enterprise architectures is a subtopic of Information systems; Business process management is a subtopic of Information systems; Enterprise modeling is a subtopic of Information systems; Business rules is a subtopic of Information systems; Enterprise architecture management is a subtopic of Information systems; Business-IT alignment is a subtopic of Information systems
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 49
+
+Parsed relationships:
+  Human-centered computing → Computing Classification System
+  Networks → Computing Classification System
+  Security and privacy → Computing Classification System
+  Computing methodologies → Computing Classification System
+  Mathematics of computing → Computing Classification System
+  Applied computing → Computing Classification System
+  Information systems → Computing Classification System
+  Social and professional topics → Computing Classification System
+  Human computer interaction (HCI) → Human-centered computing
+  Visualization → Human-centered computing
+  Collaborative and social computing → Human-centered computing
+  Accessibility → Human-centered computing
+  Interaction techniques → Human computer interaction (HCI)
+  Interaction devices → Human computer interaction (HCI)
+  User interface toolkits → Human computer interaction (HCI)
+  Interactive systems and tools → Human computer interaction (HCI)
+  Auditory feedback → Interaction techniques
+  Empirical studies in accessibility → Accessibility
+  Collaborative and social computing theory, concepts and paradigms → Collaborative and social computing
+  Collaborative and social computing devices → Collaborative and social computing
+  Empirical studies in collaborative and social computing → Collaborative and social computing
+  Systems security → Security and privacy
+  Software and application security → Security and privacy
+  Cryptography → Security and privacy
+  Intrusion/anomaly detection and malware mitigation → Security and privacy
+  Information flow control → Security and privacy
+  Operating systems security → Systems security
+  Web application security → Software and application security
+  Network components → Networks
+  Network protocols → Networks
+  Network services → Networks
+  Network management → Networks
+  Network types → Networks
+  Network properties → Networks
+  Network performance evaluation → Networks
+  In-network processing → Networks
+  OAM protocols → Network management
+  Machine learning → Computing methodologies
+  Modeling and simulation → Computing methodologies
+  Concurrent computing methodologies → Computing methodologies
+  Symbolic and algebraic manipulation → Mathematics of computing
+  Enterprise computing → Applied computing
+  Enterprise computing infrastructures → Enterprise computing
+  Enterprise architectures → Information systems
+  Business process management → Information systems
+  Enterprise modeling → Information systems
+  Business rules → Information systems
+  Enterprise architecture management → Information systems
+  Business-IT alignment → Information systems
+
+================================================================================

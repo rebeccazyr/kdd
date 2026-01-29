@@ -1,0 +1,50 @@
+child,parent
+Hardware,Computing Classification System
+Software and its engineering,Computing Classification System
+Security and privacy,Computing Classification System
+Networks,Computing Classification System
+Computing methodologies,Computing Classification System
+Mathematics of computing,Computing Classification System
+Theory of computation,Computing Classification System
+General and reference,Computing Classification System
+Cross-computing tools and techniques,Computing Classification System
+"Communication hardware, interfaces and storage",Hardware
+Integrated circuits,Hardware
+VLSI packaging,Hardware
+Printed circuit boards,Hardware
+Sensor devices and platforms,Hardware
+Electromagnetic interference and compatibility,Hardware
+Signal processing systems,Hardware
+Electronic design automation,Hardware
+Wireless devices,"Communication hardware, interfaces and storage"
+Tactile and hand-based interfaces,"Communication hardware, interfaces and storage"
+Full-custom circuits,Integrated circuits
+Standard cell libraries,Integrated circuits
+Logic circuits,Integrated circuits
+Application-specific VLSI designs,Integrated circuits
+Very large scale integration design,Integrated circuits
+Application specific instruction set processors,Integrated circuits
+VLSI design manufacturing considerations,Electronic design automation
+Modeling and parameter extraction,Electronic design automation
+Package-level interconnect,VLSI packaging
+Multi-chip modules,VLSI packaging
+PCB design and layout,Printed circuit boards
+Wireless integrated network sensors,Sensor devices and platforms
+On-chip sensors,Sensor devices and platforms
+Noise reduction,Signal processing systems
+Systems security,Security and privacy
+Human and societal aspects of security and privacy,Security and privacy
+Privacy protections,Security and privacy
+Information flow control,Security and privacy
+Browser security,Systems security
+Usability in security and privacy,Human and societal aspects of security and privacy
+Network properties,Networks
+Network performance evaluation,Networks
+Machine learning,Computing methodologies
+Modeling and simulation,Computing methodologies
+Concurrent computing methodologies,Computing methodologies
+Machine learning algorithms,Machine learning
+Simulation theory,Modeling and simulation
+Symbolic and algebraic manipulation,Mathematics of computing
+Mathematical analysis,Mathematics of computing
+Performance,General and reference

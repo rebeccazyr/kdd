@@ -1,0 +1,98 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Multiple instruction, single data; Computing Classification System; Architectures; Systolic arrays; Single instruction, multiple data; Real-time systems; Computer systems organization; Embedded systems; Parallel architectures
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Embedded systems is a subtopic of Embedded and cyber-physical systems; Single instruction, multiple data is a subtopic of Parallel architectures; Parallel architectures is a subtopic of Architectures; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Multiple instruction, single data is a subtopic of Parallel architectures; Systolic arrays is a subtopic of Parallel architectures
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Computer systems organization; Architectures; Real-time languages; Dependable and fault-tolerant systems and networks; Maintainability and maintenance; Fault-tolerant network topologies; Computing Classification System; Processors and memory architectures; Real-time systems; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Real-time systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Computer systems organization; Dependable and fault-tolerant systems and networks; Interconnection architectures; Maintainability and maintenance; Pipeline computing; Parallel architectures; Embedded and cyber-physical systems; Architectures; Serial architectures; Computing Classification System
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Pipeline computing is a subtopic of Serial architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures; Interconnection architectures is a subtopic of Parallel architectures; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Real-time systems; Other architectures; Computer systems organization; Quantum computing; Real-time languages; Computing Classification System; Optical computing; Real-time system specification; Architectures
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Real-time systems is a subtopic of Computer systems organization; Real-time system specification is a subtopic of Real-time systems; Computer systems organization is a subtopic of Computing Classification System; Quantum computing is a subtopic of Other architectures; Other architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Optical computing is a subtopic of Other architectures
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Serial architectures; Architectures; Processors and memory architectures; Computing Classification System; Distributed architectures; Computer systems organization; Embedded and cyber-physical systems; Real-time system architecture; Dependable and fault-tolerant systems and networks; Real-time systems
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time system architecture is a subtopic of Real-time systems; Computer systems organization is a subtopic of Computing Classification System; Real-time systems is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Distributed architectures is a subtopic of Architectures
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Application layer protocols; Software and its engineering; Network algorithms; Network experimentation; Network protocol design; Computing Classification System; Network performance modeling; Wireless access networks; Network layer protocols; Session protocols; Network architectures; Networks; Network measurement; Network simulations; Network protocols; Link-layer protocols; Network economics; Network performance evaluation; Network types; Information systems
+Relationships: 
+
+================================================================================
+Number of entities: 20
+Model: gpt-5
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Networks is a subtopic of Computing Classification System; Software and its engineering is a subtopic of Computing Classification System; Information systems is a subtopic of Computing Classification System; Network architectures is a subtopic of Networks; Network protocols is a subtopic of Networks; Network algorithms is a subtopic of Networks; Network types is a subtopic of Networks; Network performance evaluation is a subtopic of Networks; Network economics is a subtopic of Networks; Application layer protocols is a subtopic of Network protocols; Network layer protocols is a subtopic of Network protocols; Link-layer protocols is a subtopic of Network protocols; Network protocol design is a subtopic of Network protocols; Session protocols is a subtopic of Application layer protocols; Network performance modeling is a subtopic of Network performance evaluation; Network measurement is a subtopic of Network performance evaluation; Network simulations is a subtopic of Network performance evaluation; Network experimentation is a subtopic of Network performance evaluation; Wireless access networks is a subtopic of Network types
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 19
+
+Parsed relationships:
+  Networks → Computing Classification System
+  Software and its engineering → Computing Classification System
+  Information systems → Computing Classification System
+  Network architectures → Networks
+  Network protocols → Networks
+  Network algorithms → Networks
+  Network types → Networks
+  Network performance evaluation → Networks
+  Network economics → Networks
+  Application layer protocols → Network protocols
+  Network layer protocols → Network protocols
+  Link-layer protocols → Network protocols
+  Network protocol design → Network protocols
+  Session protocols → Application layer protocols
+  Network performance modeling → Network performance evaluation
+  Network measurement → Network performance evaluation
+  Network simulations → Network performance evaluation
+  Network experimentation → Network performance evaluation
+  Wireless access networks → Network types
+
+================================================================================

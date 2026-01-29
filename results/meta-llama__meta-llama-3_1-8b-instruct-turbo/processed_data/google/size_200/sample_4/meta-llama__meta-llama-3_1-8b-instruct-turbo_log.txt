@@ -1,0 +1,227 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Combat Knives; Spears; Gun Holsters; Google Product Taxonomy; Reloading Supplies & Equipment; Ammunition Cases & Holders; Staff & Stick Weapons; Weapons; Gun Care & Accessories; Mature
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Weapons is a subtopic of Mature; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Gun Holsters is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Spears is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Combat Knives is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Stun Guns & Tasers; Weapons; Mature; Gun Cases & Range Bags; Google Product Taxonomy; Swords; Gun Care & Accessories; Gun Lights; Staff & Stick Weapons; Ammunition
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Ammunition is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Google Product Taxonomy; Throwing Stars; Weapons; Stun Guns & Tasers; Erotic; Gun Care & Accessories; Whips; Nunchucks; Guns; Mature
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Stun Guns & Tasers is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Throwing Stars is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Whips is a subtopic of Weapons; Erotic is a subtopic of Mature; Guns is a subtopic of Weapons; Nunchucks is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic; Erotic Food & Edibles; Erotic Games; Mature; Erotic Clothing; Erotic DVDs & Videos; Erotic Books; Google Product Taxonomy; Erotic Magazines; Pole Dancing Kits
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Books is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic is a subtopic of Mature; Erotic DVDs & Videos is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic Games is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Staff & Stick Weapons; Weapons; Stun Guns & Tasers; Gun Grips; Spears; Swords; Mature; Gun Care & Accessories; Google Product Taxonomy; Gun Slings
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Swords is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Spears is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Video Game Console Accessories; Baby Wipes; Brooches & Lapel Pins; Diapering; Replacement Shelves; Barebone Computers; Handbags, Wallets & Cases; Gaiters; Envelope Seals; Motor Vehicle Braking; Corsages & Boutonnières; Cameras & Optics; GPS Mounts; Office Furniture Accessories; Charms & Pendants; Camera & Optic Accessories; Collectibles; Confetti; Skee-Ball Machines; Shoe Covers; Stage Equipment; Video Transmitters; Diaper Organizers; Music Cassette Tapes; Voice Recorders; Music CDs; Fireworks & Firecrackers; Diaper Kits; Keychains; Office Furniture; Fuel; Sparklers; Law Enforcement; Google Product Taxonomy; Motor Vehicle Engine Parts; Home Game Console Accessories; Jewelry Sets; Video; Interactive Kiosks; Baby Transport Accessories; Film & Television VHS Tapes; Vehicles; Vehicle Parts & Accessories; GPS Accessories; Room Dividers; Sippy Cups; Digital Goods & Currency; Aircraft; Speed Radars; Radios; Desktop Computers; Costumes & Accessories; Exercise & Fitness Equipment Manuals; Media; Banners; Wallets & Money Clips; Folding Chairs & Stools; Gift Giving; Toys & Games; Carts & Islands; Antenna Accessories; Kitchen & Dining Carts; DJ & Specialty Audio; Electronics Accessories; Hanging Chairs; Special Effects Light Stands; Shoe Accessories; Piñatas; Baby Transport; Motor Vehicle Carpet & Upholstery; Audio Accessories; Fresh Cut Flowers; Response Cards; Toll Collection Devices; Motor Vehicle Parts; Motor Vehicle Sensors & Gauges; Benches; Cocktail Decorations; Motor Vehicle Wheel Systems; Camera Lens Accessories; Birthday Candles; Hardware; Karaoke System Accessories; Video Game Arcade Cabinet Accessories; Model & Toys Manuals; Place Cards; Sheet Music; Jewelry; Event Tickets; Apparel & Accessories; Sporting Goods; Floor Chairs; Optics; Motor Vehicle Video Monitor Mounts; Basketball Arcade Games; Watercraft Steering Parts; Motor Vehicle Exhaust; Motor Vehicle Equalizers & Crossovers; Party & Celebration; Laptops; Audio; Diaper Liners; Nursing Covers; Retail; Home Heating Oil; Hobbies & Creative Arts; GPS Cases; Party Favors; Rangefinders; Office Supply Manuals; Chair Sashes; Video Game Consoles; Office Supplies; Motor Vehicle Electronics; Wallet Chains; Mining & Quarrying; Computers; Stereo Systems; Motor Vehicle Lighting; Camera & Optics Manuals; Furniture; Digital Music Downloads; Circuit Boards & Components; MiniDisc Players & Recorders; Motor Vehicle Engine Oil Circulation; Baby Carriers; Chairs; Shoelaces; Watercraft Engine Parts; Touch Table Computers; Vehicles & Parts; Business & Industrial; Radar Detectors; Tablet Computers; Audio Players & Recorders; Collectible Weapons; Product Manuals; Household Appliance Manuals; Baby Carrier Accessories; Watercraft Parts & Accessories; Desk Parts & Accessories; DVDs & Videos; Spray String; Special Effects; Costume Accessories; Music & Sound Recordings; Vanity Benches; Bullhorns; Breast Milk Storage Containers; Office Furniture Sets; Lens Caps; Marine Electronics; Cassette Players & Recorders; Party Supplies; Power Tool & Equipment Manuals; Chair Accessories; Food, Beverages & Tobacco; Electronics; Diaper Rash Treatments; Arts & Entertainment; Masks; Entertainment Centers & TV Stands; Room Divider Accessories; Futon Frames; Animals & Pet Supplies; Motor Vehicles; Public Address Systems; Sailboat Parts; Workstations & Cubicles; Film & Television; Nursing & Feeding; Special Occasion Card Boxes & Holders; Lanyards; Bracelets; Invitations; Party Hats; Watches; Marine Radios; Baby & Toddler; Pretend Jewelry; Shelving Accessories; Storage & Entryway Benches; Portable Game Console Accessories; Health & Beauty; Checkbook Covers; Smart Glasses; Computer Servers; Handbag & Wallet Accessories; Shoes; Spoken Word & Field Recordings; Costume Shoes; Motor Vehicle Interior Fittings; Diaper Pail Accessories; Event Programs; Software; Arcade Equipment; Propane; Motor Vehicle Parking Cameras; Hardware Accessories; Karaoke Systems
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to break it down into a taxonomy, but it might be a bit complex. Here's my attempt:
+
+- Google Product Taxonomy is a subtopic of nothing (it's the top-level category)
+- Vehicles is a subtopic of Google Product Taxonomy
+  - Motor Vehicle Braking is a subtopic of Vehicles
+  - Motor Vehicle Engine Parts is a subtopic of Vehicles
+  - Motor Vehicle Exhaust is a subtopic of Vehicles
+  - Motor Vehicle Electronics is a subtopic of Vehicles
+  - Motor Vehicle Wheel Systems is a subtopic of Vehicles
+  - Motor Vehicle Video Monitor Mounts is a subtopic of Vehicles
+  - Motor Vehicle Sensors & Gauges is a subtopic of Vehicles
+  - Motor Vehicle Sensors & Gauges is a subtopic of Vehicles
+  - Motor Vehicle Parking Cameras is a subtopic of Vehicles
+  - Motor Vehicle Interior Fittings is a subtopic of Vehicles
+  - Motor Vehicle Lighting is a subtopic of Vehicles
+  - Motor Vehicle Equalizers & Crossovers is a subtopic of Vehicles
+  - Motor Vehicle Engine Oil Circulation is a subtopic of Vehicles
+  - Motor Vehicle Exhaust is a subtopic of Vehicles
+  - Motor Vehicle Electronics is a subtopic of Vehicles
+  - Motor Vehicle Engine Parts is a subtopic of Vehicles
+  - Motor Vehicle Braking is a subtopic of Vehicles
+  - Motor Vehicle Carpet & Upholstery is a subtopic of Vehicles
+  - Motor Vehicle Wheel Systems is a subtopic of Vehicles
+  - Motor Vehicle Video Monitor Mounts is a subtopic of Vehicles
+  - Motor Vehicle Sensors & Gauges is a subtopic of Vehicles
+  - Motor Vehicle Parking Cameras is a subtopic of Vehicles
+  - Motor Vehicle Interior Fittings is a subtopic of Vehicles
+  - Motor Vehicle Lighting is a subtopic of Vehicles
+  - Motor Vehicle Equalizers & Crossovers is a subtopic of Vehicles
+  - Motor Vehicle Engine Oil Circulation is a subtopic of Vehicles
+  - Motor Vehicle Exhaust is a subtopic of Vehicles
+  - Motor Vehicle Electronics is a subtopic of Vehicles
+  - Motor Vehicle Engine Parts is a subtopic of Vehicles
+  - Motor Vehicle Braking is a subtopic of Vehicles
+  - Motor Vehicle Carpet & Upholstery is a subtopic of Vehicles
+  - Motor Vehicle Wheel Systems is a subtopic of Vehicles
+  - Motor Vehicle Video Monitor Mounts is a subtopic of Vehicles
+  - Motor Vehicle Sensors & Gauges is a subtopic of Vehicles
+  - Motor Vehicle Parking Cameras is a subtopic of Vehicles
+  - Motor Vehicle Interior Fittings is a subtopic of Vehicles
+  - Motor Vehicle Lighting is a subtopic of Vehicles
+  - Motor Vehicle Equalizers & Crossovers is a subtopic of Vehicles
+  - Motor Vehicle Engine Oil Circulation is a subtopic of Vehicles
+  - Motor Vehicle Exhaust is a subtopic of Vehicles
+  - Motor Vehicle Electronics is a subtopic of Vehicles
+  - Motor Vehicle Engine Parts is a subtopic of Vehicles
+  - Motor Vehicle Braking is a subtopic of Vehicles
+  - Motor Vehicle Carpet & Upholstery is a subtopic of Vehicles
+  - Motor Vehicle Wheel Systems is a subtopic of Vehicles
+  - Motor Vehicle Video Monitor Mounts is a subtopic of Vehicles
+  - Motor Vehicle Sensors & Gauges is a subtopic of Vehicles
+  - Motor Vehicle Parking Cameras is a subtopic of Vehicles
+  - Motor Vehicle Interior Fittings is a subtopic of Vehicles
+  - Motor Vehicle Lighting is a subtopic of Vehicles
+  - Motor Vehicle Equalizers & Crossovers is a subtopic of Vehicles
+  - Motor Vehicle Engine Oil Circulation is a subtopic of Vehicles
+  - Motor Vehicle Exhaust is a subtopic of Vehicles
+  - Motor Vehicle Electronics is a subtopic of Vehicles
+  - Motor Vehicle Engine Parts is a subtopic of Vehicles
+  - Motor Vehicle Braking is a subtopic of Vehicles
+  - Motor Vehicle Carpet & Upholstery is a subtopic of Vehicles
+  - Motor Vehicle Wheel Systems is a subtopic of Vehicles
+  - Motor Vehicle Video Monitor Mounts is a subtopic of Vehicles
+  - Motor Vehicle Sensors & Gauges is a subtopic of Vehicles
+  - Motor Vehicle Parking Cameras is a subtopic of Vehicles
+  - Motor Vehicle Interior Fittings is a subtopic of Vehicles
+  - Motor Vehicle Lighting is a subtopic of Vehicles
+  - Motor Vehicle Equalizers & Crossovers is a subtopic of Vehicles
+  - Motor Vehicle Engine Oil Circulation is a subtopic of Vehicles
+  - Motor Vehicle Exhaust is a subtopic of Vehicles
+  - Motor Vehicle Electronics is a subtopic of Vehicles
+  - Motor Vehicle Engine Parts is a subtopic of Vehicles
+  - Motor Vehicle Braking is a subtopic of Vehicles
+  - Motor Vehicle Carpet & Upholstery is a subtopic of Vehicles
+  - Motor Vehicle Wheel Systems is a subtopic of Vehicles
+  - Motor Vehicle Video Monitor Mounts is a subtopic of Vehicles
+  - Motor Vehicle Sensors & Gauges is a subtopic of Vehicles
+  - Motor Vehicle Parking Cameras is a subtopic of Vehicles
+  - Motor Vehicle Interior Fittings is a subtopic of Vehicles
+  - Motor Vehicle Lighting is a subtopic of Vehicles
+  - Motor Vehicle Equalizers & Crossovers is a subtopic of Vehicles
+  - Motor Vehicle Engine Oil Circulation is a subtopic of Vehicles
+  - Motor Vehicle Exhaust is a subtopic of Vehicles
+  - Motor Vehicle Electronics is a subtopic of Vehicles
+  - Motor Vehicle Engine Parts is a subtopic of Vehicles
+  - Motor Vehicle Braking is a subtopic of Vehicles
+  - Motor Vehicle Carpet & Upholstery is a subtopic of Vehicles
+  - Motor Vehicle Wheel Systems is a subtopic of Vehicles
+  - Motor Vehicle Video Monitor Mounts is a subtopic of Vehicles
+  - Motor Vehicle Sensors & Gauges is a subtopic of Vehicles
+  - Motor Vehicle Parking Cameras is a subtopic of Vehicles
+  - Motor Vehicle Interior Fittings is a subtopic of Vehicles
+  - Motor Vehicle Lighting is a subtopic of Vehicles
+  - Motor Vehicle Equalizers & Crossovers is a subtopic of Vehicles
+  - Motor Vehicle Engine Oil Circulation is a subtopic of Vehicles
+  - Motor Vehicle Exhaust is a subtopic of Vehicles
+  - Motor Vehicle Electronics is a subtopic of Vehicles
+  - Motor Vehicle Engine Parts is a subtopic of Vehicles
+  - Motor Vehicle Braking is a subtopic of Vehicles
+  - Motor Vehicle Carpet & Upholstery is a subtopic of Vehicles
+  - Motor Vehicle Wheel Systems is a subtopic of Vehicles
+  - Motor Vehicle Video Monitor Mounts is a subtopic of Vehicles
+  - Motor Vehicle Sensors & Gauges is a subtopic of Vehicles
+  - Motor Vehicle Parking Cameras is a subtopic of Vehicles
+  - Motor Vehicle Interior Fittings is a subtopic of Vehicles
+  - Motor Vehicle Lighting is a subtopic of Vehicles
+  - Motor Vehicle Equalizers & Crossovers is a subtopic of Vehicles
+  - Motor Vehicle Engine Oil Circulation is a subtopic of Vehicles
+  - Motor Vehicle Exhaust is a subtopic of Vehicles
+  - Motor Vehicle Electronics is a subtopic of Vehicles
+  - Motor Vehicle Engine Parts is a subtopic of Vehicles
+  - Motor Vehicle Braking is a subtopic of Vehicles
+  - Motor Vehicle Carpet & Upholstery is a subtopic of Vehicles
+  - Motor Vehicle Wheel Systems is a subtopic of Vehicles
+  - Motor Vehicle Video Monitor Mounts is a subtopic of Vehicles
+  - Motor Vehicle Sensors & Gauges is a subtopic of Vehicles
+  - Motor Vehicle Parking Cameras is a subtopic of Vehicles
+  - Motor Vehicle Interior Fittings is a subtopic of Vehicles
+  - Motor Vehicle Lighting is a subtopic of Vehicles
+  - Motor Vehicle Equalizers & Crossovers is a subtopic of Vehicles
+  - Motor Vehicle Engine Oil Circulation is a subtopic of Vehicles
+  - Motor Vehicle Exhaust is a subtopic of Vehicles
+  - Motor Vehicle Electronics is a subtopic of Vehicles
+  - Motor Vehicle Engine Parts is a subtopic of Vehicles
+  - Motor Vehicle Braking is a subtopic of Vehicles
+  - Motor Vehicle Carpet & Upholstery is a subtopic of Vehicles
+  - Motor Vehicle Wheel Systems is a subtopic of Vehicles
+  - Motor Vehicle Video Monitor Mounts is a subtopic of Vehicles
+  - Motor Vehicle Sensors & Gauges is a subtopic of Vehicles
+  - Motor Vehicle Parking Cameras is a subtopic of Vehicles
+  - Motor Vehicle Interior Fittings is a subtopic of Vehicles
+  - Motor Vehicle Lighting is a subtopic of Vehicles
+  - Motor Vehicle Equalizers & Crossovers is a subtopic of Vehicles
+  - Motor Vehicle Engine Oil Circulation is a subtopic of Vehicles
+  - Motor Vehicle Exhaust is a subtopic of Vehicles
+  - Motor Vehicle Electronics is a subtopic of Vehicles
+  - Motor Vehicle Engine Parts is a subtopic of Vehicles
+  - Motor Vehicle Braking is a subtopic of Vehicles
+  - Motor Vehicle Carpet & Upholstery is a subtopic of Vehicles
+  - Motor Vehicle Wheel Systems is a subtopic of Vehicles
+  - Motor Vehicle Video Monitor Mounts is a subtopic of Vehicles
+  - Motor Vehicle Sensors & Gauges is a subtopic of Vehicles
+  - Motor Vehicle Parking Cameras is a subtopic of Vehicles
+  - Motor Vehicle Interior Fittings is a subtopic of Vehicles
+  - Motor Vehicle Lighting is a subtopic of Vehicles
+  - Motor Vehicle Equalizers & Crossovers is a subtopic of Vehicles
+  - Motor Vehicle Engine Oil Circulation is a subtopic of Vehicles
+  - Motor
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 1
+
+Parsed relationships:
+  This is a very long list of concepts and relationships. I'll try to break it down into a taxonomy → but it might be a bit complex. Here's my attempt
+
+================================================================================

@@ -1,0 +1,47 @@
+[
+  {
+    "child_name": "dairy product",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "beverage",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "spice",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "whipped cream",
+    "parent_name": "dairy product",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "soy product",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "frozen dessert",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "eggs",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "cereals",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "cream",
+    "parent_name": "dairy product",
+    "relation_type": "IsA"
+  }
+]

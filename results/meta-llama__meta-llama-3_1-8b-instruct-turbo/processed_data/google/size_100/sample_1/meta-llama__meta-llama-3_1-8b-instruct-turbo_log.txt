@@ -1,0 +1,331 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Gun Holsters; Weapons; Combat Knives; Staff & Stick Weapons; Spears; Mature; Ammunition Cases & Holders; Gun Care & Accessories; Google Product Taxonomy; Reloading Supplies & Equipment
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Combat Knives is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Staff & Stick Weapons is a subtopic of Weapons; Weapons is a subtopic of Mature; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Gun Lights; Swords; Ammunition; Mature; Weapons; Gun Cases & Range Bags; Gun Care & Accessories; Stun Guns & Tasers; Google Product Taxonomy; Staff & Stick Weapons
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Weapons is a subtopic of Mature; Gun Lights is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Ammunition is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Nunchucks; Erotic; Mature; Stun Guns & Tasers; Throwing Stars; Gun Care & Accessories; Guns; Google Product Taxonomy; Weapons; Whips
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Whips is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Throwing Stars is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Guns is a subtopic of Weapons; Erotic is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons; Weapons is a subtopic of Mature; Nunchucks is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Games; Erotic Food & Edibles; Erotic DVDs & Videos; Erotic Magazines; Google Product Taxonomy; Erotic; Pole Dancing Kits; Erotic Clothing; Erotic Books; Mature
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Pole Dancing Kits is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Games is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic Magazines is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Gun Grips; Google Product Taxonomy; Stun Guns & Tasers; Mature; Staff & Stick Weapons; Swords; Spears; Gun Care & Accessories; Gun Slings; Weapons
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Gun Grips is a subtopic of Gun Care & Accessories; Gun Slings is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Swords is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Spears is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Laminating Film, Pouches & Sheets; Hanging Chair Replacement Parts; Book Accessories; Vibration Exercise Machines; Replacement Shelves; Handbags, Wallets & Cases; Gaiters; Crib & Toddler Bed Accessories; Cameras & Optics; Messenger Bags; Camera & Optic Accessories; Boot Liners; Field Hockey & Lacrosse; Lacrosse Balls; Vanities; Baby & Toddler Furniture; Cash Boxes; Office Furniture; Mounting Putty; Ironing Centers; Google Product Taxonomy; File Boxes; Lacrosse Training Aids; Furniture Sets; Kitchen Islands; Costume Capes; Room Dividers; China Cabinets & Hutches; Costumes & Accessories; Crib Conversion Kits; Name Plates; Carts & Islands; Shoe Accessories; Suitcases; Dressers; Desk Organizers; Table Accessories; Card Sleeves; Athletics; Shipping Supplies; Sporting Goods; Apparel & Accessories; Optics; Sofas; Suspension Trainers; Lacrosse Goals; Outdoor Furniture; Luggage & Bags; Field Hockey Balls; Pen & Pencil Cases; Lap Desks; Office Supplies; Cameras; Impulse Sealers; Lacrosse Equipment Sets; Card Files; Furniture; Sofa Accessories; Erasers; Brass Fasteners; Outdoor Seating; Tennis; Costume Tobacco Products; Costumes; Recipe Card Boxes; Futons; Costume Accessories; Cabinets & Storage; Soccer; Filing & Organization; Speed & Resistance Parachutes; Chair Accessories; Garment Bags; General Office Supplies; Calendars, Organizers & Planners; Monoculars; Masks; Arts & Entertainment; Room Divider Accessories; Scopes; File Cabinets; Beds & Accessories; Pencil Sharpeners; Office Tape; Workstations & Cubicles; Foam Roller Accessories; Armoires & Wardrobes; Book Covers; Shelving Accessories; Outdoor Tables; Bedroom Furniture Sets; Packing Tape; Health & Beauty; Video Cameras; Fencing; Outdoor Furniture Sets; Shoes; Address Books; Office Instruments; Exercise & Fitness
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to break it down into a taxonomy. Here's a simplified representation of the relationships:
+
+1. Google Product Taxonomy is a parent of:
+   - Mature
+   - Athletics
+   - Arts & Entertainment
+   - Health & Beauty
+   - Exercise & Fitness
+   - Office Supplies
+   - Office Furniture
+   - Office Instruments
+   - General Office Supplies
+   - Filing & Organization
+   - Shipping Supplies
+   - Packing Tape
+   - Office Tape
+   - Office Organizers
+   - Calendars, Organizers & Planners
+   - Desk Organizers
+   - Table Accessories
+   - Chair Accessories
+   - Sofa Accessories
+   - Bedroom Furniture Sets
+   - Furniture Sets
+   - Outdoor Furniture Sets
+   - Outdoor Seating
+   - Outdoor Tables
+   - Outdoor Furniture
+   - Furniture
+   - Shelving Accessories
+   - Book Accessories
+   - Book Covers
+   - Card Sleeves
+   - File Boxes
+   - File Cabinets
+   - Card Files
+   - Impulse Sealers
+   - Laminating Film, Pouches & Sheets
+   - Mounting Putty
+   - Brass Fasteners
+   - Carts & Islands
+   - Kitchen Islands
+   - Crib & Toddler Bed Accessories
+   - Crib Conversion Kits
+   - Baby & Toddler Furniture
+   - Dressers
+   - Futons
+   - Beds & Accessories
+   - Armoires & Wardrobes
+   - Sofas
+   - Sofa Accessories
+   - Costumes & Accessories
+   - Costumes
+   - Costume Accessories
+   - Costume Capes
+   - Costume Tobacco Products
+   - Lacrosse Equipment Sets
+   - Lacrosse Goals
+   - Lacrosse Balls
+   - Lacrosse Training Aids
+   - Field Hockey & Lacrosse
+   - Field Hockey Balls
+   - Fencing
+   - Tennis
+   - Soccer
+   - Athletics
+   - Sports Equipment
+   - Sporting Goods
+   - Cameras
+   - Cameras & Optics
+   - Optics
+   - Monoculars
+   - Scopes
+   - Video Cameras
+   - Photography
+   - Arts & Entertainment
+   - Book Accessories
+   - Book Covers
+   - Card Sleeves
+   - File Boxes
+   - File Cabinets
+   - Card Files
+   - Impulse Sealers
+   - Laminating Film, Pouches & Sheets
+   - Mounting Putty
+   - Brass Fasteners
+   - Carts & Islands
+   - Kitchen Islands
+   - Crib & Toddler Bed Accessories
+   - Crib Conversion Kits
+   - Baby & Toddler Furniture
+   - Dressers
+   - Futons
+   - Beds & Accessories
+   - Armoires & Wardrobes
+   - Sofas
+   - Sofa Accessories
+   - Costumes & Accessories
+   - Costumes
+   - Costume Accessories
+   - Costume Capes
+   - Costume Tobacco Products
+   - Lacrosse Equipment Sets
+   - Lacrosse Goals
+   - Lacrosse Balls
+   - Lacrosse Training Aids
+   - Field Hockey & Lacrosse
+   - Field Hockey Balls
+   - Fencing
+   - Tennis
+   - Soccer
+   - Athletics
+   - Sports Equipment
+   - Sporting Goods
+   - Cameras
+   - Cameras & Optics
+   - Optics
+   - Monoculars
+   - Scopes
+   - Video Cameras
+   - Photography
+   - Arts & Entertainment
+   - Health & Beauty
+   - Exercise & Fitness
+   - Office Supplies
+   - Office Furniture
+   - Office Instruments
+   - General Office Supplies
+   - Filing & Organization
+   - Shipping Supplies
+   - Packing Tape
+   - Office Tape
+   - Office Organizers
+   - Calendars, Organizers & Planners
+   - Desk Organizers
+   - Table Accessories
+   - Chair Accessories
+   - Sofa Accessories
+   - Bedroom Furniture Sets
+   - Furniture Sets
+   - Outdoor Furniture Sets
+   - Outdoor Seating
+   - Outdoor Tables
+   - Outdoor Furniture
+   - Furniture
+   - Shelving Accessories
+   - Book Accessories
+   - Book Covers
+   - Card Sleeves
+   - File Boxes
+   - File Cabinets
+   - Card Files
+   - Impulse Sealers
+   - Laminating Film, Pouches & Sheets
+   - Mounting Putty
+   - Brass Fasteners
+   - Carts & Islands
+   - Kitchen Islands
+   - Crib & Toddler Bed Accessories
+   - Crib Conversion Kits
+   - Baby & Toddler Furniture
+   - Dressers
+   - Futons
+   - Beds & Accessories
+   - Armoires & Wardrobes
+   - Sofas
+   - Sofa Accessories
+   - Costumes & Accessories
+   - Costumes
+   - Costume Accessories
+   - Costume Capes
+   - Costume Tobacco Products
+   - Lacrosse Equipment Sets
+   - Lacrosse Goals
+   - Lacrosse Balls
+   - Lacrosse Training Aids
+   - Field Hockey & Lacrosse
+   - Field Hockey Balls
+   - Fencing
+   - Tennis
+   - Soccer
+   - Athletics
+   - Sports Equipment
+   - Sporting Goods
+   - Cameras
+   - Cameras & Optics
+   - Optics
+   - Monoculars
+   - Scopes
+   - Video Cameras
+   - Photography
+   - Arts & Entertainment
+   - Health & Beauty
+   - Exercise & Fitness
+   - Mature is a subtopic of Google Product Taxonomy
+   - Athletics is a subtopic of Google Product Taxonomy
+   - Arts & Entertainment is a subtopic of Google Product Taxonomy
+   - Health & Beauty is a subtopic of Google Product Taxonomy
+   - Exercise & Fitness is a subtopic of Google Product Taxonomy
+   - Office Supplies is a subtopic of Google Product Taxonomy
+   - Office Furniture is a subtopic of Google Product Taxonomy
+   - Office Instruments is a subtopic of Google Product Taxonomy
+   - General Office Supplies is a subtopic of Google Product Taxonomy
+   - Filing & Organization is a subtopic of Google Product Taxonomy
+   - Shipping Supplies is a subtopic of Google Product Taxonomy
+   - Packing Tape is a subtopic of Google Product Taxonomy
+   - Office Tape is a subtopic of Google Product Taxonomy
+   - Office Organizers is a subtopic of Google Product Taxonomy
+   - Calendars, Organizers & Planners is a subtopic of Google Product Taxonomy
+   - Desk Organizers is a subtopic of Google Product Taxonomy
+   - Table Accessories is a subtopic of Google Product Taxonomy
+   - Chair Accessories is a subtopic of Google Product Taxonomy
+   - Sofa Accessories is a subtopic of Google Product Taxonomy
+   - Bedroom Furniture Sets is a subtopic of Google Product Taxonomy
+   - Furniture Sets is a subtopic of Google Product Taxonomy
+   - Outdoor Furniture Sets is a subtopic of Google Product Taxonomy
+   - Outdoor Seating is a subtopic of Google Product Taxonomy
+   - Outdoor Tables is a subtopic of Google Product Taxonomy
+   - Outdoor Furniture is a subtopic of Google Product Taxonomy
+   - Furniture is a subtopic of Google Product Taxonomy
+   - Shelving Accessories is a subtopic of Google Product Taxonomy
+   - Book Accessories is a subtopic of Google Product Taxonomy
+   - Book Covers is a subtopic of Google Product Taxonomy
+   - Card Sleeves is a subtopic of Google Product Taxonomy
+   - File Boxes is a subtopic of Google Product Taxonomy
+   - File Cabinets is a subtopic of Google Product Taxonomy
+   - Card Files is a subtopic of Google Product Taxonomy
+   - Impulse Sealers is a subtopic of Google Product Taxonomy
+   - Laminating Film, Pouches & Sheets is a subtopic of Google Product Taxonomy
+   - Mounting Putty is a subtopic of Google Product Taxonomy
+   - Brass Fasteners is a subtopic of Google Product Taxonomy
+   - Carts & Islands is a subtopic of Google Product Taxonomy
+   - Kitchen Islands is a subtopic of Google Product Taxonomy
+   - Crib & Toddler Bed Accessories is a subtopic of Google Product Taxonomy
+   - Crib Conversion Kits is a subtopic of Google Product Taxonomy
+   - Baby & Toddler Furniture is a subtopic of Google Product Taxonomy
+   - Dressers is a subtopic of Google Product Taxonomy
+   - Futons is a subtopic of Google Product Taxonomy
+   - Beds & Accessories is a subtopic of Google Product Taxonomy
+   - Armoires & Wardrobes is a subtopic of Google Product Taxonomy
+   - Sofas is a subtopic of Google Product Taxonomy
+   - Sofa Accessories is a subtopic of Google Product Taxonomy
+   - Costumes & Accessories is a subtopic of Google Product Taxonomy
+   - Costumes is a subtopic of Google Product Taxonomy
+   - Costume Accessories is a subtopic of Google Product Taxonomy
+   - Costume Capes is a subtopic of Google Product Taxonomy
+   - Costume Tobacco Products is a subtopic of Google Product Taxonomy
+   - Lacrosse Equipment Sets is a subtopic of Google Product Taxonomy
+   - Lacrosse Goals is a subtopic of Google Product Taxonomy
+   - Lacrosse Balls is a subtopic of Google Product Taxonomy
+   - Lacrosse Training Aids is a subtopic of Google Product Taxonomy
+   - Field Hockey & Lacrosse is a subtopic of Google Product Taxonomy
+   - Field Hockey Balls is a
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

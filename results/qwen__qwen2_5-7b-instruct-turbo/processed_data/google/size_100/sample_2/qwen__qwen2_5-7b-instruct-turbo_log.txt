@@ -1,0 +1,310 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Reloading Supplies & Equipment; Google Product Taxonomy; Gun Care & Accessories; Ammunition Cases & Holders; Staff & Stick Weapons; Combat Knives; Spears; Mature; Weapons; Gun Holsters
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Gun Holsters is a subtopic of Gun Care & Accessories; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Staff & Stick Weapons is a subtopic of Weapons; Spears is a subtopic of Weapons; Combat Knives is a subtopic of Weapons; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Gun Cases & Range Bags; Mature; Swords; Stun Guns & Tasers; Gun Lights; Ammunition; Gun Care & Accessories; Google Product Taxonomy; Staff & Stick Weapons; Weapons
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Gun Lights is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Swords is a subtopic of Weapons; Weapons is a subtopic of Mature; Staff & Stick Weapons is a subtopic of Weapons; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Throwing Stars; Guns; Mature; Nunchucks; Weapons; Erotic; Gun Care & Accessories; Google Product Taxonomy; Whips; Stun Guns & Tasers
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Throwing Stars is a subtopic of Weapons; Guns is a subtopic of Weapons; Whips is a subtopic of Weapons; Erotic is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Clothing; Erotic Games; Erotic Food & Edibles; Erotic; Erotic DVDs & Videos; Erotic Magazines; Mature; Pole Dancing Kits; Google Product Taxonomy; Erotic Books
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Pole Dancing Kits is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Games is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Gun Grips; Weapons; Stun Guns & Tasers; Mature; Staff & Stick Weapons; Gun Slings; Spears; Swords; Google Product Taxonomy; Gun Care & Accessories
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Spears is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Weapons is a subtopic of Mature; Swords is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Gun Slings is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Pet Supplies; Dentistry; Brooches & Lapel Pins; Book Accessories; Barebone Computers; Handbags, Wallets & Cases; Food Service; Stylus Pens; Stage Equipment; Baby Walkers & Entertainers; Pet Bowl Mats; Vanities; Laptop Replacement Speakers; Signage; Keyboard Trays & Platforms; Input Device Accessories; Law Enforcement; Adapters; Google Product Taxonomy; Laptop Parts; Advertising & Marketing; Marine Chartplotters & GPS; Thin Client Computers; GPS Accessories; Audio & Video Splitters & Switches; Speed Radars; Desktop Computers; Media; Wallets & Money Clips; Name Plates; Correction Fluids, Pens & Tapes; DJ & Specialty Audio; Electronics Accessories; Wireless Transmitters; Road & Traffic Signs; Shoe Accessories; Scanner Accessories; Business Forms & Receipts; Thin & Zero Clients; Magazines & Newspapers; Sheet Music; Signal Boosters; Jewelry; Apparel & Accessories; Computer Components; Laptops; Audio; Print, Copy, Scan & Fax; Sticky Notes; Office Supply Manuals; Video Game Consoles; Office Supplies; Mining & Quarrying; Computers; Pet Steps & Ramps; Impulse Sealers; Pet Waste Bags; Cable Management; Furniture; Baby Toys & Activity Equipment; 3D Printers; Badge & Pass Holders; Cables; Keyboard & Mouse Wrist Rests; Book Stands & Rests; Business & Industrial; Rubber Bands; Paper Products; Tablet Computers; Product Manuals; Household Appliance Manuals; Communications; Ottomans; Cabinets & Storage; Dental Tools; Laptop Docking Stations; Marine Electronics; Electronics; General Office Supplies; Potty Training; Arts & Entertainment; Audio & Video Cables; Animals & Pet Supplies; Remote Controls; Public Address Systems; Computer Racks & Mounts; Pet Sunscreen; Patch Panels; Watches; Computer Accessories; Baby & Toddler; Religious & Ceremonial; Electronics Manuals; Wine Racks; Smart Glasses; Shoes; Index Cards; Software; Storage & Data Transfer Cables; Wire & Cable Identification Markers
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Creating a taxonomy from the given concepts involves organizing them into a hierarchical structure. Here's a possible taxonomy:
+
+1. **Google Product Taxonomy**
+   - **Mature**
+   - **Electronics**
+   - **Computers**
+   - **Laptops**
+   - **Desktop Computers**
+   - **Thin & Zero Clients**
+   - **Thin Client Computers**
+   - **Barebone Computers**
+   - **Thin Client Accessories**
+     - **Laptop Docking Stations**
+   - **General Office Supplies**
+   - **Office Supplies**
+   - **Business & Industrial**
+   - **Business Forms & Receipts**
+   - **Product Manuals**
+   - **Office Supply Manuals**
+   - **Computer Components**
+   - **Computer Accessories**
+     - **Keyboard & Mouse Wrist Rests**
+     - **Keyboard Trays & Platforms**
+     - **Input Device Accessories**
+     - **Laptop Parts**
+     - **Laptop Replacement Speakers**
+     - **Audio & Video Splitters & Switches**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video Cables**
+     - **Audio & Video
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

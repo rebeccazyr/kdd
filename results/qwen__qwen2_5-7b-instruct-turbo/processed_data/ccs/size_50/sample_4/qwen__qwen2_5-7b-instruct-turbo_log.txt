@@ -1,0 +1,196 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Computing Classification System; Embedded and cyber-physical systems; Architectures; Multiple instruction, single data; Computer systems organization; Real-time systems; Systolic arrays; Parallel architectures; Single instruction, multiple data; Embedded systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Parallel architectures is a subtopic of Architectures; Multiple instruction, single data is a subtopic of Parallel architectures; Embedded systems is a subtopic of Embedded and cyber-physical systems; Single instruction, multiple data is a subtopic of Parallel architectures; Real-time systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Architectures is a subtopic of Computer systems organization; Systolic arrays is a subtopic of Parallel architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Fault-tolerant network topologies; Computing Classification System; Architectures; Computer systems organization; Maintainability and maintenance; Real-time languages; Processors and memory architectures; Embedded and cyber-physical systems; Dependable and fault-tolerant systems and networks; Real-time systems
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Real-time systems is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Parallel architectures; Serial architectures; Interconnection architectures; Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems; Computer systems organization; Maintainability and maintenance; Architectures; Computing Classification System; Pipeline computing
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Serial architectures is a subtopic of Architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Pipeline computing is a subtopic of Serial architectures; Architectures is a subtopic of Computer systems organization; Interconnection architectures is a subtopic of Parallel architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Quantum computing; Other architectures; Real-time languages; Optical computing; Embedded and cyber-physical systems; Real-time systems; Computer systems organization; Architectures; Real-time system specification; Computing Classification System
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time system specification is a subtopic of Real-time systems; Computer systems organization is a subtopic of Computing Classification System; Real-time languages is a subtopic of Real-time systems; Other architectures is a subtopic of Architectures; Quantum computing is a subtopic of Other architectures; Architectures is a subtopic of Computer systems organization; Optical computing is a subtopic of Other architectures
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Computer systems organization; Dependable and fault-tolerant systems and networks; Serial architectures; Distributed architectures; Embedded and cyber-physical systems; Computing Classification System; Architectures; Processors and memory architectures; Real-time systems; Real-time system architecture
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Computer systems organization is a subtopic of Computing Classification System; Real-time system architecture is a subtopic of Real-time systems; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Real-time systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Distributed architectures is a subtopic of Architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Wireless integrated network sensors; Quadrature; Interaction techniques; Human computer interaction (HCI); Branch-and-bound; Visualization; Streaming, sublinear and near linear time algorithms; Hardware; Continuous mathematics; Physical verification; Empirical studies in collaborative and social computing; Software and its engineering; Differential equations; Design and analysis of algorithms; Power and energy; Human-centered computing; Mathematical analysis; General and reference; Semi-formal verification; Integrated circuits; Layout-versus-schematics; Visualization application domains; Printed circuit boards; Collaborative and social computing; Communication hardware, interfaces and storage; Visualization systems and tools; Information visualization; Wireframes; Computing Classification System; Systems and tools for interaction design; Social and professional topics; Computing / technology policy; Divide and conquer; Backtracking; Mathematics of computing; Power and thermal analysis; Theory and algorithms for application domains; Interaction design theory, concepts and paradigms; Social network analysis; Probability and statistics; Interaction design process and methods; Empirical studies in HCI; Interaction design; Timing analysis and sign-off; Hardware validation; Algorithm design techniques; Functional verification; Collaborative and social computing design and evaluation methods; Accessibility; Theory of computation
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Computing Classification System is a parent of:
+- Systems and tools for interaction design
+- Hardware
+- Social and professional topics
+- Computing / technology policy
+- Mathematics of computing
+- Theory of computation
+- Interaction design
+- Interaction design theory, concepts and paradigms
+- Interaction design process and methods
+- Accessibility
+
+Systems and tools for interaction design is a parent of:
+- Interaction techniques
+- Human computer interaction (HCI)
+- Empirical studies in collaborative and social computing
+- Empirical studies in HCI
+- Interaction design process and methods
+
+Hardware is a parent of:
+- Integrated circuits
+- Layout-versus-schematics
+- Communication hardware, interfaces and storage
+- Physical verification
+- Hardware validation
+- Functional verification
+- Power and thermal analysis
+- Timing analysis and sign-off
+- Hardware validation
+- Power and energy
+- Semi-formal verification
+
+Interaction design is a parent of:
+- Interaction design theory, concepts and paradigms
+- Interaction design process and methods
+
+Interaction design theory, concepts and paradigms is a parent of:
+- Human-centered computing
+
+Interaction design process and methods is a parent of:
+- Interaction design
+
+Social and professional topics is a parent of:
+- Collaborative and social computing design and evaluation methods
+- Collaborative and social computing
+
+Collaborative and social computing is a parent of:
+- Collaborative and social computing design and evaluation methods
+- Empirical studies in collaborative and social computing
+
+Mathematics of computing is a parent of:
+- General and reference
+- Continuous mathematics
+- Differential equations
+- Probability and statistics
+- Theory and algorithms for application domains
+
+Theory and algorithms for application domains is a parent of:
+- Design and analysis of algorithms
+- Divide and conquer
+- Backtracking
+- Algorithm design techniques
+
+Theory of computation is a parent of:
+- Branch-and-bound
+- Divide and conquer
+- Backtracking
+- Functional verification
+- Semi-formal verification
+- Layout-versus-schematics
+- Timing analysis and sign-off
+
+Design and analysis of algorithms is a parent of:
+- Streaming, sublinear and near linear time algorithms
+
+Visualization is a parent of:
+- Visualization systems and tools
+- Information visualization
+- Visualization application domains
+
+Visualization systems and tools is a parent of:
+- Wireframes
+
+Integrated circuits is a parent of:
+- Layout-versus-schematics
+
+Physical verification is a parent of:
+- Layout-versus-schematics
+
+Communication hardware, interfaces and storage is a parent of:
+- Communication hardware, interfaces and storage
+
+Collaborative and social computing design and evaluation methods is a parent of:
+- Empirical studies in collaborative and social computing
+
+Empirical studies in collaborative and social computing is a subtopic of:
+- Empirical studies in HCI
+
+Empirical studies in HCI is a subtopic of:
+- Human computer interaction (HCI)
+
+Human computer interaction (HCI) is a subtopic of:
+- Interaction techniques
+
+Wireframes is a subtopic of:
+- Visualization systems and tools
+
+Layout-versus-schematics is a subtopic of:
+- Integrated circuits
+
+Timing analysis and sign-off is a subtopic of:
+- Hardware validation
+
+Power and thermal analysis is a subtopic of:
+- Hardware validation
+
+Power and energy is a subtopic of:
+- Hardware validation
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

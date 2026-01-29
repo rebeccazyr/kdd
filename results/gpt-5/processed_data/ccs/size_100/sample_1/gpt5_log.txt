@@ -1,0 +1,178 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Embedded systems; Parallel architectures; Architectures; Embedded and cyber-physical systems; Multiple instruction, single data; Real-time systems; Single instruction, multiple data; Computer systems organization; Systolic arrays; Computing Classification System
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Embedded systems is a subtopic of Embedded and cyber-physical systems; Multiple instruction, single data is a subtopic of Parallel architectures; Real-time systems is a subtopic of Computer systems organization; Single instruction, multiple data is a subtopic of Parallel architectures; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Systolic arrays is a subtopic of Parallel architectures; Parallel architectures is a subtopic of Architectures
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Architectures; Processors and memory architectures; Real-time languages; Dependable and fault-tolerant systems and networks; Real-time systems; Computing Classification System; Fault-tolerant network topologies; Computer systems organization; Embedded and cyber-physical systems; Maintainability and maintenance
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Parallel architectures; Dependable and fault-tolerant systems and networks; Pipeline computing; Interconnection architectures; Serial architectures; Architectures; Maintainability and maintenance; Computer systems organization; Computing Classification System
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Parallel architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Pipeline computing is a subtopic of Serial architectures; Serial architectures is a subtopic of Architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Interconnection architectures is a subtopic of Parallel architectures; Architectures is a subtopic of Computer systems organization
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Optical computing; Quantum computing; Real-time systems; Computer systems organization; Real-time system specification; Real-time languages; Other architectures; Computing Classification System; Architectures; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Real-time languages is a subtopic of Real-time systems; Real-time system specification is a subtopic of Real-time systems; Quantum computing is a subtopic of Other architectures; Architectures is a subtopic of Computer systems organization; Other architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System; Optical computing is a subtopic of Other architectures; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Dependable and fault-tolerant systems and networks; Real-time system architecture; Processors and memory architectures; Computing Classification System; Serial architectures; Distributed architectures; Real-time systems; Architectures; Computer systems organization
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Real-time system architecture is a subtopic of Real-time systems; Serial architectures is a subtopic of Architectures; Distributed architectures is a subtopic of Architectures; Real-time systems is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: VLSI packaging; Search engine indexing; Continuous mathematics; Economics of chip design and manufacturing; Thermal issues; Statistical graphics; Network algorithms; Standard cell libraries; Human-centered computing; Identity theft; General and reference; Integrated circuits; Security and privacy; Fault tolerance; Dictionaries; Censorship; Collaborative search; Applied computing; Equational models; Temperature monitoring; Physical sciences and engineering; Arts and humanities; Distribution functions; Resampling methods; Accessibility; Malware / spyware crime; Software creation and management; Document collection models; Hardware; Design reuse and communication-based design; Empirical studies in collaborative and social computing; Pornography; Task models; Education; Temperature control; Power and energy; Document representation; Collaborative and social computing; Software notations and tools; Contingency table analysis; Search engine architectures and scalability; Intrusion/anomaly detection and malware mitigation; Continuous functions; Users and interactive retrieval; Information systems; On-chip resource management; Full-custom circuits; Offshoring; Probabilistic representations; Systems security; Accessibility theory, concepts and paradigms; Software and its engineering; Queueing theory; Interconnect; Computing and business; Input / output styles; Printed circuit boards; Information theory; Computer crime; Accessibility systems and tools; Computing Classification System; Information retrieval; Specialized information retrieval; Statistical paradigms; Social and professional topics; Probabilistic algorithms; Networks; Designing software; Retrieval efficiency; Test collections; Search-based software engineering; Biographies; Probabilistic reasoning algorithms; Sound and music computing; Surveillance; Content analysis and feature selection; Document types; Retrieval models and ranking; Time series analysis; Collaborative and social computing theory, concepts and paradigms; PCB design and layout; Variable elimination; Robustness; Cryptography; Retrieval effectiveness; Computing / technology policy; Professional topics; Mathematics of computing; Accessibility technologies; Nonparametric statistics; Development frameworks and environments; Probability and statistics; Surveys and overviews; Very large scale integration design; Hate speech; Evaluation of retrieval results; Ontologies; Reengineering; Network access control; Requirements analysis
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: gpt-5
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Hardware is a subtopic of Computing Classification System; Software and its engineering is a subtopic of Computing Classification System; Information systems is a subtopic of Computing Classification System; Security and privacy is a subtopic of Computing Classification System; Human-centered computing is a subtopic of Computing Classification System; Networks is a subtopic of Computing Classification System; Applied computing is a subtopic of Computing Classification System; Social and professional topics is a subtopic of Computing Classification System; Mathematics of computing is a subtopic of Computing Classification System; General and reference is a subtopic of Computing Classification System; Surveys and overviews is a subtopic of General and reference; Biographies is a subtopic of General and reference; Dictionaries is a subtopic of General and reference; Integrated circuits is a subtopic of Hardware; Printed circuit boards is a subtopic of Hardware; Power and energy is a subtopic of Hardware; On-chip resource management is a subtopic of Hardware; Interconnect is a subtopic of Integrated circuits; Very large scale integration design is a subtopic of Integrated circuits; VLSI packaging is a subtopic of Integrated circuits; Full-custom circuits is a subtopic of Very large scale integration design; Standard cell libraries is a subtopic of Very large scale integration design; Design reuse and communication-based design is a subtopic of Very large scale integration design; PCB design and layout is a subtopic of Printed circuit boards; Thermal issues is a subtopic of Power and energy; Temperature monitoring is a subtopic of Power and energy; Temperature control is a subtopic of Power and energy; Information retrieval is a subtopic of Information systems; Ontologies is a subtopic of Information systems; Document representation is a subtopic of Information retrieval; Document collection models is a subtopic of Information retrieval; Content analysis and feature selection is a subtopic of Information retrieval; Retrieval models and ranking is a subtopic of Information retrieval; Evaluation of retrieval results is a subtopic of Information retrieval; Retrieval effectiveness is a subtopic of Evaluation of retrieval results; Retrieval efficiency is a subtopic of Information retrieval; Specialized information retrieval is a subtopic of Information retrieval; Users and interactive retrieval is a subtopic of Information retrieval; Search engine indexing is a subtopic of Information retrieval; Search engine architectures and scalability is a subtopic of Information retrieval; Test collections is a subtopic of Information retrieval; Document types is a subtopic of Information retrieval; Probabilistic representations is a subtopic of Document representation; Collaborative search is a subtopic of Information retrieval; Robustness is a subtopic of Information retrieval; Systems security is a subtopic of Security and privacy; Cryptography is a subtopic of Security and privacy; Intrusion/anomaly detection and malware mitigation is a subtopic of Systems security; Network access control is a subtopic of Systems security; Professional topics is a subtopic of Social and professional topics; Computing / technology policy is a subtopic of Social and professional topics; Censorship is a subtopic of Computing / technology policy; Surveillance is a subtopic of Computing / technology policy; Hate speech is a subtopic of Computing / technology policy; Pornography is a subtopic of Social and professional topics; Computer crime is a subtopic of Social and professional topics; Malware / spyware crime is a subtopic of Computer crime; Identity theft is a subtopic of Computer crime; Accessibility is a subtopic of Human-centered computing; Accessibility technologies is a subtopic of Accessibility; Accessibility systems and tools is a subtopic of Accessibility; Accessibility theory, concepts and paradigms is a subtopic of Accessibility; Collaborative and social computing is a subtopic of Human-centered computing; Collaborative and social computing theory, concepts and paradigms is a subtopic of Collaborative and social computing; Empirical studies in collaborative and social computing is a subtopic of Collaborative and social computing; Task models is a subtopic of Human-centered computing; Input / output styles is a subtopic of Human-centered computing; Sound and music computing is a subtopic of Human-centered computing; Network algorithms is a subtopic of Networks; Physical sciences and engineering is a subtopic of Applied computing; Computing and business is a subtopic of Applied computing; Arts and humanities is a subtopic of Applied computing; Education is a subtopic of Applied computing; Offshoring is a subtopic of Computing and business; Economics of chip design and manufacturing is a subtopic of Computing and business; Probability and statistics is a subtopic of Mathematics of computing; Continuous mathematics is a subtopic of Mathematics of computing; Information theory is a subtopic of Mathematics of computing; Statistical paradigms is a subtopic of Probability and statistics; Statistical graphics is a subtopic of Probability and statistics; Contingency table analysis is a subtopic of Probability and statistics; Nonparametric statistics is a subtopic of Probability and statistics; Resampling methods is a subtopic of Probability and statistics; Distribution functions is a subtopic of Probability and statistics; Time series analysis is a subtopic of Probability and statistics; Queueing theory is a subtopic of Probability and statistics; Continuous functions is a subtopic of Continuous mathematics; Equational models is a subtopic of Continuous mathematics; Probabilistic algorithms is a subtopic of Mathematics of computing; Probabilistic reasoning algorithms is a subtopic of Probabilistic algorithms; Variable elimination is a subtopic of Probabilistic reasoning algorithms; Software creation and management is a subtopic of Software and its engineering; Software notations and tools is a subtopic of Software and its engineering; Designing software is a subtopic of Software and its engineering; Development frameworks and environments is a subtopic of Software and its engineering; Requirements analysis is a subtopic of Software and its engineering; Reengineering is a subtopic of Software creation and management; Search-based software engineering is a subtopic of Software and its engineering; Fault tolerance is a subtopic of Software and its engineering
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 99
+
+Parsed relationships:
+  Hardware → Computing Classification System
+  Software and its engineering → Computing Classification System
+  Information systems → Computing Classification System
+  Security and privacy → Computing Classification System
+  Human-centered computing → Computing Classification System
+  Networks → Computing Classification System
+  Applied computing → Computing Classification System
+  Social and professional topics → Computing Classification System
+  Mathematics of computing → Computing Classification System
+  General and reference → Computing Classification System
+  Surveys and overviews → General and reference
+  Biographies → General and reference
+  Dictionaries → General and reference
+  Integrated circuits → Hardware
+  Printed circuit boards → Hardware
+  Power and energy → Hardware
+  On-chip resource management → Hardware
+  Interconnect → Integrated circuits
+  Very large scale integration design → Integrated circuits
+  VLSI packaging → Integrated circuits
+  Full-custom circuits → Very large scale integration design
+  Standard cell libraries → Very large scale integration design
+  Design reuse and communication-based design → Very large scale integration design
+  PCB design and layout → Printed circuit boards
+  Thermal issues → Power and energy
+  Temperature monitoring → Power and energy
+  Temperature control → Power and energy
+  Information retrieval → Information systems
+  Ontologies → Information systems
+  Document representation → Information retrieval
+  Document collection models → Information retrieval
+  Content analysis and feature selection → Information retrieval
+  Retrieval models and ranking → Information retrieval
+  Evaluation of retrieval results → Information retrieval
+  Retrieval effectiveness → Evaluation of retrieval results
+  Retrieval efficiency → Information retrieval
+  Specialized information retrieval → Information retrieval
+  Users and interactive retrieval → Information retrieval
+  Search engine indexing → Information retrieval
+  Search engine architectures and scalability → Information retrieval
+  Test collections → Information retrieval
+  Document types → Information retrieval
+  Probabilistic representations → Document representation
+  Collaborative search → Information retrieval
+  Robustness → Information retrieval
+  Systems security → Security and privacy
+  Cryptography → Security and privacy
+  Intrusion/anomaly detection and malware mitigation → Systems security
+  Network access control → Systems security
+  Professional topics → Social and professional topics
+  Computing / technology policy → Social and professional topics
+  Censorship → Computing / technology policy
+  Surveillance → Computing / technology policy
+  Hate speech → Computing / technology policy
+  Pornography → Social and professional topics
+  Computer crime → Social and professional topics
+  Malware / spyware crime → Computer crime
+  Identity theft → Computer crime
+  Accessibility → Human-centered computing
+  Accessibility technologies → Accessibility
+  Accessibility systems and tools → Accessibility
+  Accessibility theory, concepts and paradigms → Accessibility
+  Collaborative and social computing → Human-centered computing
+  Collaborative and social computing theory, concepts and paradigms → Collaborative and social computing
+  Empirical studies in collaborative and social computing → Collaborative and social computing
+  Task models → Human-centered computing
+  Input / output styles → Human-centered computing
+  Sound and music computing → Human-centered computing
+  Network algorithms → Networks
+  Physical sciences and engineering → Applied computing
+  Computing and business → Applied computing
+  Arts and humanities → Applied computing
+  Education → Applied computing
+  Offshoring → Computing and business
+  Economics of chip design and manufacturing → Computing and business
+  Probability and statistics → Mathematics of computing
+  Continuous mathematics → Mathematics of computing
+  Information theory → Mathematics of computing
+  Statistical paradigms → Probability and statistics
+  Statistical graphics → Probability and statistics
+  Contingency table analysis → Probability and statistics
+  Nonparametric statistics → Probability and statistics
+  Resampling methods → Probability and statistics
+  Distribution functions → Probability and statistics
+  Time series analysis → Probability and statistics
+  Queueing theory → Probability and statistics
+  Continuous functions → Continuous mathematics
+  Equational models → Continuous mathematics
+  Probabilistic algorithms → Mathematics of computing
+  Probabilistic reasoning algorithms → Probabilistic algorithms
+  Variable elimination → Probabilistic reasoning algorithms
+  Software creation and management → Software and its engineering
+  Software notations and tools → Software and its engineering
+  Designing software → Software and its engineering
+  Development frameworks and environments → Software and its engineering
+  Requirements analysis → Software and its engineering
+  Reengineering → Software creation and management
+  Search-based software engineering → Software and its engineering
+  Fault tolerance → Software and its engineering
+
+================================================================================

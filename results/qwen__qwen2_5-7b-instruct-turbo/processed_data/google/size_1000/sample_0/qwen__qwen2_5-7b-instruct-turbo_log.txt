@@ -1,0 +1,193 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Spears; Combat Knives; Staff & Stick Weapons; Weapons; Gun Care & Accessories; Reloading Supplies & Equipment; Google Product Taxonomy; Mature; Ammunition Cases & Holders; Gun Holsters
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Gun Holsters is a subtopic of Gun Care & Accessories; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Spears is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Combat Knives is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Gun Cases & Range Bags; Google Product Taxonomy; Swords; Weapons; Ammunition; Stun Guns & Tasers; Gun Lights; Mature; Gun Care & Accessories; Staff & Stick Weapons
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Ammunition is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Swords is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Erotic; Guns; Weapons; Stun Guns & Tasers; Gun Care & Accessories; Mature; Throwing Stars; Google Product Taxonomy; Whips; Nunchucks
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Guns is a subtopic of Weapons; Whips is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Nunchucks is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic DVDs & Videos; Erotic Clothing; Erotic; Google Product Taxonomy; Erotic Magazines; Mature; Erotic Games; Erotic Food & Edibles; Erotic Books; Pole Dancing Kits
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Games is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic DVDs & Videos is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Books is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Gun Grips; Gun Care & Accessories; Gun Slings; Weapons; Stun Guns & Tasers; Google Product Taxonomy; Spears; Staff & Stick Weapons; Mature; Swords
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Stun Guns & Tasers is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Staff & Stick Weapons is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Spears is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Swords is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Rivets; Bicycle Tire Valve Caps; Concrete Molds; Treadmill Accessories; Hardware Pumps; Inversion Tables & Systems; Airbrushes; Modem Accessories; Camera Parts & Accessories; Medicine Cabinets; Food Gift Baskets; Messenger Bags; Ball Pit Accessories; Snack Foods; Fonts; Drain Cleaners; Computer Software; Solar Panels; MIDI Controllers; Suspenders; Drug Tests; Cabinet Hardware; Audio & Video Receiver Accessories; Crutches; Amaranth; Fuel; Fishing Reel Accessories; Drop Cloths; Climbing Webbing; Golf Accessory Sets; Key Caps; Prepared Meals & Entrées; Keyboard Trays & Platforms; Moisture Absorbers; Hiking Poles; Heating, Ventilation & Air Conditioning; Ice Screws; Bellows; Bread Crumbs; Golf Balls; Drain Liners; Portable Toilets & Showers; Marking Tools; Sport Safety Lights & Reflectors; Moving & Shipping Boxes; Religious Items; Office & Chair Mats; Solar Energy Kits; Cabinet Catches; Plants; Digital Goods & Currency; Smoking Pipes; Compactors; Juice; Desktop Computers; Polishers & Buffers; Equestrian; Exercise & Fitness Equipment Manuals; Media; Windsurfing; Fence Pickets; Plumbing Traps; Heat Guns; Hardware Fasteners; Toys & Games; Wire Caps & Nuts; Wall Plates & Covers; Intercom Accessories; Hand Exercisers; Scan Converters; Lens Converters; Fitness & Nutrition; Flooring & Carpet; Weight Lifting; Baking Soda; Non-Dairy Milk; Two-Way Radios; Trees; Roller Skates; Thermal Optic Accessories; Walking Aids; Bingo Sets; VoIP Gateways & Routers; Cardio Machines; Athletics; Cast & Bandage Protectors; Drains; Garden Hose Storage; Bicycle Forks; Horse Tack Boxes; Sanders; Door Hardware; Apparel & Accessories; De-icers; Night Lights & Ambient Lighting; Event Tickets; Conduit & Housings; Horse Tack Accessories; Key Blanks; Art & Craft Kits; Heat-Shrink Tubing; Water Sport Helmets; Specialty Electrical Switches & Relays; Punches & Awls; Table Runners; Lighter Fluid; Gutter Accessories; Door Knockers; Restore Disks; Breast Pumps; Luggage Racks & Stands; Metal Casting Molds; Electronic Musical Instruments; Sprinkler, Booster & Irrigation System Pumps; Garage Floor Mats; First Aid; Office Equipment; Blood Pressure Monitor Cuffs; Linens & Bedding; Electrical Wires & Cable; Audio; Food Items; Video Accessories; Aircraft Parts & Accessories; Tarps; Print, Copy, Scan & Fax; Hobbies & Creative Arts; Bicycle Accessories; Luggage Accessories; Plumbing Wastes; Luggage & Bags; Golf Toys; Flood, Fire & Gas Safety; Paper Clips & Clamps; Book Lights; Computer Monitors; Label Tapes & Refill Rolls; Video Multiplexers; Emergency Lighting; Card Files; Climbing Rope Bags; Fishing Gaffs; Lens Hoods; Pillboxes; Erasers; Exercise Balls; Furnaces & Boilers; Arts & Crafts; Carving Chisels & Gouges; 3D Printers; Bathtub Accessories; Jerky; Cabinet & Furniture Keyhole Escutcheons; Locks & Latches; Fishing; Elliptical Trainer Accessories; Ball & Cup Games; Outdoor Misting Systems; Film & Television Digital Downloads; Tripod & Monopod Accessories; Nutrition Bars; Tripod & Monopod Heads; Incense Making Kits; Diaper Pails; Briefcases; Foam Rollers; Fabric Repair Kits; Bicycle Frames; Splitters; Pool, Fountain & Pond Pumps; Armatures, Rotors & Stators; Handkerchiefs; Moving & Soundproofing Blankets & Covers; Security Lights; Remote Control Toys; Shower Stalls & Kits; Power Inlets; Packing Organizers; Frosting & Icing; Medicine & Drugs; Divot Tools; Home Appliance Pumps; Exercise Bands; Chemicals; Crafting Adhesives & Magnets; Meal; Diapers; Bicycle Water Sport Board Racks; Wrinkle Releasers & Anti-Static Sprays; Fishing Lines & Leaders; Thread & Yarn Tools; Specimen Cups; Power Converters; Yeast; Electronic Dictionaries & Translators; Supports & Braces; Neck Gaiters; Power Inverters; Door Strikes; Climbing Harnesses; Pickleball; Video Conferencing; Puzzles; Generator Accessories; Office Tape; Toy Gift Baskets; Foam Roller Accessories; Cigarette Holders; Exercise Equipment Mats; Walkers; Floor & Steam Cleaners; Candle Making Kits; Pest Control; Bicycle Wheels; Trail Cameras; Post Base Plates; Water Polo; Electrical Mount Boxes & Brackets; Wallpaper Steamers; Bicycle Baskets; Fireplace Andirons; Computer Accessories; Aisle Runners; Bibs; Marshmallows; Health & Beauty; Nailers & Staplers; Navigational Compasses; Bicycle Cages; Smart Glasses; Film & Television DVDs; Rye; Bicycle Helmet Parts & Accessories; Nails; Financial, Tax & Accounting Software; Water Heaters; Swimming Fins; Printer Consumables; Aerobic Steps; Bicycle Seatpost Clamps; Scrapbooking & Stamping Kits; Snack Cakes; Yo-Yos; Cutters; Disposable Cameras; Mobility & Accessibility; Door Push Plates; Chains; Swimming; Remote Control Planes; Lighting; Batter & Coating Mixes; Stair Climbers & Steppers; Fire Extinguishers; Riding Toy Accessories; Shower Benches & Seats; Electrical Plug Caps; Deck Shuffleboard; Film Cameras; Light Switches; Craft Machine Cases & Covers; Buckwheat; Tackle Bags & Boxes; Robotic Toys; Cameras & Optics; Flagging & Caution Tape; Laser Pointers; Toner & Inkjet Cartridge Refills; Camera & Optic Accessories; Electrical Motors; Tie Down Straps; Game Timers; Door Keyhole Escutcheons; Printer, Copier & Fax Machine Replacement Parts; Garment Shields; Electronics Films & Shields; Tent Poles & Stakes; Volleyball; Tool Storage & Organization; Garage Door Keypads & Remotes; Door Frames; Free Weight Accessories; Crackers; Obis; Safety & Crowd Control Barriers; Construction Calculators; Home Game Console Accessories; Video; Eye Wash Supplies; Chain, Wire & Rope; Beach & Sand Toys; Climbing Rope; Paper Clips; Exercise Machine & Equipment Sets; Blocking Mats; Motion Sensors; Surfing; Siding; Weapon Scope & Sight Accessories; Karaoke Chips; Vehicles; 3D Glasses; Riding Crops & Whips; Tea & Infusions; Modulators; Printer Filters; Calculator Accessories; Bagpipes; Bridges & Routers; Shopping Totes; Tool Sets; Hockey Toys; Garage Door Openers; Chalkboards; Components; Sinks; Umbrella Sleeves & Cases; Popcorn; Nail Pullers; Heat Rubs; Bicycle Covers; Grinders; Mail Carts; Stamp Blocks; Kitchen & Utility Sinks; Nutrition Drinks & Shakes; Scanner Accessories; Pregnancy Tests; Bite Alarms; Safety Pins; Bathtubs; Flying Toys; Wagons; Magazines & Newspapers; Art & Crafting Tools; Cufflinks; Video Game Arcade Cabinet Accessories; Audio Converters; Cooking Starch; Bicycle Seatposts; Jewelry; Wetsuits; Exercise Bike Accessories; Hair Combs; Tacks & Pushpins; Sporting Goods; Biometric Monitor Accessories; Live Bait; Printer, Copier & Fax Machine Accessories; Reaction Balls; Basketball Arcade Games; Art & Crafting Tool Accessories; Home & Garden; Fence Panels; Flowers; Wetsuit Pieces; Bicycle Helmets; Office Mats; Nutrition Gels & Chews; Power & Electrical Supplies; Toy Helicopters; Ball Pits; Tool Boxes; Boat Storage Racks; Shipping Tags; Sound Dampening Panels & Foam; Incontinence Aids; Surfboard Fins; Loose Tobacco; Beverages; Office Supply Manuals; Spotting Scope Accessories; Nuts & Bolts; Pipe Adapters & Bushings; Sticky Rice Cakes; MSG; Pretend Lawn & Garden; Roofing; Ribbon & Streamer Toys; Accordions & Concertinas; Belay Devices; Sports Toys; HIV Tests; PDA Accessories; Soups & Broths; Bandanas; Video Editing Hardware & Production Equipment; Basic Calculators; First Aid Kits; Hardware Torches; Camera & Optics Manuals; Vitamins & Supplements; Brass Fasteners; Book Stands & Rests; Pipe Caps & Plugs; Touch Table Computers; Vehicles & Parts; Toy Airplanes; Twine; Bicycle Shock Pumps; Tablet Computers; Roller Skis; Pretend Shopping & Grocery; Product Manuals; Swim Belts; Door Bells & Chimes; Push Up & Pull Up Bars; DVDs & Videos; Wire Terminals & Connectors; Air Suits; Firewood & Fuel; Desk Pads & Blotters; Tarot Cards; Plumbing Primer; Indoor Climbing Holds; Kite Buggying; Bullhorns; Religious Altars; Bicycle Handlebar Grips & Decor; Futon Dryers; Drawing & Painting Kits; Bathtub Bases & Feet; Answering Machines; Concentrators & Multiplexers; On-Camera Monitors; Speed & Resistance Parachutes; Washers; Blocking Wires; Cooking & Baking Ingredients; Label Clips; Bathroom Accessories; Food, Beverages & Tobacco; Brass Instruments; Fireplace Screens; Drawer Slides; Table Skirts; Travel Bottles & Containers; Garment Bags; Unflavored Gelatin; Pasta & Noodles; Ring Pillows & Holders; Camping & Hiking; Urinary Tract Infection Tests; Activity Monitor Accessories; Grips; Toy Race Car & Track Accessories; Table Linens; Animals & Pet Supplies; Camping Tools; Drawer & Shelf Liners; Door Knobs & Handles; Bicycle Headsets; Faucet Handles & Controls; Communication Radios; Photography; Sesame Sticks; Water Timers; Receiving Blankets; Bicycle Computers; Pretzels; Surfing Gloves; Pull Buoys; Signal Jammers; Tool Files; Baby & Toddler; Dry Boxes; Office Application Software; Religious & Ceremonial; Fuel Containers & Tanks; Locks & Keys; Hair Accessories; Scientific Calculators; Bicycle Shoe Covers; Packing Tape; Grout; Paint Strainers; Art & Crafting Materials; Drywall Anchors; Play Vehicles; Pretend Play; Felting Molds; Mattocks & Pickaxes; Buttermilk; Swim Caps; Postage Meters; Casters; Ice Cream & Frozen Yogurt; Treadmills; Bathroom Suites; Bicycle Saddle Pads & Seat Covers; Lattice; Exercise & Fitness; Winter Sports & Activities; Power Outlets & Sockets; Propane; Windows; Household Supplies; Prepared Foods; Slot Machines; Electrical Muscle Stimulators; Vents & Flues; Wall & Ceiling Tile; Bean Paste; Diapering; Balance Trainers; Vibration Exercise Machines; Electric Riding Vehicles; Elliptical Trainers; Bicycle Brake Parts; Wall Socket Controls & Sensors; Well Pumps & Systems; Quinoa; Dice Sets & Games; Bicycle Child Seat Accessories; Model Rocketry; Weight Lifting Machines & Racks; Prayer Cards; Tent Accessories; Pry Bars; Dry Box Liners & Inserts; Health Care; Poker Chip Accessories; Accelerometers; Photo Mounting Supplies; Floor & Carpet Dryers; Ice Cream Novelties; Audio Samplers; Diaper Kits; Office Shredders; Lancing Devices; Smoking Accessories; Fireplace & Wood Stove Accessories; Household Appliances; Electrical Freeze Sprays; Document Cameras; Fire Alarms; Underwater Camera Housing Accessories; Google Product Taxonomy; Toy Weapons & Gadgets; Thin Client Computers; Baby Transport Accessories; Blood Glucose Meter Accessories; Push & Pedal Riding Vehicles; Tobacco Products; Parachutes; Cabinet Backplates; Craft Cutting & Embossing Tools; Vehicle Parts & Accessories; Bicycle Saddles; Weighted Clothing; Boating & Water Sport Apparel; Aircraft; Kickboards; Costumes & Accessories; Puffed Rice Cakes; Radio Scanners; Vaporizers & Electronic Cigarettes; Pepper; CD/DVD Cases & Organizers; Security System Sensors; Body Weight Scale Accessories; Pickup Tools; CB Radios; Spurs; Toys; Fire Extinguisher & Equipment Storage; Radar Jammers; Flood & Spot Lights; Ab Wheels & Rollers; Fishing Bait & Chum Containers; DJ & Specialty Audio; Electronics Accessories; Patio Heaters; Bathroom Sinks; Outdoor Recreation; Folders & Report Covers; Deburrers; Electric Bicycle Conversion Kits; Audio Accessories; Model Train Accessories; Toll Collection Devices; Medical Identification Tags & Jewelry; Toilet Brush Replacement Heads; In-Wall Carriers & Mounting Frames; 3D Printer Accessories; Drain Openers; Water; Camera Lens Accessories; Kites; Traditional Clothing Accessories; Kitchen Appliance Manuals; Electrician Fish Tape; Hardware; Water Levelers; Vinegar Drinks; Karaoke System Accessories; Voltage Transformers & Regulators; Digital Artwork; Heat Detectors; Handheld Device Accessories; Plumbing Fixture Hardware & Parts; Baby Protective Wear; Key Card Entry Systems; Baby & Toddler Hats; Bicycle Pumps; Shipping Supplies; Games; Remote Control Toy Accessories; Staples; Toy Race Car & Track Sets; Riding Scooters; Cabinet Knobs & Handles; Carabiners; Ground Spikes; Craft Knife Blades; Power Towers; Fishing Nets; Chair Mats; Laptops; Filters & Screens; Lens & Filter Adapter Rings; Paddle Ball Toys; Eggnog; Climbing Protection Devices; Cable TV Receivers; Climbing Ascenders & Descenders; Disc Golf Bags; Dowel Pins & Rods; Bicycle Child Seats; Hair Nets; Couscous; Cameras; Windsurfing Boards; Plumbing Regulators; Life Jacket Accessories; Hydration Systems; Bicycle Transport Bags & Cases; Yo-Yo Parts & Accessories; Fishing Spears; Windbreaks; Electrical Switches; Laundry Supplies; Tricycle Accessories; Plungers; Satellite & Cable TV; Blood Pressure Monitor Accessories; Toy Kitchens & Play Food; Pork Rinds; Bookmarks; Tripod Handles; Tool Clamps & Vises; Juggling; Swaddling & Receiving Blankets; Climbing; Fencing & Barriers; Climbing Chalk Bags; Molasses; Carbon Brushes; Communications; Bandanas & Headties; Craft Organization; Network Software; Septic Tank & Cesspool Treatments; Bicycle Handlebar Extensions; Fishing Reel Replacement Spools; Masonry Consumables; Wind-Up Toys; Music & Sound Recordings; Dexterity Games; Hatches; Binocular & Monocular Accessories; Electronic Filters; Headbands; Hooks, Buckles & Fasteners; Plumbing; Power Over Ethernet Adapters; Business & Home Security; Toy Jacks; Golf; Painting Consumables; Decorative Fans; Toy Kitchens; Ultrasonic Cleaners; Bicycle Front & Rear Racks; Electronics; Rangefinder Accessories; General Office Supplies; GPS Navigation Systems; Monoculars; Office Carts; Converters; Memorial Ceremony Supplies; Climate Control Appliances; Anti-Fatigue Mats; Arts & Entertainment; Wall Jacks & Braces; Screw Posts; Golf Ball Markers; Handheld Power Mixers; Wheat; Pneumatic Hoses; Mobile Phone Jammers; Riding Toys; Memorial Urns; Rings; Woodwinds; Play Money & Banking; Toy Trains & Train Sets; Surgical Lubricants; Public Address Systems; Laundry Appliance Accessories; Pretend Professions & Role Playing; Books; Laundry Wash Bags & Frames; Pagers; Remote Control Airships & Blimps; Spinning Wheel Accessories; Occupational & Physical Therapy Equipment; Antiseptics & Cleaning Supplies; Nursing & Feeding; Blood Glucose Control Solution; Trash Compactor Accessories; Toilet & Bidet Accessories; Musical Instruments; Condoms; Barley; Stump Shrinkers; Video Game Software; Lighters & Matches; Tube Feeding Supplements; Printer Maintenance Kits; Gates; Outdoor Games; Calculators; Climbing Crash Pads; Scanners; Sewing Machine Replacement Parts; Gas Hoses; Computer Servers; Pianos; Cycling Apparel & Accessories; Video Game Arcade Cabinets; Camera Straps; Medical Alarm Systems; Coiled Spring Toys; Bicycle Bells & Horns; Toilet Tank Levers; Work Benches; Baby & Toddler Clothing Accessories; Nursing Pads & Shields; Cardio Machine Accessories; Newspapers; Wireless Presenters; Train Cases; Plumbing Hoses & Supply Lines; Hardware Accessories; Bidet Faucets & Sprayers; Optic Accessories; Storage Tanks; Bicycle Fenders; Video Game Console Accessories; Laminating Film, Pouches & Sheets; Humidors; Unicycle Accessories; Photo Negative & Slide Storage; Mosaic Kits; Book Accessories; Bicycle Computer Accessories; Slide Projectors; Sleeping Bags; Rocking & Spring Riding Toys; Hats; Bathroom Accessory Mounts; Hang Gliding & Skydiving; Projectors; Tools; Bicycle Trainers; Drain Components; Therapeutic Swings; Skee-Ball Machines; Camera & Optic Replacement Cables; Frozen Desserts & Novelties; Craft Measuring & Marking Tools; Cigars; Disc Golf; Seasonings & Spices; Stage Equipment; Toner & Inkjet Cartridges; Building Consumables; Hot & Cold Therapies; Leis; DJ Systems; Tool & Equipment Belts; Track Lighting Rails; Backpacks; Toy Cookware; Ice Pops; Household Appliance Circuit Boards; Floor Polishers & Buffers; Bicycle Tire Valves; Bath Toys; Fire Alarm Control Panels; Track Lighting; Interactive Kiosks; Hubs & Switches; Ashtrays; Play Dough & Putty; Shortening & Lard; Extension Cords; Contraceptive Cases; Audiobooks; Networking; Exercise Wedges; Paint Tools; Conductivity Gels & Lotions; Drain Rods; Roof Flashings; Medical Tests; Play Vehicle Accessories; Spermicides; Name Plates; Faucet Accessories; Plumbing Repair Kits; Equestrian Gloves; Remote Control Cars & Trucks; Nuts & Seeds; Cosmetic & Toiletry Bags; Milk; Shoe Accessories; Pretend Housekeeping; Biometric Monitors; Household Appliance Accessories; Thin & Zero Clients; Hang Gliders; Platform & Paddle Tennis; Shapers; Lumber & Sheet Stock; Humidifier Accessories; Records & LPs; Boating & Water Sports; Toilet Seat Lid Covers; Handrails & Railing Systems; Wristbands; Springs; Presentation Supplies; Sports & Energy Drinks; Art & Drawing Toys; Sound Synthesizers; Sheet Music; Cycling; Document Templates; Tool Cabinets & Chests; Tapioca Pearls; Scale Model Kits; Mosquito Nets & Insect Screens; Tripods & Monopods; Home Automation Kits; Cigarette Cases; Medicine Balls; Optics; Pretend Electronics; Wooden & Pegged Puzzles; Bicycle Parts; Compilers & Programming Tools; Toy Parachutes; Model Making; Door Stops; Wedding Ceremony Supplies; Drysuits; Generators; Suspension Trainers; Air Conditioner Filters; Laminators; Acupuncture; Scanner Circuit Boards; Toilet Trim; Phone & Data Jacks; Button Studs; Hiking Pole Accessories; Walking Aid Accessories; Inline & Roller Skating Protective Gear; Drywall; Baseball Toys; Remote Control Tanks; Cabinet Doors; Dyed Kerosene; Video Game Consoles; Office Supplies; Toothbrush Holders; Medical Thermometers; Computers; Door Closers; Plumbing Fixtures; Home Alarm Systems; Solvents, Strippers & Thinners; Cardio; Swim Goggles & Masks; Leg Warmers; Planes; Reamers; Toy Craft Kits; Aquatic Plants; Folder Tabs; Log Racks & Carriers; Circuit Boards & Components; Digital Music Downloads; Flower Girl Baskets; Salad Toppings; Cable Management; Riding Apparel & Accessories; Electronics Component Connectors; Floss Sugar; Candy & Chocolate; Costumes; Air Conditioner Accessories; Satellite Receivers; Musical Toys; Bicycle Drivetrain Parts; Hardware Glue & Adhesives; Watercraft Parts & Accessories; Pinball Machines; Needlecraft Kits; Communication Radio Accessories; Operating Systems; Golf Flags; Varnishes & Finishes; Building Materials; Sleds; Crafting Patterns & Molds; Video Players & Recorders; Kitchen Linens Sets; Televisions; Toy Gliders; Lens Caps; Bicycle Toe Straps & Clips; Weather Stripping & Weatherization Supplies; Swimming Machines; Plumbing Fittings & Supports; Flash Brackets; Filing & Organization; Power Tool & Equipment Manuals; Iron Rests; Desktop Wallpaper; Faucets; Sink Accessories; Insulation; Countertops; Rash Guards & Swim Shirts; Baby Bathing; Bicycle Kickstands; Candied & Chocolate Covered Fruit; Compression Sacks; Oats, Grits & Hot Cereal; Inline & Roller Skating; Clarinets; Hinges; Binoculars; Sewing Machine Extension Tables; Printed Circuit Boards; Jigsaw Puzzles; Watercraft Storage Racks; Fishing Traps; Clothing Accessories; Grains, Rice & Cereal; Toy Weapon & Gadget Accessories; Air & Filter Dryers; Telescope Accessories; Anvils; Lens Filters; Caulking Tools; Golf Bags; Labels & Tags; Weight Lifting Machine & Exercise Bench Accessories; Fireplace Tools; Unicycles; Printheads; Surfboard Wax; Bicycle Handlebars; Handheld Metal Shears & Nibblers; Riding Pants; Remote Control Robots; Portable Water Filters & Purifiers; Activity Toys; Toy Trucks & Construction Vehicles; Prayer Beads; Toy Boats; Kerosene; Bouncy Balls; Religious Veils; Mechanical Puzzles; Allergy Test Kits; Accessibility Furniture & Fixtures; Hand Tool Sets; Software; Arcade Equipment; Fan Accessories; Prepared Appetizers & Side Dishes; Printer Memory; Space Heaters; E-books
+Relationships: 
+
+================================================================================
+Number of entities: 1000
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Google Product Taxonomy is a parent category for all the listed concepts. Here are the relationships:
+
+- **Guns** is a subtopic of **Weapons**.
+- **Stun Guns & Tasers** is a subtopic of **Weapons**.
+- **Gun Grips** is a subtopic of **Gun Care & Accessories**.
+- **Gun Slings** is a subtopic of **Gun Care & Accessories**.
+- **Spears** is a subtopic of **Weapons**.
+- **Staff & Stick Weapons** is a subtopic of **Weapons**.
+- **Swords** is a subtopic of **Weapons**.
+- **Threading & Knitting Accessories** is a subtopic of **Crafting Adhesives & Magnets**.
+- **Cabinets** is a subtopic of **Home & Garden**.
+- **Cabinets** is a subtopic of **Medicine Cabinets**.
+- **Cabinets** is a subtopic of **Toilet & Bidet Accessories**.
+- **Cabinets** is a subtopic of **Toilet Tank Levers**.
+- **Cabinets** is a subtopic of **Bathroom Accessories**.
+- **Cabinets** is a subtopic of **Bathroom Accessory Mounts**.
+- **Cabinets** is a subtopic of **Bathroom Sinks**.
+- **Cabinets** is a subtopic of **Bathroom Suites**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Handles & Controls**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**.
+- **Cabinets** is a subtopic of **Faucet Accessories**
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

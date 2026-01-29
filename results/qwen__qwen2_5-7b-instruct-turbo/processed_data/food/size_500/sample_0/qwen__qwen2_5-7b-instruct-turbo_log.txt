@@ -1,0 +1,415 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: bavette; occhi di lupo; gemelli; cannelloni; pici; pasta; fusilli; food; fagottini; spaghetti
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+fagottini is a subtopic of pasta; fusilli is a subtopic of pasta; cannelloni is a subtopic of pasta; gemelli is a subtopic of pasta; spaghetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta; pasta is a subtopic of food; pici is a subtopic of pasta; bavette is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: spaghetti; rotini; corzetti; mezzelune; pasta; food; sacchettoni; fuži; croxetti; linguine
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+corzetti is a subtopic of pasta; fuži is a subtopic of pasta; linguine is a subtopic of pasta; spaghetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food; croxetti is a subtopic of pasta; rotini is a subtopic of pasta; mezzelune is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: garganelli; fuži; pasta; bigoli; food; occhi di lupo; mezzelune; anellini; corzetti; stringozzi
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+corzetti is a subtopic of pasta; fuži is a subtopic of pasta; bigoli is a subtopic of pasta; garganelli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; mezzelune is a subtopic of pasta; pasta is a subtopic of food; stringozzi is a subtopic of pasta; anellini is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: rotini; campanelle; food; passatelli; macaroni; casoncelli; ptitim; pasta; lanterne; spaghetti
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+lanterne is a subtopic of pasta; casoncelli is a subtopic of pasta; rotini is a subtopic of pasta; passatelli is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of pasta; macaroni is a subtopic of pasta; spaghetti is a subtopic of pasta; campanelle is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: sacchettoni; stringozzi; rotini; food; spaghetti; mezzelune; penne; rotelle; ptitim; pasta
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+penne is a subtopic of pasta; rotini is a subtopic of pasta; rotelle is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of pasta; stringozzi is a subtopic of pasta; sacchettoni is a subtopic of pasta; mezzelune is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: schnapps; cheonsachae; fruit-flavoured drinks; longan; chipped beef; likëngë; pumpkin seeds; sweet and sour pork; blood soup; celery roots; nataing; squashes; basil; caldo de pollo; hogao; restructured steak; imoni; debrecener; cherimoyas; chilli powder; fisherman's soup; hulatang; sponge cake; soy product; plums; henan braised noodles; yucca root; pork roll; nădlac sausages; far breton; cantonese seafood soup; taco shells; hog's pudding; kapusniak; whipped cream; savory; mykyrokka; kumquats; frying pan dinners; cider; hodge-podge; pottage; broccoli; cellophane noodles; pecel; paio; tu; apricots; tinned meat; pork jowl; black soup; kharcho; coffee cake; gummy sweets; kishka; lotus roots; angel food cake; sambal; ogbono nuts; candy bars; ground and whole bean coffee; bouillon; rosemary; kohlwurst; bouneschlupp; oille; weisswurst; lasagnette; cabanossi; gobo root; macadamia nuts; cherries; green sauce; garlic powder; dessert bars; beetroot greens; seeds; dates; asparagus; homli fruits; vodka; sobrassada; crépinette; ribollita; šakotis; tomatoes; crenvurșt; brési; pork tenderloin; basbousa; espagnole sauce; pecans; energy drinks; agrodolce; yonezawa beef; gin; manwich; dried fruit; panada; solyanka; braadworst; gumdrops; dessert toppings; soto ayam; ciavàr; hot sauce; mushroom gravy; fruit chews; pepper; frozen noodles; nougat; chocolate bars; soup; walnuts; tom kha kai; sapote; bak kut teh; pork ribs; jjolmyeon; miso soup; jelly beans; changua; prickly pears; sujebi; celery; ciauscolo; rum; fideo; caramels; tacacá; supreme; hochzeitssuppe; ukha; siskonmakkara; pig's organ soup; geera pork; sushi; cake; dandan noodles; regensburger wurst; brazil nuts; vinegar drinks; kohlrabi; xo sauce; bratwurst; chocolate assortments; cashews; liverwurst; candle salad; korean noodle; dairy product; sugar apples; garbure; tarta de santiago; sausage; harira; marinade; saveloy; kupati; boiled sweets; boerewors; taro root; paradise nuts; rhubarb; cauliflower; diot; grapes; rice noodle roll; kesme; sundae cones; chicory; mulligatawny; dried beans; beans; escudella i carn d'olla; butajiru; tofu; peanut sauce; kitchen bouquet; figs; pomegranates; pølser; sopa de pata; lollipops; styrian sour soup; kale; frejon; trdelník; rutabagas; frankfurter rindswurst; frozen dessert; mamey; tian mo; bakmi; fruit; marshmallow sweets; spinach; torte; grapefruits; bresaola; kornigou; ding dong; dragon beard noodles; ajiaco; dragonfruit; aubergines; persimmons; kola nuts; bisque; ryynimakkara; honey; curry sauce; soy sauce; sinigang; gazpacho; eggnog; vallée d'aoste lard d'arnad; deli meats; crumpet; sancocho; pillus; naengguk; qottab; breton sauce; herb; chocolate cake; food; pine nuts; pistou; amsterdam ossenworst; oyster sauce; sopa teologa; mixed nuts; nantua sauce; salad mixes; soto; nectarines; oregano; meat patties; plumcots; limequats; lychees; hot dry noodles; alfalfa sprouts; frozen dinners; chocolate covered nuts; korean noodles; chocolate mints; chestnuts; kakara pitha; condiment; corn dog; soy nuts; 'nduja; meat; frankfurter würstchen; loose tea leaves; pickled pigs feet; noodle; pastirma; landjäger; soubise sauce; wanko soba; lincolnshire sausage; pan mee; chicken soup; corn soup; prepared food; greens; sevai; knipp; sweet potatoes; soyo; brown windsor soup; soup number five; potatiskorv; morteau sausage; liquor; sesame seeds; tomato soup; bananas; rose hip soup; red bean cake; carne de chango; onions; booyah; tucupi; sfouf; binignit; gulyásleves; lolly cake; coffee; tom yum; yu choy; suet; aioli; cucumbers; taco soup; artichokes; brown sauce; béchamel sauce; melons; arracachas; magiritsa; olives and capers; soup all'imperatrice; chikhirtma; peanut butter cups; fish tea; lucanica; drunken noodles; lebanon bologna; yam; mints; nali sauce; lekach; shchi; peas; goulash; fruit salad; wodzionka; lemons; kulajda; béarnaise sauce; crème ninon; dessert platters; carbonade flamande; scotch broth; ahle wurst; madroã±o; wedding cake; jagdwurst; mannish water; caldo verde; suckers; sujuk; gai choi; bean sprouts; bottled coffee drinks; sausage making; udon; falukorv; brandy; cervelat; talunan; flavoured malt drinks; tahinopita; kinnathappam; pozole; sweets; corn chowder; babi panggang; andouille; neapolitan ragù; fudge; banh canh; rambutans; zuppa alla modenese; popsicles; okra; choi sum; radishes; spice; gelbwurst; chorba; jicama; liqueurs; pineapples; czernina; mangosteens; chiffon cake; pesto; kissel; rawon; quince; hors d'oeuvres; maya nuts; ragù; rasam; instant coffee; borscht; may west; opera cake; watercress; moambe; ganjang; ching bo leung; borage; buttermilk; vegetable; apples; tempeh; svartsoppa; rookworst; fuet; standing rib roast; tamarind; bakery; aji; starfruits; chutney; skilandis; wedding soup; torta caprese; piti; oranges; guavas; mangos; papayas; beutelwurst; krakowska; nagasari; infusion; black pudding; chocolate truffles; mang tomas; shambar; beurre noisette; porra antequerana; tallow; shirataki noodles; meatcake; salvitxada; zosui; ezogelin soup; lunch meats; parsnips; almonds; leeks; sorbet; bregenwurst; organic beef; powdered beverage mixes; chinkiang pot cover noodles; buttermilk koldskål; andouillette; tourin; instant noodle; beef; passion fruit; miyeok guk; malangas; fizzy drinks; feijoas; beer; salad dressings; thuringian sausage; tangelos; vori vori; currants; sour rye soup; red velvet cake; sunflower seeds; hot and sour soup; okroshka; cheez whiz; mint sauce; hazelnuts; avocados; buccellato; hot dogs; češnovka; gazpachuelo; draw soup; minestrone; moronga; sauce ravigote; vichyssoise; sugo all'amatriciana; fanesca; cake pop; pork; carrots; fläskkorv; sour soup; toffee brittle; sauce lyonnaise; bredela; ajoblanco; parsley roots; eggs; bermuda fish chowder; pistachios; tartar sauce; sauce; café de paris sauce; mint; ok sauce; chipa guasu; pears; longaniza; toffee; leek soup; beer soup; sorrel soup; sapodillo; sauce gribiche; beverage; yi mein; coconuts
+Relationships: 
+
+================================================================================
+Number of entities: 500
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Creating a taxonomy from the provided list of concepts involves organizing them into a hierarchical structure. Here's a simplified taxonomy based on the given concepts:
+
+1. **Food**
+   - **Pasta**
+     - sacchettoni
+     - stringozzi
+     - rotini
+     - penne
+     - rotelle
+     - ptitim
+     - macaroni
+   - **Sauces and Condiments**
+     - aioli
+     - béchamel sauce
+     - béarnaise sauce
+     - beurre noisette
+     - besciamella
+     - bolognese sauce
+     - braadworst
+     - bratwurst
+     - brisotti
+     - brunoise
+     - butajiru
+     - buttermilk
+     - buttermilk koldskål
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - buttermilk
+     - but
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

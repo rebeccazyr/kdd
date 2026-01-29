@@ -1,0 +1,167 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: pici; bavette; pasta; food; cannelloni; fagottini; fusilli; occhi di lupo; gemelli; spaghetti
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+fusilli is a subtopic of pasta; gemelli is a subtopic of pasta; fagottini is a subtopic of pasta; pici is a subtopic of pasta; pasta is a subtopic of food; cannelloni is a subtopic of pasta; bavette is a subtopic of pasta; spaghetti is a subtopic of pasta; occhi di lupo is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: sacchettoni; pasta; corzetti; rotini; food; spaghetti; fuži; mezzelune; linguine; croxetti
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+corzetti is a subtopic of pasta; croxetti is a subtopic of pasta; rotini is a subtopic of pasta; mezzelune is a subtopic of pasta; sacchettoni is a subtopic of pasta; linguine is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta; fuži is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: anellini; bigoli; mezzelune; fuži; stringozzi; occhi di lupo; corzetti; garganelli; pasta; food
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+pasta is a subtopic of food; mezzelune is a subtopic of pasta; corzetti is a subtopic of pasta; fuži is a subtopic of pasta; anellini is a subtopic of pasta; occhi di lupo is a subtopic of pasta; stringozzi is a subtopic of pasta; bigoli is a subtopic of pasta; garganelli is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: spaghetti; macaroni; food; rotini; pasta; casoncelli; ptitim; passatelli; lanterne; campanelle
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+rotini is a subtopic of pasta; lanterne is a subtopic of pasta; macaroni is a subtopic of pasta; pasta is a subtopic of food; passatelli is a subtopic of pasta; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; casoncelli is a subtopic of pasta; campanelle is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: spaghetti; pasta; mezzelune; sacchettoni; ptitim; rotini; stringozzi; rotelle; food; penne
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+penne is a subtopic of pasta; rotelle is a subtopic of pasta; spaghetti is a subtopic of pasta; rotini is a subtopic of pasta; pasta is a subtopic of food; mezzelune is a subtopic of pasta; ptitim is a subtopic of pasta; sacchettoni is a subtopic of pasta; stringozzi is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: yu choy; food; chocolate truffles; frozen yoghurt; caramels; mangos; taro root; fruit; eggs; watercress; tangelos; rye; squashes; gobo root; grapes; cabbage; vegetable; chewing gum; fruit chews; popsicles; amaranth; cereals; butter and margarine; lunch meats; grits; sweets; spice; potatoes; asparagus; cottage cheese; kohlrabi; rocket; chocolate assortments; fruit salad; papayas; dairy product; yucca root; chocolate mints; jelly beans; beverage; carrots; oats; tomatoes; prickly pears; rutabagas; toffee brittle; frozen dessert; meat; celery; yoghurt
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+celery is a subtopic of vegetable; kohlrabi is a subtopic of vegetable; asparagus is a subtopic of vegetable; cabbage is a subtopic of vegetable; rocket is a subtopic of vegetable; carrots is a subtopic of vegetable; papayas is a subtopic of fruit; mangos is a subtopic of fruit; tangelos is a subtopic of fruit; grapes is a subtopic of fruit; yucca root is a subtopic of fruit; prickly pears is a subtopic of fruit; squashes is a subtopic of vegetable; rutabagas is a subtopic of vegetable; potatoes is a subtopic of vegetable; tomatoes is a subtopic of vegetable; amaranth is a subtopic of cereals; oats is a subtopic of cereals; rye is a subtopic of cereals; yoghurt is a subtopic of dairy product; cottage cheese is a subtopic of dairy product; butter and margarine is a subtopic of dairy product; frozen yoghurt is a subtopic of dairy product; caramels is a subtopic of sweets; chocolate truffles is a subtopic of sweets; jelly beans is a subtopic of sweets; toffee brittle is a subtopic of sweets; chocolate mints is a subtopic of sweets; fruit salad is a subtopic of sweets; fruit chews is a subtopic of sweets; popsicles is a subtopic of frozen dessert; frozen dessert is a subtopic of sweets; chocolate assortments is a subtopic of sweets; beverage is a subtopic of food; lunch meats is a subtopic of meat; meat is a subtopic of food; spice is a subtopic of food; eggs is a subtopic of food; taro root is a subtopic of vegetable; gobo root is a subtopic of vegetable; watercress is a subtopic of vegetable; yu choy is a subtopic of vegetable; yucca root is a subtopic of vegetable; amaranth is a subtopic of cereals; oats is a subtopic of cereals; rye is a subtopic of cereals; asparagus is a subtopic of vegetable; kohlrabi is a subtopic of vegetable; caramels is a subtopic of sweets; chocolate truffles is a subtopic of sweets; jelly beans is a subtopic of sweets; toffee brittle is a subtopic of sweets; chocolate mints is a subtopic of sweets; fruit salad is a subtopic of sweets; fruit chews is a subtopic of sweets; popsicles is a subtopic of frozen dessert; frozen dessert is a subtopic of sweets; chocolate assortments is a subtopic of sweets; beverage is a subtopic of food; lunch meats is a subtopic of meat; meat is a subtopic of food; spice is a subtopic of food; eggs is a subtopic of food; sacchettoni is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food; sacchettoni is a subtopic of pasta; spaghetti is a subtopic of pasta; pasta is a subtopic of food; food is a subtopic of food; vegetable is a subtopic of food; fruit is a subtopic of food; sweets is a subtopic of food; dairy product is a subtopic of food; cereals is a subtopic of food; beverage is a subtopic of food; meat is a subtopic of food; spice is a subtopic of food; eggs is a subtopic of food; food is a subtopic of food; vegetable is a subtopic of food; fruit is a subtopic of food; sweets is a subtopic of food; dairy product is a subtopic of food; cereals is a subtopic of food; beverage is a subtopic of food; meat is a subtopic of food; spice is a subtopic of food; eggs is a subtopic of food; 
+Note: The above list is a bit redundant as it repeats the same relationships multiple times. I have tried to remove the redundant relationships to make the list more concise.
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 87
+
+Parsed relationships:
+  celery → vegetable
+  kohlrabi → vegetable
+  asparagus → vegetable
+  cabbage → vegetable
+  rocket → vegetable
+  carrots → vegetable
+  papayas → fruit
+  mangos → fruit
+  tangelos → fruit
+  grapes → fruit
+  yucca root → fruit
+  prickly pears → fruit
+  squashes → vegetable
+  rutabagas → vegetable
+  potatoes → vegetable
+  tomatoes → vegetable
+  amaranth → cereals
+  oats → cereals
+  rye → cereals
+  yoghurt → dairy product
+  cottage cheese → dairy product
+  butter and margarine → dairy product
+  frozen yoghurt → dairy product
+  caramels → sweets
+  chocolate truffles → sweets
+  jelly beans → sweets
+  toffee brittle → sweets
+  chocolate mints → sweets
+  fruit salad → sweets
+  fruit chews → sweets
+  popsicles → frozen dessert
+  frozen dessert → sweets
+  chocolate assortments → sweets
+  beverage → food
+  lunch meats → meat
+  meat → food
+  spice → food
+  eggs → food
+  taro root → vegetable
+  gobo root → vegetable
+  watercress → vegetable
+  yu choy → vegetable
+  yucca root → vegetable
+  amaranth → cereals
+  oats → cereals
+  rye → cereals
+  asparagus → vegetable
+  kohlrabi → vegetable
+  caramels → sweets
+  chocolate truffles → sweets
+  jelly beans → sweets
+  toffee brittle → sweets
+  chocolate mints → sweets
+  fruit salad → sweets
+  fruit chews → sweets
+  popsicles → frozen dessert
+  frozen dessert → sweets
+  chocolate assortments → sweets
+  beverage → food
+  lunch meats → meat
+  meat → food
+  spice → food
+  eggs → food
+  sacchettoni → pasta
+  spaghetti → pasta
+  pasta → food
+  sacchettoni → pasta
+  spaghetti → pasta
+  pasta → food
+  vegetable → food
+  fruit → food
+  sweets → food
+  dairy product → food
+  cereals → food
+  beverage → food
+  meat → food
+  spice → food
+  eggs → food
+  vegetable → food
+  fruit → food
+  sweets → food
+  dairy product → food
+  cereals → food
+  beverage → food
+  meat → food
+  spice → food
+  eggs → food
+
+================================================================================

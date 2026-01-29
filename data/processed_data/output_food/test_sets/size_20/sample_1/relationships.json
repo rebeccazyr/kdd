@@ -1,0 +1,97 @@
+[
+  {
+    "child_name": "spätzle",
+    "parent_name": "noodle",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "pecans",
+    "parent_name": "seeds",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "noodle",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "shirataki noodles",
+    "parent_name": "noodle",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "pistachios",
+    "parent_name": "seeds",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "yaki udon",
+    "parent_name": "noodle",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "silver needle noodles",
+    "parent_name": "noodle",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "dandan noodles",
+    "parent_name": "noodle",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "popsicles",
+    "parent_name": "frozen dessert",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "cereals",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "cooking ingredient",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "seeds",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "frozen meat",
+    "parent_name": "meat",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "chocolate covered nuts",
+    "parent_name": "seeds",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "korean noodles",
+    "parent_name": "noodle",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "beef",
+    "parent_name": "meat",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "brési",
+    "parent_name": "beef",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "frozen dessert",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  },
+  {
+    "child_name": "meat",
+    "parent_name": "food",
+    "relation_type": "IsA"
+  }
+]

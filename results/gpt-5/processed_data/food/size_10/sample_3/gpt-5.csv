@@ -1,0 +1,10 @@
+child,parent
+rice,cereals
+grits,cereals
+cereals,food
+cooking ingredient,food
+tomato paste,cooking ingredient
+prepared food,food
+dip,prepared food
+jams and preserves,prepared food
+apple butter,jams and preserves

@@ -1,0 +1,301 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: pasta; cannelloni; spaghetti; pici; food; bavette; occhi di lupo; gemelli; fagottini; fusilli
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+pasta is a subtopic of food; pici is a subtopic of pasta; fagottini is a subtopic of pasta; gemelli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; bavette is a subtopic of pasta; cannelloni is a subtopic of pasta; spaghetti is a subtopic of pasta; fusilli is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: mezzelune; linguine; spaghetti; rotini; pasta; sacchettoni; corzetti; food; fuži; croxetti
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+corzetti is a subtopic of pasta; fuži is a subtopic of pasta; croxetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; linguine is a subtopic of pasta; mezzelune is a subtopic of pasta; pasta is a subtopic of food; rotini is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: anellini; corzetti; garganelli; mezzelune; stringozzi; pasta; fuži; bigoli; occhi di lupo; food
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+occhi di lupo is a subtopic of pasta; fuži is a subtopic of pasta; garganelli is a subtopic of pasta; pasta is a subtopic of food; anellini is a subtopic of pasta; mezzelune is a subtopic of pasta; bigoli is a subtopic of pasta; corzetti is a subtopic of pasta; stringozzi is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: campanelle; rotini; food; spaghetti; pasta; casoncelli; macaroni; ptitim; lanterne; passatelli
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+lanterne is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of pasta; spaghetti is a subtopic of pasta; rotini is a subtopic of pasta; macaroni is a subtopic of pasta; casoncelli is a subtopic of pasta; campanelle is a subtopic of pasta; passatelli is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: pasta; ptitim; food; sacchettoni; spaghetti; rotelle; penne; mezzelune; stringozzi; rotini
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+rotini is a subtopic of pasta; pasta is a subtopic of food; stringozzi is a subtopic of pasta; penne is a subtopic of pasta; sacchettoni is a subtopic of pasta; spaghetti is a subtopic of pasta; rotelle is a subtopic of pasta; ptitim is a subtopic of pasta; mezzelune is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: baking soda; pretzel mixes; food; fruit-flavoured drinks; marshmallows; salsa golf; beer; taco shells; eggs; salt; chikhirtma; sauce; prepared food; molasses; cooking starch; baking mixes; evaporated milk; svartsoppa; cooking oil; water; cream; curry ketchup; vinegar drinks; floss sugar; cooking ingredient; rouille; wine; white wine; spice; bakery; cottage cheese; corn syrup; soy product; soup; cocktail mixes; powdered beverage mixes; pie; eggnog; sangria; coffee cakes; dairy product; flour; olive oil; beverage; condiment; sancocho; bitters; cheese; dessert platters; yoghurt
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+baking mixes is a subtopic of food; baking soda is a subtopic of food; beer is a subtopic of food; beverage is a subtopic of food; bitters is a subtopic of food; cheese is a subtopic of food; chikhirtma is a subtopic of food; cocktail mixes is a subtopic of food; coffee cakes is a subtopic of food; condiment is a subtopic of food; cooking ingredient is a subtopic of food; cooking oil is a subtopic of food; cooking starch is a subtopic of food; cottage cheese is a subtopic of food; cream is a subtopic of food; curry ketchup is a subtopic of food; dairy product is a subtopic of food; dessert platters is a subtopic of food; eggs is a subtopic of food; evaporated milk is a subtopic of food; flour is a subtopic of food; fruit-flavoured drinks is a subtopic of food; floss sugar is a subtopic of food; marshmallows is a subtopic of food; molasses is a subtopic of food; olive oil is a subtopic of food; pie is a subtopic of food; powdered beverage mixes is a subtopic of food; prepared food is a subtopic of food; rouille is a subtopic of food; salt is a subtopic of food; sancocho is a subtopic of food; sauce is a subtopic of food; salsa golf is a subtopic of food; sangria is a subtopic of food; soy product is a subtopic of food; spice is a subtopic of food; svartsoppa is a subtopic of food; taco shells is a subtopic of food; vinegar drinks is a subtopic of food; water is a subtopic of food; white wine is a subtopic of food; wine is a subtopic of food; yoghurt is a subtopic of food; bakery is a subtopic of food; baking soda is a subtopic of cooking ingredient; cheese is a subtopic of dairy product; chikhirtma is a subtopic of sauce; coffee cakes is a subtopic of bakery; condiment is a subtopic of sauce; cooking oil is a subtopic of cooking ingredient; cooking starch is a subtopic of cooking ingredient; cottage cheese is a subtopic of dairy product; cream is a subtopic of dairy product; curry ketchup is a subtopic of sauce; dairy product is a subtopic of food; dessert platters is a subtopic of bakery; eggs is a subtopic of dairy product; evaporated milk is a subtopic of dairy product; flour is a subtopic of baking mixes; fruit-flavoured drinks is a subtopic of beverage; floss sugar is a subtopic of baking mixes; marshmallows is a subtopic of bakery; molasses is a subtopic of baking mixes; olive oil is a subtopic of cooking ingredient; pie is a subtopic of bakery; powdered beverage mixes is a subtopic of beverage; prepared food is a subtopic of food; rouille is a subtopic of sauce; salt is a subtopic of cooking ingredient; sancocho is a subtopic of soup; sauce is a subtopic of food; salsa golf is a subtopic of sauce; sangria is a subtopic of beverage; soy product is a subtopic of food; spice is a subtopic of cooking ingredient; svartsoppa is a subtopic of soup; taco shells is a subtopic of prepared food; vinegar drinks is a subtopic of beverage; water is a subtopic of beverage; white wine is a subtopic of beverage; wine is a subtopic of beverage; yoghurt is a subtopic of dairy product; bakery is a subtopic of food; condiment is a subtopic of food; cooking ingredient is a subtopic of food; cooking oil is a subtopic of food; cooking starch is a subtopic of food; dairy product is a subtopic of food; dessert platters is a subtopic of food; eggs is a subtopic of food; evaporated milk is a subtopic of food; flour is a subtopic of food; fruit-flavoured drinks is a subtopic of food; floss sugar is a subtopic of food; marshmallows is a subtopic of food; molasses is a subtopic of food; olive oil is a subtopic of food; pie is a subtopic of food; powdered beverage mixes is a subtopic of food; prepared food is a subtopic of food; rouille is a subtopic of food; salt is a subtopic of food; sancocho is a subtopic of food; sauce is a subtopic of food; salsa golf is a subtopic of food; sangria is a subtopic of food; soy product is a subtopic of food; spice is a subtopic of food; svartsoppa is a subtopic of food; taco shells is a subtopic of food; vinegar drinks is a subtopic of food; water is a subtopic of food; white wine is a subtopic of food; wine is a subtopic of food; yoghurt is a subtopic of food; condiment is a subtopic of sauce; cooking ingredient is a subtopic of food; cooking oil is a subtopic of food; cooking starch is a subtopic of food; dairy product is a subtopic of food; dessert platters is a subtopic of food; eggs is a subtopic of food; evaporated milk is a subtopic of food; flour is a subtopic of food; fruit-flavoured drinks is a subtopic of food; floss sugar is a subtopic of food; marshmallows is a subtopic of food; molasses is a subtopic of food; olive oil is a subtopic of food; pie is a subtopic of food; powdered beverage mixes is a subtopic of food; prepared food is a subtopic of food; rouille is a subtopic of food; salt is a subtopic of food; sancocho is a subtopic of food; sauce is a subtopic of food; salsa golf is a subtopic of food; sangria is a subtopic of food; soy product is a subtopic of food; spice is a subtopic of food; svartsoppa is a subtopic of food; taco shells is a subtopic of food; vinegar drinks is a subtopic of food; water is a subtopic of food; white wine is a subtopic of food; wine is a subtopic of food; yoghurt is a subtopic of food; condiment is a subtopic of food; cooking ingredient is a subtopic of food; cooking oil is a subtopic of food; cooking starch is a subtopic of food; dairy product is a subtopic of food; dessert platters is a subtopic of food; eggs is a subtopic of food; evaporated milk is a subtopic of food; flour is a subtopic of food; fruit-flavoured drinks is a subtopic of food; floss sugar is a subtopic of food; marshmallows is a subtopic of food; molasses is a subtopic of food; olive oil is a subtopic of food; pie is a subtopic of food; powdered beverage mixes is a subtopic of food; prepared food is a subtopic of food; rouille is a subtopic of food; salt is a subtopic of food; sancocho is a subtopic of food; sauce is a subtopic of food; salsa golf is a subtopic of food; sangria is a subtopic of food; soy product is a subtopic of food; spice is a subtopic of food; svartsoppa is a subtopic of food; taco shells is a subtopic of food; vinegar drinks is a subtopic of food; water is a subtopic of food; white wine is a subtopic of food; wine is a subtopic of food; yoghurt is a subtopic of food; condiment is a subtopic of food; cooking ingredient is a subtopic of food; cooking oil is a subtopic of food; cooking starch is a subtopic of food; dairy product is a subtopic of food; dessert platters is a subtopic of food; eggs is a subtopic of food; evaporated milk is a subtopic of food; flour is a subtopic of food; fruit-flavoured drinks is a subtopic of food; floss sugar is a subtopic of food; marshmallows is a subtopic of food; molasses is a subtopic of food; olive oil is a subtopic of food; pie is a subtopic of food; powdered beverage mixes is a subtopic of food; prepared food is a subtopic of food; rouille is a subtopic of food; salt is a subtopic of food; sancocho is a subtopic of food; sauce is a subtopic of food; salsa golf is a subtopic of food; sangria is a subtopic of food; soy product is a subtopic of food; spice is a subtopic of food; svartsoppa is a subtopic of food; taco shells is a subtopic of food; vinegar drinks is a subtopic of food; water is a subtopic of food; white wine is a subtopic of food; wine is a subtopic of food; yoghurt is a subtopic of food; condiment is a subtopic of food; cooking ingredient is a subtopic of food; cooking oil is a subtopic of food; cooking starch is a subtopic of food; dairy product is a subtopic of food; dessert platters is a subtopic of food; eggs is a subtopic of food; evaporated milk is a subtopic of food; flour is a subtopic of food; fruit-flavoured drinks is a subtopic of food; floss sugar is a subtopic of
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 222
+
+Parsed relationships:
+  baking mixes → food
+  baking soda → food
+  beer → food
+  beverage → food
+  bitters → food
+  cheese → food
+  chikhirtma → food
+  cocktail mixes → food
+  coffee cakes → food
+  condiment → food
+  cooking ingredient → food
+  cooking oil → food
+  cooking starch → food
+  cottage cheese → food
+  cream → food
+  curry ketchup → food
+  dairy product → food
+  dessert platters → food
+  eggs → food
+  evaporated milk → food
+  flour → food
+  fruit-flavoured drinks → food
+  floss sugar → food
+  marshmallows → food
+  molasses → food
+  olive oil → food
+  pie → food
+  powdered beverage mixes → food
+  prepared food → food
+  rouille → food
+  salt → food
+  sancocho → food
+  sauce → food
+  salsa golf → food
+  sangria → food
+  soy product → food
+  spice → food
+  svartsoppa → food
+  taco shells → food
+  vinegar drinks → food
+  water → food
+  white wine → food
+  wine → food
+  yoghurt → food
+  bakery → food
+  baking soda → cooking ingredient
+  cheese → dairy product
+  chikhirtma → sauce
+  coffee cakes → bakery
+  condiment → sauce
+  cooking oil → cooking ingredient
+  cooking starch → cooking ingredient
+  cottage cheese → dairy product
+  cream → dairy product
+  curry ketchup → sauce
+  dairy product → food
+  dessert platters → bakery
+  eggs → dairy product
+  evaporated milk → dairy product
+  flour → baking mixes
+  fruit-flavoured drinks → beverage
+  floss sugar → baking mixes
+  marshmallows → bakery
+  molasses → baking mixes
+  olive oil → cooking ingredient
+  pie → bakery
+  powdered beverage mixes → beverage
+  prepared food → food
+  rouille → sauce
+  salt → cooking ingredient
+  sancocho → soup
+  sauce → food
+  salsa golf → sauce
+  sangria → beverage
+  soy product → food
+  spice → cooking ingredient
+  svartsoppa → soup
+  taco shells → prepared food
+  vinegar drinks → beverage
+  water → beverage
+  white wine → beverage
+  wine → beverage
+  yoghurt → dairy product
+  bakery → food
+  condiment → food
+  cooking ingredient → food
+  cooking oil → food
+  cooking starch → food
+  dairy product → food
+  dessert platters → food
+  eggs → food
+  evaporated milk → food
+  flour → food
+  fruit-flavoured drinks → food
+  floss sugar → food
+  marshmallows → food
+  molasses → food
+  olive oil → food
+  pie → food
+  powdered beverage mixes → food
+  prepared food → food
+  rouille → food
+  salt → food
+  sancocho → food
+  sauce → food
+  salsa golf → food
+  sangria → food
+  soy product → food
+  spice → food
+  svartsoppa → food
+  taco shells → food
+  vinegar drinks → food
+  water → food
+  white wine → food
+  wine → food
+  yoghurt → food
+  condiment → sauce
+  cooking ingredient → food
+  cooking oil → food
+  cooking starch → food
+  dairy product → food
+  dessert platters → food
+  eggs → food
+  evaporated milk → food
+  flour → food
+  fruit-flavoured drinks → food
+  floss sugar → food
+  marshmallows → food
+  molasses → food
+  olive oil → food
+  pie → food
+  powdered beverage mixes → food
+  prepared food → food
+  rouille → food
+  salt → food
+  sancocho → food
+  sauce → food
+  salsa golf → food
+  sangria → food
+  soy product → food
+  spice → food
+  svartsoppa → food
+  taco shells → food
+  vinegar drinks → food
+  water → food
+  white wine → food
+  wine → food
+  yoghurt → food
+  condiment → food
+  cooking ingredient → food
+  cooking oil → food
+  cooking starch → food
+  dairy product → food
+  dessert platters → food
+  eggs → food
+  evaporated milk → food
+  flour → food
+  fruit-flavoured drinks → food
+  floss sugar → food
+  marshmallows → food
+  molasses → food
+  olive oil → food
+  pie → food
+  powdered beverage mixes → food
+  prepared food → food
+  rouille → food
+  salt → food
+  sancocho → food
+  sauce → food
+  salsa golf → food
+  sangria → food
+  soy product → food
+  spice → food
+  svartsoppa → food
+  taco shells → food
+  vinegar drinks → food
+  water → food
+  white wine → food
+  wine → food
+  yoghurt → food
+  condiment → food
+  cooking ingredient → food
+  cooking oil → food
+  cooking starch → food
+  dairy product → food
+  dessert platters → food
+  eggs → food
+  evaporated milk → food
+  flour → food
+  fruit-flavoured drinks → food
+  floss sugar → food
+  marshmallows → food
+  molasses → food
+  olive oil → food
+  pie → food
+  powdered beverage mixes → food
+  prepared food → food
+  rouille → food
+  salt → food
+  sancocho → food
+  sauce → food
+  salsa golf → food
+  sangria → food
+  soy product → food
+  spice → food
+  svartsoppa → food
+  taco shells → food
+  vinegar drinks → food
+  water → food
+  white wine → food
+  wine → food
+  yoghurt → food
+  condiment → food
+  cooking ingredient → food
+  cooking oil → food
+  cooking starch → food
+  dairy product → food
+  dessert platters → food
+  eggs → food
+  evaporated milk → food
+  flour → food
+  fruit-flavoured drinks → food
+
+================================================================================

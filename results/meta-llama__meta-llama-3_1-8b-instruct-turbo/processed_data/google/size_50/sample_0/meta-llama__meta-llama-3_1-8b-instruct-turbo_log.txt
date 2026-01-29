@@ -1,0 +1,130 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Reloading Supplies & Equipment; Gun Care & Accessories; Gun Holsters; Spears; Mature; Combat Knives; Ammunition Cases & Holders; Google Product Taxonomy; Staff & Stick Weapons; Weapons
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Gun Holsters is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Combat Knives is a subtopic of Weapons; Weapons is a subtopic of Mature; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Stun Guns & Tasers; Gun Lights; Gun Care & Accessories; Swords; Mature; Staff & Stick Weapons; Google Product Taxonomy; Ammunition; Gun Cases & Range Bags; Weapons
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Swords is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Gun Lights is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Mature; Gun Care & Accessories; Guns; Throwing Stars; Whips; Weapons; Stun Guns & Tasers; Google Product Taxonomy; Erotic; Nunchucks
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Stun Guns & Tasers is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Whips is a subtopic of Weapons; Erotic is a subtopic of Mature; Gun Care & Accessories is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Weapons is a subtopic of Mature; Guns is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic; Mature; Erotic Clothing; Erotic DVDs & Videos; Google Product Taxonomy; Pole Dancing Kits; Erotic Food & Edibles; Erotic Games; Erotic Books; Erotic Magazines
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Clothing is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Erotic Books is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic Games is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Gun Slings; Weapons; Mature; Gun Grips; Spears; Stun Guns & Tasers; Gun Care & Accessories; Google Product Taxonomy; Swords; Staff & Stick Weapons
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Weapons is a subtopic of Mature; Gun Slings is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Swords is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Stun Guns & Tasers is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Duffel Bags; Luggage & Bags; Lighting; Tableware; Security System Sensors; Office Supplies; Hardware Pumps; Lamps; Animals & Pet Supplies; Home Alarm Systems; Baby Monitors; Fireplaces; Furniture; Baby Toys & Activity Equipment; Benches; Nursing & Feeding; Fanny Packs; Hardware; Lawn & Garden; Fuel; Baby & Toddler; Pool & Spa; Smoking Accessories; Backpacks; Outdoor Tables; Lighting Accessories; Outdoor Beds; Briefcases; Night Lights & Ambient Lighting; Google Product Taxonomy; Heating, Ventilation & Air Conditioning; Baby Safety; Flatware; Home & Garden; Floating & Submersible Lights; Food Storage; Motion Sensors; Security Lights; Tables; Business & Home Security; Outdoor Furniture; Poker & Game Tables; Baby Care Timers; Kitchen & Dining; Seeds; Sippy Cups; Plants; Outdoor Furniture Accessories; Nursing Pillow Covers; Storage Tanks
+Relationships: 
+
+================================================================================
+Number of entities: 50
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Baby Monitors is a subtopic of Baby & Toddler; Baby Safety is a subtopic of Baby & Toddler; Baby Toys & Activity Equipment is a subtopic of Baby & Toddler; Baby Care Timers is a subtopic of Baby & Toddler; Fanny Packs is a subtopic of Luggage & Bags; Luggage & Bags is a subtopic of Home & Garden; Duffel Bags is a subtopic of Luggage & Bags; Briefcases is a subtopic of Luggage & Bags; Backpacks is a subtopic of Luggage & Bags; Outdoor Tables is a subtopic of Home & Garden; Tables is a subtopic of Home & Garden; Poker & Game Tables is a subtopic of Home & Garden; Outdoor Furniture is a subtopic of Home & Garden; Outdoor Furniture Accessories is a subtopic of Home & Garden; Benches is a subtopic of Home & Garden; Furniture is a subtopic of Home & Garden; Fireplaces is a subtopic of Home & Garden; Lawn & Garden is a subtopic of Home & Garden; Seeds is a subtopic of Lawn & Garden; Plants is a subtopic of Lawn & Garden; Pool & Spa is a subtopic of Home & Garden; Outdoor Beds is a subtopic of Home & Garden; Home Alarm Systems is a subtopic of Business & Home Security; Security System Sensors is a subtopic of Business & Home Security; Motion Sensors is a subtopic of Business & Home Security; Security Lights is a subtopic of Business & Home Security; Lighting is a subtopic of Home & Garden; Lamps is a subtopic of Lighting; Lighting Accessories is a subtopic of Lighting; Night Lights & Ambient Lighting is a subtopic of Lighting; Floating & Submersible Lights is a subtopic of Lighting; Tableware is a subtopic of Kitchen & Dining; Flatware is a subtopic of Tableware; Food Storage is a subtopic of Kitchen & Dining; Sippy Cups is a subtopic of Kitchen & Dining; Nursing & Feeding is a subtopic of Baby & Toddler; Nursing Pillow Covers is a subtopic of Nursing & Feeding; Storage Tanks is a subtopic of Hardware; Hardware Pumps is a subtopic of Hardware; Fuel is a subtopic of Hardware; Hardware is a subtopic of Home & Garden; Smoking Accessories is a subtopic of Hardware; Office Supplies is a subtopic of Home & Garden; Home & Garden is a subtopic of Google Product Taxonomy; Google Product Taxonomy is a subtopic of itself; Heating, Ventilation & Air Conditioning is a subtopic of Home & Garden; Animals & Pet Supplies is a subtopic of Home & Garden; Baby & Toddler is a subtopic of Home & Garden; Lawn & Garden is a subtopic of Home & Garden; Outdoor is a subtopic of Home & Garden; Home & Garden is a subtopic of Google Product Taxonomy
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 51
+
+Parsed relationships:
+  Baby Monitors → Baby & Toddler
+  Baby Safety → Baby & Toddler
+  Baby Toys & Activity Equipment → Baby & Toddler
+  Baby Care Timers → Baby & Toddler
+  Fanny Packs → Luggage & Bags
+  Luggage & Bags → Home & Garden
+  Duffel Bags → Luggage & Bags
+  Briefcases → Luggage & Bags
+  Backpacks → Luggage & Bags
+  Outdoor Tables → Home & Garden
+  Tables → Home & Garden
+  Poker & Game Tables → Home & Garden
+  Outdoor Furniture → Home & Garden
+  Outdoor Furniture Accessories → Home & Garden
+  Benches → Home & Garden
+  Furniture → Home & Garden
+  Fireplaces → Home & Garden
+  Lawn & Garden → Home & Garden
+  Seeds → Lawn & Garden
+  Plants → Lawn & Garden
+  Pool & Spa → Home & Garden
+  Outdoor Beds → Home & Garden
+  Home Alarm Systems → Business & Home Security
+  Security System Sensors → Business & Home Security
+  Motion Sensors → Business & Home Security
+  Security Lights → Business & Home Security
+  Lighting → Home & Garden
+  Lamps → Lighting
+  Lighting Accessories → Lighting
+  Night Lights & Ambient Lighting → Lighting
+  Floating & Submersible Lights → Lighting
+  Tableware → Kitchen & Dining
+  Flatware → Tableware
+  Food Storage → Kitchen & Dining
+  Sippy Cups → Kitchen & Dining
+  Nursing & Feeding → Baby & Toddler
+  Nursing Pillow Covers → Nursing & Feeding
+  Storage Tanks → Hardware
+  Hardware Pumps → Hardware
+  Fuel → Hardware
+  Hardware → Home & Garden
+  Smoking Accessories → Hardware
+  Office Supplies → Home & Garden
+  Home & Garden → Google Product Taxonomy
+  Google Product Taxonomy → itself
+  Heating, Ventilation & Air Conditioning → Home & Garden
+  Animals & Pet Supplies → Home & Garden
+  Baby & Toddler → Home & Garden
+  Lawn & Garden → Home & Garden
+  Outdoor → Home & Garden
+  Home & Garden → Google Product Taxonomy
+
+================================================================================

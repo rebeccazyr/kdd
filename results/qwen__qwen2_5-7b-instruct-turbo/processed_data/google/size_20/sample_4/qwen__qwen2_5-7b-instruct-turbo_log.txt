@@ -1,0 +1,97 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Combat Knives; Reloading Supplies & Equipment; Mature; Gun Care & Accessories; Google Product Taxonomy; Weapons; Ammunition Cases & Holders; Spears; Staff & Stick Weapons; Gun Holsters
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Combat Knives is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Weapons; Google Product Taxonomy; Staff & Stick Weapons; Gun Lights; Mature; Stun Guns & Tasers; Gun Cases & Range Bags; Swords; Gun Care & Accessories; Ammunition
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Gun Lights is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Stun Guns & Tasers is a subtopic of Weapons; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Swords is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Nunchucks; Gun Care & Accessories; Throwing Stars; Mature; Guns; Whips; Weapons; Erotic; Google Product Taxonomy; Stun Guns & Tasers
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Erotic is a subtopic of Mature; Whips is a subtopic of Weapons; Nunchucks is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Weapons is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Guns is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Clothing; Erotic DVDs & Videos; Erotic Food & Edibles; Erotic Magazines; Erotic Books; Pole Dancing Kits; Erotic; Erotic Games; Google Product Taxonomy; Mature
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Erotic Food & Edibles is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Clothing is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Erotic Games is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic is a subtopic of Mature
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Stun Guns & Tasers; Staff & Stick Weapons; Gun Slings; Weapons; Swords; Gun Care & Accessories; Spears; Gun Grips; Google Product Taxonomy; Mature
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Staff & Stick Weapons is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Weapons is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Swords is a subtopic of Weapons; Gun Grips is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Luggage & Bags; Media; Arts & Entertainment; Computers; Circuit Boards & Components; Building Consumables; Hardware; Baby & Toddler; Fencing & Barriers; Religious & Ceremonial; Event Tickets; Apparel & Accessories; Google Product Taxonomy; Scanners; Heating, Ventilation & Air Conditioning; Electronics; Train Cases; Print, Copy, Scan & Fax; Speed Radars; GPS Navigation Systems
+Relationships: 
+
+================================================================================
+Number of entities: 20
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Luggage & Bags is a subtopic of Hardware; Media is a subtopic of Arts & Entertainment; Arts & Entertainment is a subtopic of Google Product Taxonomy; Computers is a subtopic of Electronics; Circuit Boards & Components is a subtopic of Electronics; Building Consumables is a subtopic of Hardware; Hardware is a subtopic of Google Product Taxonomy; Baby & Toddler is a subtopic of Hardware; Fencing & Barriers is a subtopic of Building Consumables; Religious & Ceremonial is a subtopic of Arts & Entertainment; Event Tickets is a subtopic of Arts & Entertainment; Apparel & Accessories is a subtopic of Hardware; Scanners is a subtopic of Electronics; Heating, Ventilation & Air Conditioning is a subtopic of Hardware; Train Cases is a subtopic of Luggage & Bags; Print, Copy, Scan & Fax is a subtopic of Electronics; Speed Radars is a subtopic of Electronics; GPS Navigation Systems is a subtopic of Electronics
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 18
+
+Parsed relationships:
+  Luggage & Bags → Hardware
+  Media → Arts & Entertainment
+  Arts & Entertainment → Google Product Taxonomy
+  Computers → Electronics
+  Circuit Boards & Components → Electronics
+  Building Consumables → Hardware
+  Hardware → Google Product Taxonomy
+  Baby & Toddler → Hardware
+  Fencing & Barriers → Building Consumables
+  Religious & Ceremonial → Arts & Entertainment
+  Event Tickets → Arts & Entertainment
+  Apparel & Accessories → Hardware
+  Scanners → Electronics
+  Heating, Ventilation & Air Conditioning → Hardware
+  Train Cases → Luggage & Bags
+  Print, Copy, Scan & Fax → Electronics
+  Speed Radars → Electronics
+  GPS Navigation Systems → Electronics
+
+================================================================================

@@ -1,0 +1,407 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Spears; Mature; Combat Knives; Staff & Stick Weapons; Reloading Supplies & Equipment; Ammunition Cases & Holders; Google Product Taxonomy; Gun Care & Accessories; Gun Holsters; Weapons
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Gun Care & Accessories is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Combat Knives is a subtopic of Weapons; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Gun Holsters is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Spears is a subtopic of Weapons
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Gun Lights; Mature; Staff & Stick Weapons; Gun Cases & Range Bags; Ammunition; Gun Care & Accessories; Weapons; Google Product Taxonomy; Swords; Stun Guns & Tasers
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Gun Lights is a subtopic of Gun Care & Accessories; Staff & Stick Weapons is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Ammunition is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Weapons is a subtopic of Mature; Stun Guns & Tasers is a subtopic of Weapons; Swords is a subtopic of Weapons; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Nunchucks; Stun Guns & Tasers; Guns; Weapons; Whips; Throwing Stars; Mature; Gun Care & Accessories; Erotic; Google Product Taxonomy
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Nunchucks is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Whips is a subtopic of Weapons; Guns is a subtopic of Weapons; Erotic is a subtopic of Mature; Weapons is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Pole Dancing Kits; Erotic DVDs & Videos; Google Product Taxonomy; Mature; Erotic Magazines; Erotic Clothing; Erotic Food & Edibles; Erotic Games; Erotic Books; Erotic
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Food & Edibles is a subtopic of Erotic; Mature is a subtopic of Google Product Taxonomy; Erotic Games is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Magazines is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic; Erotic is a subtopic of Mature; Erotic Clothing is a subtopic of Erotic; Erotic Books is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Spears; Weapons; Mature; Google Product Taxonomy; Gun Grips; Staff & Stick Weapons; Gun Slings; Stun Guns & Tasers; Swords; Gun Care & Accessories
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Weapons is a subtopic of Mature; Gun Grips is a subtopic of Gun Care & Accessories; Gun Slings is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Spears is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Swords is a subtopic of Weapons
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Duffel Bags; Keyboard Protectors; Computer Risers & Stands; Table Legs; Replacement Shelves; Network Storage Systems; Handbags, Wallets & Cases; Motor Vehicle Power & Electrical Systems; Motor Vehicle Braking; RAM; Crib & Toddler Bed Accessories; Cameras & Optics; Hang Gliding & Skydiving; Messenger Bags; Office Furniture Accessories; Stylus Pens; Golf Tees; Electronics Films & Shields; Motor Vehicle Towing; Barcode Scanners; Video Transmitters; Memory Accessories; Computer Covers & Skins; Baby & Toddler Furniture; Backpacks; Computer Accessory Sets; Ironing Centers; Golf Accessory Sets; Input Device Accessories; Google Product Taxonomy; Anchor Lines & Ropes; Motor Vehicle Engine Parts; Video; Watch Repair Kits; Play Dough & Putty; High Chairs & Booster Seats; Baby Health; Baby Transport Accessories; Furniture Sets; Motor Vehicle Suspension Parts; Vehicle Parts & Accessories; Parachutes; Kitchen Islands; Flying Toy Accessories; Computer Backplates & I/O Shields; China Cabinets & Hutches; Audio & Video Splitters & Switches; Touchpads; Vehicle Hydraulic Clutch Fluid; Crib Conversion Kits; Costumes & Accessories; Media; Docking & Anchoring; Toys & Games; Components; Carts & Islands; Toys; Antenna Accessories; Electronics Accessories; Cosmetic & Toiletry Bags; Outdoor Recreation; Suitcases; Scanner Accessories; USB & FireWire Hubs; Memory; GPS Tracking Devices; Hang Gliders; Motor Vehicle Parts; Table Accessories; 3D Printer Accessories; Diaper Bags; Gesture Control Input Devices; Emergency Preparedness; Magazines & Newspapers; Vehicle Cleaning; Jewelry Cleaning & Care; Desktop Computer & Server Cases; Art & Drawing Toys; Sheet Music; Signal Boosters; Jewelry; Sporting Goods; Floor Chairs; Games; Apparel & Accessories; Optics; Wooden & Pegged Puzzles; Watercraft Steering Parts; Home & Garden; Computer Components; Bassinet & Cradle Accessories; Hard Drives; Bathroom Furniture Sets; Electronics Stickers & Decals; Outdoor Furniture; Baby & Toddler Car Seat Accessories; Circuit Prototyping; Circuit Decoders & Encoders; Aircraft Parts & Accessories; Print, Copy, Scan & Fax; Input Devices; Luggage & Bags; Mouse Pads; Blank Media; Borescopes; Fish Finders; Cameras; Keyboards; Computer Monitors; Video Editing Hardware & Production Equipment; Tape Drives; Furniture; Circuit Boards & Components; Sofa Accessories; Computer System Cooling Parts; 3D Printers; Cables; Chairs; Floppy Drives; Keyboard & Mouse Wrist Rests; Vehicles & Parts; Radar Detectors; Roller Skis; Baby Carrier Accessories; Watercraft Parts & Accessories; Motor Vehicle Frame & Body Parts; Briefcases; Inline Skates; Futons; Ottomans; Fingerprint Readers; Antennas; Cabinets & Storage; Music & Sound Recordings; Kite Buggying; Televisions; Cache Memory; Marine Electronics; Circuit Board Accessories; Electronic Filters; Battle Tops; Golf; Tablet Computer Docks & Stands; E-Book Reader Parts; Electronics; Baby Transport Liners & Sacks; Divot Tools; Surveillance Cameras; Changing Tables; Kitchen & Dining Room Chairs; Garment Bags; Motor Vehicle Transmission & Drivetrain Parts; Tablet Computer Housings & Trim; Crib Bumpers & Liners; Masks; Entertainment Centers & TV Stands; Golf Ball Markers; Inline & Roller Skating; Room Divider Accessories; Futon Pads; Rocking Chairs; File Cabinets; KVM Switches; Vehicle Covers; Motor Vehicle Mirrors; Vehicle Safety Equipment; Puzzles; Bean Bag Chairs; Storage Devices; Vehicle Safety & Security; Carpentry & Woodworking Project Plans; Vehicle Maintenance, Care & Decor; Computer Accessories; Baby & Toddler; Shelving Accessories; Optical Drives; Religious & Ceremonial; Golf Towels; Graphics Tablets; Health & Beauty; Wine Racks; Vehicle Wheel Chocks; Vehicle Fluids; Media Storage Cabinets & Racks; Shoes; Telephone Cables; Vehicle Storage & Cargo; Costume Shoes; Flash Memory; Computer Starter Kits; Software; Cribs & Toddler Beds; Tablet Computer Parts; Train Cases; Game Controllers; Magazines; Watercraft Fuel Systems; Video Servers; Hydration System Accessories; Mobile Phone & Tablet Tripods & Monopods
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Creating a taxonomy from this extensive list of concepts involves organizing them into a hierarchical structure. Here's a simplified version of the taxonomy:
+
+1. **Google Product Taxonomy**
+   - **Baby & Toddler**
+     - Baby & Toddler Furniture
+       - Cribs & Toddler Beds
+         - Crib & Toddler Bed Accessories
+         - Crib Conversion Kits
+         - Crib Bumpers & Liners
+     - Baby Health
+     - Baby Transport Accessories
+       - Baby Transport Liners & Sacks
+     - Baby & Toddler Car Seat Accessories
+   - **Computers & Electronics**
+     - Computer Accessories
+       - Computer Monitors
+       - Computer Covers & Skins
+       - Computer Backplates & I/O Shields
+       - Computer Components
+         - RAM
+         - Hard Drives
+         - Optical Drives
+         - Memory
+         - Cache Memory
+         - Floppy Drives
+         - Tape Drives
+         - USB & FireWire Hubs
+         - Audio & Video Splitters
+         - Video Editing Hardware & Production Equipment
+         - Print, Copy, Scan & Fax
+         - Input Devices
+           - Keyboards
+           - Mice
+           - Stylus Pens
+           - Touchpads
+           - Gesture Control Input Devices
+           - Mouse Pads
+           - Keyboard & Mouse Wrist Rests
+         - Computer System Cooling Parts
+         - Computer Starter Kits
+         - Desktop Computer & Server Cases
+         - Computer Accessory Sets
+         - Computer System Cooling Parts
+         - Computer Backplates & I/O Shields
+         - Computer Monitors
+         - Computer Covers & Skins
+         - Computer Components
+       - Computer Covers & Skins
+       - Computer Monitors
+       - Computer Components
+       - Computer Accessory Sets
+       - Computer System Cooling Parts
+       - Computer Backplates & I/O Shields
+       - Computer Monitors
+       - Computer Covers & Skins
+       - Computer Components
+     - Electronics
+       - Electronics Accessories
+         - Electronics Films & Shields
+         - Electronics Stickers & Decals
+         - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+     - Electronics
+       - Electronics Accessories
+       - Electronics Films & Shields
+       - Electronics Stickers & Decals
+       - Electronics Accessories
+
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

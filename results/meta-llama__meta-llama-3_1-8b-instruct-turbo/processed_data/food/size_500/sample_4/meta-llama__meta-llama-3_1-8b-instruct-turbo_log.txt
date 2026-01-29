@@ -1,0 +1,179 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: fusilli; spaghetti; pici; bavette; occhi di lupo; pasta; cannelloni; gemelli; fagottini; food
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+fagottini is a subtopic of pasta; cannelloni is a subtopic of pasta; gemelli is a subtopic of pasta; fusilli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; bavette is a subtopic of pasta; pasta is a subtopic of food; pici is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: rotini; linguine; mezzelune; sacchettoni; food; corzetti; spaghetti; croxetti; fuži; pasta
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+mezzelune is a subtopic of pasta; corzetti is a subtopic of pasta; spaghetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; fuži is a subtopic of pasta; linguine is a subtopic of pasta; pasta is a subtopic of food; rotini is a subtopic of pasta; croxetti is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: pasta; food; anellini; corzetti; stringozzi; garganelli; bigoli; mezzelune; occhi di lupo; fuži
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+garganelli is a subtopic of pasta; mezzelune is a subtopic of pasta; pasta is a subtopic of food; occhi di lupo is a subtopic of pasta; anellini is a subtopic of pasta; bigoli is a subtopic of pasta; fuži is a subtopic of pasta; corzetti is a subtopic of pasta; stringozzi is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: campanelle; rotini; casoncelli; food; lanterne; passatelli; macaroni; ptitim; spaghetti; pasta
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+casoncelli is a subtopic of pasta; pasta is a subtopic of food; ptitim is a subtopic of pasta; macaroni is a subtopic of pasta; lanterne is a subtopic of pasta; rotini is a subtopic of pasta; spaghetti is a subtopic of pasta; passatelli is a subtopic of pasta; campanelle is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: ptitim; mezzelune; penne; pasta; sacchettoni; rotelle; stringozzi; spaghetti; food; rotini
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+rotelle is a subtopic of pasta; mezzelune is a subtopic of pasta; spaghetti is a subtopic of pasta; stringozzi is a subtopic of pasta; rotini is a subtopic of pasta; penne is a subtopic of pasta; ptitim is a subtopic of pasta; sacchettoni is a subtopic of pasta; pasta is a subtopic of food
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: schnapps; ohaw; fruit-flavoured drinks; caruso sauce; egg drop soup; salsa golf; chipped beef; houmous; sweet and sour pork; blood soup; celery roots; nataing; southern illinois chowder; caldo de pollo; cardoon; liver soup; imoni; grits; floss sugar; dalithoy; fisherman's soup; hulatang; soy product; non-dairy frozen dessert; red wine; cake and brownie mixes; gamjatang; prepared side dishes; waffles; yucca root; pork roll; beetroots; cantonese seafood soup; pea soup; sherry; pumpkin soup; kapusniak; jams and preserves; mykyrokka; thenthuk; cornmeal; frying pan dinners; cider; licorice; hodge-podge; broccoli; pottage; macaroni soup; cinnamon; pecel; turnips; cullen skink; bolo de mel; tu; pickles and relishes; empal gentong; pork jowl; black soup; mami soup; whisky; millet; buckwheat; kharcho; fennel bulbs; qingtang wanzi; cucumber soup; gummy sweets; pretzel mixes; hot chocolate; candy bars; marshmallows; waffle and pancake mixes; ground and whole bean coffee; bouillon; vortex ring; oille; bouneschlupp; lasagnette; gobo root; coconut doughnut; pastries; baking powder; cabbage; mala sauce; mbeju; dessert bars; beetroot greens; butter and margarine; on choy; worcestershire sauce; sopa de mondongo; mock turtle soup; granola; powdered tea; cottage cheese; vodka; hundreds and thousands; ribollita; brési; pork tenderloin; chard; mujdei; gourds; energy drinks; red peas soup; yonezawa beef; secca de bœuf; panada; khao poon; gumdrops; dessert toppings; soto ayam; hot sauce; evaporated milk; fruit chews; pepper; cooking ingredient; frozen meat; chocolate bars; noodle soup; bread soup; tinned soup; soup; tom kha kai; pan de pascua; pie; bak kut teh; miso soup; jelly beans; changua; consommé; hard sauce; sujebi; instant soup; sugar cane; tacacá; hochzeitssuppe; ukha; chancaca; pig's organ soup; she-crab soup; sushi; cake; dandan noodles; gai lan; vinegar drinks; rouille; ginger root; peppers; kohlrabi; xo sauce; chocolate assortments; poppy milk; korean noodle; dairy product; garbure; jerusalem artichokes; cheese spread; bottled water; harira; prežganka; marinade; boiled sweets; prepared main courses; ponzu; water chestnuts; jelly doughnut; pie crusts; rhubarb; laksa; cauliflower; sundae cones; chicory; peach sauce; mulligatawny; beans; dried beans; escudella i carn d'olla; tofu; peanut sauce; tomato paste; potatoes; sopa de pata; styrian sour soup; lollipops; ice cream cones; frejon; lung fung soup; canned and jarred vegetable; frozen dessert; wow-wow sauce; doughnut; cupcakes; tian mo; quinoa; marshmallow sweets; spinach; bresaola; candy corn; ajiaco; mushrooms; curry ketchup; crossing the bridge noodles; bisque; sour cherry soup; sinigang; gazpacho; brown bobby; suaasat; bún mắm; deli meats; vallée d'aoste lard d'arnad; sancocho; jewish apple cake; naengguk; herb; food; salsa; apple butter; unni appam; oyster sauce; sopa teologa; almond extract; tamarillos; spring soup; cold borsch; kobe beef; wacky cake; salad mixes; steak sauce; soto; condensed milk; donuts; meat patties; sugar pearls; lettuce; seafood; yeast; frozen dinners; korean noodles; condiment; biscuit mixes; juice; pho; meat; dunkin' donuts; pickled pigs feet; sauce vierge; dashi; noodle; khrenovina sauce; romesco; rice; chicken soup; corn soup; prepared food; pizza sauce; purée mongole; wheatgrass; sweet potatoes; amaranth; soyo; brown windsor soup; soup number five; liquor; tomato soup; rose hip soup; carne de chango; shallots; dip; booyah; binignit; gulyásleves; lolly cake; coffee; tom yum; hyderabadi marag; corn; yu choy; suet; taco soup; artichokes; batter and coating mixes; arracachas; olives and capers; magiritsa; soup all'imperatrice; chikhirtma; baking extracts; peanut butter cups; fish tea; sour cream doughnut; fiddlehead ferns; pique verde boricua; cereals; yam; nali sauce; mints; vanilla extract; lekach; shchi; peas; coriander; goulash; wodzionka; dried soup; pumpkins; side dishes; bitters; béarnaise sauce; crème ninon; kulajda; french toast; dessert platters; oliebol; coffee creamer; cooking wine; carbonade flamande; horseradish sauce; scotch broth; senate bean soup; barley; bolognese sauce; mannish water; caldo verde; kek lapis sarawak; suckers; gai choi; bean sprouts; bottled coffee drinks; corn syrup; brandy; talunan; sorrel; pozole; sweets; corn chowder; satay sauce; babi panggang; oxtail soup; fresh seafood; tortillas; bánh chuối; rassolnik; bread pudding mixes; tinned seafood; fudge; chick peas; dough; cooking starch; tapenade; tekwan; zuppa alla modenese; petit salé; okra; choi sum; sparkling wine; radishes; spice; chorba; jicama; taffy; liqueurs; sangria; katara; czernina; albert sauce; pesto; kissel; garlic; rawon; nettle soup; tianmianjiang; hors d'oeuvres; cupcake; rasam; borscht; tuscan cabbage; watercress; ganjang; ching bo leung; molasses; buttermilk; borage; vegetable; tempeh; gulgukbap; svartsoppa; cream; kyselo; konro; standing rib roast; parkin; chocolate covered fruit; bakery; bok choi; bread crumbs; rocket; dessert wine; chutney; wedding soup; oats; ice cream; koeksister; beurre blanc; frozen seafood; infusion; mustard; chocolate truffles; prepared sandwiches; shambar; beurre noisette; porra antequerana; gumbo; tallow; meatcake; sour cream; zosui; horseradish root; rice wine; turtle soup; fresh meat; rosã© wine; lane cake; lunch meats; nut butters; parsnips; wine; leeks; sorbet; organic beef; french onion soup; powdered beverage mixes; buttermilk koldskål; bún bò huế; shredded coconut; tourin; beef; starter cultures; cream cheese; miyeok guk; bika ambon; malangas; fizzy drinks; gomguk; salad dressings; soup alla canavese; vori vori; salt pork; sour rye soup; tahini; red velvet cake; vegetable dip; hot and sour soup; okroshka; cheez whiz; ciambella; hot dogs; zōni; minestrone; sauce ravigote; sugo all'amatriciana; vichyssoise; beef noodle soup; fanesca; kuy teav; pie fillings; pork; kaeng som; carrots; breakfast sandwiches; sour soup; toffee brittle; vermouth; vinegar; yoghurt; syrup; ajoblanco; parsley roots; siemieniotka; eggs; tartar sauce; cactus leaves; café de paris sauce; baking mixes; sherbet; chewing gum; water; mahyawa; mafalde; leek soup; beer soup; sorrel soup; yaka mein; edible baking decoration; scorcolga; beverage; yi mein; rye; cheese
+Relationships: 
+
+================================================================================
+Number of entities: 500
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very long list of concepts and relationships. I'll try to create a taxonomy for you, but it might be a bit complex.
+
+Here's a simplified taxonomy:
+
+- food
+  - beverage
+    - coffee
+    - tea
+    - juice
+    - soda
+    - wine
+    - beer
+    - liquor
+    - sparkling wine
+  - dairy product
+    - milk
+    - cheese
+    - yogurt
+    - butter
+    - margarine
+  - meat
+    - beef
+    - pork
+    - chicken
+    - fish
+    - seafood
+    - lamb
+    - turkey
+    - duck
+    - game meat
+  - vegetable
+    - leafy greens
+    - root vegetables
+    - cruciferous vegetables
+    - allium vegetables
+    - legumes
+    - corn
+    - peas
+    - beans
+  - fruit
+    - citrus fruits
+    - berries
+    - stone fruits
+    - tropical fruits
+    - apples
+    - pears
+    - bananas
+  - dessert
+    - cakes
+    - pastries
+    - cookies
+    - pies
+    - tarts
+    - ice cream
+    - frozen yogurt
+    - gelato
+  - condiment
+    - ketchup
+    - mustard
+    - mayonnaise
+    - relish
+    - hot sauce
+    - soy sauce
+    - fish sauce
+    - vinegar
+    - oil
+  - soup
+    - clear soups
+    - creamy soups
+    - thick soups
+    - chowders
+    - stews
+    - braises
+  - sauce
+    - marinara
+    - alfredo
+    - BBQ
+    - teriyaki
+    - soy sauce
+    - fish sauce
+    - hot sauce
+    - salsa
+    - guacamole
+  - snack
+    - chips
+    - popcorn
+    - nuts
+    - seeds
+    - dried fruit
+    - energy bars
+    - granola
+  - prepared food
+    - frozen meals
+    - canned goods
+    - packaged snacks
+    - ready-to-eat meals
+    - takeout
+    - delivery
+
+This is a very high-level taxonomy, and there are many subcategories and relationships that are not included here.
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 1
+
+Parsed relationships:
+  This is a very long list of concepts and relationships. I'll try to create a taxonomy for you → but it might be a bit complex
+
+================================================================================

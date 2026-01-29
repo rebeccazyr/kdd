@@ -1,0 +1,293 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Ammunition Cases & Holders; Gun Care & Accessories; Weapons; Spears; Reloading Supplies & Equipment; Gun Holsters; Google Product Taxonomy; Staff & Stick Weapons; Combat Knives; Mature
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Staff & Stick Weapons is a subtopic of Weapons; Weapons is a subtopic of Mature; Combat Knives is a subtopic of Weapons; Ammunition Cases & Holders is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Reloading Supplies & Equipment is a subtopic of Gun Care & Accessories; Spears is a subtopic of Weapons; Gun Holsters is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Ammunition; Mature; Staff & Stick Weapons; Stun Guns & Tasers; Gun Cases & Range Bags; Swords; Google Product Taxonomy; Gun Lights; Weapons; Gun Care & Accessories
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Gun Lights is a subtopic of Gun Care & Accessories; Mature is a subtopic of Google Product Taxonomy; Gun Care & Accessories is a subtopic of Weapons; Gun Cases & Range Bags is a subtopic of Gun Care & Accessories; Weapons is a subtopic of Mature; Ammunition is a subtopic of Gun Care & Accessories; Stun Guns & Tasers is a subtopic of Weapons; Swords is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Weapons; Whips; Nunchucks; Gun Care & Accessories; Erotic; Google Product Taxonomy; Stun Guns & Tasers; Mature; Guns; Throwing Stars
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Weapons is a subtopic of Mature; Guns is a subtopic of Weapons; Mature is a subtopic of Google Product Taxonomy; Whips is a subtopic of Weapons; Erotic is a subtopic of Mature; Nunchucks is a subtopic of Weapons; Throwing Stars is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Gun Care & Accessories is a subtopic of Weapons
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Erotic Magazines; Erotic Games; Erotic Clothing; Google Product Taxonomy; Erotic; Erotic Food & Edibles; Erotic DVDs & Videos; Pole Dancing Kits; Erotic Books; Mature
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Erotic Clothing is a subtopic of Erotic; Erotic DVDs & Videos is a subtopic of Erotic; Erotic Games is a subtopic of Erotic; Erotic Food & Edibles is a subtopic of Erotic; Erotic is a subtopic of Mature; Mature is a subtopic of Google Product Taxonomy; Erotic Magazines is a subtopic of Erotic; Erotic Books is a subtopic of Erotic; Pole Dancing Kits is a subtopic of Erotic
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Weapons; Gun Grips; Gun Slings; Staff & Stick Weapons; Swords; Mature; Stun Guns & Tasers; Gun Care & Accessories; Spears; Google Product Taxonomy
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Mature is a subtopic of Google Product Taxonomy; Spears is a subtopic of Weapons; Weapons is a subtopic of Mature; Gun Grips is a subtopic of Gun Care & Accessories; Gun Care & Accessories is a subtopic of Weapons; Stun Guns & Tasers is a subtopic of Weapons; Swords is a subtopic of Weapons; Staff & Stick Weapons is a subtopic of Weapons; Gun Slings is a subtopic of Gun Care & Accessories
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Laminating Film, Pouches & Sheets; Hanging Chair Replacement Parts; Book Accessories; Vibration Exercise Machines; Replacement Shelves; Handbags, Wallets & Cases; Gaiters; Crib & Toddler Bed Accessories; Cameras & Optics; Messenger Bags; Camera & Optic Accessories; Boot Liners; Field Hockey & Lacrosse; Lacrosse Balls; Vanities; Baby & Toddler Furniture; Cash Boxes; Office Furniture; Mounting Putty; Ironing Centers; Google Product Taxonomy; File Boxes; Lacrosse Training Aids; Furniture Sets; Kitchen Islands; Costume Capes; Room Dividers; China Cabinets & Hutches; Costumes & Accessories; Crib Conversion Kits; Name Plates; Carts & Islands; Shoe Accessories; Suitcases; Dressers; Desk Organizers; Table Accessories; Card Sleeves; Athletics; Shipping Supplies; Sporting Goods; Apparel & Accessories; Optics; Sofas; Suspension Trainers; Lacrosse Goals; Outdoor Furniture; Luggage & Bags; Field Hockey Balls; Pen & Pencil Cases; Lap Desks; Office Supplies; Cameras; Impulse Sealers; Lacrosse Equipment Sets; Card Files; Furniture; Sofa Accessories; Erasers; Brass Fasteners; Outdoor Seating; Tennis; Costume Tobacco Products; Costumes; Recipe Card Boxes; Futons; Costume Accessories; Cabinets & Storage; Soccer; Filing & Organization; Speed & Resistance Parachutes; Chair Accessories; Garment Bags; General Office Supplies; Calendars, Organizers & Planners; Monoculars; Masks; Arts & Entertainment; Room Divider Accessories; Scopes; File Cabinets; Beds & Accessories; Pencil Sharpeners; Office Tape; Workstations & Cubicles; Foam Roller Accessories; Armoires & Wardrobes; Book Covers; Shelving Accessories; Outdoor Tables; Bedroom Furniture Sets; Packing Tape; Health & Beauty; Video Cameras; Fencing; Outdoor Furniture Sets; Shoes; Address Books; Office Instruments; Exercise & Fitness
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Creating a taxonomy from the given list of concepts involves organizing them into a hierarchical structure. Here's a possible taxonomy:
+
+1. **Google Product Taxonomy**
+   - **Apparel & Accessories**
+     - **Clothing**
+       - **Costumes & Accessories**
+         - **Costumes**
+         - **Costume Accessories**
+         - **Costume Tobacco Products**
+     - **Shoes**
+       - **Shoe Accessories**
+     - **Accessories**
+       - **Handbags, Wallets & Cases**
+       - **Messenger Bags**
+       - **Suitcases**
+       - **Dressers**
+       - **Garment Bags**
+       - **Name Plates**
+       - **Pencil Sharpeners**
+       - **Address Books**
+       - **Book Covers**
+       - **Book Accessories**
+       - **Card Sleeves**
+       - **Card Files**
+       - **Card Files**
+       - **File Boxes**
+       - **File Cabinets**
+       - **Monoculars**
+       - **Monoculars**
+       - **Optics**
+         - **Optics**
+         - **Scopes**
+         - **Monoculars**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens & Pencil Cases**
+       - **Pens
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

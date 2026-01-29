@@ -1,0 +1,98 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Single instruction, multiple data; Multiple instruction, single data; Real-time systems; Architectures; Systolic arrays; Computing Classification System; Parallel architectures; Embedded and cyber-physical systems; Computer systems organization; Embedded systems
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Real-time systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Parallel architectures is a subtopic of Architectures; Single instruction, multiple data is a subtopic of Parallel architectures; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Systolic arrays is a subtopic of Parallel architectures; Embedded systems is a subtopic of Embedded and cyber-physical systems; Multiple instruction, single data is a subtopic of Parallel architectures; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Real-time languages; Computing Classification System; Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems; Real-time systems; Architectures; Processors and memory architectures; Maintainability and maintenance; Computer systems organization; Fault-tolerant network topologies
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Architectures is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Real-time languages is a subtopic of Real-time systems
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Parallel architectures; Dependable and fault-tolerant systems and networks; Serial architectures; Pipeline computing; Computer systems organization; Architectures; Maintainability and maintenance; Computing Classification System; Interconnection architectures
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Computer systems organization is a subtopic of Computing Classification System; Interconnection architectures is a subtopic of Parallel architectures; Pipeline computing is a subtopic of Serial architectures; Parallel architectures is a subtopic of Architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Real-time systems; Real-time system specification; Computing Classification System; Architectures; Other architectures; Embedded and cyber-physical systems; Computer systems organization; Quantum computing; Optical computing; Real-time languages
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Optical computing is a subtopic of Other architectures; Other architectures is a subtopic of Architectures; Quantum computing is a subtopic of Other architectures; Architectures is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Real-time languages is a subtopic of Real-time systems; Real-time system specification is a subtopic of Real-time systems
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Processors and memory architectures; Real-time system architecture; Embedded and cyber-physical systems; Architectures; Real-time systems; Dependable and fault-tolerant systems and networks; Distributed architectures; Computing Classification System; Computer systems organization; Serial architectures
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Real-time system architecture is a subtopic of Real-time systems; Serial architectures is a subtopic of Architectures; Computer systems organization is a subtopic of Computing Classification System; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Distributed architectures is a subtopic of Architectures; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Real-time systems is a subtopic of Computer systems organization
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Estimation; Hardware; Information systems applications; Network components; Power and energy; General and reference; Experimentation; Life and medical sciences; Computing Classification System; Security and privacy; Mobile information processing systems; Cross-computing tools and techniques; Networks; Applied computing; Validation; Human and societal aspects of security and privacy; Hardware validation; Process control systems; Energy distribution; Information systems
+Relationships: 
+
+================================================================================
+Number of entities: 20
+Model: gpt-5
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+General and reference is a subtopic of Computing Classification System; Hardware is a subtopic of Computing Classification System; Networks is a subtopic of Computing Classification System; Applied computing is a subtopic of Computing Classification System; Information systems is a subtopic of Computing Classification System; Security and privacy is a subtopic of Computing Classification System; Cross-computing tools and techniques is a subtopic of General and reference; Experimentation is a subtopic of Cross-computing tools and techniques; Validation is a subtopic of Cross-computing tools and techniques; Estimation is a subtopic of Cross-computing tools and techniques; Hardware validation is a subtopic of Hardware; Power and energy is a subtopic of Hardware; Network components is a subtopic of Networks; Information systems applications is a subtopic of Information systems; Mobile information processing systems is a subtopic of Information systems applications; Human and societal aspects of security and privacy is a subtopic of Security and privacy; Life and medical sciences is a subtopic of Applied computing; Process control systems is a subtopic of Applied computing; Energy distribution is a subtopic of Applied computing
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 19
+
+Parsed relationships:
+  General and reference → Computing Classification System
+  Hardware → Computing Classification System
+  Networks → Computing Classification System
+  Applied computing → Computing Classification System
+  Information systems → Computing Classification System
+  Security and privacy → Computing Classification System
+  Cross-computing tools and techniques → General and reference
+  Experimentation → Cross-computing tools and techniques
+  Validation → Cross-computing tools and techniques
+  Estimation → Cross-computing tools and techniques
+  Hardware validation → Hardware
+  Power and energy → Hardware
+  Network components → Networks
+  Information systems applications → Information systems
+  Mobile information processing systems → Information systems applications
+  Human and societal aspects of security and privacy → Security and privacy
+  Life and medical sciences → Applied computing
+  Process control systems → Applied computing
+  Energy distribution → Applied computing
+
+================================================================================

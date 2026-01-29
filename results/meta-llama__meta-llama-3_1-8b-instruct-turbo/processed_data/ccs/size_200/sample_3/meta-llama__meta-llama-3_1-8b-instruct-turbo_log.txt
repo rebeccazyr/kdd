@@ -1,0 +1,176 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Computing Classification System; Embedded systems; Architectures; Single instruction, multiple data; Multiple instruction, single data; Embedded and cyber-physical systems; Computer systems organization; Real-time systems; Parallel architectures; Systolic arrays
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Embedded systems is a subtopic of Embedded and cyber-physical systems; Systolic arrays is a subtopic of Parallel architectures; Parallel architectures is a subtopic of Architectures; Single instruction, multiple data is a subtopic of Parallel architectures; Multiple instruction, single data is a subtopic of Parallel architectures; Real-time systems is a subtopic of Computer systems organization
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Maintainability and maintenance; Computer systems organization; Embedded and cyber-physical systems; Processors and memory architectures; Computing Classification System; Fault-tolerant network topologies; Dependable and fault-tolerant systems and networks; Real-time systems; Real-time languages; Architectures
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Real-time systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Architectures; Computer systems organization; Serial architectures; Dependable and fault-tolerant systems and networks; Parallel architectures; Pipeline computing; Computing Classification System; Maintainability and maintenance; Embedded and cyber-physical systems; Interconnection architectures
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Pipeline computing is a subtopic of Serial architectures; Serial architectures is a subtopic of Architectures; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Parallel architectures is a subtopic of Architectures; Interconnection architectures is a subtopic of Parallel architectures; Computer systems organization is a subtopic of Computing Classification System; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Embedded and cyber-physical systems; Real-time system specification; Computer systems organization; Optical computing; Other architectures; Real-time systems; Architectures; Computing Classification System; Quantum computing; Real-time languages
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Real-time languages is a subtopic of Real-time systems; Real-time system specification is a subtopic of Real-time systems; Optical computing is a subtopic of Other architectures; Quantum computing is a subtopic of Other architectures; Computer systems organization is a subtopic of Computing Classification System; Other architectures is a subtopic of Architectures; Real-time systems is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Computer systems organization; Dependable and fault-tolerant systems and networks; Real-time systems; Architectures; Processors and memory architectures; Computing Classification System; Embedded and cyber-physical systems; Real-time system architecture; Serial architectures; Distributed architectures
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Serial architectures is a subtopic of Architectures; Distributed architectures is a subtopic of Architectures; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Real-time system architecture is a subtopic of Real-time systems; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Architectures is a subtopic of Computer systems organization
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Mathematical software; Design rule checking; VLSI packaging; Analog and mixed-signal circuit optimization; Network mobility; Business process management; Document preparation; Simulation languages; Proteomics; Decision analysis; Design for debug; Static timing analysis; Economics of chip design and manufacturing; Project management techniques; Enterprise data management; Network algorithms; Human-centered computing; General and reference; Operations research; Physical synthesis; Wire routing; Security and privacy; Network privacy and anonymity; Cross-organizational business processes; World Wide Web (network structure); Computer forensics; Circuit complexity; Web services; Applied computing; Proof complexity; Packaging; Side-channel analysis and countermeasures; Software reliability; Testing with distributed and parallel systems; Hybrid symbolic-numeric methods; Simulation theory; Computing occupations; Mobile ad hoc networks; Physical sciences and engineering; Arts and humanities; Network range; Computer-managed instruction; Hardware attacks and countermeasures; Project and people management; Software creation and management; Design rules; Timing analysis; Home networks; Hardware; Marketing; Post-manufacture validation and debug; Education; Genetics; Analog and mixed-signal circuits; Compact delay models; Design and analysis of algorithms; Power and energy; Board- and system-level test; Hardware reliability screening; Visibility; General literature; Enterprise application integration; Collaborative and social computing; Simulation evaluation; Crowdsourcing; Statistical software; Cross-computing tools and techniques; Bioinformatics; Distributed computing methodologies; Theory and algorithms for application domains; Ubiquitous and mobile computing theory, concepts and paradigms; Collision detection; Enterprise interoperability; Simulation support systems; Concurrent computing methodologies; Management of computing and information systems; Solvers; Very long-range networks; Information system economics; Network design principles; Modeling and simulation; Wireless local area networks; Archaeology; Image compression; Metropolitan area networks; Computational complexity and cryptography; Theory of computation; Information systems; Printers; Computing education; Ubiquitous and mobile computing; In-network processing; Web applications; Enterprise computing; Discrete calculus algorithms; Wide area networks; Electronic design automation; Software and its engineering; Network structure; Cryptographic protocols; Business-IT alignment; Computing and business; Layering; Linear algebra algorithms; Software system structures; Extra-functional properties; Printed circuit boards; Short-range networks; Clock generation and timing; System management; Life and medical sciences; Computing Classification System; Ad hoc networks; Impact on the environment; Social and professional topics; K-12 education; Genomics; Network architectures; History of computing; Animation; Media arts; Networks; Network reliability; Simulation types and techniques; Hardware test; Search-based software engineering; Hardware validation; Biographies; Economic impact; Computing methodologies; Electrical-level simulation; System forensics; Software fault tolerance; Physical design (EDA); Business rules; Interoperability; E-learning; Document types; Software performance; Health informatics; Network properties; Engineering; Interactive simulation; Quantum mechanic simulation; World Wide Web; Network dynamics; Software organization and properties; Wired access networks; Visualization; Symbolic and algebraic algorithms; Rendering; Data center networks; Design for testability; Performing arts; Mathematical foundations of cryptography; Physical verification; Electromagnetic interference and compatibility; Privacy protections; Funding; Procedural animation; Accreditation; PCB design and layout; Radio frequency and wireless circuits; Systems biology; Symbolic and algebraic manipulation; Computer graphics; Event-driven architectures; Wireless devices; Implementation management; Computing profession; Computer-assisted instruction; Cryptography; Communication hardware, interfaces and storage; Shape modeling; Computing / technology policy; Wireless access networks; Chemistry; Professional topics; Model development and analysis; Mathematics of computing; Local area networks; Power and thermal analysis; Programming interfaces; Network services; Discrete-event simulation; Algebraic algorithms; Massively parallel and high-performance simulations; Document management and text processing; Network management; Physics; Overlay and other logical network structures; Human and societal aspects of security and privacy; Very large scale integration design; Tactile and hand-based interfaces; Mathematical software performance; Security in hardware; Network economics; Approximation algorithms analysis; Network types; Packet-switching networks
+Relationships: 
+
+================================================================================
+Number of entities: 200
+Model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+This is a very large list of concepts and relationships. I'll try to provide a simplified representation of the relationships between the concepts. Please note that this may not be an exhaustive or complete representation.
+
+Here are some of the relationships:
+
+1. Computing Classification System is a parent of:
+   - Computer systems organization
+   - Information systems
+   - Computing methodologies
+   - Computing profession
+   - Computing education
+   - Computing / technology policy
+   - Human and societal aspects of security and privacy
+   - Security in hardware
+   - Network economics
+   - Network types
+   - Packet-switching networks
+
+2. Computer systems organization is a parent of:
+   - Embedded and cyber-physical systems
+   - Real-time systems
+   - Architectures
+   - Processors and memory architectures
+   - Dependable and fault-tolerant systems and networks
+
+3. Real-time systems is a parent of:
+   - Real-time system architecture
+   - Real-time languages
+
+4. Architectures is a parent of:
+   - Serial architectures
+   - Distributed architectures
+   - Interconnection architectures
+
+5. Dependable and fault-tolerant systems and networks is a parent of:
+   - Processors and memory architectures
+   - Maintainability and maintenance
+
+6. Embedded and cyber-physical systems is a parent of:
+   - Real-time system specification
+
+7. Computing methodologies is a parent of:
+   - Simulation languages
+   - Network algorithms
+   - Distributed computing methodologies
+   - Concurrent computing methodologies
+
+8. Computing profession is a parent of:
+   - Computing occupations
+   - Project and people management
+   - Project management techniques
+
+9. Computing education is a parent of:
+   - K-12 education
+   - E-learning
+
+10. Computing / technology policy is a parent of:
+    - Business-IT alignment
+    - Computing and business
+    - Economic impact
+    - Funding
+
+11. Human and societal aspects of security and privacy is a parent of:
+    - Human-centered computing
+    - Social and professional topics
+    - Impact on the environment
+    - Health informatics
+
+12. Security in hardware is a parent of:
+    - Hardware attacks and countermeasures
+    - Side-channel analysis and countermeasures
+    - Hardware reliability screening
+
+13. Network economics is a parent of:
+    - Network design principles
+    - Network properties
+    - Network reliability
+    - Network dynamics
+
+14. Network types is a parent of:
+    - Ad hoc networks
+    - Metropolitan area networks
+    - Wide area networks
+    - Local area networks
+    - Wireless local area networks
+    - Wireless access networks
+    - Data center networks
+    - Wired access networks
+
+15. Packet-switching networks is a parent of:
+    - Network structure
+    - Network algorithms
+    - Network mobility
+    - Network range
+    - Network services
+    - Network management
+    - Network properties
+    - Network reliability
+    - Network dynamics
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

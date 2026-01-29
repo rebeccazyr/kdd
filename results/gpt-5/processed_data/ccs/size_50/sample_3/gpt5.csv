@@ -1,0 +1,50 @@
+child,parent
+Hardware,Computing Classification System
+Human-centered computing,Computing Classification System
+Computing methodologies,Computing Classification System
+Mathematics of computing,Computing Classification System
+Social and professional topics,Computing Classification System
+Theory of computation,Computing Classification System
+"Communication hardware, interfaces and storage",Hardware
+Sensor devices and platforms,Hardware
+Signal processing systems,Hardware
+Power and energy,Hardware
+Very large scale integration design,Hardware
+Robustness,Hardware
+Scanners,"Communication hardware, interfaces and storage"
+Wireless integrated network sensors,Sensor devices and platforms
+Noise reduction,Signal processing systems
+Energy generation and storage,Power and energy
+Thermal issues,Power and energy
+VLSI packaging,Very large scale integration design
+Standard cell libraries,Very large scale integration design
+Full-custom circuits,Very large scale integration design
+Temperature monitoring,Thermal issues
+Economics of chip design and manufacturing,Social and professional topics
+Human computer interaction (HCI),Human-centered computing
+Interactive systems and tools,Human computer interaction (HCI)
+Empirical studies in HCI,Human computer interaction (HCI)
+Tactile and hand-based interfaces,Human computer interaction (HCI)
+Accessibility,Human computer interaction (HCI)
+Accessibility systems and tools,Accessibility
+Concurrent computing methodologies,Computing methodologies
+Discrete mathematics,Mathematics of computing
+Preconditioning,Mathematics of computing
+Constructive mathematics,Mathematics of computing
+Models of computation,Theory of computation
+Semantics and reasoning,Theory of computation
+Logic,Theory of computation
+Design and analysis of algorithms,Theory of computation
+Timed and hybrid models,Models of computation
+Programming logic,Semantics and reasoning
+Hoare logic,Programming logic
+Separation logic,Programming logic
+Finite Model Theory,Logic
+Constraint and logic programming,Logic
+Algorithm design techniques,Design and analysis of algorithms
+Graph algorithms analysis,Design and analysis of algorithms
+Parameterized complexity and exact algorithms,Design and analysis of algorithms
+Divide and conquer,Algorithm design techniques
+Backtracking,Algorithm design techniques
+Branch-and-bound,Algorithm design techniques
+Shortest paths,Graph algorithms analysis

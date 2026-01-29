@@ -1,0 +1,533 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: Architectures; Parallel architectures; Systolic arrays; Computing Classification System; Multiple instruction, single data; Embedded and cyber-physical systems; Computer systems organization; Embedded systems; Real-time systems; Single instruction, multiple data
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+Embedded systems is a subtopic of Embedded and cyber-physical systems; Single instruction, multiple data is a subtopic of Parallel architectures; Systolic arrays is a subtopic of Parallel architectures; Multiple instruction, single data is a subtopic of Parallel architectures; Parallel architectures is a subtopic of Architectures; Real-time systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Embedded and cyber-physical systems is a subtopic of Computer systems organization
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: Computing Classification System; Fault-tolerant network topologies; Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems; Processors and memory architectures; Real-time systems; Computer systems organization; Real-time languages; Maintainability and maintenance; Architectures
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+Embedded and cyber-physical systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Real-time languages is a subtopic of Real-time systems; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Fault-tolerant network topologies is a subtopic of Dependable and fault-tolerant systems and networks; Real-time systems is a subtopic of Computer systems organization; Architectures is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: Dependable and fault-tolerant systems and networks; Parallel architectures; Maintainability and maintenance; Serial architectures; Architectures; Embedded and cyber-physical systems; Computer systems organization; Computing Classification System; Pipeline computing; Interconnection architectures
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+Parallel architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Maintainability and maintenance is a subtopic of Dependable and fault-tolerant systems and networks; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Pipeline computing is a subtopic of Serial architectures; Serial architectures is a subtopic of Architectures; Interconnection architectures is a subtopic of Parallel architectures
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: Other architectures; Real-time system specification; Quantum computing; Real-time systems; Embedded and cyber-physical systems; Real-time languages; Computing Classification System; Computer systems organization; Architectures; Optical computing
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+Quantum computing is a subtopic of Other architectures; Real-time systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Other architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Real-time system specification is a subtopic of Real-time systems; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time languages is a subtopic of Real-time systems; Optical computing is a subtopic of Other architectures
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: Architectures; Real-time system architecture; Real-time systems; Computing Classification System; Processors and memory architectures; Dependable and fault-tolerant systems and networks; Distributed architectures; Serial architectures; Computer systems organization; Embedded and cyber-physical systems
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+Processors and memory architectures is a subtopic of Dependable and fault-tolerant systems and networks; Embedded and cyber-physical systems is a subtopic of Computer systems organization; Real-time systems is a subtopic of Computer systems organization; Computer systems organization is a subtopic of Computing Classification System; Real-time system architecture is a subtopic of Real-time systems; Serial architectures is a subtopic of Architectures; Architectures is a subtopic of Computer systems organization; Dependable and fault-tolerant systems and networks is a subtopic of Computer systems organization; Distributed architectures is a subtopic of Architectures
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: Mathematical software; Symmetric cryptography and hash functions; Data scans; Content match advertising; Simulation languages; Constraint and logic languages; Penetration testing; Call level interfaces; Agent / discrete models; Network algorithms; Human-centered computing; Search results deduplication; Enterprise architecture frameworks; Image and video acquisition; Representation of mathematical functions; Security and privacy; Information integration; Censorship; Hybrid symbolic-numeric methods; Computational control theory; Project and people management; Measurement; Machine learning algorithms; Mesh models; Clustering; Exact arithmetic algorithms; Planning and scheduling; Model curricula; Document collection models; Governmental surveillance; Triggers and rules; Education; Hash functions and message authentication codes; Motion path planning; Electromechanical systems; File system security; Document representation; Graph theory; Language features; Ontology engineering; Simulation evaluation; Crowdsourcing; Database views; Record storage alternatives; Mashups; Management and querying of encrypted data; Very high level languages; Graph algorithms; Simulation support systems; Data extraction and integration; Computer and information systems training; Management of computing and information systems; Database utilities and tools; Flowcharts; Transborder data flow; Public key (asymmetric) techniques; Game tree search; System description languages; Design; Discrete mathematics; Data structures; Trusted computing; Database management system engines; Nonlinear equations; Presentation of retrieval results; Mobile platform security; Database activity monitoring; Web applications; Integrated and visual development environments; Systems security; Security services; Electronic design automation; Health information exchanges; Query languages for non-relational engines; Language types; Digital signatures; Site wrapping; Technology and censorship; Q-learning; Computational thinking; Business-IT alignment; Modal and temporal logics; Integrity checking; Database protection laws; Stream management; Query languages; Abstraction and micro-operators; Transient errors and upsets; Social and professional topics; Process, voltage and temperature variations; Animation; Commerce policy; Relevance assessment; Embedded systems security; Point lookups; System modeling languages; Net neutrality; Hardware validation; Computing methodologies; Abstract data types; Surveillance; Randomness, geometry and discrete structures; Computers in other domains; Document types; Retrieval models and ranking; Enterprise modeling; Data encoding and canonicalization; Vulnerability management; World Wide Web; Quantum mechanic simulation; Algebraic topology; Spectral methods; Computational advertising; Verification; Symbolic and algebraic algorithms; Rendering; Record and buffer management; Systems development; Software product lines; Mathematical foundations of cryptography; Numerical differentiation; Modeling and parameter extraction; Command and control languages; Computer graphics; Online auctions policy; Surfacing; Object oriented frameworks; Event-driven architectures; Implementation management; Architecture (buildings); Cryptography; Online analytical processing engines; Shape modeling; Algebraic algorithms; Imperative languages; Multidimensional range search; Software as a service orchestration system; Development frameworks and environments; Antitrust and competition; Human and societal aspects of security and privacy; Technology audits; Patient privacy; Specification languages; Motion processing; Block and stream ciphers; Evaluation of retrieval results; Medical records; Network access control; Thesauri; Natural language generation; Query log analysis; Semiconductor memory; Web searching and information discovery; Learning settings; Perception; Continuous mathematics; Partially-observable Markov decision processes; Computing industry; Web search engines; Record storage systems; Integrated circuits; Genetic information; Computing equipment management; Knowledge representation and reasoning; IT governance; Political speech; Database performance evaluation; Image processing; Point-based models; General programming languages; Real-time simulation; Dictionaries; Network access restrictions; Patterns; Side-channel analysis and countermeasures; Simulation theory; Online advertising; Ubiquitous and mobile computing design and evaluation methods; Cognitive robotics; Shape analysis; Automatic differentiation; Compilers; Data access methods; Systems analysis and design; Walkthroughs; Task models; Social advertising; Search methodologies; Computations in finite fields; Business process monitoring; Entity resolution; Treaties; Portable media players; Ubiquitous and mobile computing theory, concepts and paradigms; Concurrent computing methodologies; Solvers; Agriculture; Continuous functions; Modeling and simulation; Copyrights; Broadband access; Network operations; Partial differential equations; Topology; Display advertising; Enterprise computing; Philosophical/theoretical foundations of artificial intelligence; Network components; Plasmonics; Design languages; Enterprise architecture management; Database query processing; Operating systems security; Rare-event simulation; Equation and inequality solving algorithms; System management; Cryptanalysis and other attacks; Information retrieval; Database administration; Join algorithms; Logic programming and answer set programming; Enterprise computing infrastructures; Reflectance modeling; Networks; Texturing; Malicious design modifications; Validation; Integral equations; Data dictionaries; Search-based software engineering; Digital switches; Planning with abstraction and generalization; Transaction logging; Software management; Collaborative learning; Sound and music computing; Interactive simulation; Hardware security implementation; Scripting languages; Information storage systems; Pseudonymity, anonymity and untraceability; Privacy protections; Autonomous database administration; Software security engineering; Robustness; Artificial immune systems; Symbolic and algebraic manipulation; Approximation algorithms; Software and application security; Computing / technology policy; Graph enumeration; Parallel computing methodologies; Formal methods and theory of security; Programming by example; Retrieval tasks and goals; Learning management systems; Graph coloring; RAID; Rasterization; Project staffing; Software configuration management and version control systems; Linear logic; XPath; Automatic programming; Estimation; Social network security and privacy; Causal reasoning and diagnostics; Random network models; Medical technologies; Project management techniques; Enterprise data management; Interface definition languages; Boolean algebra algorithms; State based definitions; General and reference; Operations research; Simulation by animation; Design for manufacturability; Language translation; Authorization; Search with partial observations; Cross-organizational business processes; Canonical correlation analysis; Enterprise architectures; Geometric topology; Image manipulation; Collaborative search; Extraction, transformation and loading; Tamper-proof and tamper-resistant designs; Computer algebra systems; Theory of mind; Data mining; Spatial and physical reasoning; Arts and humanities; Computer-managed instruction; General conference proceedings; Graphics systems and interfaces; Medical information policy; Accessibility; Arbitrary-precision arithmetic; Intelligent agents; Aging of circuits and systems; Differential equations; Discourse, dialogue and pragmatics; Non-photorealistic rendering; Photonic and optical interconnect; Web mining; Visibility; Web interfaces; General literature; Ensemble methods; Regularization; Cross-computing tools and techniques; Email; Distributed computing methodologies; Law, social and behavioral sciences; Main memory engines; Empirical software validation; Point-set topology; Data locking; XML query languages; Language models; Representation of polynomials; Hardware reliability; Database transaction processing; Theory of computation; Texting; Computing education; Symbolic calculus algorithms; Graphics processors; Ubiquitous and mobile computing; Business process modeling; Internet governance / domain names; Information systems applications; Software and its engineering; Deduplication; Browser security; Systems theory; Acceptance testing; Computer crime; Open source model; Distributed artificial intelligence; History of computing; Media arts; Query reformulation; Hashed file organization; Volumetric models; Simulation types and techniques; Data management systems; Biographies; Graphical / visual passwords; Business rules; Emerging technologies; Similarity measures; Data anonymization and sanitization; Collaboration in software development; Extensible languages; Information accountability and usage control; Centralization / decentralization; Procedural animation; Artificial intelligence; Vagueness and fuzzy logic; Key management; Social aspects of security and privacy; Reference works; Corporate surveillance; Top-k retrieval in databases; Taxation; Formal security models; Information flow control; Massively parallel and high-performance simulations; Combinational circuits; Malware and its mitigation; Patents; Natural language processing; Process validation; Distributed systems security; Computation of transforms; Representation of mathematical objects; Dynamic programming for Markov decision processes; Continuous models; Cooperation and coordination; Coroutines; Business process management; Functional languages; Student assessment; Simulation tools; Nonmonotonic, default reasoning and belief revision; Risk management; Application specific development environments; Assembly languages; Software libraries and repositories; Machine learning; Physical simulation; Domain-specific security and privacy architectures; Stochastic games; Heuristic function construction; Computer vision; Planning for deterministic actions; Access control; Applied computing; Computing literacy; Logic; Hardware attacks and countermeasures; Storage replication; Machine learning approaches; Software creation and management; Camera calibration; Object oriented languages; Hardware; Object oriented development; Coding theory; Macro languages; Interactive learning environments; Logic circuits; Mathematical analysis; Operational analysis; Empirical studies; Machine translation; Interval arithmetic; Software notations and tools; Optimization algorithms; Intrusion/anomaly detection and malware mitigation; Fault tree analysis; Intrusion detection systems; Data assimilation; Deep web; Mesh geometry models; Sequential circuits; Information system economics; Ubiquitous and mobile computing systems and tools; Parametric curve and surface models; Computing standards, RFCs and guidelines; Trust frameworks; Software verification and validation; Users and interactive retrieval; Information systems; Authentication; Information retrieval query processing; Discrete calculus algorithms; Rank aggregation; Software defect analysis; Image-based rendering; Control methods; Interconnect; Remote replication; Soft intellectual property; Computing and business; Formal language definitions; Information theory; Computing Classification System; Static memory; Informal education; Acceptable use policy restrictions; Distributed simulation; Incentive schemes; Query representation; Indexed file organization; Translator writing systems and compiler generators; Web data description languages; Concurrent programming structures; Factorization methods; Database and storage security; Software development techniques; Software development process management; Browsers; Internet communications tools; Content analysis and feature selection; Number theory algorithms; Vulnerability scanners; Learning linear models; Quadrature; Context specific languages; Recommender systems; Cognitive science; Representation of Boolean functions; Search interfaces; Clustering and classification; Multi-agent planning; Query planning; 3D imaging; Metrics; Hyperspectral imaging; Professional topics; Mathematics of computing; Simulation environments; Hardware-based security protocols; Surveys and overviews; Nonalgebraic algorithms; Computer vision representations; Parsers; Intellectual property; Reusability; Security in hardware; Numerical analysis; Web application security; Data flow languages; Separation logic; Unified Modeling Language (UML); Ubiquitous and mobile devices
+Relationships: 
+
+================================================================================
+Number of entities: 500
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+Computing Classification System is a parent of:
+- Computing and business
+- Computing education
+- Computing equipment management
+- Computing industry
+- Computing literacy
+- Computer algebra systems
+- Computer crime
+- Computer graphics
+- Computer vision
+- Computer vision representations
+- Computer-managed instruction
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+- Computer vision
+- Computer vision representations
+
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 0
+
+WARNING: No relationships were parsed!
+
+================================================================================

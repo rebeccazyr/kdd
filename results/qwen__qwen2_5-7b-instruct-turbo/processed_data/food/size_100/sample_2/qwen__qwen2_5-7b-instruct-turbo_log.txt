@@ -1,0 +1,282 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: food; pasta; gemelli; fusilli; bavette; spaghetti; pici; cannelloni; occhi di lupo; fagottini
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+fagottini is a subtopic of pasta; occhi di lupo is a subtopic of pasta; pici is a subtopic of pasta; pasta is a subtopic of food; fusilli is a subtopic of pasta; cannelloni is a subtopic of pasta; spaghetti is a subtopic of pasta; gemelli is a subtopic of pasta; bavette is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: pasta; croxetti; corzetti; food; linguine; fuži; spaghetti; rotini; sacchettoni; mezzelune
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+croxetti is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta; sacchettoni is a subtopic of pasta; mezzelune is a subtopic of pasta; linguine is a subtopic of pasta; rotini is a subtopic of pasta; corzetti is a subtopic of pasta; fuži is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: food; corzetti; pasta; stringozzi; occhi di lupo; fuži; mezzelune; anellini; garganelli; bigoli
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+garganelli is a subtopic of pasta; pasta is a subtopic of food; stringozzi is a subtopic of pasta; occhi di lupo is a subtopic of pasta; corzetti is a subtopic of pasta; bigoli is a subtopic of pasta; mezzelune is a subtopic of pasta; fuži is a subtopic of pasta; anellini is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: macaroni; spaghetti; food; ptitim; campanelle; lanterne; passatelli; casoncelli; pasta; rotini
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+spaghetti is a subtopic of pasta; macaroni is a subtopic of pasta; casoncelli is a subtopic of pasta; lanterne is a subtopic of pasta; campanelle is a subtopic of pasta; pasta is a subtopic of food; rotini is a subtopic of pasta; passatelli is a subtopic of pasta; ptitim is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: spaghetti; stringozzi; penne; mezzelune; rotini; rotelle; food; sacchettoni; pasta; ptitim
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+mezzelune is a subtopic of pasta; pasta is a subtopic of food; rotini is a subtopic of pasta; sacchettoni is a subtopic of pasta; rotelle is a subtopic of pasta; spaghetti is a subtopic of pasta; penne is a subtopic of pasta; stringozzi is a subtopic of pasta; ptitim is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: chistorra; pleşcoi sausages; lincolnshire sausage; kaszanka; prepared food; siskonmakkara; regensburger wurst; restructured steak; alheira; fuet; debrecener; standing rib roast; potatiskorv; bakery; soy product; starfruits; bratwurst; plums; liverwurst; bananas; dairy product; dip; sausage; guavas; ice cream; krakowska; suet; black pudding; jams and preserves; boerewors; soursops; babacos; weckewerk; diot; lebanon bologna; paio; bregenwurst; apricots; pomegranates; pølser; atemoyas; kiwis; andouillette; stonner kebab; summer sausage; beef; cream cheese; frankfurter rindswurst; kishka; frozen dessert; mamey; candy bars; feijoas; frozen yoghurt; madroã±o; ahle wurst; fruit; thuringian sausage; bologna sausage; tangelos; weisswurst; currants; grapefruits; bresaola; mustamakkara; dragonfruit; seeds; avocados; dates; češnovka; ryynimakkara; sobrassada; sweets; food; apple butter; andouille; yonezawa beef; eggs; pistachios; rambutans; secca de bœuf; loquats; tapenade; nectarines; ciavàr; mettwurst; pepper; popsicles; meat patties; limequats; chocolate bars; spice; gelbwurst; sapodillo; kulen; taffy; pineapples; corn dog; meat; newmarket sausage
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+chistorra is a subtopic of sausage; pleşcoi sausages is a subtopic of sausage; lincolnshire sausage is a subtopic of sausage; kaszanka is a subtopic of sausage; fuet is a subtopic of sausage; siskonmakkara is a subtopic of sausage; regensburger wurst is a subtopic of sausage; restructured steak is a subtopic of prepared food; alheira is a subtopic of sausage; debrecener is a subtopic of sausage; boerewors is a subtopic of sausage; krakowska is a subtopic of sausage; suet is a subtopic of prepared food; black pudding is a subtopic of prepared food; bregenwurst is a subtopic of sausage; bologna sausage is a subtopic of sausage; bresaola is a subtopic of meat; bregenwurst is a subtopic of sausage; bratwurst is a subtopic of sausage; diot is a subtopic of prepared food; diot is a subtopic of meat; fuet is a subtopic of sausage; gelbwurst is a subtopic of sausage; gherkin is a subtopic of pickles; gherkin is a subtopic of prepared food; gherkin is a subtopic of food; gherkin is a subtopic of cucumber; gherkin is a subtopic of vegetable; gherkin is a subtopic of pickle; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; gherkin is a subtopic of cucumber; g
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 203
+
+Parsed relationships:
+  chistorra → sausage
+  pleşcoi sausages → sausage
+  lincolnshire sausage → sausage
+  kaszanka → sausage
+  fuet → sausage
+  siskonmakkara → sausage
+  regensburger wurst → sausage
+  restructured steak → prepared food
+  alheira → sausage
+  debrecener → sausage
+  boerewors → sausage
+  krakowska → sausage
+  suet → prepared food
+  black pudding → prepared food
+  bregenwurst → sausage
+  bologna sausage → sausage
+  bresaola → meat
+  bregenwurst → sausage
+  bratwurst → sausage
+  diot → prepared food
+  diot → meat
+  fuet → sausage
+  gelbwurst → sausage
+  gherkin → pickles
+  gherkin → prepared food
+  gherkin → food
+  gherkin → cucumber
+  gherkin → vegetable
+  gherkin → pickle
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+  gherkin → cucumber
+
+================================================================================

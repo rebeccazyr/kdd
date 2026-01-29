@@ -1,0 +1,300 @@
+================================================================================
+INPUT PROMPT TO LLM
+================================================================================
+
+--- Message 1 (SystemMessage) ---
+You are an expert constructing a taxonomy from a list of concepts. Given a list of concepts,construct a taxonomy by creating a list of their parent-child relationships.
+
+
+
+--- Message 2 (HumanMessage) ---
+Concepts: fusilli; pasta; occhi di lupo; pici; gemelli; spaghetti; food; bavette; cannelloni; fagottini
+Relationships: 
+
+--- Message 3 (AIMessage) ---
+occhi di lupo is a subtopic of pasta; gemelli is a subtopic of pasta; pasta is a subtopic of food; pici is a subtopic of pasta; cannelloni is a subtopic of pasta; fusilli is a subtopic of pasta; fagottini is a subtopic of pasta; bavette is a subtopic of pasta; spaghetti is a subtopic of pasta
+
+
+
+--- Message 4 (HumanMessage) ---
+Concepts: corzetti; sacchettoni; food; mezzelune; rotini; pasta; linguine; fuži; croxetti; spaghetti
+Relationships: 
+
+--- Message 5 (AIMessage) ---
+linguine is a subtopic of pasta; corzetti is a subtopic of pasta; mezzelune is a subtopic of pasta; croxetti is a subtopic of pasta; spaghetti is a subtopic of pasta; fuži is a subtopic of pasta; rotini is a subtopic of pasta; pasta is a subtopic of food; sacchettoni is a subtopic of pasta
+
+
+
+--- Message 6 (HumanMessage) ---
+Concepts: food; corzetti; fuži; pasta; bigoli; occhi di lupo; garganelli; mezzelune; stringozzi; anellini
+Relationships: 
+
+--- Message 7 (AIMessage) ---
+bigoli is a subtopic of pasta; mezzelune is a subtopic of pasta; stringozzi is a subtopic of pasta; fuži is a subtopic of pasta; corzetti is a subtopic of pasta; pasta is a subtopic of food; garganelli is a subtopic of pasta; occhi di lupo is a subtopic of pasta; anellini is a subtopic of pasta
+
+
+
+--- Message 8 (HumanMessage) ---
+Concepts: spaghetti; casoncelli; macaroni; food; ptitim; passatelli; rotini; lanterne; pasta; campanelle
+Relationships: 
+
+--- Message 9 (AIMessage) ---
+pasta is a subtopic of food; macaroni is a subtopic of pasta; passatelli is a subtopic of pasta; casoncelli is a subtopic of pasta; spaghetti is a subtopic of pasta; campanelle is a subtopic of pasta; ptitim is a subtopic of pasta; rotini is a subtopic of pasta; lanterne is a subtopic of pasta
+
+
+
+--- Message 10 (HumanMessage) ---
+Concepts: ptitim; penne; rotini; pasta; spaghetti; sacchettoni; food; stringozzi; mezzelune; rotelle
+Relationships: 
+
+--- Message 11 (AIMessage) ---
+rotelle is a subtopic of pasta; stringozzi is a subtopic of pasta; penne is a subtopic of pasta; mezzelune is a subtopic of pasta; sacchettoni is a subtopic of pasta; ptitim is a subtopic of pasta; pasta is a subtopic of food; spaghetti is a subtopic of pasta; rotini is a subtopic of pasta
+
+
+
+--- Message 12 (HumanMessage) ---
+Concepts: hors d'oeuvres; caruso sauce; longan; ragù; khrenovina sauce; pasta sauces; prepared food; unflavored gelatine; chancaca; cream; food colouring; floss sugar; rouille; cherimoyas; liquor; bread crumbs; cashews; chocolate assortments; dairy product; sugar apples; mangos; guavas; papayas; frozen seafood; infusion; melons; beurre noisette; soursops; cider; peanut butter cups; pique verde boricua; peach sauce; pecel; rântaş; wine; tomato paste; almonds; figs; pomegranates; powdered beverage mixes; lollipops; shredded coconut; peaches; whisky; lemons; gummy sweets; ogbono nuts; cooking wine; candy bars; physalis; coffee creamer; wow-wow sauce; horseradish sauce; feijoas; beer; marshmallows; salad dressings; fruit; milk; baking chocolate; candy corn; butter and margarine; worcestershire sauce; persimmons; seeds; dates; cottage cheese; homli fruits; powdered tea; vodka; sauce ravigote; pie fillings; sweets; baking soda; food; tinned seafood; eggs; dough; loquats; gumdrops; nectarines; hot sauce; chewing gum; plumcots; cooking ingredient; seafood; pears; taffy; edible baking decoration; katara; tequilaseed; chocolate mints; scorcolga; beverage; chestnuts; condiment; coconuts; prickly pears; pesto; cheese
+Relationships: 
+
+================================================================================
+Number of entities: 100
+Model: Qwen/Qwen2.5-7B-Instruct-Turbo
+Few-shot examples: 5
+================================================================================
+
+================================================================================
+RAW OUTPUT FROM LLM
+================================================================================
+food is a subtopic of food; pasta sauces is a subtopic of food; caruso sauce is a subtopic of pasta sauces; khrenovina sauce is a subtopic of pasta sauces; ragù is a subtopic of pasta sauces; longan is a subtopic of food; cherimoyas is a subtopic of food; mangos is a subtopic of food; guavas is a subtopic of food; papayas is a subtopic of food; sugar apples is a subtopic of food; liquor is a subtopic of food; bread crumbs is a subtopic of food; cashews is a subtopic of food; chocolate assortments is a subtopic of food; cream is a subtopic of food; food colouring is a subtopic of food; floss sugar is a subtopic of food; horseradish sauce is a subtopic of food; hot sauce is a subtopic of food; marshmallows is a subtopic of food; salad dressings is a subtopic of food; whipped cream is a subtopic of food; wine is a subtopic of food; beurre noisette is a subtopic of food; cider is a subtopic of food; peanut butter cups is a subtopic of food; pique verde boricua is a subtopic of food; peach sauce is a subtopic of food; pecel is a subtopic of food; rântaş is a subtopic of food; whisky is a subtopic of food; lemons is a subtopic of food; gummy sweets is a subtopic of food; ogbono nuts is a subtopic of food; cooking wine is a subtopic of food; candy bars is a subtopic of food; physalis is a subtopic of food; coffee creamer is a subtopic of food; wow-wow sauce is a subtopic of food; horseradish sauce is a subtopic of food; feijoas is a subtopic of food; beer is a subtopic of food; lollipops is a subtopic of food; shredded coconut is a subtopic of food; peaches is a subtopic of food; whisky is a subtopic of food; lemons is a subtopic of food; gummy sweets is a subtopic of food; ogbono nuts is a subtopic of food; cooking wine is a subtopic of food; candy corn is a subtopic of food; butter and margarine is a subtopic of food; worcestershire sauce is a subtopic of food; persimmons is a subtopic of food; seeds is a subtopic of food; dates is a subtopic of food; cottage cheese is a subtopic of food; homli fruits is a subtopic of food; powdered tea is a subtopic of food; vodka is a subtopic of food; sauce ravigote is a subtopic of food; pie fillings is a subtopic of food; sweets is a subtopic of food; baking soda is a subtopic of food; tinned seafood is a subtopic of food; eggs is a subtopic of food; dough is a subtopic of food; loquats is a subtopic of food; gumdrops is a subtopic of food; nectarines is a subtopic of food; taffy is a subtopic of food; edible baking decoration is a subtopic of food; katara is a subtopic of food; tequilaseed is a subtopic of food; chocolate mints is a subtopic of food; scorcolga is a subtopic of food; beverage is a subtopic of food; chestnuts is a subtopic of food; condiment is a subtopic of food; coconuts is a subtopic of food; prickly pears is a subtopic of food; pesto is a subtopic of food; cheese is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; herring is a subtopic of food; h
+
+================================================================================
+
+================================================================================
+PARSED RELATIONSHIPS
+================================================================================
+Number of relationships parsed: 221
+
+Parsed relationships:
+  pasta sauces → food
+  caruso sauce → pasta sauces
+  khrenovina sauce → pasta sauces
+  ragù → pasta sauces
+  longan → food
+  cherimoyas → food
+  mangos → food
+  guavas → food
+  papayas → food
+  sugar apples → food
+  liquor → food
+  bread crumbs → food
+  cashews → food
+  chocolate assortments → food
+  cream → food
+  food colouring → food
+  floss sugar → food
+  horseradish sauce → food
+  hot sauce → food
+  marshmallows → food
+  salad dressings → food
+  whipped cream → food
+  wine → food
+  beurre noisette → food
+  cider → food
+  peanut butter cups → food
+  pique verde boricua → food
+  peach sauce → food
+  pecel → food
+  rântaş → food
+  whisky → food
+  lemons → food
+  gummy sweets → food
+  ogbono nuts → food
+  cooking wine → food
+  candy bars → food
+  physalis → food
+  coffee creamer → food
+  wow-wow sauce → food
+  horseradish sauce → food
+  feijoas → food
+  beer → food
+  lollipops → food
+  shredded coconut → food
+  peaches → food
+  whisky → food
+  lemons → food
+  gummy sweets → food
+  ogbono nuts → food
+  cooking wine → food
+  candy corn → food
+  butter and margarine → food
+  worcestershire sauce → food
+  persimmons → food
+  seeds → food
+  dates → food
+  cottage cheese → food
+  homli fruits → food
+  powdered tea → food
+  vodka → food
+  sauce ravigote → food
+  pie fillings → food
+  sweets → food
+  baking soda → food
+  tinned seafood → food
+  eggs → food
+  dough → food
+  loquats → food
+  gumdrops → food
+  nectarines → food
+  taffy → food
+  edible baking decoration → food
+  katara → food
+  tequilaseed → food
+  chocolate mints → food
+  scorcolga → food
+  beverage → food
+  chestnuts → food
+  condiment → food
+  coconuts → food
+  prickly pears → food
+  pesto → food
+  cheese → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+  herring → food
+
+================================================================================
