@@ -1,0 +1,1898 @@
+biggest round num:  5
+complete_count:  18
+  0%|          | 0/35 [00:00<?, ?it/s]
+################################################################################
+Processing subgraph 19/35
+Root: Computing Classification System
+Number of entities: 100
+################################################################################
+
+
+[Iteration 1] N-level: 1
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 94
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Build a taxonomy whose root concept is Computing Classification System with the given list of entities. The format of the generated taxonomy is: 1. Parent Concept 1.1 Child Concept. Do not change any ...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 3814
+[Token Usage] Completion tokens: 6116
+[Token Usage] Total tokens: 9930
+--------------------------------------------------------------------------------
+[API Response] Length: 148 characters
+[API Response] First 300 chars: First, the entity in the first level of the taxonomy is Computing Classification System.
+The current taxonomy is:
+1. Computing Classification System...
+================================================================================
+First, the entity in the first level of the taxonomy is Computing Classification System.
+The current taxonomy is:
+1. Computing Classification System
+
+[Iteration 2] N-level: 1
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 96
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Check: Is the remaining entity list empty?
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 3859
+[Token Usage] Completion tokens: 77
+[Token Usage] Total tokens: 3936
+--------------------------------------------------------------------------------
+[API Response] Length: 11 characters
+[API Response] First 300 chars: Answer: No....
+================================================================================
+Answer: No.
+[Status] Moving to next level: 2
+
+[Iteration 2] N-level: 2
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 98
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Then, let's find all the 2-level entities from the remaining entity list.
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 3889
+[Token Usage] Completion tokens: 3932
+[Token Usage] Total tokens: 7821
+--------------------------------------------------------------------------------
+[API Response] Length: 335 characters
+[API Response] First 300 chars: The current taxonomy is:
+
+1. Computing Classification System
+1.1 General and reference
+1.2 Hardware
+1.3 Theory of computation
+1.4 Mathematics of computing
+1.5 Information systems
+1.6 Security and privacy
+1.7 Human-centered computing
+1.8 Applied computing
+1.9 Networks
+1.10 Social and professional top...
+================================================================================
+The current taxonomy is:
+
+1. Computing Classification System
+1.1 General and reference
+1.2 Hardware
+1.3 Theory of computation
+1.4 Mathematics of computing
+1.5 Information systems
+1.6 Security and privacy
+1.7 Human-centered computing
+1.8 Applied computing
+1.9 Networks
+1.10 Social and professional topics
+1.11 Computers in other domains
+
+[Iteration 3] N-level: 2
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 100
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Check: Is the remaining entity list empty?
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 3991
+[Token Usage] Completion tokens: 9076
+[Token Usage] Total tokens: 13067
+--------------------------------------------------------------------------------
+[API Response] Length: 1679 characters
+[API Response] First 300 chars: The current taxonomy is:
+1. Computing Classification System
+1.1 Human-centered computing
+1.2 Security and privacy
+1.3 General and reference
+1.4 Mathematics of computing
+1.5 Information systems
+1.6 Computers in other domains
+1.7 Hardware
+1.8 Theory of computation
+1.9 Networks
+1.10 Social and professi...
+================================================================================
+The current taxonomy is:
+1. Computing Classification System
+1.1 Human-centered computing
+1.2 Security and privacy
+1.3 General and reference
+1.4 Mathematics of computing
+1.5 Information systems
+1.6 Computers in other domains
+1.7 Hardware
+1.8 Theory of computation
+1.9 Networks
+1.10 Social and professional topics
+1.11 Applied computing
+1.2.1 Cryptography
+1.2.2 Software and application security
+1.2.3 Embedded systems security
+1.2.4 Domain-specific security and privacy architectures
+1.2.5 Human and societal aspects of security and privacy
+1.2.6 Social aspects of security and privacy
+1.2.7 Intrusion/anomaly detection and malware mitigation
+1.2.8 Privacy protections
+1.2.9 Economics of security and privacy
+1.2.10 Database and storage security
+1.4.1 Probability and statistics
+1.4.2 Discrete mathematics
+1.4.3 Mathematical analysis
+1.4.4 Continuous mathematics
+1.4.5 Topology
+1.4.6 Graph theory
+1.4.7 Combinatorics
+1.4.8 Mathematical software
+1.5.1 Information storage systems
+1.5.2 Information systems applications
+1.5.3 Computing platforms
+1.5.4 IT architectures
+1.5.5 Database activity monitoring
+1.6.1 Consumer products
+1.7.1 Integrated circuits
+1.7.2 Interconnect
+1.7.3 Hardware validation
+1.7.4 Security in hardware
+1.8.1 Formal languages and automata theory
+1.8.2 Semantics and reasoning
+1.8.3 Probabilistic algorithms
+1.9.1 Network architectures
+1.9.2 Network services
+1.9.3 Network types
+1.9.4 Network properties
+1.9.5 Network dynamics
+1.9.6 Network monitoring
+1.9.7 Programmable networks
+1.9.8 In-network processing
+1.10.1 Law, social and behavioral sciences
+1.10.2 IT governance
+1.11.1 Enterprise computing
+1.11.2 Operations research
+1.11.3 Education
+1.11.4 Marketing
+[Status] Moving to next level: 3
+
+[Iteration 3] N-level: 3
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 102
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Then, let's find all the 3-level entities from the remaining entity list.
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 4508
+[Token Usage] Completion tokens: 5376
+[Token Usage] Total tokens: 9884
+--------------------------------------------------------------------------------
+[API Response] Length: 1728 characters
+[API Response] First 300 chars: The current taxonomy is:
+1. Computing Classification System
+1.1 Human-centered computing
+1.2 Security and privacy
+1.2.1 Cryptography
+1.2.2 Software and application security
+1.2.3 Embedded systems security
+1.2.4 Domain-specific security and privacy architectures
+1.2.5 Human and societal aspects of se...
+================================================================================
+The current taxonomy is:
+1. Computing Classification System
+1.1 Human-centered computing
+1.2 Security and privacy
+1.2.1 Cryptography
+1.2.2 Software and application security
+1.2.3 Embedded systems security
+1.2.4 Domain-specific security and privacy architectures
+1.2.5 Human and societal aspects of security and privacy
+1.2.6 Social aspects of security and privacy
+1.2.7 Intrusion/anomaly detection and malware mitigation
+1.2.8 Privacy protections
+1.2.9 Economics of security and privacy
+1.2.10 Database and storage security
+1.2.11 Management and querying of encrypted data
+1.3 General and reference
+1.4 Mathematics of computing
+1.4.1 Probability and statistics
+1.4.2 Discrete mathematics
+1.4.3 Mathematical analysis
+1.4.4 Continuous mathematics
+1.4.5 Topology
+1.4.6 Graph theory
+1.4.7 Combinatorics
+1.4.8 Mathematical software
+1.5 Information systems
+1.5.1 Information storage systems
+1.5.2 Information systems applications
+1.5.3 Computing platforms
+1.5.4 IT architectures
+1.5.5 Database activity monitoring
+1.6 Computers in other domains
+1.6.1 Consumer products
+1.7 Hardware
+1.7.1 Integrated circuits
+1.7.2 Interconnect
+1.7.3 Hardware validation
+1.7.4 Security in hardware
+1.8 Theory of computation
+1.8.1 Formal languages and automata theory
+1.8.2 Semantics and reasoning
+1.8.3 Probabilistic algorithms
+1.9 Networks
+1.9.1 Network architectures
+1.9.2 Network services
+1.9.3 Network types
+1.9.4 Network properties
+1.9.5 Network dynamics
+1.9.6 Network monitoring
+1.9.7 Programmable networks
+1.9.8 In-network processing
+1.10 Social and professional topics
+1.10.1 Law, social and behavioral sciences
+1.10.2 IT governance
+1.11 Applied computing
+1.11.1 Enterprise computing
+1.11.2 Operations research
+1.11.3 Education
+1.11.4 Marketing
+
+[Iteration 4] N-level: 3
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 104
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Check: Is the remaining entity list empty?
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 5023
+[Token Usage] Completion tokens: 1357
+[Token Usage] Total tokens: 6380
+--------------------------------------------------------------------------------
+[API Response] Length: 11 characters
+[API Response] First 300 chars: Answer: No....
+================================================================================
+Answer: No.
+[Status] Moving to next level: 4
+
+[Iteration 4] N-level: 4
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 106
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Then, let's find all the 4-level entities from the remaining entity list.
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 5053
+[Token Usage] Completion tokens: 9834
+[Token Usage] Total tokens: 14887
+--------------------------------------------------------------------------------
+[API Response] Length: 3120 characters
+[API Response] First 300 chars: The current taxonomy is:
+1. Computing Classification System
+1.1 Human-centered computing
+1.2 Security and privacy
+1.2.1 Database and storage security
+1.2.2 Embedded systems security
+1.2.3 Management and querying of encrypted data
+1.2.4 Domain-specific security and privacy architectures
+1.2.5 Softwar...
+================================================================================
+The current taxonomy is:
+1. Computing Classification System
+1.1 Human-centered computing
+1.2 Security and privacy
+1.2.1 Database and storage security
+1.2.2 Embedded systems security
+1.2.3 Management and querying of encrypted data
+1.2.4 Domain-specific security and privacy architectures
+1.2.5 Software and application security
+1.2.5.1 Software security engineering
+1.2.6 Economics of security and privacy
+1.2.7 Privacy protections
+1.2.8 Cryptography
+1.2.8.1 Information-theoretic techniques
+1.2.9 Human and societal aspects of security and privacy
+1.2.10 Intrusion/anomaly detection and malware mitigation
+1.2.11 Social aspects of security and privacy
+1.3 General and reference
+1.4 Mathematics of computing
+1.4.1 Probability and statistics
+1.4.1.1 Resampling methods
+1.4.1.2 Nonparametric statistics
+1.4.1.3 Bootstrapping
+1.4.1.4 Multivariate statistics
+1.4.1.5 Stochastic processes
+1.4.1.6 Stochastic differential equations
+1.4.1.7 Probabilistic representations
+1.4.1.8 Probabilistic reasoning algorithms
+1.4.1.9 Causal networks
+1.4.1.10 Markov networks
+1.4.1.11 Factor graphs
+1.4.2 Discrete mathematics
+1.4.3 Mathematical analysis
+1.4.3.1 Continuous functions
+1.4.3.2 Quadrature
+1.4.4 Continuous mathematics
+1.4.5 Topology
+1.4.5.1 Algebraic topology
+1.4.5.2 Geometric topology
+1.4.6 Graph theory
+1.4.6.1 Random graphs
+1.4.6.2 Extremal graph theory
+1.4.6.3 Paths and connectivity problems
+1.4.6.4 Graph enumeration
+1.4.7 Combinatorics
+1.4.7.1 Combinatoric problems
+1.4.7.2 Combinatorics on words
+1.4.7.3 Matroids and greedoids
+1.4.8 Mathematical software
+1.5 Information systems
+1.5.1 Computing platforms
+1.5.2 Information storage systems
+1.5.3 Database activity monitoring
+1.5.4 IT architectures
+1.5.4.1 Event-driven architectures
+1.5.5 Information systems applications
+1.5.5.1 Business rules
+1.5.5.2 Enterprise interoperability
+1.6 Computers in other domains
+1.6.1 Consumer products
+1.7 Hardware
+1.7.1 Integrated circuits
+1.7.1.1 Digital switches
+1.7.1.2 Logic families
+1.7.2 Interconnect
+1.7.2.1 Metallic interconnect
+1.7.3 Hardware validation
+1.7.3.1 Post-manufacture validation and debug
+1.7.3.2 Functional verification
+1.7.4 Security in hardware
+1.7.4.1 Hardware security implementation
+1.7.4.2 Hardware attacks and countermeasures
+1.7.4.3 Tamper-proof and tamper-resistant designs
+1.7.4.4 Hardware-based security protocols
+1.8 Theory of computation
+1.8.1 Formal languages and automata theory
+1.8.1.1 Grammars and context-free languages
+1.8.2 Probabilistic algorithms
+1.8.3 Semantics and reasoning
+1.9 Networks
+1.9.1 Network types
+1.9.2 Network monitoring
+1.9.3 Programmable networks
+1.9.4 Network dynamics
+1.9.5 Network architectures
+1.9.6 In-network processing
+1.9.7 Network services
+1.9.8 Network properties
+1.10 Social and professional topics
+1.10.1 Law, social and behavioral sciences
+1.10.2 IT governance
+1.11 Applied computing
+1.11.1 Education
+1.11.1.1 Interactive learning environments
+1.11.1.2 Distance learning
+1.11.2 Operations research
+1.11.2.1 Decision analysis
+1.11.2.2 Multi-criterion optimization and decision-making
+1.11.2.3 Combinatorial optimization
+1.11.3 Enterprise computing
+1.11.4 Marketing
+
+[Iteration 5] N-level: 4
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 108
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Check: Is the remaining entity list empty?
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 6047
+[Token Usage] Completion tokens: 3085
+[Token Usage] Total tokens: 9132
+--------------------------------------------------------------------------------
+[API Response] Length: 12 characters
+[API Response] First 300 chars: Answer: Yes....
+================================================================================
+Answer: Yes.
+[Status] Moving to next level: 5
+
+[Iteration 5] N-level: 5
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 110
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Then, let's find all the 5-level entities from the remaining entity list.
+...
+ 54%|█████▍    | 19/35 [12:23<10:26, 39.15s/it]================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 6077
+[Token Usage] Completion tokens: 8040
+[Token Usage] Total tokens: 14117
+--------------------------------------------------------------------------------
+[API Response] Length: 3110 characters
+[API Response] First 300 chars: The current taxonomy is:
+1. Computing Classification System
+1.1 Security and privacy
+1.1.1 Database and storage security
+1.1.2 Software and application security
+1.1.2.1 Software security engineering
+1.1.3 Cryptography
+1.1.3.1 Information-theoretic techniques
+1.1.4 Social aspects of security and priv...
+================================================================================
+The current taxonomy is:
+1. Computing Classification System
+1.1 Security and privacy
+1.1.1 Database and storage security
+1.1.2 Software and application security
+1.1.2.1 Software security engineering
+1.1.3 Cryptography
+1.1.3.1 Information-theoretic techniques
+1.1.4 Social aspects of security and privacy
+1.1.5 Embedded systems security
+1.1.6 Management and querying of encrypted data
+1.1.7 Domain-specific security and privacy architectures
+1.1.8 Economics of security and privacy
+1.1.9 Intrusion/anomaly detection and malware mitigation
+1.1.10 Privacy protections
+1.1.11 Human and societal aspects of security and privacy
+1.2 Applied computing
+1.2.1 Education
+1.2.1.1 Distance learning
+1.2.1.2 Interactive learning environments
+1.2.2 Enterprise computing
+1.2.3 Marketing
+1.2.4 Operations research
+1.2.4.1 Combinatorial optimization
+1.2.4.2 Decision analysis
+1.2.4.3 Multi-criterion optimization and decision-making
+1.3 Hardware
+1.3.1 Interconnect
+1.3.1.1 Metallic interconnect
+1.3.2 Hardware validation
+1.3.2.1 Post-manufacture validation and debug
+1.3.2.2 Functional verification
+1.3.3 Integrated circuits
+1.3.3.1 Logic families
+1.3.3.2 Digital switches
+1.3.4 Security in hardware
+1.3.4.1 Tamper-proof and tamper-resistant designs
+1.3.4.2 Hardware security implementation
+1.3.4.3 Hardware attacks and countermeasures
+1.3.4.4 Hardware-based security protocols
+1.4 Information systems
+1.4.1 Database activity monitoring
+1.4.2 Information storage systems
+1.4.3 Information systems applications
+1.4.3.1 Enterprise interoperability
+1.4.3.2 Business rules
+1.4.4 Computing platforms
+1.4.5 IT architectures
+1.4.5.1 Event-driven architectures
+1.5 Human-centered computing
+1.6 Theory of computation
+1.6.1 Probabilistic algorithms
+1.6.2 Formal languages and automata theory
+1.6.2.1 Grammars and context-free languages
+1.6.3 Semantics and reasoning
+1.7 Social and professional topics
+1.7.1 Law, social and behavioral sciences
+1.7.2 IT governance
+1.8 Networks
+1.8.1 Network architectures
+1.8.2 Network types
+1.8.3 Network dynamics
+1.8.4 Network services
+1.8.5 Network monitoring
+1.8.6 Programmable networks
+1.8.7 In-network processing
+1.8.8 Network properties
+1.9 Mathematics of computing
+1.9.1 Discrete mathematics
+1.9.2 Graph theory
+1.9.2.1 Graph enumeration
+1.9.2.2 Random graphs
+1.9.2.3 Extremal graph theory
+1.9.2.4 Paths and connectivity problems
+1.9.3 Combinatorics
+1.9.3.1 Combinatorics on words
+1.9.3.2 Matroids and greedoids
+1.9.3.3 Combinatoric problems
+1.9.4 Continuous mathematics
+1.9.5 Topology
+1.9.5.1 Geometric topology
+1.9.5.2 Algebraic topology
+1.9.6 Mathematical analysis
+1.9.6.1 Quadrature
+1.9.6.2 Continuous functions
+1.9.7 Probability and statistics
+1.9.7.1 Bootstrapping
+1.9.7.2 Probabilistic representations
+1.9.7.3 Stochastic processes
+1.9.7.4 Nonparametric statistics
+1.9.7.5 Stochastic differential equations
+1.9.7.6 Markov networks
+1.9.7.7 Resampling methods
+1.9.7.8 Causal networks
+1.9.7.9 Probabilistic reasoning algorithms
+1.9.7.10 Multivariate statistics
+1.9.7.11 Factor graphs
+1.9.8 Mathematical software
+1.10 General and reference
+1.11 Computers in other domains
+1.11.1 Consumer products
+
+********************************************************************************
+[Cumulative Stats] Total API calls: 9
+[Cumulative Stats] Total prompt tokens: 42261
+[Cumulative Stats] Total completion tokens: 46893
+[Cumulative Stats] Total tokens used: 89154
+[Cumulative Stats] Average tokens per call: 9906.00
+********************************************************************************
+
+
+################################################################################
+Processing subgraph 20/35
+Root: Computing Classification System
+Number of entities: 100
+################################################################################
+
+
+[Iteration 1] N-level: 1
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 94
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Build a taxonomy whose root concept is Computing Classification System with the given list of entities. The format of the generated taxonomy is: 1. Parent Concept 1.1 Child Concept. Do not change any ...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 3836
+[Token Usage] Completion tokens: 6435
+[Token Usage] Total tokens: 10271
+--------------------------------------------------------------------------------
+[API Response] Length: 148 characters
+[API Response] First 300 chars: First, the entity in the first level of the taxonomy is Computing Classification System.
+The current taxonomy is:
+1. Computing Classification System...
+================================================================================
+First, the entity in the first level of the taxonomy is Computing Classification System.
+The current taxonomy is:
+1. Computing Classification System
+
+[Iteration 2] N-level: 1
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 96
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Check: Is the remaining entity list empty?
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 3881
+[Token Usage] Completion tokens: 77
+[Token Usage] Total tokens: 3958
+--------------------------------------------------------------------------------
+[API Response] Length: 11 characters
+[API Response] First 300 chars: Answer: No....
+================================================================================
+Answer: No.
+[Status] Moving to next level: 2
+
+[Iteration 2] N-level: 2
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 98
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Then, let's find all the 2-level entities from the remaining entity list.
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 3911
+[Token Usage] Completion tokens: 2007
+[Token Usage] Total tokens: 5918
+--------------------------------------------------------------------------------
+[API Response] Length: 315 characters
+[API Response] First 300 chars: The current taxonomy is:
+
+1. Computing Classification System
+1.1 General and reference
+1.2 Hardware
+1.3 Human-centered computing
+1.4 Information systems
+1.5 Security and privacy
+1.6 Networks
+1.7 Computing methodologies
+1.8 Mathematics of computing
+1.9 Theory of computation
+1.10 Cross-computing tools...
+================================================================================
+The current taxonomy is:
+
+1. Computing Classification System
+1.1 General and reference
+1.2 Hardware
+1.3 Human-centered computing
+1.4 Information systems
+1.5 Security and privacy
+1.6 Networks
+1.7 Computing methodologies
+1.8 Mathematics of computing
+1.9 Theory of computation
+1.10 Cross-computing tools and techniques
+
+[Iteration 3] N-level: 2
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 100
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Check: Is the remaining entity list empty?
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 4008
+[Token Usage] Completion tokens: 973
+[Token Usage] Total tokens: 4981
+--------------------------------------------------------------------------------
+[API Response] Length: 11 characters
+[API Response] First 300 chars: Answer: No....
+================================================================================
+Answer: No.
+[Status] Moving to next level: 3
+
+[Iteration 3] N-level: 3
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 102
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Then, let's find all the 3-level entities from the remaining entity list.
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 4038
+[Token Usage] Completion tokens: 7832
+[Token Usage] Total tokens: 11870
+--------------------------------------------------------------------------------
+[API Response] Length: 2272 characters
+[API Response] First 300 chars: The current taxonomy is:
+1. Computing Classification System
+1.1 Human-centered computing
+1.1.1 Human computer interaction (HCI)
+1.1.2 Interaction design
+1.1.3 Interaction devices
+1.1.4 Interaction techniques
+1.1.5 User studies
+1.1.6 User models
+1.1.7 Accessibility
+1.1.8 Collaborative and social comp...
+================================================================================
+The current taxonomy is:
+1. Computing Classification System
+1.1 Human-centered computing
+1.1.1 Human computer interaction (HCI)
+1.1.2 Interaction design
+1.1.3 Interaction devices
+1.1.4 Interaction techniques
+1.1.5 User studies
+1.1.6 User models
+1.1.7 Accessibility
+1.1.8 Collaborative and social computing
+1.2 Security and privacy
+1.2.1 Systems security
+1.2.2 Software and application security
+1.2.3 Distributed systems security
+1.2.4 Database and storage security
+1.2.5 Intrusion detection systems
+1.2.6 Intrusion/anomaly detection and malware mitigation
+1.2.7 Human and societal aspects of security and privacy
+1.2.8 Information accountability and usage control
+1.3 Cross-computing tools and techniques
+1.3.1 Measurement
+1.3.2 Experimentation
+1.3.3 Design
+1.4 General and reference
+1.5 Computing methodologies
+1.5.1 Artificial intelligence
+1.5.2 Parallel computing methodologies
+1.5.3 Distributed computing methodologies
+1.5.4 Modeling and simulation
+1.5.5 Modeling methodologies
+1.5.6 Model development and analysis
+1.5.7 Mathematical software
+1.5.8 Statistical software
+1.6 Mathematics of computing
+1.6.1 Discrete mathematics
+1.6.2 Continuous mathematics
+1.6.3 Probability and statistics
+1.6.4 Combinatorics
+1.6.5 Graph theory
+1.6.6 Symbolic and algebraic algorithms
+1.6.7 Symbolic and algebraic manipulation
+1.6.8 Algebraic algorithms
+1.6.9 Hybrid symbolic-numeric methods
+1.6.10 Number theory algorithms
+1.6.11 Exact arithmetic algorithms
+1.6.12 Nonalgebraic algorithms
+1.7 Information systems
+1.7.1 Information retrieval
+1.7.2 Information storage systems
+1.7.3 Record storage systems
+1.7.4 Document representation
+1.7.5 Document structure
+1.7.6 Social network analysis
+1.8 Hardware
+1.8.1 Integrated circuits
+1.8.2 Hardware test
+1.8.3 Hardware validation
+1.8.4 Functional verification
+1.8.5 Security in hardware
+1.8.6 Hardware security implementation
+1.8.7 Hardware attacks and countermeasures
+1.8.8 Hardware reliability screening
+1.8.9 Digital switches
+1.8.10 Power and energy
+1.8.11 Thermal issues
+1.9 Theory of computation
+1.9.1 Models of computation
+1.9.2 Formal languages and automata theory
+1.9.3 Automata extensions
+1.9.4 Equivalence checking
+1.9.5 Design and analysis of algorithms
+1.9.6 Information theory
+1.10 Networks
+1.10.1 Network performance evaluation
+
+[Iteration 4] N-level: 3
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 104
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Check: Is the remaining entity list empty?
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 4705
+[Token Usage] Completion tokens: 2189
+[Token Usage] Total tokens: 6894
+--------------------------------------------------------------------------------
+[API Response] Length: 11 characters
+[API Response] First 300 chars: Answer: No....
+================================================================================
+Answer: No.
+[Status] Moving to next level: 4
+
+[Iteration 4] N-level: 4
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 106
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Then, let's find all the 4-level entities from the remaining entity list.
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 4735
+[Token Usage] Completion tokens: 7807
+[Token Usage] Total tokens: 12542
+--------------------------------------------------------------------------------
+[API Response] Length: 3219 characters
+[API Response] First 300 chars: The current taxonomy is:
+1. computing classification system
+1.1 general and reference
+1.2 networks
+1.2.1 network performance evaluation
+1.3 computing methodologies
+1.3.1 distributed computing methodologies
+1.3.2 model development and analysis
+1.3.3 modeling methodologies
+1.3.4 statistical software
+1...
+================================================================================
+The current taxonomy is:
+1. computing classification system
+1.1 general and reference
+1.2 networks
+1.2.1 network performance evaluation
+1.3 computing methodologies
+1.3.1 distributed computing methodologies
+1.3.2 model development and analysis
+1.3.3 modeling methodologies
+1.3.4 statistical software
+1.3.5 modeling and simulation
+1.3.6 parallel computing methodologies
+1.3.7 artificial intelligence
+1.3.8 mathematical software
+1.3.8.1 Mathematical software performance
+1.4 hardware
+1.4.1 hardware attacks and countermeasures
+1.4.2 thermal issues
+1.4.3 integrated circuits
+1.4.4 hardware test
+1.4.4.1 Board- and system-level test
+1.4.4.2 Defect-based test
+1.4.4.3 Test-pattern generation and fault simulation
+1.4.5 functional verification
+1.4.6 digital switches
+1.4.7 power and energy
+1.4.8 hardware validation
+1.4.9 security in hardware
+1.4.10 hardware reliability screening
+1.4.11 hardware security implementation
+1.5 cross-computing tools and techniques
+1.5.1 experimentation
+1.5.2 measurement
+1.5.3 design
+1.6 security and privacy
+1.6.1 database and storage security
+1.6.2 distributed systems security
+1.6.3 software and application security
+1.6.4 intrusion detection systems
+1.6.5 information accountability and usage control
+1.6.6 systems security
+1.6.7 human and societal aspects of security and privacy
+1.6.8 intrusion/anomaly detection and malware mitigation
+1.7 mathematics of computing
+1.7.1 symbolic and algebraic algorithms
+1.7.2 probability and statistics
+1.7.2.1 Nonparametric statistics
+1.7.3 discrete mathematics
+1.7.4 hybrid symbolic-numeric methods
+1.7.5 graph theory
+1.7.5.1 Spectra of graphs
+1.7.5.2 Matchings and factors
+1.7.5.3 Paths and connectivity problems
+1.7.5.4 Extremal graph theory
+1.7.6 number theory algorithms
+1.7.7 exact arithmetic algorithms
+1.7.8 continuous mathematics
+1.7.8.1 Continuous functions
+1.7.9 symbolic and algebraic manipulation
+1.7.10 nonalgebraic algorithms
+1.7.11 combinatorics
+1.7.11.1 Permutations and combinations
+1.7.11.2 Combinatoric problems
+1.7.12 algebraic algorithms
+1.8 information systems
+1.8.1 information storage systems
+1.8.2 information retrieval
+1.8.3 document structure
+1.8.4 record storage systems
+1.8.5 social network analysis
+1.8.6 document representation
+1.9 human-centered computing
+1.9.1 interaction devices
+1.9.1.1 Keyboards
+1.9.1.2 Gestural input
+1.9.2 user models
+1.9.3 user studies
+1.9.4 human computer interaction (hci)
+1.9.4.1 HCI design and evaluation methods
+1.9.5 interaction design
+1.9.5.1 Systems and tools for interaction design
+1.9.5.2 Interaction design theory, concepts and paradigms
+1.9.5.3 Empirical studies in interaction design
+1.9.6 accessibility
+1.9.6.1 Accessibility technologies
+1.9.6.2 Accessibility theory, concepts and paradigms
+1.9.6.3 Empirical studies in accessibility
+1.9.7 interaction techniques
+1.9.8 collaborative and social computing
+1.9.8.1 Collaborative and social computing devices
+1.9.8.2 Collaborative and social computing design and evaluation methods
+1.10 theory of computation
+1.10.1 design and analysis of algorithms
+1.10.1.1 Optimization algorithms
+1.10.2 formal languages and automata theory
+1.10.3 equivalence checking
+1.10.4 automata extensions
+1.10.5 information theory
+1.10.6 models of computation
+
+[Iteration 5] N-level: 4
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 108
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Check: Is the remaining entity list empty?
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 5697
+[Token Usage] Completion tokens: 3341
+[Token Usage] Total tokens: 9038
+--------------------------------------------------------------------------------
+[API Response] Length: 11 characters
+[API Response] First 300 chars: Answer: No....
+================================================================================
+Answer: No.
+[Status] Moving to next level: 5
+
+[Iteration 5] N-level: 5
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 110
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Then, let's find all the 5-level entities from the remaining entity list.
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 5727
+[Token Usage] Completion tokens: 5904
+[Token Usage] Total tokens: 11631
+--------------------------------------------------------------------------------
+[API Response] Length: 3273 characters
+[API Response] First 300 chars: The current taxonomy is:
+1. computing classification system
+1.1 security and privacy
+1.1.1 database and storage security
+1.1.2 software and application security
+1.1.3 intrusion detection systems
+1.1.4 information accountability and usage control
+1.1.5 intrusion/anomaly detection and malware mitigati...
+================================================================================
+ 57%|█████▋    | 20/35 [22:04<19:15, 77.03s/it]The current taxonomy is:
+1. computing classification system
+1.1 security and privacy
+1.1.1 database and storage security
+1.1.2 software and application security
+1.1.3 intrusion detection systems
+1.1.4 information accountability and usage control
+1.1.5 intrusion/anomaly detection and malware mitigation
+1.1.6 distributed systems security
+1.1.7 systems security
+1.1.8 human and societal aspects of security and privacy
+1.2 computing methodologies
+1.2.1 distributed computing methodologies
+1.2.2 parallel computing methodologies
+1.2.3 model development and analysis
+1.2.4 modeling methodologies
+1.2.5 statistical software
+1.2.6 modeling and simulation
+1.2.7 artificial intelligence
+1.2.8 mathematical software
+1.2.8.1 mathematical software performance
+1.3 hardware
+1.3.1 functional verification
+1.3.2 hardware test
+1.3.2.1 test-pattern generation and fault simulation
+1.3.2.2 defect-based test
+1.3.2.3 board- and system-level test
+1.3.3 digital switches
+1.3.4 hardware validation
+1.3.5 hardware security implementation
+1.3.6 integrated circuits
+1.3.7 power and energy
+1.3.8 hardware reliability screening
+1.3.9 hardware attacks and countermeasures
+1.3.10 thermal issues
+1.3.11 security in hardware
+1.4 cross-computing tools and techniques
+1.4.1 design
+1.4.2 experimentation
+1.4.3 measurement
+1.5 information systems
+1.5.1 information retrieval
+1.5.2 information storage systems
+1.5.3 document structure
+1.5.4 social network analysis
+1.5.5 record storage systems
+1.5.6 document representation
+1.6 human-centered computing
+1.6.1 interaction techniques
+1.6.2 user models
+1.6.3 user studies
+1.6.4 interaction design
+1.6.4.1 systems and tools for interaction design
+1.6.4.2 interaction design theory, concepts and paradigms
+1.6.4.3 empirical studies in interaction design
+1.6.5 interaction devices
+1.6.5.1 keyboards
+1.6.5.2 gestural input
+1.6.6 human computer interaction (hci)
+1.6.6.1 hci design and evaluation methods
+1.6.6.1.1 usability testing
+1.6.6.1.2 walkthrough evaluations
+1.6.7 accessibility
+1.6.7.1 accessibility theory, concepts and paradigms
+1.6.7.2 accessibility technologies
+1.6.7.3 empirical studies in accessibility
+1.6.8 collaborative and social computing
+1.6.8.1 collaborative and social computing devices
+1.6.8.2 collaborative and social computing design and evaluation methods
+1.7 theory of computation
+1.7.1 models of computation
+1.7.2 design and analysis of algorithms
+1.7.2.1 optimization algorithms
+1.7.3 formal languages and automata theory
+1.7.4 automata extensions
+1.7.5 information theory
+1.7.6 equivalence checking
+1.8 networks
+1.8.1 network performance evaluation
+1.9 mathematics of computing
+1.9.1 discrete mathematics
+1.9.2 graph theory
+1.9.2.1 spectra of graphs
+1.9.2.2 matchings and factors
+1.9.2.3 extremal graph theory
+1.9.2.4 paths and connectivity problems
+1.9.3 symbolic and algebraic manipulation
+1.9.4 combinatorics
+1.9.4.1 combinatoric problems
+1.9.4.2 permutations and combinations
+1.9.5 algebraic algorithms
+1.9.6 symbolic and algebraic algorithms
+1.9.7 exact arithmetic algorithms
+1.9.8 continuous mathematics
+1.9.8.1 continuous functions
+1.9.9 nonalgebraic algorithms
+1.9.10 probability and statistics
+1.9.10.1 nonparametric statistics
+1.9.11 hybrid symbolic-numeric methods
+1.9.12 number theory algorithms
+1.10 general and reference
+
+********************************************************************************
+[Cumulative Stats] Total API calls: 18
+[Cumulative Stats] Total prompt tokens: 82799
+[Cumulative Stats] Total completion tokens: 83458
+[Cumulative Stats] Total tokens used: 166257
+[Cumulative Stats] Average tokens per call: 9236.50
+********************************************************************************
+
+
+################################################################################
+Processing subgraph 21/35
+Root: Computing Classification System
+Number of entities: 200
+################################################################################
+
+
+[Iteration 1] N-level: 1
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 94
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Build a taxonomy whose root concept is Computing Classification System with the given list of entities. The format of the generated taxonomy is: 1. Parent Concept 1.1 Child Concept. Do not change any ...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 4341
+[Token Usage] Completion tokens: 355
+[Token Usage] Total tokens: 4696
+--------------------------------------------------------------------------------
+[API Response] Length: 148 characters
+[API Response] First 300 chars: First, the entity in the first level of the taxonomy is Computing Classification System.
+The current taxonomy is:
+1. Computing Classification System...
+================================================================================
+First, the entity in the first level of the taxonomy is Computing Classification System.
+The current taxonomy is:
+1. Computing Classification System
+
+[Iteration 2] N-level: 1
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 96
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Check: Is the remaining entity list empty?
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 4386
+[Token Usage] Completion tokens: 77
+[Token Usage] Total tokens: 4463
+--------------------------------------------------------------------------------
+[API Response] Length: 11 characters
+[API Response] First 300 chars: Answer: No....
+================================================================================
+Answer: No.
+[Status] Moving to next level: 2
+
+[Iteration 2] N-level: 2
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 98
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Then, let's find all the 2-level entities from the remaining entity list.
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 4416
+[Token Usage] Completion tokens: 3878
+[Token Usage] Total tokens: 8294
+--------------------------------------------------------------------------------
+[API Response] Length: 381 characters
+[API Response] First 300 chars: The current taxonomy is:
+
+1. Computing Classification System
+1.1 General and reference
+1.2 Hardware
+1.3 Computing methodologies
+1.4 Mathematics of computing
+1.5 Information systems
+1.6 Networks
+1.7 Security and privacy
+1.8 Software and its engineering
+1.9 Human-centered computing
+1.10 Applied comput...
+================================================================================
+The current taxonomy is:
+
+1. Computing Classification System
+1.1 General and reference
+1.2 Hardware
+1.3 Computing methodologies
+1.4 Mathematics of computing
+1.5 Information systems
+1.6 Networks
+1.7 Security and privacy
+1.8 Software and its engineering
+1.9 Human-centered computing
+1.10 Applied computing
+1.11 Social and professional topics
+1.12 Cross-computing tools and techniques
+
+[Iteration 3] N-level: 2
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 100
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Check: Is the remaining entity list empty?
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 4528
+[Token Usage] Completion tokens: 205
+[Token Usage] Total tokens: 4733
+--------------------------------------------------------------------------------
+[API Response] Length: 11 characters
+[API Response] First 300 chars: Answer: No....
+================================================================================
+Answer: No.
+[Status] Moving to next level: 3
+
+[Iteration 3] N-level: 3
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 102
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Then, let's find all the 3-level entities from the remaining entity list.
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 4558
+[Token Usage] Completion tokens: 13910
+[Token Usage] Total tokens: 18468
+--------------------------------------------------------------------------------
+[API Response] Length: 6159 characters
+[API Response] First 300 chars: The current taxonomy is:
+1. Computing Classification System
+1.1 Human-centered computing
+1.1.1 Ubiquitous and mobile computing
+1.1.2 Ubiquitous and mobile computing systems and tools
+1.1.3 User characteristics
+1.1.4 People with disabilities
+1.1.5 Age
+1.1.6 Gender
+1.1.7 Men
+1.1.8 Empirical studies in...
+================================================================================
+The current taxonomy is:
+1. Computing Classification System
+1.1 Human-centered computing
+1.1.1 Ubiquitous and mobile computing
+1.1.2 Ubiquitous and mobile computing systems and tools
+1.1.3 User characteristics
+1.1.4 People with disabilities
+1.1.5 Age
+1.1.6 Gender
+1.1.7 Men
+1.1.8 Empirical studies in ubiquitous and mobile computing
+1.1.9 Text editing
+1.2 Security and privacy
+1.2.1 Software and application security
+1.3 Cross-computing tools and techniques
+1.3.1 Experimentation
+1.3.2 Evaluation
+1.3.3 Validation
+1.3.4 Cross-validation
+1.4 General and reference
+1.4.1 History of computing
+1.4.2 Design
+1.4.3 Empirical studies
+1.4.4 Walkthroughs
+1.5 Computing methodologies
+1.5.1 Machine learning
+1.5.2 Learning paradigms
+1.5.3 Learning settings
+1.5.4 Batch learning
+1.5.5 Active learning settings
+1.5.6 Learning from demonstrations
+1.5.7 Artificial intelligence
+1.5.8 Philosophical/theoretical foundations of artificial intelligence
+1.5.9 Knowledge representation and reasoning
+1.5.10 Probabilistic reasoning
+1.5.11 Reasoning about belief and knowledge
+1.5.12 Nonmonotonic, default reasoning and belief revision
+1.5.13 Ontology engineering
+1.5.14 Cognitive robotics
+1.5.15 Computer vision
+1.5.16 Computer graphics
+1.5.17 Animation
+1.5.18 Graphics systems and interfaces
+1.5.19 Visualization
+1.5.20 Visualization techniques
+1.5.21 Empirical studies in visualization
+1.5.22 Heat maps
+1.5.23 Point-based models
+1.5.24 Volumetric models
+1.5.25 Shape modeling
+1.5.26 Collision detection
+1.5.27 Image compression
+1.5.28 Parallel computing methodologies
+1.5.29 Distributed computing methodologies
+1.5.30 Concurrent computing methodologies
+1.5.31 Search methodologies
+1.5.32 Modeling and simulation
+1.5.33 Simulation theory
+1.5.34 Simulation support systems
+1.5.35 Simulation evaluation
+1.5.36 Model development and analysis
+1.5.37 Causal reasoning and diagnostics
+1.5.38 Control methods
+1.6 Mathematics of computing
+1.6.1 Symbolic and algebraic manipulation
+1.6.2 Computer algebra systems
+1.6.3 Representation of mathematical objects
+1.6.4 Representation of mathematical functions
+1.6.5 Representation of polynomials
+1.7 Software and its engineering
+1.7.1 Software creation and management
+1.7.2 Designing software
+1.7.3 Software design engineering
+1.7.4 Development frameworks and environments
+1.7.5 Software development techniques
+1.7.6 Software notations and tools
+1.7.7 Software configuration management and version control systems
+1.7.8 Search-based software engineering
+1.7.9 Software verification and validation
+1.7.10 Formal software verification
+1.7.11 Empirical software validation
+1.7.12 Bug detection, localization and diagnosis
+1.7.13 Error handling and recovery
+1.7.14 Traceability
+1.7.15 Reusability
+1.7.16 Automatic programming
+1.7.17 Pair programming
+1.7.18 Robustness
+1.8 Information systems
+1.8.1 World Wide Web
+1.8.2 Web services
+1.8.3 Web data description languages
+1.8.4 Universal Description Discovery and Integration (UDDI)
+1.8.5 Web mining
+1.8.6 Web log analysis
+1.8.7 Information storage systems
+1.8.8 Storage management
+1.8.9 Enterprise data management
+1.8.10 Document management and text processing
+1.8.11 Document management
+1.8.12 Document metadata
+1.8.13 Health informatics
+1.8.14 Health care information systems
+1.8.15 Enterprise computing
+1.8.16 Online advertising
+1.8.17 Data extraction and integration
+1.8.18 IT architectures
+1.8.19 Business process modeling
+1.8.20 Business process management
+1.9 Hardware
+1.9.1 Electronic design automation
+1.9.2 Integrated circuits
+1.9.3 Printed circuit boards
+1.9.4 PCB design and layout
+1.9.5 Digital switches
+1.9.6 Logic families
+1.9.7 Very large scale integration design
+1.9.8 Application specific integrated circuits
+1.9.9 Application-specific VLSI designs
+1.9.10 VLSI packaging
+1.9.11 VLSI system specification and constraints
+1.9.12 Standard cell libraries
+1.9.13 Logic synthesis
+1.9.14 Sequential synthesis
+1.9.15 Technology-mapping
+1.9.16 Physical verification
+1.9.17 Hardware validation
+1.9.18 Functional verification
+1.9.19 Assertion checking
+1.9.20 Test-pattern generation and fault simulation
+1.9.21 Design for testability
+1.9.22 Hardware test
+1.9.23 Post-manufacture validation and debug
+1.9.24 Hardware reliability screening
+1.9.25 Bug fixing (hardware)
+1.9.26 Power and thermal analysis
+1.9.27 Power estimation and optimization
+1.9.28 Circuits power issues
+1.9.29 Chip-level power issues
+1.9.30 On-chip resource management
+1.9.31 Process validation
+1.9.32 Process variations
+1.9.33 Modeling and parameter extraction
+1.9.34 Electromagnetic interference and compatibility
+1.9.35 Reversible logic
+1.9.36 Emerging optical and photonic technologies
+1.9.37 Plasmonics
+1.9.38 Spintronics and magnetic technologies
+1.9.39 Power and energy
+1.9.40 Design for manufacturability
+1.9.41 Yield and cost modeling
+1.9.42 Memory and dense storage
+1.9.43 Emerging technologies
+1.10 Networks
+1.10.1 Network types
+1.10.2 Wired access networks
+1.10.3 Packet-switching networks
+1.10.4 Data center networks
+1.10.5 Network protocols
+1.10.6 Transport protocols
+1.10.7 Link-layer protocols
+1.10.8 Network services
+1.10.9 Cross-layer protocols
+1.10.10 Network measurement
+1.10.11 Network performance analysis
+1.10.12 Network performance evaluation
+1.10.13 Network performance modeling
+1.10.14 Network simulations
+1.10.15 Application layer protocols
+1.10.16 Cyber-physical networks
+1.11 Social and professional topics
+1.11.1 Computing education
+1.11.2 Computing education programs
+1.11.3 Student assessment
+1.11.4 Professional topics
+1.11.5 IT governance
+1.11.6 Government technology policy
+1.11.7 Computing / technology policy
+1.11.8 Import / export controls
+1.11.9 Commerce policy
+1.11.10 Online auctions policy
+1.11.11 Censorship
+1.11.12 Hate speech
+1.11.13 Sexual orientation
+1.11.14 Cultural characteristics
+1.11.15 Computational thinking
+1.12 Applied computing
+1.12.1 Life and medical sciences
+1.12.2 Biology-related information processing
+1.12.3 Systems biology
+1.12.4 Metabolomics / metabonomics
+1.12.5 Arts and humanities
+1.12.6 Renewable energy
+1.12.7 Energy distribution
+1.12.8 Energy generation and storage
+1.12.9 Reusable energy storage
+1.12.10 Impact on the environment
+1.12.11 Consumer health
+
+[Iteration 4] N-level: 3
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 104
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Check: Is the remaining entity list empty?
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 6339
+[Token Usage] Completion tokens: 4749
+[Token Usage] Total tokens: 11088
+--------------------------------------------------------------------------------
+[API Response] Length: 11 characters
+[API Response] First 300 chars: Answer: No....
+================================================================================
+Answer: No.
+[Status] Moving to next level: 4
+
+[Iteration 4] N-level: 4
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 106
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Then, let's find all the 4-level entities from the remaining entity list.
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 6369
+[Token Usage] Completion tokens: 8719
+[Token Usage] Total tokens: 15088
+--------------------------------------------------------------------------------
+[API Response] Length: 6243 characters
+[API Response] First 300 chars: The current taxonomy is:
+1. computing classification system
+1.1 software and its engineering
+1.1.1 error handling and recovery
+1.1.2 software design engineering
+1.1.3 automatic programming
+1.1.4 software notations and tools
+1.1.5 search-based software engineering
+1.1.6 software configuration managem...
+================================================================================
+The current taxonomy is:
+1. computing classification system
+1.1 software and its engineering
+1.1.1 error handling and recovery
+1.1.2 software design engineering
+1.1.3 automatic programming
+1.1.4 software notations and tools
+1.1.5 search-based software engineering
+1.1.6 software configuration management and version control systems
+1.1.7 reusability
+1.1.8 empirical software validation
+1.1.9 bug detection, localization and diagnosis
+1.1.10 traceability
+1.1.11 software development techniques
+1.1.12 development frameworks and environments
+1.1.13 software verification and validation
+1.1.13.1 Fault tree analysis
+1.1.13.2 Safety critical systems
+1.1.14 formal software verification
+1.1.15 robustness
+1.1.16 software creation and management
+1.1.17 designing software
+1.1.18 pair programming
+1.2 security and privacy
+1.2.1 software and application security
+1.3 applied computing
+1.3.1 consumer health
+1.3.2 renewable energy
+1.3.3 arts and humanities
+1.3.4 life and medical sciences
+1.3.5 impact on the environment
+1.3.6 reusable energy storage
+1.3.7 biology-related information processing
+1.3.8 systems biology
+1.3.9 energy generation and storage
+1.3.10 metabolomics / metabonomics
+1.3.11 energy distribution
+1.4 computing methodologies
+1.4.1 machine learning
+1.4.2 distributed computing methodologies
+1.4.3 point-based models
+1.4.4 cognitive robotics
+1.4.5 control methods
+1.4.6 simulation support systems
+1.4.7 parallel computing methodologies
+1.4.8 heat maps
+1.4.9 shape modeling
+1.4.10 causal reasoning and diagnostics
+1.4.11 simulation evaluation
+1.4.12 image compression
+1.4.13 visualization techniques
+1.4.14 computer vision
+1.4.15 volumetric models
+1.4.16 visualization
+1.4.17 simulation theory
+1.4.18 model development and analysis
+1.4.19 concurrent computing methodologies
+1.4.20 active learning settings
+1.4.21 collision detection
+1.4.22 knowledge representation and reasoning
+1.4.23 graphics systems and interfaces
+1.4.24 computer graphics
+1.4.25 batch learning
+1.4.26 search methodologies
+1.4.27 ontology engineering
+1.4.28 probabilistic reasoning
+1.4.29 philosophical/theoretical foundations of artificial intelligence
+1.4.30 learning from demonstrations
+1.4.31 learning settings
+1.4.32 reasoning about belief and knowledge
+1.4.33 modeling and simulation
+1.4.34 nonmonotonic, default reasoning and belief revision
+1.4.35 artificial intelligence
+1.4.36 empirical studies in visualization
+1.4.37 animation
+1.4.38 learning paradigms
+1.5 hardware
+1.5.1 electromagnetic interference and compatibility
+1.5.2 vlsi packaging
+1.5.3 process variations
+1.5.4 reversible logic
+1.5.5 circuits power issues
+1.5.6 on-chip resource management
+1.5.7 post-manufacture validation and debug
+1.5.8 vlsi system specification and constraints
+1.5.9 electronic design automation
+1.5.10 application specific integrated circuits
+1.5.11 functional verification
+1.5.12 hardware test
+1.5.12.1 Fault models and test metrics
+1.5.13 digital switches
+1.5.14 chip-level power issues
+1.5.15 process validation
+1.5.16 power and thermal analysis
+1.5.17 modeling and parameter extraction
+1.5.18 design for manufacturability
+1.5.19 physical verification
+1.5.20 bug fixing (hardware)
+1.5.21 pcb design and layout
+1.5.22 plasmonics
+1.5.23 hardware validation
+1.5.24 standard cell libraries
+1.5.25 sequential synthesis
+1.5.26 emerging optical and photonic technologies
+1.5.27 logic families
+1.5.28 spintronics and magnetic technologies
+1.5.29 emerging technologies
+1.5.30 integrated circuits
+1.5.31 memory and dense storage
+1.5.32 very large scale integration design
+1.5.33 power and energy
+1.5.34 test-pattern generation and fault simulation
+1.5.35 hardware reliability screening
+1.5.36 assertion checking
+1.5.37 printed circuit boards
+1.5.38 application-specific vlsi designs
+1.5.39 logic synthesis
+1.5.40 power estimation and optimization
+1.5.41 design for testability
+1.5.42 yield and cost modeling
+1.5.43 technology-mapping
+1.6 cross-computing tools and techniques
+1.6.1 evaluation
+1.6.2 cross-validation
+1.6.3 experimentation
+1.6.4 validation
+1.7 information systems
+1.7.1 storage management
+1.7.2 web log analysis
+1.7.3 web mining
+1.7.4 data extraction and integration
+1.7.5 document metadata
+1.7.6 health care information systems
+1.7.7 business process management
+1.7.8 enterprise data management
+1.7.9 information storage systems
+1.7.10 business process modeling
+1.7.11 web data description languages
+1.7.12 document management
+1.7.13 universal description discovery and integration (uddi)
+1.7.14 document management and text processing
+1.7.15 enterprise computing
+1.7.16 web services
+1.7.17 online advertising
+1.7.18 it architectures
+1.7.19 world wide web
+1.7.20 health informatics
+1.8 human-centered computing
+1.8.1 text editing
+1.8.2 user characteristics
+1.8.3 age
+1.8.4 gender
+1.8.5 people with disabilities
+1.8.6 ubiquitous and mobile computing
+1.8.7 ubiquitous and mobile computing systems and tools
+1.8.8 men
+1.8.9 empirical studies in ubiquitous and mobile computing
+1.9 social and professional topics
+1.9.1 sexual orientation
+1.9.2 computational thinking
+1.9.3 import / export controls
+1.9.4 student assessment
+1.9.5 it governance
+1.9.6 commerce policy
+1.9.7 censorship
+1.9.8 computing education
+1.9.9 computing education programs
+1.9.10 government technology policy
+1.9.11 professional topics
+1.9.12 cultural characteristics
+1.9.13 computing / technology policy
+1.9.14 online auctions policy
+1.9.15 hate speech
+1.10 networks
+1.10.1 cross-layer protocols
+1.10.2 network measurement
+1.10.3 network protocols
+1.10.4 network simulations
+1.10.5 network performance evaluation
+1.10.6 wired access networks
+1.10.7 network types
+1.10.8 network performance modeling
+1.10.9 network performance analysis
+1.10.10 network services
+1.10.11 transport protocols
+1.10.12 packet-switching networks
+1.10.13 data center networks
+1.10.14 link-layer protocols
+1.10.15 application layer protocols
+1.10.16 cyber-physical networks
+1.11 mathematics of computing
+1.11.1 representation of mathematical objects
+1.11.2 symbolic and algebraic manipulation
+1.11.3 computer algebra systems
+1.11.4 representation of polynomials
+1.11.5 representation of mathematical functions
+1.12 general and reference
+1.12.1 history of computing
+1.12.2 design
+1.12.3 walkthroughs
+1.12.4 empirical studies
+
+[Iteration 5] N-level: 4
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 108
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Check: Is the remaining entity list empty?
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 8185
+[Token Usage] Completion tokens: 2637
+[Token Usage] Total tokens: 10822
+--------------------------------------------------------------------------------
+[API Response] Length: 12 characters
+[API Response] First 300 chars: Answer: Yes....
+================================================================================
+Answer: Yes.
+[Status] Moving to next level: 5
+
+[Iteration 5] N-level: 5
+================================================================================
+[API Call] Model: gpt-5, Max Tokens: Unlimited
+[API Call] Number of messages in conversation: 110
+[API Call] Last message role: user
+[API Call] Last message content (first 200 chars): Then, let's find all the 5-level entities from the remaining entity list.
+...
+================================================================================
+--------------------------------------------------------------------------------
+[Token Usage] Prompt tokens: 8215
+[Token Usage] Completion tokens: 9326
+[Token Usage] Total tokens: 17541
+--------------------------------------------------------------------------------
+[API Response] Length: 6243 characters
+[API Response] First 300 chars: The current taxonomy is:
+1. Computing Classification System
+1.1 Software and its engineering
+1.1.1 Error handling and recovery
+1.1.2 Software design engineering
+1.1.3 Automatic programming
+1.1.4 Software notations and tools
+1.1.5 Search-based software engineering
+1.1.6 Software configuration managem...
+================================================================================
+The current taxonomy is:
+1. Computing Classification System
+1.1 Software and its engineering
+1.1.1 Error handling and recovery
+1.1.2 Software design engineering
+1.1.3 Automatic programming
+1.1.4 Software notations and tools
+1.1.5 Search-based software engineering
+1.1.6 Software configuration management and version control systems
+1.1.7 Reusability
+1.1.8 Empirical software validation
+1.1.9 Bug detection, localization and diagnosis
+1.1.10 Traceability
+1.1.11 Software development techniques
+1.1.12 Development frameworks and environments
+1.1.13 Software verification and validation
+1.1.13.1 Safety critical systems
+1.1.13.2 Fault tree analysis
+1.1.14 Formal software verification
+1.1.15 Robustness
+1.1.16 Software creation and management
+1.1.17 Designing software
+1.1.18 Pair programming
+1.2 Security and privacy
+1.2.1 Software and application security
+1.3 Applied computing
+1.3.1 Consumer health
+1.3.2 Renewable energy
+1.3.3 Arts and humanities
+1.3.4 Life and medical sciences
+1.3.5 Impact on the environment
+1.3.6 Reusable energy storage
+1.3.7 Biology-related information processing
+1.3.8 Systems biology
+1.3.9 Energy generation and storage
+1.3.10 Metabolomics / metabonomics
+1.3.11 Energy distribution
+1.4 Computing methodologies
+1.4.1 Machine learning
+1.4.2 Distributed computing methodologies
+1.4.3 Point-based models
+1.4.4 Cognitive robotics
+1.4.5 Control methods
+1.4.6 Simulation support systems
+1.4.7 Parallel computing methodologies
+1.4.8 Heat maps
+1.4.9 Shape modeling
+1.4.10 Causal reasoning and diagnostics
+1.4.11 Simulation evaluation
+1.4.12 Image compression
+1.4.13 Visualization techniques
+1.4.14 Computer vision
+1.4.15 Volumetric models
+1.4.16 Visualization
+1.4.17 Simulation theory
+1.4.18 Model development and analysis
+1.4.19 Concurrent computing methodologies
+1.4.20 Active learning settings
+1.4.21 Collision detection
+1.4.22 Knowledge representation and reasoning
+1.4.23 Graphics systems and interfaces
+1.4.24 Computer graphics
+1.4.25 Batch learning
+1.4.26 Search methodologies
+1.4.27 Ontology engineering
+1.4.28 Probabilistic reasoning
+1.4.29 Philosophical/theoretical foundations of artificial intelligence
+1.4.30 Learning from demonstrations
+1.4.31 Learning settings
+1.4.32 Reasoning about belief and knowledge
+1.4.33 Modeling and simulation
+1.4.34 Nonmonotonic, default reasoning and belief revision
+1.4.35 Artificial intelligence
+1.4.36 Empirical studies in visualization
+1.4.37 Animation
+1.4.38 Learning paradigms
+1.5 Hardware
+1.5.1 Electromagnetic interference and compatibility
+1.5.2 VLSI packaging
+1.5.3 Process variations
+1.5.4 Reversible logic
+1.5.5 Circuits power issues
+1.5.6 On-chip resource management
+1.5.7 Post-manufacture validation and debug
+1.5.8 VLSI system specification and constraints
+1.5.9 Electronic design automation
+1.5.10 Application specific integrated circuits
+1.5.11 Functional verification
+1.5.12 Hardware test
+1.5.12.1 Fault models and test metrics
+1.5.13 Digital switches
+1.5.14 Chip-level power issues
+1.5.15 Process validation
+1.5.16 Power and thermal analysis
+1.5.17 Modeling and parameter extraction
+1.5.18 Design for manufacturability
+1.5.19 Bug fixing (hardware)
+1.5.20 Physical verification
+1.5.21 PCB design and layout
+1.5.22 Plasmonics
+1.5.23 Hardware validation
+1.5.24 Standard cell libraries
+1.5.25 Sequential synthesis
+1.5.26 Emerging optical and photonic technologies
+1.5.27 Logic families
+1.5.28 Spintronics and magnetic technologies
+1.5.29 Emerging technologies
+1.5.30 Integrated circuits
+1.5.31 Memory and dense storage
+1.5.32 Very large scale integration design
+1.5.33 Power and energy
+1.5.34 Test-pattern generation and fault simulation
+1.5.35 Hardware reliability screening
+1.5.36 Assertion checking
+1.5.37 Printed circuit boards
+1.5.38 Application-specific VLSI designs
+1.5.39 Power estimation and optimization
+1.5.40 Logic synthesis
+1.5.41 Design for testability
+1.5.42 Yield and cost modeling
+1.5.43 Technology-mapping
+1.6 Cross-computing tools and techniques
+1.6.1 Evaluation
+1.6.2 Cross-validation
+1.6.3 Experimentation
+1.6.4 Validation
+1.7 Information systems
+1.7.1 Storage management
+1.7.2 Web log analysis
+1.7.3 Web mining
+1.7.4 Data extraction and integration
+1.7.5 Document metadata
+1.7.6 Health care information systems
+1.7.7 Business process management
+1.7.8 Enterprise data management
+1.7.9 Information storage systems
+1.7.10 Business process modeling
+1.7.11 Web data description languages
+1.7.12 Document management
+1.7.13 Universal Description Discovery and Integration (UDDI)
+1.7.14 Document management and text processing
+1.7.15 Enterprise computing
+1.7.16 Web services
+1.7.17 Online advertising
+1.7.18 IT architectures
+1.7.19 World Wide Web
+1.7.20 Health informatics
+1.8 Human-centered computing
+1.8.1 Text editing
+1.8.2 User characteristics
+1.8.3 Age
+1.8.4 Gender
+1.8.5 People with disabilities
+1.8.6 Ubiquitous and mobile computing
+1.8.7 Ubiquitous and mobile computing systems and tools
+1.8.8 Men
+1.8.9 Empirical studies in ubiquitous and mobile computing
+1.9 Social and professional topics
+1.9.1 Sexual orientation
+1.9.2 Computational thinking
+1.9.3 Import / export controls
+1.9.4 Student assessment
+1.9.5 IT governance
+1.9.6 Commerce policy
+1.9.7 Censorship
+1.9.8 Computing education
+1.9.9 Computing education programs
+1.9.10 Government technology policy
+1.9.11 Professional topics
+1.9.12 Cultural characteristics
+1.9.13 Computing / technology policy
+1.9.14 Online auctions policy
+1.9.15 Hate speech
+1.10 Networks
+1.10.1 Cross-layer protocols
+1.10.2 Network measurement
+1.10.3 Network protocols
+1.10.4 Network simulations
+1.10.5 Network performance evaluation
+1.10.6 Wired access networks
+1.10.7 Network types
+1.10.8 Network performance modeling
+1.10.9 Network performance analysis
+1.10.10 Network services
+1.10.11 Transport protocols
+1.10.12 Packet-switching networks
+1.10.13 Data center networks
+1.10.14 Link-layer protocols
+1.10.15 Application layer protocols
+1.10.16 Cyber-physical networks
+1.11 Mathematics of computing
+1.11.1 Representation of mathematical objects
+1.11.2 Symbolic and algebraic manipulation
+1.11.3 Computer algebra systems
+1.11.4 Representation of polynomials
+1.11.5 Representation of mathematical functions
+1.12 General and reference
+1.12.1 History of computing
+1.12.2 Design
+1.12.3 Walkthroughs
+1.12.4 Empirical studies
+
+********************************************************************************
+ 60%|██████    | 21/35 [31:31<28:21, 121.55s/it]
